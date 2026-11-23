@@ -1,0 +1,889 @@
+{
+  "slug": "dealcloud",
+  "searches": [
+    {
+      "query": "DealCloud API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://api.docs.dealcloud.com/docs/token",
+          "title": "Requesting an OAuth2 Bearer Token - DealCloud API Docs",
+          "snippet": "Requesting an OAuth2 Bearer Token - DealCloud API Docs\n\n# Requesting an OAuth2 Bearer Token\n\nDealCloud uses the OAuth2 Client Credentials flow to generate a bearer token, which is then used in the HTTP Authentication header for API requests.\n\nHow the OAuth2 Client Credentials Flow Works:\n\n1. The cli"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/docs/apikeys",
+          "title": "Obtaining an API Key - DealCloud API Docs",
+          "snippet": "Obtaining an API Key - DealCloud API Docs\n\n# Obtaining an API Key\n\n## User Groups and Permissions\n\nTo enable API access, ensure the intended user is assigned to a user group with the appropriate permissions. Navigate to Admin > User Management, select the relevant user group, go to Capabilities > Si"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/sdk/python/authentication",
+          "title": "Authentication - DealCloud API Docs",
+          "snippet": "Authentication - DealCloud API Docs\n\n## Creating a client and authenticating\n\n`dealcloud_sdk`'s main entrypoint is the `DealCloud` class. When it is instantiated, the object is scoped to a given DealCloud environment, by passing the site URL and API credentials as arguments:\n\n```\nfrom dealcloud_sdk "
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/docs/errors",
+          "title": "Status Codes and Meaning - DealCloud API Docs",
+          "snippet": "Status Codes and Meaning - DealCloud API Docs\n\n# Status Codes and Meaning\n\n## 401 - Unauthorized\n\nA 401 Unauthorized error means the request lacks valid authentication credentials. This occurs if the authorization token has expired or if the API client ID or API key is invalid.\n\nHow to resolve:\n\n- C"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/sdk/python-1.X/configuration/authentication",
+          "title": "Authentication - DealCloud API Docs",
+          "snippet": "Authentication - DealCloud API Docs\n\n# Authentication\n\nThe DealCloud SDK uses OAuth2 client credentials for authentication. HTTP calls go through intapp-rest-client (`RestClient`); advanced options (timeouts, retries, logging) align with that library unless overridden by `DealCloudConfig`.\n\nThis pag"
+        }
+      ]
+    },
+    {
+      "query": "DealCloud developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://api.docs.dealcloud.com/docs/apikeys",
+          "title": "Obtaining an API Key - DealCloud API Docs",
+          "snippet": "Obtaining an API Key - DealCloud API Docs\n\n# Obtaining an API Key\n\n## User Groups and Permissions\n\nTo enable API access, ensure the intended user is assigned to a user group with the appropriate permissions. Navigate to Admin > User Management, select the relevant user group, go to Capabilities > Si"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/docs",
+          "title": "Docs - DealCloud API Docs",
+          "snippet": "Docs - DealCloud API Docs\n\n# Docs\n\nWelcome to the DealCloud API Docs! This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed gu"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/docs/token",
+          "title": "Requesting an OAuth2 Bearer Token - DealCloud API Docs",
+          "snippet": "Requesting an OAuth2 Bearer Token - DealCloud API Docs\n\n# Requesting an OAuth2 Bearer Token\n\nDealCloud uses the OAuth2 Client Credentials flow to generate a bearer token, which is then used in the HTTP Authentication header for API requests.\n\nHow the OAuth2 Client Credentials Flow Works:\n\n1. The cli"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/",
+          "title": "Dealcloud Developer Documentation",
+          "snippet": "Dealcloud Developer Documentation\n\n# Dealcloud Developer Documentation\n\n## Quick Start"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/docs/data",
+          "title": "Data APIs - DealCloud API Docs",
+          "snippet": "Data APIs - DealCloud API Docs\n\n# Data APIs\n\nThe Data APIs allow you to work with the core data within your DealCloud site, enabling you to create, retrieve, update, and delete records across various objects (or entryLists) such as deals, contacts, companies, etc. These APIs are essential for integr"
+        }
+      ]
+    },
+    {
+      "query": "DealCloud pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.g2.com/products/dealcloud/pricing",
+          "title": "DealCloud Pricing November 2026",
+          "snippet": "DealCloud Pricing November 2026\n\n# DealCloud Pricing Overview\n\nLast updated: July 28, 2026\n\nBasic\n\nDealCloud pricing is dependent on the number of integrations and volume of users. \n\nPricing information for DealCloud is supplied by the software provider or retrieved from publicly accessible pricing "
+        },
+        {
+          "url": "https://www.spotsaas.com/product/dealcloud/pricing",
+          "title": "Dealcloud Pricing Plans in 2026",
+          "snippet": "Last updated: October 15, 2026\n\n# Dealcloud Pricing Plans in 2026\n\nTransforming dealmaking with cutting-edge technology.\n\nGet Pricing Details\n\nTrusted by 2M+ software buyers annually.\n\nAffiliate Disclosure\n\nMain Features\n\n- Analytics\n- CRM\n- Contact Management\n- Customizability\n\nPricing\n\n- Dealcloud"
+        },
+        {
+          "url": "https://www.intapp.com/dealcloud/",
+          "title": "The AI-powered deal and relationship intelligence platform",
+          "snippet": "The AI-powered deal and relationship intelligence platform\n\n# The AI-powered deal and relationship intelligence platform\n\nWEBINAR: From inbox to investor: running deals and fundraising from one fund | December 7, 2026 \n\n## The deal and relationship intelligence platform for professional firms\n\nDrive"
+        },
+        {
+          "url": "https://pipelineroad.com/compare/pipelineroad-vs-dealcloud",
+          "title": "DealCloud Pricing 2026: What Intapp Contracts Cost | PipelineRoad",
+          "snippet": "DealCloud Pricing 2026: What Intapp Contracts Cost | PipelineRoad\n\n# DealCloud Pricing 2026: What Intapp Contracts Cost\n\n March 5, 2026 8 min read PipelineRoad vs DealCloud Alexander Chua \n\nPipelineRoad\n\n vs \n\nDealCloud\n\nDealCloud and PipelineRoad both serve fund managers, but they approach the job "
+        },
+        {
+          "url": "https://www.getapp.ca/software/122515/dealcloud",
+          "title": "DealCloud Reviews, Prices & Ratings | GetApp Canada 2026",
+          "snippet": "DealCloud Reviews, Prices & Ratings | GetApp Canada 2026\n\n## DealCloud \n\n 4.5 (21) \n\n Cloud-based deal & relationship platform for finance \n\n### About DealCloud \n\nDealCloud is an AI-powered deal and relationship management platform built for financial and professional services firms, including priva"
+        }
+      ]
+    },
+    {
+      "query": "DealCloud official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://api.docs.dealcloud.com/mcp",
+          "title": "DealCloud MCP Server - DealCloud API Docs",
+          "snippet": "DealCloud MCP Server - DealCloud API Docs\n\n# DealCloud MCP Server\n\nThe DealCloud MCP Server helps teams turn their DealCloud data into faster, higher-quality outcomes. AI assistants can surface sharper relationship and pipeline insights, prepare teams for diligence and meetings, then act on what the"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/mcp/getting-started",
+          "title": "Getting Started with DealCloud MCP - DealCloud API Docs",
+          "snippet": "Getting Started with DealCloud MCP - DealCloud API Docs\n\n# Getting Started with DealCloud MCP\n\n## Prerequisites\n\n| Requirement | Details |\n| --- | --- |\n| Licensing | DealCloud with Celeste license. |\n| User Permissions | `Manage MCP Servers` capability for admins to configure. `Celeste Member` user"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/mcp/connections",
+          "title": "Connecting AI Clients - DealCloud API Docs",
+          "snippet": "Connecting AI Clients - DealCloud API Docs\n\n# Connecting AI Clients\n\nDealCloud MCP can connect with Claude, ChatGPT, Microsoft Copilot Studio, Cursor, local agents such as Claude Code and Codex CLI, and other compatible AI clients. Each connection authenticates via OAuth on behalf of the signed-in u"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/mcp/custom-servers",
+          "title": "Custom MCP Servers - DealCloud API Docs",
+          "snippet": "Custom MCP Servers - DealCloud API Docs\n\n# Custom MCP Servers\n\nThe default DealCloud MCP Server exposes your full site schema — every object and field — to any connected AI client. Custom MCP Servers let admins scope that exposure: defining exactly which objects and fields a given AI client can acce"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/releases",
+          "title": "DealCloud API Release Notes - DealCloud API Docs",
+          "snippet": "DealCloud API Release Notes - DealCloud API Docs\n\n# DealCloud API Release Notes\n\n## 2608 - August Release\n\n#### DealCloud MCP Server\n\nThis feature is available as part of the DealCloud with Celeste license.\n\nDealCloud now provides a Model Context Protocol (MCP) server which gives AI agents read acce"
+        }
+      ]
+    },
+    {
+      "query": "site:api.docs.dealcloud.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://api.docs.dealcloud.com/mcp",
+          "title": "DealCloud MCP Server - DealCloud API Docs",
+          "snippet": "DealCloud MCP Server - DealCloud API Docs\n\n# DealCloud MCP Server\n\nThe DealCloud MCP Server helps teams turn their DealCloud data into faster, higher-quality outcomes. AI assistants can surface sharper relationship and pipeline insights, prepare teams for diligence and meetings, then act on what the"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/mcp/getting-started",
+          "title": "Getting Started with DealCloud MCP - DealCloud API Docs",
+          "snippet": "Getting Started with DealCloud MCP - DealCloud API Docs\n\n# Getting Started with DealCloud MCP\n\n## Prerequisites\n\n| Requirement | Details |\n| --- | --- |\n| Licensing | DealCloud with Celeste license. |\n| User Permissions | `Manage MCP Servers` capability for admins to configure. `Celeste Member` user"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/mcp/tools",
+          "title": "MCP Tools - DealCloud API Docs",
+          "snippet": "MCP Tools - DealCloud API Docs\n\n# MCP Tools\n\nThe DealCloud MCP Server exposes the following set of tools, allowing an AI assistant to explore, retrieve, and update data in your site. These tools allow AI assistants to do things like identify the DealCloud schema, lookup or search for records, compos"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/mcp/connections",
+          "title": "Connecting AI Clients - DealCloud API Docs",
+          "snippet": "Connecting AI Clients - DealCloud API Docs\n\n# Connecting AI Clients\n\nDealCloud MCP can connect with Claude, ChatGPT, Microsoft Copilot Studio, Cursor, local agents such as Claude Code and Codex CLI, and other compatible AI clients. Each connection authenticates via OAuth on behalf of the signed-in u"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/mcp/custom-servers",
+          "title": "Custom MCP Servers - DealCloud API Docs",
+          "snippet": "Custom MCP Servers - DealCloud API Docs\n\n# Custom MCP Servers\n\nThe default DealCloud MCP Server exposes your full site schema — every object and field — to any connected AI client. Custom MCP Servers let admins scope that exposure: defining exactly which objects and fields a given AI client can acce"
+        }
+      ]
+    },
+    {
+      "query": "site:dealcloud.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://api.docs.dealcloud.com/mcp",
+          "title": "DealCloud MCP Server - DealCloud API Docs",
+          "snippet": "DealCloud MCP Server - DealCloud API Docs\n\n# DealCloud MCP Server\n\nThe DealCloud MCP Server helps teams turn their DealCloud data into faster, higher-quality outcomes. AI assistants can surface sharper relationship and pipeline insights, prepare teams for diligence and meetings, then act on what the"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/mcp/getting-started",
+          "title": "Getting Started with DealCloud MCP - DealCloud API Docs",
+          "snippet": "Getting Started with DealCloud MCP - DealCloud API Docs\n\n# Getting Started with DealCloud MCP\n\n## Prerequisites\n\n| Requirement | Details |\n| --- | --- |\n| Licensing | DealCloud with Celeste license. |\n| User Permissions | `Manage MCP Servers` capability for admins to configure. `Celeste Member` user"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/mcp/tools",
+          "title": "MCP Tools - DealCloud API Docs",
+          "snippet": "MCP Tools - DealCloud API Docs\n\n# MCP Tools\n\nThe DealCloud MCP Server exposes the following set of tools, allowing an AI assistant to explore, retrieve, and update data in your site. These tools allow AI assistants to do things like identify the DealCloud schema, lookup or search for records, compos"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/mcp/connections",
+          "title": "Connecting AI Clients - DealCloud API Docs",
+          "snippet": "Connecting AI Clients - DealCloud API Docs\n\n# Connecting AI Clients\n\nDealCloud MCP can connect with Claude, ChatGPT, Microsoft Copilot Studio, Cursor, local agents such as Claude Code and Codex CLI, and other compatible AI clients. Each connection authenticates via OAuth on behalf of the signed-in u"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/mcp/custom-servers",
+          "title": "Custom MCP Servers - DealCloud API Docs",
+          "snippet": "Custom MCP Servers - DealCloud API Docs\n\n# Custom MCP Servers\n\nThe default DealCloud MCP Server exposes your full site schema — every object and field — to any connected AI client. Custom MCP Servers let admins scope that exposure: defining exactly which objects and fields a given AI client can acce"
+        }
+      ]
+    },
+    {
+      "query": "DealCloud API access pricing plans signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://api.docs.dealcloud.com/docs/apikeys",
+          "title": "Obtaining an API Key - DealCloud API Docs",
+          "snippet": "Obtaining an API Key - DealCloud API Docs\n\n# Obtaining an API Key\n\n## User Groups and Permissions\n\nTo enable API access, ensure the intended user is assigned to a user group with the appropriate permissions. Navigate to Admin > User Management, select the relevant user group, go to Capabilities > Si"
+        },
+        {
+          "url": "https://www.g2.com/products/dealcloud/pricing",
+          "title": "DealCloud Pricing November 2026",
+          "snippet": "DealCloud Pricing November 2026\n\n# DealCloud Pricing Overview\n\nLast updated: July 28, 2026\n\nBasic\n\nDealCloud pricing is dependent on the number of integrations and volume of users. \n\nPricing information for DealCloud is supplied by the software provider or retrieved from publicly accessible pricing "
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/docs",
+          "title": "Docs - DealCloud API Docs",
+          "snippet": "Docs - DealCloud API Docs\n\n# Docs\n\nWelcome to the DealCloud API Docs! This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed gu"
+        },
+        {
+          "url": "https://www.usecarly.com/blog/chatgpt-dealcloud-integration/",
+          "title": "ChatGPT + DealCloud: Where the Integration Actually Stands",
+          "snippet": "ChatGPT + DealCloud: Where the Integration Actually Stands\n\n \n\n Jul 11, 2026 \n\n# ChatGPT + DealCloud: Where the Integration Actually Stands\n\nNot today — there’s no DealCloud app in ChatGPT’s directory, and while an official DealCloud MCP server now exists, it’s in client preview (starting July 2026)"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/docs/token",
+          "title": "Requesting an OAuth2 Bearer Token - DealCloud API Docs",
+          "snippet": "Requesting an OAuth2 Bearer Token - DealCloud API Docs\n\n# Requesting an OAuth2 Bearer Token\n\nDealCloud uses the OAuth2 Client Credentials flow to generate a bearer token, which is then used in the HTTP Authentication header for API requests.\n\nHow the OAuth2 Client Credentials Flow Works:\n\n1. The cli"
+        }
+      ]
+    },
+    {
+      "query": "DealCloud developer API availability",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://api.docs.dealcloud.com/docs",
+          "title": "Docs - DealCloud API Docs",
+          "snippet": "Docs - DealCloud API Docs\n\n# Docs\n\nWelcome to the DealCloud API Docs! This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed gu"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/docs/apikeys",
+          "title": "Obtaining an API Key - DealCloud API Docs",
+          "snippet": "Obtaining an API Key - DealCloud API Docs\n\n# Obtaining an API Key\n\n## User Groups and Permissions\n\nTo enable API access, ensure the intended user is assigned to a user group with the appropriate permissions. Navigate to Admin > User Management, select the relevant user group, go to Capabilities > Si"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/sdk/python-1.X",
+          "title": "DealCloud SDK - Python (Release 1.X) - DealCloud API Docs",
+          "snippet": "DealCloud SDK - Python (Release 1.X) - DealCloud API Docs\n\n# DealCloud SDK - Python (Release 1.X)\n\n## 2610 Release\n\nThe DealCloud Python SDK is a comprehensive wrapper around the DealCloud API, designed to help clients and partners build integrations quickly and efficiently. Documentation targets de"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/docs/data",
+          "title": "Data APIs - DealCloud API Docs",
+          "snippet": "Data APIs - DealCloud API Docs\n\n# Data APIs\n\nThe Data APIs allow you to work with the core data within your DealCloud site, enabling you to create, retrieve, update, and delete records across various objects (or entryLists) such as deals, contacts, companies, etc. These APIs are essential for integr"
+        },
+        {
+          "url": "https://api.docs.dealcloud.com/sdk/intapp-rest-client/getting-started/installation",
+          "title": "Installation - DealCloud API Docs",
+          "snippet": "Installation - DealCloud API Docs\n\n# Installation\n\nThe documentation targets intapp-rest-client 1.x. The package is available on PyPI (opens in a new tab).\n\n## Requirements\n\n- Python 3.12 or higher\n- pip, uv, poetry, or conda for package management\n\n## Install with pip\n\n```\npip install intapp-rest-c"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://api.docs.dealcloud.com",
+      "final_url": "https://api.docs.dealcloud.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "63a146c948af950623e081d0f04a1b8c4ea89ad6af1bbff0bc6411e56952beaa",
+      "text_len": 86
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/sdk/python-1.X/configuration/authentication",
+      "final_url": "https://api.docs.dealcloud.com/sdk/python-1.X/configuration/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8d0708abc8507411691f1ef664633a6660a110027d68b7e3120a7623c7a474c8",
+      "text_len": 11906
+    },
+    {
+      "requested_url": "https://www.g2.com/products/dealcloud/pricing",
+      "final_url": "https://www.g2.com/products/dealcloud/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2d12c72f8a6fa061a5096ae76ed15a6f84271b6939710b86613e56a3a9cf06e2",
+      "text_len": 6671
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/mcp",
+      "final_url": "https://api.docs.dealcloud.com/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "de8f834f464e26d5613476351c45bad160db2733def26dd84ae20e32669d114f",
+      "text_len": 1134
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/mcp/connections",
+      "final_url": "https://api.docs.dealcloud.com/mcp/connections",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9b56c92910f8bd8c3f90b969fad40fb8dd1b38dc708018aeb2d29ad644bdc07c",
+      "text_len": 5206
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/mcp/custom-servers",
+      "final_url": "https://api.docs.dealcloud.com/mcp/custom-servers",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "41f1326f0e2ad8dac485ce063adb944902aeec73316195b279d984cef73eb756",
+      "text_len": 3134
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/mcp/getting-started",
+      "final_url": "https://api.docs.dealcloud.com/mcp/getting-started",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5e51699463af39a41e9a675984e973404c6412f023a23ce6038029eb008b95ac",
+      "text_len": 1270
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/mcp/tools",
+      "final_url": "https://api.docs.dealcloud.com/mcp/tools",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:34Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a161e51509628a41f509a4c0b01802478235d74eae617bc843816768ab18d3b2",
+      "text_len": 1422
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/llms.txt",
+      "final_url": "https://api.docs.dealcloud.com/llms.txt",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:36Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/docs/token",
+      "final_url": "https://api.docs.dealcloud.com/docs/token",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "57e7dc1c4fd7e316f8b3e4512b0fc804075e51eade0828001d512348c1de310a",
+      "text_len": 2257
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/sdk/python/authentication",
+      "final_url": "https://api.docs.dealcloud.com/sdk/python/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ef2d2700d980b03b3e5941f96204d52a105f2de8bbda1e77b9438b1cc28bd05e",
+      "text_len": 2879
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/",
+      "final_url": "https://api.docs.dealcloud.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:10Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "63a146c948af950623e081d0f04a1b8c4ea89ad6af1bbff0bc6411e56952beaa",
+      "text_len": 86
+    },
+    {
+      "requested_url": "https://www.g2.com/products/dealcloud/pricing",
+      "final_url": "https://www.g2.com/products/dealcloud/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:09Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2d12c72f8a6fa061a5096ae76ed15a6f84271b6939710b86613e56a3a9cf06e2",
+      "text_len": 6671
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/mcp/getting-started",
+      "final_url": "https://api.docs.dealcloud.com/mcp/getting-started",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:10Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "5e51699463af39a41e9a675984e973404c6412f023a23ce6038029eb008b95ac",
+      "text_len": 1270
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/docs",
+      "final_url": "https://api.docs.dealcloud.com/docs",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:09Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "dadb8bcf7b77321ded620a7ab0dfef86b1e3e42dec9835578d48794363032105",
+      "text_len": 1775
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/docs/apikeys",
+      "final_url": "https://api.docs.dealcloud.com/docs/apikeys",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:09Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "66a3901392b416ddec8bda504bb47a9d0a4a8867e4ab87810257ba37fd4cc280",
+      "text_len": 1343
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/docs/data",
+      "final_url": "https://api.docs.dealcloud.com/docs/data",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:10Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3388d6f55a3dc39a1d134a5642750b2523e3a132b107ea654f151c110302ce85",
+      "text_len": 2076
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/pricing",
+      "final_url": "https://api.docs.dealcloud.com/pricing",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:12Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://www.g2.com/products/dealcloud/pricing",
+      "final_url": "https://www.g2.com/products/dealcloud/pricing",
+      "status": 200,
+      "provider": "browser_cloud",
+      "fetched_at": "2026-11-23T15:16:50Z",
+      "error": null,
+      "method": "browser_cloud",
+      "text_source_url": null,
+      "sha256": "63b037afbbc269f3b5b7483d4584e90f775f78e2f7ab67051497dc72799a6da4",
+      "text_len": 12079
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/docs/token",
+      "final_url": "https://api.docs.dealcloud.com/docs/token",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:16:54Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "732bd0a21d7fd58a54b3732e8371cfc37f56a9ba4e188887e0f98ef3efa79548",
+      "text_len": 5341
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/mcp",
+      "final_url": "https://api.docs.dealcloud.com/mcp",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:16:57Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "843a1baa67b447d6f790dfceec1746c73ce268cadf4f4484d2bdea4b6dab4523",
+      "text_len": 4310
+    },
+    {
+      "requested_url": "https://api.docs.dealcloud.com/docs",
+      "final_url": "https://api.docs.dealcloud.com/docs",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:16:59Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "6261b3bc96afc01b98cdb9b1bfce18f061cfc60a5b8278eb54129da26dac05da",
+      "text_len": 4998
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://api.docs.dealcloud.com/docs/token",
+        "quote": "DealCloud uses the OAuth2 Client Credentials flow to generate a bearer token, which is then used in the HTTP Authentication header for API requests.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/dealcloud/02-ff5edc412a.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.g2.com/products/dealcloud/pricing",
+        "quote": "Please contact DealCloud directly for pricing information.",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/dealcloud/01-611383fa23.jpg"
+      },
+      {
+        "url": "https://www.g2.com/products/dealcloud/pricing",
+        "quote": "Final cost negotiations to purchase DealCloud must be conducted with the seller.",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/dealcloud/01-611383fa23.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://api.docs.dealcloud.com/docs/token",
+        "quote": "Required when accessing the Data or Schema API endpoints (api/rest/v4/data or api/rest/v4/schema).",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://api.docs.dealcloud.com/mcp",
+        "quote": "A compatible AI assistant connects to the DealCloud MCP Server and signs in as the user.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/dealcloud/03-f66e4c22a8.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://api.docs.dealcloud.com/docs",
+        "quote": "Each DealCloud site provides an interactive Swagger page for testing API calls.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/dealcloud/04-d90a0a4ea4.jpg"
+      },
+      {
+        "url": "https://www.g2.com/products/dealcloud/pricing",
+        "quote": "DealCloud pricing is dependent on the number of integrations and volume of users.",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/dealcloud/01-611383fa23.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://api.docs.dealcloud.com/mcp",
+        "quote": "The DealCloud MCP Server helps teams turn their DealCloud data into faster, higher-quality outcomes.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "unsupported_evidence"
+    ],
+    "findings": [
+      {
+        "rule": "unsupported_evidence",
+        "source": "llm",
+        "reason": "The verdict evidence quote is only about token expiry and says nothing about gated access or the buildable_with_approval verdict. The access claim also relies on a third-party G2 page and an MCP license prerequisite, not an official page on API credential access.",
+        "fields": [
+          "access",
+          "verdict",
+          "blocker"
+        ],
+        "quotes": [
+          {
+            "url": "https://api.docs.dealcloud.com/docs/token",
+            "quote": "Tokens expire after 900 seconds (15 minutes) and must be refreshed by repeating the flow."
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "access",
+      "verdict",
+      "blocker"
+    ],
+    "claims": [
+      "access",
+      "verdict"
+    ],
+    "review_searches": [
+      {
+        "query": "DealCloud API access pricing plans signup",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://api.docs.dealcloud.com/docs/apikeys",
+            "title": "Obtaining an API Key - DealCloud API Docs",
+            "snippet": "Obtaining an API Key - DealCloud API Docs\n\n# Obtaining an API Key\n\n## User Groups and Permissions\n\nTo enable API access, ensure the intended user is assigned to a user group with the appropriate permissions. Navigate to Admin > User Management, select the relevant user group, go to Capabilities > Si"
+          },
+          {
+            "url": "https://www.g2.com/products/dealcloud/pricing",
+            "title": "DealCloud Pricing November 2026",
+            "snippet": "DealCloud Pricing November 2026\n\n# DealCloud Pricing Overview\n\nLast updated: July 28, 2026\n\nBasic\n\nDealCloud pricing is dependent on the number of integrations and volume of users. \n\nPricing information for DealCloud is supplied by the software provider or retrieved from publicly accessible pricing "
+          },
+          {
+            "url": "https://api.docs.dealcloud.com/docs",
+            "title": "Docs - DealCloud API Docs",
+            "snippet": "Docs - DealCloud API Docs\n\n# Docs\n\nWelcome to the DealCloud API Docs! This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed gu"
+          },
+          {
+            "url": "https://www.usecarly.com/blog/chatgpt-dealcloud-integration/",
+            "title": "ChatGPT + DealCloud: Where the Integration Actually Stands",
+            "snippet": "ChatGPT + DealCloud: Where the Integration Actually Stands\n\n \n\n Jul 11, 2026 \n\n# ChatGPT + DealCloud: Where the Integration Actually Stands\n\nNot today — there’s no DealCloud app in ChatGPT’s directory, and while an official DealCloud MCP server now exists, it’s in client preview (starting July 2026)"
+          },
+          {
+            "url": "https://api.docs.dealcloud.com/docs/token",
+            "title": "Requesting an OAuth2 Bearer Token - DealCloud API Docs",
+            "snippet": "Requesting an OAuth2 Bearer Token - DealCloud API Docs\n\n# Requesting an OAuth2 Bearer Token\n\nDealCloud uses the OAuth2 Client Credentials flow to generate a bearer token, which is then used in the HTTP Authentication header for API requests.\n\nHow the OAuth2 Client Credentials Flow Works:\n\n1. The cli"
+          }
+        ]
+      },
+      {
+        "query": "DealCloud developer API availability",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://api.docs.dealcloud.com/docs",
+            "title": "Docs - DealCloud API Docs",
+            "snippet": "Docs - DealCloud API Docs\n\n# Docs\n\nWelcome to the DealCloud API Docs! This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed gu"
+          },
+          {
+            "url": "https://api.docs.dealcloud.com/docs/apikeys",
+            "title": "Obtaining an API Key - DealCloud API Docs",
+            "snippet": "Obtaining an API Key - DealCloud API Docs\n\n# Obtaining an API Key\n\n## User Groups and Permissions\n\nTo enable API access, ensure the intended user is assigned to a user group with the appropriate permissions. Navigate to Admin > User Management, select the relevant user group, go to Capabilities > Si"
+          },
+          {
+            "url": "https://api.docs.dealcloud.com/sdk/python-1.X",
+            "title": "DealCloud SDK - Python (Release 1.X) - DealCloud API Docs",
+            "snippet": "DealCloud SDK - Python (Release 1.X) - DealCloud API Docs\n\n# DealCloud SDK - Python (Release 1.X)\n\n## 2610 Release\n\nThe DealCloud Python SDK is a comprehensive wrapper around the DealCloud API, designed to help clients and partners build integrations quickly and efficiently. Documentation targets de"
+          },
+          {
+            "url": "https://api.docs.dealcloud.com/docs/data",
+            "title": "Data APIs - DealCloud API Docs",
+            "snippet": "Data APIs - DealCloud API Docs\n\n# Data APIs\n\nThe Data APIs allow you to work with the core data within your DealCloud site, enabling you to create, retrieve, update, and delete records across various objects (or entryLists) such as deals, contacts, companies, etc. These APIs are essential for integr"
+          },
+          {
+            "url": "https://api.docs.dealcloud.com/sdk/intapp-rest-client/getting-started/installation",
+            "title": "Installation - DealCloud API Docs",
+            "snippet": "Installation - DealCloud API Docs\n\n# Installation\n\nThe documentation targets intapp-rest-client 1.x. The package is available on PyPI (opens in a new tab).\n\n## Requirements\n\n- Python 3.12 or higher\n- pip, uv, poetry, or conda for package management\n\n## Install with pip\n\n```\npip install intapp-rest-c"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://api.docs.dealcloud.com/",
+        "final_url": "https://api.docs.dealcloud.com/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:10Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "63a146c948af950623e081d0f04a1b8c4ea89ad6af1bbff0bc6411e56952beaa",
+        "text_len": 86
+      },
+      {
+        "requested_url": "https://www.g2.com/products/dealcloud/pricing",
+        "final_url": "https://www.g2.com/products/dealcloud/pricing",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:09Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "2d12c72f8a6fa061a5096ae76ed15a6f84271b6939710b86613e56a3a9cf06e2",
+        "text_len": 6671
+      },
+      {
+        "requested_url": "https://api.docs.dealcloud.com/mcp/getting-started",
+        "final_url": "https://api.docs.dealcloud.com/mcp/getting-started",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:10Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "5e51699463af39a41e9a675984e973404c6412f023a23ce6038029eb008b95ac",
+        "text_len": 1270
+      },
+      {
+        "requested_url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:09Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "dadb8bcf7b77321ded620a7ab0dfef86b1e3e42dec9835578d48794363032105",
+        "text_len": 1775
+      },
+      {
+        "requested_url": "https://api.docs.dealcloud.com/docs/apikeys",
+        "final_url": "https://api.docs.dealcloud.com/docs/apikeys",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:09Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "66a3901392b416ddec8bda504bb47a9d0a4a8867e4ab87810257ba37fd4cc280",
+        "text_len": 1343
+      },
+      {
+        "requested_url": "https://api.docs.dealcloud.com/docs/data",
+        "final_url": "https://api.docs.dealcloud.com/docs/data",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:10Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "3388d6f55a3dc39a1d134a5642750b2523e3a132b107ea654f151c110302ce85",
+        "text_len": 2076
+      },
+      {
+        "requested_url": "https://api.docs.dealcloud.com/pricing",
+        "final_url": "https://api.docs.dealcloud.com/pricing",
+        "status": 404,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:12Z",
+        "error": "exa /contents: page HTTP 404",
+        "method": "exa_error",
+        "text_source_url": null,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "text_len": 0
+      }
+    ]
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "confidence_not_high",
+        "detail": "confidence is medium",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      },
+      {
+        "reason": "unsupported_or_invalid",
+        "detail": "pass-2 review fired unsupported_evidence",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://www.g2.com/products/dealcloud/pricing",
+        "browser": "cloud",
+        "why_cloud": "captcha",
+        "local_problem": "captcha",
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://www.g2.com/products/dealcloud/pricing",
+        "title": "DealCloud Pricing November 2026",
+        "text_len": 12079,
+        "http_status": 200,
+        "screenshot": "screenshots/dealcloud/01-611383fa23.jpg",
+        "usable": true,
+        "wall_s": 33.17
+      },
+      {
+        "url": "https://api.docs.dealcloud.com/docs/token",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://api.docs.dealcloud.com/docs/token",
+        "title": "Requesting an OAuth2 Bearer Token - DealCloud API Docs",
+        "text_len": 5341,
+        "http_status": 200,
+        "screenshot": "screenshots/dealcloud/02-ff5edc412a.jpg",
+        "usable": true,
+        "wall_s": 4.47
+      },
+      {
+        "url": "https://api.docs.dealcloud.com/mcp",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://api.docs.dealcloud.com/mcp",
+        "title": "DealCloud MCP Server - DealCloud API Docs",
+        "text_len": 4310,
+        "http_status": 200,
+        "screenshot": "screenshots/dealcloud/03-f66e4c22a8.jpg",
+        "usable": true,
+        "wall_s": 2.54
+      },
+      {
+        "url": "https://api.docs.dealcloud.com/docs",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "title": "Docs - DealCloud API Docs",
+        "text_len": 4998,
+        "http_status": 200,
+        "screenshot": "screenshots/dealcloud/04-d90a0a4ea4.jpg",
+        "usable": true,
+        "wall_s": 2.28
+      }
+    ],
+    "cloud_sessions": 1
+  }
+}

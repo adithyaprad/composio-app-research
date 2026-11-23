@@ -4,6 +4,7 @@ httpx>=0.28
 trafilatura>=2.0
 jsonschema>=4.23
 python-dotenv>=1.0
+browser-use==1.0.8   # pass 3 (agent browse): local Chromium, Browser Use Cloud only for blocked pages
 
 # LLM SDKs are imported lazily: install only the one LLM_PROVIDER uses.
 boto3>=1.35          # LLM_PROVIDER=bedrock (default)

@@ -1,0 +1,517 @@
+{
+  "slug": "liveagent",
+  "searches": [
+    {
+      "query": "LiveAgent API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://support.liveagent.com/741982-API-key",
+          "title": "API key",
+          "snippet": "API key\n\n# API key\n\n## What is an API key\n\nAPI key is an identity of your LiveAgent (like your username and password) which you can use to build your own custom integration solutions. Never give it to anybody you don't trust. If your API key is lost, do not hesitate to generate a new one! Anybody wi"
+        },
+        {
+          "url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+          "title": "LiveAgent API v1 vs v3: Authentication Differences, API Key Management, and Resolving 403 Errors",
+          "snippet": "LiveAgent API v1 vs v3: Authentication Differences, API Key Management, and Resolving 403 Errors\n\n# LiveAgent API v1 vs v3: Authentication Differences, API Key Management, and Resolving 403 Errors\n\nThis article explains the differences between API v1 and API v3 authentication in LiveAgent, how to ob"
+        },
+        {
+          "url": "https://faq.liveagent.com/916372-API-v1-vs-API-v3-in-LiveAgent-Key-Differences-Authentication-and-Resolving-ApiKey-Errors",
+          "title": "API v1 vs. API v3 in LiveAgent: Key Differences, Authentication, and Resolving ApiKey Errors",
+          "snippet": "API v1 vs. API v3 in LiveAgent: Key Differences, Authentication, and Resolving ApiKey Errors\n\n# API v1 vs. API v3 in LiveAgent: Key Differences, Authentication, and Resolving ApiKey Errors\n\nThis article explains the difference between API v1 and API v3 authentication in LiveAgent, how to obtain and "
+        },
+        {
+          "url": "https://github.com/qualityunit/liveagent-api-python",
+          "title": "QualityUnit/LiveAgent-api-python",
+          "snippet": "# QualityUnit/LiveAgent-api-python\n\nPython client for LiveAgent API\n\n- Stars: 5\n- Forks: 3\n- Watchers: 5\n- Open issues: 3\n- Default branch: master\n- Created: 2016-06-24T11:38:45Z\n\n## Languages\n\n- Python\n- Shell\n\n## Top Contributors\n\n- mbebjak (48 contributions)\n- ruslanlazin (40 contributions)\n- Art"
+        },
+        {
+          "url": "https://docs.oneleet.com/integrations/liveagent/",
+          "title": "LiveAgent | Oneleet Docs",
+          "snippet": "LiveAgent | Oneleet Docs\n\n# LiveAgent\n\n## Overview\n\nThe LiveAgent integration connects your LiveAgent account to Oneleet and syncs its agents as user accounts, so Oneleet can track who has access to your help desk and whether they sign in with two-factor authentication.\n\n### What does Oneleet monito"
+        }
+      ]
+    },
+    {
+      "query": "LiveAgent developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://support.liveagent.com/567924-Documentation",
+          "title": "Documentation",
+          "snippet": "Documentation\n\n# Documentation\n\n## Where can I find the API v3 documentation?\n\nYou can find whole LiveAgent API documentation within your LiveAgent account: https:// YOURDOMAIN. ladesk.com/docs/api/v3/#/\n\nYou can also navigate into your agent panel > Configuration > System > API > API V3 DOCUMENTATI"
+        },
+        {
+          "url": "https://support.liveagent.com/802463-REST-API",
+          "title": "REST API",
+          "snippet": "REST API\n\n# REST API\n\n### API key\n\nWhat is an API key API key is an identity of your LiveAgent (like your username and password) which you can use to build your own custom integration solutions. Never give it to anybody you don't trust. If your API key is lost, do not hesitate to generate a new one!"
+        },
+        {
+          "url": "https://support.liveagent.com/066804-LiveAgent-API",
+          "title": "LiveAgent API",
+          "snippet": "LiveAgent API\n\n# LiveAgent API\n\n### API rate limit (API requests limit)\n\nCLOUD ACCOUNTS As the cloud-hosted accounts run on our servers, we have to make sure it does not get overloaded. Because of this we limit the use of API to make sure the server operates smoothly. The API rate limit is set right"
+        },
+        {
+          "url": "https://faq.liveagent.com/640789-Where-Can-I-Find-the-LiveAgent-API-Documentation",
+          "title": "Where Can I Find the LiveAgent API Documentation?",
+          "snippet": "Where Can I Find the LiveAgent API Documentation?\n\n# Where Can I Find the LiveAgent API Documentation?\n\nCustomer context: The customer is looking for information on where to access the API documentation for LiveAgent.\n\nCustomer question: Where can I find the LiveAgent API Documentation?\n\nSolution: Y"
+        },
+        {
+          "url": "https://faq.liveagent.com/916372-API-v1-vs-API-v3-in-LiveAgent-Key-Differences-Authentication-and-Resolving-ApiKey-Errors",
+          "title": "API v1 vs. API v3 in LiveAgent: Key Differences, Authentication, and Resolving ApiKey Errors",
+          "snippet": "API v1 vs. API v3 in LiveAgent: Key Differences, Authentication, and Resolving ApiKey Errors\n\n# API v1 vs. API v3 in LiveAgent: Key Differences, Authentication, and Resolving ApiKey Errors\n\nThis article explains the difference between API v1 and API v3 authentication in LiveAgent, how to obtain and "
+        }
+      ]
+    },
+    {
+      "query": "LiveAgent pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.liveagent.com/pricing/",
+          "title": "LiveAgent Pricing & Plans: AI on Every Plan, 30-Day Free Trial",
+          "snippet": "LiveAgent Pricing & Plans: AI on Every Plan, 30-Day Free Trial\n\n# LiveAgent pricing: AI on every plan\n\nHelp desk software with live chat, email, AI agents and, from the Team plan, a call center. You never pay per resolution.\n\n Monthly Billed monthly Annual Billed annually\n\nYour team\n\nFewer agents Nu"
+        },
+        {
+          "url": "https://www.liveagent.com/trial/",
+          "title": "Start your free trial today | LiveAgent",
+          "snippet": "Start your free trial today | LiveAgent\n\n# Try LiveAgent free for 30 days\n\nEmail, live chat, phone, social media and WhatsApp in one shared inbox. AI on every plan, with no per-resolution fees. Ready in about a minute.\n\n 4.5/5 G2 (1,538) 4.7/5 Capterra (1,789) checked Nov 1, 2026\n\nStep 1 of 2. Next:"
+        },
+        {
+          "url": "https://www.liveagent.com/",
+          "title": "LiveAgent: Help Desk Software with AI Agents and Live Chat",
+          "snippet": "LiveAgent: Help Desk Software with AI Agents and Live Chat\n\n# Help desk and live chat with AI agents\n\nLiveAgent is cloud help desk software for small and growing support teams: email, live chat, phone and social media in one shared inbox, with AI agents that answer customers and hand over to your pe"
+        },
+        {
+          "url": "https://www.g2.com/products/liveagent/pricing",
+          "title": "LiveAgent Pricing November 2026",
+          "snippet": "LiveAgent Pricing 2026\n\nLiveAgent\n\nBy Quality Unit\n\n4.5/5(1,538)\n\n###### 4.5 out of 5 stars\n\n5 star\n\n73%\n\n4 star\n\n21%\n\n3 star\n\n3%\n\n2 star\n\n1 star\n\nFree Trial\n\n# LiveAgent Pricing Overview\n\n## LiveAgent Pricing Key Insights\n\nLast updated on Apr 30, 2026\n\nLiveAgent offers 4 pricing editions, starting "
+        },
+        {
+          "url": "https://www.liveagent.com/llms.txt",
+          "title": "",
+          "snippet": "# LiveAgent\n\n> LiveAgent is help desk and call center software for small and growing support teams, in business since 2004: email, live chat, phone, social media and a knowledge base in one shared inbox, with AI that answers customers and drafts replies. Prices start at $15 per agent a month billed "
+        }
+      ]
+    },
+    {
+      "query": "LiveAgent official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
+          "title": "MCP Integration for agents",
+          "snippet": "MCP Integration for agents\n\n# MCP Integration for agents\n\nLiveAgent exposes a built-in MCP server (Model Context Protocol) that lets you connect external AI tools, such as ChatGPT, Claude Desktop, Cursor, claude.ai, FlowHunt, or any other MCP-compatible client, directly with your LiveAgent account. "
+        },
+        {
+          "url": "https://www.liveagent.com/features/mcp-server/",
+          "title": "Connect AI tools to LiveAgent with MCP",
+          "snippet": "Connect AI tools to LiveAgent with MCP\n\n# Connect AI tools to LiveAgent with MCP\n\nLet ChatGPT, Claude and other MCP-compatible AI clients search, tag, and act on your tickets directly — inside the same permissions your agents already have.\n\n## A standard way for AI tools to plug into your help desk\n"
+        },
+        {
+          "url": "https://support.liveagent.com/578762-MCP-tools-reference",
+          "title": "MCP tools reference",
+          "snippet": "MCP tools reference\n\n# MCP tools reference\n\nThis article documents the tools exposed by the LiveAgent MCP server, including the exact parameters each tool accepts and the exact fields it returns. A personal MCP connection offers every tool the agent's role has the privileges for, while an AI agent M"
+        },
+        {
+          "url": "https://support.liveagent.com/776651-AI-Overview",
+          "title": "AI Overview",
+          "snippet": "AI Overview\n\n# AI Overview\n\nArtificial Intelligence (AI) is revolutionizing the way businesses operate, elevating efficiency and enhancing customer experience. AI improves work efficiency and also enables real-time, personalized customer experiences, leading to increased satisfaction and loyalty. Li"
+        },
+        {
+          "url": "https://support.liveagent.com/150554-AI-features",
+          "title": "AI features",
+          "snippet": "AI features\n\n# AI features\n\n### AI Ticket summary feature overview\n\nThe Ticket summary feature uses AI to generate a concise summary of a ticket's entire conversation history. Agents can generate a summary directly from the ticket at any time, so they can quickly understand the context without needi"
+        }
+      ]
+    },
+    {
+      "query": "site:liveagent.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.liveagent.com/features/mcp-server/",
+          "title": "Connect AI tools to LiveAgent with MCP",
+          "snippet": "Connect AI tools to LiveAgent with MCP\n\n# Connect AI tools to LiveAgent with MCP\n\nLet ChatGPT, Claude and other MCP-compatible AI clients search, tag, and act on your tickets directly — inside the same permissions your agents already have.\n\n## A standard way for AI tools to plug into your help desk\n"
+        },
+        {
+          "url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
+          "title": "MCP Integration for agents",
+          "snippet": "MCP Integration for agents\n\n# MCP Integration for agents\n\nLiveAgent exposes a built-in MCP server (Model Context Protocol) that lets you connect external AI tools, such as ChatGPT, Claude Desktop, Cursor, claude.ai, FlowHunt, or any other MCP-compatible client, directly with your LiveAgent account. "
+        },
+        {
+          "url": "https://support.liveagent.com/578762-MCP-tools-reference",
+          "title": "MCP tools reference",
+          "snippet": "MCP tools reference\n\n# MCP tools reference\n\nThis article documents the tools exposed by the LiveAgent MCP server, including the exact parameters each tool accepts and the exact fields it returns. A personal MCP connection offers every tool the agent's role has the privileges for, while an AI agent M"
+        },
+        {
+          "url": "https://support.liveagent.com/776651-AI-Overview",
+          "title": "AI Overview",
+          "snippet": "AI Overview\n\n# AI Overview\n\nArtificial Intelligence (AI) is revolutionizing the way businesses operate, elevating efficiency and enhancing customer experience. AI improves work efficiency and also enables real-time, personalized customer experiences, leading to increased satisfaction and loyalty. Li"
+        },
+        {
+          "url": "https://support.liveagent.com/466386-AI-Agents-feature-overview",
+          "title": "AI Agents feature overview",
+          "snippet": "AI Agents feature overview\n\n# AI Agents feature overview\n\nThe AI Agents feature allows you to create reusable AI-powered agents and trigger them via automatic rules. AI agents utilize the built-in MCP server and its tools to perform various actions within your LiveAgent account. They serve as a back"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://liveagent.com",
+      "final_url": "https://www.liveagent.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "615f1b8bf49a8ee6f28675cbf37f06103bb585138b03b28885c2af61ef7590da",
+      "text_len": 11869
+    },
+    {
+      "requested_url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+      "final_url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "273f4e126b9d3d1e98af429f7a19ca1c4aabcd4f6d24fe1b03b3b020353db9b6",
+      "text_len": 2829
+    },
+    {
+      "requested_url": "https://faq.liveagent.com/916372-API-v1-vs-API-v3-in-LiveAgent-Key-Differences-Authentication-and-Resolving-ApiKey-Errors",
+      "final_url": "https://faq.liveagent.com/916372-API-v1-vs-API-v3-in-LiveAgent-Key-Differences-Authentication-and-Resolving-ApiKey-Errors",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e2b3b7fa66e5a7a82fd7b2a832372f4007342f6757b243398bbefe9ca54ab5c1",
+      "text_len": 3092
+    },
+    {
+      "requested_url": "https://www.liveagent.com/pricing/",
+      "final_url": "https://www.liveagent.com/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a2450c66c7840ec4c3d5f6db73e45d5082118563a25e504ae8713eb75afc6c10",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://support.liveagent.com/578762-MCP-tools-reference",
+      "final_url": "https://support.liveagent.com/578762-MCP-tools-reference",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:23Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "aec3612f1bad8a9bfb284eeb8ef988c0163a609a19143f0e2d41d97df385f8e5",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
+      "final_url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:23Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e7e4029b5aae1863a24f258cd5f3262a57beb0eda0e886cb89a06b0586762b43",
+      "text_len": 4837
+    },
+    {
+      "requested_url": "https://www.liveagent.com/features/mcp-server/",
+      "final_url": "https://www.liveagent.com/features/mcp-server/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:23Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "278c8a84f756a5206539ffe14e8fb0437e806503fc702c7f3beeb39f984a110b",
+      "text_len": 13886
+    },
+    {
+      "requested_url": "https://www.liveagent.com/trial/",
+      "final_url": "https://www.liveagent.com/trial/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8c2a4d112e8520195e84c9dff1248557eb6f5090d971ccc3a6ec625723297da2",
+      "text_len": 7980
+    },
+    {
+      "requested_url": "https://www.liveagent.com/trial/",
+      "final_url": "https://www.liveagent.com/trial/",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:17:33Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "af9c6db2147874fe8d11a048a90e97df832141e40fbdd81a12cf21994df4d506",
+      "text_len": 3292
+    },
+    {
+      "requested_url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+      "final_url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+      "status": 200,
+      "provider": "browser_cloud",
+      "fetched_at": "2026-11-23T15:17:52Z",
+      "error": null,
+      "method": "browser_cloud",
+      "text_source_url": null,
+      "sha256": "bf5b486b88cddac046700f48b852ac58966929ee2ab1ec11ccd50463a2b0cfad",
+      "text_len": 3362
+    },
+    {
+      "requested_url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
+      "final_url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
+      "status": 200,
+      "provider": "browser_cloud",
+      "fetched_at": "2026-11-23T15:18:06Z",
+      "error": null,
+      "method": "browser_cloud",
+      "text_source_url": null,
+      "sha256": "237551859b59235554e2abffb071cdfd6af67ec63b534562425600dabbe4a1fe",
+      "text_len": 6098
+    },
+    {
+      "requested_url": "https://www.liveagent.com/pricing/",
+      "final_url": "https://www.liveagent.com/pricing/",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:18:12Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "d28ce971748c1d3740b9be8df204f0d8dca74ab7a5d6d54fd30e71f16c13467f",
+      "text_len": 13804
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+        "quote": "Both versions can be used simultaneously, but they require separate API keys.",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/liveagent/02-aa7bf6b127.jpg"
+      },
+      {
+        "url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+        "quote": "Navigate to Configuration > System > API.",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/liveagent/02-aa7bf6b127.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.liveagent.com/trial/",
+        "quote": "Your LiveAgent is ready in about a minute",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/liveagent/01-c33b8e0bf5.jpg"
+      },
+      {
+        "url": "https://www.liveagent.com/trial/",
+        "quote": "The trial ends and nothing is charged: we have no card.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/liveagent/01-c33b8e0bf5.jpg"
+      },
+      {
+        "url": "https://www.liveagent.com/pricing/",
+        "quote": "30-day free trial no credit card",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/liveagent/04-e0d114bad8.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://faq.liveagent.com/916372-API-v1-vs-API-v3-in-LiveAgent-Key-Differences-Authentication-and-Resolving-ApiKey-Errors",
+        "quote": "POST /api/conversations/{conversationId}/messages",
+        "verified": true
+      },
+      {
+        "url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+        "quote": "API v3 – The current, actively developed version. New endpoints and enhancements are continuously added.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
+        "quote": "LiveAgent exposes a built-in MCP server (Model Context Protocol)",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/liveagent/03-0cfc810319.jpg"
+      },
+      {
+        "url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
+        "quote": "MCP server URL\thttps://<your-liveagent-domain>/api/mcp",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/liveagent/03-0cfc810319.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+        "quote": "Generate or manage your API v3 key here.",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/liveagent/02-aa7bf6b127.jpg"
+      },
+      {
+        "url": "https://www.liveagent.com/trial/",
+        "quote": "Start free trial",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/liveagent/01-c33b8e0bf5.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.liveagent.com/",
+        "quote": "LiveAgent is cloud help desk software for small and growing support teams",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "confidence_not_high",
+        "detail": "confidence is medium",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://www.liveagent.com/trial/",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://www.liveagent.com/trial/",
+        "title": "Start your free trial today | LiveAgent",
+        "text_len": 3292,
+        "http_status": 200,
+        "screenshot": "screenshots/liveagent/01-c33b8e0bf5.jpg",
+        "usable": true,
+        "wall_s": 4.81
+      },
+      {
+        "url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+        "browser": "cloud",
+        "why_cloud": "blocked",
+        "local_problem": "blocked",
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+        "title": "LiveAgent API v1 vs v3: Authentication Differences, API Key Management, and Resolving 403 Errors",
+        "text_len": 3362,
+        "http_status": 200,
+        "screenshot": "screenshots/liveagent/02-aa7bf6b127.jpg",
+        "usable": true,
+        "wall_s": 19.22
+      },
+      {
+        "url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
+        "browser": "cloud",
+        "why_cloud": "blocked",
+        "local_problem": "blocked",
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
+        "title": "MCP Integration for agents",
+        "text_len": 6097,
+        "http_status": 200,
+        "screenshot": "screenshots/liveagent/03-0cfc810319.jpg",
+        "usable": true,
+        "wall_s": 13.6
+      },
+      {
+        "url": "https://www.liveagent.com/pricing/",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://www.liveagent.com/pricing/",
+        "title": "LiveAgent Pricing & Plans: AI on Every Plan, 30-Day Free Trial",
+        "text_len": 13804,
+        "http_status": 200,
+        "screenshot": "screenshots/liveagent/04-e0d114bad8.jpg",
+        "usable": true,
+        "wall_s": 5.88
+      }
+    ],
+    "cloud_sessions": 1
+  }
+}

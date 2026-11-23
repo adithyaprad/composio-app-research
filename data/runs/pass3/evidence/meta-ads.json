@@ -1,0 +1,388 @@
+{
+  "slug": "meta-ads",
+  "searches": [
+    {
+      "query": "Meta Ads API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authentication",
+          "title": "Authentication - Meta for Developers - Facebook",
+          "snippet": "# Authentication\n\nEvery Marketing API call requires an access token as a parameter.\n\nSee Access Tokens for Meta Technologies for more information on the various types of access tokens.\n\n## Get an access token for your app\n\n### User access tokens\n\n#### Graph API Explorer\n\nYou can get a user access to"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/facebook-login/facebook-login-for-business",
+          "title": "Facebook Login for Business",
+          "snippet": "# Facebook Login for Business\n\nFacebook Login for Business is the preferred authentication and authorization solution for tech providers building integrations with Meta's business tools to create marketing, messaging, and selling solutions.\n\nFacebook Login for Business allows you to create a login e"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization",
+          "title": "Authorization | Meta for Developers - Facebook",
+          "snippet": "# Authorization\n\nWarning: Ads Management Standard Access is now Marketing API Access Tier\n\nNo code changes are needed.\n\nTier labels have been updated: \"Standard Access\" is now Limited Access, and \"Advanced Access\" is now Full Access. The revised qualification threshold for Full Access has been reduc"
+        },
+        {
+          "url": "https://developers.facebook.com/ads/blog/post/v2/2018/11/01/marketing-api-setup-101/",
+          "title": "Marketing API Setup 101",
+          "snippet": "November 1, 2018\n\n# Marketing API Setup 101\n\n#### By Kevin Lei\n\nWe're continually looking for ways to navigate through complex systems for our advertisers and developer communities. To make the API journey feel less complicated and more user friendly, we've created a Marketing API Setup 101 to share"
+        },
+        {
+          "url": "https://docs.unified.to/skills/meta-ads-oauth-app/SKILL.md",
+          "title": "Meta Ads (Marketing API) OAuth2 App Registration",
+          "snippet": "# Meta Ads (Marketing API) OAuth2 App Registration\n\nGet a Meta app that can actually read a customer's live ad accounts: a Business-type app carrying the Marketing\nAPI product and a Facebook Login for Business configuration, an App ID and App Secret, and — the part that\ntakes weeks — the approvals a"
+        }
+      ]
+    },
+    {
+      "query": "Meta Ads developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+          "title": "Marketing API | Meta | Developer Documentation",
+          "snippet": "Marketing API | Meta | Meta for Developers\n\n# Marketing API \n\n The Marketing API is a collection of Graph API endpoints and other features that can be used to help you advertise across Meta technologies. Before advertising on Facebook, Instagram, Messenger, and WhatsApp, we recommend you learn about"
+        },
+        {
+          "url": "https://developers.facebook.com/docs/marketing-api/get-started/authorization?locale=es_ES",
+          "title": "Autorización",
+          "snippet": "# Authorization\n\nWarning: Ads Management Standard Access is now Marketing API Access Tier\n\nNo code changes are needed.\n\nTier labels have been updated: \"Standard Access\" is now Limited Access, and \"Advanced Access\" is now Full Access. The revised qualification threshold for Full Access has been reduc"
+        },
+        {
+          "url": "https://developers.facebook.com/docs/",
+          "title": "Meta Developer Documentation | Meta APIs, SDKs & Guides",
+          "snippet": "# Meta Developer Documentation\n\nLearn the basics of how to send and receive data from the Meta social graph and how to implement the APIs, Platforms, Products, and SDKs to fit your application needs.\n\n## Meta App Development\n\nRegister as a developer, configure your app's settings in the App Dashboar"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/setup/get-started",
+          "title": "Get started",
+          "snippet": "# Get started\n\nThis guide walks you through setting up ads webhooks: preparing a callback endpoint, subscribing your app to the `ad_account` fields you want, and connecting the ad accounts you manage so events start flowing.\n\nEnabling ads webhooks takes two API calls that use two different access to"
+        },
+        {
+          "url": "https://developers.facebook.com/docs/marketing-api/call-ads/",
+          "title": "Call Ads - Marketing API - Documentation - Meta for Developers",
+          "snippet": "Call Ads - Marketing API - Documentation - Meta for Developers\n\nMarketing API\n\n- Changelog\n- API Reference\n- Troubleshooting\n- Best Practices\n- Brand Safety and Suitability\n- Insights API\n- Audiences\n- Ad Rules Engine\n- Bidding\n- Ad Creative\n- Get Started\n- Overview\n\n# Call Ads\n\nThis guide explains "
+        }
+      ]
+    },
+    {
+      "query": "Meta Ads pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://business.meta.com/",
+          "title": "Meta Ads",
+          "snippet": "AI Business Tools & News from Meta\n\n# Personal intelligence, built for your business.\n\nFind the right AI tools from Meta that will help you get work done, improve your ads and grow your business.\n\n## Drive results where your customers already are with Meta One.\n\nGrow your business with AI and tools "
+        },
+        {
+          "url": "https://propicked.com/marketing/meta-ads/pricing",
+          "title": "Meta Ads Pricing ($300–$50000/mo): All 4 Plans Explained [2026] | ProPicked",
+          "snippet": "Meta Ads Pricing ($300–$50000/mo): All 4 Plans Explained [2026] | ProPicked\n\nReviewed by ProPicked Editorial Team Updated May 4, 2026 How We Review\n\n## We use provider pages as the source of truth.\n\nPricing, plan names, free plan availability, and trial details are checked against official provider "
+        },
+        {
+          "url": "https://appadvisor.in/companies/meta",
+          "title": "Meta: Products, Pricing & Alternatives (2027) | App Advisor",
+          "snippet": "Meta: Products, Pricing & Alternatives (2027) | App Advisor\n\n# Meta\n\n Menlo Park, California Founded 2004 24 products\n\nOfficial website \n\nProducts\n\n24\n\nCategories\n\n12\n\nFree plans\n\n23\n\nGuides\n\n1\n\n## About Meta\n\nMeta Platforms, Inc., formerly Facebook, Inc., is a US technology company headquartered at"
+        },
+        {
+          "url": "https://www.adstellar.ai/blog/meta-ads-platform-reviews",
+          "title": "Meta Ads Platform Reviews: 9 Best Tools for 2026! Tips",
+          "snippet": "Meta Ads Platform Reviews: 9 Best Tools for 2026! Tips\n\n# 9 Best Meta Ads Platforms Reviewed for 2026\n\nGrant Cooper\n\nFounder\n\nFebruary 16, 2026• 16 min read\n\n9 Best Meta Ads Platforms Reviewed for 2026\n\n## Article Content\n\nChoosing the right Meta ads platform can make or break your advertising ROI. "
+        },
+        {
+          "url": "https://mktbee.com/tools/meta-ads/pricing",
+          "title": "Meta Ads Pricing Cost: Complete 2026 Guide | MKTBee",
+          "snippet": "Meta Ads Pricing Cost: Complete 2026 Guide | MKTBee\n\n# Meta Ads Pricing Cost: Complete 2026 Guide\n\nIs Meta Ads worth the subscription cost? We break down every plan tier, starting fees, hidden gotchas, and highlight budget-friendly alternatives.\n\n### Price-to-Value Rating Verdict\n\nOffering a permane"
+        }
+      ]
+    },
+    {
+      "query": "Meta Ads official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+          "title": "Ads MCP Server",
+          "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+          "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+        },
+        {
+          "url": "https://business.meta.com/news/meta-ads-ai-connectors/",
+          "title": "Introducing Meta Ads AI Connectors: Manage Your Meta Ads From the AI Tools You Already Use",
+          "snippet": "Introducing Meta Ads AI Connectors: Manage Your Meta Ads From the AI Tools You Already Use\n\n###### [April 29, 2026]\n\n# Introducing Meta Ads AI Connectors: Manage Your Meta Ads From the AI Tools You Already Use\n\nUpdate: On July 16, 2026, we introduced two new capabilities to Meta's ads MCP server. Yo"
+        },
+        {
+          "url": "https://developers.facebook.com/blog/post/2026/07/16/meta-ads-mcp-server/",
+          "title": "Meta's ads MCP server is now available for developers",
+          "snippet": "Meta's ads MCP server is now available for developers\n\nJuly 16, 2026\n\n# Meta's ads MCP server is now available for developers\n\n#### By Sydney Levitan, Sanjay Patel\n\nUpdated September 22, 2026\n\nToday, we are opening up our ads MCP server to any developer with their own Meta app. You can now connect y"
+        },
+        {
+          "url": "https://dev.to/ciromaciel/meta-ads-mcp-for-claude-the-official-server-and-when-a-read-first-connector-fits-better-31pf",
+          "title": "Meta Ads MCP for Claude: the official server, and when a read-first connector fits better - DEV Community",
+          "snippet": "Meta Ads MCP for Claude: the official server, and when a read-first connector fits better - DEV Community\nCiro Cesar Maciel\nPosted on Nov 17 • Originally published at blog.myagents.click\n# Meta Ads MCP for Claude: the official server, and when a read-first connector fits better\nIf you searched \"meta"
+        }
+      ]
+    },
+    {
+      "query": "site:developers.facebook.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+          "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/devtools-mcp/",
+          "title": "Meta Social Technologies MCP | Meta for Developers",
+          "snippet": "Developer Tools MCP | Developer Documentation\n\nMCP\n\nWas this helpful?\n\n# Developer Tools MCP\n\nUpdated: Jun 12, 2026\n\nCopy for LLM\n\nThe Meta Developer Tools MCP server gives AI agents and IDE assistants a single entry point for the day-to-day work of building on the Meta developer platform. With it c"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+          "title": "Ads MCP Server",
+          "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+        },
+        {
+          "url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+          "title": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent",
+          "snippet": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\nJune 30, 2026\n\n# Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\n#### By Zoë Lieberman\n\nNOTE: As of August 18, 2026, we are now referrin"
+        },
+        {
+          "url": "https://developers.facebook.com/blog/post/2026/07/16/meta-ads-mcp-server/",
+          "title": "Meta's ads MCP server is now available for developers",
+          "snippet": "Meta's ads MCP server is now available for developers\n\nJuly 16, 2026\n\n# Meta's ads MCP server is now available for developers\n\n#### By Sydney Levitan, Sanjay Patel\n\nUpdated September 22, 2026\n\nToday, we are opening up our ads MCP server to any developer with their own Meta app. You can now connect y"
+        }
+      ]
+    },
+    {
+      "query": "site:facebook.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+          "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/devtools-mcp",
+          "title": "Meta Social Technologies MCP - Meta for Developers - Facebook",
+          "snippet": "# Meta Social Technologies MCP\n\nFor developers building apps and integrations on the Meta Social Technologies Developer Platform (developers.facebook.com) — the Meta Social Technologies MCP server helps you manage the Meta apps and integrations you build there. It gives your AI agent and IDE assista"
+        },
+        {
+          "url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+          "title": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent",
+          "snippet": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\nJune 30, 2026\n\n# Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\n#### By Zoë Lieberman\n\nNOTE: As of August 18, 2026, we are now referrin"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+          "title": "Ads MCP Server",
+          "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+          "title": "Connect an MCP client to Meta - Meta for Developers - Facebook",
+          "snippet": "# Connect an MCP client to Meta\n\nUse this guide to connect a supported AI client to a remote Meta MCP server and authorize access with OAuth. When you finish, your client can discover and execute the server's available tools.\n\n## Before you begin\n\nTo connect a client, you need:\n\n- A current version "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developers.facebook.com/docs/marketing-apis",
+      "final_url": "https://developers.facebook.com/docs/marketing-apis",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:33Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "9c3c389c4a66e0f19b92f95e8902a0c33ed5272aff8172c79a5015af18be0e7d",
+      "text_len": 621
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authentication",
+      "final_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:25Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "697b92e065d26a88a1c9633940099fc0b9ba862513a86b74b2ed3103bae601fb",
+      "text_len": 6277
+    },
+    {
+      "requested_url": "https://developers.facebook.com/docs/marketing-api/get-started/authorization?locale=es_ES",
+      "final_url": "https://developers.facebook.com/docs/marketing-api/get-started/authorization?locale=es_ES",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:26Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "78b00e85eff5e4151f1a8597576b79c437e5ae96c4a3469b9225910e609a1228",
+      "text_len": 7257
+    },
+    {
+      "requested_url": "https://business.meta.com/",
+      "final_url": "https://business.meta.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:27Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0d4c2450809a00ad51a961c6ac75263d6d51436e175dbfe12243af31ce970827",
+      "text_len": 899
+    },
+    {
+      "requested_url": "https://developers.facebook.com/blog/post/2026/07/16/meta-ads-mcp-server/",
+      "final_url": "https://developers.facebook.com/blog/post/2026/07/16/meta-ads-mcp-server/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "87296f4d59d6f462ab35b1ed91382ac19eb5d26c9d2fa11ed73804d3d962b1d7",
+      "text_len": 7616
+    },
+    {
+      "requested_url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+      "final_url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d68a315685125a4ab9be8a67787b281b5981d226f076254936771385a69e0d2c",
+      "text_len": 3192
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+      "final_url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "576ad5c93e83bea79f121743dbd9dc127b3dd884845bee4640f04777ecc1ab9e",
+      "text_len": 2007
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/mcp",
+      "final_url": "https://developers.facebook.com/documentation/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8c4bcc389ebe0c93286e6c607c3c5bacf2ace351c4e3d88bc595b5b2865d6c2a",
+      "text_len": 4885
+    },
+    {
+      "requested_url": "https://developers.facebook.com/llms.txt",
+      "final_url": "https://developers.facebook.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:55Z",
+      "error": null,
+      "method": "exa_cache",
+      "text_source_url": null,
+      "sha256": "5c6de424bf6299cb614fd5fe65e8bbda321447913184fa7348c2555fb65f7952",
+      "text_len": 6022
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization",
+      "final_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:25Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2a53a1816d8ade1b33606b3faa419b11bb4e5535349f6f6c38d444fb005b04b6",
+      "text_len": 7374
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authentication",
+        "quote": "Every Marketing API call requires an access token as a parameter.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authentication",
+        "quote": "A system user access token is a type of access token that is associated with a system user account",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization",
+        "quote": "Advanced access must be approved through the App Review process on an individual permission and feature basis.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization",
+        "quote": "Heavily rate-limited per ad account. For development only. Not for production apps running for live advertisers.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.facebook.com/docs/marketing-apis",
+        "quote": "The Marketing API is a collection of Graph API endpoints and other features that can be used to help you advertise across Meta technologies.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.facebook.com/documentation/mcp",
+        "quote": "Meta Ads MCP: `https://mcp.facebook.com/ads`",
+        "verified": true
+      },
+      {
+        "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+        "quote": "The ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization",
+        "quote": "If your app is managing other people's ad accounts, you need advanced access to the `ads_read` and/or `ads_management` permissions.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developers.facebook.com/docs/marketing-apis",
+        "quote": "help you advertise across Meta technologies",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

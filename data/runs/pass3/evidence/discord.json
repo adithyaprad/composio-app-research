@@ -1,0 +1,647 @@
+{
+  "slug": "discord",
+  "searches": [
+    {
+      "query": "Discord API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.discord.com/developers/reference",
+          "title": "API Reference",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Reference\n\n> The Discord API is a REST API that allows you to interact with Discord data from your own applicati"
+        },
+        {
+          "url": "https://docs.discord.com/developers/topics/oauth2",
+          "title": "OAuth2",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth2\n\nOAuth2 enables application developers to build applications that utilize authentication and data from the Di"
+        },
+        {
+          "url": "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+          "title": "Use with Discord APIs",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Use with Discord APIs\n\n> Combine Discord Social SDK with Discord's REST APIs for enhanced functionality.\n\n## Overvie"
+        },
+        {
+          "url": "https://docs.discord.com/developers/quick-start/getting-started",
+          "title": "Building your first Discord Bot",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Building your first Discord Bot\n\n> Step-by-step tutorial for building your first Discord app.\n\nDiscord apps let you "
+        },
+        {
+          "url": "https://docs.discord.com/developers/platform/oauth2-and-permissions",
+          "title": "OAuth2 and Permissions",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth2 and Permissions\n\n> How OAuth2, scopes, and permissions work across the Discord platform.\n\nDiscord uses OAuth2"
+        }
+      ]
+    },
+    {
+      "query": "Discord developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.discord.com/developers/reference",
+          "title": "API Reference",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Reference\n\n> The Discord API is a REST API that allows you to interact with Discord data from your own applicati"
+        },
+        {
+          "url": "https://docs.discord.com/developers/topics/oauth2",
+          "title": "OAuth2",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth2\n\nOAuth2 enables application developers to build applications that utilize authentication and data from the Di"
+        },
+        {
+          "url": "https://docs.discord.com/developers/intro",
+          "title": "Discord Developer Platform - Documentation - Discord",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Discord Developer Platform\n\n> Build bots and integrations on Discord, or connect your game with rich presence, voice"
+        },
+        {
+          "url": "https://docs.discord.com/developers/bots/overview",
+          "title": "Discord Bots & Companion Apps",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Discord Bots & Companion Apps\n\n> Start building bots and companion apps for Discord.\n\nBots are applications that con"
+        },
+        {
+          "url": "https://docs.discord.com/developers/quick-start/getting-started",
+          "title": "Building your first Discord Bot",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Building your first Discord Bot\n\n> Step-by-step tutorial for building your first Discord app.\n\nDiscord apps let you "
+        }
+      ]
+    },
+    {
+      "query": "Discord pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://discord.com/nitro/",
+          "title": "Nitro Benefits and Features | Discord",
+          "snippet": "Nitro Benefits and Features | Discord\n\n# UNLOCK A WORLD OF PERKS WITH NITRO\n\nTired of living the default life? We get it. Subscribe to Nitro, and unlock the supercharged side of Discord.\n\nNitro Basic\n\nSupercharge your chats with some of Nitro’s most-loved perks.\n\n$2.99 / MONTH\n\nCustom emoji anywhere"
+        },
+        {
+          "url": "https://support.discord.com/hc/en-us/articles/115000435108-What-are-Nitro-Nitro-Basic",
+          "title": "What are Nitro & Nitro Basic? – Discord",
+          "snippet": "What are Nitro & Nitro Basic? – Discord\n\n# What are Nitro & Nitro Basic? \n\n Bubbles \n\n- September 29, 2026 16:16\n- Updated\n\nLooking to enhance your Discord experience? Discord Nitro and Nitro Basic are premium subscription plans that unlock powerful features to help you express yourself and make the"
+        },
+        {
+          "url": "https://discord.com/blog/beginners-guide-to-nitro",
+          "title": "How to Use Nitro: A Beginner’s Guide to Discord’s Premium Subscription",
+          "snippet": "How to Use Nitro: A Beginner’s Guide to Discord’s Premium Subscription\n\n# How to Use Nitro: A Beginner’s Guide to Discord’s Premium Subscription\n\nClyde\n\nMay 11, 2026\n\nEditor’s Note: In May 2026, Nitro received one of its biggest expansions to date! We’ve updated this article to reflect all the cool "
+        },
+        {
+          "url": "https://support.discord.com/hc/en-us/articles/42344057369623-Discord-Nitro-Offers-Promotions-Eligibility-Guide",
+          "title": "Discord Nitro Offers & Promotions: Eligibility Guide",
+          "snippet": "Discord Nitro Offers & Promotions: Eligibility Guide – Discord\n\n# Discord Nitro Offers & Promotions: Eligibility Guide \n\n Bubbles \n\n- October 07, 2026 16:00\n- Updated\n\nThis article covers eligibility, terms, and current offers for Discord Nitro promotional offers.\n\nWhat this article covers:\n\n- Offer"
+        },
+        {
+          "url": "https://support.discord.com/hc/en-us/articles/43483782921623-3-month-Discord-Nitro-Trial-for-T-Mobile-Members-FAQ",
+          "title": "3-month Discord Nitro Trial for T-Mobile Members FAQ",
+          "snippet": "3-month Discord Nitro Trial for T-Mobile Members FAQ – Discord\n\n# 3-month Discord Nitro Trial for T-Mobile Members FAQ \n\n Bubbles \n\n- September 24, 2026 16:49\n- Updated\n\nNote:\n\n- Discord requires a payment method to redeem this Nitro promo. A temporary charge will be placed on the payment method upo"
+        }
+      ]
+    },
+    {
+      "query": "Discord official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.usecarly.com/blog/discord-mcp/",
+          "title": "Discord MCP: Community Servers and How to Set One Up",
+          "snippet": "Discord MCP: Community Servers and How to Set One Up\n\n \n\n Jul 16, 2026 \n\n Last updated on Sep 25, 2026 \n\n# Discord MCP: Community Servers and How to Set One Up\n\nNo, Discord hasn’t published an MCP server that works with your server. Discord’s developer docs site exposes a search-only MCP endpoint fo"
+        },
+        {
+          "url": "https://reduck.ai/use-cases/best-discord-mcp-servers",
+          "title": "Discord MCP servers compared (2026): no official one reads or sends messages",
+          "snippet": "# Discord MCP servers compared (2026): no official one reads or sends messages\n\nIs there a Discord MCP? Discord's official MCP only searches its developer docs. To read servers and DMs, compare bot-token servers, selfbot servers and Reduck, which reads Discord as you with no token.\n\n- Category: Mess"
+        },
+        {
+          "url": "https://fenbs.ai/blog/discord-mcp",
+          "title": "Discord MCP: bot tokens, community servers and risks",
+          "snippet": "Discord MCP: bot tokens, community servers and risks\n\n# Discord MCP: Bots, Channels and Caution\n\nDiscord does not publish its own MCP server, so a Discord MCP server is a community project that signs in as a bot you create. How that works, what the bot token and intents really grant, how to set one "
+        },
+        {
+          "url": "https://www.strac.io/blog/discord-mcp-server",
+          "title": "Discord MCP Server: Secure Setup for Claude & AI Agents 2026",
+          "snippet": "Discord MCP Server: Secure Setup for Claude & AI Agents 2026\n\nNovember 20, 2026\n\n# Discord MCP Server: Secure Setup for Claude & AI Agents 2026\n\nThe Discord MCP server lets Claude, Cursor, ChatGPT, and AI agents read and act inside Discord. Here's the official setup, the real security risks, and how"
+        },
+        {
+          "url": "https://devhunt.org/mcp/for/discord",
+          "title": "Discord MCP Server (2026): Best, Setup for Claude, Cursor & VS Code | DevHunt",
+          "snippet": "Discord MCP Server (2026): Best, Setup for Claude, Cursor & VS Code | DevHunt\n\n# Discord MCP server\n\nDiscord has no official MCP server yet; these community servers are maintained and in use. Below is the server with the setup for 13 clients: Claude Code, Claude Desktop, ChatGPT, Cursor, VS Code, Co"
+        }
+      ]
+    },
+    {
+      "query": "site:discord.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://discord.com/servers/model-context-protocol-1312302100125843476",
+          "title": "Model Context Protocol - Discord Server | Programming",
+          "snippet": "Model Context Protocol - Discord Server | Programming\n\n# Model Context Protocol\n\nCommunity for MCP (Model Context Protocol) enthusiasts.\n\n1,815 Online\n\n## About\n\nYour community for all things MCP (Model Context Protocol). Connect with server developers, share insights, and stay updated on the latest"
+        },
+        {
+          "url": "https://discord.com/servers/zero1-labs-1184532962453237851",
+          "title": "Zero1 Labs - Discord Server | Programming, Science & Tech",
+          "snippet": "Zero1 Labs - Discord Server | Programming, Science & Tech\n\n# Zero1 Labs\n\nThe First Open Scalable MCP Infrastructure Layer for Web3/AI.\n\n501 Online\n\n## About\n\nZero1 is a global decentralized community of developers, researchers and web3 users who believe in the intersection of privacy, AI and blockch"
+        },
+        {
+          "url": "https://discord.com/servers/goose-1287729918100246654",
+          "title": "goose - Discord Server | Events, Programming, Science & Tech",
+          "snippet": "goose - Discord Server | Events, Programming, Science & Tech\n\n# goose\n\nThe official Discord server for goose (the AI agent)\n\n598 Online\n\n## About\n\nThe goose Discord server is a place for AI enthusiasts to connect and discuss AI agents, MCP, the AAIF, goose, and more. Chat with the community, share f"
+        },
+        {
+          "url": "https://discord.com/servers/librechat-1086345563026489514",
+          "title": "LibreChat - Discord Server | Programming, Science & Tech",
+          "snippet": "LibreChat - Discord Server | Programming, Science & Tech\n\n# LibreChat\n\nThe official community for LibreChat, the free, open-source AI chat platform you can self-host. Get help, share setups, and see what's shipping next.\n\n969 Online\n\n## About\n\nLibreChat is a free, open-source AI chat platform you ca"
+        },
+        {
+          "url": "https://discord.com/servers/supermemory-dev-hub-1114913976422256742",
+          "title": "supermemory Dev Hub - Discord Server | Content Creator",
+          "snippet": "supermemory Dev Hub - Discord Server | Content Creator\n\n# supermemory Dev Hub\n\nThe supermemory Dev Hub is a place to talk about supermemory & adjacent projects - MCP, Agents, Startups and more!\n\n230 Online\n\n6,083 Members\n\n## About\n\nA hub for all developers and designers, find peers to help you with "
+        }
+      ]
+    },
+    {
+      "query": "Discord API authentication OAuth API key",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.discord.com/developers/reference",
+          "title": "API Reference",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Reference\n\n> The Discord API is a REST API that allows you to interact with Discord data from your own applicati"
+        },
+        {
+          "url": "https://docs.discord.com/developers/topics/oauth2",
+          "title": "OAuth2",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth2\n\nOAuth2 enables application developers to build applications that utilize authentication and data from the Di"
+        },
+        {
+          "url": "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+          "title": "Use with Discord APIs",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Use with Discord APIs\n\n> Combine Discord Social SDK with Discord's REST APIs for enhanced functionality.\n\n## Overvie"
+        },
+        {
+          "url": "https://apis.io/security/discord/discord-authentication/",
+          "title": "Discord API Authentication",
+          "snippet": "Discord API Authentication | APIs.io\n\n# Discord Authentication\n\nAuthentication\n\nDiscord secures its APIs with apiKey, http, and oauth2 across 4 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode, clientCredentials, and implicit flow(s)."
+        },
+        {
+          "url": "https://docs.discord.com/developers/quick-start/getting-started",
+          "title": "Building your first Discord Bot",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Building your first Discord Bot\n\n> Step-by-step tutorial for building your first Discord app.\n\nDiscord apps let you "
+        }
+      ]
+    },
+    {
+      "query": "site:discord.com API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.discord.com/developers/reference",
+          "title": "API Reference",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Reference\n\n> The Discord API is a REST API that allows you to interact with Discord data from your own applicati"
+        },
+        {
+          "url": "https://docs.discord.com/developers/platform/oauth2-and-permissions",
+          "title": "OAuth2 and Permissions",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth2 and Permissions\n\n> How OAuth2, scopes, and permissions work across the Discord platform.\n\nDiscord uses OAuth2"
+        },
+        {
+          "url": "https://docs.discord.com/developers/topics/oauth2",
+          "title": "OAuth2",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth2\n\nOAuth2 enables application developers to build applications that utilize authentication and data from the Di"
+        },
+        {
+          "url": "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+          "title": "Use with Discord APIs",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Use with Discord APIs\n\n> Combine Discord Social SDK with Discord's REST APIs for enhanced functionality.\n\n## Overvie"
+        },
+        {
+          "url": "https://docs.discord.com/developers/bots/overview",
+          "title": "Discord Bots & Companion Apps",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Discord Bots & Companion Apps\n\n> Start building bots and companion apps for Discord.\n\nBots are applications that con"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://discord.com",
+      "final_url": "https://discord.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:33Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "be60118a47f525ebbbd4c5fb1b113e81841d704a8917a421472a6bf98a805bcf",
+      "text_len": 1592
+    },
+    {
+      "requested_url": "https://docs.discord.com/developers/platform/oauth2-and-permissions",
+      "final_url": "https://docs.discord.com/developers/platform/oauth2-and-permissions",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b1346abca0f52237715951ceefa9d1eb1d36aaaf46cca19c61c60dbb661371f5",
+      "text_len": 2870
+    },
+    {
+      "requested_url": "https://docs.discord.com/developers/topics/oauth2",
+      "final_url": "https://docs.discord.com/developers/topics/oauth2",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "06dd27ef13f10541ae73cb0ce81a494cc2cc6aea8ea7c2e4b7539e931e03a50c",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://discord.com/blog/beginners-guide-to-nitro",
+      "final_url": "https://discord.com/blog/beginners-guide-to-nitro",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7560bb545a948a4adad1d0750dd1b8a2e85afef782b897d04a3a5cecebcff08f",
+      "text_len": 11185
+    },
+    {
+      "requested_url": "https://devhunt.org/mcp/for/discord",
+      "final_url": "https://devhunt.org/mcp/for/discord",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "81a0ab50cfbb24ad12fbec303515a06c55bb1c9fa9001ca526c62c5d3346e27c",
+      "text_len": 1562
+    },
+    {
+      "requested_url": "https://discord.com/servers/goose-1287729918100246654",
+      "final_url": "https://discord.com/servers/goose-1287729918100246654",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "493dc8560df4fad9d8f617c51b633ed088ec4e954a1fead2160ab94268078899",
+      "text_len": 1157
+    },
+    {
+      "requested_url": "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+      "final_url": "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "823b971fa0499c911c9d8c02d4fa3e41710009c5a4a036a6e04af65e7b5ad933",
+      "text_len": 3896
+    },
+    {
+      "requested_url": "https://docs.discord.com/developers/reference",
+      "final_url": "https://docs.discord.com/developers/reference",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ee6c90b40b2041230e3b4a3980f7a0eab7700a3f8be60f96b60c6b5f282492a3",
+      "text_len": 19999
+    },
+    {
+      "requested_url": "https://discord.com/pricing",
+      "final_url": "https://discord.com/pricing",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:33Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://docs.discord.com/developers/reference",
+      "final_url": "https://docs.discord.com/developers/reference",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ee6c90b40b2041230e3b4a3980f7a0eab7700a3f8be60f96b60c6b5f282492a3",
+      "text_len": 19999
+    },
+    {
+      "requested_url": "https://docs.discord.com/developers/topics/oauth2",
+      "final_url": "https://docs.discord.com/developers/topics/oauth2",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "06dd27ef13f10541ae73cb0ce81a494cc2cc6aea8ea7c2e4b7539e931e03a50c",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.discord.com/developers/platform/oauth2-and-permissions",
+      "final_url": "https://docs.discord.com/developers/platform/oauth2-and-permissions",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:46Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b1346abca0f52237715951ceefa9d1eb1d36aaaf46cca19c61c60dbb661371f5",
+      "text_len": 2870
+    },
+    {
+      "requested_url": "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+      "final_url": "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "823b971fa0499c911c9d8c02d4fa3e41710009c5a4a036a6e04af65e7b5ad933",
+      "text_len": 3896
+    },
+    {
+      "requested_url": "https://docs.discord.com/developers/bots/overview",
+      "final_url": "https://docs.discord.com/developers/bots/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:46Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "58347a49747c0973856a7e5f2db50570114305c2ff8a1c2fb2015e7bdf51f498",
+      "text_len": 2291
+    },
+    {
+      "requested_url": "https://docs.discord.com/developers/quick-start/getting-started",
+      "final_url": "https://docs.discord.com/developers/quick-start/getting-started",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "67aa22c81dcdd1e8f372747bd86391664e5a04fdcee0b198d6911f4a736ef1f3",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.discord.com/developers/reference",
+        "quote": "Only applicable for OAuth2 API token endpoints.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.discord.com/developers/reference",
+        "quote": "Using an OAuth2 bearer token gained through the OAuth2 API.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "quote": "We support the authorization code grant, the implicit grant, client credentials, and some modified special-for-Discord flows for Bots and Webhooks.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.discord.com/developers/platform/oauth2-and-permissions",
+        "quote": "When you create a bot user in the Developer Portal, Discord generates a bot token.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "quote": "Some scopes require approval from Discord to use.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.discord.com/developers/reference",
+        "quote": "The Discord API is a REST API that allows you to interact with Discord data from your own applications.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+        "quote": "You can use the Discord OpenAPI Spec to generate a client in your preferred backend language",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://devhunt.org/mcp/for/discord",
+        "quote": "Discord has no official MCP server yet; these community servers are maintained and in use.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.discord.com/developers/reference",
+        "quote": "It's the primary way to interact with Discord from your own code.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://discord.com",
+        "quote": "Discord is great for playing games and chilling with friends, or even building a worldwide community.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "basic_transport_not_method"
+    ],
+    "findings": [
+      {
+        "rule": "basic_transport_not_method",
+        "source": "llm",
+        "reason": "The row lists basic, but the evidence note says Basic auth is only used for the OAuth2 token endpoints, which carries client credentials. It is not a username and password login, so basic is not a separate method.",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "url": "https://docs.discord.com/developers/reference",
+            "quote": "Using basic authentication with"
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth"
+    ],
+    "claims": [
+      "auth"
+    ],
+    "review_searches": [
+      {
+        "query": "Discord API authentication OAuth API key",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://docs.discord.com/developers/reference",
+            "title": "API Reference",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Reference\n\n> The Discord API is a REST API that allows you to interact with Discord data from your own applicati"
+          },
+          {
+            "url": "https://docs.discord.com/developers/topics/oauth2",
+            "title": "OAuth2",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth2\n\nOAuth2 enables application developers to build applications that utilize authentication and data from the Di"
+          },
+          {
+            "url": "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+            "title": "Use with Discord APIs",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Use with Discord APIs\n\n> Combine Discord Social SDK with Discord's REST APIs for enhanced functionality.\n\n## Overvie"
+          },
+          {
+            "url": "https://apis.io/security/discord/discord-authentication/",
+            "title": "Discord API Authentication",
+            "snippet": "Discord API Authentication | APIs.io\n\n# Discord Authentication\n\nAuthentication\n\nDiscord secures its APIs with apiKey, http, and oauth2 across 4 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode, clientCredentials, and implicit flow(s)."
+          },
+          {
+            "url": "https://docs.discord.com/developers/quick-start/getting-started",
+            "title": "Building your first Discord Bot",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Building your first Discord Bot\n\n> Step-by-step tutorial for building your first Discord app.\n\nDiscord apps let you "
+          }
+        ]
+      },
+      {
+        "query": "site:discord.com API authentication",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://docs.discord.com/developers/reference",
+            "title": "API Reference",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Reference\n\n> The Discord API is a REST API that allows you to interact with Discord data from your own applicati"
+          },
+          {
+            "url": "https://docs.discord.com/developers/platform/oauth2-and-permissions",
+            "title": "OAuth2 and Permissions",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth2 and Permissions\n\n> How OAuth2, scopes, and permissions work across the Discord platform.\n\nDiscord uses OAuth2"
+          },
+          {
+            "url": "https://docs.discord.com/developers/topics/oauth2",
+            "title": "OAuth2",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth2\n\nOAuth2 enables application developers to build applications that utilize authentication and data from the Di"
+          },
+          {
+            "url": "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+            "title": "Use with Discord APIs",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Use with Discord APIs\n\n> Combine Discord Social SDK with Discord's REST APIs for enhanced functionality.\n\n## Overvie"
+          },
+          {
+            "url": "https://docs.discord.com/developers/bots/overview",
+            "title": "Discord Bots & Companion Apps",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.discord.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Discord Bots & Companion Apps\n\n> Start building bots and companion apps for Discord.\n\nBots are applications that con"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://docs.discord.com/developers/reference",
+        "final_url": "https://docs.discord.com/developers/reference",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:45Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "ee6c90b40b2041230e3b4a3980f7a0eab7700a3f8be60f96b60c6b5f282492a3",
+        "text_len": 19999
+      },
+      {
+        "requested_url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:45Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "06dd27ef13f10541ae73cb0ce81a494cc2cc6aea8ea7c2e4b7539e931e03a50c",
+        "text_len": 20000
+      },
+      {
+        "requested_url": "https://docs.discord.com/developers/platform/oauth2-and-permissions",
+        "final_url": "https://docs.discord.com/developers/platform/oauth2-and-permissions",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:46Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "b1346abca0f52237715951ceefa9d1eb1d36aaaf46cca19c61c60dbb661371f5",
+        "text_len": 2870
+      },
+      {
+        "requested_url": "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+        "final_url": "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:45Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "823b971fa0499c911c9d8c02d4fa3e41710009c5a4a036a6e04af65e7b5ad933",
+        "text_len": 3896
+      },
+      {
+        "requested_url": "https://docs.discord.com/developers/bots/overview",
+        "final_url": "https://docs.discord.com/developers/bots/overview",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:46Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "58347a49747c0973856a7e5f2db50570114305c2ff8a1c2fb2015e7bdf51f498",
+        "text_len": 2291
+      },
+      {
+        "requested_url": "https://docs.discord.com/developers/quick-start/getting-started",
+        "final_url": "https://docs.discord.com/developers/quick-start/getting-started",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:45Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "67aa22c81dcdd1e8f372747bd86391664e5a04fdcee0b198d6911f4a736ef1f3",
+        "text_len": 20000
+      }
+    ]
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

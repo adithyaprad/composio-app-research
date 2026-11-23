@@ -1,0 +1,1168 @@
+{
+  "status": "pending_human_check",
+  "seed": 42,
+  "n": 10,
+  "population": 100,
+  "excluded_count": 30,
+  "excluded_sets": [
+    "schema/gold_sample.jsonl",
+    "schema/holdout_sample.jsonl"
+  ],
+  "items": [
+    {
+      "slug": "copper",
+      "name": "Copper",
+      "category": "crm_and_sales",
+      "auth_methods": [
+        "oauth2",
+        "api_key"
+      ],
+      "primary_auth": "oauth2",
+      "access": "self_serve",
+      "api_types": [
+        "rest"
+      ],
+      "has_public_docs": true,
+      "mcp_status": "none",
+      "mcp_url": null,
+      "verdict": "buildable_now",
+      "blocker": "none",
+      "confidence": "medium",
+      "notes": "Rendered pages confirm API keys (self-generated in System settings) and OAuth2.0 (preferred for partner integrations). The earlier note that OAuth client registration goes through partners@copper.com was not re-checked in the rendered pages. The official Copper MCP is not live: copper.com/mcp says the beta launches in November 2026, read-only, with a waitlist. Copper GPT (ChatGPT) exists separately. Which plans include API access is unclear. Copper works only with Gmail and Google Workspace.",
+      "needs_human": true,
+      "needs_human_reason": "confidence is still not high after pass 3; notes report conflicting docs, a login wall, a deprecation or migration, or a claim the browser pass left unverified",
+      "evidence": [
+        {
+          "claim": "auth",
+          "url": "https://developer.copper.com/introduction/authentication.html",
+          "source_type": "official_docs",
+          "note": "Two documented methods: API keys and OAuth2.0, with OAuth2.0 preferred for partner integrations. (rendered in browser; screenshot screenshots/copper/02-90b1656d72.jpg)",
+          "quotes": [
+            "There are two ways to access the Copper Developer API: API keys and OAuth2.0.",
+            "OAuth2.0 is the preferred approach for partner integrations."
+          ],
+          "screenshots": [
+            "screenshots/copper/02-90b1656d72.jpg"
+          ]
+        },
+        {
+          "claim": "access",
+          "url": "https://developer.copper.com/introduction/authentication.html",
+          "source_type": "official_docs",
+          "note": "Users generate API keys themselves in System settings. (rendered in browser; screenshot screenshots/copper/02-90b1656d72.jpg)",
+          "quotes": [
+            "To generate an API token, in the Copper web app go to System settings > API Keys and click the 'GENERATE API KEY' button."
+          ],
+          "screenshots": [
+            "screenshots/copper/02-90b1656d72.jpg"
+          ]
+        },
+        {
+          "claim": "access",
+          "url": "https://www.copper.com/pricing",
+          "source_type": "official_other",
+          "note": "Free start with no credit card, and an 'API & Embedded integration SDK' row in the plan comparison. (rendered in browser; screenshot screenshots/copper/01-76027c04a9.jpg)",
+          "quotes": [
+            "Start free, no credit card required."
+          ],
+          "screenshots": [
+            "screenshots/copper/01-76027c04a9.jpg"
+          ]
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://developer.copper.com/introduction/oauth/flow.html",
+          "source_type": "official_docs",
+          "note": "REST Developer API at api.copper.com/developer_api/v1",
+          "quotes": [
+            "https://api.copper.com/developer_api/v1/account"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "mcp",
+          "url": "https://www.copper.com/mcp",
+          "source_type": "official_other",
+          "note": "Official MCP is announced only: beta in November 2026 and a waitlist. No server URL, repo or docs page is given. (rendered in browser; screenshot screenshots/copper/03-20cc1cb39d.jpg)",
+          "quotes": [
+            "Copper is launching an official MCP server, built and hosted by Copper. The beta launches in November 2026.",
+            "Request early access to the beta, or join the waitlist for updates as we get closer to launch."
+          ],
+          "screenshots": [
+            "screenshots/copper/03-20cc1cb39d.jpg"
+          ]
+        },
+        {
+          "claim": "verdict",
+          "url": "https://developer.copper.com/introduction/authentication.html",
+          "source_type": "official_docs",
+          "note": "Self-serve API keys against a documented Developer API. (rendered in browser; screenshot screenshots/copper/02-90b1656d72.jpg)",
+          "quotes": [
+            "Users can hold multiple valid tokens at the same time."
+          ],
+          "screenshots": [
+            "screenshots/copper/02-90b1656d72.jpg"
+          ]
+        },
+        {
+          "claim": "verdict",
+          "url": "https://www.copper.com/pricing",
+          "source_type": "official_other",
+          "note": "Instant activation with no credit card, so signup is self-serve. (rendered in browser; screenshot screenshots/copper/01-76027c04a9.jpg)",
+          "quotes": [
+            "Instant activation, no credit card required."
+          ],
+          "screenshots": [
+            "screenshots/copper/01-76027c04a9.jpg"
+          ]
+        }
+      ],
+      "screenshots": [
+        "screenshots/copper/01-76027c04a9.jpg",
+        "screenshots/copper/02-90b1656d72.jpg",
+        "screenshots/copper/03-20cc1cb39d.jpg",
+        "screenshots/copper/04-8c5719c51a.jpg"
+      ],
+      "human_check": {
+        "confirmed": null,
+        "needs_correction": null,
+        "notes": ""
+      }
+    },
+    {
+      "slug": "amazon-selling-partner",
+      "name": "Amazon Selling Partner",
+      "category": "ecommerce",
+      "auth_methods": [
+        "oauth2"
+      ],
+      "primary_auth": "oauth2",
+      "access": "gated_partner",
+      "api_types": [
+        "rest"
+      ],
+      "has_public_docs": true,
+      "mcp_status": "none",
+      "mcp_url": null,
+      "verdict": "buildable_with_approval",
+      "blocker": "gated_access",
+      "confidence": "medium",
+      "notes": "Browser pass confirmed OAuth 2.0 (Login with Amazon) and the review gates for public developers. The Selling Partner plugin (beta, US) for AWS Quick and Claude is a blog announcement only, with no server URL, repo or MCP docs, so mcp_status stays none. The Amazon Ads MCP Server belongs to Amazon Ads, a different product. A private-developer self-authorization path exists (self-authorization, step 2C) but its approval requirements were not shown, so access stays gated_partner. Medium confidence.",
+      "needs_human": true,
+      "needs_human_reason": "access needs vendor outreach (sales demo or manual partner review) a bot cannot pass; confidence is still not high after pass 3",
+      "evidence": [
+        {
+          "claim": "auth",
+          "url": "https://developer.amazonservices.com/start/getting-started-for-public-developers",
+          "source_type": "official_docs",
+          "note": "SP-API authorization is based on Login with Amazon (OAuth 2.0); self-authorization exists for private apps. (rendered in browser; screenshot screenshots/amazon-selling-partner/02-719a3642e7.jpg)",
+          "quotes": [
+            "The authorization model for the Selling Partner API is based on Login with Amazon, Amazon’s implementation of OAuth 2.0."
+          ],
+          "screenshots": [
+            "screenshots/amazon-selling-partner/02-719a3642e7.jpg"
+          ]
+        },
+        {
+          "claim": "access",
+          "url": "https://developer.amazonservices.com/start/getting-started-for-public-developers",
+          "source_type": "official_docs",
+          "note": "Public developers need role qualification, architecture review for restricted roles, and Appstore listing. (rendered in browser; screenshot screenshots/amazon-selling-partner/02-719a3642e7.jpg)",
+          "quotes": [
+            "public developers must list their app in the Amazon Selling Partner Appstore",
+            "you must request and qualify for a particular role, or you will not be able to access the operations and resources grouped under that role."
+          ],
+          "screenshots": [
+            "screenshots/amazon-selling-partner/02-719a3642e7.jpg"
+          ]
+        },
+        {
+          "claim": "access",
+          "url": "https://sell.amazon.com/pricing",
+          "source_type": "official_other",
+          "note": "Paid seller plans listed, including 'Sell with apps and APIs' under the Professional plan. (rendered in browser; screenshot screenshots/amazon-selling-partner/01-05162b962c.jpg)",
+          "quotes": [],
+          "screenshots": []
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://developer-docs.amazon.com/sp-api/",
+          "source_type": "official_docs",
+          "note": "Many APIs: Orders, Listings, Feeds, Reports, FBA, Finances, Vendor",
+          "quotes": [],
+          "screenshots": []
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://developer-docs.amazon.com/amazon-shipping/docs/what-is-the-selling-partner-api",
+          "source_type": "official_docs",
+          "note": "REST-based API with sandbox and SDKs",
+          "quotes": [
+            "The Selling Partner API (SP-API) is a REST-based API that helps Amazon selling partners programmatically access their data on orders, shipments, payments, and much more."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "mcp",
+          "url": "https://sell.amazon.com/blog/announcements/amazons-selling-partner-plugin-ads-mcp",
+          "source_type": "official_other",
+          "note": "Beta Selling Partner plugin announced for AWS Quick and Claude; the only MCP server named is Amazon Ads MCP Server. No SP-API MCP URL or docs. (rendered in browser; screenshot screenshots/amazon-selling-partner/03-61ea7f35b7.jpg)",
+          "quotes": [
+            "the Selling Partner plugin is currently in beta for US stores."
+          ],
+          "screenshots": [
+            "screenshots/amazon-selling-partner/03-61ea7f35b7.jpg"
+          ]
+        },
+        {
+          "claim": "mcp",
+          "url": "https://developer-docs.amazon/sp-api",
+          "source_type": "official_docs",
+          "note": "SP-API docs index lists no MCP server or MCP docs page. (rendered in browser; screenshot screenshots/amazon-selling-partner/04-70a7c17549.jpg)",
+          "quotes": [
+            "Welcome to Selling Partner API Documentation. Learn how to get started and build applications with Amazon's REST-based SP-API."
+          ],
+          "screenshots": [
+            "screenshots/amazon-selling-partner/04-70a7c17549.jpg"
+          ]
+        },
+        {
+          "claim": "verdict",
+          "url": "https://developer.amazonservices.com/start/getting-started-for-public-developers",
+          "source_type": "official_docs",
+          "note": "Documented API, but role qualification, architecture review and Appstore listing are required for public apps. (rendered in browser; screenshot screenshots/amazon-selling-partner/02-719a3642e7.jpg)",
+          "quotes": [
+            "must go through an architecture review with the SP-API Solutions Architecture team."
+          ],
+          "screenshots": [
+            "screenshots/amazon-selling-partner/02-719a3642e7.jpg"
+          ]
+        }
+      ],
+      "screenshots": [
+        "screenshots/amazon-selling-partner/01-05162b962c.jpg",
+        "screenshots/amazon-selling-partner/02-719a3642e7.jpg",
+        "screenshots/amazon-selling-partner/03-61ea7f35b7.jpg",
+        "screenshots/amazon-selling-partner/04-70a7c17549.jpg"
+      ],
+      "human_check": {
+        "confirmed": null,
+        "needs_correction": null,
+        "notes": ""
+      }
+    },
+    {
+      "slug": "liveagent",
+      "name": "LiveAgent",
+      "category": "support_and_helpdesk",
+      "auth_methods": [
+        "api_key"
+      ],
+      "primary_auth": "api_key",
+      "access": "self_serve",
+      "api_types": [
+        "rest"
+      ],
+      "has_public_docs": true,
+      "mcp_status": "official",
+      "mcp_url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
+      "verdict": "buildable_now",
+      "blocker": "none",
+      "confidence": "high",
+      "notes": "Browser pass confirmed self-serve trial signup, API key auth (v3 keys under Configuration > System > API, v1 deprecated) and a live official MCP server. MCP OAuth 2.1 applies to the MCP server only, so it is excluded from auth_methods. The MCP server is only on Business and Enterprise plans. The Swagger API reference was not rendered, so API breadth stays unknown.",
+      "needs_human": true,
+      "needs_human_reason": "notes report conflicting docs, a login wall, a deprecation or migration, or a claim the browser pass left unverified",
+      "evidence": [
+        {
+          "claim": "auth",
+          "url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+          "source_type": "official_docs",
+          "note": "API v3 and v1 use separate API keys generated in the account, with per-key permissions on v3. (rendered in browser; screenshot screenshots/liveagent/02-aa7bf6b127.jpg)",
+          "quotes": [
+            "Both versions can be used simultaneously, but they require separate API keys.",
+            "Navigate to Configuration > System > API."
+          ],
+          "screenshots": [
+            "screenshots/liveagent/02-aa7bf6b127.jpg"
+          ]
+        },
+        {
+          "claim": "access",
+          "url": "https://www.liveagent.com/trial/",
+          "source_type": "official_other",
+          "note": "Online trial signup with no credit card; the account is ready in about a minute and every feature is included. (rendered in browser; screenshot screenshots/liveagent/01-c33b8e0bf5.jpg)",
+          "quotes": [
+            "Your LiveAgent is ready in about a minute",
+            "The trial ends and nothing is charged: we have no card."
+          ],
+          "screenshots": [
+            "screenshots/liveagent/01-c33b8e0bf5.jpg"
+          ]
+        },
+        {
+          "claim": "access",
+          "url": "https://www.liveagent.com/pricing/",
+          "source_type": "official_other",
+          "note": "Self-serve plans with a free trial. Only Enterprise goes through sales. API keys are a plan limit on every plan. (rendered in browser; screenshot screenshots/liveagent/04-e0d114bad8.jpg)",
+          "quotes": [
+            "30-day free trial no credit card"
+          ],
+          "screenshots": [
+            "screenshots/liveagent/04-e0d114bad8.jpg"
+          ]
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://faq.liveagent.com/916372-API-v1-vs-API-v3-in-LiveAgent-Key-Differences-Authentication-and-Resolving-ApiKey-Errors",
+          "source_type": "official_docs",
+          "note": "REST-style v3 endpoints such as POST /api/conversations/{conversationId}/messages; v1 is deprecated.",
+          "quotes": [
+            "POST /api/conversations/{conversationId}/messages"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "mcp",
+          "url": "https://support.liveagent.com/647358-MCP-Integration-for-agents",
+          "source_type": "official_docs",
+          "note": "Official built-in MCP server over Streamable HTTP at /api/mcp, with OAuth 2.1 PKCE or a bearer token. (rendered in browser; screenshot screenshots/liveagent/03-0cfc810319.jpg)",
+          "quotes": [
+            "LiveAgent exposes a built-in MCP server (Model Context Protocol)",
+            "MCP server URL\thttps://<your-liveagent-domain>/api/mcp"
+          ],
+          "screenshots": [
+            "screenshots/liveagent/03-0cfc810319.jpg"
+          ]
+        },
+        {
+          "claim": "mcp",
+          "url": "https://www.liveagent.com/pricing/",
+          "source_type": "official_other",
+          "note": "MCP server is included on the Business and Enterprise plans. (rendered in browser; screenshot screenshots/liveagent/04-e0d114bad8.jpg)",
+          "quotes": [],
+          "screenshots": []
+        },
+        {
+          "claim": "verdict",
+          "url": "https://faq.liveagent.com/535002-LiveAgent-API-v1-vs-v3-Authentication-Differences-API-Key-Management-and-Resolving-403-Errors",
+          "source_type": "official_docs",
+          "note": "Documented API key flow in the account configuration. (rendered in browser; screenshot screenshots/liveagent/02-aa7bf6b127.jpg)",
+          "quotes": [
+            "Generate or manage your API v3 key here."
+          ],
+          "screenshots": [
+            "screenshots/liveagent/02-aa7bf6b127.jpg"
+          ]
+        },
+        {
+          "claim": "verdict",
+          "url": "https://www.liveagent.com/trial/",
+          "source_type": "official_other",
+          "note": "Self-serve signup with no sales step. (rendered in browser; screenshot screenshots/liveagent/01-c33b8e0bf5.jpg)",
+          "quotes": [
+            "Start free trial"
+          ],
+          "screenshots": [
+            "screenshots/liveagent/01-c33b8e0bf5.jpg"
+          ]
+        },
+        {
+          "claim": "one_liner",
+          "url": "https://www.liveagent.com/",
+          "source_type": "official_other",
+          "note": "Product homepage.",
+          "quotes": [
+            "LiveAgent is cloud help desk software for small and growing support teams"
+          ],
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "screenshots/liveagent/01-c33b8e0bf5.jpg",
+        "screenshots/liveagent/02-aa7bf6b127.jpg",
+        "screenshots/liveagent/03-0cfc810319.jpg",
+        "screenshots/liveagent/04-e0d114bad8.jpg"
+      ],
+      "human_check": {
+        "confirmed": null,
+        "needs_correction": null,
+        "notes": ""
+      }
+    },
+    {
+      "slug": "jira",
+      "name": "Jira",
+      "category": "productivity_and_project_management",
+      "auth_methods": [
+        "oauth2",
+        "api_key",
+        "jwt_service_account"
+      ],
+      "primary_auth": "oauth2",
+      "access": "self_serve",
+      "api_types": [
+        "rest"
+      ],
+      "has_public_docs": true,
+      "mcp_status": "official",
+      "mcp_url": "https://developer.atlassian.com/cloud/rovo-mcp/",
+      "verdict": "buildable_now",
+      "blocker": "none",
+      "confidence": "high",
+      "notes": "Browser pass confirmed self-serve access: Free plan and trials need no sales contact, and OAuth apps are created in the developer console. Basic is dropped as a separate method because the Basic header only carries email + API token (api_key). JWT applies to Connect apps. Atlassian policy says apps that collect API tokens or ask customers to make their own 3LO apps violate its policy; distributable apps should use one 3LO app. Rovo MCP API-token auth needs org admin enablement, and some Rovo tools use credits. Pricing page notes usage-based billing starting Dec 3, 2026. Data Center is not covered. Admin requirement for app install not shown.",
+      "needs_human": false,
+      "needs_human_reason": null,
+      "evidence": [
+        {
+          "claim": "auth",
+          "url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+          "source_type": "official_docs",
+          "note": "OAuth 2.0 (3LO) lets external apps call Atlassian product APIs on a user's behalf; apps are created in the developer console.",
+          "quotes": [
+            "OAuth 2.0 (3LO) allows external applications and services to access Atlassian product APIs on a user's behalf."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "auth",
+          "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+          "source_type": "official_docs",
+          "note": "Email + API token is sent over the HTTP Basic scheme (counted as api_key). Passwords are deprecated. Connect apps use JWT.",
+          "quotes": [
+            "basic authentication with an Atlassian account email address and API token. Authentication using passwords has been deprecated.",
+            "Forge apps and Connect apps use more secure methods for authentication: OAuth 2.0 and JWT respectively."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "access",
+          "url": "https://www.atlassian.com/software/jira/pricing",
+          "source_type": "official_other",
+          "note": "Pricing page shows a Free plan ($0, up to 10 users) and self-serve free trials for Standard and Premium; Rovo MCP Server is listed among plan features. (rendered in browser; screenshot screenshots/jira/01-0663cd8aff.jpg)",
+          "quotes": [
+            "Free forever for 10 users",
+            "Start free trial"
+          ],
+          "screenshots": [
+            "screenshots/jira/01-0663cd8aff.jpg"
+          ]
+        },
+        {
+          "claim": "access",
+          "url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+          "source_type": "official_docs",
+          "note": "OAuth 2.0 (3LO) apps are created and managed by developers in the developer console, with no vendor review step described. (rendered in browser; screenshot screenshots/jira/03-f06af199ca.jpg)",
+          "quotes": [
+            "OAuth 2.0 (3LO) apps are created and managed in the developer console."
+          ],
+          "screenshots": [
+            "screenshots/jira/03-f06af199ca.jpg"
+          ]
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+          "source_type": "official_docs",
+          "note": "Jira Cloud REST API at /rest/api/2/ endpoints",
+          "quotes": [
+            "https://your-domain.atlassian.net/rest/api/2/issue/createmeta"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "mcp",
+          "url": "https://developer.atlassian.com/cloud/rovo-mcp/",
+          "source_type": "official_docs",
+          "note": "Official Atlassian Rovo MCP Server covering Jira",
+          "quotes": [
+            "The Atlassian Rovo MCP Server is a cloud-hosted Model Context Protocol (MCP) server that connects AI-powered clients to your Atlassian Cloud apps."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "verdict",
+          "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+          "source_type": "official_docs",
+          "note": "Documented REST API with self-serve API tokens",
+          "quotes": [
+            "You generate an API token for your Atlassian account and use it to authenticate anywhere where you would have used a password."
+          ],
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "screenshots/jira/01-0663cd8aff.jpg",
+        "screenshots/jira/02-29e487b114.jpg",
+        "screenshots/jira/03-f06af199ca.jpg"
+      ],
+      "human_check": {
+        "confirmed": null,
+        "needs_correction": null,
+        "notes": ""
+      }
+    },
+    {
+      "slug": "higgsfield",
+      "name": "higgsfield",
+      "category": "ai_research_and_media",
+      "auth_methods": [
+        "api_key"
+      ],
+      "primary_auth": "api_key",
+      "access": "self_serve_paid",
+      "api_types": [
+        "rest"
+      ],
+      "has_public_docs": true,
+      "mcp_status": "official",
+      "mcp_url": "https://mcp.higgsfield.ai/mcp",
+      "verdict": "buildable_now",
+      "blocker": "none",
+      "confidence": "medium",
+      "notes": "'Contact sales' on the pricing page is for the Enterprise tier only. Individual plans are online, and API credentials come from Higgsfield Console. The browser pass could not confirm whether the API requires a paid plan, because the billing page was not rendered. It also could not confirm the MCP server URL, so the earlier help-center evidence stands. MCP and CLI use OAuth or browser sign-in, which is not developer API auth, so oauth2 is excluded. MCP and CLI deduct credits, and unlimited or free generations do not apply there.",
+      "needs_human": true,
+      "needs_human_reason": "confidence is still not high after pass 3; notes report conflicting docs, a login wall, a deprecation or migration, or a claim the browser pass left unverified",
+      "evidence": [
+        {
+          "claim": "auth",
+          "url": "https://docs.higgsfield.ai/docs/authentication",
+          "source_type": "official_docs",
+          "note": "Key ID and secret sent in the Authorization header (rendered in browser; screenshot screenshots/higgsfield/02-95f5a77cb3.jpg)",
+          "quotes": [
+            "Authorization: Key YOUR_KEY_ID:YOUR_KEY_SECRET",
+            "Create and manage API credentials in Higgsfield Console. Each credential consists of a key ID and a secret."
+          ],
+          "screenshots": [
+            "screenshots/higgsfield/02-95f5a77cb3.jpg"
+          ]
+        },
+        {
+          "claim": "access",
+          "url": "https://docs.higgsfield.ai/docs",
+          "source_type": "official_docs",
+          "note": "Docs offer a 'Get an API key' path; credentials are created in Higgsfield Console, with no sales step mentioned (rendered in browser; screenshot screenshots/higgsfield/04-671af07ffc.jpg)",
+          "quotes": [
+            "Create and manage server-side credentials in Higgsfield Console."
+          ],
+          "screenshots": [
+            "screenshots/higgsfield/04-671af07ffc.jpg"
+          ]
+        },
+        {
+          "claim": "access",
+          "url": "https://higgsfield.ai/pricing.md",
+          "source_type": "official_other",
+          "note": "Public self-serve plans with prices; 'contact sales' applies only to the Enterprise tier (rendered in browser; screenshot screenshots/higgsfield/01-449f62accb.jpg)",
+          "quotes": [
+            "Enterprise: custom pricing, tailored to the organization. Contact sales at https://higgsfield.ai/enterprise."
+          ],
+          "screenshots": [
+            "screenshots/higgsfield/01-449f62accb.jpg"
+          ]
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://docs.higgsfield.ai/docs",
+          "source_type": "official_docs",
+          "note": "Async REST API for generative media models with polling and webhooks",
+          "quotes": [
+            "Submit a request to a model endpoint, then poll for the result or receive a webhook when processing finishes."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "mcp",
+          "url": "https://higgsfield.ai/pricing.md",
+          "source_type": "official_other",
+          "note": "Official pricing page refers to MCP/CLI usage. The MCP server URL itself was not on the rendered pages. (rendered in browser; screenshot screenshots/higgsfield/01-449f62accb.jpg)",
+          "quotes": [
+            "Unlimited access and free generations are not available in MCP/CLI, Canvas, or Supercomputer."
+          ],
+          "screenshots": [
+            "screenshots/higgsfield/01-449f62accb.jpg"
+          ]
+        },
+        {
+          "claim": "verdict",
+          "url": "https://docs.higgsfield.ai/docs",
+          "source_type": "official_docs",
+          "note": "Documented async REST API with self-serve credentials (rendered in browser; screenshot screenshots/higgsfield/04-671af07ffc.jpg)",
+          "quotes": [
+            "Generate images and videos through one authenticated, asynchronous API."
+          ],
+          "screenshots": [
+            "screenshots/higgsfield/04-671af07ffc.jpg"
+          ]
+        },
+        {
+          "claim": "verdict",
+          "url": "https://docs.higgsfield.ai/docs/authentication",
+          "source_type": "official_docs",
+          "note": "Documented API key auth (rendered in browser; screenshot screenshots/higgsfield/02-95f5a77cb3.jpg)",
+          "quotes": [
+            "Authenticate server-side API requests with your Higgsfield key and secret."
+          ],
+          "screenshots": [
+            "screenshots/higgsfield/02-95f5a77cb3.jpg"
+          ]
+        }
+      ],
+      "screenshots": [
+        "screenshots/higgsfield/01-449f62accb.jpg",
+        "screenshots/higgsfield/02-95f5a77cb3.jpg",
+        "screenshots/higgsfield/03-bc88d11469.jpg",
+        "screenshots/higgsfield/04-671af07ffc.jpg"
+      ],
+      "human_check": {
+        "confirmed": null,
+        "needs_correction": null,
+        "notes": ""
+      }
+    },
+    {
+      "slug": "devin",
+      "name": "Devin",
+      "category": "ai_research_and_media",
+      "auth_methods": [
+        "api_key"
+      ],
+      "primary_auth": "api_key",
+      "access": "self_serve_paid",
+      "api_types": [
+        "rest"
+      ],
+      "has_public_docs": true,
+      "mcp_status": "official",
+      "mcp_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+      "verdict": "buildable_now",
+      "blocker": "none",
+      "confidence": "medium",
+      "notes": "Browser pass confirmed official MCP server and cog_ Bearer token auth (service user keys, PATs). The pricing page lists a Devin API row but the rendered text does not show which plans include it. Service user keys are provisioned in org/enterprise settings, likely by an admin. Legacy v1/v2 apk_ keys deprecated. Confidence stays medium.",
+      "needs_human": true,
+      "needs_human_reason": "confidence is still not high after pass 3; notes report conflicting docs, a login wall, a deprecation or migration, or a claim the browser pass left unverified",
+      "evidence": [
+        {
+          "claim": "auth",
+          "url": "https://docs.devin.ai/api-reference/authentication",
+          "source_type": "official_docs",
+          "note": "Service user API keys and PATs, both cog_ Bearer tokens; no OAuth for the API described (rendered in browser; screenshot screenshots/devin/02-afe65daee7.jpg)",
+          "quotes": [
+            "All API credentials use the cog_ prefix format. Include your token in the Authorization header of every request",
+            "Service User (non-human) Service User API Key For automated integrations and CI/CD pipelines"
+          ],
+          "screenshots": [
+            "screenshots/devin/02-afe65daee7.jpg"
+          ]
+        },
+        {
+          "claim": "access",
+          "url": "https://devin.ai/pricing",
+          "source_type": "official_other",
+          "note": "Self-serve Free/Pro/Max/Team plans with Select plan checkout; Devin API row appears in plan comparison; Enterprise is demo/sales (rendered in browser; screenshot screenshots/devin/01-abdab1b3ff.jpg)",
+          "quotes": [
+            "Pro POPULAR $20 PER MONTH Select plan"
+          ],
+          "screenshots": [
+            "screenshots/devin/01-abdab1b3ff.jpg"
+          ]
+        },
+        {
+          "claim": "access",
+          "url": "https://docs.devin.ai/get-started/devin-intro",
+          "source_type": "official_docs",
+          "note": "Sign up at app.devin.ai; Individual and Teams plans (rendered in browser; screenshot screenshots/devin/04-7ceea0f5a5.jpg)",
+          "quotes": [
+            "To access Devin, sign up at app.devin.ai. Individual and Teams plans are available."
+          ],
+          "screenshots": [
+            "screenshots/devin/04-7ceea0f5a5.jpg"
+          ]
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://docs.devin.ai/api-reference/authentication",
+          "source_type": "official_docs",
+          "note": "v3 REST endpoints under api.devin.ai/v3/organizations and /v3/enterprise",
+          "quotes": [
+            "curl -X GET \"https://api.devin.ai/v3/organizations/$DEVIN_ORG_ID/sessions\""
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://docs.devin.ai/llms.txt",
+          "source_type": "official_docs",
+          "note": "API section lists 315 pages",
+          "quotes": [
+            "API (315 pages)"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "mcp",
+          "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+          "source_type": "official_docs",
+          "note": "Official Devin MCP server at https://mcp.devin.ai/ with API-key auth and session/playbook/knowledge tools (rendered in browser; screenshot screenshots/devin/03-3cdfab2a58.jpg)",
+          "quotes": [
+            "Base Server URL: https://mcp.devin.ai/",
+            "Set up the official Devin MCP server so external AI tools can manage sessions, playbooks, knowledge, and repository docs."
+          ],
+          "screenshots": [
+            "screenshots/devin/03-3cdfab2a58.jpg"
+          ]
+        },
+        {
+          "claim": "verdict",
+          "url": "https://docs.devin.ai/api-reference/authentication",
+          "source_type": "official_docs",
+          "note": "Documented token auth and v3 endpoints; keys provisioned in settings (rendered in browser; screenshot screenshots/devin/02-afe65daee7.jpg)",
+          "quotes": [
+            "curl -X GET \"https://api.devin.ai/v3/organizations/$DEVIN_ORG_ID/sessions\""
+          ],
+          "screenshots": [
+            "screenshots/devin/02-afe65daee7.jpg"
+          ]
+        },
+        {
+          "claim": "verdict",
+          "url": "https://devin.ai/pricing",
+          "source_type": "official_other",
+          "note": "Self-serve paid plans with Devin API listed in comparison (rendered in browser; screenshot screenshots/devin/01-abdab1b3ff.jpg)",
+          "quotes": [
+            "Devin API"
+          ],
+          "screenshots": [
+            "screenshots/devin/01-abdab1b3ff.jpg"
+          ]
+        }
+      ],
+      "screenshots": [
+        "screenshots/devin/01-abdab1b3ff.jpg",
+        "screenshots/devin/02-afe65daee7.jpg",
+        "screenshots/devin/03-3cdfab2a58.jpg",
+        "screenshots/devin/04-7ceea0f5a5.jpg"
+      ],
+      "human_check": {
+        "confirmed": null,
+        "needs_correction": null,
+        "notes": ""
+      }
+    },
+    {
+      "slug": "consensus",
+      "name": "Consensus",
+      "category": "ai_research_and_media",
+      "auth_methods": [
+        "api_key"
+      ],
+      "primary_auth": "api_key",
+      "access": "self_serve",
+      "api_types": [
+        "rest"
+      ],
+      "has_public_docs": true,
+      "mcp_status": "official",
+      "mcp_url": "https://docs.consensus.app/consensus-mcp",
+      "verdict": "buildable_now",
+      "blocker": "none",
+      "confidence": "high",
+      "notes": "The MCP server uses OAuth 2.0 (with Dynamic Client Registration) for sign-in. The docs do not describe OAuth for the REST API, so it is excluded from auth_methods. The MCP also accepts API keys as Bearer tokens. M365 Copilot needs a tenant admin to add the connector. Legacy /v1/quick_search is deprecated. Research Agent Threads are available through the API.",
+      "needs_human": true,
+      "needs_human_reason": "notes report conflicting docs, a login wall, a deprecation or migration, or a claim the browser pass left unverified",
+      "evidence": [
+        {
+          "claim": "auth",
+          "url": "https://docs.consensus.app/api-get-started",
+          "source_type": "official_docs",
+          "note": "API key in x-api-key header, created in dashboard",
+          "quotes": [
+            "`query` is the only required parameter, and the key goes in the `x-api-key` header.",
+            "Click Create API key, name the key, and click Copy API key."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "access",
+          "url": "https://docs.consensus.app/api-get-started",
+          "source_type": "official_docs",
+          "note": "Free plan includes API access and 30 calls/month",
+          "quotes": [
+            "Every plan includes API access, and the Free plan includes 30 calls a month."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "access",
+          "url": "https://docs.consensus.app/core-features/mcp",
+          "source_type": "official_docs",
+          "note": "API is self-serve and open to everyone",
+          "quotes": [
+            "It's self-serve and open to everyone."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://docs.consensus.app/api-reference/search",
+          "source_type": "official_docs",
+          "note": "OpenAPI spec for GET /v1/search with filters",
+          "quotes": [
+            "The supported endpoint for searching academic papers."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "mcp",
+          "url": "https://docs.consensus.app/consensus-mcp",
+          "source_type": "official_docs",
+          "note": "Official hosted MCP server at mcp.consensus.app/mcp",
+          "quotes": [
+            "https://mcp.consensus.app/mcp",
+            "One hosted server covers every field of science"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "verdict",
+          "url": "https://docs.consensus.app/mcp-plans-and-access",
+          "source_type": "official_docs",
+          "note": "Plan limits, metered usage, and API keys also work on MCP",
+          "quotes": [
+            "Any Consensus API key works on the MCP server."
+          ],
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "human_check": {
+        "confirmed": null,
+        "needs_correction": null,
+        "notes": ""
+      }
+    },
+    {
+      "slug": "otter-ai",
+      "name": "Otter AI",
+      "category": "ai_research_and_media",
+      "auth_methods": [
+        "api_key"
+      ],
+      "primary_auth": "api_key",
+      "access": "gated_sales",
+      "api_types": [
+        "rest"
+      ],
+      "has_public_docs": true,
+      "mcp_status": "official",
+      "mcp_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+      "verdict": "buildable_with_approval",
+      "blocker": "gated_access",
+      "confidence": "high",
+      "notes": "MCP uses OAuth, which applies to the MCP server only and is kept out of auth_methods. Zapier docs say Pro, Business and Enterprise can create API keys under Developer, but the Public API is Enterprise-only. Super Admin endpoints need a super admin. MCP is on all plans, including Basic.",
+      "needs_human": true,
+      "needs_human_reason": "access needs vendor outreach (sales demo or manual partner review) a bot cannot pass",
+      "evidence": [
+        {
+          "claim": "auth",
+          "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+          "source_type": "official_docs",
+          "note": "Bearer API key created under Integrations → Developer",
+          "quotes": [
+            "All API requests require authentication using Bearer token authentication."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "access",
+          "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+          "source_type": "official_docs",
+          "note": "Public API only for Enterprise workspaces; contact the account manager",
+          "quotes": [
+            "Otter's Public API is available for all Enterprise workspaces. If you do not see this feature for your workspace, contact your Otter account manager."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "access",
+          "url": "https://otter.ai/pricing",
+          "source_type": "official_other",
+          "note": "Enterprise is custom pricing and lists Otter API & Webhooks",
+          "quotes": [
+            "Custom pricing"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+          "source_type": "official_docs",
+          "note": "REST endpoints at api.otter.ai/v1 for channels, conversations, transcripts and more, with webhooks",
+          "quotes": [
+            "programmatic access to retrieve channels, conversations, transcripts, audio, action items, insights, outlines, and workspace details from your Otter account"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "mcp",
+          "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+          "source_type": "official_docs",
+          "note": "Official MCP server at https://mcp.otter.ai/mcp, with OAuth sign-in",
+          "quotes": [
+            "\"url\": \"https://mcp.otter.ai/mcp\""
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "verdict",
+          "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+          "source_type": "official_docs",
+          "note": "The documented API is gated to Enterprise workspaces",
+          "quotes": [
+            "Otter's Public API is available for all Enterprise workspaces."
+          ],
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "human_check": {
+        "confirmed": null,
+        "needs_correction": null,
+        "notes": ""
+      }
+    },
+    {
+      "slug": "plain",
+      "name": "Plain",
+      "category": "support_and_helpdesk",
+      "auth_methods": [
+        "oauth2",
+        "api_key"
+      ],
+      "primary_auth": "oauth2",
+      "access": "self_serve",
+      "api_types": [
+        "graphql"
+      ],
+      "has_public_docs": true,
+      "mcp_status": "official",
+      "mcp_url": "https://www.plain.com/docs/integrations/mcp-server",
+      "verdict": "buildable_now",
+      "blocker": "none",
+      "confidence": "high",
+      "notes": "OAuth apps work only in the workspace where they were created. The MCP server is OAuth-only (not in auth_methods since it is MCP-specific). Webhooks also exist. Some changes (API keys, billing, webhooks) are app-only. Admin requirements for creating OAuth apps or machine users are not stated.",
+      "needs_human": false,
+      "needs_human_reason": null,
+      "evidence": [
+        {
+          "claim": "auth",
+          "url": "https://www.plain.com/docs/graphql/oauth",
+          "source_type": "official_docs",
+          "note": "OAuth 2.0 authorization code flow with PKCE for apps calling the API as a workspace user",
+          "quotes": [
+            "Your app gets an access token with the OAuth 2.0 authorization code flow"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "auth",
+          "url": "https://www.plain.com/docs/graphql/authentication",
+          "source_type": "official_docs",
+          "note": "Machine user API keys sent as Bearer header",
+          "quotes": [
+            "pass it on any API call as a header: Authorization: Bearer plainApiKey_xxx"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "access",
+          "url": "https://www.plain.com/pricing",
+          "source_type": "official_other",
+          "note": "7 day free trial, no credit card required; API listed under Developer platform",
+          "quotes": [
+            "7 day free trial No credit card required"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "access",
+          "url": "https://www.plain.com/docs/graphql/authentication",
+          "source_type": "official_docs",
+          "note": "Developers create machine users and API keys in Settings themselves",
+          "quotes": [
+            "Go to Settings → Machine users & agents and click Add machine user."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://www.plain.com/docs/graphql/authentication",
+          "source_type": "official_docs",
+          "note": "GraphQL API with fine-grained key permissions",
+          "quotes": [
+            "Each API key carries its own fine-grained permissions."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://www.plain.com/blog/mcp-customer-support-2026",
+          "source_type": "official_other",
+          "note": "MCP sits on top of Plain's GraphQL API",
+          "quotes": [
+            "For Plain that's the GraphQL API"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "mcp",
+          "url": "https://www.plain.com/docs/integrations/mcp-server",
+          "source_type": "official_docs",
+          "note": "Official MCP server at mcp.plain.com/mcp, ~400 tools",
+          "quotes": [
+            "The Plain MCP server at `https://mcp.plain.com/mcp` lets tools like Claude, ChatGPT, and Cursor work with your support data directly."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "mcp",
+          "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+          "source_type": "official_docs",
+          "note": "MCP server is OAuth only",
+          "quotes": [
+            "The Plain Model Context Protocol (MCP) server at `https://mcp.plain.com/mcp` supports OAuth only."
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "verdict",
+          "url": "https://www.plain.com/pricing",
+          "source_type": "official_other",
+          "note": "Free trial with no card; API on plans",
+          "quotes": [
+            "Developer platform API, Webhooks, Events, MCP, Custom channels"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "verdict",
+          "url": "https://www.plain.com/docs/graphql/oauth",
+          "source_type": "official_docs",
+          "note": "Documented self-service OAuth app creation",
+          "quotes": [],
+          "screenshots": []
+        },
+        {
+          "claim": "one_liner",
+          "url": "https://plain.com",
+          "source_type": "official_other",
+          "note": "Homepage describes the platform",
+          "quotes": [
+            "Plain is the agentic platform to orchestrate customer work."
+          ],
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "human_check": {
+        "confirmed": null,
+        "needs_correction": null,
+        "notes": ""
+      }
+    },
+    {
+      "slug": "sherlock",
+      "name": "Sherlock",
+      "category": "data_seo_and_scraping",
+      "auth_methods": [
+        "none"
+      ],
+      "primary_auth": "none",
+      "access": "self_serve",
+      "api_types": [
+        "cli_only"
+      ],
+      "has_public_docs": true,
+      "mcp_status": "community",
+      "mcp_url": "https://github.com/Burnsedia/sherlock-mcp",
+      "verdict": "buildable_now",
+      "blocker": "none",
+      "confidence": "high",
+      "notes": "Rendered pages confirm the sherlock-project OSINT CLI is a local tool with no hosted API and no auth. The only MCP is the community Burnsedia/sherlock-mcp wrapper; the sherlock-project README shows no official MCP. Checks scrape third-party sites, so their terms and rate limits may apply. sherlockproject.xyz was not fetched.",
+      "needs_human": false,
+      "needs_human_reason": null,
+      "evidence": [
+        {
+          "claim": "auth",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "source_type": "official_other",
+          "note": "README install and usage steps and the --help flags show no credentials or API key. (rendered in browser; screenshot screenshots/sherlock/01-eb8e266816.jpg)",
+          "quotes": [
+            "pipx install sherlock-project",
+            "Make requests over a proxy. e.g. socks5://127.0.0.1:1080"
+          ],
+          "screenshots": [
+            "screenshots/sherlock/01-eb8e266816.jpg"
+          ]
+        },
+        {
+          "claim": "access",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "source_type": "official_other",
+          "note": "MIT-licensed open-source CLI, installable by anyone via pipx or Docker with no signup. (rendered in browser; screenshot screenshots/sherlock/01-eb8e266816.jpg)",
+          "quotes": [
+            "MIT © Sherlock Project",
+            "docker run -it --rm sherlock/sherlock"
+          ],
+          "screenshots": [
+            "screenshots/sherlock/01-eb8e266816.jpg"
+          ]
+        },
+        {
+          "claim": "api_surface",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "source_type": "official_other",
+          "note": "README documents the CLI usage and flags (--json, --csv, --site, --proxy). There is no hosted API.",
+          "quotes": [
+            "Accounts found will be stored in an individual text file with the corresponding username"
+          ],
+          "screenshots": []
+        },
+        {
+          "claim": "mcp",
+          "url": "https://github.com/Burnsedia/sherlock-mcp",
+          "source_type": "community",
+          "note": "Third-party FastMCP server wrapping the Sherlock CLI, with a search_username tool. It is not in the sherlock-project org. (rendered in browser; screenshot screenshots/sherlock/02-0fad000af5.jpg)",
+          "quotes": [
+            "FastMCP server integration for the Sherlock OSINT tool",
+            "Tool: search_username"
+          ],
+          "screenshots": [
+            "screenshots/sherlock/02-0fad000af5.jpg"
+          ]
+        },
+        {
+          "claim": "verdict",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "source_type": "official_other",
+          "note": "A local CLI with documented flags (--json, --csv, --xlsx, --site) can be wrapped, so it is buildable now. (rendered in browser; screenshot screenshots/sherlock/01-eb8e266816.jpg)",
+          "quotes": [
+            "Hunt down social media accounts by username across 400+ social networks",
+            "Create Comma-Separated Values (CSV) File."
+          ],
+          "screenshots": [
+            "screenshots/sherlock/01-eb8e266816.jpg"
+          ]
+        }
+      ],
+      "screenshots": [
+        "screenshots/sherlock/01-eb8e266816.jpg",
+        "screenshots/sherlock/02-0fad000af5.jpg"
+      ],
+      "human_check": {
+        "confirmed": null,
+        "needs_correction": null,
+        "notes": ""
+      }
+    }
+  ]
+}

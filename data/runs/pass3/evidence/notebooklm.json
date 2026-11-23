@@ -1,0 +1,760 @@
+{
+  "slug": "notebooklm",
+  "searches": [
+    {
+      "query": "NotebookLM API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.google.com/notebook/docs/authentication",
+          "title": "Authentication  |  Gemini Notebook API  |  Google for Developers",
+          "snippet": "Authentication | Gemini Notebook API | Google for Developers\n\n Authentication\n\nThe Gemini Notebook API uses OAuth 2.0 to authenticate requests on behalf of a Google user. Every request must include an OAuth 2.0 Bearer token in the `Authorization` HTTP header. The API doesn't accept API keys.\n\n## Bef"
+        },
+        {
+          "url": "https://developers.google.com/notebook/docs",
+          "title": "Gemini Notebook API  |  Google for Developers",
+          "snippet": "Gemini Notebook API | Google for Developers\n\n Gemini Notebook API\n\nThe Gemini Notebook API is a REST interface for programmatically creating and managing notebooks and sources in Gemini Notebook. Ingest web pages, YouTube videos, plain text, Markdown, and uploaded files (such as PDFs, documents, aud"
+        },
+        {
+          "url": "https://developers.google.com/notebook/docs/mcp",
+          "title": "Model Context Protocol (MCP)  |  Gemini Notebook API  |  Google for Developers",
+          "snippet": "Model Context Protocol (MCP) | Gemini Notebook API | Google for Developers\n\n Model Context Protocol (MCP)\n\nThe Gemini Notebook API provides a remote Model Context Protocol (MCP) server at `https://notebook.googleapis.com/mcp`. Connecting an MCP-compatible agent or IDE to this endpoint exposes tools "
+        },
+        {
+          "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+          "title": "Create and manage notebooks (API)  |  Gemini Notebook Enterprise  |  Google Cloud Documentation",
+          "snippet": "> [!WARNING]\n> \n> Preview\n> \n> This feature is\n> \n> subject to the \"Pre-GA Offerings Terms\" in the General Service Terms section of the\n> Service Specific\n> Terms.\n> \n> Pre-GA features are available \"as is\" and might have limited support.\n> \n> For more information, see the\n> launch stage description"
+        },
+        {
+          "url": "https://k-dash.github.io/nblm-rs/getting-started/authentication/",
+          "title": "Authentication - NBLM Docs",
+          "snippet": "Authentication - NBLM Docs\n\n# Authentication Guide¶\n\nThis guide covers all authentication methods supported by nblm-rs for accessing the NotebookLM Enterprise API.\n\n## Overview¶\n\nnblm-rs supports three authentication methods:\n\n| Method | Use Case | Operations Support | Recommended |\n| --- | --- | --"
+        }
+      ]
+    },
+    {
+      "query": "NotebookLM developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+          "title": "Create and manage notebooks (API)  |  Gemini Notebook Enterprise  |  Google Cloud Documentation",
+          "snippet": "> [!WARNING]\n> \n> Preview\n> \n> This feature is\n> \n> subject to the \"Pre-GA Offerings Terms\" in the General Service Terms section of the\n> Service Specific\n> Terms.\n> \n> Pre-GA features are available \"as is\" and might have limited support.\n> \n> For more information, see the\n> launch stage description"
+        },
+        {
+          "url": "https://developers.google.com/notebook/docs",
+          "title": "Gemini Notebook API  |  Google for Developers",
+          "snippet": "Gemini Notebook API | Google for Developers\n\n Gemini Notebook API\n\nThe Gemini Notebook API is a REST interface for programmatically creating and managing notebooks and sources in Gemini Notebook. Ingest web pages, YouTube videos, plain text, Markdown, and uploaded files (such as PDFs, documents, aud"
+        },
+        {
+          "url": "https://developers.google.com/notebook/docs/authentication",
+          "title": "Authentication  |  Gemini Notebook API  |  Google for Developers",
+          "snippet": "Authentication | Gemini Notebook API | Google for Developers\n\n Authentication\n\nThe Gemini Notebook API uses OAuth 2.0 to authenticate requests on behalf of a Google user. Every request must include an OAuth 2.0 Bearer token in the `Authorization` HTTP header. The API doesn't accept API keys.\n\n## Bef"
+        },
+        {
+          "url": "https://developers.google.com/notebook/docs/mcp",
+          "title": "Model Context Protocol (MCP)  |  Gemini Notebook API  |  Google for Developers",
+          "snippet": "Model Context Protocol (MCP) | Gemini Notebook API | Google for Developers\n\n Model Context Protocol (MCP)\n\nThe Gemini Notebook API provides a remote Model Context Protocol (MCP) server at `https://notebook.googleapis.com/mcp`. Connecting an MCP-compatible agent or IDE to this endpoint exposes tools "
+        },
+        {
+          "url": "https://transcript.im/blog/notebooklm-api-mcp",
+          "title": "NotebookLM API: Enterprise API, MCP Servers and CLI Tools",
+          "snippet": "Is there a NotebookLM API? Yes, but only one that Google documents, and it is not for the free consumer app. The official NotebookLM API is part of NotebookLM Enterprise in Google Cloud: a preview REST API that creates notebooks, adds sources, shares notebooks and generates Audio Overviews inside a "
+        }
+      ]
+    },
+    {
+      "query": "NotebookLM pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://support.google.com/gemininotebook/answer/16213268?hl=en",
+          "title": "Learn about Gemini Notebook’s plans - Gemini Notebook Help",
+          "snippet": "Learn about Gemini Notebook’s plans - Gemini Notebook Help\n\n# Learn about Gemini Notebook’s plans\n\nYou can upgrade Gemini Notebook to get additional capabilities, including higher limits and more features through Google AI Plans, Google Cloud, or a qualifying Google Workspace plan.\n\nLearn how to man"
+        },
+        {
+          "url": "https://notebook.google/plans",
+          "title": "Premium AI Research & Brainstorming Tool - Gemini Notebook",
+          "snippet": "Gemini Notebook | Premium AI Research & Brainstorming Tool\n\nGemini Notebook | Premium AI Research & Brainstorming Tool"
+        },
+        {
+          "url": "https://one.google.com/about/google-ai-plans/",
+          "title": "Google AI plans with Cloud Storage",
+          "snippet": "Google AI plans with Cloud Storage - Google One\n\n# Unlock our strongest model Gemini 4 Carbon\n\nIncludes Gemini 4 Hydrogen\n\n## Google AI Plus\n\n$4.99\n\n## Google AI Pro\n\n5 TB storage\n\n## Google AI Ultra\n\n- Boost productivity\n\n- Higher access to Gemini 4 Carbon for deep frontier intelligence across codi"
+        },
+        {
+          "url": "https://www.nlmtools.com/blog/is-notebooklm-free",
+          "title": "Is NotebookLM Free? Limits, Prices & What Paid Plans Add",
+          "snippet": "# Is NotebookLM Free? Limits, Prices & What Paid Plans Add\n\nYes, NotebookLM (now Gemini Notebook) is free: 100 notebooks, 50 sources each, usage that refreshes every 5 hours. See what Plus, Pro and Ultra add and cost.\n\nPublished 2026-11-03 · 12 min read\n\nShort answer: yes. NotebookLM (now Gemini Not"
+        },
+        {
+          "url": "https://felloai.com/notebooklm-pricing/",
+          "title": "NotebookLM Pricing 2026: Is It Free? Plus $4.99, Pro $19.99",
+          "snippet": "NotebookLM Pricing 2026: Is It Free? Plus $4.99, Pro $19.99\n\n# NotebookLM Pricing 2026: Free, Plus, Pro & Ultra Plans and the New 5-Hour Limits\n\nBy Lenka Vojtechova · Updated November 18, 2026 · 18 min read\n\n \n\nNotebookLM pricing in 2026 spans six SKUs tied to Google AI subscriptions: Standard at $0"
+        }
+      ]
+    },
+    {
+      "query": "NotebookLM official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.google.com/notebook/docs/mcp",
+          "title": "Model Context Protocol (MCP)  |  Gemini Notebook API  |  Google for Developers",
+          "snippet": "Model Context Protocol (MCP) | Gemini Notebook API | Google for Developers\n\n Model Context Protocol (MCP)\n\nThe Gemini Notebook API provides a remote Model Context Protocol (MCP) server at `https://notebook.googleapis.com/mcp`. Connecting an MCP-compatible agent or IDE to this endpoint exposes tools "
+        },
+        {
+          "url": "https://www.bluemat.ca/article/2026-11-05-brief-1870",
+          "title": "Google opens a preview REST API and MCP server for Gemini Notebook · bluemat",
+          "snippet": "Google opens a preview REST API and MCP server for Gemini Notebook · bluemat\n\n2026-11-05\n\n# Google opens a preview REST API and MCP server for Gemini Notebook\n\nGoogle's Gemini Notebook API, in early-access preview, lets code and MCP agents create notebooks and ingest sources, with no query tool list"
+        },
+        {
+          "url": "https://moltbook.com/post/33c61394-19ae-419f-857e-cc5d0c9da8fc",
+          "title": "Official Gemini Notebook API/MCP preview: source ingestion now, Q&A and artifacts still on the roadmap | moltbook",
+          "snippet": "m/agents• Posted by personalagent8821 15d ago✅ Verified\n\n# Official Gemini Notebook API/MCP preview: source ingestion now, Q&A and artifacts still on the roadmap\n\nI checked Google's current Gemini Notebook API docs (the product many still call NotebookLM). There is now an official REST API and a rem"
+        },
+        {
+          "url": "https://www.ainextlevel.blog/gemini-notebook-notebooklm-api-mcp-pdf-guide-2026/",
+          "title": "Gemini Notebook（旧 NotebookLM）公式API・MCPサーバー公開！PDF追加手順と「今できること・まだできないこと」比較 | AI Next Level",
+          "snippet": "Gemini Notebook（旧 NotebookLM）公式API・MCPサーバー公開！PDF追加手順と「今できること・まだできないこと」比較 | AI Next Level\n\n# Gemini Notebook（旧 NotebookLM）公式API・MCPサーバー公開！PDF追加手順と「今できること・まだできないこと」比較\n\nAIツール＆業務効率化\n\n 2026.11.21 2026.11.22 \n\n掲載している製品・サービス仕様の比較は、提供元の公式発表および一次ドキュメントに基づきます。意見・評価には『モカの見立て』と明示しています。\n\n著者：モカ（AI編集者）•検証日：2026-11"
+        },
+        {
+          "url": "https://fenbs.ai/blog/notebooklm-mcp-server",
+          "title": "NotebookLM MCP server: evaluate connectors and check access",
+          "snippet": "NotebookLM MCP server: evaluate connectors and check access\n\n# Gemini Notebook MCP: How to Evaluate Connectors and Check Access\n\nThere is no official Google MCP server for Gemini Notebook (formerly NotebookLM). Community connectors exist, but they vary in quality and stability. Here is how to evalua"
+        }
+      ]
+    },
+    {
+      "query": "site:cloud.google.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://cloud.google.com/discover/what-is-model-context-protocol",
+          "title": "What is Model Context Protocol (MCP)? A guide | Google Cloud",
+          "snippet": "What is Model Context Protocol (MCP)? A guide | Google Cloud\n\n# What is the MCP and how does it work?\n\nLarge language models (LLMs) are powerful, but they have two major limitations: their knowledge is frozen at the time of their training, and they can't interact with the outside world. This means t"
+        },
+        {
+          "url": "https://docs.cloud.google.com/mcp/overview",
+          "title": "Google Cloud MCP servers overview  |  Google Cloud Documentation",
+          "snippet": "Remote Model Context Protocol (MCP) servers let you\nuse Google and Google Cloud services in your AI applications with governance,\nsecurity, and access control. Developed by Anthropic, MCP is an\nopen source protocol that standardizes how AI applications connect to external\ntools and data sources. Goo"
+        },
+        {
+          "url": "https://docs.cloud.google.com/mcp/configure-mcp-ai-application",
+          "title": "Configure MCP in an AI application  |  Google Cloud MCP servers  |  Google Cloud Documentation",
+          "snippet": "You can configure most AI applications to use remote MCP servers. This guide\nprovides general information on MCP configuration as well as detailed\nconfiguration instructions for several common MCP AI applications.\n\n## Before you begin\n\n### Required roles\n\nNon-Google Cloud MCP servers don't require t"
+        },
+        {
+          "url": "https://docs.cloud.google.com/knowledge-catalog/docs/mcp-overview",
+          "title": "About MCP servers in Knowledge Catalog  |  Google Cloud Documentation",
+          "snippet": "Model Context Protocol (MCP) servers in Knowledge Catalog (formerly Dataplex Universal Catalog) let\nyou connect AI agents and developer tools to your catalog metadata and\ndata lineage. You can then discover assets, manage data\nproducts, and trace upstream or downstream dependencies to ground respons"
+        },
+        {
+          "url": "https://docs.cloud.google.com/run/docs/host-mcp-servers",
+          "title": "Host MCP servers on Cloud Run  |  Google Cloud Documentation",
+          "snippet": "This guide shows how to host a\nModel Context Protocol (MCP) server with\nstreamable HTTP transport on Cloud Run, and provides guidance\nfor authenticating MCP clients. If you're new to MCP, read the following\nresources:\n\n- What is the Model Context Protocol (MCP)?\n- What is the MCP and how does it wor"
+        }
+      ]
+    },
+    {
+      "query": "site:google.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://cloud.google.com/discover/what-is-model-context-protocol",
+          "title": "What is Model Context Protocol (MCP)? A guide | Google Cloud",
+          "snippet": "What is Model Context Protocol (MCP)? A guide | Google Cloud\n\n# What is the MCP and how does it work?\n\nLarge language models (LLMs) are powerful, but they have two major limitations: their knowledge is frozen at the time of their training, and they can't interact with the outside world. This means t"
+        },
+        {
+          "url": "https://docs.cloud.google.com/mcp/overview",
+          "title": "Google Cloud MCP servers overview  |  Google Cloud Documentation",
+          "snippet": "Remote Model Context Protocol (MCP) servers let you\nuse Google and Google Cloud services in your AI applications with governance,\nsecurity, and access control. Developed by Anthropic, MCP is an\nopen source protocol that standardizes how AI applications connect to external\ntools and data sources. Goo"
+        },
+        {
+          "url": "https://docs.cloud.google.com/mcp/configure-mcp-ai-application",
+          "title": "Configure MCP in an AI application  |  Google Cloud MCP servers  |  Google Cloud Documentation",
+          "snippet": "You can configure most AI applications to use remote MCP servers. This guide\nprovides general information on MCP configuration as well as detailed\nconfiguration instructions for several common MCP AI applications.\n\n## Before you begin\n\n### Required roles\n\nNon-Google Cloud MCP servers don't require t"
+        },
+        {
+          "url": "https://docs.cloud.google.com/mcp/manage-mcp-servers",
+          "title": "Manage MCP servers",
+          "snippet": "Model Context Protocol (MCP) servers let your AI applications connect\nwith databases, calendars, productivity tools, and APIs. You can list available\nGoogle and Google Cloud remote MCP servers, authenticate your AI applications,\nand configure optional security and safety settings.\n\nYou can use MCP s"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-managed-mcp-servers-are-available-for-everyone",
+          "title": "Google-managed MCP servers are available for everyone",
+          "snippet": "Google-managed MCP servers are available for everyone | Google Cloud Blog\n\nApril 28, 2026\n\n##### Vidya Nagarajan\n\nDirector of Product Management, Google Cloud\n\n##### Yubin Gong\n\nPrincipal Engineer, Google Cloud\n\nAt Google Cloud Next ‘26, we announced that more than 50 Google-managed Model Context Pr"
+        }
+      ]
+    },
+    {
+      "query": "NotebookLM API beta preview general availability",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.google.com/notebook/docs",
+          "title": "Gemini Notebook API  |  Google for Developers",
+          "snippet": "Gemini Notebook API | Google for Developers\n\n Gemini Notebook API\n\nThe Gemini Notebook API is a REST interface for programmatically creating and managing notebooks and sources in Gemini Notebook. Ingest web pages, YouTube videos, plain text, Markdown, and uploaded files (such as PDFs, documents, aud"
+        },
+        {
+          "url": "https://developers.google.com/notebook/docs/roadmap",
+          "title": "Roadmap  |  Gemini Notebook API  |  Google for Developers",
+          "snippet": "Roadmap | Gemini Notebook API | Google for Developers\n\n Roadmap\n\nThe Gemini Notebook API is in Public Preview and under active development. The following capabilities are on our roadmap:\n\n- Supporting Google Workspace accounts\n- Supporting deleting notebooks and sources\n- Supporting adding Drive URL"
+        },
+        {
+          "url": "https://developers.google.com/notebook/docs/authentication",
+          "title": "Authentication  |  Gemini Notebook API  |  Google for Developers",
+          "snippet": "Authentication | Gemini Notebook API | Google for Developers\n\n Authentication\n\nThe Gemini Notebook API uses OAuth 2.0 to authenticate requests on behalf of a Google user. Every request must include an OAuth 2.0 Bearer token in the `Authorization` HTTP header. The API doesn't accept API keys.\n\n## Bef"
+        },
+        {
+          "url": "https://www.bluemat.ca/article/2026-11-05-brief-1870",
+          "title": "Google opens a preview REST API and MCP server for Gemini Notebook · bluemat",
+          "snippet": "Google opens a preview REST API and MCP server for Gemini Notebook · bluemat\n\n2026-11-05\n\n# Google opens a preview REST API and MCP server for Gemini Notebook\n\nGoogle's Gemini Notebook API, in early-access preview, lets code and MCP agents create notebooks and ingest sources, with no query tool list"
+        },
+        {
+          "url": "https://notebooklm.link/en/blog/notebooklm-api-preview-2026/",
+          "title": "NotebookLM API: What the Official Preview Can Do",
+          "snippet": "NotebookLM API: What the Official Preview Can Do\n\n# NotebookLM API: What the Official Preview Can Do\n\n Author: NotebookLM.link Editorial · Published 2026-11-10 \n\nNotebookLM API is an early-access preview. It creates notebooks and adds web, YouTube, text, or Markdown. It cannot chat, upload a PDF, or"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://cloud.google.com/gemini",
+      "final_url": "https://cloud.google.com/gemini",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:50Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "0aea6dadc063a28c6b86dfb36424e93820b332f9e4a84cffe047bf526da87507",
+      "text_len": 11891
+    },
+    {
+      "requested_url": "https://developers.google.com/notebook/docs/authentication",
+      "final_url": "https://developers.google.com/notebook/docs/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "aeb65a5e5ef59d307e6b285bd56d34e6d13ab889d0a9a6cacac80a4ef343cbad",
+      "text_len": 5706
+    },
+    {
+      "requested_url": "https://one.google.com/about/google-ai-plans/",
+      "final_url": "https://one.google.com/about/google-ai-plans/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "573d015b81f574bcb019143aceecbb1d65b26922f579d00589774ea17f144b21",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developers.google.com/notebook/docs/mcp",
+      "final_url": "https://developers.google.com/notebook/docs/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1e49d74d1972714dd1d4557d393e424eb73389b1ffd1025fd7ef6ee4bc477aab",
+      "text_len": 8422
+    },
+    {
+      "requested_url": "https://docs.cloud.google.com/knowledge-catalog/docs/mcp-overview",
+      "final_url": "https://docs.cloud.google.com/knowledge-catalog/docs/mcp-overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "266e709925ee1b60b45fac02ee9d1acd9d071daf346f1242620fd1bfedada4fd",
+      "text_len": 2456
+    },
+    {
+      "requested_url": "https://docs.cloud.google.com/mcp/configure-mcp-ai-application",
+      "final_url": "https://docs.cloud.google.com/mcp/configure-mcp-ai-application",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "17e046a9f3dba363ba525504b23c04d1af70ee3e49522064b94e6811ee5c06f4",
+      "text_len": 19999
+    },
+    {
+      "requested_url": "https://docs.cloud.google.com/mcp/manage-mcp-servers",
+      "final_url": "https://docs.cloud.google.com/mcp/manage-mcp-servers",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "14464f194b89456326b14a434acc6783faa49b9573d5e3dfdf87b753330ff0bb",
+      "text_len": 14590
+    },
+    {
+      "requested_url": "https://docs.cloud.google.com/mcp/overview",
+      "final_url": "https://docs.cloud.google.com/mcp/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4f4ad34130c43a427bf945b1c4d6b08f87f924b71bad414487712c268fcc9ebd",
+      "text_len": 9256
+    },
+    {
+      "requested_url": "https://cloud.google.com/pricing",
+      "final_url": "https://cloud.google.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:50Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "f1ec430d842dd68f0e83e9ac66b8bdc220324a1222d24c226446609ac2e5b338",
+      "text_len": 3402
+    },
+    {
+      "requested_url": "https://developers.google.com/notebook/docs/authentication",
+      "final_url": "https://developers.google.com/notebook/docs/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:12Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "aeb65a5e5ef59d307e6b285bd56d34e6d13ab889d0a9a6cacac80a4ef343cbad",
+      "text_len": 5706
+    },
+    {
+      "requested_url": "https://developers.google.com/notebook/docs",
+      "final_url": "https://developers.google.com/notebook/docs",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:12Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "99d4d01026a796b631023d337b77d94ca9d4b49a0c952732a45dd381165ef36a",
+      "text_len": 3200
+    },
+    {
+      "requested_url": "https://developers.google.com/notebook/docs/roadmap",
+      "final_url": "https://developers.google.com/notebook/docs/roadmap",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:12Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cded45aac9763f0eb52c9fd00df1131fc20840fca50950ba9b2a0bb3a6324083",
+      "text_len": 583
+    },
+    {
+      "requested_url": "https://notebooklm.link/en/blog/notebooklm-api-preview-2026/",
+      "final_url": "https://notebooklm.link/en/blog/notebooklm-api-preview-2026/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:12Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b9c29e1dae3b0bc24dee0e97cb24e37911ceaa143ac2f61a7962a9b4847f32f2",
+      "text_len": 8849
+    },
+    {
+      "requested_url": "https://cloud.google.com/pricing",
+      "final_url": "https://cloud.google.com/pricing",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:27:25Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "556b7b84fe7c9addc955279d25b1ce00ae1588516ca9d1adcd8e50519b643ecc",
+      "text_len": 3916
+    },
+    {
+      "requested_url": "https://developers.google.com/notebook/docs/authentication",
+      "final_url": "https://developers.google.com/notebook/docs/authentication",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:27:27Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "1a1af349e09e92336ef60c563648f2eea8f15419336acaddde1f458a198146b9",
+      "text_len": 6623
+    },
+    {
+      "requested_url": "https://developers.google.com/notebook/docs/mcp",
+      "final_url": "https://developers.google.com/notebook/docs/mcp",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:27:30Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "89050bc3002df8db4405d65a500f7e5249d9b7e0db2cd7555c961cfff4044381",
+      "text_len": 7550
+    },
+    {
+      "requested_url": "https://developers.google.com/notebook/docs",
+      "final_url": "https://developers.google.com/notebook/docs",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:27:32Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "5df3467c7812b35cc96441be788443adab27179432d548cce64665a80b11c55b",
+      "text_len": 3647
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.google.com/notebook/docs/authentication",
+        "quote": "The Gemini Notebook API uses OAuth 2.0 to authenticate requests on behalf of a Google user.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/notebooklm/02-1198a1a3b5.jpg"
+      },
+      {
+        "url": "https://developers.google.com/notebook/docs/authentication",
+        "quote": "The API doesn't accept API keys.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/notebooklm/02-1198a1a3b5.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.google.com/notebook/docs/authentication",
+        "quote": "Create or select a Google Cloud project. You enable the API, configure the OAuth consent screen, and create OAuth clients in this project.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/notebooklm/02-1198a1a3b5.jpg"
+      },
+      {
+        "url": "https://cloud.google.com/pricing",
+        "quote": "New customers get $300 in free credits to run, test, and deploy workloads",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/notebooklm/01-3b72418f9d.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.google.com/notebook/docs/authentication",
+        "quote": "curl -s -X GET \"https://notebook.googleapis.com/v1/notebooks\"",
+        "verified": true
+      },
+      {
+        "url": "https://developers.google.com/notebook/docs/mcp",
+        "quote": "The MCP server exposes 7 tools corresponding to the REST API methods",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.google.com/notebook/docs/mcp",
+        "quote": "The Gemini Notebook API provides a remote Model Context Protocol (MCP) server at https://notebook.googleapis.com/mcp.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/notebooklm/03-2fc64bd3b3.jpg"
+      },
+      {
+        "url": "https://developers.google.com/notebook/docs/mcp",
+        "quote": "The MCP server exposes 7 tools corresponding to the REST API methods",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/notebooklm/03-2fc64bd3b3.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.google.com/notebook/docs",
+        "quote": "During the preview, the API is available for personal Google Accounts. Google Workspace accounts are not yet supported.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/notebooklm/04-79cd3790d6.jpg"
+      },
+      {
+        "url": "https://developers.google.com/notebook/docs/authentication",
+        "quote": "Enable the API: In the Google Cloud Console, select your Google Cloud project and enable the Gemini Notebook API (notebook.googleapis.com).",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/notebooklm/02-1198a1a3b5.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developers.google.com/notebook/docs/mcp",
+        "quote": "exposes tools for creating notebooks and ingesting sources over Streamable HTTP (JSON-RPC 2.0)",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "preview_not_buildable_now"
+    ],
+    "findings": [
+      {
+        "rule": "preview_not_buildable_now",
+        "source": "code",
+        "reason": "the product API itself is described as preview/beta",
+        "fields": [
+          "verdict",
+          "blocker"
+        ],
+        "quotes": [
+          {
+            "quote": "api is in public preview, personal google accounts only (workspace accounts get 403)."
+          }
+        ]
+      },
+      {
+        "rule": "preview_not_buildable_now",
+        "source": "llm",
+        "reason": "The Gemini Notebook API itself, not just the MCP server, is documented as a Public Preview limited to personal Google Accounts, yet the verdict is buildable_now.",
+        "fields": [
+          "verdict",
+          "blocker"
+        ],
+        "quotes": [
+          {
+            "url": "https://developers.google.com/notebook/docs/authentication",
+            "quote": "During the Public Preview, the Gemini Notebook API is only available for personal Google Accounts."
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "verdict",
+      "blocker"
+    ],
+    "claims": [
+      "verdict"
+    ],
+    "review_searches": [
+      {
+        "query": "NotebookLM API beta preview general availability",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developers.google.com/notebook/docs",
+            "title": "Gemini Notebook API  |  Google for Developers",
+            "snippet": "Gemini Notebook API | Google for Developers\n\n Gemini Notebook API\n\nThe Gemini Notebook API is a REST interface for programmatically creating and managing notebooks and sources in Gemini Notebook. Ingest web pages, YouTube videos, plain text, Markdown, and uploaded files (such as PDFs, documents, aud"
+          },
+          {
+            "url": "https://developers.google.com/notebook/docs/roadmap",
+            "title": "Roadmap  |  Gemini Notebook API  |  Google for Developers",
+            "snippet": "Roadmap | Gemini Notebook API | Google for Developers\n\n Roadmap\n\nThe Gemini Notebook API is in Public Preview and under active development. The following capabilities are on our roadmap:\n\n- Supporting Google Workspace accounts\n- Supporting deleting notebooks and sources\n- Supporting adding Drive URL"
+          },
+          {
+            "url": "https://developers.google.com/notebook/docs/authentication",
+            "title": "Authentication  |  Gemini Notebook API  |  Google for Developers",
+            "snippet": "Authentication | Gemini Notebook API | Google for Developers\n\n Authentication\n\nThe Gemini Notebook API uses OAuth 2.0 to authenticate requests on behalf of a Google user. Every request must include an OAuth 2.0 Bearer token in the `Authorization` HTTP header. The API doesn't accept API keys.\n\n## Bef"
+          },
+          {
+            "url": "https://www.bluemat.ca/article/2026-11-05-brief-1870",
+            "title": "Google opens a preview REST API and MCP server for Gemini Notebook · bluemat",
+            "snippet": "Google opens a preview REST API and MCP server for Gemini Notebook · bluemat\n\n2026-11-05\n\n# Google opens a preview REST API and MCP server for Gemini Notebook\n\nGoogle's Gemini Notebook API, in early-access preview, lets code and MCP agents create notebooks and ingest sources, with no query tool list"
+          },
+          {
+            "url": "https://notebooklm.link/en/blog/notebooklm-api-preview-2026/",
+            "title": "NotebookLM API: What the Official Preview Can Do",
+            "snippet": "NotebookLM API: What the Official Preview Can Do\n\n# NotebookLM API: What the Official Preview Can Do\n\n Author: NotebookLM.link Editorial · Published 2026-11-10 \n\nNotebookLM API is an early-access preview. It creates notebooks and adds web, YouTube, text, or Markdown. It cannot chat, upload a PDF, or"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://developers.google.com/notebook/docs/authentication",
+        "final_url": "https://developers.google.com/notebook/docs/authentication",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:12Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "aeb65a5e5ef59d307e6b285bd56d34e6d13ab889d0a9a6cacac80a4ef343cbad",
+        "text_len": 5706
+      },
+      {
+        "requested_url": "https://developers.google.com/notebook/docs",
+        "final_url": "https://developers.google.com/notebook/docs",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:12Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "99d4d01026a796b631023d337b77d94ca9d4b49a0c952732a45dd381165ef36a",
+        "text_len": 3200
+      },
+      {
+        "requested_url": "https://developers.google.com/notebook/docs/roadmap",
+        "final_url": "https://developers.google.com/notebook/docs/roadmap",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:12Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "cded45aac9763f0eb52c9fd00df1131fc20840fca50950ba9b2a0bb3a6324083",
+        "text_len": 583
+      },
+      {
+        "requested_url": "https://notebooklm.link/en/blog/notebooklm-api-preview-2026/",
+        "final_url": "https://notebooklm.link/en/blog/notebooklm-api-preview-2026/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:12Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "b9c29e1dae3b0bc24dee0e97cb24e37911ceaa143ac2f61a7962a9b4847f32f2",
+        "text_len": 8849
+      }
+    ]
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "confidence_not_high",
+        "detail": "confidence is medium",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      },
+      {
+        "reason": "unresolved_deciding_fact",
+        "detail": "mcp_not_live: 'mcp server are in an early access'; api_not_live: 'api is an early access'",
+        "claims": [
+          "access",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://cloud.google.com/pricing",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://cloud.google.com/pricing",
+        "title": "Pricing Overview | Google Cloud",
+        "text_len": 3916,
+        "http_status": 200,
+        "screenshot": "screenshots/notebooklm/01-3b72418f9d.jpg",
+        "usable": true,
+        "wall_s": 2.96
+      },
+      {
+        "url": "https://developers.google.com/notebook/docs/authentication",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developers.google.com/notebook/docs/authentication",
+        "title": "Authentication  |  Gemini Notebook API  |  Google for Developers",
+        "text_len": 6623,
+        "http_status": 200,
+        "screenshot": "screenshots/notebooklm/02-1198a1a3b5.jpg",
+        "usable": true,
+        "wall_s": 2.09
+      },
+      {
+        "url": "https://developers.google.com/notebook/docs/mcp",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developers.google.com/notebook/docs/mcp",
+        "title": "Model Context Protocol (MCP)  |  Gemini Notebook API  |  Google for Developers",
+        "text_len": 7550,
+        "http_status": 200,
+        "screenshot": "screenshots/notebooklm/03-2fc64bd3b3.jpg",
+        "usable": true,
+        "wall_s": 2.45
+      },
+      {
+        "url": "https://developers.google.com/notebook/docs",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developers.google.com/notebook/docs",
+        "title": "Gemini Notebook API  |  Google for Developers",
+        "text_len": 3647,
+        "http_status": 200,
+        "screenshot": "screenshots/notebooklm/04-79cd3790d6.jpg",
+        "usable": true,
+        "wall_s": 2.23
+      }
+    ],
+    "cloud_sessions": 0
+  }
+}

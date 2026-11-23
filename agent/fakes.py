@@ -65,3 +65,24 @@ class FakeLLM:
         snippets = {k: [{"url": url, "quote": quote}] for k in ("auth", "access", "api_surface", "mcp", "verdict")}
         out = {"row": row, "snippets": snippets, "follow_up": {"queries": [], "urls": []}}
         return LLMResult(json.dumps(out), input_tokens=len(prompt) // 4, output_tokens=300, stop_reason="end_turn")
+
+
+class FakeBrowserDriver:
+    """Stands in for a Browser Use browser in `browse --dry-run`: no Chrome, no cloud, no network."""
+
+    def __init__(self, kind: str = "local"):
+        self.kind = kind
+
+    def start(self) -> None:
+        pass
+
+    def open(self, url: str):
+        from agent.browse import Render
+
+        text = (FakeFetch().fetch(url).text + " Pricing: start free, then upgrade online. "
+                "No MCP server is listed on this page. ") * 2
+        return Render(url, url, title="Fake rendered page", text=text, html=f"<html><body>{text}</body></html>",
+                      status=200, screenshot=b"\xff\xd8\xff\xe0fake-jpeg\xff\xd9")
+
+    def stop(self) -> None:
+        pass

@@ -1,0 +1,338 @@
+{
+  "slug": "consensus",
+  "searches": [
+    {
+      "query": "Consensus API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.consensus.app/api-plans-and-access",
+          "title": "API plans and access",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API plans and access\n\n> What each Consensus plan includes on the API: monthly calls, papers per request, paginatio"
+        },
+        {
+          "url": "https://docs.consensus.app/api-get-started",
+          "title": "Get started with Consensus API",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Get started with Consensus API\n\n> Search over 400 million scholarly articles, including 350 million peer-reviewed "
+        },
+        {
+          "url": "https://docs.consensus.app/enterprise/security",
+          "title": "Security and data handling",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Security and data handling\n\n> Consensus is SOC 2 Type II compliant and hosted on Google Cloud. What leaves your ne"
+        },
+        {
+          "url": "https://help.consensus.app/en/articles/16516328-the-consensus-api",
+          "title": "The Consensus API",
+          "snippet": "Skip to main content\n\n# The Consensus API\n\nWritten by Allison Elechko\n\nOctober 12, 2026\n\nTable of contents\n\nThe Consensus API lets you integrate Consensus search directly into your own applications, tools, and workflows. Use it to programmatically search academic research and retrieve relevant paper"
+        },
+        {
+          "url": "https://docs.consensus.app/enterprise/connection-reference",
+          "title": "Connection reference",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connection reference\n\n> The technical facts every integration needs: the MCP endpoint, transport behavior, both au"
+        }
+      ]
+    },
+    {
+      "query": "Consensus developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.consensus.app/api-get-started",
+          "title": "Get started with Consensus API",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Get started with Consensus API\n\n> Search over 400 million scholarly articles, including 350 million peer-reviewed "
+        },
+        {
+          "url": "https://docs.consensus.app/api-plans-and-access",
+          "title": "API plans and access",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API plans and access\n\n> What each Consensus plan includes on the API: monthly calls, papers per request, paginatio"
+        },
+        {
+          "url": "https://docs.consensus.app/api-reference/search",
+          "title": "Search",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Search\n\n> The supported endpoint for searching academic papers. Use this instead of the legacy `/v1/quick_search` "
+        },
+        {
+          "url": "https://help.consensus.app/en/articles/16516328-the-consensus-api",
+          "title": "The Consensus API",
+          "snippet": "Skip to main content\n\n# The Consensus API\n\nWritten by Allison Elechko\n\nOctober 12, 2026\n\nTable of contents\n\nThe Consensus API lets you integrate Consensus search directly into your own applications, tools, and workflows. Use it to programmatically search academic research and retrieve relevant paper"
+        },
+        {
+          "url": "https://docs.consensus.app/use-cases/get-started",
+          "title": "Start building with the Consensus API and MCP",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Start building with the Consensus API and MCP\n\n> Pick a surface, run your first filtered search, and find the guid"
+        }
+      ]
+    },
+    {
+      "query": "Consensus pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://consensus.app/pricing/",
+          "title": "Pricing",
+          "snippet": "Skip to main content\n\n## Pricing\n\nMonthlyAnnual\n\n- Individual\n- Team and Enterprise\n\n## Over 5 million researchers, students, and clinicians trust Consensus\n\n“Consensus helps me gather real, peer-reviewed sources. It doesn’t write for me, butit sets me up to write with clarity and confidence.”\n\nJen "
+        },
+        {
+          "url": "https://help.consensus.app/en/articles/10087865-subscription-plans",
+          "title": "Subscription Plans",
+          "snippet": "Subscription Plans | The Consensus Help Center\n\n# Subscription Plans\n\nWritten by Allison Elechko\n\nSeptember 12, 2026\n\nTable of contents\n\nCheck out our subscription plans to find the best fit for your research needs. Consensus is free to use, with optional subscription plans available for additional "
+        },
+        {
+          "url": "https://docs.consensus.app/get-started/what-is-consensus",
+          "title": "Start here",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Start here\n\n> A short, video-first guide to Consensus for researchers at any level. Learn to search, read, and org"
+        },
+        {
+          "url": "https://the64th.com/consensus-ai/",
+          "title": "Consensus: Pricing, Plans, Features and Guides | The 64th",
+          "snippet": "Consensus: Pricing, Plans, Features and Guides | The 64th\n\n# Consensus\n\nAn AI search tool that reads peer-reviewed papers and cites every claim it makes.\n\n- Web\n\nMade by\n\nConsensus\n\nLaunched\n\n2021\n\nFree plan\n\nYes\n\nPaid from\n\n$12 / month\n\n## Search interest\n\nOct 2026\n\nLast month\n\n337,000\n\nvs. 3 month"
+        },
+        {
+          "url": "https://docs.consensus.app/api-plans-and-access",
+          "title": "API plans and access",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API plans and access\n\n> What each Consensus plan includes on the API: monthly calls, papers per request, paginatio"
+        }
+      ]
+    },
+    {
+      "query": "Consensus official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.consensus.app/consensus-mcp",
+          "title": "Get started with Consensus MCP",
+          "snippet": "Get started with Consensus MCP - Consensus\n\n# Get started with Consensus MCP\n\nSearch 400M+ scholarly articles, including 350M peer-reviewed papers and all of PubMed, from Claude, ChatGPT, Cursor, Microsoft 365 Copilot and other MCP clients.\n\nOne hosted server covers every field of science, so you do"
+        },
+        {
+          "url": "https://consensus.app/home/research-organizations/",
+          "title": "Evidence is infrastructure. Build on it.",
+          "snippet": "Consensus API + MCP for R&D teams\n\n# Evidence is infrastructure. Build on it.\n\nThe Consensus API and MCP server put 400M+ scholarly works inside your agents, pipelines, and copilots — with every claim tied to the quote it rests on.\n\nGet an API key\n\nMCP\n\nRead the API docs\n\nGET/v1/search\n\n200Response\n"
+        },
+        {
+          "url": "https://docs.consensus.app/enterprise/connection-reference",
+          "title": "Connection reference",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connection reference\n\n> The technical facts every integration needs: the MCP endpoint, transport behavior, both au"
+        },
+        {
+          "url": "https://docs.consensus.app/mcp-tools/quickstart",
+          "title": "Quick start: Search & Threads",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quick start: Search & Threads\n\n> The two ways an assistant uses Consensus MCP: search for ranked papers in one cal"
+        },
+        {
+          "url": "https://docs.consensus.app/mcp-clients/microsoft-365-copilot-studio",
+          "title": "Connect Microsoft 365 Copilot Studio",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connect Microsoft 365 Copilot Studio\n\n> Add Consensus as a custom MCP tool in Microsoft Copilot Studio.\n\nThis allo"
+        }
+      ]
+    },
+    {
+      "query": "site:consensus.app MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.consensus.app/home/mcp/",
+          "title": "Give your AI assistant 400M scholarly sources",
+          "snippet": "[Loading… →]\n\n# Give your AI assistant 400M scholarly sources\n\nSearch, synthesize, and build research outputs with cited papers, right inside the AI assistant you already use.\n\nGet started with:\n\nClaude\n\nChatGPT\n\nPerplexity\n\nMicrosoft 365 Copilot\n\nGemini\n\nMCP Clients\n\nBuilding your own tool? View th"
+        },
+        {
+          "url": "https://docs.consensus.app/consensus-mcp",
+          "title": "Get started with Consensus MCP",
+          "snippet": "Get started with Consensus MCP - Consensus\n\n# Get started with Consensus MCP\n\nSearch 400M+ scholarly articles, including 350M peer-reviewed papers and all of PubMed, from Claude, ChatGPT, Cursor, Microsoft 365 Copilot and other MCP clients.\n\nOne hosted server covers every field of science, so you do"
+        },
+        {
+          "url": "https://docs.consensus.app/core-features/mcp",
+          "title": "Use Consensus in ChatGPT, Claude, Copilot, or with the API",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Use Consensus in ChatGPT, Claude, Copilot, or with the API\n\n> Connect Consensus to ChatGPT, Claude, or Microsoft 3"
+        },
+        {
+          "url": "https://docs.consensus.app/mcp-tools/quickstart",
+          "title": "Quick start: Search & Threads",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quick start: Search & Threads\n\n> The two ways an assistant uses Consensus MCP: search for ranked papers in one cal"
+        },
+        {
+          "url": "https://docs.consensus.app/mcp-plans-and-access",
+          "title": "MCP plans and access",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.consensus.app/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP plans and access\n\n> What each Consensus plan includes on the MCP server: papers per search, monthly calls, rat"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://consensus.app",
+      "final_url": "https://consensus.app",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:24Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "3de56087a7f0da326f52ea328d941ef608ce532f10c2681014fe340d884a18da",
+      "text_len": 1556
+    },
+    {
+      "requested_url": "https://docs.consensus.app/api-get-started",
+      "final_url": "https://docs.consensus.app/api-get-started",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b066615b394de939ebf1633e675243bcaf71be796878fda6a3a167bed2096d24",
+      "text_len": 9296
+    },
+    {
+      "requested_url": "https://docs.consensus.app/api-reference/search",
+      "final_url": "https://docs.consensus.app/api-reference/search",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "95ff84feda205135b87e6a42cb3f050ee81bb32c6a51769ac3c86cbf8e6b9dd3",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://consensus.app/pricing/",
+      "final_url": "https://consensus.app/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7c50f00fe12ee7a4e8d67e156d6b0d82e95131c06317a1a4cf69f7ae910cf7ce",
+      "text_len": 589
+    },
+    {
+      "requested_url": "https://docs.consensus.app/consensus-mcp",
+      "final_url": "https://docs.consensus.app/consensus-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "db675dcbc74f71de7fdeb80430aa0d14a2135f0acc268994fb09f80189e42302",
+      "text_len": 16792
+    },
+    {
+      "requested_url": "https://docs.consensus.app/core-features/mcp",
+      "final_url": "https://docs.consensus.app/core-features/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2b8f4d31d1cd76514655c214bca014d489fd03c7d08e41d99d9ab3441f2f1acc",
+      "text_len": 7558
+    },
+    {
+      "requested_url": "https://docs.consensus.app/mcp-clients/microsoft-365-copilot-studio",
+      "final_url": "https://docs.consensus.app/mcp-clients/microsoft-365-copilot-studio",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "97ca026fbfd4012340b815064a5769a6a40d797ce225d295840cbdef49bdb4a9",
+      "text_len": 1887
+    },
+    {
+      "requested_url": "https://docs.consensus.app/mcp-plans-and-access",
+      "final_url": "https://docs.consensus.app/mcp-plans-and-access",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6bc174566da6e156a26b4d36e3194010adbaee4b47876321e3792d2bc4b97cf2",
+      "text_len": 4096
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.consensus.app/api-get-started",
+        "quote": "`query` is the only required parameter, and the key goes in the `x-api-key` header.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.consensus.app/api-get-started",
+        "quote": "Click Create API key, name the key, and click Copy API key.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.consensus.app/api-get-started",
+        "quote": "Every plan includes API access, and the Free plan includes 30 calls a month.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.consensus.app/core-features/mcp",
+        "quote": "It's self-serve and open to everyone.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.consensus.app/api-reference/search",
+        "quote": "The supported endpoint for searching academic papers.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.consensus.app/api-get-started",
+        "quote": "over a single REST endpoint. Send a query and get back ranked papers",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.consensus.app/consensus-mcp",
+        "quote": "https://mcp.consensus.app/mcp",
+        "verified": true
+      },
+      {
+        "url": "https://docs.consensus.app/consensus-mcp",
+        "quote": "One hosted server covers every field of science",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.consensus.app/mcp-plans-and-access",
+        "quote": "Any Consensus API key works on the MCP server.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://consensus.app",
+        "quote": "Search and analyze peer-reviewed literature. Consensus draws on 400M scholarly works",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

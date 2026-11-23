@@ -1,0 +1,534 @@
+{
+  "slug": "fathom",
+  "searches": [
+    {
+      "query": "Fathom API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.fathom.ai/quickstart",
+          "title": "Quickstart",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.fathom.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Generate an API key and make your first call\n\n## Generate an API Key\n\n> [card] Get your Fathom API"
+        },
+        {
+          "url": "https://developers.fathom.ai/sdks/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.fathom.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Authenticate with the Fathom SDKs using API keys\n\n## API Key Authentication\n\n```typescript\nimp"
+        },
+        {
+          "url": "https://developers.fathom.ai/api-overview",
+          "title": "Api overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.fathom.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Api overview\n\nThis documentation describes Fathom's REST API.\n\n## Authentication\n\nAll REST API resources are aut"
+        },
+        {
+          "url": "https://developers.fathom.ai/faq",
+          "title": "FAQ",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.fathom.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# FAQ\n\n> Frequently asked questions about Fathom's API\n\n## Basics\n\n### I’m new to APIs. How do I get started?\n\nSee"
+        },
+        {
+          "url": "https://developers.fathom.ai/api-reference/meetings/list-meetings",
+          "title": "List meetings",
+          "snippet": "List meetings - Fathom API\n\n```\ncurl --request GET \\\n  --url https://api.fathom.ai/external/v1/meetings \\\n  --header 'X-Api-Key: <api-key>'\n```\n\n```\n<?php\n\n$curl = curl_init();\n\ncurl_setopt_array($curl, [\n  CURLOPT_URL => \"https://api.fathom.ai/external/v1/meetings\",\n  CURLOPT_RETURNTRANSFER => true"
+        }
+      ]
+    },
+    {
+      "query": "Fathom developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.fathom.ai/",
+          "title": "Fathom API",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.fathom.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Introduction\n\n> Welcome to Fathom's API! 🚀\n\n> [!TIP]\n> \n> Building a public OAuth app (for other Fathom users to"
+        },
+        {
+          "url": "https://developers.fathom.ai/quickstart",
+          "title": "Quickstart",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.fathom.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Generate an API key and make your first call\n\n## Generate an API Key\n\n> [card] Get your Fathom API"
+        },
+        {
+          "url": "https://developers.fathom.ai/api-overview",
+          "title": "Api overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.fathom.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Api overview\n\nThis documentation describes Fathom's REST API.\n\n## Authentication\n\nAll REST API resources are aut"
+        },
+        {
+          "url": "https://developers.fathom.ai/faq",
+          "title": "FAQ",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.fathom.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# FAQ\n\n> Frequently asked questions about Fathom's API\n\n## Basics\n\n### I’m new to APIs. How do I get started?\n\nSee"
+        },
+        {
+          "url": "https://developers.fathom.ai/sdks/available-methods",
+          "title": "Available Methods",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.fathom.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Available Methods\n\n> All available methods in the Fathom SDKs\n\n## Available Methods\n\nBoth TypeScript and Python "
+        }
+      ]
+    },
+    {
+      "query": "Fathom pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.fathom.ai/pricing",
+          "title": "Fathom Pricing 2026: Free Plan or Plans from $15/mo",
+          "snippet": "Fathom Pricing 2026: Free Plan or Plans from $15/mo\n\n# Pricing to supercharge every meeting\n\nAnnually (save 25%+)\n\nFree plan\n\nUnlimited recordings, instant call summaries, integrations with LLMs & more.\n\nFOR TEAMS\n\nTeam\n\n$ 19 $15\n\n/month / per user (2 user min)\n\n90 day guarantee\n\n- Unlimited meeting"
+        },
+        {
+          "url": "https://www.fathom.ai/overview",
+          "title": "AI Note Taker for Zoom, Meet, Teams & Slack | Fathom",
+          "snippet": "AI Note Taker for Zoom, Meet, Teams & Slack | Fathom\n\n# The AI notetaker built around you\n\nFathom captures Zoom, Google Meet, Teams, Slack huddles, and in-person meetings, then delivers summaries and action items the moment your call ends. Free to start, with a bot or bot-free.\n\nSOC 2 Type II | GDPR"
+        },
+        {
+          "url": "https://www.g2.com/products/fathom-video/pricing",
+          "title": "Fathom Pricing November 2026",
+          "snippet": "Fathom Pricing November 2026\n\n# Fathom Pricing Overview\n\nLast updated: April 29, 2026\n\n## Fathom Pricing Key Insights\n\nFathom offers 4 pricing editions, starting from $0 to $20. Fathom pricing tiers are designed to support different usage levels and team sizes. Fathom also offers a free trial. Compa"
+        },
+        {
+          "url": "https://www.fathom.ai/",
+          "title": "Fathom AI Notetaker - Never Take Notes Again",
+          "snippet": "Fathom AI Notetaker - Never Take Notes Again\n\n# AI notetaking that is out of this world\n\nFathom summarizes your meetings so you can focus on the conversation. Now available bot-free.\n\nSOC 2 Type II | GDPR | HIPAA Compliant | SSO / SCIM\n\nUsed at 500K+ companies\n\nCapture notes your way – bot or no bot"
+        },
+        {
+          "url": "https://help.fathom.video/en/articles/5290881",
+          "title": "Free vs. Premium for Individuals: What’s the Difference?",
+          "snippet": "Free vs. Premium for Individuals: What’s the Difference?\n\n# Free vs. Premium for Individuals: What’s the Difference?\n\nEdited\n\n Thursday, June 4 2026\n\nThinking about upgrading (or just curious what you’re missing)? \n\nYou have no obligation to upgrade to Fathom Premium at the end of your free preview."
+        }
+      ]
+    },
+    {
+      "query": "Fathom official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.fathom.ai/mcp-docs",
+          "title": "Overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.fathom.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Overview\n\n> Connect your meeting data to LLMs using the Model Context Protocol\n\n## How to Connect the Fathom MCP"
+        },
+        {
+          "url": "https://www.fathom.ai/features/mcp-server",
+          "title": "AI Meeting Notetaker MCP Server for Claude & ChatGPT | Fathom",
+          "snippet": "AI Meeting Notetaker MCP Server for Claude & ChatGPT | Fathom\n\n# It’s your meeting. Bring context into Claude, ChatGPT, and the AI tools you use.\n\nFathom’s AI meeting notetaker MCP server connects your meeting data to Claude, ChatGPT, and other MCP-compatible tools, so your AI assistant can answer q"
+        },
+        {
+          "url": "https://developers.fathom.ai/mcp-docs/claude",
+          "title": "Claude",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.fathom.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Claude\n\n> Connect Fathom to Claude with the official connector, or via Claude Code\n\n## Claude (web & desktop)\n\nF"
+        },
+        {
+          "url": "https://help.fathom.video/en/articles/14649409",
+          "title": "MCP Access",
+          "snippet": "MCP Access\n\n# MCP Access\n\nEdited\n\n Tuesday, November 10 2026\n\n## Connect Fathom to your AI assistant with MCP\n\nFathom’s MCP integration connects your meetings to AI assistants like ChatGPT and Claude. Once connected, you can ask questions about your meetings and turn what was discussed into useful w"
+        },
+        {
+          "url": "https://docs.merge.dev/merge-agent-handler/connectors/generic/fathom",
+          "title": "Fathom",
+          "snippet": "> This page is for Agent Handler.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.merge.dev/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.merge.dev/_mcp/server.\n\n# Fat"
+        }
+      ]
+    },
+    {
+      "query": "site:fathom.video MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.fathom.video/en/articles/11497793",
+          "title": "Fathom MCP: Connect Claude & ChatGPT",
+          "snippet": "Fathom MCP: Connect Claude & ChatGPT\n\n# Fathom MCP: Connect Claude & ChatGPT\n\nEdited\n\n Thursday, November 19 2026\n\nMCP (Model Context Protocol) lets you connect Fathom to AI assistants like Claude and ChatGPT, so you can ask questions about your meetings and create work products (emails, plans, brie"
+        },
+        {
+          "url": "https://help.fathom.video/en/articles/14649409",
+          "title": "MCP Access",
+          "snippet": "MCP Access\n\n# MCP Access\n\nEdited\n\n Tuesday, November 10 2026\n\n## Connect Fathom to your AI assistant with MCP\n\nFathom’s MCP integration connects your meetings to AI assistants like ChatGPT and Claude. Once connected, you can ask questions about your meetings and turn what was discussed into useful w"
+        },
+        {
+          "url": "https://help.fathom.video/en/categories/66048-integrations",
+          "title": "Integrations",
+          "snippet": "Integrations\n\n# Integrations\n\nCRM Integrations\n\nHubSpot IntegrationLog in to Fathom and navigate to the Settings page. Click Learn More next to HubSpot under the Integrations section of the Customize page. If you d...\n\nHubSpot Card IntegrationOur HubSpot integration has become even more powerful! 🚀 "
+        },
+        {
+          "url": "https://help.fathom.video/en/categories/65984-using-fathom-after-a-call",
+          "title": "Using Fathom After a Call",
+          "snippet": "Using Fathom After a Call\n\n# Using Fathom After a Call\n\nGet a copy of your transcriptWhile transcripts can’t be downloaded directly, you can copy and paste them anywhere you need. Here's how you can copy your transcript and find out ...\n\nHow to copy your summary If you just finished your call and yo"
+        },
+        {
+          "url": "https://help.fathom.video/en/articles/8368641",
+          "title": "Public API",
+          "snippet": "Public API\n\n# Public API\n\nEdited\n\n Wednesday, November 12 2025\n\nFathom now has a public API that gives you developer‑friendly access to meeting insights so you can build workflows and integrations that connect Fathom with the rest of your tools.\n\n- Build exactly what you need - bring meeting summari"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://fathom.video",
+      "final_url": "https://fathom.video",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:08Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "b16f3f541d6677000893d204ed6d1679b4118b4a84a6766166a90d5c66c118f7",
+      "text_len": 5454
+    },
+    {
+      "requested_url": "https://developers.fathom.ai/api-reference/meetings/list-meetings",
+      "final_url": "https://developers.fathom.ai/api-reference/meetings/list-meetings",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7b03abfa324ae7f1f3c808d05b431f2b2d7ec81a23748bfceb4982e09199f665",
+      "text_len": 11791
+    },
+    {
+      "requested_url": "https://developers.fathom.ai/api-overview",
+      "final_url": "https://developers.fathom.ai/api-overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "440377d6fc760728906b1136b87c6a23c9a63d8f585723c080af9c4ee5ef92ca",
+      "text_len": 2395
+    },
+    {
+      "requested_url": "https://www.fathom.ai/pricing",
+      "final_url": "https://www.fathom.ai/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:04Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f064cadc7da57a62c97d96c2cb079d135a693c18aee512b59dfa60f8d4e61017",
+      "text_len": 5405
+    },
+    {
+      "requested_url": "https://developers.fathom.ai/mcp-docs",
+      "final_url": "https://developers.fathom.ai/mcp-docs",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "df026be072d9f5749839a82654eb3f093ad17090ae193011a06e2b28070dd3e0",
+      "text_len": 980
+    },
+    {
+      "requested_url": "https://help.fathom.video/en/articles/11497793",
+      "final_url": "https://help.fathom.video/en/articles/11497793",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:07Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6113d35bcca53fae0db38eacd1a07eb02796300f62de72f03e12781c61ba7422",
+      "text_len": 3855
+    },
+    {
+      "requested_url": "https://developers.fathom.ai/mcp-docs/claude",
+      "final_url": "https://developers.fathom.ai/mcp-docs/claude",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ac542eff1042b5d3cb754035b9324dbe72ca255f2055419161a66d969d43fd6c",
+      "text_len": 1050
+    },
+    {
+      "requested_url": "https://help.fathom.video/en/articles/14649409",
+      "final_url": "https://help.fathom.video/en/articles/14649409",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "eee8c899f095daab4fd637e4c12e60c3a9f6c4a964799750deaf954ff34097a8",
+      "text_len": 1744
+    },
+    {
+      "requested_url": "https://developers.fathom.ai/llms.txt",
+      "final_url": "https://developers.fathom.ai/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:08Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "fef1443bb5ff16567edcb6ee48a5485f50e2247a0766ab2cdba08a938302d864",
+      "text_len": 5941
+    },
+    {
+      "requested_url": "https://developers.fathom.ai/sdks/authentication",
+      "final_url": "https://developers.fathom.ai/sdks/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7770ab3b695056b93ea5bcd33692426921cf086ba5fb550920ff61cf5804d0dd",
+      "text_len": 1367
+    },
+    {
+      "requested_url": "https://www.fathom.ai/pricing",
+      "final_url": "https://www.fathom.ai/pricing",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:27:52Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "c8732baed29ea61cd48503cd02a1589132be0b38efc690f64e7bc753507145b9",
+      "text_len": 5439
+    },
+    {
+      "requested_url": "https://developers.fathom.ai/api-overview",
+      "final_url": "https://developers.fathom.ai/api-overview",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:27:56Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "5e9e8bcbe1636ff78283b5db1dbe11efdb8b3e8c72fb54a04909d564dc10f4eb",
+      "text_len": 2638
+    },
+    {
+      "requested_url": "https://developers.fathom.ai/mcp-docs",
+      "final_url": "https://developers.fathom.ai/mcp-docs",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:27:58Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "932a63f4509d49e79759c14b0122c0436320b1726e5808effb69723d78e057a1",
+      "text_len": 1190
+    },
+    {
+      "requested_url": "https://fathom.video",
+      "final_url": "https://www.fathom.ai/",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:28:02Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "ff499cbd3f24ffafad9f058dc4b1d4610bea1480613986c09a9117c4041055b7",
+      "text_len": 5206
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.fathom.ai/api-overview",
+        "quote": "All REST API resources are authenticated with API keys generated via the Fathom website’s settings area.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/fathom/02-63d1b86da3.jpg"
+      },
+      {
+        "url": "https://developers.fathom.ai/api-overview",
+        "quote": "60 requests per 60 seconds per OAuth app for the https://api.fathom.ai/external/v1/oauth2/token endpoint",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/fathom/02-63d1b86da3.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.fathom.ai/pricing",
+        "quote": "Sign up. Free forever. →",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/fathom/01-9733b1102c.jpg"
+      },
+      {
+        "url": "https://developers.fathom.ai/api-overview",
+        "quote": "All REST API resources are authenticated with API keys generated via the Fathom website’s settings area.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/fathom/02-63d1b86da3.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.fathom.ai/api-overview",
+        "quote": "This documentation describes Fathom's REST API.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.fathom.ai/llms.txt",
+        "quote": "Create a webhook to receive new meeting content.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.fathom.ai/mcp-docs",
+        "quote": "Fathom now offers an official MCP (Model Context Protocol) server",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/fathom/03-486f3fde22.jpg"
+      },
+      {
+        "url": "https://developers.fathom.ai/mcp-docs",
+        "quote": "MCP server URL: https://api.fathom.ai/mcp",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/fathom/03-486f3fde22.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.fathom.ai/api-overview",
+        "quote": "This documentation describes Fathom’s REST API.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/fathom/02-63d1b86da3.jpg"
+      },
+      {
+        "url": "https://www.fathom.ai/pricing",
+        "quote": "Unlimited recordings, instant call summaries, integrations with LLMs & more.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/fathom/01-9733b1102c.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://fathom.video",
+        "quote": "Fathom summarizes your meetings so you can focus on the conversation.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "confidence_not_high",
+        "detail": "confidence is medium",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://www.fathom.ai/pricing",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://www.fathom.ai/pricing",
+        "title": "Fathom Pricing 2026: Free Plan or Plans from $15/mo",
+        "text_len": 5439,
+        "http_status": 200,
+        "screenshot": "screenshots/fathom/01-9733b1102c.jpg",
+        "usable": true,
+        "wall_s": 7.67
+      },
+      {
+        "url": "https://developers.fathom.ai/api-overview",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developers.fathom.ai/api-overview",
+        "title": "Api overview - Fathom API",
+        "text_len": 2638,
+        "http_status": 200,
+        "screenshot": "screenshots/fathom/02-63d1b86da3.jpg",
+        "usable": true,
+        "wall_s": 3.5
+      },
+      {
+        "url": "https://developers.fathom.ai/mcp-docs",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developers.fathom.ai/mcp-docs",
+        "title": "Overview - Fathom API",
+        "text_len": 1190,
+        "http_status": 200,
+        "screenshot": "screenshots/fathom/03-486f3fde22.jpg",
+        "usable": true,
+        "wall_s": 2.12
+      },
+      {
+        "url": "https://fathom.video",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://www.fathom.ai/",
+        "title": "Fathom AI Notetaker - Never Take Notes Again",
+        "text_len": 5206,
+        "http_status": 200,
+        "screenshot": "screenshots/fathom/04-7e6dbaadf7.jpg",
+        "usable": true,
+        "wall_s": 3.69
+      }
+    ],
+    "cloud_sessions": 0
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "slug": "lark",
+  "searches": [
+    {
+      "query": "Lark (Larksuite) API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+          "title": "Obtain access tokens - Server API - Documentation - Lark Developer",
+          "snippet": "Obtain access tokens - Server API - Documentation - Lark Developer\n\n# Obtain access tokens\n\nLast updated on 2024-08-20\n\nThe contents of this article\n\nIntroduction to access tokens\n\nHow to choose different types of access tokens\n\nObtain access tokens\n\nObtain tenant_access_token for custom apps\n\nObtai"
+        },
+        {
+          "url": "https://open.larksuite.com/document/home/introduction-to-scope-and-authorization/overview",
+          "title": "App Authentication - Developer Guides - Documentation",
+          "snippet": "App Authentication - Developer Guides - Documentation - Lark Developer\n\n# App Authentication\n\nLast updated on 2023-09-13\n\nLark's permission system is central to protecting company data, and crucial for developers to understand when building on its platform. This guide helps you quickly understand La"
+        },
+        {
+          "url": "https://open.larksuite.com/document/tools-and-resources/api-explorer-guide",
+          "title": "API Explorer Guide - Developer Guides - Documentation - Lark Developer",
+          "snippet": "API Explorer Guide - Developer Guides - Documentation - Lark Developer\n\n# API Explorer Guide\n\nLast updated on 2024-02-08\n\nThe contents of this article\n\nOverview\n\nTry it here\n\nComponents\n\nChoose your app\n\nObtain access token automatically\n\nFill in query parameters\n\n# Overview\n\nAPI Explorer is a tool "
+        },
+        {
+          "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/get-",
+          "title": "Calling APIs - Server API - Documentation - Lark Developer",
+          "snippet": "Calling APIs - Server API - Documentation - Lark Developer\n\n# Calling APIs\n\nLast updated on 2023-11-10\n\nThe contents of this article\n\nPrerequisites\n\nCalling examples\n\nSending messages to employees within an organization\n\nQuerying user information\n\nResponse result\n\nTo facilitate developers in calling"
+        },
+        {
+          "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/app_access_token",
+          "title": "Store applications get app_access_token - Server API - Documentation - Lark Developer",
+          "snippet": "Store applications get app_access_token - Server API - Documentation - Lark Developer\n\n# Store applications get app_access_token\n\nLast updated on 2023-11-13\n\nThe contents of this article\n\nRequest body example\n\nResponse\n\nResponse body\n\nResponse body example\n\nA store app calls this API to obtain app_a"
+        }
+      ]
+    },
+    {
+      "query": "Lark (Larksuite) developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+          "title": "Obtain access tokens - Server API - Documentation - Lark Developer",
+          "snippet": "Obtain access tokens - Server API - Documentation - Lark Developer\n\n# Obtain access tokens\n\nLast updated on 2024-08-20\n\nThe contents of this article\n\nIntroduction to access tokens\n\nHow to choose different types of access tokens\n\nObtain access tokens\n\nObtain tenant_access_token for custom apps\n\nObtai"
+        },
+        {
+          "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/get-",
+          "title": "Calling APIs - Server API - Documentation - Lark Developer",
+          "snippet": "Calling APIs - Server API - Documentation - Lark Developer\n\n# Calling APIs\n\nLast updated on 2023-11-10\n\nThe contents of this article\n\nPrerequisites\n\nCalling examples\n\nSending messages to employees within an organization\n\nQuerying user information\n\nResponse result\n\nTo facilitate developers in calling"
+        },
+        {
+          "url": "https://open.larksuite.com/document/server-docs/getting-started/server-api-list",
+          "title": "Server API list - Server API - Documentation - Lark Developer",
+          "snippet": "Server API list - Server API - Documentation - Lark Developer\n\n# Server API list\n\nServer-side APIs can help you access and modify data in the Lark system. For how to call server-side APIs, please read: How to call server-side APIs\n\n- Unlimited: Core features including Authentication and Authorizatio"
+        },
+        {
+          "url": "https://open.larksuite.com/document/tools-and-resources/api-explorer-guide",
+          "title": "API Explorer Guide - Developer Guides - Documentation - Lark Developer",
+          "snippet": "API Explorer Guide - Developer Guides - Documentation - Lark Developer\n\n# API Explorer Guide\n\nLast updated on 2024-02-08\n\nThe contents of this article\n\nOverview\n\nTry it here\n\nComponents\n\nChoose your app\n\nObtain access token automatically\n\nFill in query parameters\n\n# Overview\n\nAPI Explorer is a tool "
+        },
+        {
+          "url": "https://open.larksuite.com/document",
+          "title": "Documentation - Lark Developer",
+          "snippet": "Documentation - Lark Developer\n\nServer-side API debugging tools\n\nQuickly debug server-side APIs, see sample code.\n\nClient-side sample code\n\nView the sample code of gadget and web application to quickly start developing client applications.\n\nDesign resources\n\nProvide design specifications for gadget "
+        }
+      ]
+    },
+    {
+      "query": "Lark (Larksuite) pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.larksuite.com/hc/en-US/articles/497171699982-overview-of-lark-plans",
+          "title": "Overview of Lark plans",
+          "snippet": "Overview of Lark plans\n\n# Overview of Lark plans\n\nI. Intro​\n\nPurchase information: Separate payment is required for Basic, Pro, and Enterprise plans. For more information, contact Support or your Customer Success Manager. ​\n\nLark provides four types of plans: Starter, Basic, Pro, and Enterprise. Dif"
+        },
+        {
+          "url": "https://www.larksuite.com/en_us/plans",
+          "title": "Lark | Pricing Plans - Best Priced All-in-one Solution",
+          "snippet": "Lark | Pricing Plans - Best Priced All-in-one Solution\n\nLark | Pricing Plans - Best Priced All-in-one Solution"
+        },
+        {
+          "url": "https://www.larksuite.com/global/register",
+          "title": "Sign up",
+          "snippet": "Lark - Sign up\n\nBye Operation Chaos. Hello Lark.\n\nFree plan!\n\n No credit card required\n\nIdeal for individuals and small teams exploring Lark"
+        },
+        {
+          "url": "https://base.larksuite.com/pricing",
+          "title": "Lark Base: Pricing & Plans – Free, Pro & Enterprise",
+          "snippet": "Lark Base: Pricing & Plans – Free, Pro & Enterprise\n\nBuild Your Business System. Get Started Here. No-code all-in-one solution for easy team collaboration\n\nStarter\n\nFree\n\nFor simple business scenarios Create business scenarios Store business data\n\nPro\n\nManage business with one table\n\nIncludes Starte"
+        },
+        {
+          "url": "https://www.larksuite.com/zh_cn/plans",
+          "title": "Lark | 价格与版本对比",
+          "snippet": "Lark | 价格与版本对比\n\n产品\n\n资源\n\n为您的组织选择最佳方案\n\n即时消息\n\n邮箱\n\n日历\n\n审批\n\n多维表格\n\n文档\n\n知识库\n\n视频会议\n\nOKR\n\nLark 开放平台\n\n月付\n\n年付\n\n年付立省 16.6%\n\n*价格单位为美元，所标价格均不含税\n\n标准版\n\n专业版\n\n旗舰版\n\n标准版\n\n适用于有简单沟通需求的小型团队\n\n$0\n\n/ 人 / 月\n\n无需信用卡\n\n组织协作\n\n20 人组织人数上限\n\n18 个月消息存储\n\n1v1 视频会议\n\n100 GB 存储空间\n\n在消息/云文档/邮件中无限翻译\n\n业务和流程自动化\n\n1,000 次/月多维表格自动化流程\n\n2,000 行多维表格单表"
+        }
+      ]
+    },
+    {
+      "query": "Lark (Larksuite) official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://github.com/larksuite/lark-openapi-mcp",
+          "title": "larksuite/lark-openapi-mcp",
+          "snippet": "# larksuite/lark-openapi-mcp\n\n飞书/Lark官方 OpenAPI MCP\n\n- Stars: 874\n- Forks: 122\n- Watchers: 874\n- Open issues: 76\n- License: MIT License\n- Default branch: main\n- Created: 2025-04-16T08:42:02Z\n\n## Languages\n\n- Dockerfile\n- JavaScript\n- TypeScript\n\n## Top Contributors\n\n- chenli-idevlab (62 contribution"
+        },
+        {
+          "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+          "title": "OpenAPI MCP overview - Lark CLI - Documentation - Lark Developer",
+          "snippet": "OpenAPI MCP overview - Lark CLI - Documentation - Lark Developer\n\n# OpenAPI MCP overview\n\nLast updated on 2025-06-30\n\nThe contents of this article\n\nFeatures Typical use cases Supported openAPI MCP tool naming scheme\n\nOpenAPI MCP Tool (hereinafter referred to as \"MCP Tool\") can help you quickly integ"
+        },
+        {
+          "url": "https://github.com/larksuite/lark-openapi-mcp/blob/main/docs/reference/cli/cli.md",
+          "title": "docs/reference/cli/cli.md",
+          "snippet": "# docs/reference/cli/cli.md\n\n- Branch: main\n- Repository: larksuite/lark-openapi-mcp\n\n---\n\n# Command Line Reference\n\nThis document provides detailed information about all command line parameters available for the lark-mcp tool.\n\n## Table of Contents\n\n- lark-mcp login\n- lark-mcp logout \n- lark-mcp mc"
+        },
+        {
+          "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/use_cases",
+          "title": "FAQs - Lark CLI - Documentation - Lark Developer",
+          "snippet": "FAQs - Lark CLI - Documentation - Lark Developer\n\n# FAQs\n\nLast updated on 2025-08-04\n\nThe contents of this article\n\nNode.js environment\n\nNode.js environment issues on Windows\n\nHow to resolve “cannot find module xxxx” error when executing npx?\n\nHow to resolve the issue of AI tools fail to start due t"
+        },
+        {
+          "url": "https://github.com/larksuite/lark-openapi-mcp/blob/main/docs/troubleshooting/faq.md",
+          "title": "docs/troubleshooting/faq.md",
+          "snippet": "# docs/troubleshooting/faq.md\n\n- Branch: main\n- Repository: larksuite/lark-openapi-mcp\n\n---\n\n## Frequently Asked Questions (FAQ)\n\nBelow are common issues and solutions, with additional explanations to help identify causes and process quickly.\n\n### Unable to connect to Feishu/Lark API\n\nSolutions:\n- C"
+        }
+      ]
+    },
+    {
+      "query": "site:open.larksuite.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+          "title": "OpenAPI MCP overview - Lark CLI - Documentation - Lark Developer",
+          "snippet": "OpenAPI MCP overview - Lark CLI - Documentation - Lark Developer\n\n# OpenAPI MCP overview\n\nLast updated on 2025-06-30\n\nThe contents of this article\n\nFeatures Typical use cases Supported openAPI MCP tool naming scheme\n\nOpenAPI MCP Tool (hereinafter referred to as \"MCP Tool\") can help you quickly integ"
+        },
+        {
+          "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/use_cases",
+          "title": "FAQs - Lark CLI - Documentation - Lark Developer",
+          "snippet": "FAQs - Lark CLI - Documentation - Lark Developer\n\n# FAQs\n\nLast updated on 2025-08-04\n\nThe contents of this article\n\nNode.js environment\n\nNode.js environment issues on Windows\n\nHow to resolve “cannot find module xxxx” error when executing npx?\n\nHow to resolve the issue of AI tools fail to start due t"
+        },
+        {
+          "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/install-and-use-document-search-mcp",
+          "title": "Install and use document search MCP - Lark CLI - Documentation - Lark Developer",
+          "snippet": "Install and use document search MCP - Lark CLI - Documentation - Lark Developer\n\n# Install and use document search MCP\n\nLast updated on 2025-07-01\n\nThe contents of this article\n\nPreparations\n\nInstall Node.js\n\nInstall lark-mcp tool\n\nUse the document search MCP\n\nThis article introduces how to install "
+        },
+        {
+          "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_installation",
+          "title": "Install and use OpenAPI MCP locally - Lark CLI - Documentation - Lark Developer",
+          "snippet": "Lark Developer\n\nFeedback\n\nOnCall\n\nCollapse\n\nExpand\n\nLark Developer\n[![lark](//lf-package-sg.larksuitecdn.com/obj/lark-static-sgsaas/lark/open/doc/frontend/images/09315cac72a0d8cc9d600f399b22aa48.svg)](https://open.larksuite.com/?lang=en-US)\n*\n[Customer Stories](https://open.larksuite.com/solutions?l"
+        },
+        {
+          "url": "https://open.larksuite.com/document/mcp_open_tools/development-document-search-mcp-integration/development-document-search-mcp-overview",
+          "title": "Development document search MCP overview - Lark CLI - Documentation - Lark Developer",
+          "snippet": "Development document search MCP overview - Lark CLI - Documentation - Lark Developer\n\n# Development document search MCP overview\n\nLast updated on 2025-05-30\n\nThe contents of this article\n\nScenario example\n\nThe Development document search MCP (hereafter referred to as \"Document search MCP\") uses the "
+        }
+      ]
+    },
+    {
+      "query": "site:larksuite.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+          "title": "OpenAPI MCP overview - Lark CLI - Documentation - Lark Developer",
+          "snippet": "OpenAPI MCP overview - Lark CLI - Documentation - Lark Developer\n\n# OpenAPI MCP overview\n\nLast updated on 2025-06-30\n\nThe contents of this article\n\nFeatures Typical use cases Supported openAPI MCP tool naming scheme\n\nOpenAPI MCP Tool (hereinafter referred to as \"MCP Tool\") can help you quickly integ"
+        },
+        {
+          "url": "https://anycross.larksuite.com/mcp-server/list",
+          "title": "Lark AnyCross",
+          "snippet": "Lark AnyCross\n\nLark_Contact\n\nUsed to obtain user IDs via mobile phone numbers or email addresses, retrieve user details via user IDs, and search for user IDs by user information such as names or employee numbers.\n\nLark Technologies\n\nLark_Task\n\nUsed for creating, querying, and editing Lark tasks.\n\nAc"
+        },
+        {
+          "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/use_cases",
+          "title": "FAQs - Lark CLI - Documentation - Lark Developer",
+          "snippet": "FAQs - Lark CLI - Documentation - Lark Developer\n\n# FAQs\n\nLast updated on 2025-08-04\n\nThe contents of this article\n\nNode.js environment\n\nNode.js environment issues on Windows\n\nHow to resolve “cannot find module xxxx” error when executing npx?\n\nHow to resolve the issue of AI tools fail to start due t"
+        },
+        {
+          "url": "https://www.larksuite.com/en_us/blog/lark-cli",
+          "title": "Lark CLI: Empowering AI Agents for Seamless Automation",
+          "snippet": "Lark CLI: Empowering AI Agents for Seamless Automation\n\n# Lark CLI: Empowering AI Agents for Seamless Automation\n\nLark team\n\nNov 16, 2026\n\nLark team\n\nNov 16, 2026\n\nAs AI agents move from analytical tasks to direct execution, Command Line Interfaces (CLIs) have become essential for enabling this tran"
+        },
+        {
+          "url": "https://open.larksuite.com/document/mcp_open_tools/development-document-search-mcp-integration/development-document-search-mcp-overview",
+          "title": "Development document search MCP overview - Lark CLI - Documentation - Lark Developer",
+          "snippet": "Development document search MCP overview - Lark CLI - Documentation - Lark Developer\n\n# Development document search MCP overview\n\nLast updated on 2025-05-30\n\nThe contents of this article\n\nScenario example\n\nThe Development document search MCP (hereafter referred to as \"Document search MCP\") uses the "
+        }
+      ]
+    },
+    {
+      "query": "Lark open platform user_access_token OAuth authorization code open.larksuite.com",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/authentication-management/access-token/get-user-access-token",
+          "title": "Get user_access_token - Server API - Documentation - Lark Developer",
+          "snippet": "Get user_access_token - Server API - Documentation - Lark Developer\n\n# Get user_access_token\n\nLast updated on 2025-06-09\n\nThe contents of this article\n\nRequest Headers\n\nRequest Body\n\nRequest Body Example\n\nResponse\n\nResponse Body\n\nResponse Body Examples\n\nError Codes\n\nCode Example\n\nGolang\n\nOAuth token"
+        },
+        {
+          "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/authen-v1/login-overview",
+          "title": "Login Overview - Developer Guides - Documentation - Lark Developer",
+          "snippet": "Login Overview - Developer Guides - Documentation - Lark Developer\n\n# Login Overview\n\nLast updated on 2025-06-10\n\nThe contents of this article\n\nPreparation\n\n整体流程\n\nFirst: Obtain Authorization Code\n\nSecond: Use Authorization Code to Exchange User Access Token\n\nThird: Use User Access Token to Get User "
+        },
+        {
+          "url": "https://open.larksuite.com/document/uYjL24iN/uYjN3QjL2YzN04iN2cDN",
+          "title": "Configure redirect URLs - Developer Guides - Documentation - Lark Developer",
+          "snippet": "Configure redirect URLs - Developer Guides - Documentation - Lark Developer\n\n# Configure redirect URLs\n\nLast updated on 2024-10-20\n\nThe contents of this article\n\nApplication scenarios\n\nOperation steps\n\nFAQ\n\nHow to set a redirect URL when the URL contains a \"?\" or \"#\" suffix?\n\nWhen developing user lo"
+        },
+        {
+          "url": "https://open.larksuite.com/document/uYjL24iN/uMTMuMTMuMTM/development-guide/webapp-incremental-authorization-access-guide",
+          "title": "Lark client web app end user consent guide - Developer Guides - Documentation - Lark Developer",
+          "snippet": "Lark client web app end user consent guide - Developer Guides - Documentation - Lark Developer\n\n# Lark client web app end user consent guide\n\nLast updated on 2026-04-15\n\nThe contents of this article\n\nOverview\n\nProcedure\n\nStep 1: Configure the Redirect URL\n\nStep 2: Apply for Required Permissions\n\nSte"
+        },
+        {
+          "url": "https://open.larksuite.com/document/ukTMukTMukTM/ukzN4UjL5cDO14SO3gTN",
+          "title": "Obtain code - Server API - Documentation",
+          "snippet": "Obtain code - Server API - Documentation - Lark Developer\n\n# Obtain code\n\nLast updated on 2025-06-26\n\nThe contents of this article\n\nQuery parameters\n\nRequest example\n\nResponse example\n\nThis API is now deprecated. Its use is not recommended. Please use the latest version: Get Authorization Code.\n\nThi"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://open.larksuite.com",
+      "final_url": "https://open.larksuite.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:24Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "6a740af9387369f7d64ff0fe01bdf5f82faab7e90ed5d28ec5285fa0c63f2b17",
+      "text_len": 632
+    },
+    {
+      "requested_url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/app_access_token",
+      "final_url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/auth-v3/app_access_token",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:16Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e5345fcf1fa6c57a07970bd7bf345bf61e3fdc7152f31bf9f806da69b20455c8",
+      "text_len": 2166
+    },
+    {
+      "requested_url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+      "final_url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:16Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "23700e9c57495973b4e8316b08ee04699ef4e4370e921033aa4bed8a74d746eb",
+      "text_len": 9536
+    },
+    {
+      "requested_url": "https://base.larksuite.com/pricing",
+      "final_url": "https://base.larksuite.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "95f1763fa501fb7bc11d7caa6be90ff9727817bfe6ee40f06cce718924360782",
+      "text_len": 498
+    },
+    {
+      "requested_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+      "final_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fd5e3679d17e5bbd1675edfd0b276ca8823540a5160ef22689bd90485cee659a",
+      "text_len": 3791
+    },
+    {
+      "requested_url": "https://open.larksuite.com/document/mcp_open_tools/development-document-search-mcp-integration/development-document-search-mcp-overview",
+      "final_url": "https://open.larksuite.com/document/mcp_open_tools/development-document-search-mcp-integration/development-document-search-mcp-overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:21Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8203cab3b3553822776f84a5170ee9831d785cc8c266c40658fe7918e75832ba",
+      "text_len": 1212
+    },
+    {
+      "requested_url": "https://anycross.larksuite.com/mcp-server/list",
+      "final_url": "https://anycross.larksuite.com/mcp-server/list",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:23Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2927767c47627244f685240bfced1ddf003c5b2360758a929013a518e3482751",
+      "text_len": 487
+    },
+    {
+      "requested_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/install-and-use-document-search-mcp",
+      "final_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/install-and-use-document-search-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:21Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "58c6e0c22dca1b9c88f61c8bc31c55bfc99e7acd038a9934178aafc92c6b2640",
+      "text_len": 4952
+    },
+    {
+      "requested_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/authen-v1/login-overview",
+      "final_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/authen-v1/login-overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:40Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b047203910423d1aa7c33e6c041e1df95fe32db334326443bfcd9da3f26e1409",
+      "text_len": 1495
+    },
+    {
+      "requested_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/authentication-management/access-token/get-user-access-token",
+      "final_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/authentication-management/access-token/get-user-access-token",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:40Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b15b313187c09d7b43e18ac6c5b6765e0c5b91f2e15755b567f1269243c60af5",
+      "text_len": 19694
+    },
+    {
+      "requested_url": "https://open.larksuite.com/document/uYjL24iN/uMTMuMTMuMTM/development-guide/webapp-incremental-authorization-access-guide",
+      "final_url": "https://open.larksuite.com/document/uYjL24iN/uMTMuMTMuMTM/development-guide/webapp-incremental-authorization-access-guide",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:40Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1fd09eb835662955af760e2154ed41d561185722bc0a55aa1e23b59afaf45204",
+      "text_len": 8032
+    },
+    {
+      "requested_url": "https://open.larksuite.com/document/home/introduction-to-scope-and-authorization/overview",
+      "final_url": "https://open.larksuite.com/document/home/introduction-to-scope-and-authorization/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:16Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6ff8ab9eac9294f3a849dad74151368091558f521d50e7a17b6c21dd9e4d633c",
+      "text_len": 1917
+    },
+    {
+      "requested_url": "https://base.larksuite.com/pricing",
+      "final_url": "https://base.larksuite.com/pricing",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:18:45Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "6937ee6e11d058e3efe0a605dcb84ff5fd4532d2a4f04a603b388c7e1b8fe713",
+      "text_len": 1624
+    },
+    {
+      "requested_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/authentication-management/access-token/get-user-access-token",
+      "final_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/authentication-management/access-token/get-user-access-token",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:18:51Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "22959fe51bb39a4e1822c8d5852f83f059fc95bdbf4c41eef0af83cdca841b65",
+      "text_len": 21181
+    },
+    {
+      "requested_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+      "final_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:18:55Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "03613500af9fe7e95b05fa10629768e1648cb675dd30bc7e7f5c9902511cf89b",
+      "text_len": 4454
+    },
+    {
+      "requested_url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+      "final_url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:19:00Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "9c05210df6209153ad2e8cd2f03c5101e7e696022cc44fae4320f487a42445aa",
+      "text_len": 10204
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/authentication-management/access-token/get-user-access-token",
+        "quote": "This API implementation adheres to RFC 6749 - The OAuth 2.0 Authorization Framework.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/lark/02-8d2544afe9.jpg"
+      },
+      {
+        "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+        "quote": "Call the obtain tenant_access_token for custom apps API and get the tenant_access_token for the custom app using the app credentials.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/lark/04-474db6bf4e.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+        "quote": "On the Credentials & Basic Info page, obtain the App ID and App Secret of the app.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/lark/04-474db6bf4e.jpg"
+      },
+      {
+        "url": "https://base.larksuite.com/pricing",
+        "quote": "Start your 30 days free Pro trial",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/lark/01-84f39bfdc7.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+        "quote": "providing a rich set of OpenAPI tools that cover Lark's core functions (such as messages, groups, calendars, Base apps, etc.)",
+        "verified": true
+      },
+      {
+        "url": "https://open.larksuite.com",
+        "quote": "Extend Lark with custom bots, web apps, blocks, powerful open APIs, and more.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+        "quote": "The MCP Tool uses the MCP (Model Context Protocol) protocol to connect with the Lark Open Platform, providing a rich set of OpenAPI tools",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/lark/03-6a9afacfb5.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+        "quote": "Log in to the Developer Console and select the specified app.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/lark/04-474db6bf4e.jpg"
+      },
+      {
+        "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+        "quote": "It also supports application access tokens (tenant_access_token) and user access tokens (user_access_token)",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/lark/03-6a9afacfb5.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://open.larksuite.com",
+        "quote": "Extend Lark with custom bots, web apps, blocks, powerful open APIs, and more.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "confidence_not_high",
+        "detail": "confidence is medium",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://base.larksuite.com/pricing",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://base.larksuite.com/pricing",
+        "title": "Lark Base: Pricing & Plans – Free, Pro & Enterprise",
+        "text_len": 1624,
+        "http_status": 200,
+        "screenshot": "screenshots/lark/01-84f39bfdc7.jpg",
+        "usable": true,
+        "wall_s": 8.66
+      },
+      {
+        "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/authentication-management/access-token/get-user-access-token",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/authentication-management/access-token/get-user-access-token",
+        "title": "Get user_access_token - Server API - Documentation - Lark Developer",
+        "text_len": 21181,
+        "http_status": 200,
+        "screenshot": "screenshots/lark/02-8d2544afe9.jpg",
+        "usable": true,
+        "wall_s": 6.23
+      },
+      {
+        "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+        "title": "OpenAPI MCP overview - Lark CLI - Documentation - Lark Developer",
+        "text_len": 4454,
+        "http_status": 200,
+        "screenshot": "screenshots/lark/03-6a9afacfb5.jpg",
+        "usable": true,
+        "wall_s": 4.54
+      },
+      {
+        "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+        "title": "Obtain access tokens - Server API - Documentation - Lark Developer",
+        "text_len": 10204,
+        "http_status": 200,
+        "screenshot": "screenshots/lark/04-474db6bf4e.jpg",
+        "usable": true,
+        "wall_s": 4.08
+      }
+    ],
+    "cloud_sessions": 0
+  }
+}

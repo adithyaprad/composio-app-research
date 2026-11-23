@@ -1,0 +1,503 @@
+{
+  "slug": "ipayx",
+  "searches": [
+    {
+      "query": "iPayX API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.ipayx.ai/docs/api",
+          "title": "FX Audit API",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nREST API · v1\n\n# FX Audit API\n\nThe forensic FX audit engine that powers iPayX. Detect hidden bank spreads vs mid-market benchmark on any currency transaction. Bearer auth, OpenAPI 3.1, signed webhooks.\n\nGet an API key Op"
+        },
+        {
+          "url": "https://www.ipayx.ai/developers",
+          "title": "The Auditable Truth API & MCP for Modern Fintechs",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nMCP-NATIVE FX AUDIT ENGINE\n\n# The Auditable Truth API & MCP for Modern Fintechs\n\nOne stable endpoint. A native MCP server. Audit-grade FX proof your sales team — or your AI agents — deliver in under 30 seconds.\n\nEvery FX"
+        },
+        {
+          "url": "https://www.ipayx.ai/docs/mcp-server",
+          "title": "iPayX MCP Server — Documentation",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\n# iPayX MCP Server — Documentation\n\nConnect your AI agent to real-time FX audit verdicts.\n\n## 1. Endpoints\n\n- Production MCP: `https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server`\n- Documentation: `https://h"
+        },
+        {
+          "url": "https://www.ipayx.ai/developers/sandbox",
+          "title": "iPayX FX Proof API",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nDevelopers\n\nAPI Reference\n\n# iPayX FX Proof API\n\nAudit FX transactions against the mid-market rate. Returns the hidden spread, true cost, and an FX score (1–10).\n\nBase URL\n\n`https://api.ipayx.ai/v1`\n\nAuthentication\n\n`Aut"
+        },
+        {
+          "url": "https://www.ipayx.ai/security",
+          "title": "Security & trust",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nBack Trust Center\n\n# Security & trust\n\niPayX handles sensitive financial data. Here is what we concretely do to protect it — no jargon, no unverifiable claims.\n\n## FINTRAC-registered MSB\n\niPayX Protocol is operated by 11"
+        }
+      ]
+    },
+    {
+      "query": "iPayX developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.ipayx.ai/docs/api",
+          "title": "FX Audit API",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nREST API · v1\n\n# FX Audit API\n\nThe forensic FX audit engine that powers iPayX. Detect hidden bank spreads vs mid-market benchmark on any currency transaction. Bearer auth, OpenAPI 3.1, signed webhooks.\n\nGet an API key Op"
+        },
+        {
+          "url": "https://www.ipayx.ai/developers",
+          "title": "The Auditable Truth API & MCP for Modern Fintechs",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nMCP-NATIVE FX AUDIT ENGINE\n\n# The Auditable Truth API & MCP for Modern Fintechs\n\nOne stable endpoint. A native MCP server. Audit-grade FX proof your sales team — or your AI agents — deliver in under 30 seconds.\n\nEvery FX"
+        },
+        {
+          "url": "https://www.ipayx.ai/docs/mcp-server",
+          "title": "iPayX MCP Server — Documentation",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\n# iPayX MCP Server — Documentation\n\nConnect your AI agent to real-time FX audit verdicts.\n\n## 1. Endpoints\n\n- Production MCP: `https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server`\n- Documentation: `https://h"
+        },
+        {
+          "url": "https://www.ipayx.ai/api-terms",
+          "title": "iPayX Protocol — API Terms of Service",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nDRAFT\n\nDraft — Pending legal review by counsel. This document is not yet binding.\n\n# iPayX Protocol — API Terms of Service\n\nVersion 0.1 (Draft)\n\nLast updated: 2026-11-23\n\n## 1. Definitions\n\n\"iPayX\" refers to iPayX Protoc"
+        },
+        {
+          "url": "https://www.ipayx.ai/mcp",
+          "title": "Connect iPayX to your AI agent",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nMCP Compatible\n\nStreamable HTTP\n\nOpenAPI 3.1\n\nFINTRAC MSB\n\n# Connect iPayX to your AI agent\n\nOne MCP server. Claude, ChatGPT, Grok, Perplexity, DeepSeek, Qwen, MiniMax, Copilot, Cursor, n8n — real-time forensic FX audit."
+        }
+      ]
+    },
+    {
+      "query": "iPayX pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.ipayx.ai/pricing",
+          "title": "Pricing",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\n## Forensic FX reports for finance teams. Audit API for fintechs.\n\nFree audit included. Upgrade to signed reports or production-grade API.\n\nBack to home\n\niPayX Pricing\n\n# Pricing\n\nThree options. No jargon, no hidden tier"
+        },
+        {
+          "url": "https://www.ipayx.ai/",
+          "title": "How much is your bank really charging you on international payments?",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nForensic FX audit · FINTRAC MSB\n\n# How much is your bank really charging you on international payments?\n\nMost companies never find out. Our free audit gives you a forensic FX score in 60 seconds. No signup. No credit car"
+        },
+        {
+          "url": "https://www.ipayx.ai/developers",
+          "title": "The Auditable Truth API & MCP for Modern Fintechs",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nMCP-NATIVE FX AUDIT ENGINE\n\n# The Auditable Truth API & MCP for Modern Fintechs\n\nOne stable endpoint. A native MCP server. Audit-grade FX proof your sales team — or your AI agents — deliver in under 30 seconds.\n\nEvery FX"
+        },
+        {
+          "url": "https://www.ipayx.ai/audit?lang=en",
+          "title": "Show your clients what their bank is hiding.",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nFX AUDIT\n\n# Show your clients what their bank is hiding.\n\nIn under 2 minutes, generate auditable proof of hidden FX spreads. Give your sales team the data they need to close faster.\n\nRun a client audit\n\n3 free audits rem"
+        },
+        {
+          "url": "https://www.ipayx.ai/terms",
+          "title": "Terms of Service",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nHome\n\n# Terms of Service\n\nLast updated: February 18, 2026\n\n## 1. Acceptance\n\nBy using iPayX Protocol (\"the Service\"), operated by 11850091 Canada Inc., you agree to these terms. If you do not agree, please do not use the"
+        }
+      ]
+    },
+    {
+      "query": "iPayX official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.ipayx.ai/mcp",
+          "title": "Connect iPayX to your AI agent",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nMCP Compatible\n\nStreamable HTTP\n\nOpenAPI 3.1\n\nFINTRAC MSB\n\n# Connect iPayX to your AI agent\n\nOne MCP server. Claude, ChatGPT, Grok, Perplexity, DeepSeek, Qwen, MiniMax, Copilot, Cursor, n8n — real-time forensic FX audit."
+        },
+        {
+          "url": "https://www.ipayx.ai/developers",
+          "title": "The Auditable Truth API & MCP for Modern Fintechs",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nMCP-NATIVE FX AUDIT ENGINE\n\n# The Auditable Truth API & MCP for Modern Fintechs\n\nOne stable endpoint. A native MCP server. Audit-grade FX proof your sales team — or your AI agents — deliver in under 30 seconds.\n\nEvery FX"
+        },
+        {
+          "url": "https://www.ipayx.ai/docs/mcp-server",
+          "title": "iPayX MCP Server — Documentation",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\n# iPayX MCP Server — Documentation\n\nConnect your AI agent to real-time FX audit verdicts.\n\n## 1. Endpoints\n\n- Production MCP: `https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server`\n- Documentation: `https://h"
+        },
+        {
+          "url": "https://www.ipayx.ai/mcp-marketplace",
+          "title": "The forensic FX audit MCP server, for every AI agent",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nMCP Compatible\n\nOpenAPI 3.1\n\nFINTRAC MSB C10001283\n\n# The forensic FX audit MCP server, for every AI agent\n\nOne server URL. Ten clients. iPayX Protocol detects hidden bank FX markup directly inside Claude, Cursor, Perple"
+        },
+        {
+          "url": "https://www.ipayx.ai/integrations/microsoft-foundry",
+          "title": "iPayX FX Audit on Microsoft Azure Foundry",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\n# iPayX FX Audit on Microsoft Azure Foundry\n\nConnect Microsoft Copilot and Foundry agents to real-time FX audit verdicts in 60 seconds.\n\n## How it works\n\n1. Provision a Microsoft Azure Foundry agent.\n2. Add iPayX as an M"
+        }
+      ]
+    },
+    {
+      "query": "site:ipayx.ai MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.ipayx.ai/mcp",
+          "title": "Connect iPayX to your AI agent",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nMCP Compatible\n\nStreamable HTTP\n\nOpenAPI 3.1\n\nFINTRAC MSB\n\n# Connect iPayX to your AI agent\n\nOne MCP server. Claude, ChatGPT, Grok, Perplexity, DeepSeek, Qwen, MiniMax, Copilot, Cursor, n8n — real-time forensic FX audit."
+        },
+        {
+          "url": "https://www.ipayx.ai/docs/mcp-server",
+          "title": "iPayX MCP Server — Documentation",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\n# iPayX MCP Server — Documentation\n\nConnect your AI agent to real-time FX audit verdicts.\n\n## 1. Endpoints\n\n- Production MCP: `https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server`\n- Documentation: `https://h"
+        },
+        {
+          "url": "https://www.ipayx.ai/developers",
+          "title": "The Auditable Truth API & MCP for Modern Fintechs",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nMCP-NATIVE FX AUDIT ENGINE\n\n# The Auditable Truth API & MCP for Modern Fintechs\n\nOne stable endpoint. A native MCP server. Audit-grade FX proof your sales team — or your AI agents — deliver in under 30 seconds.\n\nEvery FX"
+        },
+        {
+          "url": "https://www.ipayx.ai/mcp-marketplace",
+          "title": "The forensic FX audit MCP server, for every AI agent",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nMCP Compatible\n\nOpenAPI 3.1\n\nFINTRAC MSB C10001283\n\n# The forensic FX audit MCP server, for every AI agent\n\nOne server URL. Ten clients. iPayX Protocol detects hidden bank FX markup directly inside Claude, Cursor, Perple"
+        },
+        {
+          "url": "https://www.ipayx.ai/forensic-audit",
+          "title": "One source of truth",
+          "snippet": "iPayXProtocol\n\nHome FX Audit MCP Developers Pricing\n\nENFR\n\nLog inSign up\n\nENFR\n\nNeutral FX Verification Layer — Partner Edition\n\n# One source of truth\n\nfor every FX quote.\n\niPayX is the neutral verification layer between your prospects, their banks and live mid-market data. One click, forensic proof"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://ipayx.ai/docs",
+      "final_url": "https://ipayx.ai/docs",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:55Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "318c80246e7d45d7f86e63268d602b4b80a67b4292cef8186b559e73c35a80b1",
+      "text_len": 132
+    },
+    {
+      "requested_url": "https://www.ipayx.ai/docs/api",
+      "final_url": "https://www.ipayx.ai/docs/api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "75e3535ebef1d9e80c40420425ca0eccca01d3bcf699c38d7ed8e7ded9314996",
+      "text_len": 4993
+    },
+    {
+      "requested_url": "https://www.ipayx.ai/pricing",
+      "final_url": "https://www.ipayx.ai/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e064045b1333d54a4b3d3cbb24f7a9529d21361e9bf7d06b1bbc09ae8f64091c",
+      "text_len": 1119
+    },
+    {
+      "requested_url": "https://www.ipayx.ai/docs/mcp-server",
+      "final_url": "https://www.ipayx.ai/docs/mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "31f04fdfa41f4cc1b6a19c2e921a1940b2479043c241939d8612df37d4b7aa7c",
+      "text_len": 3317
+    },
+    {
+      "requested_url": "https://www.ipayx.ai/mcp",
+      "final_url": "https://www.ipayx.ai/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:46Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cc84617889c206472795307bc8f6b033938de2ea25ddf0ec14ba0f054c9d16ca",
+      "text_len": 2550
+    },
+    {
+      "requested_url": "https://www.ipayx.ai/mcp-marketplace",
+      "final_url": "https://www.ipayx.ai/mcp-marketplace",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "834cbdb5ed2bdaa138cd416b0468c06952c8c91ac1bb45d43739bd7eebf9f899",
+      "text_len": 4646
+    },
+    {
+      "requested_url": "https://www.ipayx.ai/api-terms",
+      "final_url": "https://www.ipayx.ai/api-terms",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:46Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "57ac3f696404e8b2092e54211e64d1ed78b0a236f8811536aead2b6e5286218e",
+      "text_len": 5107
+    },
+    {
+      "requested_url": "https://www.ipayx.ai/developers",
+      "final_url": "https://www.ipayx.ai/developers",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e8c6158aa69b563382a8e0f721a88d9cf2d4968074e47df180b6c4c1044e1367",
+      "text_len": 9551
+    },
+    {
+      "requested_url": "https://ipayx.ai/llms.txt",
+      "final_url": "https://ipayx.ai/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:56Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "967deeb0c3efef097891f62156d2d28a1960a5f688fe33174f7e6a17dfbcd74a",
+      "text_len": 3799
+    },
+    {
+      "requested_url": "https://www.ipayx.ai/pricing",
+      "final_url": "https://www.ipayx.ai/pricing",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:26:19Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "eacc4bdafc1701cc24ef72a04efa32444dc448650777f5a050bd549780e02c3c",
+      "text_len": 1068
+    },
+    {
+      "requested_url": "https://www.ipayx.ai/docs/api",
+      "final_url": "https://www.ipayx.ai/docs/api",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:26:23Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "63c253ba3b01855e778640cbfdf69bad15b022af160d82ed10b9ac34dbe23249",
+      "text_len": 4720
+    },
+    {
+      "requested_url": "https://www.ipayx.ai/mcp",
+      "final_url": "https://www.ipayx.ai/mcp",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:26:25Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "331574706b679be062f2749f904d75228a53ba7786689e43be130be3a43c4d71",
+      "text_len": 2492
+    },
+    {
+      "requested_url": "https://www.ipayx.ai/api-terms",
+      "final_url": "https://www.ipayx.ai/api-terms",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:26:28Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "25579405a1ecb79850cc001fa80d6dd90263772dbcdddcd93379d126657206cc",
+      "text_len": 5031
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://www.ipayx.ai/docs/api",
+        "quote": "Every request requires a Bearer token in the Authorization header. Keys start with ipx_live_.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/ipayx/02-4022e9716e.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.ipayx.ai/pricing",
+        "quote": "Banks and institutions: contact sales",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/ipayx/01-bada4b29c8.jpg"
+      },
+      {
+        "url": "https://www.ipayx.ai/pricing",
+        "quote": "One-time payment · $0.99 / audit",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/ipayx/01-bada4b29c8.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://www.ipayx.ai/docs/api",
+        "quote": "Bearer auth, OpenAPI 3.1, signed webhooks.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://www.ipayx.ai/mcp",
+        "quote": "No account or API key required.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/ipayx/03-289a993481.jpg"
+      },
+      {
+        "url": "https://www.ipayx.ai/mcp",
+        "quote": "https://mcp.ipayx.ai/mcp",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/ipayx/03-289a993481.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://www.ipayx.ai/docs/api",
+        "quote": "Get your API key, hit /audit, and start exposing hidden bank spreads in your product.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/ipayx/02-4022e9716e.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://ipayx.ai/llms.txt",
+        "quote": "Real-time foreign-exchange auditing API and MCP server for AI agents, Canadian CFOs, and fintechs.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "confidence_not_high",
+        "detail": "confidence is medium",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://www.ipayx.ai/pricing",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://www.ipayx.ai/pricing",
+        "title": "Pricing — iPayX Forensic Reports & FX Audit API",
+        "text_len": 1068,
+        "http_status": 200,
+        "screenshot": "screenshots/ipayx/01-bada4b29c8.jpg",
+        "usable": true,
+        "wall_s": 4.89
+      },
+      {
+        "url": "https://www.ipayx.ai/docs/api",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://www.ipayx.ai/docs/api",
+        "title": "FX Audit API Docs · iPayX Protocol",
+        "text_len": 4720,
+        "http_status": 200,
+        "screenshot": "screenshots/ipayx/02-4022e9716e.jpg",
+        "usable": true,
+        "wall_s": 4.32
+      },
+      {
+        "url": "https://www.ipayx.ai/mcp",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://www.ipayx.ai/mcp",
+        "title": "iPayX MCP — Forensic FX audit for Claude, ChatGPT, Grok, Perplexity",
+        "text_len": 2492,
+        "http_status": 200,
+        "screenshot": "screenshots/ipayx/03-289a993481.jpg",
+        "usable": true,
+        "wall_s": 2.17
+      },
+      {
+        "url": "https://www.ipayx.ai/api-terms",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://www.ipayx.ai/api-terms",
+        "title": "API Terms of Service – iPayX Protocol",
+        "text_len": 5031,
+        "http_status": 200,
+        "screenshot": "screenshots/ipayx/04-d531b3f479.jpg",
+        "usable": true,
+        "wall_s": 2.48
+      }
+    ],
+    "cloud_sessions": 0
+  }
+}

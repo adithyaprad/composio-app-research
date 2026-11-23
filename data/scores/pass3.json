@@ -1,0 +1,2741 @@
+{
+  "run_id": "pass3",
+  "run_dir": "/home/box/work/gig/composio-browser/data/runs/pass3",
+  "gold_path": "/home/box/work/gig/composio-browser/schema/gold_sample.jsonl",
+  "scored_at": "2026-11-23T15:29:43Z",
+  "summary": {
+    "n_gold": 20,
+    "n_row_correct": 15,
+    "row_accuracy": 0.75,
+    "field_accuracy": {
+      "auth": {
+        "matches": 19,
+        "applies": 20,
+        "accuracy": 0.95
+      },
+      "access": {
+        "matches": 18,
+        "applies": 20,
+        "accuracy": 0.9
+      },
+      "api": {
+        "matches": 19,
+        "applies": 20,
+        "accuracy": 0.95
+      },
+      "mcp_status": {
+        "matches": 19,
+        "applies": 20,
+        "accuracy": 0.95
+      },
+      "verdict": {
+        "matches": 17,
+        "applies": 20,
+        "accuracy": 0.85
+      },
+      "blocker": {
+        "matches": 17,
+        "applies": 20,
+        "accuracy": 0.85
+      },
+      "evidence": {
+        "matches": 20,
+        "applies": 20,
+        "accuracy": 1.0
+      },
+      "one_liner": {
+        "matches": 20,
+        "applies": 20,
+        "accuracy": 1.0
+      },
+      "api_breadth": {
+        "matches": 13,
+        "applies": 20,
+        "accuracy": 0.65
+      },
+      "docs_url": {
+        "matches": 20,
+        "applies": 20,
+        "accuracy": 1.0
+      },
+      "mcp_url": {
+        "matches": 18,
+        "applies": 19,
+        "accuracy": 0.9473684210526315
+      },
+      "requires_end_user_admin": {
+        "matches": 14,
+        "applies": 20,
+        "accuracy": 0.7
+      }
+    },
+    "coverage_accuracy": {
+      "matches": 20,
+      "applies": 20,
+      "accuracy": 1.0,
+      "sibling_misses_only": 0
+    },
+    "misses": [
+      {
+        "slug": "hubspot",
+        "name": "HubSpot",
+        "field": "api_types + has_public_docs",
+        "unit": "api",
+        "severity": "critical",
+        "gold": {
+          "api_types": [
+            "rest",
+            "graphql"
+          ],
+          "has_public_docs": true
+        },
+        "agent": {
+          "api_types": [
+            "rest"
+          ],
+          "has_public_docs": true
+        },
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "pylon",
+        "name": "Pylon",
+        "field": "api_breadth",
+        "unit": "api_breadth",
+        "severity": "minor",
+        "gold": "moderate",
+        "agent": "broad",
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "slack",
+        "name": "Slack",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "whatsapp-business",
+        "name": "WhatsApp Business",
+        "field": "auth_methods / primary_auth",
+        "unit": "auth",
+        "severity": "critical",
+        "gold": {
+          "auth_methods": [
+            "oauth2",
+            "api_key"
+          ],
+          "primary_auth": "oauth2"
+        },
+        "agent": {
+          "auth_methods": [
+            "api_key"
+          ],
+          "primary_auth": "api_key"
+        },
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "whatsapp-business",
+        "name": "WhatsApp Business",
+        "field": "access",
+        "unit": "access",
+        "severity": "critical",
+        "gold": "gated_partner",
+        "agent": "self_serve",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "whatsapp-business",
+        "name": "WhatsApp Business",
+        "field": "verdict",
+        "unit": "verdict",
+        "severity": "critical",
+        "gold": "buildable_with_approval",
+        "agent": "buildable_now",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "whatsapp-business",
+        "name": "WhatsApp Business",
+        "field": "blocker",
+        "unit": "blocker",
+        "severity": "critical",
+        "gold": "gated_access",
+        "agent": "none",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "whatsapp-business",
+        "name": "WhatsApp Business",
+        "field": "api_breadth",
+        "unit": "api_breadth",
+        "severity": "minor",
+        "gold": "moderate",
+        "agent": "broad",
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "whatsapp-business",
+        "name": "WhatsApp Business",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "linkedin-ads",
+        "name": "LinkedIn Ads",
+        "field": "api_breadth",
+        "unit": "api_breadth",
+        "severity": "minor",
+        "gold": "moderate",
+        "agent": "broad",
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "shopify",
+        "name": "Shopify",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "fanbasis",
+        "name": "fanbasis",
+        "field": "mcp_status",
+        "unit": "mcp_status",
+        "severity": "critical",
+        "gold": "official",
+        "agent": "none",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "fanbasis",
+        "name": "fanbasis",
+        "field": "mcp_url",
+        "unit": "mcp_url",
+        "severity": "minor",
+        "gold": "https://commasdocs.com/#ai-agent",
+        "agent": null,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "firecrawl",
+        "name": "Firecrawl",
+        "field": "api_breadth",
+        "unit": "api_breadth",
+        "severity": "minor",
+        "gold": "moderate",
+        "agent": "broad",
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "github",
+        "name": "GitHub",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "snowflake",
+        "name": "Snowflake",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "notion",
+        "name": "Notion",
+        "field": "api_breadth",
+        "unit": "api_breadth",
+        "severity": "minor",
+        "gold": "moderate",
+        "agent": "broad",
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "notion",
+        "name": "Notion",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "smartsheet",
+        "name": "Smartsheet",
+        "field": "access",
+        "unit": "access",
+        "severity": "critical",
+        "gold": "self_serve_paid",
+        "agent": "gated_partner",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "smartsheet",
+        "name": "Smartsheet",
+        "field": "verdict",
+        "unit": "verdict",
+        "severity": "critical",
+        "gold": "buildable_now",
+        "agent": "buildable_with_approval",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "smartsheet",
+        "name": "Smartsheet",
+        "field": "blocker",
+        "unit": "blocker",
+        "severity": "critical",
+        "gold": "none",
+        "agent": "gated_access",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "smartsheet",
+        "name": "Smartsheet",
+        "field": "api_breadth",
+        "unit": "api_breadth",
+        "severity": "minor",
+        "gold": "moderate",
+        "agent": "broad",
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "reducto",
+        "name": "Reducto",
+        "field": "api_breadth",
+        "unit": "api_breadth",
+        "severity": "minor",
+        "gold": "moderate",
+        "agent": "broad",
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "notebooklm",
+        "name": "NotebookLM",
+        "field": "verdict",
+        "unit": "verdict",
+        "severity": "critical",
+        "gold": "not_buildable",
+        "agent": "buildable_now",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "notebooklm",
+        "name": "NotebookLM",
+        "field": "blocker",
+        "unit": "blocker",
+        "severity": "critical",
+        "gold": "preview_or_unstable",
+        "agent": "none",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": 2,
+      "slug": "hubspot",
+      "name": "HubSpot",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "hubspot",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "hubspot",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Straightforward official docs. GraphQL is included because HubSpot documents it as a public query API, not only CMS page data.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": false,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": false,
+          "gold": {
+            "api_types": [
+              "rest",
+              "graphql"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "CRM and marketing platform with contacts, deals, and a large public developer API.",
+          "agent": "HubSpot is a CRM platform that unites marketing, sales, service, content and data tools, with AI agents and a public REST API for building integrations."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "agent": "https://developers.hubspot.com/docs/api-reference/latest/overview"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server",
+          "agent": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": true,
+          "agent": true
+        }
+      }
+    },
+    {
+      "id": 10,
+      "slug": "dealcloud",
+      "name": "DealCloud",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Public docs exist, so this is gated_sales + buildable_with_approval, not no_public_api. Official MCP is easy to miss if only the REST pages are read. auth_methods is oauth2 only: the dashboard API key is the OAuth client_secret, not a second method.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "gated_sales",
+          "agent": "gated_sales"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_with_approval",
+          "agent": "buildable_with_approval"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "gated_access",
+          "agent": "gated_access"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Intapp deal-management CRM used by capital-markets and deal teams, with a documented REST API.",
+          "agent": "DealCloud (Intapp) is a CRM and deal-management platform for financial services firms, with a REST data/schema API, Python SDK, and an official MCP server."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://api.docs.dealcloud.com",
+          "agent": "https://api.docs.dealcloud.com/"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://api.docs.dealcloud.com/mcp/getting-started",
+          "agent": "https://api.docs.dealcloud.com/mcp"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": true,
+          "agent": true
+        }
+      }
+    },
+    {
+      "id": 11,
+      "slug": "zendesk",
+      "name": "Zendesk",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "zendesk",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "zendesk",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "MCP is official despite EAP because docs give a real server URL and setup steps. API tokens are still documented, so auth_methods includes api_key as well as oauth2.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Customer support platform with ticketing, help center, and a long-standing public REST API.",
+          "agent": "Zendesk is an AI-powered customer service platform covering ticketing, messaging, voice, knowledge base and AI agents, with a REST API and an MCP server for connecting external AI agents."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developer.zendesk.com/api-reference/",
+          "agent": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://support.zendesk.com/hc/en-us/articles/11400026079130-Connecting-external-AI-agents-to-the-Zendesk-MCP-server-or-Zendesk-AI-agents-EAP",
+          "agent": "https://support.zendesk.com/hc/en-us/articles/11400026079130-Connecting-external-AI-agents-to-the-Zendesk-MCP-server-or-Zendesk-AI-agents-EAP"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": true,
+          "agent": true
+        }
+      }
+    },
+    {
+      "id": 15,
+      "slug": "pylon",
+      "name": "Pylon",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "pylon_mcp",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "pylon_mcp",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Clear sales gate despite excellent public API and official MCP docs. Do not treat published seat prices as self_serve_paid, because you cannot buy without sales.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          },
+          "agent": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "gated_sales",
+          "agent": "gated_sales"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_with_approval",
+          "agent": "buildable_with_approval"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "gated_access",
+          "agent": "gated_access"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "B2B support platform that unifies Slack, email, and other channels into one queue, with a public REST API.",
+          "agent": "Pylon is a B2B agentic customer support platform that unifies Slack, Teams, email, chat and phone channels into one ticketing system with AI agents, automations and account intelligence."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": false,
+          "gold": "moderate",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.usepylon.com/pylon-docs/developer/api",
+          "agent": "https://docs.usepylon.com/pylon-docs/developer/api"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp",
+          "agent": "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": true,
+          "agent": true
+        }
+      }
+    },
+    {
+      "id": 21,
+      "slug": "slack",
+      "name": "Slack",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "slack",
+          "sibling_slugs": [
+            "slackbot"
+          ],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "slack",
+          "sibling_slugs": [
+            "slackbot"
+          ]
+        }
+      },
+      "label_notes": "Standard self-serve OAuth app case. The official MCP docs are on docs.slack.dev, not only api.slack.com.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Team messaging platform with channels, DMs, and a large public Web API and app ecosystem.",
+          "agent": "Slack is a team messaging and AI work platform with channels, huddles, workflows and the Slackbot assistant, plus a developer platform for building apps and agents."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://api.slack.com/",
+          "agent": "https://docs.slack.dev/apis/"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.slack.dev/ai/slack-mcp-server",
+          "agent": "https://slack.com/help/articles/48855576908307-Guide-to-MCP-in-Slack"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 28,
+      "slug": "whatsapp-business",
+      "name": "WhatsApp Business",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "whatsapp",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "whatsapp",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Labelled gated_partner (not self_serve) because the rubric treats third-party / multi-tenant permission that needs vendor app review as a partner gate. Direct-developer self-serve test access is real but is not the toolkit path. MCP was later corrected to official after an audit against Meta’s MCP docs; access/verdict were already gated_partner for App Review.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": false,
+      "units": {
+        "auth": {
+          "match": false,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          }
+        },
+        "access": {
+          "match": false,
+          "gold": "gated_partner",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": false,
+          "gold": "buildable_with_approval",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": false,
+          "gold": "gated_access",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Meta's WhatsApp Business Platform Cloud API for sending and receiving business messages.",
+          "agent": "WhatsApp Business Platform provides Graph API-based Cloud and Business Management APIs to message and call customers at scale, manage phone numbers and templates, and receive webhooks."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": false,
+          "gold": "moderate",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.facebook.com/docs/whatsapp/cloud-api/get-started",
+          "agent": "https://developers.facebook.com/docs/whatsapp"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp",
+          "agent": "https://mcp.facebook.com/whatsapp_business_tools"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 35,
+      "slug": "mailchimp",
+      "name": "Mailchimp",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "mailchimp",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "mailchimp",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Docs-only official MCP still counts as official under the rubric (real vendor-published server URL). A later docs audit also found an official Transactional Messaging MCP; mcp_status was already official. Notes explain the two servers so the docs MCP is not confused with Marketing account control.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Email marketing and audience platform with a public Marketing REST API.",
+          "agent": "Mailchimp is an email and marketing automation platform with a Marketing API for campaigns, audiences and reports, and a Transactional (Mandrill) API for event-driven email and SMS."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://mailchimp.com/developer/marketing/",
+          "agent": "https://mailchimp.com/developer"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server/",
+          "agent": "https://mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": false,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 33,
+      "slug": "linkedin-ads",
+      "name": "LinkedIn Ads",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "linkedin_ads",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "linkedin_ads",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Classic partner/developer-approval gate. Do not label self_serve just because docs and an apply form are public.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "gated_partner",
+          "agent": "gated_partner"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_with_approval",
+          "agent": "buildable_with_approval"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "gated_access",
+          "agent": "gated_access"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "LinkedIn Marketing / Advertising APIs for ad accounts, campaigns, and conversions.",
+          "agent": "LinkedIn Ads is LinkedIn's advertising platform; its Marketing API lets approved developers manage campaigns, audiences, conversions, lead sync and reporting programmatically."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": false,
+          "gold": "moderate",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://learn.microsoft.com/linkedin/marketing",
+          "agent": "https://learn.microsoft.com/linkedin/marketing"
+        },
+        "mcp_url": {
+          "applies": false,
+          "match": true,
+          "gold": null,
+          "agent": null
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": true,
+          "agent": true
+        }
+      }
+    },
+    {
+      "id": 41,
+      "slug": "shopify",
+      "name": "Shopify",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "shopify",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "shopify",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Do not label MCP as none just because the Admin 'Shopify MCP' page says coming soon. Storefront Catalog MCP is already official. Access stays self_serve because credentials do not require App Store review.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest",
+              "graphql"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "graphql",
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Commerce platform for online stores, with Admin GraphQL and legacy REST APIs for apps.",
+          "agent": "Shopify is a commerce platform whose developer APIs (GraphQL Admin, Storefront, Customer Account, Partner) let apps and agents manage products, orders, customers, carts and checkout for merchants."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://shopify.dev",
+          "agent": "https://shopify.dev"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://shopify.dev/docs/agents/catalog/storefront-catalog",
+          "agent": "https://shopify.dev/docs/apps/build/shop-mcp"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 50,
+      "slug": "fanbasis",
+      "name": "fanbasis",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "The earlier expectation was password-gated docs and possibly no public API. As of this labelling pass, official docs are public and the API is self-serve with an API key. An official MCP section on commasdocs.com was confirmed in a later docs audit and the MCP label was updated. Identity stays slug fanbasis / name fanbasis per the frozen CSV.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": false,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          },
+          "agent": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": false,
+          "gold": "official",
+          "agent": "none"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Creator payments and checkout platform now branded Commas (formerly FanBasis), with a public REST API.",
+          "agent": "Commas (formerly FanBasis) is a creator-commerce and payments platform combining checkout, BNPL financing, funnels, courses, communities, webinars and affiliates, with a public REST API for payments and subscriptions."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "moderate",
+          "agent": "moderate"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://commasdocs.com/",
+          "agent": "https://apidocs.fan"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": false,
+          "gold": "https://commasdocs.com/#ai-agent",
+          "agent": null
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": false,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 56,
+      "slug": "firecrawl",
+      "name": "Firecrawl",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "firecrawl",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "firecrawl",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "OAuth-as-primary follows the rubric preference, even though API keys are the common first example in the docs.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Web-scraping and crawling API that turns sites into LLM-ready data, with official MCP support.",
+          "agent": "Firecrawl is an open-source web data API for AI agents and LLM apps that searches, scrapes, crawls, maps, parses and interacts with web pages, returning clean Markdown or structured JSON."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": false,
+          "gold": "moderate",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.firecrawl.dev/",
+          "agent": "https://docs.firecrawl.dev/api-reference/v2-introduction"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.firecrawl.dev/mcp-server",
+          "agent": "https://docs.firecrawl.dev/mcp-server"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": false,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 60,
+      "slug": "clay",
+      "name": "Clay",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "clay",
+          "sibling_slugs": [
+            "clay_mcp"
+          ],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "clay",
+          "sibling_slugs": [
+            "clay_mcp"
+          ]
+        }
+      },
+      "label_notes": "The sample was picked as a hard case because a public self-serve API was not obvious at selection time. Official Public API docs at developers.clay.com now exist and are self-serve, including on the free plan, so the honest current label is buildable_now.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          },
+          "agent": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Data-enrichment workspace with a public REST API, CLI, and official MCP server.",
+          "agent": "Clay is a GTM data and workflow platform that enriches leads and accounts from 200+ data providers, runs AI research agents, and automates outbound plays; it exposes a Public API, CLI, and MCP server."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "moderate",
+          "agent": "moderate"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.clay.com/quickstart",
+          "agent": "https://developers.clay.com/llms.txt"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://university.clay.com/docs/connect-to-clay-mcp",
+          "agent": "https://university.clay.com/docs/connect-to-clay-mcp"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": false,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 61,
+      "slug": "github",
+      "name": "GitHub",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "github",
+          "sibling_slugs": [
+            "github_mcp"
+          ],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "github",
+          "sibling_slugs": [
+            "github_mcp"
+          ]
+        }
+      },
+      "label_notes": "All three auth methods are documented official API auth, so they are all listed. primary_auth is oauth2 per the preference rule.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key",
+              "jwt_service_account"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "api_key",
+              "jwt_service_account"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest",
+              "graphql"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest",
+              "graphql"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Hosted Git hosting and collaboration platform with REST and GraphQL APIs and an official MCP server.",
+          "agent": "GitHub is a code hosting and collaboration platform whose REST API (and GraphQL API) lets developers automate repositories, issues, pull requests, Actions and more."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.github.com/rest",
+          "agent": "https://docs.github.com/rest"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://github.com/github/github-mcp-server",
+          "agent": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 67,
+      "slug": "snowflake",
+      "name": "Snowflake",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "snowflake",
+          "sibling_slugs": [
+            "snowflake_basic"
+          ],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "snowflake",
+          "sibling_slugs": [
+            "snowflake_basic"
+          ]
+        }
+      },
+      "label_notes": "Access is self_serve because a trial account can be created and used for API/MCP work without talking to sales. Enterprise contracts exist later but are not required to get credentials.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key",
+              "jwt_service_account"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "jwt_service_account",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Cloud data platform with documented SQL, REST APIs, multiple auth methods, and a managed MCP server.",
+          "agent": "Snowflake is a cloud data platform for warehousing, analytics, data engineering and AI, exposing REST and SQL APIs, drivers, and a Snowflake-managed MCP server."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.snowflake.com",
+          "agent": "https://docs.snowflake.com"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+          "agent": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 71,
+      "slug": "notion",
+      "name": "Notion",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "notion",
+          "sibling_slugs": [
+            "notion_mcp"
+          ],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "notion",
+          "sibling_slugs": [
+            "notion_mcp"
+          ]
+        }
+      },
+      "label_notes": "Standard self-serve public API plus official MCP.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Collaborative workspace for docs and databases, with a public REST API and official MCP server.",
+          "agent": "Notion is an all-in-one workspace for notes, docs, databases and project management, with a public REST API, SDKs and a hosted MCP server for building integrations and AI-agent tools."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": false,
+          "gold": "moderate",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.notion.com",
+          "agent": "https://developers.notion.com"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.notion.com/guides/mcp/get-started-with-mcp",
+          "agent": "https://developers.notion.com/guides/mcp/get-started-with-mcp"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 79,
+      "slug": "smartsheet",
+      "name": "Smartsheet",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "smartsheet",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "smartsheet",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "This was selected to test self_serve_paid vs gated_sales. Pricing “Start now” on Business plus “API calls” in the plan table supports self_serve_paid. A later docs audit kept that label: usable personal tokens exist after a self-serve paid checkout, even though OAuth app registration may be reviewed.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": false,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": false,
+          "gold": "self_serve_paid",
+          "agent": "gated_partner"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": false,
+          "gold": "buildable_now",
+          "agent": "buildable_with_approval"
+        },
+        "blocker": {
+          "match": false,
+          "gold": "none",
+          "agent": "gated_access"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Work-management and spreadsheet-style collaboration platform with a REST API on paid plans.",
+          "agent": "Smartsheet is an enterprise work management platform for projects, workflows, dashboards and automation, with a REST API, SDKs and an official MCP server for AI assistants."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": false,
+          "gold": "moderate",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.smartsheet.com/api/smartsheet/introduction",
+          "agent": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.smartsheet.com/ai-mcp/smartsheet/install-the-smartsheet-mcp-server",
+          "agent": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": false,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 81,
+      "slug": "stripe",
+      "name": "Stripe",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "stripe",
+          "sibling_slugs": [
+            "stripe_mcp"
+          ],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "stripe",
+          "sibling_slugs": [
+            "stripe_mcp"
+          ]
+        }
+      },
+      "label_notes": "OAuth-as-primary is a rubric call, not because keys are undocumented. An implementation that started with api_key would still need oauth2 in auth_methods to be complete.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Payments platform with a comprehensive public API, Connect OAuth, and an official MCP server.",
+          "agent": "Stripe provides payments and financial infrastructure with a broad REST API for accepting payments, billing, invoicing, Connect marketplaces and more."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.stripe.com/api",
+          "agent": "https://docs.stripe.com/api"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.stripe.com/mcp",
+          "agent": "https://docs.stripe.com/mcp"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": false,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 90,
+      "slug": "pitchbook",
+      "name": "PitchBook",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "pitchbook",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "pitchbook",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Classic gated_sales research API. MCP labelled official from the vendor press announcement (allowed as official announcement). Third-party MCP gateway writeups were not used as the primary source.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          },
+          "agent": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "gated_sales",
+          "agent": "gated_sales"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_with_approval",
+          "agent": "buildable_with_approval"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "gated_access",
+          "agent": "gated_access"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Private-capital market data platform with a contract-gated research API and an official Data MCP offering.",
+          "agent": "PitchBook provides private and public capital market data, research and tools, with a separately contracted REST API and a Premium Connector (MCP-based) for AI platforms."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "moderate",
+          "agent": "moderate"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://pitchbook.com/help/PitchBook-api",
+          "agent": "https://pitchbook.com/help/PitchBook-api"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://pitchbook.com/media/press-releases/pitchbook-launches-an-agentic-platform-assistant-and-new-pitchbook-data-mcp-to-meet-investors-rapidly-evolving-workflow-needs",
+          "agent": "https://pitchbook.com/help/getting-started-with-pitchbook-premium-connector"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": false,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 95,
+      "slug": "reducto",
+      "name": "Reducto",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Clean self-serve developer API. Composio catalog snapshot has no toolkit (status none).",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          },
+          "agent": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Document-parsing and extraction API for PDFs and similar files, with official MCP servers.",
+          "agent": "Reducto is an agentic document platform with REST API, SDKs, CLI and MCP server for parsing, extracting, splitting, classifying and editing documents (PDFs, scans, spreadsheets) into structured JSON."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": false,
+          "gold": "moderate",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.reducto.ai/quickstart",
+          "agent": "https://docs.reducto.ai/overview"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.reducto.ai/mcp-server",
+          "agent": "https://docs.reducto.ai/mcp-server"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": false,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 91,
+      "slug": "notebooklm",
+      "name": "NotebookLM",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "notebook_lm",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "notebook_lm",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Hard judgement: the public personal API and the Enterprise API are both previews. Primary label uses the personal Gemini Notebook API (self_serve + not_buildable + preview_or_unstable + official MCP). The acceptable alternative is the Enterprise reading: gated_sales + buildable_with_approval + gated_access, which matches the assignment hint of an Enterprise API and the blocker-priority rule when a license gate and a preview both apply.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": false,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": false,
+          "gold": "not_buildable",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": false,
+          "gold": "preview_or_unstable",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Google's notebook product for researching and chatting with sources, now also called Gemini Notebook, with a preview public API.",
+          "agent": "NotebookLM (now Gemini Notebook) is Google's AI research notebook; the Gemini Notebook API offers a REST API and remote MCP server to create notebooks and ingest sources on behalf of a user."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "narrow",
+          "agent": "narrow"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.google.com/notebook/docs",
+          "agent": "https://developers.google.com/notebook/docs/authentication"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.google.com/notebook/docs/mcp",
+          "agent": "https://developers.google.com/notebook/docs/mcp"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": false,
+          "agent": false
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Evidence scoring checks that required claim URLs are present and well-formed.",
+    "Semantic support of those URLs is a human review step.",
+    "composio_toolkit is reported as coverage-lookup accuracy, not in row accuracy."
+  ]
+}

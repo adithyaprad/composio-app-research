@@ -1,0 +1,946 @@
+{
+  "slug": "magento-adobe-commerce",
+  "searches": [
+    {
+      "query": "Magento (Adobe Commerce) API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+          "title": "OAuth-Based Authentication",
+          "snippet": "OAuth-Based Authentication\n\n# OAuth-based authentication\n\n```\ndata-variant=info\n\n```\n\n```\ndata-slots=text\n\n```\n\nThis topic is for Platform-as-a-Service (PaaS) customers only. Adobe Commerce Cloud Services customers must refer to REST Authentication for details on authentication.\n\nOAuth authenticatio"
+        },
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\n```\ndata-variant=info\n\n```\n\n```\ndata-slots=text\n\n```\n\nThis topic is for Platform-as-a-Service (PaaS) customers only. Adobe Commerce Cloud Services customers must refer to REST Authentication for details on authentication.\n\nFor practical implementation guides for Ado"
+        },
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/rest/",
+          "title": "REST API Overview",
+          "snippet": "REST API Overview\n\n# REST API Overview\n\nThe REST API documentation describes the REST APIs that are available in Adobe Commerce (PaaS) and Adobe Commerce as a Cloud Service (SaaS).\n\nThe APIs can be used to perform a wide array of tasks. For example:\n\n- Create a shopping app. This can be a traditiona"
+        },
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+          "title": "Authentication in Adobe Commerce as a Cloud Service",
+          "snippet": "Authentication in Adobe Commerce as a Cloud Service\n\n# REST Authentication in Adobe Commerce as a Cloud Service\n\nAdobe Commerce as a Cloud Service REST API authentication is handled through Adobe's Identity Management System (IMS) through standardized OAuth 2 protocols. This authentication system su"
+        },
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/get-started/",
+          "title": "Getting Started with Adobe Commerce Web APIs",
+          "snippet": "Getting Started with Adobe Commerce Web APIs\n\n# Getting started with Adobe Commerce web APIs\n\nThe Adobe Commerce and Magento Open Source web API framework provides integrators and developers the means to use web services that communicate with the application. Key features include:\n\n- Support for Gra"
+        }
+      ]
+    },
+    {
+      "query": "Magento (Adobe Commerce) developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/get-started/",
+          "title": "Getting Started with Adobe Commerce Web APIs",
+          "snippet": "Getting Started with Adobe Commerce Web APIs\n\n# Getting started with Adobe Commerce web APIs\n\nThe Adobe Commerce and Magento Open Source web API framework provides integrators and developers the means to use web services that communicate with the application. Key features include:\n\n- Support for Gra"
+        },
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/rest/reference/",
+          "title": "REST API reference",
+          "snippet": "REST API reference\n\n# REST API reference\n\nThis comprehensive reference provides detailed documentation for all available REST API endpoints in Adobe Commerce and Magento Open Source. Each endpoint includes complete parameter descriptions, request/response examples, authentication requirements, and e"
+        },
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/rest/",
+          "title": "REST API Overview",
+          "snippet": "REST API Overview\n\n# REST API Overview\n\nThe REST API documentation describes the REST APIs that are available in Adobe Commerce (PaaS) and Adobe Commerce as a Cloud Service (SaaS).\n\nThe APIs can be used to perform a wide array of tasks. For example:\n\n- Create a shopping app. This can be a traditiona"
+        },
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/",
+          "title": "Commerce Web API",
+          "snippet": "Commerce Web API\n\n# Commerce Web APIs\n\nThe Commerce Web APIs allow you to integrate third-party software and build headless applications for Adobe Commerce. The Web API documentation is divided into three guides: REST, GraphQL, and Getting Started.\n\n```\ndata-slots=heading, links\n\n```\n\n## Resources\n\n"
+        },
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+          "title": "OAuth-Based Authentication",
+          "snippet": "OAuth-Based Authentication\n\n# OAuth-based authentication\n\n```\ndata-variant=info\n\n```\n\n```\ndata-slots=text\n\n```\n\nThis topic is for Platform-as-a-Service (PaaS) customers only. Adobe Commerce Cloud Services customers must refer to REST Authentication for details on authentication.\n\nOAuth authenticatio"
+        }
+      ]
+    },
+    {
+      "query": "Magento (Adobe Commerce) pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://business.adobe.com/products/commerce/pricing.html",
+          "title": "Adobe Commerce Product Pricing",
+          "snippet": "Adobe Commerce Product Pricing\n\n# Adobe Commerce packages and pricing\n\nAdobe empowers B2C and B2B businesses to unlock next-level revenue growth with exceptional commerce experiences. Accelerate sales and set your brand apart with high-performing and deeply personalized storefronts that increase org"
+        },
+        {
+          "url": "https://www.trustradius.com/products/adobe-commerce/pricing",
+          "title": "Adobe Commerce Pricing 2026",
+          "snippet": "Adobe Commerce Pricing 2026\n\n# Adobe Commerce\n\nScore 8.1 out of 10\n\n294 Reviews and Ratings\n\n## Adobe Commerce Pricing Plan Options\n\nAdobe Commerce does not currently have any pricing plans listed at this time. For the latest pricing information, visit the official pricing page. Available deployment"
+        },
+        {
+          "url": "https://www.forbes.com/advisor/business/software/magento-pricing/",
+          "title": "Magento Pricing Plans Guide – Forbes Advisor",
+          "snippet": "Magento Pricing Plans Guide – Forbes Advisor\n\n# Magento Pricing Plans Guide\n\nAudited & Verified: May 2, 2024, 4:28pm\n\nJulia Rittenberg Contributor\n\nJulia is a writer in New York and started covering tech and business during the pandemic. She also covers books and the publishing industry.\n\nRead Full "
+        },
+        {
+          "url": "https://www.flozic.ai/blog/reviews/magento-review",
+          "title": "Magento Review 2026: Open Source vs Adobe Commerce Pricing",
+          "snippet": "Magento Review 2026: Open Source vs Adobe Commerce Pricing\n\n# Magento Review: Open Source, Adobe Commerce, Pros and Cons\n\nFree to download, powerful to build on; the enterprise edition is quote-only.\n\nMagento comes in two forms: Magento Open Source, a free, self-hosted ecommerce platform, and Adobe "
+        },
+        {
+          "url": "https://www.websitebuilderexpert.com/ecommerce-website-builders/magento-pricing/",
+          "title": "Adobe Commerce (Magento) Pricing: How Much Will It Cost Your Business?",
+          "snippet": "Adobe Commerce (Formerly Magento) Pricing & Costs\n\n# Adobe Commerce (Magento) Pricing: How Much Will It Cost Your Business? \n\nWe may receive a commission from our partners if you click on a link and purchase a product or service on their website. Learn more\n\n Written By Rob Binns \n\n Updated on Novem"
+        }
+      ]
+    },
+    {
+      "query": "Magento (Adobe Commerce) official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview",
+          "title": "Commerce MCP overview | Adobe Commerce",
+          "snippet": "Commerce MCP overview | Adobe Commerce\n\n# Commerce MCP overview\n\nLast update: November 13, 2026\n\nThe Commerce MCP for Adobe Commerce helps developers build custom agentic experiences from discovery to checkout using real-time commerce data and tools. In this video, a custom AI Assistant uses the Com"
+        },
+        {
+          "url": "https://developer.adobe.com/commerce/extensibility/developer-agent/coding-tools",
+          "title": "Commerce development MCPs and skills",
+          "snippet": "Commerce development MCPs and skills\n\n# Commerce development MCPs and skills\n\nWhen migrating to Adobe Commerce as a Cloud Service, you can use the Commerce development MCPs and skills to convert existing Adobe Commerce PHP extensions to Adobe Developer App Builder applications.\n\nYou can also use the"
+        },
+        {
+          "url": "https://www.aiondata.io/mcp-servers/magento",
+          "title": "Magento & Adobe Commerce MCP Server Options | AIONDATA",
+          "snippet": "Magento & Adobe Commerce MCP Server Options | AIONDATA\n\nMCP server guide · reviewed by Pravin Bansal, Co-founder & CEO on October 20, 2026\n\n# Adobe Commerce (Magento) MCP server\n\nNot yet: Adobe introduced a Commerce MCP server at Summit in April 2026, covering catalog, cart, pricing, inventory, chec"
+        },
+        {
+          "url": "https://amasty.com/blog/claude-for-magento-2/",
+          "title": "Claude for Magento 2: Integration, Use Cases & Setup",
+          "snippet": "Claude for Magento 2: Integration, Use Cases & Setup\n\n# Claude for Magento 2: Integration, Use Cases, Prompts, and Security \n\nTable of Content \n\n \n\nPosted in: Magento 2 Guides & Tricks , E-commerce Best Practices \n\nLast Updated: October 13, 2026\n\nAnthropic looked at 500,000 conversations about code "
+        },
+        {
+          "url": "https://andriiboyko.com/articles/adobe-commerce-mcp-layer-catalog-agent-tool",
+          "title": "Adobe Commerce MCP: Your Catalog Is Now an AI Agent's Tool",
+          "snippet": "Adobe Commerce MCP: Your Catalog Is Now an AI Agent's Tool\n\n# Adobe Commerce Added an MCP Layer: Your Catalog Is Now an Agent's Tool\n\nAdobe is putting an MCP server in front of catalog, cart, pricing and checkout. That turns your product data into a public tool contract read by a client you don't co"
+        }
+      ]
+    },
+    {
+      "query": "site:developer.adobe.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.adobe.com/analytics-mcp/docs/",
+          "title": "Analytics MCP servers",
+          "snippet": "Analytics MCP servers\n\n```\ndata-background=rgb(37, 37, 37)\n\n```\n\n# Analytics MCP servers\n\nMCP servers for Adobe Analytics, Customer Journey Analytics and Marketing Campaign Analytics (formerly known as Mix Modeler)\n\n- Quick start guide\n- Adobe Analytics MCP tool reference\n- Customer Journey Analytic"
+        },
+        {
+          "url": "https://developer.adobe.com/analytics-mcp/docs/guides/",
+          "title": "Getting started with Analytics MCP servers",
+          "snippet": "Getting started with Analytics MCP servers\n\n# Get started\n\nConnect an Adobe Analytics or Customer Journey Analytics MCP server to a supported LLM client. Once connected, you can query your analytics data conversationally, letting the LLM retrieve reports, components, and more, on your behalf.\n\n```\nd"
+        },
+        {
+          "url": "https://developer.adobe.com/app-builder/docs/resources/ai-use-cases",
+          "title": "Build AI Integrations with App Builder",
+          "snippet": "Build AI Integrations with App Builder\n\n# Build AI Integrations with App Builder\n\nDeploy AI-powered integrations in minutes, not weeks. App Builder provides zero-infrastructure, enterprise-grade hosting for AI agents, MCP servers, and intelligent workflows with built-in security, authentication, and"
+        },
+        {
+          "url": "https://developer.adobe.com/analytics-mcp/docs/aa/",
+          "title": "Adobe Analytics MCP server",
+          "snippet": "Adobe Analytics MCP server\n\n# Adobe Analytics MCP server\n\nThe Adobe Analytics MCP server lets LLM clients interact with your components and data in Adobe Analytics. Once connected, you can retrieve report suites, dimensions, metrics, segments, and run ranked or trended reports through natural langua"
+        },
+        {
+          "url": "https://developer.adobe.com/express/add-ons/docs/guides/getting-started/local-development/mcp-server",
+          "title": "Adobe Express Developer MCP Server",
+          "snippet": "Adobe Express Developer MCP Server\n\n# Adobe Express Developer MCP Server\n\nGet Adobe Express Add-ons documentation and TypeScript definitions directly in your AI-assisted IDE through the Model Context Protocol (MCP). Build faster with grounded answers and accurate code suggestions.\n\n## TL;DR - Quick "
+        }
+      ]
+    },
+    {
+      "query": "site:adobe.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://business.adobe.com/blog/agentic-ai-enterprise-knowledge-readiness",
+          "title": "AI Is Ready To Act. Is Your Enterprise Knowledge Ready?",
+          "snippet": "AI is ready to act. Is your enterprise knowledge ready?\n\n# AI is ready to act. Is your enterprise knowledge ready?\n\nSaibal Bhattacharjee\n\n10-22-2026\n\n## Enterprise AI is moving beyond answering questions.\n\nThe first wave of generative AI gave employees and customers a conversational way to find info"
+        },
+        {
+          "url": "https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview",
+          "title": "Adobe Workfront MCP server overview | Adobe Workfront",
+          "snippet": "Adobe Workfront MCP server overview | Adobe Workfront\n\n# Adobe Workfront MCP server overview\n\nLast update: September 25, 2026\n\nThe Adobe Workfront MCP server connects your Workfront instance to an AI agentic platform such as Claude or ChatGPT. From the AI agentic platform, you can find, create, upda"
+        },
+        {
+          "url": "https://coldfusion.adobe.com/2026/06/adding-mcp-to-coldfusion-ai-giving-the-robot-a-passport/",
+          "title": "Adding MCP to ColdFusion AI: Giving the Robot a Passport | ColdFusion",
+          "snippet": "Adding MCP to ColdFusion AI: Giving the Robot a Passport | ColdFusion\n\n Adding MCP to ColdFusion AI: Giving the Robot a Passport \n\n June 29, 2026\n\n Adding MCP to ColdFusion AI: Giving the Robot a Passport \n\n June 29, 2026\n\nSummary\n\nThis article introduces MCP, or Model Context Protocol, as the next "
+        },
+        {
+          "url": "https://business.adobe.com/blog/how-ai-is-quietly-transforming-adobe-experience-manager-with-model-context-protocol",
+          "title": "How MCP and AI evolve with Adobe Experience Manager",
+          "snippet": "How MCP and AI evolve with Adobe Experience Manager\n\n# How AI is quietly transforming Adobe Experience Manager with Model Context Protocol.\n\nNithin Dasyam\n\n03-02-2026\n\nIf you’ve spent any amount of time working with Adobe Experience Manager as a Cloud Service, you know the pattern. Powerful platform"
+        },
+        {
+          "url": "https://research.adobe.com/publication/model-context-protocol-for-vision-agents-schema-memory-and-world-model-implications/",
+          "title": "Adobe Research » Model Context Protocol for Vision Agents: Schema, Memory, and World Model Implications",
+          "snippet": "Adobe Research » Model Context Protocol for Vision Agents: Schema, Memory, and World Model Implications \n\n# Model Context Protocol for Vision Agents: Schema, Memory, and World Model Implications\n\nDecember 2, 2025\n\nAditi Tiwari, Akshit Bhalla, Darshan Prasad\n\nThe Model Context Protocol (MCP) defines "
+        }
+      ]
+    },
+    {
+      "query": "Magento (Adobe Commerce) API authentication OAuth API key",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+          "title": "OAuth-Based Authentication",
+          "snippet": "OAuth-Based Authentication\n\n# OAuth-based authentication\n\n```\ndata-variant=info\n\n```\n\n```\ndata-slots=text\n\n```\n\nThis topic is for Platform-as-a-Service (PaaS) customers only. Adobe Commerce Cloud Services customers must refer to REST Authentication for details on authentication.\n\nOAuth authenticatio"
+        },
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\n```\ndata-variant=info\n\n```\n\n```\ndata-slots=text\n\n```\n\nThis topic is for Platform-as-a-Service (PaaS) customers only. Adobe Commerce Cloud Services customers must refer to REST Authentication for details on authentication.\n\nFor practical implementation guides for Ado"
+        },
+        {
+          "url": "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/auth",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\n```\ndata-variant=info\n\n```\n\n```\ndata-slots=text\n\n```\n\nAll API requests must be authenticated using HTTP Basic Authentication.\n\nThe Marketplace EQP API uses a two-step process to authenticate a client application and authorize access to resources:\n\n1. Using your API "
+        },
+        {
+          "url": "https://docs.consequential.io/integrations-platform-setup/ecommerce-integrations/get-api-keys-in-magento-adobe-commerce/",
+          "title": "How to get API keys in Magento (Adobe Commerce)? | Consequential Docs",
+          "snippet": "How to get API keys in Magento (Adobe Commerce)? | Consequential Docs\n\n# How to get API keys in Magento (Adobe Commerce)?\n\n## What are Magento 2 API keys?\n\nThe Magento 2 API keys are unique identifiers used to authenticate external applications and services to interact with Magento 2.\n\nThey include "
+        },
+        {
+          "url": "https://experienceleague.adobe.com/en/docs/commerce-admin/systems/integrations",
+          "title": "Integrations | Adobe Commerce",
+          "snippet": "Integrations | Adobe Commerce\n\n# Integrations\n\nLast update: October 8, 2026\n\nDefining an integration in the Commerce Admin establishes the location of OAuth credentials and redirect URL for third-party integrations, and identifies the available API resources that are needed for the integration. For "
+        }
+      ]
+    },
+    {
+      "query": "site:developer.adobe.com API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.adobe.com/developer-console/docs/guides/authentication/",
+          "title": "Authentication Guide",
+          "snippet": "# Authentication Guide\n\nLearn how to integrate with Adobe products and services in your application securely. The following guide is a technical reference for the Adobe supported authentication types available to your application.\n\n## Overview\n\nAdobe is committed to the privacy and security of our u"
+        },
+        {
+          "url": "https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/",
+          "title": "Server to Server authentication",
+          "snippet": "# Server to Server authentication\n\nServer to server authentication credentials allow your application's server to generate access tokens and make API calls on behalf of your application itself.\n\nIn the OAuth 2.0 framework, server to server authentication is called 2-legged OAuth. It is called so bec"
+        },
+        {
+          "url": "https://developer.adobe.com/developer-console/docs/guides/authentication/APIKeyAuthentication/",
+          "title": "API key Authentication",
+          "snippet": "# API key Authentication\n\nIf your application needs to integrate with an Adobe offering that supports unauthenticated workflows (does not require access tokens), you can do so by using the API key credential. The API key credential identifies your application to Adobe servers and can help accept/rej"
+        },
+        {
+          "url": "https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/",
+          "title": "User Authentication",
+          "snippet": "# User Authentication\n\nIf your application needs to read or modify the data owned by an Adobe end-user, it can do so using a user authentication credential. However, before your application can view or edit the user's data, the user would need to provide explicit 'consent' to your application.\n\nUser"
+        },
+        {
+          "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\n```\ndata-variant=info\n\n```\n\n```\ndata-slots=text\n\n```\n\nThis topic is for Platform-as-a-Service (PaaS) customers only. Adobe Commerce Cloud Services customers must refer to REST Authentication for details on authentication.\n\nFor practical implementation guides for Ado"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developer.adobe.com/commerce",
+      "final_url": "https://developer.adobe.com/commerce",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:23Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "f3af18bd9366339a6ba62e28f1787ae13031a91a63b22ed08d91576923e9f4db",
+      "text_len": 1577
+    },
+    {
+      "requested_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+      "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:15Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8336603bbc7f82bb43fb96051caed2426db69c0bbbe47e3fb4f707694e00442a",
+      "text_len": 19242
+    },
+    {
+      "requested_url": "https://business.adobe.com/products/commerce/pricing.html",
+      "final_url": "https://business.adobe.com/products/commerce/pricing.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "aa9f3b4ee943fc9f2c298f89918436d0a8a5df7ec320e1254277d5c6a31f036b",
+      "text_len": 4680
+    },
+    {
+      "requested_url": "https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview",
+      "final_url": "https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "690f14a2f820612ad64e29558a898add857478a55080f799390d654d899799e9",
+      "text_len": 986
+    },
+    {
+      "requested_url": "https://developer.adobe.com/analytics-mcp/docs/",
+      "final_url": "https://developer.adobe.com/analytics-mcp/docs/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:21Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "08f233199c7316ad6b2be6ff8bd085d07b28d9c98a4495a67c374921a0a026ed",
+      "text_len": 2631
+    },
+    {
+      "requested_url": "https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview",
+      "final_url": "https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:23Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cf91c16eda280ff0568e895079c022593057014eacc6c84785d17bb527ba7616",
+      "text_len": 1843
+    },
+    {
+      "requested_url": "https://developer.adobe.com/analytics-mcp/docs/aa/",
+      "final_url": "https://developer.adobe.com/analytics-mcp/docs/aa/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:21Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a993b72d3274ed6269d3ae3f09f4aaf9dfaf63d8e2f5e80b47ea9389e14bc0c5",
+      "text_len": 802
+    },
+    {
+      "requested_url": "https://developer.adobe.com/analytics-mcp/docs/guides/",
+      "final_url": "https://developer.adobe.com/analytics-mcp/docs/guides/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:21Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "310d7350a08708d926a1ae5b883b56207790f04a0aad9a1aa8901dbdaa205163",
+      "text_len": 1298
+    },
+    {
+      "requested_url": "https://experienceleague.adobe.com/llms.txt",
+      "final_url": "https://experienceleague.adobe.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:23Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "ab25dd059a819682d46ab82106175fe185267fc4273f237fdda76f29edcea3b0",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+      "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:15Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d934e4420266d9e5aa3286b8ab6278a7c82e7ea8ab00e268c11661642fb0fb29",
+      "text_len": 8671
+    },
+    {
+      "requested_url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+      "final_url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:15Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d8584b104d850a52cb48d412b841d868e8ce4858db4d2d0290e8184e1b4827d7",
+      "text_len": 3451
+    },
+    {
+      "requested_url": "https://developer.adobe.com/commerce",
+      "final_url": "https://developer.adobe.com/commerce",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:57Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "f3af18bd9366339a6ba62e28f1787ae13031a91a63b22ed08d91576923e9f4db",
+      "text_len": 1577
+    },
+    {
+      "requested_url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+      "final_url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:57Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "d8584b104d850a52cb48d412b841d868e8ce4858db4d2d0290e8184e1b4827d7",
+      "text_len": 3451
+    },
+    {
+      "requested_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+      "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8336603bbc7f82bb43fb96051caed2426db69c0bbbe47e3fb4f707694e00442a",
+      "text_len": 19242
+    },
+    {
+      "requested_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/APIKeyAuthentication/",
+      "final_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/APIKeyAuthentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "12ec1513b349dfe44db29b9cf78d7745fc0de95ccb8db65a73ae4901a0c21f7c",
+      "text_len": 2938
+    },
+    {
+      "requested_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+      "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d934e4420266d9e5aa3286b8ab6278a7c82e7ea8ab00e268c11661642fb0fb29",
+      "text_len": 8671
+    },
+    {
+      "requested_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/",
+      "final_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ed4904568feb6be6658bed2aa1e2ee039c1cb02dd40681c8acbf8950147a7aa5",
+      "text_len": 3538
+    },
+    {
+      "requested_url": "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/auth",
+      "final_url": "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/auth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2fa74328775b7586fac3255afe1396aaca662fb763b7aa341859b83e884ef7d4",
+      "text_len": 3816
+    },
+    {
+      "requested_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/",
+      "final_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fad12527b5346466a7103434a26f92f7b68c7ea3e5bdaf896ba3137f5f23d92e",
+      "text_len": 3442
+    },
+    {
+      "requested_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/",
+      "final_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1c0bdab97770e3a08cea486c8a0c9f77c5528cee3ef858667683e5cdcc7a00f5",
+      "text_len": 6300
+    },
+    {
+      "requested_url": "https://business.adobe.com/products/commerce/pricing.html",
+      "final_url": "https://business.adobe.com/products/commerce/pricing.html",
+      "status": 200,
+      "provider": "browser_cloud",
+      "fetched_at": "2026-11-23T15:22:42Z",
+      "error": null,
+      "method": "browser_cloud",
+      "text_source_url": null,
+      "sha256": "e7b9bc9e1dd1a3b8d3ef5ef85df852cf7a4228be0d8100713a2ed9f16c8264cc",
+      "text_len": 4575
+    },
+    {
+      "requested_url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+      "final_url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+      "status": 200,
+      "provider": "browser_cloud",
+      "fetched_at": "2026-11-23T15:22:49Z",
+      "error": null,
+      "method": "browser_cloud",
+      "text_source_url": null,
+      "sha256": "0ac8a5b8bd448de3183793ff5d9c435b3a68fb8b7a08e541b8d29e755c2d9ee2",
+      "text_len": 4465
+    },
+    {
+      "requested_url": "https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview",
+      "final_url": "https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:22:53Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "0c89d712d7b1f1e0bb2235cc49df1ef16db0de4f3209b60afb4450a96c9df9da",
+      "text_len": 1128
+    },
+    {
+      "requested_url": "https://developer.adobe.com/commerce",
+      "final_url": "https://developer.adobe.com/commerce/",
+      "status": 200,
+      "provider": "browser_cloud",
+      "fetched_at": "2026-11-23T15:23:00Z",
+      "error": null,
+      "method": "browser_cloud",
+      "text_source_url": null,
+      "sha256": "99ce540ee9071aa1db0b7daf601045529d83748503b381559b58621393f142eb",
+      "text_len": 2304
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+        "quote": "authentication is handled through Adobe's Identity Management System (IMS) through standardized OAuth 2 protocols",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/magento-adobe-commerce/02-453b8ce24d.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://business.adobe.com/products/commerce/pricing.html",
+        "quote": "Get customized pricing for Adobe Commerce.",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/magento-adobe-commerce/01-64b8ecedb6.jpg"
+      },
+      {
+        "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+        "quote": "Adobe Commerce as a Cloud Service license",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/magento-adobe-commerce/02-453b8ce24d.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "quote": "Adobe Commerce and Magento Open Source allow developers to define web API resources and their permissions in the `webapi.xml` configuration file.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.adobe.com/commerce",
+        "quote": "Make innovation a constant with a secure, scalable, and extensible commerce platform.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview",
+        "quote": "Coming Soon",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/magento-adobe-commerce/03-a5f6e3d0a9.jpg"
+      },
+      {
+        "url": "https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview",
+        "quote": "In this video, a custom AI Assistant uses the Commerce MCP",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/magento-adobe-commerce/03-a5f6e3d0a9.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://business.adobe.com/products/commerce/pricing.html",
+        "quote": "Talk to us about how Adobe Commerce can help you increase your traffic, conversion rates and sales",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/magento-adobe-commerce/01-64b8ecedb6.jpg"
+      },
+      {
+        "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+        "quote": "Server-to-server authentication enables automated systems to interact with Commerce APIs without user intervention.",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/magento-adobe-commerce/02-453b8ce24d.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developer.adobe.com/commerce",
+        "quote": "Adobe provides developers with software, tools, and services to customize and extend Adobe Commerce to support multichannel, global commerce for B2B and B2C",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "unsupported_evidence"
+    ],
+    "findings": [
+      {
+        "rule": "unsupported_evidence",
+        "source": "llm",
+        "reason": "The api_key entry in auth_methods has no supporting evidence. The notes admit it was inferred, and the cited auth pages only document OAuth 2 (IMS) and OAuth 1.0a.",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+            "quote": "The traditional admin and integration token generation methods is not supported in SaaS environments."
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth"
+    ],
+    "claims": [
+      "auth"
+    ],
+    "review_searches": [
+      {
+        "query": "Magento (Adobe Commerce) API authentication OAuth API key",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+            "title": "OAuth-Based Authentication",
+            "snippet": "OAuth-Based Authentication\n\n# OAuth-based authentication\n\n```\ndata-variant=info\n\n```\n\n```\ndata-slots=text\n\n```\n\nThis topic is for Platform-as-a-Service (PaaS) customers only. Adobe Commerce Cloud Services customers must refer to REST Authentication for details on authentication.\n\nOAuth authenticatio"
+          },
+          {
+            "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+            "title": "Authentication",
+            "snippet": "Authentication\n\n# Authentication\n\n```\ndata-variant=info\n\n```\n\n```\ndata-slots=text\n\n```\n\nThis topic is for Platform-as-a-Service (PaaS) customers only. Adobe Commerce Cloud Services customers must refer to REST Authentication for details on authentication.\n\nFor practical implementation guides for Ado"
+          },
+          {
+            "url": "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/auth",
+            "title": "Authentication",
+            "snippet": "Authentication\n\n# Authentication\n\n```\ndata-variant=info\n\n```\n\n```\ndata-slots=text\n\n```\n\nAll API requests must be authenticated using HTTP Basic Authentication.\n\nThe Marketplace EQP API uses a two-step process to authenticate a client application and authorize access to resources:\n\n1. Using your API "
+          },
+          {
+            "url": "https://docs.consequential.io/integrations-platform-setup/ecommerce-integrations/get-api-keys-in-magento-adobe-commerce/",
+            "title": "How to get API keys in Magento (Adobe Commerce)? | Consequential Docs",
+            "snippet": "How to get API keys in Magento (Adobe Commerce)? | Consequential Docs\n\n# How to get API keys in Magento (Adobe Commerce)?\n\n## What are Magento 2 API keys?\n\nThe Magento 2 API keys are unique identifiers used to authenticate external applications and services to interact with Magento 2.\n\nThey include "
+          },
+          {
+            "url": "https://experienceleague.adobe.com/en/docs/commerce-admin/systems/integrations",
+            "title": "Integrations | Adobe Commerce",
+            "snippet": "Integrations | Adobe Commerce\n\n# Integrations\n\nLast update: October 8, 2026\n\nDefining an integration in the Commerce Admin establishes the location of OAuth credentials and redirect URL for third-party integrations, and identifies the available API resources that are needed for the integration. For "
+          }
+        ]
+      },
+      {
+        "query": "site:developer.adobe.com API authentication",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developer.adobe.com/developer-console/docs/guides/authentication/",
+            "title": "Authentication Guide",
+            "snippet": "# Authentication Guide\n\nLearn how to integrate with Adobe products and services in your application securely. The following guide is a technical reference for the Adobe supported authentication types available to your application.\n\n## Overview\n\nAdobe is committed to the privacy and security of our u"
+          },
+          {
+            "url": "https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/",
+            "title": "Server to Server authentication",
+            "snippet": "# Server to Server authentication\n\nServer to server authentication credentials allow your application's server to generate access tokens and make API calls on behalf of your application itself.\n\nIn the OAuth 2.0 framework, server to server authentication is called 2-legged OAuth. It is called so bec"
+          },
+          {
+            "url": "https://developer.adobe.com/developer-console/docs/guides/authentication/APIKeyAuthentication/",
+            "title": "API key Authentication",
+            "snippet": "# API key Authentication\n\nIf your application needs to integrate with an Adobe offering that supports unauthenticated workflows (does not require access tokens), you can do so by using the API key credential. The API key credential identifies your application to Adobe servers and can help accept/rej"
+          },
+          {
+            "url": "https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/",
+            "title": "User Authentication",
+            "snippet": "# User Authentication\n\nIf your application needs to read or modify the data owned by an Adobe end-user, it can do so using a user authentication credential. However, before your application can view or edit the user's data, the user would need to provide explicit 'consent' to your application.\n\nUser"
+          },
+          {
+            "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+            "title": "Authentication",
+            "snippet": "Authentication\n\n# Authentication\n\n```\ndata-variant=info\n\n```\n\n```\ndata-slots=text\n\n```\n\nThis topic is for Platform-as-a-Service (PaaS) customers only. Adobe Commerce Cloud Services customers must refer to REST Authentication for details on authentication.\n\nFor practical implementation guides for Ado"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://developer.adobe.com/commerce",
+        "final_url": "https://developer.adobe.com/commerce",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:57Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "f3af18bd9366339a6ba62e28f1787ae13031a91a63b22ed08d91576923e9f4db",
+        "text_len": 1577
+      },
+      {
+        "requested_url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:57Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "d8584b104d850a52cb48d412b841d868e8ce4858db4d2d0290e8184e1b4827d7",
+        "text_len": 3451
+      },
+      {
+        "requested_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:54Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "8336603bbc7f82bb43fb96051caed2426db69c0bbbe47e3fb4f707694e00442a",
+        "text_len": 19242
+      },
+      {
+        "requested_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/APIKeyAuthentication/",
+        "final_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/APIKeyAuthentication/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:56Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "12ec1513b349dfe44db29b9cf78d7745fc0de95ccb8db65a73ae4901a0c21f7c",
+        "text_len": 2938
+      },
+      {
+        "requested_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:54Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "d934e4420266d9e5aa3286b8ab6278a7c82e7ea8ab00e268c11661642fb0fb29",
+        "text_len": 8671
+      },
+      {
+        "requested_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/",
+        "final_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:56Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "ed4904568feb6be6658bed2aa1e2ee039c1cb02dd40681c8acbf8950147a7aa5",
+        "text_len": 3538
+      },
+      {
+        "requested_url": "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/auth",
+        "final_url": "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/auth",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:54Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "2fa74328775b7586fac3255afe1396aaca662fb763b7aa341859b83e884ef7d4",
+        "text_len": 3816
+      },
+      {
+        "requested_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/",
+        "final_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:56Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "fad12527b5346466a7103434a26f92f7b68c7ea3e5bdaf896ba3137f5f23d92e",
+        "text_len": 3442
+      },
+      {
+        "requested_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/",
+        "final_url": "https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:56Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "1c0bdab97770e3a08cea486c8a0c9f77c5528cee3ef858667683e5cdcc7a00f5",
+        "text_len": 6300
+      }
+    ]
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "confidence_not_high",
+        "detail": "confidence is medium",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      },
+      {
+        "reason": "unsupported_or_invalid",
+        "detail": "pass-2 review fired unsupported_evidence",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://business.adobe.com/products/commerce/pricing.html",
+        "browser": "cloud",
+        "why_cloud": "empty",
+        "local_problem": "empty",
+        "local_error": "navigate: net::ERR_HTTP2_PROTOCOL_ERROR",
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://business.adobe.com/products/commerce/pricing.html",
+        "title": "Adobe Commerce Product Pricing",
+        "text_len": 4575,
+        "http_status": 200,
+        "screenshot": "screenshots/magento-adobe-commerce/01-64b8ecedb6.jpg",
+        "usable": true,
+        "wall_s": 14.19
+      },
+      {
+        "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+        "browser": "cloud",
+        "why_cloud": "empty",
+        "local_problem": "empty",
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+        "title": "Authentication in Adobe Commerce as a Cloud Service",
+        "text_len": 4465,
+        "http_status": 200,
+        "screenshot": "screenshots/magento-adobe-commerce/02-453b8ce24d.jpg",
+        "usable": true,
+        "wall_s": 7.79
+      },
+      {
+        "url": "https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://experienceleague.adobe.com/en/docs/commerce-learn/ai-and-agentic-commerce/commerce-mcp/commerce-mcp-overview",
+        "title": "Commerce MCP overview | Adobe Commerce",
+        "text_len": 1128,
+        "http_status": 200,
+        "screenshot": "screenshots/magento-adobe-commerce/03-a5f6e3d0a9.jpg",
+        "usable": true,
+        "wall_s": 3.36
+      },
+      {
+        "url": "https://developer.adobe.com/commerce",
+        "browser": "cloud",
+        "why_cloud": "empty",
+        "local_problem": "empty",
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developer.adobe.com/commerce/",
+        "title": ":experiencecloud:",
+        "text_len": 2304,
+        "http_status": 200,
+        "screenshot": "screenshots/magento-adobe-commerce/04-21f9faaa5a.jpg",
+        "usable": true,
+        "wall_s": 7.37
+      }
+    ],
+    "cloud_sessions": 1
+  }
+}

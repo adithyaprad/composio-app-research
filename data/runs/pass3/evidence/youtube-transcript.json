@@ -1,0 +1,323 @@
+{
+  "slug": "youtube-transcript",
+  "searches": [
+    {
+      "query": "YouTube Transcript API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://transcriptapi.com/docs/api/",
+          "title": "YouTube Transcript API Reference | TranscriptAPI.com",
+          "snippet": "YouTube Transcript API Reference | TranscriptAPI.com\n\n# YouTube Transcript API Reference\n\nThe YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. This complete reference covers authentication, request parameters, response formats, an"
+        },
+        {
+          "url": "https://transcript.im/docs/authentication",
+          "title": "Authentication | Transcript Docs",
+          "snippet": "Authentication | Transcript Docs\n\n# Authentication\n\nAuthenticate public API requests with a scoped developer API key.\n\nExternal `/v1` requests require a developer API key from an active paid account. Send it with `Authorization: Bearer` or `X-API-Key`. Browser cookies, session bearer tokens, and gue"
+        },
+        {
+          "url": "https://docs.ytapi.dev/authentication/",
+          "title": "Authentication",
+          "snippet": "# Authentication\n\nAll requests to the YouTube Transcript Platform API must be authenticated using a valid API key.\n\nAuthentication Headers [#authentication-headers]\n\nYou can authenticate using either standard Bearer token or the `X-API-Key` header:\n\n```http\nAuthorization: Bearer YOUR_API_KEY\n\n```\n\nO"
+        },
+        {
+          "url": "https://getyoutubetranscript.com/docs",
+          "title": "YouTube Transcript API Documentation | GetYouTubeTranscript",
+          "snippet": "YouTube Transcript API Documentation | GetYouTubeTranscript\n\n# API Documentation\n\nllms.txt: https://getyoutubetranscript.com/llms.txt · OpenAPI: https://getyoutubetranscript.com/openapi.json\n\n## Authentication\n\nPass your API key as a bearer token, or via `x-api-key`:\n\n```\nAuthorization: Bearer sk_li"
+        },
+        {
+          "url": "https://youtubetranscriptapi.com/docs/authentication.md",
+          "title": "Authentication",
+          "snippet": "# Authentication\n\nBearer tokens, key rotation, and security best practices.\n\nSource: https://youtubetranscriptapi.com/docs/authentication\n\n## How it works\n\nEvery request must include an `Authorization` header with the `Bearer` scheme. Keys are issued from your dashboard and are tied to your account'"
+        }
+      ]
+    },
+    {
+      "query": "YouTube Transcript developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://transcriptapi.com/docs/api/",
+          "title": "YouTube Transcript API Reference | TranscriptAPI.com",
+          "snippet": "YouTube Transcript API Reference | TranscriptAPI.com\n\n# YouTube Transcript API Reference\n\nThe YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. This complete reference covers authentication, request parameters, response formats, an"
+        },
+        {
+          "url": "https://docs.ytapi.dev/",
+          "title": "Quickstart",
+          "snippet": "# Quickstart\n\nYTAPI lets you extract transcripts, video metadata, playlists, channel details and search results from YouTube with simple HTTP requests. It supports word-level timestamps, multiple output formats (JSON, text, Markdown, SRT, VTT), and high-concurrency batch processing.\n\nAll API endpoin"
+        },
+        {
+          "url": "https://getyoutubetranscript.com/docs",
+          "title": "YouTube Transcript API Documentation | GetYouTubeTranscript",
+          "snippet": "YouTube Transcript API Documentation | GetYouTubeTranscript\n\n# API Documentation\n\nllms.txt: https://getyoutubetranscript.com/llms.txt · OpenAPI: https://getyoutubetranscript.com/openapi.json\n\n## Authentication\n\nPass your API key as a bearer token, or via `x-api-key`:\n\n```\nAuthorization: Bearer sk_li"
+        },
+        {
+          "url": "https://capslane.com/docs",
+          "title": "YouTube Transcript API Documentation | Capslane",
+          "snippet": "YouTube Transcript API Documentation | Capslane\n\n# Introduction\n\nCapslane provides one API for retrieving YouTube captions and generating transcripts when captions are unavailable.\n\nUsing Claude Code, Codex or Cursor? Install the transcript skill or connect the MCP tools. Claude Code also has a plug"
+        },
+        {
+          "url": "https://www.tubetotranscript.com/docs",
+          "title": "TubeToTranscript Developer REST API Documentation & Reference",
+          "snippet": "# TubeToTranscript Developer REST API Documentation & Reference\n\nThe TubeToTranscript REST API allows AI agents, LLM pipelines, and backend servers to retrieve clean, structured YouTube transcripts programmatically.\n\n## Base URL\n\n`https://www.tubetotranscript.com/api/v1`\n\n## Authentication\n\nPass you"
+        }
+      ]
+    },
+    {
+      "query": "YouTube Transcript pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://yttotext.com/pricing",
+          "title": "Pricing | YouTube Transcript Tools",
+          "snippet": "Pricing | YouTube Transcript Tools\n\n# Unlock more from every transcript\n\nGet YouTube transcripts free, then use AI credits for notes, mind maps, flashcards, and transcript-grounded chat.\n\n## More videos, more AI room\n\nChoose your capacity. Transcript retrievals and AI credits are separate allowances"
+        },
+        {
+          "url": "https://tubetranscript.io/pricing",
+          "title": "YouTube Transcript Pricing: Free, $4.99 & $19/mo",
+          "snippet": "YouTube Transcript Pricing: Free, $4.99 & $19/mo\n\n# TubeTranscript pricing: Pro $4.99/month, Enterprise $19/month\n\nFree\n\n## Enterprise: Pro with bigger allowances\n\n## Free, Pro and Enterprise at a glance\n\nTubeTranscript plan comparison\n\n| Feature | Free / guest | Pro | Enterprise |\n| --- | --- | ---"
+        },
+        {
+          "url": "https://youtubescribe.com/pricing",
+          "title": "YouTubeScribe Pricing: Free, Pro $4.99, Studio $12.99",
+          "snippet": "YouTubeScribe Pricing: Free, Pro $4.99, Studio $12.99\n\n# Free for the thing you came here for.\n\nTranscripts are unlimited and free, with no account and no daily cap. You only pay for the AI tools, and only for what you run.\n\nMonthly Annual · save 17%\n\nFree\n\n$0\n\nEvery transcript, for nothing, forever"
+        },
+        {
+          "url": "https://getyoutubetranscript.com/pricing",
+          "title": "Pricing — Get YouTube Transcript | GetYouTubeTranscript",
+          "snippet": "Pricing — Get YouTube Transcript | GetYouTubeTranscript\n\n# Pay only for transcripts that work\n\nOne credit per successful request. Failed requests cost nothing. Start free, pick a plan when you need more.\n\nFull REST API access (transcript, search, channel and playlist endpoints), billed by credit.\n\nT"
+        },
+        {
+          "url": "https://ytbtranscript.com/pricing",
+          "title": "YouTube Transcript Pricing",
+          "snippet": "YouTube Transcript Pricing\n\n# YouTube transcript pricing\n\n## A cheap plan for the whole video workflow\n\nMonthly or yearly. Yearly is about a third less. One credit is one video that already has subtitles: the transcript, timestamps, search, export, and one AI summary. Videos with no subtitles use au"
+        }
+      ]
+    },
+    {
+      "query": "YouTube Transcript official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://transcriptapi.com/docs/mcp/",
+          "title": "MCP (Model Context Protocol) | TranscriptAPI.com",
+          "snippet": "MCP (Model Context Protocol) | TranscriptAPI.com\n\n# MCP (Model Context Protocol)\n\nUse TranscriptAPI to fetch transcripts, search YouTube, browse channels, and list playlists — all from within your AI assistant via Model Context Protocol (MCP).\n\nClaude Tutorial\n\nComplete guide to integrate Transcript"
+        },
+        {
+          "url": "https://mcp.ai/youtube_transcript",
+          "title": "YouTube Transcript MCP Server and REST API | MCP.ai",
+          "snippet": "# YouTube Transcript\n\nConnect your YouTube Transcript account and use 9 tools for transcription straight from your AI agent. Connect with your own API key. Retrieve and store captions for one video or a bounded batch, read job and batch status, access stored transcripts and languages, and resolve pl"
+        },
+        {
+          "url": "https://composio.dev/toolkits/youtube_transcript",
+          "title": "YouTube Transcript MCP server for AI agents and assistants",
+          "snippet": "NEW Firewall · Your agents. Your rules. Composio Firewall · Control what your agents can do.EXPLORE\n\n# YouTube Transcript MCP server for AI agents and assistants\n\nSecurely connect your AI agents and chatbots (Claude, ChatGPT, Cursor, etc) with YouTube Transcript MCP or direct API to retrieve caption"
+        },
+        {
+          "url": "https://github.com/jkawamoto/mcp-youtube-transcript",
+          "title": "jkawamoto/mcp-youtube-transcript: MCP server retrieving ...",
+          "snippet": "# jkawamoto/mcp-youtube-transcript\n\nMCP server retrieving transcripts of YouTube videos\n\n- Stars: 498\n- Forks: 79\n- Watchers: 498\n- Open issues: 6\n- License: MIT License\n- Default branch: main\n- Created: 2025-02-08T02:49:22Z\n\n## Languages\n\n- Dockerfile\n- Python\n\n## Topics\n\n- mcp-server\n- python\n- yo"
+        },
+        {
+          "url": "https://youtube-transcript.ai/mcp",
+          "title": "YouTube Transcript MCP Server — Connect Claude & ChatGPT",
+          "snippet": "YouTube Transcript MCP Server — Connect Claude & ChatGPT\n\n# YouTube Transcript MCP Server for Claude, ChatGPT & Muse\n\nConnect once, then ask your AI to read, summarize, translate or quote any YouTube video. Or have it research a whole topic across dozens of videos and come back with sources.\n\n- A tr"
+        }
+      ]
+    },
+    {
+      "query": "site:transcriptapi.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://transcriptapi.com/docs/mcp/",
+          "title": "MCP (Model Context Protocol) | TranscriptAPI.com",
+          "snippet": "MCP (Model Context Protocol) | TranscriptAPI.com\n\n# MCP (Model Context Protocol)\n\nUse TranscriptAPI to fetch transcripts, search YouTube, browse channels, and list playlists — all from within your AI assistant via Model Context Protocol (MCP).\n\nClaude Tutorial\n\nComplete guide to integrate Transcript"
+        },
+        {
+          "url": "https://transcriptapi.com/blog/youtube-mcp-server-setup-connect-claude",
+          "title": "YouTube MCP Server Setup: Connect Claude to Transcripts | TranscriptAPI",
+          "snippet": "YouTube MCP Server Setup: Connect Claude to Transcripts | TranscriptAPI\n\n# YouTube MCP Server Setup: Connect Claude to Transcripts\n\nBy Nikhil Kumar Published March 22, 2026 Last updated October 3, 2026 14 min read\n\nImagine asking Claude to summarize a 2-hour conference talk and getting back a struct"
+        },
+        {
+          "url": "https://transcriptapi.com/docs/mcp/chatgpt/",
+          "title": "How to Connect YouTube to ChatGPT (Transcripts and Search) | TranscriptAPI.com",
+          "snippet": "How to Connect YouTube to ChatGPT (Transcripts and Search) | TranscriptAPI.com\n\n# Connect YouTube to ChatGPT with the TranscriptAPI connector\n\nLearn how to connect TranscriptAPI’s YouTube Transcript MCP to ChatGPT and fetch YouTube video transcripts directly in your conversations. This step-by-step "
+        },
+        {
+          "url": "https://transcriptapi.com/docs/mcp/claude/",
+          "title": "Connect TranscriptAPI to Claude (Step-by-Step Guide 2026) | TranscriptAPI.com",
+          "snippet": "Connect TranscriptAPI to Claude (Step-by-Step Guide 2026) | TranscriptAPI.com\n\n# Connect TranscriptAPI to Claude (Step-by-Step Guide 2026)\n\nTo let Claude read YouTube videos with TranscriptAPI, add its hosted MCP server at `https://transcriptapi.com/mcp`, which fetches video transcripts and searches"
+        },
+        {
+          "url": "https://transcriptapi.com/blog/ai-agents-access-to-youtube-data",
+          "title": "How to give AI agents access to YouTube data via MCP | TranscriptAPI",
+          "snippet": "How to give AI agents access to YouTube data via MCP | TranscriptAPI\n\n# How to give AI agents access to YouTube data via MCP\n\nBy TranscriptAPI Published March 22, 2026 Last updated November 22, 2026 13 min read\n\n# How to Give AI Agents Access to YouTube Data via MCP\n\nAI agents are only as smart as t"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://transcriptapi.com",
+      "final_url": "https://transcriptapi.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:53Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "872483a565897a39833d48b555bcaffd457768cf61433181592fc85c18c524b2",
+      "text_len": 13183
+    },
+    {
+      "requested_url": "https://transcriptapi.com/docs/api/",
+      "final_url": "https://transcriptapi.com/docs/api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "885182d5267a87a1fe112257699e4a5353b6b874653f34c7597db29c9bc63aa1",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://getyoutubetranscript.com/pricing",
+      "final_url": "https://getyoutubetranscript.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "783b1587a1ba6c585d6387ce5ed6b81a1e899676da501c916accd8fb2b2cceae",
+      "text_len": 2045
+    },
+    {
+      "requested_url": "https://transcriptapi.com/docs/mcp/",
+      "final_url": "https://transcriptapi.com/docs/mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8dcae99b381bdf2eaa50133af0e47c0668681765fa4993489b84e31f0ad115de",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://transcriptapi.com/docs/mcp/chatgpt/",
+      "final_url": "https://transcriptapi.com/docs/mcp/chatgpt/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9792faf26e203e50f3eaedb943b009a64bc5d97d526e79edc61e66bb74335825",
+      "text_len": 13318
+    },
+    {
+      "requested_url": "https://transcriptapi.com/docs/mcp/claude/",
+      "final_url": "https://transcriptapi.com/docs/mcp/claude/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "55d64dfd528f59706f6af605596d6b60cdade2e74010a0855ac07f988b7944fb",
+      "text_len": 9386
+    },
+    {
+      "requested_url": "https://transcriptapi.com/blog/youtube-mcp-server-setup-connect-claude",
+      "final_url": "https://transcriptapi.com/blog/youtube-mcp-server-setup-connect-claude",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1eb8654514adda287f1fc95532364524fc993e6e790126356d99a6296dc8921d",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://transcriptapi.com/blog/ai-agents-access-to-youtube-data",
+      "final_url": "https://transcriptapi.com/blog/ai-agents-access-to-youtube-data",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b789c43a938184091074fc74953b6fd27f1b064597089733a89623f38a7208a8",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://transcriptapi.com/docs/api/",
+        "quote": "The API uses Bearer token authentication.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://transcriptapi.com/blog/youtube-mcp-server-setup-connect-claude",
+        "quote": "Sign up at transcriptapi.com and you'll get 100 free credits immediately. No credit card.",
+        "verified": true
+      },
+      {
+        "url": "https://transcriptapi.com/docs/mcp/",
+        "quote": "New accounts get 100 free credits.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://transcriptapi.com/docs/api/",
+        "quote": "The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://transcriptapi.com/docs/mcp/",
+        "quote": "TranscriptAPI runs a hosted (remote) MCP server at `https://transcriptapi.com/mcp`.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://transcriptapi.com/docs/api/",
+        "quote": "Get your API key from your API Keys dashboard.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://transcriptapi.com",
+        "quote": "Get transcripts, search videos, browse channels, and extract playlists via REST API or YouTube MCP",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

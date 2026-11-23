@@ -1,0 +1,743 @@
+{
+  "slug": "grain",
+  "searches": [
+    {
+      "query": "Grain API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.grain.com/",
+          "title": "Grain API",
+          "snippet": "Overview — Grain Developers\n\n# Overview\n\n## Quick Start\n\nThe Grain API lets you read and manage recordings, highlights, uploads, and more. This page gets you from zero to your first successful request!\n\n### 1. Create a Personal Access Token\n\nA Personal Access Token (PAT) authenticates requests as yo"
+        },
+        {
+          "url": "https://developers.grain.com/authentication.html",
+          "title": "Authentication — Grain Developers",
+          "snippet": "Authentication — Grain Developers\n\n# Authentication\n\n## Authenticating Calls\n\nTo authenticate API calls, the client must add the following header:\n\n```javascript\nAuthorization: Bearer TOKEN\n```\n\nwhere `TOKEN` is obtained by one of the methods below.\n\n## Token Types\n\nThere are three types of tokens w"
+        },
+        {
+          "url": "https://support.grain.com/en/articles/15507288-grain-api",
+          "title": "Grain API | Grain",
+          "snippet": "Grain API | Grain\n\n# Grain API\n\nConnect Grain to your own tools and workflows with the Grain public API.\n\nTable of contents\n\nThe Grain API lets developers read meeting data, manage recordings, and receive real-time events from Grain programmatically. Use it to build custom integrations, sync data to"
+        },
+        {
+          "url": "https://integrations.sh/grain.com/grain-public-api/",
+          "title": "Grain Public API — REST",
+          "snippet": "Grain Public API — REST\n\n# Grain Public API\n\n REST discovered \n\n Details \n\nURL\n: `https://api.grain.com/_/public-api`\nDocs\n: https://developers.grain.com/\n\nAuthentication\n\n Personal Access Token `Authorization: Bearer ` + Personal Access Token `Public-Api-Version: ` discovered \n\n Personal Access Tok"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/apideck-io/api-registry/master/specs/grain/auth.yaml",
+          "title": "",
+          "snippet": "openapi: 3.1.0\ninfo:\n title: Grain API (authentication only)\n version: \"0\"\n description: \"Authentication only. This document describes how to authenticate with the Grain API: its host and its OAuth 2.0 endpoints and scopes. It lists no endpoints. Grain publishes no OpenAPI specification; every value"
+        }
+      ]
+    },
+    {
+      "query": "Grain developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.grain.com/",
+          "title": "Grain API",
+          "snippet": "Overview — Grain Developers\n\n# Overview\n\n## Quick Start\n\nThe Grain API lets you read and manage recordings, highlights, uploads, and more. This page gets you from zero to your first successful request!\n\n### 1. Create a Personal Access Token\n\nA Personal Access Token (PAT) authenticates requests as yo"
+        },
+        {
+          "url": "https://support.grain.com/en/articles/15507288-grain-api",
+          "title": "Grain API | Grain",
+          "snippet": "Grain API | Grain\n\n# Grain API\n\nConnect Grain to your own tools and workflows with the Grain public API.\n\nTable of contents\n\nThe Grain API lets developers read meeting data, manage recordings, and receive real-time events from Grain programmatically. Use it to build custom integrations, sync data to"
+        },
+        {
+          "url": "https://nango.dev/docs/api-integrations/grain-api-key",
+          "title": "Grain (API Key)",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://nango.dev/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Grain (API Key)\n\n> Integrate your application with the Grain API using a personal access token\n\n## 🚀 Quickstart\n\nConne"
+        },
+        {
+          "url": "https://jentic.com/apis/grain.com/grain",
+          "title": "Grain meeting transcripts API for AI agents | Jentic",
+          "snippet": "2 Grattan Court East, Dublin, D02 VX86, Ireland\n\n## Connect the Grain API to your agent\n\nJentic One is a self-hosted execution layer for AI agents. It lets your agent call the Grain API, or any other public or private API you need. You set the rules, the agent never sees your credentials, and every "
+        },
+        {
+          "url": "https://docs.textql.com/core/datasources/apis/grain",
+          "title": "Grain Connector",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.textql.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Grain Connector\n\n> Connect Grain to TextQL to query meeting notes, transcripts, and highlights across your team's cal"
+        }
+      ]
+    },
+    {
+      "query": "Grain pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://grain.com/pricing",
+          "title": "Pricing | Grain",
+          "snippet": "Pricing | Grain\n\n# Pricing\n\nFree forever for individuals. Upgrade to Pro for longer meetings and full history, or to Business for shared workspace meeting memory in Claude, ChatGPT, and Grain.‍\n\nFor individuals\n\nFor teams\n\n#### Free\n\nView your team's meetings and try AI notes\n\n### $0\n\nper seat/month"
+        },
+        {
+          "url": "https://support.grain.com/en/articles/9253220-plans",
+          "title": "Plans | Grain",
+          "snippet": "Plans | Grain\n\n# Plans\n\nCompare Grain's Free, Pro, Business and Enterprise plans.\n\n Updated over a week ago\n\nTable of contents\n\nFor current pricing, see grain.com/pricing.\n\n# Free: $0\n\nFor individuals getting started. Free is for one person, so there's no shared workspace.\n\n# Pro: $15 per month bill"
+        },
+        {
+          "url": "https://support.grain.com/en/articles/9134931-billing",
+          "title": "Billing | Grain",
+          "snippet": "Billing | Grain\n\n# Billing\n\nManage your Grain subscription, seats, payment method, and invoices.\n\n Updated over a week ago\n\nTable of contents\n\nHow Grain bills you depends on which plan you are on. Pro is a personal subscription for one person. Business and Enterprise are billed per seat across a sha"
+        },
+        {
+          "url": "https://support.grain.com/en/articles/15506921-quickstart-guide",
+          "title": "Quickstart Guide | Grain",
+          "snippet": "Quickstart Guide | Grain\n\n# Quickstart Guide\n\nGet from sign-up to your first recorded meeting and beyond.\n\n Updated over a week ago\n\nTable of contents\n\nGrain automatically records, transcribes, and summarizes your meetings so you can focus on the conversation. This guide gets you set up quickly, wit"
+        },
+        {
+          "url": "https://grain.com/",
+          "title": "Grain | The AI Notetaker Built for Growing Teams",
+          "snippet": "Grain | The AI Notetaker Built for Growing Teams\n\n# The AI notetaker for agents and teams\n\nGrain captures and enriches your meetings, then delivers them to Claude, ChatGPT, or any AI tool so your agents can do the work. Start recording in minutes. \n\nFree forever\n\nWorks with:\n\nTop teams use Grain to "
+        }
+      ]
+    },
+    {
+      "query": "Grain official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.grain.com/mcp/",
+          "title": "Official Grain MCP Server: Quick Start Guide",
+          "snippet": "Official Grain MCP Server: Quick Start Guide — Grain Developers\n\n# Official Grain MCP Server: Quick Start Guide\n\nThe Grain MCP (Model Context Protocol) connects Claude.ai (and other AI chat clients) directly to your meeting data in Grain, enabling powerful AI-powered individual workflows as well as "
+        },
+        {
+          "url": "https://support.grain.com/en/articles/14811968-grain-mcp",
+          "title": "Grain MCP | Grain",
+          "snippet": "Grain MCP | Grain\n\n# Grain MCP\n\nConnect Grain to Claude or ChatGPT and query your meeting data with natural language.\n\n Updated over a week ago\n\nTable of contents\n\nGrain's MCP (Model Context Protocol) server gives AI assistants direct access to your meetings, transcripts, AI notes, and workspace dat"
+        },
+        {
+          "url": "https://grain.com/release-note/06-18-2025",
+          "title": "Official Grain MCP Server | Grain",
+          "snippet": "Official Grain MCP Server | Grain\n\n# Official Grain MCP Server\n\nAnnounced: June 18, 2025\n\nMike Adams\n\nGrain's official MCP server is available now for all users! 🎉\n\nWith Grain's new MCP server you can securely access your meetings, notes, transcripts, deals, & coaching scorecard data natively using "
+        },
+        {
+          "url": "https://grain.com/release-note/grain-mcp-and-api-updates",
+          "title": "Grain MCP + Bulk AI Actions and API Updates | Grain",
+          "snippet": "Grain MCP + Bulk AI Actions and API Updates | Grain\n\n# Grain MCP + Bulk AI Actions and API Updates\n\nAnnounced: May 13, 2026\n\nJeff Whitlock\n\nWe've been hearing the same thing from a lot of you: getting your meeting data into your AI tools is more friction than it should be. So we shipped a handful of"
+        },
+        {
+          "url": "https://docs.merge.dev/merge-agent-handler/connectors/generic/grain.md",
+          "title": "Grain",
+          "snippet": "> This page is for Agent Handler.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.merge.dev/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.merge.dev/_mcp/server.\n\n# Gra"
+        }
+      ]
+    },
+    {
+      "query": "site:grain.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.grain.com/mcp/",
+          "title": "Official Grain MCP Server: Quick Start Guide",
+          "snippet": "Official Grain MCP Server: Quick Start Guide — Grain Developers\n\n# Official Grain MCP Server: Quick Start Guide\n\nThe Grain MCP (Model Context Protocol) connects Claude.ai (and other AI chat clients) directly to your meeting data in Grain, enabling powerful AI-powered individual workflows as well as "
+        },
+        {
+          "url": "https://support.grain.com/en/articles/14811968-grain-mcp",
+          "title": "Grain MCP | Grain",
+          "snippet": "Grain MCP | Grain\n\n# Grain MCP\n\nConnect Grain to Claude or ChatGPT and query your meeting data with natural language.\n\n Updated over a week ago\n\nTable of contents\n\nGrain's MCP (Model Context Protocol) server gives AI assistants direct access to your meetings, transcripts, AI notes, and workspace dat"
+        },
+        {
+          "url": "https://developers.grain.com/mcp/tools-and-usage.html",
+          "title": "Available MCP Tools and Basic Usage Examples",
+          "snippet": "Available MCP Tools and Basic Usage Examples — Grain Developers\n\n# Available MCP Tools and Basic Usage Examples\n\n## Available MCP Tools\n\n### Free & Starter Plan MCP Tools\n\n- `myself` : Get your Grain account information\n\n Parameters: None\n- `list_meetings / list_attended_meetings`: Get filtered list"
+        },
+        {
+          "url": "https://developers.grain.com/mcp/faq.html",
+          "title": "Frequently Asked Questions",
+          "snippet": "Frequently Asked Questions — Grain Developers\n\n# Frequently Asked Questions\n\nQ: What applications and platforms support MCP integrations?\n\nA: The Model Context Protocol is rapidly gaining adoption where each client supports different MCP features (tools, prompts, resources) depending on their use ca"
+        },
+        {
+          "url": "https://grain.com/release-note/06-18-2025",
+          "title": "Official Grain MCP Server | Grain",
+          "snippet": "Official Grain MCP Server | Grain\n\n# Official Grain MCP Server\n\nAnnounced: June 18, 2025\n\nMike Adams\n\nGrain's official MCP server is available now for all users! 🎉\n\nWith Grain's new MCP server you can securely access your meetings, notes, transcripts, deals, & coaching scorecard data natively using "
+        }
+      ]
+    },
+    {
+      "query": "Grain developer API availability",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.grain.com/",
+          "title": "Grain API",
+          "snippet": "Overview — Grain Developers\n\n# Overview\n\n## Quick Start\n\nThe Grain API lets you read and manage recordings, highlights, uploads, and more. This page gets you from zero to your first successful request!\n\n### 1. Create a Personal Access Token\n\nA Personal Access Token (PAT) authenticates requests as yo"
+        },
+        {
+          "url": "https://support.grain.com/en/articles/15507288-grain-api",
+          "title": "Grain API | Grain",
+          "snippet": "Grain API | Grain\n\n# Grain API\n\nConnect Grain to your own tools and workflows with the Grain public API.\n\nTable of contents\n\nThe Grain API lets developers read meeting data, manage recordings, and receive real-time events from Grain programmatically. Use it to build custom integrations, sync data to"
+        },
+        {
+          "url": "https://grain.com/release-notes",
+          "title": "Release notes",
+          "snippet": "Release notes\n\n# Release Notes\n\nKeep up with new updates and improvements to Grain.\n\nNovember 11, 2026\n\nEmail Notification Controls, More API Functionality, and Salesforce Improvements\n\nFree\n\nLately, we’ve been focused on control: which emails you get, what your CRM receives, and what you can build "
+        },
+        {
+          "url": "https://docs.ampersand.ai/provider-guides/grain",
+          "title": "Grain",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.ampersand.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Grain\n\n> Connect Grain to Ampersand with OAuth to read recordings, uploads, users, teams, meeting types, and hooks,"
+        },
+        {
+          "url": "https://www.scalekit.com/blog/grain-mcp-vs-api",
+          "title": "Grain MCP vs Grain API for AI Agents (2026)",
+          "snippet": "Grain MCP vs Grain API for AI Agents (2026)\n\nOct 5, 2026\n\n# Grain MCP vs Grain API for AI Agents (2026)\n\nShri Mithran\n\nDirector of Marketing\n\n## TL;DR\n\n- Grain MCP and Grain API cover different halves of Grain. The MCP's 41 tools include semantic transcript search, deal intelligence, coaching scorec"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://grain.com",
+      "final_url": "https://grain.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "06914c2c368b97876dd837bfc855ba48411d1cdcd76182b60429eb150e8780b6",
+      "text_len": 4766
+    },
+    {
+      "requested_url": "https://developers.grain.com/authentication.html",
+      "final_url": "https://developers.grain.com/authentication.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6b1ed329d45308ab91626b228b1933e33496918ae818745ec368b0eaad024dc1",
+      "text_len": 5680
+    },
+    {
+      "requested_url": "https://developers.grain.com/",
+      "final_url": "https://developers.grain.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "41f150c02000bbee35547f14fe7e124c6d900002c4c9813ddb74d3cc499b3f12",
+      "text_len": 1415
+    },
+    {
+      "requested_url": "https://grain.com/pricing",
+      "final_url": "https://grain.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d9d4e007b9e62f6d923185373e228c7db85acbfb7833e1c4766dff7108e7d286",
+      "text_len": 1767
+    },
+    {
+      "requested_url": "https://developers.grain.com/mcp/",
+      "final_url": "https://developers.grain.com/mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:51Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "486304fbc3771eaa17c9e0186402aa43410fc24d12a3f5a249987f016ff2a668",
+      "text_len": 646
+    },
+    {
+      "requested_url": "https://developers.grain.com/mcp/faq.html",
+      "final_url": "https://developers.grain.com/mcp/faq.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "be4d381931a9e6e9d69effe1ae70767261c6ddecca21356d70c63f0bba8e5e24",
+      "text_len": 4553
+    },
+    {
+      "requested_url": "https://developers.grain.com/mcp/tools-and-usage.html",
+      "final_url": "https://developers.grain.com/mcp/tools-and-usage.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "271f1a76a9dc7f66e3b0e4ef7e80f0ef06bc38c21f562f9f8c667fe6236da822",
+      "text_len": 4178
+    },
+    {
+      "requested_url": "https://grain.com/release-note/grain-mcp-and-api-updates",
+      "final_url": "https://grain.com/release-note/grain-mcp-and-api-updates",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:51Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4ffe1cb35d84122887bf7204c030bead62832dd145054d35639f3a1432a07bfe",
+      "text_len": 1533
+    },
+    {
+      "requested_url": "https://developers.grain.com/llms.txt",
+      "final_url": "https://developers.grain.com/llms.txt",
+      "status": 403,
+      "provider": "http",
+      "fetched_at": "2026-11-23T13:46:57Z",
+      "error": "HTTP 403",
+      "method": "http_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://developers.grain.com/",
+      "final_url": "https://developers.grain.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "41f150c02000bbee35547f14fe7e124c6d900002c4c9813ddb74d3cc499b3f12",
+      "text_len": 1415
+    },
+    {
+      "requested_url": "https://grain.com/release-note/grain-mcp-and-api-updates",
+      "final_url": "https://grain.com/release-note/grain-mcp-and-api-updates",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:31Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "4ffe1cb35d84122887bf7204c030bead62832dd145054d35639f3a1432a07bfe",
+      "text_len": 1533
+    },
+    {
+      "requested_url": "https://support.grain.com/en/articles/15507288-grain-api",
+      "final_url": "https://support.grain.com/en/articles/15507288-grain-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "24bf4c87aac5c759e9709541dea864247a0b96279cc1dad7e3b5c5a5bfa2d339",
+      "text_len": 4172
+    },
+    {
+      "requested_url": "https://grain.com/release-notes",
+      "final_url": "https://grain.com/release-notes",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a156df299aadf22c12fdacbb59e19ff2610da3cdc89379dec4cf9d4b80e59ae9",
+      "text_len": 19982
+    },
+    {
+      "requested_url": "https://www.scalekit.com/blog/grain-mcp-vs-api",
+      "final_url": "https://www.scalekit.com/blog/grain-mcp-vs-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0690dbde63f3884bef8715dfc3960380cc9e00db07f296bd877c323769c18e7f",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.ampersand.ai/provider-guides/grain",
+      "final_url": "https://docs.ampersand.ai/provider-guides/grain",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6d54e54f70e6af4e2c54fa04fcc71ce13d274e7e27fbcf922ac399bb0aad4255",
+      "text_len": 3600
+    },
+    {
+      "requested_url": "https://grain.com/pricing",
+      "final_url": "https://grain.com/pricing",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:29:14Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "624f40ad3472a25e62c7212c55e4783fb01f0009aafa41e5bb21a801de27735b",
+      "text_len": 6208
+    },
+    {
+      "requested_url": "https://developers.grain.com/authentication.html",
+      "final_url": "https://developers.grain.com/authentication.html",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:29:16Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "ebd518e87570b6411dc92b71a2ef2f1e3f95393e12ef76b3ccb521844f350c85",
+      "text_len": 4993
+    },
+    {
+      "requested_url": "https://developers.grain.com/mcp/",
+      "final_url": "https://developers.grain.com/mcp/",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:29:18Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "c542f95d01f8822697ef0db444b016f815c492cdcb94e467cac66df9a5b8d93c",
+      "text_len": 792
+    },
+    {
+      "requested_url": "https://developers.grain.com/",
+      "final_url": "https://developers.grain.com/",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:29:20Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "b823270ab0bddfa63857fa5b43179ada1c3833ca03adebbe6722d94bf851e1bb",
+      "text_len": 1479
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.grain.com/authentication.html",
+        "quote": "The API supports a standard OAuth2 Authorization Code flow, including the PKCE extension for client-side only authentication.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/grain/02-30d5e8e419.jpg"
+      },
+      {
+        "url": "https://developers.grain.com/authentication.html",
+        "quote": "Personal Access Token (PAT)",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/grain/02-30d5e8e419.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.grain.com/",
+        "quote": "A Personal Access Token (PAT) authenticates requests as you, with the same access you have in Grain.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/grain/04-ee5f27d895.jpg"
+      },
+      {
+        "url": "https://grain.com/pricing",
+        "quote": "API & webhooks",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/grain/01-77630b4eb1.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.grain.com/",
+        "quote": "The Grain API lets you read and manage recordings, highlights, uploads, and more.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.grain.com/mcp/",
+        "quote": "Official Grain MCP Server: Quick Start Guide",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/grain/03-692f28a769.jpg"
+      },
+      {
+        "url": "https://developers.grain.com/authentication.html",
+        "quote": "also authenticate the Grain MCP server at https://api.grain.com/_/mcp",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/grain/02-30d5e8e419.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.grain.com/",
+        "quote": "Swap in your own token and you're set.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/grain/04-ee5f27d895.jpg"
+      },
+      {
+        "url": "https://grain.com/pricing",
+        "quote": "Connect to Claude & ChatGPT (Basic MCP)",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/grain/01-77630b4eb1.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://grain.com/",
+        "quote": "Grain captures and enriches your meetings, then delivers them to Claude, ChatGPT, or any AI tool so your agents can do the work.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "unsupported_evidence"
+    ],
+    "findings": [
+      {
+        "rule": "unsupported_evidence",
+        "source": "code",
+        "reason": "verdict: no quoted snippet was found in the cited page text",
+        "fields": [
+          "verdict",
+          "blocker"
+        ],
+        "quotes": []
+      }
+    ],
+    "fields_in_scope": [
+      "verdict",
+      "blocker"
+    ],
+    "claims": [
+      "verdict"
+    ],
+    "review_searches": [
+      {
+        "query": "Grain developer API availability",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developers.grain.com/",
+            "title": "Grain API",
+            "snippet": "Overview — Grain Developers\n\n# Overview\n\n## Quick Start\n\nThe Grain API lets you read and manage recordings, highlights, uploads, and more. This page gets you from zero to your first successful request!\n\n### 1. Create a Personal Access Token\n\nA Personal Access Token (PAT) authenticates requests as yo"
+          },
+          {
+            "url": "https://support.grain.com/en/articles/15507288-grain-api",
+            "title": "Grain API | Grain",
+            "snippet": "Grain API | Grain\n\n# Grain API\n\nConnect Grain to your own tools and workflows with the Grain public API.\n\nTable of contents\n\nThe Grain API lets developers read meeting data, manage recordings, and receive real-time events from Grain programmatically. Use it to build custom integrations, sync data to"
+          },
+          {
+            "url": "https://grain.com/release-notes",
+            "title": "Release notes",
+            "snippet": "Release notes\n\n# Release Notes\n\nKeep up with new updates and improvements to Grain.\n\nNovember 11, 2026\n\nEmail Notification Controls, More API Functionality, and Salesforce Improvements\n\nFree\n\nLately, we’ve been focused on control: which emails you get, what your CRM receives, and what you can build "
+          },
+          {
+            "url": "https://docs.ampersand.ai/provider-guides/grain",
+            "title": "Grain",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.ampersand.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Grain\n\n> Connect Grain to Ampersand with OAuth to read recordings, uploads, users, teams, meeting types, and hooks,"
+          },
+          {
+            "url": "https://www.scalekit.com/blog/grain-mcp-vs-api",
+            "title": "Grain MCP vs Grain API for AI Agents (2026)",
+            "snippet": "Grain MCP vs Grain API for AI Agents (2026)\n\nOct 5, 2026\n\n# Grain MCP vs Grain API for AI Agents (2026)\n\nShri Mithran\n\nDirector of Marketing\n\n## TL;DR\n\n- Grain MCP and Grain API cover different halves of Grain. The MCP's 41 tools include semantic transcript search, deal intelligence, coaching scorec"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:31Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "41f150c02000bbee35547f14fe7e124c6d900002c4c9813ddb74d3cc499b3f12",
+        "text_len": 1415
+      },
+      {
+        "requested_url": "https://grain.com/release-note/grain-mcp-and-api-updates",
+        "final_url": "https://grain.com/release-note/grain-mcp-and-api-updates",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:31Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "4ffe1cb35d84122887bf7204c030bead62832dd145054d35639f3a1432a07bfe",
+        "text_len": 1533
+      },
+      {
+        "requested_url": "https://support.grain.com/en/articles/15507288-grain-api",
+        "final_url": "https://support.grain.com/en/articles/15507288-grain-api",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:31Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "24bf4c87aac5c759e9709541dea864247a0b96279cc1dad7e3b5c5a5bfa2d339",
+        "text_len": 4172
+      },
+      {
+        "requested_url": "https://grain.com/release-notes",
+        "final_url": "https://grain.com/release-notes",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:31Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "a156df299aadf22c12fdacbb59e19ff2610da3cdc89379dec4cf9d4b80e59ae9",
+        "text_len": 19982
+      },
+      {
+        "requested_url": "https://www.scalekit.com/blog/grain-mcp-vs-api",
+        "final_url": "https://www.scalekit.com/blog/grain-mcp-vs-api",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:31Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "0690dbde63f3884bef8715dfc3960380cc9e00db07f296bd877c323769c18e7f",
+        "text_len": 20000
+      },
+      {
+        "requested_url": "https://docs.ampersand.ai/provider-guides/grain",
+        "final_url": "https://docs.ampersand.ai/provider-guides/grain",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:31Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "6d54e54f70e6af4e2c54fa04fcc71ce13d274e7e27fbcf922ac399bb0aad4255",
+        "text_len": 3600
+      }
+    ]
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "unsupported_or_invalid",
+        "detail": "pass-2 review fired unsupported_evidence",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://grain.com/pricing",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://grain.com/pricing",
+        "title": "Pricing | Grain",
+        "text_len": 6208,
+        "http_status": 200,
+        "screenshot": "screenshots/grain/01-77630b4eb1.jpg",
+        "usable": true,
+        "wall_s": 7.13
+      },
+      {
+        "url": "https://developers.grain.com/authentication.html",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developers.grain.com/authentication.html",
+        "title": "Authentication — Grain Developers",
+        "text_len": 4993,
+        "http_status": 200,
+        "screenshot": "screenshots/grain/02-30d5e8e419.jpg",
+        "usable": true,
+        "wall_s": 2.03
+      },
+      {
+        "url": "https://developers.grain.com/mcp/",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developers.grain.com/mcp/",
+        "title": "Official Grain MCP Server: Quick Start Guide — Grain Developers",
+        "text_len": 792,
+        "http_status": 200,
+        "screenshot": "screenshots/grain/03-692f28a769.jpg",
+        "usable": true,
+        "wall_s": 1.89
+      },
+      {
+        "url": "https://developers.grain.com/",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developers.grain.com/",
+        "title": "Overview — Grain Developers",
+        "text_len": 1479,
+        "http_status": 200,
+        "screenshot": "screenshots/grain/04-ee5f27d895.jpg",
+        "usable": true,
+        "wall_s": 1.87
+      }
+    ],
+    "cloud_sessions": 0
+  }
+}

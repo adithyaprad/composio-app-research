@@ -1,0 +1,381 @@
+{
+  "slug": "mrscraper",
+  "searches": [
+    {
+      "query": "MrScraper API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.mrscraper.com/docs/api/authentication",
+          "title": "Authentication | MrScraper Documentation",
+          "snippet": "Authentication | MrScraper Documentation\n\n# Authentication\n\nLearn how to authenticate requests to the MrScraper API using API tokens and request headers.\n\nThe MrScraper API uses API token authentication to secure all endpoints. Every request must include a valid API token in the HTTP request headers"
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/api/error-handling",
+          "title": "Error Handling | MrScraper Documentation",
+          "snippet": "Error Handling | MrScraper Documentation\n\n# Error Handling\n\nLearn how the MrScraper API reports errors, including common error codes, response formats, and best practices for handling them in your app.\n\n## Overview\n\nThe MrScraper API will return a JSON object containing error details when a request "
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/getting-started/api-token",
+          "title": "Token Plan | MrScraper Documentation",
+          "snippet": "Token Plan | MrScraper Documentation\n\n# Token Plan\n\nLearn how plan tokens and API tokens work in MrScraper, why token usage varies between runs, and how to create your own API token for authentication.\n\nMrScraper uses a token-based system for both usage and authentication.\n\n- Plan Tokens measure how"
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/api/overview",
+          "title": "API Overview | MrScraper Documentation",
+          "snippet": "API Overview | MrScraper Documentation\n\n# API Overview\n\nComprehensive documentation for MrScraper's API endpoints, including authentication, pagination, error handling, and scraper management.\n\n## Introduction\n\nThe MrScraper API provides a powerful and flexible way to programmatically scrape web pag"
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/getting-started/quickstart",
+          "title": "Quickstart | MrScraper Documentation",
+          "snippet": "Quickstart | MrScraper Documentation\n\n# Quickstart\n\nA step-by-step guide to making your first MrScraper API request, scraping a product page with the General AI Agent in just a few minutes.\n\nThis guide shows you how to make your first scraping request with MrScraper.\n\n## Make Your First API Request\n"
+        }
+      ]
+    },
+    {
+      "query": "MrScraper developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.mrscraper.com/docs/api/overview",
+          "title": "API Overview | MrScraper Documentation",
+          "snippet": "API Overview | MrScraper Documentation\n\n# API Overview\n\nComprehensive documentation for MrScraper's API endpoints, including authentication, pagination, error handling, and scraper management.\n\n## Introduction\n\nThe MrScraper API provides a powerful and flexible way to programmatically scrape web pag"
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/api/authentication",
+          "title": "Authentication | MrScraper Documentation",
+          "snippet": "Authentication | MrScraper Documentation\n\n# Authentication\n\nLearn how to authenticate requests to the MrScraper API using API tokens and request headers.\n\nThe MrScraper API uses API token authentication to secure all endpoints. Every request must include a valid API token in the HTTP request headers"
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/guides/programmatically",
+          "title": "Create and Run a Scraper Programmatically | MrScraper Documentation",
+          "snippet": "Create and Run a Scraper Programmatically | MrScraper Documentation\n\n# Create and Run a Scraper Programmatically\n\nLearn how to create an AI scraper once in the dashboard and then run it programmatically through the API. Set up once, automate everywhere.\n\n## Overview\n\nThis guide shows you how to crea"
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/integrations/node",
+          "title": "Node.js SDK | MrScraper Documentation",
+          "snippet": "Node.js SDK | MrScraper Documentation\n\n# Node.js SDK\n\nInstall the official @mrscraper/sdk package to retrieve pages as HTML, Markdown, or screenshots, extract brand details and structured JSON, search the web, and check account status from Node.js.\n\nThe official `@mrscraper/sdk` package is an async "
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/integrations/python",
+          "title": "Python SDK | MrScraper Documentation",
+          "snippet": "Python SDK | MrScraper Documentation\n\n# Python SDK\n\nInstall and use mrscraper-sdk, the async Python client for the MrScraper API, to retrieve pages as HTML, Markdown, or screenshots, extract brand details and structured JSON, search the web, and check account status.\n\nThe mrscraper-sdk is an async P"
+        }
+      ]
+    },
+    {
+      "query": "MrScraper pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://mrscraper.com/pricing",
+          "title": "MrScraper Pricing: Start Free, Pro From $99/Month",
+          "snippet": "MrScraper Pricing: Start Free, Plans From $99/Month\n\n# Scrape Smarter. Scale Faster. \n\nMrScraper turns websites into clean, structured data with AI-powered scraping, APIs, proxies, and automation - without the maintenance headache.\n\n Choose your plan \n\n Compare usage and support at a glance. \n\n## Es"
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/getting-started/billing",
+          "title": "Billing | MrScraper Documentation",
+          "snippet": "Billing | MrScraper Documentation\n\n# Billing\n\nCompare MrScraper subscription plans, understand how token usage and billing cycles work, and choose the right plan for your scraping workload.\n\nMrScraper offers flexible subscription plans designed for different usage levels, from individual developers "
+        },
+        {
+          "url": "https://mrscraper.com/llms.txt",
+          "title": "",
+          "snippet": "# MrScraper\n\n> Web scraping API with built-in proxies, rendered headless browsers, and AI. Extract structured data from any website at scale - fast, reliable, and hassle-free.\n\nMrScraper is a web data platform operated by ScrapeGPT Inc. It pairs a visual no-code dashboard with a developer API, a ful"
+        },
+        {
+          "url": "https://app.mrscraper.com/",
+          "title": "Mrscraper: Login",
+          "snippet": "Login - Mrscraper\n\nEmail\n\nSign in\n\nWaiting for CAPTCHA verification...\n\nSign in with GoogleSign in with Google\n\nDon't have an account? Sign up\n\nv3.7.36\n\nLogin - Mrscraper\nSign in![MrScraper](/images/company-logo-2.webp)\n![](/images/auth/show.webp)\nEmail\nPassword[Forgot password?](/auth/password/send"
+        },
+        {
+          "url": "https://mrscraper.com/",
+          "title": "MrScraper: Web Scraping API for Structured Data",
+          "snippet": "MrScraper: Web Scraping API for Structured Data\n\n# Scrape web data for Data Research, E-Commerce, Competitor Data Research| \n\n Get clean, structured data from any website at any scale. \n\n Please enter a valid URL \n\n## Scrape result\n\n MrScraper is trusted by the world's leading companies. \n\n \n\n AI-po"
+        }
+      ]
+    },
+    {
+      "query": "MrScraper official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+          "title": "MCP Server | MrScraper Documentation",
+          "snippet": "MCP Server | MrScraper Documentation\n\n# MCP Server\n\nOfficial MrScraper MCP server for retrieving web pages, web search, and account usage. Connect AI clients or run the open-source server locally.\n\nMrScraper MCP is the official Model Context Protocol server for MrScraper. It connects AI clients to w"
+        },
+        {
+          "url": "https://github.com/mrscraper-com/mrscraper-mcp",
+          "title": "mrscraper-com/mrscraper-mcp",
+          "snippet": "# mrscraper-com/mrscraper-mcp\n\nOfficial MrScraper MCP server: Scraper API for HTML, Markdown, and screenshots, web search, and account usage for AI agents.\n\n- Stars: 1\n- Forks: 0\n- Watchers: 1\n- Open issues: 2\n- License: MIT License\n- Homepage: https://docs.mrscraper.com/docs/getting-started/mcp-ser"
+        },
+        {
+          "url": "https://mrscraper.com/blog/ai-agent-api-authentication",
+          "title": "Authenticate Web Data Tools for AI Agents Without Exposing Secrets | MrScraper",
+          "snippet": "Authenticate Web Data Tools for AI Agents Without Exposing Secrets | MrScraper\n\n# Authenticate Web Data Tools for AI Agents Without Exposing Secrets \n\n Learn when to use API keys or OAuth for AI agent tools, where credentials should live, how to separate user and service access, and how to audit eve"
+        },
+        {
+          "url": "https://github.com/mrscraper-com/mrscraper-claude-plugin",
+          "title": "mrscraper-com/mrscraper-claude-plugin",
+          "snippet": "# mrscraper-com/mrscraper-claude-plugin\n\nMrScraper MCP skills and marketplace plugin for Claude\n\n- Stars: 0\n- Forks: 0\n- Watchers: 0\n- Open issues: 1\n- License: MIT License\n- Default branch: main\n- Created: 2026-08-24T10:26:45Z\n\n## Top Contributors\n\n- pray-mrscraper (21 contributions)\n- ai-mrscraper"
+        },
+        {
+          "url": "https://glama.ai/mcp/servers/mrscraper-com/mrscraper-mcp/tree",
+          "title": "",
+          "snippet": "## MrScraper MCP Server\n\nby mrscraper-com\n\nREADME.md\n\n```\n# MrScraper MCP Server for Web Scraping and Google Search\n\nMrScraper MCP is the official [MrScraper](https://mrscraper.com) server for the\n[Model Context Protocol](https://modelcontextprotocol.io). It connects AI\nassistants to page content an"
+        }
+      ]
+    },
+    {
+      "query": "site:docs.mrscraper.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+          "title": "MCP Server | MrScraper Documentation",
+          "snippet": "MCP Server | MrScraper Documentation\n\n# MCP Server\n\nOfficial MrScraper MCP server for retrieving web pages, web search, and account usage. Connect AI clients or run the open-source server locally.\n\nMrScraper MCP is the official Model Context Protocol server for MrScraper. It connects AI clients to w"
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/getting-started/overview",
+          "title": "Overview | MrScraper Documentation",
+          "snippet": "Overview | MrScraper Documentation\n\n# Overview\n\nYour all-in-one guide to understanding, configuring, and using the MrScraper platform, from your first scrape to AI agents, integrations, and APIs.\n\nDiscover how our powerful scraping platform can transform the way you extract data. Whether you're scra"
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/integrations/dify",
+          "title": "Dify | MrScraper Documentation",
+          "snippet": "Dify | MrScraper Documentation\n\n# Dify\n\nConnect MrScraper to Dify to fetch web pages, search the web, and check account usage from agents, chatflows, and workflows.\n\nThe MrScraper plugin for Dify adds web retrieval and search to your Dify applications. Use its tools as workflow nodes or let an agent"
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/integrations/vercel-ai-sdk",
+          "title": "Vercel AI SDK | MrScraper Documentation",
+          "snippet": "Vercel AI SDK | MrScraper Documentation\n\n# Vercel AI SDK\n\nGive AI SDK agents MrScraper tools: retrieve public pages as Markdown, HTML, or screenshots, search the web, and check account usage with @mrscraper/ai-sdk.\n\nThe `@mrscraper/ai-sdk` package provides MrScraper tools for the Vercel AI SDK. Pass"
+        },
+        {
+          "url": "https://docs.mrscraper.com/docs/getting-started/cli",
+          "title": "CLI | MrScraper Documentation",
+          "snippet": "CLI | MrScraper Documentation\n\n# CLI\n\nInstall, authenticate, and use the MrScraper CLI to retrieve pages as HTML, Markdown, or screenshots, extract brand details and structured JSON, search the web, and check account status.\n\nThe MrScraper CLI provides terminal access to the seven MrScraper services"
+        }
+      ]
+    },
+    {
+      "query": "site:mrscraper.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+          "title": "MCP Server | MrScraper Documentation",
+          "snippet": "MCP Server | MrScraper Documentation\n\n# MCP Server\n\nOfficial MrScraper MCP server for retrieving web pages, web search, and account usage. Connect AI clients or run the open-source server locally.\n\nMrScraper MCP is the official Model Context Protocol server for MrScraper. It connects AI clients to w"
+        },
+        {
+          "url": "https://mrscraper.com/blog/mcp-server-web-scraping",
+          "title": "Web Scraping MCP Server: Giving AI Agents Direct Access to Live Web Data | MrScraper",
+          "snippet": "Web Scraping MCP Server: Giving AI Agents Direct Access to Live Web Data | MrScraper\n\n# Web Scraping MCP Server: Giving AI Agents Direct Access to Live Web Data \n\n Learn how a Web Scraping MCP Server gives AI agents live web access while reducing token costs by 87% through structured extraction and "
+        },
+        {
+          "url": "https://mrscraper.com/blog/mcp-saas-pricing-plan-comparison",
+          "title": "Use MrScraper MCP to Compare Public SaaS Pricing and Plan Limits | MrScraper",
+          "snippet": "Use MrScraper MCP to Compare Public SaaS Pricing and Plan Limits | MrScraper\n\n# Use MrScraper MCP to Compare Public SaaS Pricing and Plan Limits \n\n Build a source-backed SaaS plan comparison using MrScraper MCP. Preserve prices, quotas, billing terms and unknowns in structured records. \n\n By MrScrap"
+        },
+        {
+          "url": "https://mrscraper.com/integrations",
+          "title": "MrScraper Integrations: Python, Node.js, n8n, Zapier, MCP",
+          "snippet": "MrScraper Integrations: Python, Node.js, n8n, Zapier, MCP\n\n# MrScraper integrations \n\n Scalable integrations for continuous data collection. Use MrScraper from the tools you already work in - native SDKs for Python and Node.js, no-code workflows in n8n and Zapier, and AI agents over MCP, LangChain, "
+        },
+        {
+          "url": "https://mrscraper.com/blog/web-data-agent-frameworks",
+          "title": "Choose an Agent Framework for a Web Data Application | MrScraper",
+          "snippet": "Choose an Agent Framework for a Web Data Application | MrScraper\n\n# Choose an Agent Framework for a Web Data Application \n\n Compare LangGraph, the OpenAI Agents SDK, Google ADK, CrewAI, Mastra and the Claude Agent SDK on tools, state, deployment and tracing for a web data task. \n\n By MrScraper Team "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.mrscraper.com",
+      "final_url": "https://docs.mrscraper.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:59Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "b4a8cca4be50e6796f996b3e5fe0afc11db8bdd222dada6aa4df30689b9dd740",
+      "text_len": 5416
+    },
+    {
+      "requested_url": "https://docs.mrscraper.com/docs/api/authentication",
+      "final_url": "https://docs.mrscraper.com/docs/api/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4eb20ea6bc8411a69fed0778c608f84ee286519d624bcd5dcda946d06d222ce1",
+      "text_len": 2625
+    },
+    {
+      "requested_url": "https://docs.mrscraper.com/docs/getting-started/billing",
+      "final_url": "https://docs.mrscraper.com/docs/getting-started/billing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "de9f611fe4bd1b1e6edbc9d43bf9caeb298e3e9e4de727908c944b70daa05ef6",
+      "text_len": 3079
+    },
+    {
+      "requested_url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+      "final_url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b0402d29cf4eee0e2e275b77635227f4b9d72ec940741d7648c2b4d95566b19c",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://mrscraper.com/blog/mcp-saas-pricing-plan-comparison",
+      "final_url": "https://mrscraper.com/blog/mcp-saas-pricing-plan-comparison",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:53Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c87a64ad4939a257e36b89df8939779720b231230ab551dd32d805d6a0e03dae",
+      "text_len": 15160
+    },
+    {
+      "requested_url": "https://mrscraper.com/blog/mcp-server-web-scraping",
+      "final_url": "https://mrscraper.com/blog/mcp-server-web-scraping",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:53Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1cc94f9d45ef45c8a45f0a727689ea79a803be7abdc035ce6305cd8e29e9382c",
+      "text_len": 6179
+    },
+    {
+      "requested_url": "https://mrscraper.com/pricing",
+      "final_url": "https://mrscraper.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8c2768cd00800f41a4d2dffa68df76f1ec8f187654dce780da50ab3045adde9f",
+      "text_len": 5729
+    },
+    {
+      "requested_url": "https://docs.mrscraper.com/docs/api/error-handling",
+      "final_url": "https://docs.mrscraper.com/docs/api/error-handling",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5a29a53f1dfe95b1cf459f8c9bc7d88c67df1ee0c36d9dc91fdafdd9d72c7adf",
+      "text_len": 3942
+    },
+    {
+      "requested_url": "https://mrscraper.com/blog/ai-agent-api-authentication",
+      "final_url": "https://mrscraper.com/blog/ai-agent-api-authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2a7af2cb7887ae50247e8738ec9e828f628d4c47e1db95ffc26485f66eb145ba",
+      "text_len": 12476
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.mrscraper.com/docs/api/authentication",
+        "quote": "Include your API token in the `x-api-token` HTTP header on every request",
+        "verified": true
+      },
+      {
+        "url": "https://docs.mrscraper.com/docs/api/authentication",
+        "quote": "Click New Token.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.mrscraper.com/docs/getting-started/billing",
+        "quote": "The Free plan includes 100 tokens per month with no credit card required.",
+        "verified": true
+      },
+      {
+        "url": "https://mrscraper.com/pricing",
+        "quote": "Free costs nothing - no credit card required.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.mrscraper.com",
+        "quote": "Explore every endpoint, authentication, pagination, and error handling.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.mrscraper.com/docs/api/error-handling",
+        "quote": "The MrScraper API will return a JSON object containing error details when a request fails.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+        "quote": "MrScraper MCP is the official Model Context Protocol server for MrScraper.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+        "quote": "\"url\": \"https://mcp.mrscraper.com/mcp\"",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.mrscraper.com/docs/api/authentication",
+        "quote": "The MrScraper API uses API token authentication to secure all endpoints.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://mrscraper.com/pricing",
+        "quote": "MrScraper turns websites into clean, structured data with AI-powered scraping, APIs, proxies, and automation",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

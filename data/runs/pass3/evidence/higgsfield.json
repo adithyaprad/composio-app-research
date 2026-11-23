@@ -1,0 +1,500 @@
+{
+  "slug": "higgsfield",
+  "searches": [
+    {
+      "query": "higgsfield API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.higgsfield.ai/docs/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.higgsfield.ai/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Authenticate server-side API requests with your Higgsfield key and secret.\n\nCreate and mana"
+        },
+        {
+          "url": "https://docs.higgsfield.ai/docs/quickstart",
+          "title": "Quickstart",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.higgsfield.ai/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Submit a generation request and retrieve its result.\n\nThis guide uses the REST API so you can s"
+        },
+        {
+          "url": "https://docs.higgsfield.ai/docs/help/faq",
+          "title": "FAQ",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.higgsfield.ai/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# FAQ\n\n> Answers about Higgsfield API authentication, asynchronous requests, model selection, billing, limits, "
+        },
+        {
+          "url": "https://docs.higgsfield.ai/docs/how-to/sdk",
+          "title": "Client libraries",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.higgsfield.ai/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Client libraries\n\n> Use the official Python and TypeScript SDKs.\n\nOfficial SDKs handle authentication, submis"
+        },
+        {
+          "url": "https://github.com/higgsfield-ai/higgsfield-client",
+          "title": "higgsfield-ai/higgsfield-client",
+          "snippet": "# higgsfield-ai/higgsfield-client\n\nPython SDK for Higgsfield API\n\n- Stars: 142\n- Forks: 62\n- Watchers: 142\n- Open issues: 6\n- License: Apache License 2.0\n- Default branch: main\n- Created: 2025-11-17T14:51:29Z\n\n## Languages\n\n- Python\n\n## Top Contributors\n\n- Tihmmm (3 contributions)\n- RustemHiggsfield"
+        }
+      ]
+    },
+    {
+      "query": "higgsfield developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.higgsfield.ai/docs/quickstart",
+          "title": "Quickstart",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.higgsfield.ai/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Submit a generation request and retrieve its result.\n\nThis guide uses the REST API so you can s"
+        },
+        {
+          "url": "https://docs.higgsfield.ai/docs/how-to/introduction",
+          "title": "How the API works",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.higgsfield.ai/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# How the API works\n\n> Learn the common authentication and asynchronous request lifecycle shared by Higgsfield "
+        },
+        {
+          "url": "https://docs.higgsfield.ai/docs/how-to/sdk",
+          "title": "Client libraries",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.higgsfield.ai/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Client libraries\n\n> Use the official Python and TypeScript SDKs.\n\nOfficial SDKs handle authentication, submis"
+        },
+        {
+          "url": "https://higgsfield.ai/creator-hub/help-center/integrations/what-is-the-higgsfield-api",
+          "title": "What Is the Higgsfield API and How Do I Get Started",
+          "snippet": "Back\n\nThe Higgsfield API lets you generate video and images from your own code: one API key opens every model in the API catalog, and each request is paid in US dollars from a prepaid balance. No plan or subscription is involved: fund the balance, send requests at the rates listed in the catalog, an"
+        },
+        {
+          "url": "https://docs.higgsfield.ai/docs",
+          "title": "Higgsfield API",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.higgsfield.ai/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Higgsfield API\n\n> Generate images and videos through one authenticated, asynchronous API.\n\nHiggsfield provide"
+        }
+      ]
+    },
+    {
+      "query": "higgsfield pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work",
+          "title": "How Do Higgsfield Plans Work?",
+          "snippet": "Back\n\nHiggsfield offers two types of plans: individual and business (Team, Scale, and Enterprise). All available plans and their current prices are on the Pricing page. Individual plans are for solo creators and freelancers, business plans are for teams that need a shared workspace and pooled credit"
+        },
+        {
+          "url": "https://higgsfield.ai/creator-hub/help-center/plans/what-does-the-free-plan-include",
+          "title": "Is Higgsfield Free? What the Free Plan Includes",
+          "snippet": "Back\n\nHiggsfield has a free plan, and every new account starts on it at no cost. It opens a limited set of models and runs one generation at a time. It doesn't include monthly credits or Unlimited models, and its generations can carry a visible Higgsfield watermark. A paid plan opens more models and"
+        },
+        {
+          "url": "https://higgsfield.ai/creator-hub/help-center/getting-started/create-an-account-and-sign-in",
+          "title": "Create a Higgsfield account and sign in",
+          "snippet": "Back\n\nTo create a Higgsfield account, go to higgsfield.ai, select Sign up, and continue with Google, Apple, Microsoft, or email. To sign in later, use the same method you signed up with. If you forgot an email password, reset it from the sign-in page.\n\n## Create an account\n\nHiggsfield is available t"
+        },
+        {
+          "url": "https://higgsfield.ai/pricing.md",
+          "title": "Higgsfield pricing",
+          "snippet": "# Higgsfield pricing\n\nPlans and prices for higgsfield.ai in US dollars, as offered to customers in the United States. Prices in other regions can differ; the price that applies to a customer is the one shown at https://higgsfield.ai/pricing.\n\n## Individual plans\n\n| Plan | Credits per month | Monthly"
+        },
+        {
+          "url": "https://higgsfield.ai/blog/higgsfield-all-unlimited-explained",
+          "title": "Higgsfield All Unlimited: What You Get and How It Works?",
+          "snippet": "Back\n\nHiggsfield All Unlimited is a limited-time offer that unlocks 23 top image, video, and audio models in one purchase, with no generation counter and no credits deducted. Access runs at 1 concurrent generation per format, shared across all models, works in the web app only, and lasts 1 to 7 days"
+        }
+      ]
+    },
+    {
+      "query": "higgsfield official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://higgsfield.ai/mcp",
+          "title": "Generate Images & Videos",
+          "snippet": "ChatGPT ClaudeClaude CodeTelegramCLIOther\n\nHow to connect?\n\nConnect to ClaudeConnect to ChatGPT\n\n# Generate Images & Videos\n\nin Claude with Higgsfield\n\nAdd Higgsfield to Claude How to connect?\n\nGPUNew GenjutsuNew Short DramaNew Generate video Generate image\n\n### Cloud computer with GPU\n\n@Higgsfield "
+        },
+        {
+          "url": "https://higgsfield.ai/creator-hub/help-center/integrations/what-is-higgsfield-mcp",
+          "title": "What Is Higgsfield MCP and How It Differs",
+          "snippet": "Back\n\nHiggsfield MCP connects Higgsfield to AI agents. Connect once and generate images, videos, characters, and audio from Claude or any MCP-compatible agent, without leaving your agent. The main difference from generating on the web: MCP always uses credits. Unlimited access and free generations a"
+        },
+        {
+          "url": "https://higgsfield.ai/creator-hub/help-center/getting-started/official-higgsfield-platforms",
+          "title": "What are the official Higgsfield platforms?",
+          "snippet": "Back\n\nThe only official Higgsfield platform is the Higgsfield website (higgsfield.ai). The official surfaces also include Open Higgsfield, the Higgsfield API console at open.higgsfield.ai, the API documentation at docs.higgsfield.ai, the official Higgsfield MCP, the official Discord server, and Higg"
+        },
+        {
+          "url": "https://higgsfield.ai/enterprise-help-center/platform/integrations",
+          "title": "MCP, CLI & Plugins — Enterprise Help Center",
+          "snippet": "Generate from Claude, coding agents, Figma and Adobe apps with your workspace credits. No API key needed.\n\n## Connect Higgsfield MCP\n\n### Connect from Claude\n\n1. In Claude (web or desktop), open Settings → Connectors → Add custom connector.\n2. Paste https://mcp.higgsfield.ai/mcp and click Connect.\n3"
+        },
+        {
+          "url": "https://higgsfield.ai/skills",
+          "title": "Higgsfield Skills | AI Image & Video Generation for Any Agent",
+          "snippet": "MCP CLI\n\n1\n\n### Add the skills\n\nOne command pulls all three skills — generate, soul,\nand product-photoshoot — into your agent.\n\n`npx skills add higgsfield-ai/skills`\n\n2\n\n### Sign in\n\nConnects your account so the skills can submit jobs through the hf CLI.\n\n`higgsfield auth login`\n\n3\n\n### Plug skills "
+        }
+      ]
+    },
+    {
+      "query": "site:higgsfield.ai MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://higgsfield.ai/mcp",
+          "title": "Generate Images & Videos",
+          "snippet": "ChatGPT ClaudeClaude CodeTelegramCLIOther\n\nHow to connect?\n\nConnect to ClaudeConnect to ChatGPT\n\n# Generate Images & Videos\n\nin Claude with Higgsfield\n\nAdd Higgsfield to Claude How to connect?\n\nGPUNew GenjutsuNew Short DramaNew Generate video Generate image\n\n### Cloud computer with GPU\n\n@Higgsfield "
+        },
+        {
+          "url": "https://higgsfield.ai/creator-hub/help-center/integrations/what-is-higgsfield-mcp",
+          "title": "What Is Higgsfield MCP and How It Differs",
+          "snippet": "Back\n\nHiggsfield MCP connects Higgsfield to AI agents. Connect once and generate images, videos, characters, and audio from Claude or any MCP-compatible agent, without leaving your agent. The main difference from generating on the web: MCP always uses credits. Unlimited access and free generations a"
+        },
+        {
+          "url": "https://higgsfield.ai/enterprise-help-center/platform/integrations",
+          "title": "MCP, CLI & Plugins — Enterprise Help Center",
+          "snippet": "Generate from Claude, coding agents, Figma and Adobe apps with your workspace credits. No API key needed.\n\n## Connect Higgsfield MCP\n\n### Connect from Claude\n\n1. In Claude (web or desktop), open Settings → Connectors → Add custom connector.\n2. Paste https://mcp.higgsfield.ai/mcp and click Connect.\n3"
+        },
+        {
+          "url": "https://higgsfield.ai/blog/mcp-for-marketers",
+          "title": "MCP for Marketers: Creatives Without Leaving the Chat",
+          "snippet": "Back\n\nMarketers can generate ad creatives directly from a Claude or ChatGPT chat through Higgsfield MCP. The connection gives the agent access to Higgsfield's image and video models, plus ready-made skills for UGC videos, faceless content, localization, and landing pages. You describe the result, th"
+        },
+        {
+          "url": "https://higgsfield.ai/cli",
+          "title": "Higgsfield CLI | AI Image & Video Generation for Any Agent",
+          "snippet": "Claude Code ChatGPT OpenClaw Hermes\n\nMCP CLI\n\n1\n\n### Copy and send this to Claude Code\n\n` Set up Higgsfield for me so I can generate images and videos from here. 1. Install the CLI: run `npm i -g @higgsfield/cli`. 2. Authenticate: run `higgsfield auth login` and complete the sign-in in the browser i"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://higgsfield.ai/cli",
+      "final_url": "https://higgsfield.ai/cli",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:38Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4c0e337616d34202cd0bc8fe822fdac241425f2e28fcd93eeea4cfb8e53c49de",
+      "text_len": 9965
+    },
+    {
+      "requested_url": "https://docs.higgsfield.ai/docs/authentication",
+      "final_url": "https://docs.higgsfield.ai/docs/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "90f28d10ef84fbe08bdea4c4055bf4973851ea5cf1b5a35ffaf4f0059ac1f4df",
+      "text_len": 1886
+    },
+    {
+      "requested_url": "https://docs.higgsfield.ai/docs",
+      "final_url": "https://docs.higgsfield.ai/docs",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:36Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1bc5111caa5d2f988578bf4d4d82ac168517b11f2bec0940b90122d60ace0fcc",
+      "text_len": 2688
+    },
+    {
+      "requested_url": "https://higgsfield.ai/pricing.md",
+      "final_url": "https://higgsfield.ai/pricing.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:36Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "dc91a3fb38f84d6c9642ffe52b61a69129a4042ac82b3905c214470e36a1b532",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://higgsfield.ai/creator-hub/help-center/integrations/what-is-higgsfield-mcp",
+      "final_url": "https://higgsfield.ai/creator-hub/help-center/integrations/what-is-higgsfield-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:37Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1693332c894d73d2903da6bd0e9535c7510ba90d9be0293f6f82c52bfac92cc2",
+      "text_len": 8626
+    },
+    {
+      "requested_url": "https://higgsfield.ai/blog/mcp-for-marketers",
+      "final_url": "https://higgsfield.ai/blog/mcp-for-marketers",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:38Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8f775b760af0daf40e86f5c080e71590988678f837088f89c1b7f05f1747f443",
+      "text_len": 16967
+    },
+    {
+      "requested_url": "https://higgsfield.ai/mcp",
+      "final_url": "https://higgsfield.ai/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:37Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8005b57502933e7195d6d3bfdfc8acdde8b0e7a97436ee62edb648153e102901",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work",
+      "final_url": "https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:36Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5c060fd971f36929a09d51ee3fd8c3c4305089b7c7f5062605608e56c58d2f35",
+      "text_len": 9469
+    },
+    {
+      "requested_url": "https://higgsfield.ai/pricing.md",
+      "final_url": "https://higgsfield.ai/pricing.md",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:28:31Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "a5115b4d2265a4b4d3170a057368a6f2dc24e2ad1a1f18b1834a7378f4c682d8",
+      "text_len": 8319
+    },
+    {
+      "requested_url": "https://docs.higgsfield.ai/docs/authentication",
+      "final_url": "https://docs.higgsfield.ai/docs/authentication",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:28:37Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "2306de7debcb512e38f15d8bbd2811859bc02d9a7e54ae768db746f39f0fa0b6",
+      "text_len": 2403
+    },
+    {
+      "requested_url": "https://docs.higgsfield.ai/docs",
+      "final_url": "https://docs.higgsfield.ai/docs",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:28:55Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "ab376ce60ce8fbc4b32ca212713bcb47591577f3dbf888bf3d6b55d2e1c8b725",
+      "text_len": 2836
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.higgsfield.ai/docs/authentication",
+        "quote": "Authorization: Key YOUR_KEY_ID:YOUR_KEY_SECRET",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/higgsfield/02-95f5a77cb3.jpg"
+      },
+      {
+        "url": "https://docs.higgsfield.ai/docs/authentication",
+        "quote": "Create and manage API credentials in Higgsfield Console. Each credential consists of a key ID and a secret.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/higgsfield/02-95f5a77cb3.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.higgsfield.ai/docs",
+        "quote": "Create and manage server-side credentials in Higgsfield Console.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/higgsfield/04-671af07ffc.jpg"
+      },
+      {
+        "url": "https://higgsfield.ai/pricing.md",
+        "quote": "Enterprise: custom pricing, tailored to the organization. Contact sales at https://higgsfield.ai/enterprise.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/higgsfield/01-449f62accb.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.higgsfield.ai/docs",
+        "quote": "Submit a request to a model endpoint, then poll for the result or receive a webhook when processing finishes.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://higgsfield.ai/pricing.md",
+        "quote": "Unlimited access and free generations are not available in MCP/CLI, Canvas, or Supercomputer.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/higgsfield/01-449f62accb.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.higgsfield.ai/docs",
+        "quote": "Generate images and videos through one authenticated, asynchronous API.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/higgsfield/04-671af07ffc.jpg"
+      },
+      {
+        "url": "https://docs.higgsfield.ai/docs/authentication",
+        "quote": "Authenticate server-side API requests with your Higgsfield key and secret.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/higgsfield/02-95f5a77cb3.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://higgsfield.ai/creator-hub/help-center/integrations/what-is-higgsfield-mcp",
+        "quote": "Connect once and generate images, videos, characters, and audio from Claude or any MCP-compatible agent",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [
+      {
+        "field": "mcp_url",
+        "url": "https://mcp.higgsfield.ai/mcp"
+      }
+    ],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "confidence_not_high",
+        "detail": "confidence is medium",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      },
+      {
+        "reason": "unresolved_deciding_fact",
+        "detail": "sales_checkout: 'contact sales'",
+        "claims": [
+          "access",
+          "verdict"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://higgsfield.ai/pricing.md",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://higgsfield.ai/pricing.md",
+        "title": "",
+        "text_len": 8315,
+        "http_status": 200,
+        "screenshot": "screenshots/higgsfield/01-449f62accb.jpg",
+        "usable": true,
+        "wall_s": 2.8
+      },
+      {
+        "url": "https://docs.higgsfield.ai/docs/authentication",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://docs.higgsfield.ai/docs/authentication",
+        "title": "Authentication - Higgsfield API Docs",
+        "text_len": 2403,
+        "http_status": 200,
+        "screenshot": "screenshots/higgsfield/02-95f5a77cb3.jpg",
+        "usable": true,
+        "wall_s": 5.94
+      },
+      {
+        "url": "https://mcp.higgsfield.ai/mcp",
+        "browser": "local",
+        "why_cloud": "blocked",
+        "local_problem": "blocked",
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": "blocked",
+        "cloud_error": null,
+        "final_url": "https://mcp.higgsfield.ai/mcp",
+        "title": "",
+        "text_len": 24,
+        "http_status": 401,
+        "screenshot": "screenshots/higgsfield/03-bc88d11469.jpg",
+        "usable": false,
+        "wall_s": 15.3
+      },
+      {
+        "url": "https://docs.higgsfield.ai/docs",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://docs.higgsfield.ai/docs",
+        "title": "Higgsfield API - Higgsfield API Docs",
+        "text_len": 2836,
+        "http_status": 200,
+        "screenshot": "screenshots/higgsfield/04-671af07ffc.jpg",
+        "usable": true,
+        "wall_s": 2.68
+      }
+    ],
+    "cloud_sessions": 1
+  }
+}
