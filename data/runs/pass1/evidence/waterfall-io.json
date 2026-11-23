@@ -1,0 +1,344 @@
+{
+  "slug": "waterfall-io",
+  "searches": [
+    {
+      "query": "Waterfall.io API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.waterfall.io/v1/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Get access to the Waterfall API, send your API key in the x-api-key header, and manage keys for s"
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/introduction",
+          "title": "Waterfall API introduction",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Waterfall API introduction\n\n> Explore Waterfall's APIs and compare their inputs, results, and use cases to choose t"
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/quickstart",
+          "title": "Enrich your first contact",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Enrich your first contact\n\n> Make your first Waterfall API request: submit an email address, save the job ID, and r"
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/errors",
+          "title": "Errors",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Errors\n\n> Resolve Waterfall API validation, authentication, quota, rate-limit, and job errors using HTTP status and"
+        },
+        {
+          "url": "https://github.com/Waterfall-io/api-skills/blob/master/skills/waterfall-direct-api/SKILL.md",
+          "title": "skills/waterfall-direct-api/SKILL.md",
+          "snippet": "# skills/waterfall-direct-api/SKILL.md\n\n- Branch: master\n- Repository: Waterfall-io/api-skills\n\n---\n\n---\nname: waterfall-direct-api\ndescription: Call the Waterfall API (prospecting, contact/company/phone enrichment, search, job-change detection, company reveal, email verification, account usage, API"
+        }
+      ]
+    },
+    {
+      "query": "Waterfall.io developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.waterfall.io/v1/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Get access to the Waterfall API, send your API key in the x-api-key header, and manage keys for s"
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/book-demo",
+          "title": "Get API access",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Get API access\n\n> Request an API key or book a call. Our team reviews every access request and helps you plan your "
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/introduction",
+          "title": "Waterfall API introduction",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Waterfall API introduction\n\n> Explore Waterfall's APIs and compare their inputs, results, and use cases to choose t"
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/openapi-spec",
+          "title": "Open API Specification",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Open API Specification\n\n> Download the Waterfall API OpenAPI specification.\n\nThe full OpenAPI 3.1 specification for"
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/api-keys-create",
+          "title": "API Keys - Create",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Keys - Create\n\n> Create a sub-key to track and manage API usage for a team, environment, or integration.\n\nCreat"
+        }
+      ]
+    },
+    {
+      "query": "Waterfall.io pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.waterfall.io/pricing",
+          "title": "Pricing | How Waterfall.io pricing works",
+          "snippet": "Pricing | How Waterfall.io pricing works\n\n# Pay for answers, not for lookups\n\nOutcome-based across every endpoint: a credit is deducted when we return a verified result, never once per vendor we queried to find it\n\n## Three rules that decide what you pay\n\nA miss costs nothing\n\nBilling\n\nWe are charge"
+        },
+        {
+          "url": "https://www.waterfall.io/book-a-call",
+          "title": "Book a demo | Waterfall",
+          "snippet": "Book a demo | Waterfall\n\n# From first call to live integration in 1 day\n\n- 1\n\nBook a call - today\n- 2\n\nTalk to our team - today or tomorrow\n- 3\n\nRun data quality / coverage tests - same day\n\nvia CSV, S3 or API\n- 4\n\nSign, integrate and go-live - as early as tomorrow\n\n## Chat with our founders now\n\nIf"
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/faq",
+          "title": "Waterfall API FAQ",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Waterfall API FAQ\n\n> What Waterfall does, who it serves, which API to choose, and how to evaluate, price, and use c"
+        },
+        {
+          "url": "https://techyorker.com/products/waterfall/pricing/",
+          "title": "Waterfall Pricing in 2026: Plans, Costs and Free Plan Limits | TechYorker",
+          "snippet": "Waterfall Pricing in 2026: Plans, Costs and Free Plan Limits | TechYorker\n\n# Waterfall Pricing in 2026\n\n waterfall.io\n\nReal-time lead and data enrichment software for teams finding current contact and company details.\n\nWorth a look TechYorker’s verdict\n\nWaterfall suits sales and data teams that need"
+        },
+        {
+          "url": "https://www.waterfall.io/",
+          "title": "Waterfall.io | One B2B data solution to connect them all",
+          "snippet": "Waterfall.io | One B2B data solution to connect them all\n\nWaterfall Enrichment api, powered by 30+ data vendors\n\n# One GTM API to Track job changes\n\nSearch for prospects\n\nFind verified emails\n\nFind mobile numbers\n\nTrack job changes\n\nVerify emails\n\nWaterfall® aggregates 30+ different data vendors so "
+        }
+      ]
+    },
+    {
+      "query": "Waterfall.io official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.waterfall.io/",
+          "title": "Waterfall.io | One B2B data solution to connect them all",
+          "snippet": "Waterfall.io | One B2B data solution to connect them all\n\nWaterfall Enrichment api, powered by 30+ data vendors\n\n# One GTM API to Track job changes\n\nSearch for prospects\n\nFind verified emails\n\nFind mobile numbers\n\nTrack job changes\n\nVerify emails\n\nWaterfall® aggregates 30+ different data vendors so "
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/overview",
+          "title": "One GTM API for contacts and companies",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# One GTM API for contacts and companies\n\n> Find prospects, enrich contact and company profiles, find emails and mobi"
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/about-waterfall",
+          "title": "About Waterfall",
+          "snippet": "About Waterfall - Waterfall.io API Documentation\n\n# About Waterfall\n\nB2B contact and company data from 30+ providers, through one API.\n\nGrowth and revenue teams, developers, and AI agents use Waterfall to find people at target accounts, enrich contact and company records, find emails and phone numbe"
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Get access to the Waterfall API, send your API key in the x-api-key header, and manage keys for s"
+        },
+        {
+          "url": "https://www.waterfall.io/product/contact-enrich",
+          "title": "Contact enrich | Verified emails & profiles, instantly",
+          "snippet": "Contact enrich | Verified emails & profiles, instantly\n\n# Verified emails & profiles, instantly\n\nFind real-time verified emails or match emails to complete business profiles\n\nInput type\n\n```curl\ncurl --request POST \\\n  --url https://api.waterfall.io/v1/enrichment/contact \\\n  --header 'Content-Type: "
+        }
+      ]
+    },
+    {
+      "query": "site:waterfall.io MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.waterfall.io/",
+          "title": "Waterfall.io | One B2B data solution to connect them all",
+          "snippet": "Waterfall.io | One B2B data solution to connect them all\n\nWaterfall Enrichment api, powered by 30+ data vendors\n\n# One GTM API to Track job changes\n\nSearch for prospects\n\nFind verified emails\n\nFind mobile numbers\n\nTrack job changes\n\nVerify emails\n\nWaterfall® aggregates 30+ different data vendors so "
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/overview",
+          "title": "One GTM API for contacts and companies",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.waterfall.io/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# One GTM API for contacts and companies\n\n> Find prospects, enrich contact and company profiles, find emails and mobi"
+        },
+        {
+          "url": "https://docs.waterfall.io/v1/about-waterfall",
+          "title": "About Waterfall",
+          "snippet": "About Waterfall - Waterfall.io API Documentation\n\n# About Waterfall\n\nB2B contact and company data from 30+ providers, through one API.\n\nGrowth and revenue teams, developers, and AI agents use Waterfall to find people at target accounts, enrich contact and company records, find emails and phone numbe"
+        },
+        {
+          "url": "https://www.waterfall.io/product/prospector",
+          "title": "Prospector | Find contacts at your target accounts",
+          "snippet": "Prospector | Find contacts at your target accounts\n\n# Find contacts at your target accounts\n\nFull profiles, verified emails & numbers, and social handles\n\nDomain, Seniority & Departments\n\nYou Input\n\n```curl\ncurl --request POST \\\n  --url https://api.waterfall.io/v1/prospector \\\n  --header 'Content-Ty"
+        },
+        {
+          "url": "https://www.waterfall.io/product/contact-enrich",
+          "title": "Contact enrich | Verified emails & profiles, instantly",
+          "snippet": "Contact enrich | Verified emails & profiles, instantly\n\n# Verified emails & profiles, instantly\n\nFind real-time verified emails or match emails to complete business profiles\n\nInput type\n\n```curl\ncurl --request POST \\\n  --url https://api.waterfall.io/v1/enrichment/contact \\\n  --header 'Content-Type: "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://waterfall.io",
+      "final_url": "https://www.waterfall.io/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:38Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3a893e83613fd01ce34e811dbed6d705016bb5595622ad92a5d9f3f7f5220e69",
+      "text_len": 7842
+    },
+    {
+      "requested_url": "https://docs.waterfall.io/v1/authentication",
+      "final_url": "https://docs.waterfall.io/v1/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5478e478f8a16c856b5952cc3ee1998a3798c4a4613656d7e22554da0ff9b326",
+      "text_len": 1364
+    },
+    {
+      "requested_url": "https://docs.waterfall.io/v1/api-keys-create",
+      "final_url": "https://docs.waterfall.io/v1/api-keys-create",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "14ae5a37a2c865a752cb61efcd3ef1be7a3c4be8aea5b3444a18a97a6376a231",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://www.waterfall.io/pricing",
+      "final_url": "https://www.waterfall.io/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:38Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b20a043ae033b3bd43f388846f778d3f1a046c5fb8c43ab18ff8249da14aa7cb",
+      "text_len": 5248
+    },
+    {
+      "requested_url": "https://docs.waterfall.io/v1/about-waterfall",
+      "final_url": "https://docs.waterfall.io/v1/about-waterfall",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:40Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "92c6a90d7b4c18fb4fb4cb9d4db9b0d2ee37050f4ba0fc86024d9eba22f14052",
+      "text_len": 4430
+    },
+    {
+      "requested_url": "https://docs.waterfall.io/v1/openapi-spec",
+      "final_url": "https://docs.waterfall.io/v1/openapi-spec",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "49fd98abd29f23e52c302a154d0b94592c57af3b74058bf3064b9226d1761819",
+      "text_len": 573
+    },
+    {
+      "requested_url": "https://docs.waterfall.io/v1/book-demo",
+      "final_url": "https://docs.waterfall.io/v1/book-demo",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e2b6545686d6904a6cac947b996d5e66647e542a4d11784cf1890d2b39ff973b",
+      "text_len": 1521
+    },
+    {
+      "requested_url": "https://docs.waterfall.io/v1/errors",
+      "final_url": "https://docs.waterfall.io/v1/errors",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "24710d6b20383fce1396ab70333128967f24890e2621d06e749e6254857778d2",
+      "text_len": 2704
+    },
+    {
+      "requested_url": "https://docs.waterfall.io/llms.txt",
+      "final_url": "https://docs.waterfall.io/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:42Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "9cd9181bca17d94602b57d25ecb2ffac2de4d95fb7df253b15b6108ce4a00561",
+      "text_len": 9928
+    },
+    {
+      "requested_url": "https://waterfall.io/llms.txt",
+      "final_url": "https://waterfall.io/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:50Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "662881e62e193065dc2f940b0bc826f82ad81888be1c9fbd830478fb7085d1df",
+      "text_len": 4617
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.waterfall.io/v1/authentication",
+        "quote": "Authenticate data and account API requests with your Waterfall API key in the `x-api-key` header.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.waterfall.io/v1/book-demo",
+        "quote": "API access is available by approval.",
+        "verified": true
+      },
+      {
+        "url": "https://www.waterfall.io/pricing",
+        "quote": "Commitments and minimums are set at contract and depend on volume and term",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.waterfall.io/v1/about-waterfall",
+        "quote": "Connect through the REST API; asynchronous enrichment results can arrive by webhook or be retrieved by polling.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.waterfall.io/llms.txt",
+        "quote": "Waterfall.io API Documentation",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.waterfall.io/v1/book-demo",
+        "quote": "A member of our team reviews every access request.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://docs.waterfall.io/v1/about-waterfall",
+        "quote": "B2B contact and company data from 30+ providers, through one API.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [
+      {
+        "field": "docs_url",
+        "url": "https://docs.waterfall.io/v1/introduction"
+      }
+    ],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

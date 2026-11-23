@@ -1,0 +1,340 @@
+{
+  "slug": "bright-data",
+  "searches": [
+    {
+      "query": "Bright Data API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.brightdata.com/api-reference/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Authenticate with Bright Data using 1 of 2 methods: API Access with an API key or Native Access"
+        },
+        {
+          "url": "https://docs.brightdata.com/quickstart",
+          "title": "Bright Data quickstart",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Bright Data quickstart\n\n> Scrape your first page with the Bright Data Scraper API in three steps, then build a cu"
+        },
+        {
+          "url": "https://docs.brightdata.com/api-reference/proxy/proxy_api_auth",
+          "title": "Proxy API authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Proxy API authentication\n\n> Authenticate Bright Data proxy network requests using username and password credentia"
+        },
+        {
+          "url": "https://docs.brightdata.com/products/serp-api/send-your-first-request",
+          "title": "Send your first SERP API request",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Send your first SERP API request\n\n> Step-by-step guide to sending your first SERP API request, with copy-paste cu"
+        },
+        {
+          "url": "https://docs.brightdata.com/products/web-unlocker/send-your-first-request",
+          "title": "Send your first Web Unlocker API request - Bright Data Docs",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Send your first Web Unlocker API request\n\n> Send your first request using Bright Data Web Unlocker API (98% succe"
+        }
+      ]
+    },
+    {
+      "query": "Bright Data developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.brightdata.com/api-reference/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Authenticate with Bright Data using 1 of 2 methods: API Access with an API key or Native Access"
+        },
+        {
+          "url": "https://docs.brightdata.com/quickstart",
+          "title": "Bright Data quickstart",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Bright Data quickstart\n\n> Scrape your first page with the Bright Data Scraper API in three steps, then build a cu"
+        },
+        {
+          "url": "https://docs.brightdata.com/introduction",
+          "title": "Bright Data documentation",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Bright Data documentation\n\n> Guides, quickstarts and API references for Bright Data Scraper API, Scraper Studio, "
+        },
+        {
+          "url": "https://docs.brightdata.com/api-reference/SDK",
+          "title": "Python SDK",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Python SDK\n\n> Install the Bright Data Python SDK (thousands of scrapers) to scrape URLs, search the web, run plat"
+        },
+        {
+          "url": "https://docs.brightdata.com/api-reference/rest-api/serp/serp-api",
+          "title": "SERP API",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# SERP API\n\n> Use the Bright Data SERP API to extract structured results from Google, Bing, Yandex and DuckDuckGo w"
+        }
+      ]
+    },
+    {
+      "query": "Bright Data pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://brightdata.com/pricing",
+          "title": "Bright Data's Products Pricing",
+          "snippet": "Accessibility Menu skip to content\n\n# Bright Data's Products Pricing\n\nDesigned to meet enterprise companies' unique needs and challenges\n\n## Proxy Networks Pricing\n\nElevate your business with our top-tier proxy services.\n\n- Largest Geographic Coverage\n- Battle-Tested Stability & Speeds\n- 400M+ month"
+        },
+        {
+          "url": "https://docs.brightdata.com/general/account/billing-and-pricing/faqs",
+          "title": "Billing and pricing FAQs",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Billing and pricing FAQs\n\n> FAQs about billing for Bright Data accounts, including credentials, cost structure an"
+        },
+        {
+          "url": "https://brightdata.com/pricing/proxy-network",
+          "title": "Buy Proxies - Free Trial on All Proxy Types",
+          "snippet": "Accessibility Menu skip to content\n\n# Proxy Networks Pricing\n\n## 400M+ proxy IPs in 195 countries. Country, state, city and zip code geo-targeting free!\n\nResidential proxiesISP proxiesDatacenter proxies\n\nSign-up now and we’ll match your first deposit dollar for dollar, up to $500!\n\nStart now\n\n50% OF"
+        },
+        {
+          "url": "https://docs.brightdata.com/general/account/billing-and-pricing/free-tier",
+          "title": "Free tier",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Free tier\n\n> Get 5,000 free credits per month, no credit card, across Web Unlocker API, SERP API, Web Scraper API"
+        },
+        {
+          "url": "https://brightdata.com/pricing/web-scraper",
+          "title": "Web Scraper API Pricing Plans",
+          "snippet": "Accessibility Menu skip to content\n\n## Web Scraper API Pricing\n\n## Only pay for what’s successfully delivered. No hidden fees, no charges for failed deliveries.\n\nGet 60% off on Scraper API for 3 months. Use code API60 at checkout.\n\nStart now\n\nCALCULATE YOUR COST\n\nRecords per month: 5K\n\n$/mo\n\n$ per 1"
+        }
+      ]
+    },
+    {
+      "query": "Bright Data official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://brightdata.com/ai/mcp-server",
+          "title": "The Bright Data MCP Server - Start with a Free Plan",
+          "snippet": "Accessibility Menu skip to content\n\nNEW! Start with Bright Data's Web MCP and get 5,000 free monthly requests\n\nStart free\n\n# The Bright Data MCP:\n\nConnect your AI to the internet\n\nBright Data’s Bright Data MCP solves web access for LLMs and AI agents, allowing them to effectively search, extract and"
+        },
+        {
+          "url": "https://docs.brightdata.com/products/mcp-server/overview",
+          "title": "MCP server overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP server overview\n\n> Use the Bright Data MCP server to give AI agents real-time access to public web data with "
+        },
+        {
+          "url": "https://docs.brightdata.com/products/mcp-server/remote/quickstart",
+          "title": "How to get started with remote MCP server",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# How to get started with remote MCP server\n\n> Connect AI agents to the fully managed Bright Data Remote MCP server"
+        },
+        {
+          "url": "https://github.com/brightdata/brightdata-mcp/",
+          "title": "brightdata/brightdata-mcp",
+          "snippet": "# brightdata/brightdata-mcp\n\nA powerful Model Context Protocol (MCP) server that provides an all-in-one solution for public web access.\n\n- Stars: 2733\n- Forks: 337\n- Watchers: 2733\n- Open issues: 39\n- License: MIT License\n- Homepage: https://brightdata.com/\n- Default branch: main\n- Created: 2025-04-"
+        },
+        {
+          "url": "https://brightdata.com/pricing/mcp-server",
+          "title": "MCP Server Pricing",
+          "snippet": "Accessibility Menu skip to content\n\nNEW! Start with Bright Data's Web MCP and get 5,000 free monthly requests\n\nStart free\n\n# MCP Server Pricing\n\nYour AI agent's gateway to the web\n\nSign-up now and we’ll match your first deposit dollar for dollar, up to $500!\n\nStart now\n\nFree Tier\n\n5K requests\n\nStart"
+        }
+      ]
+    },
+    {
+      "query": "site:brightdata.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://brightdata.com/ai/mcp-server",
+          "title": "The Bright Data MCP:",
+          "snippet": "Accessibility Menu skip to content\n\nNEW! Start with Bright Data's Web MCP and get 5,000 free monthly requests\n\nStart free\n\n# The Bright Data MCP:\n\nConnect your AI to the internet\n\nBright Data’s Bright Data MCP solves web access for LLMs and AI agents, allowing them to effectively search, extract and"
+        },
+        {
+          "url": "https://docs.brightdata.com/products/mcp-server/overview",
+          "title": "MCP server overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP server overview\n\n> Use the Bright Data MCP server to give AI agents real-time access to public web data with "
+        },
+        {
+          "url": "https://brightdata.com/blog/ai/sse-vs-streamable-http",
+          "title": "SSE vs Streamable HTTP: The Transport Technologies Behind MCP",
+          "snippet": "Accessibility Menu skip to content\n\nSign-up now and we’ll match your first deposit dollar for dollar, up to $500!\n\nStart now\n\nBlog / AI\n\nAI\n\n# SSE vs Streamable HTTP: The Transport Technologies Behind MCP\n\nExplore MCP’s shift to Streamable HTTP, comparing it to SSE, and learn how these protocols imp"
+        },
+        {
+          "url": "https://brightdata.com/blog/ai/best-mcp-servers",
+          "title": "Top 10 MCP Servers to Improve Your AI Workflows",
+          "snippet": "Accessibility Menu skip to content\n\nNEW! Start with Bright Data's Web MCP and get 5,000 free monthly requests\n\nStart free\n\nBlog / AI\n\nAI\n\n# Top 10 MCP Servers to Improve Your AI Workflows\n\nExplore what MCP servers are, how to select the right one, and see a ranked list of the top 10 MCP servers to p"
+        },
+        {
+          "url": "https://docs.brightdata.com/products/mcp-server/faqs",
+          "title": "Bright Data MCP FAQs",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.brightdata.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Bright Data MCP FAQs\n\n> FAQs about the Bright Data MCP server (30 tools): setup, hosted versus self-hosted modes,"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://brightdata.com",
+      "final_url": "https://brightdata.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:23Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "2cb845b41d2de3c39f9a72d557f12dd313bdb2bc9f36bcfbbf72a71e34ca1a91",
+      "text_len": 12364
+    },
+    {
+      "requested_url": "https://docs.brightdata.com/api-reference/authentication",
+      "final_url": "https://docs.brightdata.com/api-reference/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:16Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "632de79d5fac58c6bff5e809fcb312d64e217fc1f2f9f2ba958e42a15621be5a",
+      "text_len": 9432
+    },
+    {
+      "requested_url": "https://brightdata.com/pricing",
+      "final_url": "https://brightdata.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "45b734e1d7605119572b0cdb57d59b4cf0baa1c2944f4f3078c69cabba04f410",
+      "text_len": 9233
+    },
+    {
+      "requested_url": "https://brightdata.com/pricing/mcp-server",
+      "final_url": "https://brightdata.com/pricing/mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4cb6875c36c23232b55d54fa42ecfb74ef45be4de4fd015a275d654ca81523f1",
+      "text_len": 19999
+    },
+    {
+      "requested_url": "https://docs.brightdata.com/products/mcp-server/faqs",
+      "final_url": "https://docs.brightdata.com/products/mcp-server/faqs",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:23Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0e65eb6b2a9650289215eaeb0e507b9b2055d1ab5b74e71084547b611e2d2593",
+      "text_len": 11576
+    },
+    {
+      "requested_url": "https://docs.brightdata.com/api-reference/proxy/proxy_api_auth",
+      "final_url": "https://docs.brightdata.com/api-reference/proxy/proxy_api_auth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:16Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "34b7e4a50e7ad724a0b20409ca67cecd8b257c42c6796cb89bcd3254765b8df8",
+      "text_len": 1880
+    },
+    {
+      "requested_url": "https://docs.brightdata.com/products/mcp-server/overview",
+      "final_url": "https://docs.brightdata.com/products/mcp-server/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "53333d949f1b5efcfe8b5ee9a7df55b377d56ad1766cbcc35f64edf0c50d4883",
+      "text_len": 2470
+    },
+    {
+      "requested_url": "https://docs.brightdata.com/products/mcp-server/remote/quickstart",
+      "final_url": "https://docs.brightdata.com/products/mcp-server/remote/quickstart",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5006653af69fe034c0017c3114104f718f82e03bd6c67416172cf9a551f6cec3",
+      "text_len": 2081
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "quote": "API Access - Authenticate and interact with the Bright Data platform using an API key/token.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "quote": "Native Access - Authenticate and interact with the Bright Data platform using proxy protocol `username` and `password`.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://brightdata.com",
+        "quote": "No credit card required",
+        "verified": true
+      },
+      {
+        "url": "https://brightdata.com/pricing/mcp-server",
+        "quote": "new users get free credit for testing, and pay-as-you-go options are available after that.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "quote": "--url https://api.brightdata.com/request",
+        "verified": true
+      },
+      {
+        "url": "https://brightdata.com",
+        "quote": "Pre-built or custom-made scraping endpoints",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.brightdata.com/products/mcp-server/overview",
+        "quote": "The Bright Data MCP server gives AI agents and assistants real-time access to public web data through the Model Context Protocol (MCP).",
+        "verified": true
+      },
+      {
+        "url": "https://docs.brightdata.com/products/mcp-server/remote/quickstart",
+        "quote": "https://mcp.brightdata.com/mcp?token=YOUR_API_TOKEN",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "quote": "We create a default key for you upon account creation automatically.",
+        "verified": true
+      },
+      {
+        "url": "https://brightdata.com/pricing/mcp-server",
+        "quote": "Free Tier 5K requests",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://brightdata.com",
+        "quote": "Discover, access, extract, and interact with any public website.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [
+      {
+        "field": "docs_url",
+        "url": "https://docs.brightdata.com"
+      }
+    ],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

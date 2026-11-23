@@ -1,0 +1,344 @@
+{
+  "slug": "smartsheet",
+  "searches": [
+    {
+      "query": "Smartsheet API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+          "title": "Authentication",
+          "snippet": "# Authentication\n\nThe API authenticates using access tokens (API keys). You can generate access tokens in the Smartsheet UI.\n\n> Important: Smartsheet Gov and Smartsheet Regions Europe use separate tokens from Smartsheet.com.\n\nEach API request requires passing in an access token as the `Bearer` value"
+        },
+        {
+          "url": "https://developers.smartsheet.com/api/smartsheet/guides/advanced-topics/oauth",
+          "title": "OAuth",
+          "snippet": "# OAuth\n\nOAuth 2.0 (OAuth) provides a way for your app users to grant limited access to their Smartsheet resources. Here, we demonstrate registering apps to use OAuth and implementing an OAuth flow with your apps.\n\n> Note: The Smartsheet SDKs also support OAuth 2.0.\n\n## Register for Developer Tools\n"
+        },
+        {
+          "url": "https://developers.smartsheet.com/api/smartsheet/guides/getting-started",
+          "title": "Get Started",
+          "snippet": "# Get Started\n\nMaking your first API call is as easy as generating an API access token and sending a request to one of our API endpoints.\n\nIf you prefer a visual walkthrough, watch this short (3-minute) video:\n\niframe\nTo follow along with the step-by-step technical details, continue with the guide b"
+        },
+        {
+          "url": "https://developers.smartsheet.com/api/smartsheet/openapi/tokens",
+          "title": "Tokens",
+          "snippet": "# Tokens\n\nThe Smartsheet API utilizes OAuth 2.0 for authentication and authorization. An Authorization HTTP header containing an access token is required to authenticate all API requests except for the requests to GET Access Token or Refresh Access Token. For more information, see Authentication."
+        },
+        {
+          "url": "https://www.smartsheet.com/content-center/managing-work/it-management/authentication-mastery-smartsheet-api",
+          "title": "Authentication Mastery with Smartsheet API | Smartsheet",
+          "snippet": "Authentication Mastery with Smartsheet API | Smartsheet\n\n# Authentication Mastery with Smartsheet API\n\n Galina Jordanowa \n\n June 29, 2026 \n\n## Mastering Smartsheet API Series — Part 3\n\nThis post is part of the Mastering Smartsheet API series, a practical companion to the Smartsheet API documentation"
+        }
+      ]
+    },
+    {
+      "query": "Smartsheet developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.smartsheet.com/api/smartsheet/introduction",
+          "title": "Smartsheet API introduction",
+          "snippet": "# Smartsheet API introduction\n\nThe Smartsheet API enables you to programmatically access and manage your organization's Smartsheet resources. The API Reference includes object schemas, operation specifications, and code snippets for Sheets, Folders, Users, and more.\n\nRequired plan: Business, Enterpr"
+        },
+        {
+          "url": "https://developers.smartsheet.com/api/smartsheet/guides/getting-started",
+          "title": "Get Started",
+          "snippet": "# Get Started\n\nMaking your first API call is as easy as generating an API access token and sending a request to one of our API endpoints.\n\nIf you prefer a visual walkthrough, watch this short (3-minute) video:\n\niframe\nTo follow along with the step-by-step technical details, continue with the guide b"
+        },
+        {
+          "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+          "title": "Authentication",
+          "snippet": "# Authentication\n\nThe API authenticates using access tokens (API keys). You can generate access tokens in the Smartsheet UI.\n\n> Important: Smartsheet Gov and Smartsheet Regions Europe use separate tokens from Smartsheet.com.\n\nEach API request requires passing in an access token as the `Bearer` value"
+        },
+        {
+          "url": "https://developers.smartsheet.com/api/smartsheet/openapi",
+          "title": "Smartsheet OpenAPI Reference",
+          "snippet": "# Smartsheet OpenAPI Reference\n\nWelcome to the OpenAPI reference documentation for the Smartsheet API!\n\n> Important:\n> \n> - The Smartsheet API is restricted to users on Business and Enterprise plans\n> - The Developer Agreement governs the use of the Smartsheet API and Smartsheet software development"
+        },
+        {
+          "url": "https://developers.smartsheet.com/",
+          "title": "Smartsheet Developers & API",
+          "snippet": "Smartsheet Developers & API\n\n# Smartsheet Developers & API\n\nExplore API docs, connect to our MCP server, develop faster on SDKs, and join a thriving community building on Smartsheet.\n\n## Smartsheet\n\n### AI & Smartsheet MCP Server\n\n### Smartsheet MCP Server Tools\n\n### Smartsheet API Guides\n\n### Smart"
+        }
+      ]
+    },
+    {
+      "query": "Smartsheet pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.smartsheet.com/pricing",
+          "title": "Smartsheet Pricing | Smartsheet",
+          "snippet": "Smartsheet Pricing | Smartsheet\n\n# Flexible plans for any team\n\nChoose the plan that works best for you and manage your projects, programs, and processes — all in one place.\n\n Payment Monthly pricing Yearly pricing \n\n### Pro\n\n $ 12 9 per Member/month $ 17 13 AUD per Member/month $ 16 12 CAD per Memb"
+        },
+        {
+          "url": "https://www.smartsheet.com/try-it?hsCtaAttrib=112034698223&p=1540143",
+          "title": "Get started with your work account",
+          "snippet": "Get started with your work account | Smartsheet\n\n# Get started with your work account\n\n30-day free trial. No credit card required.\n\nPlease provide the following information to help us give you a more valuable experience.\n\nSelect Company Size... 1-49 employees 50-199 200-1,999 2,000-4,999 5,000-9,999"
+        },
+        {
+          "url": "https://help.smartsheet.com/articles/2482687-free-plan",
+          "title": "Free plan details | Smartsheet Learning Center",
+          "snippet": "Free plan details | Smartsheet Learning Center\n\n# Free plan details \n\nThe Free plan is a discontinued capability that offers limited task and project management. \n\nThe Free plan is no longer available to new Smartsheet signups as of August 28, 2024. If you already have a Free plan, your access conti"
+        },
+        {
+          "url": "https://help.smartsheet.com/articles/529590-smartsheet-free-trial-faqs",
+          "title": "FAQ: Smartsheet free trial | Smartsheet Learning Center",
+          "snippet": "FAQ: Smartsheet free trial | Smartsheet Learning Center\n\n# FAQ: Smartsheet free trial \n\nBefore purchasing a subscription to Smartsheet, you can start a free 30-day trial to see if the application is a good fit for you. The trial gives you access to a Business plan. Your subscription won't incur any "
+        },
+        {
+          "url": "https://www.smartsheet.com/content/smartsheet-faqs",
+          "title": "Smartsheet FAQs",
+          "snippet": "Smartsheet FAQs\n\n# Smartsheet FAQs\n\n TT The Smartsheet Team \n\n April 20, 2026 \n\nFind answers to the top Smartsheet frequently asked questions (FAQs), including what it is, how to use it, and basic functionality.\n\n## General Smartsheet FAQs\n\n### 1. What is Smartsheet?\n\nSmartsheet is an intelligent wo"
+        }
+      ]
+    },
+    {
+      "query": "Smartsheet official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.smartsheet.com/ai-mcp/smartsheet/install-the-smartsheet-mcp-server",
+          "title": "Install the Smartsheet MCP server",
+          "snippet": "# Install the Smartsheet MCP server\n\nYou can connect various AI assistants to the Smartsheet Model Context Protocol (MCP) server. Connected to the Smartsheet MCP server, you can interact with your Smartsheet data using natural language.\n\nRequired plan: Business, Enterprise, or Advanced Work Manageme"
+        },
+        {
+          "url": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+          "title": "Smartsheet MCP server introduction",
+          "snippet": "# Smartsheet MCP server introduction\n\nInteract with your project data in Smartsheet using the Smartsheet MCP server connected to Claude, ChatGPT, and other AI clients. Once connected, you can use natural language to read, analyze, and manage Smartsheet data to complement how you make decisions and g"
+        },
+        {
+          "url": "https://help.smartsheet.com/articles/2483670-smartsheet-mcp-server",
+          "title": "Smartsheet MCP Server overview | Smartsheet Learning Center",
+          "snippet": "Smartsheet MCP Server overview | Smartsheet Learning Center\n\n# Smartsheet MCP Server overview \n\nThe Smartsheet Model Context Protocol (MCP) Server enables you to manage projects and Smartsheet data from within Smart Assist and AI assistants, such as Claude, ChatGPT, Microsoft 365 Copilot, Gemini Ent"
+        },
+        {
+          "url": "https://help.smartsheet.com/articles/2483656-install-smartsheet-connector-claude",
+          "title": "Access Smartsheet in Claude | Smartsheet Learning Center",
+          "snippet": "Access Smartsheet in Claude | Smartsheet Learning Center\n\n# Access Smartsheet in Claude \n\nLink your Smartsheet account to Claude to generate natural-language summaries and take action on individual sheets.\n\nWho can use this?\n\nPlans:\n\n- Business\n- Enterprise\n\nThis Connector uses the Model Context Pro"
+        },
+        {
+          "url": "https://www.smartsheet.com/content-center/product-insights/product-updates/introducing-smartsheet-mcp-server",
+          "title": "Smartsheet API now speaks AI: Introducing Smartsheet MCP server for every MCP-compliant AI tool | Smartsheet",
+          "snippet": "Smartsheet API now speaks AI: Introducing Smartsheet MCP server for every MCP-compliant AI tool | Smartsheet\n\n# Smartsheet API now speaks AI: Introducing Smartsheet MCP server for every MCP-compliant AI tool\n\n Galina Jordanowa \n\n March 24, 2026 \n\nIn our previous post, we walked through five solution"
+        }
+      ]
+    },
+    {
+      "query": "site:smartsheet.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.smartsheet.com/articles/2483670-smartsheet-mcp-server",
+          "title": "Smartsheet MCP Server overview | Smartsheet Learning Center",
+          "snippet": "Smartsheet MCP Server overview | Smartsheet Learning Center\n\n# Smartsheet MCP Server overview \n\nThe Smartsheet Model Context Protocol (MCP) Server enables you to manage projects and Smartsheet data from within Smart Assist and AI assistants, such as Claude, ChatGPT, Microsoft 365 Copilot, Gemini Ent"
+        },
+        {
+          "url": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+          "title": "Smartsheet MCP server introduction",
+          "snippet": "# Smartsheet MCP server introduction\n\nInteract with your project data in Smartsheet using the Smartsheet MCP server connected to Claude, ChatGPT, and other AI clients. Once connected, you can use natural language to read, analyze, and manage Smartsheet data to complement how you make decisions and g"
+        },
+        {
+          "url": "https://help.smartsheet.com/articles/2483781-connect-smartsheet-your-ai-assistants",
+          "title": "Connect Smartsheet to your AI assistants | Smartsheet Learning Center",
+          "snippet": "Connect Smartsheet to your AI assistants | Smartsheet Learning Center\n\n# Connect Smartsheet to your AI assistants \n\nSkip the manual clicks — connect Smartsheet to your AI assistants and manage projects through natural conversation.\n\nWho can use this?\n\nPlans:\n\n- Business\n- Enterprise\n\nBy connecting S"
+        },
+        {
+          "url": "https://www.smartsheet.com/content-center/product-insights/product-updates/introducing-smartsheet-mcp-server",
+          "title": "Smartsheet API now speaks AI: Introducing Smartsheet MCP server for every MCP-compliant AI tool | Smartsheet",
+          "snippet": "Smartsheet API now speaks AI: Introducing Smartsheet MCP server for every MCP-compliant AI tool | Smartsheet\n\n# Smartsheet API now speaks AI: Introducing Smartsheet MCP server for every MCP-compliant AI tool\n\n Galina Jordanowa \n\n March 24, 2026 \n\nIn our previous post, we walked through five solution"
+        },
+        {
+          "url": "https://help.smartsheet.com/articles/2483721-conversational-ai-smart-assist-and-mcp",
+          "title": "Conversational AI: Smart Assist and MCP | Smartsheet Learning Center",
+          "snippet": "Conversational AI: Smart Assist and MCP | Smartsheet Learning Center\n\n# Conversational AI: Smart Assist and MCP \n\nUsing Smart Assist in Smartsheet and external MCP-enabled AI assistants, such as Claude, ChatGPT, Microsoft 365 Copilot, Gemini Enterprise Plus, Cursor, and more, you can interact with y"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://smartsheet.com/developers",
+      "final_url": "https://smartsheet.com/developers",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:01Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "0ab00c880c9f65dbf9dadace87cc6d5870602ca20c055c87d0286a750e9c650d",
+      "text_len": 1232
+    },
+    {
+      "requested_url": "https://developers.smartsheet.com/api/smartsheet/guides/advanced-topics/oauth",
+      "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/advanced-topics/oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:55Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "758fe44e9e50ebfedfa9c4e44c90f9fa684aef1fe3b7d4b521baad7a4e8f0b87",
+      "text_len": 12035
+    },
+    {
+      "requested_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+      "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:55Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1d03cb19c45d32d6496375480169ee81a90181b49c077d679c8ca54566ee24d5",
+      "text_len": 3375
+    },
+    {
+      "requested_url": "https://www.smartsheet.com/pricing",
+      "final_url": "https://www.smartsheet.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b2b1f15b38c53171aa87dbd9ee2946859b48fd938a105a79c1fb81a9ece9fa59",
+      "text_len": 13665
+    },
+    {
+      "requested_url": "https://developers.smartsheet.com/ai-mcp/smartsheet/install-the-smartsheet-mcp-server",
+      "final_url": "https://developers.smartsheet.com/ai-mcp/smartsheet/install-the-smartsheet-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:58Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "215af6b6c10b36ddf159e78c79f8b05251400f9564737d1ce7d4cc3c0fc70f8a",
+      "text_len": 2078
+    },
+    {
+      "requested_url": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+      "final_url": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:58Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9bf89c24ac334b1bb3145e42c94f40706c07a33d24590f39b7919d04d3d0b09c",
+      "text_len": 4000
+    },
+    {
+      "requested_url": "https://help.smartsheet.com/articles/2483670-smartsheet-mcp-server",
+      "final_url": "https://help.smartsheet.com/articles/2483670-smartsheet-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:58Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0344bfef09f5e5ad63e049378e025c1302b52d0f77bca394f4adc133d9175600",
+      "text_len": 2384
+    },
+    {
+      "requested_url": "https://help.smartsheet.com/articles/2483721-conversational-ai-smart-assist-and-mcp",
+      "final_url": "https://help.smartsheet.com/articles/2483721-conversational-ai-smart-assist-and-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4b57ff30e7054410455ab70782e42f30600c702f95adcb90734921aaaa69fe87",
+      "text_len": 6181
+    },
+    {
+      "requested_url": "https://smartsheet.com/llms.txt",
+      "final_url": "https://smartsheet.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:02Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "b8f25da10a01ffde755abac7e95c8230576a164a730094074580c73d197653c4",
+      "text_len": 15149
+    },
+    {
+      "requested_url": "https://www.smartsheet.com/content-center/managing-work/it-management/authentication-mastery-smartsheet-api",
+      "final_url": "https://www.smartsheet.com/content-center/managing-work/it-management/authentication-mastery-smartsheet-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:55Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "291d84f47c9ff21df4296f06eb6754a6616fda3d4e4c5cdd5960af92d182826a",
+      "text_len": 12417
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "quote": "The API authenticates using access tokens (API keys). You can generate access tokens in the Smartsheet UI.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/advanced-topics/oauth",
+        "quote": "OAuth 2.0 (OAuth) provides a way for your app users to grant limited access to their Smartsheet resources.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/advanced-topics/oauth",
+        "quote": "If Smartsheet denies your request, consult with your Customer Success Manager.",
+        "verified": true
+      },
+      {
+        "url": "https://www.smartsheet.com/pricing",
+        "quote": "| API calls | - | x | x | x |",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://smartsheet.com/developers",
+        "quote": "Explore API docs, connect to our MCP server, develop faster on SDKs",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.smartsheet.com/ai-mcp/smartsheet/install-the-smartsheet-mcp-server",
+        "quote": "United States | US production | `https://mcp.smartsheet.com`",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/advanced-topics/oauth",
+        "quote": "Upon accepting your request, Smartsheet activates the Developer Tools user interface for the user account.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://smartsheet.com/llms.txt",
+        "quote": "Smartsheet is the enterprise-grade, AI-powered work management platform",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

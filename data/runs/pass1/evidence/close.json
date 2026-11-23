@@ -1,0 +1,330 @@
+{
+  "slug": "close",
+  "searches": [
+    {
+      "query": "Close API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.close.com/api/overview/api-key-authentication/",
+          "title": "Authentication with API keys",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# Authentication with API keys\n\nAPI keys are best used for scripts and simple integrations that are internal to\nyour organization. Alternatively, see Authentication with OAuth\ninstead.\n\n## Getting an API key\n\nAPI keys can be cr"
+        },
+        {
+          "url": "https://developer.close.com/api/overview",
+          "title": "API Overview",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# API Overview\n\nBase URL: `https://api.close.com/api/v1`\n\nClose uses industry-standard REST conventions with predictable URL structures, standard HTTP methods, and JSON request/response bodies.\n\n## Authentication\n\nAll API reque"
+        },
+        {
+          "url": "https://developer.close.com/api/overview/oauth-authentication",
+          "title": "Authentication with OAuth",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# Authentication with OAuth\n\nTo implement authentication with OAuth 2.0, you need to create an OAuth app to get your Client ID and Client Secret.\n\nYou'll also need to implement a redirect URI in your application. In the example"
+        },
+        {
+          "url": "https://help.close.com/integrations/api-keys-oauth",
+          "title": "API Keys & OAuth",
+          "snippet": "> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://help.close.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://help.close.com/_mcp/server.\n\n# API Keys & OAuth\n\n> Create an OAuth ap"
+        },
+        {
+          "url": "https://developer.close.com/integrations",
+          "title": "Build an Integration",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# Build an Integration\n\nClose's REST API supports everything from a simple internal script to a full product integration used by thousands of Close customers. If building AI Agent integrations, you may prefer to connect via the"
+        }
+      ]
+    },
+    {
+      "query": "Close developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.close.com/api/overview",
+          "title": "API Overview",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# API Overview\n\nBase URL: `https://api.close.com/api/v1`\n\nClose uses industry-standard REST conventions with predictable URL structures, standard HTTP methods, and JSON request/response bodies.\n\n## Authentication\n\nAll API reque"
+        },
+        {
+          "url": "https://developer.close.com/api/overview/api-key-authentication/",
+          "title": "Authentication with API keys",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# Authentication with API keys\n\nAPI keys are best used for scripts and simple integrations that are internal to\nyour organization. Alternatively, see Authentication with OAuth\ninstead.\n\n## Getting an API key\n\nAPI keys can be cr"
+        },
+        {
+          "url": "https://developer.close.com/",
+          "title": "Close Developer Platform",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# Close Developer Platform\n\nWhether you're a Close customer automating your sales process or a partner building an integration, the Close Developer Platform gives everything you or your AI agents need.\n\n#### REST API Reference\n"
+        },
+        {
+          "url": "https://help.close.com/integrations/api-keys-oauth",
+          "title": "API Keys & OAuth",
+          "snippet": "> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://help.close.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://help.close.com/_mcp/server.\n\n# API Keys & OAuth\n\n> Create an OAuth ap"
+        },
+        {
+          "url": "https://developer.close.com/api/overview/oauth-authentication",
+          "title": "Authentication with OAuth",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# Authentication with OAuth\n\nTo implement authentication with OAuth 2.0, you need to create an OAuth app to get your Client ID and Client Secret.\n\nYou'll also need to implement a redirect URI in your application. In the example"
+        }
+      ]
+    },
+    {
+      "query": "Close pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://close.com/pricing",
+          "title": "Close CRM Pricing & Plans | Scale your Sales",
+          "snippet": "Close CRM Pricing & Plans | Scale your Sales\n\n4.7 rating across 2,000+ G2 reviews\n\n# Close CRM Pricing\n\nBuilt-in calling, sales dialers, email, SMS, and AI Agents in one CRM. Reach more leads, automate follow-up, and close more deals.\n\n- ### Solo\n\n1 user only · Up to 10,000 leads\n\nFor independent se"
+        },
+        {
+          "url": "https://help.close.com/account-management/plans-and-billing",
+          "title": "Plans and Billing",
+          "snippet": "> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://help.close.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://help.close.com/_mcp/server.\n\n# Plans and Billing\n\n> How Close billing"
+        },
+        {
+          "url": "https://app.close.com/login/",
+          "title": "Close",
+          "snippet": "Close\n\nYour browser was unable to load all of Close's resources. They may have been blocked by your DNS settings, firewall, proxy, or browser configuration.Reload the page or click here to try again. Contact support@close.com if you continue to see this message.\n\nClose couldn't start. A content bloc"
+        },
+        {
+          "url": "https://www.trellus.ai/post/close-crm-pricing",
+          "title": "Close CRM Pricing 2026: Solo $9, Growth $99, Scale $139",
+          "snippet": "Close CRM Pricing 2026: Solo $9, Growth $99, Scale $139\n\n Close Pricing 9 min read November 18, 2026 \n\n# Close CRM Pricing in 2026: Solo, Essentials, Growth and Scale\n\nClose lists Solo at $9, Essentials $35, Growth $99 and Scale $139 a user a month on annual billing. See monthly prices, calling usag"
+        },
+        {
+          "url": "https://markaicode.com/pricing/close-crm-pricing/",
+          "title": "Close CRM Pricing (November 2026): Solo, Essentials, Growth, Scale | Markaicode",
+          "snippet": "Close CRM Pricing (November 2026): Solo, Essentials, Growth, Scale | Markaicode\n\n# Close CRM Pricing (November 2026): Solo, Essentials, Growth, Scale\n\nClose costs $9, $35, $99 or $139 per user per month billed annually ($19, $49, $109, $149 monthly), each with monthly AI credits. Calls and SMS are b"
+        }
+      ]
+    },
+    {
+      "query": "Close official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.close.com/mcp/",
+          "title": "Close MCP Server",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# Close MCP Server\n\nModel Context Protocol (MCP) servers provide a standardized interface that allows any compatible AI model or agent to access your Close data in a simple and secure way. Below are instructions for adding Clos"
+        },
+        {
+          "url": "https://close.com/llms.txt",
+          "title": "",
+          "snippet": "# Close CRM\n\nLast Updated: November 10, 2026\n\nThis document is the canonical reference for factual information about Close CRM, Chloe Chat, Agents, MCP, product capabilities, ideal customers, pricing, and common comparison questions.\n\nPrimary website: https://close.com \nHelp Center: https://help.clo"
+        },
+        {
+          "url": "https://developer.close.com/mcp/tools",
+          "title": "Close MCP Tools",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# Close MCP Tools\n\nThe Close MCP Server provides tools organized by scope. Each higher scope includes all tools from the lower scopes.\n\n## Read-only Tools – `mcp.read`\n\nRead-only tools for searching, fetching, and exploring you"
+        },
+        {
+          "url": "https://developer.close.com/",
+          "title": "Close Developer Platform",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# Close Developer Platform\n\nWhether you're a Close customer automating your sales process or a partner building an integration, the Close Developer Platform gives everything you or your AI agents need.\n\n#### REST API Reference\n"
+        },
+        {
+          "url": "https://help.close.com/integrations/close-mcp-server/close-mcp-tools",
+          "title": "Close MCP Tools",
+          "snippet": "> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://help.close.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://help.close.com/_mcp/server.\n\n# Close MCP Tools\n\n> The tools Close's M"
+        }
+      ]
+    },
+    {
+      "query": "site:close.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.close.com/mcp",
+          "title": "Close MCP Server",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# Close MCP Server\n\nModel Context Protocol (MCP) servers provide a standardized interface that allows any compatible AI model or agent to access your Close data in a simple and secure way. Below are instructions for adding Clos"
+        },
+        {
+          "url": "https://help.close.com/integrations/close-mcp-server",
+          "title": "Close MCP Server",
+          "snippet": "> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://help.close.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://help.close.com/_mcp/server.\n\n# Close MCP Server\n\n> Connect ChatGPT, C"
+        },
+        {
+          "url": "https://developer.close.com/mcp/tools",
+          "title": "Close MCP Tools",
+          "snippet": "> For a complete page index, fetch https://developer.close.com/llms.txt\n\n# Close MCP Tools\n\nThe Close MCP Server provides tools organized by scope. Each higher scope includes all tools from the lower scopes.\n\n## Read-only Tools – `mcp.read`\n\nRead-only tools for searching, fetching, and exploring you"
+        },
+        {
+          "url": "https://close.com/llms.txt",
+          "title": "",
+          "snippet": "# Close CRM\n\nLast Updated: November 10, 2026\n\nThis document is the canonical reference for factual information about Close CRM, Chloe Chat, Agents, MCP, product capabilities, ideal customers, pricing, and common comparison questions.\n\nPrimary website: https://close.com \nHelp Center: https://help.clo"
+        },
+        {
+          "url": "https://help.close.com/integrations/close-mcp-server/close-mcp-tools",
+          "title": "Close MCP Tools",
+          "snippet": "> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://help.close.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://help.close.com/_mcp/server.\n\n# Close MCP Tools\n\n> The tools Close's M"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://close.com",
+      "final_url": "https://close.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:19Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "089c160db21fcd02a6fe51a63321b0191f12e3bc93a0e2ed3680172eba6ec20d",
+      "text_len": 19999
+    },
+    {
+      "requested_url": "https://developer.close.com/api/overview/oauth-authentication",
+      "final_url": "https://developer.close.com/api/overview/oauth-authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:14Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e9b1547660bb119b61e3372653ad7e25637489d09aba2a1cc7245355b0575621",
+      "text_len": 3943
+    },
+    {
+      "requested_url": "https://close.com/pricing",
+      "final_url": "https://close.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:16Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "875333c86ecf3db3aaeba45c1314bd90d5e5119cd75b0b97ffe6bacb333a9353",
+      "text_len": 19654
+    },
+    {
+      "requested_url": "https://developer.close.com/mcp/",
+      "final_url": "https://developer.close.com/mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c55ddb5260bc568f6547234335c56860cedfb9130dee12b0eb07ea5feafbf1e3",
+      "text_len": 8122
+    },
+    {
+      "requested_url": "https://developer.close.com/mcp/tools",
+      "final_url": "https://developer.close.com/mcp/tools",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "53f70e26c6e024e00465bd7290f6d4f3f9bd0cf866d2655ce096a83e218f50fc",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer.close.com/api/overview/api-key-authentication/",
+      "final_url": "https://developer.close.com/api/overview/api-key-authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:14Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6a19dcb97b397921d4cf263d83df5cb1fde4cca66a7993ea6db8ffc3f0fc7952",
+      "text_len": 1501
+    },
+    {
+      "requested_url": "https://help.close.com/integrations/api-keys-oauth",
+      "final_url": "https://help.close.com/integrations/api-keys-oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:14Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "18b677a8cf329e8dbee18428539ebad8e75303cd4485b740d352f73407924ae7",
+      "text_len": 8823
+    },
+    {
+      "requested_url": "https://help.close.com/integrations/close-mcp-server",
+      "final_url": "https://help.close.com/integrations/close-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "59a99916316d49ef6511271399d87037d40c7e1791a3a461030bb84805a9e680",
+      "text_len": 7300
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.close.com/api/overview/oauth-authentication",
+        "quote": "To implement authentication with OAuth 2.0, you need to create an OAuth app to get your Client ID and Client Secret.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.close.com/api/overview/api-key-authentication/",
+        "quote": "API keys use HTTP Basic client side authentication.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://close.com/pricing",
+        "quote": "14-day free trial",
+        "verified": true
+      },
+      {
+        "url": "https://close.com/pricing",
+        "quote": "No credit card required",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.close.com/api/overview/api-key-authentication/",
+        "quote": "API Base URL: `https://api.close.com/api/v1`",
+        "verified": true
+      },
+      {
+        "url": "https://developer.close.com/mcp/tools",
+        "quote": "Fetch CRM objects by their IDs, with full details: up to 30 per call.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developer.close.com/mcp/",
+        "quote": "The MCP server URL is `https://mcp.close.com/mcp` and has \"HTTP Streamable\" and \"OAuth 2.0 Dynamic Client Registration (DCR)\" support.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.close.com/api/overview/oauth-authentication",
+        "quote": "The Authorization Code can be exchanged for an Access Token by performing a POST request",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://close.com",
+        "quote": "Close is a sales CRM built for teams that sell.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [
+      {
+        "field": "docs_url",
+        "url": "https://developer.close.com"
+      }
+    ],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "slug": "intercom",
+  "searches": [
+    {
+      "query": "Intercom API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+          "title": "Authentication",
+          "snippet": "Authentication | Intercom and Fin Developer Platform\n\n# Authentication\n\nTo access the Intercom API, you have two authentication options depending on whether you app is public or private.\n\n- An Access Token is for if you're using the API to access data in your own Intercom workspace, in other words, "
+        },
+        {
+          "url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io/authentication",
+          "title": "Intercom API",
+          "snippet": "# Intercom API\n\nThe intercom API reference.\n\nVersion: 2.18\nLicense: MIT\n\n## Servers\n\nThe production API server\n\n```\nhttps://api.intercom.io\n\n```\n\nThe european API server\n\n```\nhttps://api.eu.intercom.io\n\n```\n\nThe australian API server\n\n```\nhttps://api.au.intercom.io\n\n```\n\n## Security\n\n### bearerAuth\n"
+        },
+        {
+          "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/setting-up-oauth",
+          "title": "Setting up OAuth",
+          "snippet": "# Setting up OAuth\n\nIf you are building a public integration that will have access to other peoples' Intercom data you are required to set up OAuth. This guide will walk you through the process.\n\n- Setting up OAuth\n- Provide the initial information\n- Redirect URLs\n- Permissions\n- People & conversati"
+        },
+        {
+          "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/rest-apis/make-an-api-call",
+          "title": "Make an API call",
+          "snippet": "# Make an API call\n\nYou can use your Access Token to make your first call to our REST API. Here's a sample code snippet that you can run in your terminal to fetch a list of all the admins in your workspace:\n\n```shell\n# Copy the cURL request below into your Terminal.\n# Replace **<INSERT_ACCESS_TOKEN_"
+        },
+        {
+          "url": "https://developers.intercom.com/docs/build-an-integration/getting-started",
+          "title": "Set up a Workspace",
+          "snippet": "# Set up a Workspace\n\nYour Intercom workspace is where you and teammates can access all your Intercom products. As a developer, you can create apps that may be installed on one or more workspace.\n\nIn this guide, you will set up your workspace and learn how to create an app in your Developer Hub.\n\n##"
+        }
+      ]
+    },
+    {
+      "query": "Intercom developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+          "title": "Authentication",
+          "snippet": "Authentication | Intercom and Fin Developer Platform\n\n# Authentication\n\nTo access the Intercom API, you have two authentication options depending on whether you app is public or private.\n\n- An Access Token is for if you're using the API to access data in your own Intercom workspace, in other words, "
+        },
+        {
+          "url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io",
+          "title": "Intercom API",
+          "snippet": "# Intercom API\n\nThe intercom API reference.\n\nVersion: 2.18\nLicense: MIT\n\n## Servers\n\nThe production API server\n\n```\nhttps://api.intercom.io\n\n```\n\nThe european API server\n\n```\nhttps://api.eu.intercom.io\n\n```\n\nThe australian API server\n\n```\nhttps://api.au.intercom.io\n\n```\n\n## Security\n\n### bearerAuth\n"
+        },
+        {
+          "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/rest-apis",
+          "title": "About our REST API",
+          "snippet": "# About our REST API\n\nOur REST API is a core building block of the Intercom Platform. You can use it to retrieve and update information from your own Intercom account, or to integrate Intercom into your own product. It's completely up to you and your custom use case.\n\n## Regional Hosting\n\nIntercom w"
+        },
+        {
+          "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/setting-up-oauth",
+          "title": "Setting up OAuth",
+          "snippet": "# Setting up OAuth\n\nIf you are building a public integration that will have access to other peoples' Intercom data you are required to set up OAuth. This guide will walk you through the process.\n\n- Setting up OAuth\n- Provide the initial information\n- Redirect URLs\n- Permissions\n- People & conversati"
+        },
+        {
+          "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/rest-apis/make-an-api-call",
+          "title": "Make an API call",
+          "snippet": "# Make an API call\n\nYou can use your Access Token to make your first call to our REST API. Here's a sample code snippet that you can run in your terminal to fetch a list of all the admins in your workspace:\n\n```shell\n# Copy the cURL request below into your Terminal.\n# Replace **<INSERT_ACCESS_TOKEN_"
+        }
+      ]
+    },
+    {
+      "query": "Intercom pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.intercom.com/pricing",
+          "title": "Get Fin and Intercom for a single, fully integrated customer service platform",
+          "snippet": "Intercom Pricing | Plans for every team size\n\n# Get Fin and Intercom for a single, fully integrated customer service platform\n\nBilled annually Billed monthly\n\nOur Fin AI Agent + Intercom plans\n\n## Essential\n\nIncludes Fin AI Agent\n\nCustomer support for individuals, startups, and small businesses.\n\nFr"
+        },
+        {
+          "url": "https://www.intercom.com/help/en/articles/891-how-to-start-a-free-trial-of-fin-and-intercom",
+          "title": "How to start a free trial of Fin and Intercom | Intercom Help",
+          "snippet": "How to start a free trial of Fin and Intercom | Intercom Help\n\n# How to start a free trial of Fin and Intercom\n\nThis article explains how to sign up for a free 14-day trial of Fin and Intercom, what's included during the trial, what happens when the trial ends, and how to save with an annual subscri"
+        },
+        {
+          "url": "https://www.intercom.com/help/en/articles/8344190-pricing-faqs",
+          "title": "Pricing FAQs | Intercom Help",
+          "snippet": "Pricing FAQs | Intercom Help\n\n# Pricing FAQs\n\nWritten by Beth-Ann Sher\n\nUpdated this week\n\nThis article refers to our new pricing plans. For information about one of our legacy plans, please log in to view these articles instead, or contact us through the Messenger.\n\n# Pricing overview\n\nHow does you"
+        },
+        {
+          "url": "https://www.intercom.com/help/en/articles/9061614-fin-and-intercom-plans-explained",
+          "title": "Fin and Intercom plans explained",
+          "snippet": "Fin and Intercom plans explained | Intercom Help\n\n# Fin and Intercom plans explained\n\nCompare plan pricing, included features, add-ons, and usage-based charges.\n\nWritten by Beth-Ann Sher\n\nUpdated this week\n\nThis article refers to our new pricing plans. For information about one of our legacy plans, "
+        },
+        {
+          "url": "https://www.intercom.com/pricing/calculator",
+          "title": "Pricing calculator",
+          "snippet": "# Pricing calculator\n\nBilled annuallyBilled monthly\n\n### Plans\n\nGet AI-powered customer service with every plan. One shared inbox lets you work smarter and collaborate faster.\n\nEssential$19per seat/mo$ 19 per seat/moAdvanced$85per seat/mo$ 85 per seat/moExpert$132per seat/mo$ 132 per seat/mo\n\n20 lit"
+        }
+      ]
+    },
+    {
+      "query": "Intercom official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.intercom.com/integrations/connectors/intercom-mcp-server",
+          "title": "Intercom MCP Server integration",
+          "snippet": "Browse all connectors\n\n# Intercom MCP Server integration\n\nLet AI tools securely access your Intercom data via MCP\n\n---\n\n## Overview\n\nIntercom's MCP server lets AI tools and CLIs (like Claude Code, Claude Desktop, ChatGPT, Cursor, and VS Code) securely access your Intercom data through the Model Cont"
+        },
+        {
+          "url": "https://developers.intercom.com/docs/guides/mcp",
+          "title": "Model Context Protocol (MCP)",
+          "snippet": "Model Context Protocol (MCP) | Intercom and Fin Developer Platform\n\n# Model Context Protocol (MCP)\n\nLearn how to use the Model Context Protocol (MCP) to enable AI agents to securely access and interact with your Intercom data whenever helpful.\n\nRegion availability\n\nThe Intercom MCP server is availab"
+        },
+        {
+          "url": "https://www.intercom.com/help/en/articles/11461635-add-mcp-connectors-for-popular-apps-or-custom-mcps",
+          "title": "Add MCP connectors for popular apps or custom MCPs | Intercom Help",
+          "snippet": "Add MCP connectors for popular apps or custom MCPs | Intercom Help\n\n# Add MCP connectors for popular apps or custom MCPs\n\nEmpower Fin with more data and actions for faster, more accurate customer resolutions with the power of MCP connectors.\n\nWritten by Davy Malone\n\nUpdated over a week ago\n\nFin can "
+        },
+        {
+          "url": "https://fin.ai/glossary/intercom-mcp-server",
+          "title": "What is Intercom MCP Server? - Fin",
+          "snippet": "Glossary Intercom MCP Server\n\n# Intercom MCP Server\n\nIntercom MCP Server is a connector that enables secure access to Intercom conversations, tickets, and user data directly inside AI tools like ChatGPT through the Model Context Protocol.\n\nThe Intercom MCP Server (Model Context Protocol) allows team"
+        },
+        {
+          "url": "https://www.intercom.com/blog/introducing-model-context-protocol-fin",
+          "title": "Introducing MCP: A new way to connect Fin and your customer data to your business tools",
+          "snippet": "Blog Customer Service\n\n# Introducing MCP: A new way to connect Fin and your customer data to your business tools\n\nLearn how MCP enables Fin to connect with your business tools seamlessly, creating more powerful, personalized customer experiences.\n\nNuno Teixeira 1 May 2025Reading time: 5 min\n\nDeliver"
+        }
+      ]
+    },
+    {
+      "query": "site:intercom.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.intercom.com/docs/guides/mcp",
+          "title": "Model Context Protocol (MCP)",
+          "snippet": "Model Context Protocol (MCP) | Intercom and Fin Developer Platform\n\n# Model Context Protocol (MCP)\n\nLearn how to use the Model Context Protocol (MCP) to enable AI agents to securely access and interact with your Intercom data whenever helpful.\n\nRegion availability\n\nThe Intercom MCP server is availab"
+        },
+        {
+          "url": "https://www.intercom.com/integrations/connectors/intercom-mcp-server",
+          "title": "Intercom MCP Server integration",
+          "snippet": "Browse all connectors\n\n# Intercom MCP Server integration\n\nLet AI tools securely access your Intercom data via MCP\n\n---\n\n## Overview\n\nIntercom's MCP server lets AI tools and CLIs (like Claude Code, Claude Desktop, ChatGPT, Cursor, and VS Code) securely access your Intercom data through the Model Cont"
+        },
+        {
+          "url": "https://www.intercom.com/integrations/connectors/mcp",
+          "title": "Custom MCP integration",
+          "snippet": "Browse all connectors\n\n# Custom MCP integration\n\nConnect any MCP-compliant tool to Fin with a custom URL\n\n---\n\n## Overview\n\nFin supports the Model Context Protocol (MCP), letting you connect any tool or data source that exposes an MCP server. Add a custom URL and auth credentials to connect any MCP-"
+        },
+        {
+          "url": "https://www.intercom.com/blog/introducing-model-context-protocol-fin",
+          "title": "Introducing MCP: A new way to connect Fin and your customer data to your business tools",
+          "snippet": "Blog Customer Service\n\n# Introducing MCP: A new way to connect Fin and your customer data to your business tools\n\nLearn how MCP enables Fin to connect with your business tools seamlessly, creating more powerful, personalized customer experiences.\n\nNuno Teixeira 1 May 2025Reading time: 5 min\n\nDeliver"
+        },
+        {
+          "url": "https://www.intercom.com/help/en/articles/15481203-fin-agent-api-mcp-server",
+          "title": "Fin Agent API: MCP Server | Intercom Help",
+          "snippet": "Fin Agent API: MCP Server | Intercom Help\n\n# Fin Agent API: MCP Server\n\nWhat the Fin Agent API MCP Server is and how to use it.\n\nWritten by Chris Dalley\n\nUpdated over 2 weeks ago\n\nThe Fin Agent API exposes a remote Model Context Protocol (MCP) server that lets external AI agents call Fin as a tool. "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://intercom.com",
+      "final_url": "https://intercom.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:03Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "c9732ed663387e6f66b70ef5bb429b4fceb89852e73993f8fbcd30ab5c5fa7fe",
+      "text_len": 8763
+    },
+    {
+      "requested_url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io/authentication",
+      "final_url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "85588b001e7f3fbad3f277cb7be6012fe0526edf2056e9111dcd408c74673675",
+      "text_len": 19996
+    },
+    {
+      "requested_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/setting-up-oauth",
+      "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/setting-up-oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "447b07d316ed6d2890204a9dfb3d7ab9c39e8c2eb50844e7a9fe9924d0759b70",
+      "text_len": 17444
+    },
+    {
+      "requested_url": "https://www.intercom.com/pricing",
+      "final_url": "https://www.intercom.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e2245efc0c4cfe92b88005f4c67c5e21980ba18cc5031b09dfd16fefa3e20966",
+      "text_len": 9122
+    },
+    {
+      "requested_url": "https://developers.intercom.com/docs/guides/mcp",
+      "final_url": "https://developers.intercom.com/docs/guides/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6deca2692a813b86f197e3b9e43d344fbdad5135ffda7f89e321644736fe32ea",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io",
+      "final_url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:58Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b816ef62d3cbc88dcf56bbb430dc7907cf7392bc335bdfdcb85cc34bf5440909",
+      "text_len": 19996
+    },
+    {
+      "requested_url": "https://www.intercom.com/help/en/articles/15481203-fin-agent-api-mcp-server",
+      "final_url": "https://www.intercom.com/help/en/articles/15481203-fin-agent-api-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c79201f81e49fa030975d3631083585b4b1fd5e54b43d70e337fd65724492131",
+      "text_len": 5078
+    },
+    {
+      "requested_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "907e276c3eaf7590b96096c0378462a7160a157706aea10207e0037d66c29235",
+      "text_len": 3505
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "quote": "OAuth is for if you're building a public app that accesses other people's Intercom data.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "quote": "An Access Token is for if you're using the API to access data in your own Intercom workspace",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.intercom.com/",
+        "quote": "14 day free trial. No credit card required.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "quote": "We provide you with an Access Token as soon as you create an app on your workspace.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io",
+        "quote": "The production API server",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.intercom.com/docs/guides/mcp",
+        "quote": "Intercom hosts a remote MCP server that follows the authenticated remote MCP specification",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/setting-up-oauth",
+        "quote": "Each development workspace automatically gives you the option to use OAuth.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://intercom.com",
+        "quote": "Intercom is the only helpdesk with a natively integrated AI Agent, Fin",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

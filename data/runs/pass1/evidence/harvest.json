@@ -1,0 +1,363 @@
+{
+  "slug": "harvest",
+  "searches": [
+    {
+      "query": "Harvest API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+          "title": "Authentication – Harvest API V2 Documentation",
+          "snippet": "Authentication – Harvest API V2 Documentation\n\nThis is the current API V2 documentation. You can still view the legacy API V1 documentation.\n\n# Authentication \n\n## Introduction\n\nThe V2 API requires an access token to authenticate requests. There are two options available to you:\n\n- A Personal Access"
+        },
+        {
+          "url": "https://help.getharvest.com/api-v2/introduction/overview/general/",
+          "title": "Overview – Harvest API V2 Documentation",
+          "snippet": "Overview – Harvest API V2 Documentation\n\nThis is the current API V2 documentation. You can still view the legacy API V1 documentation.\n\n# Overview \n\nThe Harvest V2 API is a REST API that allows you to interact with your Harvest account programmatically. You can track time, log expenses, create proje"
+        },
+        {
+          "url": "https://help.getharvest.com/api-v2/authentication-api/",
+          "title": "Authentication – Harvest API V2 Documentation",
+          "snippet": "Authentication – Harvest API V2 Documentation\n\n# Welcome to the Harvest API v2 Help Center\n\nThis is the current API V2 documentation. You can still view the legacy API V1 documentation."
+        },
+        {
+          "url": "https://support.getharvest.com/hc/en-us/articles/360048180732-The-Harvest-API",
+          "title": "The Harvest API – Harvest Help Center",
+          "snippet": "The Harvest API – Harvest Help Center\n\n# The Harvest API \n\nYour Harvest subscription includes API access for all accounts (including free and trial accounts) which can be used to manage your Harvest account. Our API documentation provides all of the details necessary to get started.\n\n## Common API q"
+        },
+        {
+          "url": "https://github.com/harvesthq/api/blob/master/Authentication/OAuth%202.0.md",
+          "title": "Authentication/OAuth%202.0.md",
+          "snippet": "# Authentication/OAuth%202.0.md\n\n- Branch: master\n- Repository: harvesthq/api\n\n---\n\n# OAuth 2.0 Authorization\n\nThe OAuth 2.0 standard provides your users with a secure way to access Harvest data without providing sensitive information like usernames and passwords.\n\n### Registering Your Application\nY"
+        }
+      ]
+    },
+    {
+      "query": "Harvest developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+          "title": "Authentication – Harvest API V2 Documentation",
+          "snippet": "Authentication – Harvest API V2 Documentation\n\nThis is the current API V2 documentation. You can still view the legacy API V1 documentation.\n\n# Authentication \n\n## Introduction\n\nThe V2 API requires an access token to authenticate requests. There are two options available to you:\n\n- A Personal Access"
+        },
+        {
+          "url": "https://help.getharvest.com/api-v2/",
+          "title": "Harvest API V2 Documentation",
+          "snippet": "Harvest API V2 Documentation\n\n# Welcome to the Harvest API v2 Help Center\n\nThis is the current API V2 documentation. You can still view the legacy API V1 documentation.\n\n### API Introduction\n\n- Overview\n- Postman Collection\n- Code Samples\n- Supported Time Zones\n- Supported Currencies\n- Pagination\n\n#"
+        },
+        {
+          "url": "https://support.getharvest.com/hc/en-us/articles/360048180732-The-Harvest-API",
+          "title": "The Harvest API – Harvest Help Center",
+          "snippet": "The Harvest API – Harvest Help Center\n\n# The Harvest API \n\nYour Harvest subscription includes API access for all accounts (including free and trial accounts) which can be used to manage your Harvest account. Our API documentation provides all of the details necessary to get started.\n\n## Common API q"
+        },
+        {
+          "url": "https://help.getharvest.com/api-v2/introduction/overview/code-samples/",
+          "title": "Code Samples – Harvest API V2 Documentation",
+          "snippet": "Code Samples – Harvest API V2 Documentation\n\nThis is the current API V2 documentation. You can still view the legacy API V1 documentation.\n\n# Code Samples \n\n## Accessing the API via code\n\nHere are several examples of using the v2 API using some popular languages:\n\n- Java\n- C#\n- Go\n- JavaScript\n- PHP"
+        },
+        {
+          "url": "https://github.com/harvesthq/api",
+          "title": "harvesthq/api",
+          "snippet": "# harvesthq/api\n\nPlease see our updated API documentation at: http://help.getharvest.com/api\n\n- Stars: 227\n- Forks: 39\n- Watchers: 227\n- Open issues: 2\n- Default branch: master\n- Created: 2012-12-06T18:21:33Z\n- Status: ARCHIVED\n\n## Top Contributors\n\n- lanej0 (37 contributions)\n- benfoxall (3 contrib"
+        }
+      ]
+    },
+    {
+      "query": "Harvest pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.getharvest.com/pricing",
+          "title": "Time Management & Invoicing at Cost Effective Pricing | Harvest",
+          "snippet": "Time Management & Invoicing at Cost Effective Pricing | Harvest\n\n# Simple & flexible pricing\n\nGet started on any plan with a free trial. No credit card required.\n\n## Free\n\nBuilt for individual freelancers\n\nstarting from\n\n $0 forever \n\nFree includes:\n\n- 1 seat\n- 2 projects\n- Time tracking\n- Invoicing"
+        },
+        {
+          "url": "https://support.getharvest.com/hc/en-us/articles/31447072608397-Information-about-pricing-plans",
+          "title": "Information about pricing plans – Harvest Help Center",
+          "snippet": "Information about pricing plans – Harvest Help Center\n\n# Information about pricing plans \n\nHarvest has two plans — Teams and Enterprise — each billed as Flex (usage-based) or Unlimited (fixed price). With Flex you pay a per-seat rate plus usage-based charges calculated on your prior billing period's"
+        },
+        {
+          "url": "https://support.getharvest.com/hc/en-us/articles/26145254105613-Is-there-a-free-version-of-Harvest",
+          "title": "Is there a free version of Harvest? – Harvest Help Center",
+          "snippet": "Is there a free version of Harvest? – Harvest Help Center\n\n# Is there a free version of Harvest? \n\nHarvest does have a free version, and it is available for anyone to use, though it does have some limitations. \n\nWhen you first sign up for a Harvest account, you get a free trial that is fully feature"
+        },
+        {
+          "url": "https://www.getharvest.com/",
+          "title": "Harvest: Time Tracking Software With Invoicing",
+          "snippet": "Time Tracking Software With Invoicing | Harvest\n\n# Turn hours into profit \n\nHarvest helps professional teams track time, bill clients, optimize team time, and measure performance with confidence.\n\n- Free 30-day trial\n- No credit card\n- Cancel anytime\n\nOver 70,000 companies use Harvest to turn tracke"
+        },
+        {
+          "url": "https://www.lilachbullock.com/harvest-pricing/",
+          "title": "Harvest Pricing: Plans, Per-Seat Costs and Free Plan",
+          "snippet": "Harvest Pricing: Plans, Per-Seat Costs and Free Plan\n\n# Harvest Pricing: Free, Teams and Enterprise Plans Per Seat, and the Usage Fees\n\n By Lilach Bullock \n\nIn this article\n\n- Harvest plans at a glance\n- What each plan includes\n- The usage fees: why 'starting from' matters\n- Monthly vs annual billin"
+        }
+      ]
+    },
+    {
+      "query": "Harvest official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://support.getharvest.com/hc/en-us/articles/46293697226381-Harvest-MCP",
+          "title": "Harvest MCP – Harvest Help Center",
+          "snippet": "Harvest MCP – Harvest Help Center\n\n# Harvest MCP \n\nThe Harvest MCP (Model Context Protocol) connection lets you work with your Harvest data through an AI assistant, using plain language instead of clicking through the app. Once it's connected, you can start and stop timers, log hours, review your ti"
+        },
+        {
+          "url": "https://www.usecarly.com/blog/chatgpt-harvest-integration/",
+          "title": "ChatGPT + Harvest: What the Integration Can (and Can't) Do in 2026",
+          "snippet": "ChatGPT + Harvest: What the Integration Can (and Can't) Do in 2026\n\n \n\n Jul 10, 2026 \n\n# ChatGPT + Harvest: What the Integration Can (and Can't) Do in 2026\n\nYes, ChatGPT can connect to Harvest — Harvest ships its own official Harvest MCP server at `api.harvestapp.com/mcp`, one of the few time tracke"
+        },
+        {
+          "url": "https://www.usecarly.com/blog/claude-harvest-integration/",
+          "title": "How to Connect Harvest to Claude (and What It Can't Do)",
+          "snippet": "How to Connect Harvest to Claude (and What It Can't Do)\n\n Jul 4, 2026 \n\n# How to Connect Harvest to Claude (and What It Can't Do)\n\nHarvest is one of the few time trackers that now ships its own official MCP server. As of mid-2026 you won’t find a Harvest tile in Claude’s connectors directory, but Ha"
+        },
+        {
+          "url": "https://docs.scalekit.com/agentkit/connectors/harvestmcp/",
+          "title": "Connect AI agents to the Harvest MCP server",
+          "snippet": "> Building with AI coding agents? Install the authstack plugin with one command. This equips your agent with accurate Scalekit implementation patterns.\n> \n> Recommended (the `-y` flags skip prompts, so the command runs without an interactive terminal):\n> \n> ```bash\n> npx -y @scalekit-inc/cli setup -"
+        },
+        {
+          "url": "https://pickmysoft.com/blog/best-time-tracking-software",
+          "title": "Best Time Tracking Software in 2026 | Top Trending | PickMySoft",
+          "snippet": "Best Time Tracking Software in 2026 | Top Trending | PickMySoft\n\n# Best Time Tracking Software in 2026 | Top Trending\n\nA Written by Ananya Tiwari\n\nP Reviewed by PickMySoft Editorial Team\n\nPublished May 22, 2026 Updated May 24, 2026 13 min read\n\nIndependent editorial: rankings and verdicts are decide"
+        }
+      ]
+    },
+    {
+      "query": "site:help.getharvest.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.getharvest.com/forecast/",
+          "title": "Forecast Help Center",
+          "snippet": "Forecast Help Center\n\n# Welcome to the Forecast Help Center\n\n### Getting started\n\n- Getting started with Forecast\n\nSee all docs\n\n### View Only resources\n\n- View Only - Getting started\n- View Only - Accessing your company's Forecast account\n- View Only - Navigating the schedule\n- View Only - Filterin"
+        },
+        {
+          "url": "https://help.getharvest.com/api-v2/",
+          "title": "Harvest API V2 Documentation",
+          "snippet": "Harvest API V2 Documentation\n\n# Welcome to the Harvest API v2 Help Center\n\nThis is the current API V2 documentation. You can still view the legacy API V1 documentation.\n\n### API Introduction\n\n- Overview\n- Postman Collection\n- Code Samples\n- Supported Time Zones\n- Supported Currencies\n- Pagination\n\n#"
+        },
+        {
+          "url": "https://help.getharvest.com/forecast/harvest-and-forecast/overview/why-integrate-with-harvest/",
+          "title": "The benefits of integrating Harvest and Forecast – Forecast Help Center",
+          "snippet": "The benefits of integrating Harvest and Forecast – Forecast Help Center\n\n# The benefits of integrating Harvest and Forecast \n\nBy reviewing three key data points about every project (budget, scheduled hours, and actual tracked time), you can stay on top of the progress of your projects and take actio"
+        },
+        {
+          "url": "https://help.getharvest.com/api-v2/introduction/index",
+          "title": "Introduction – Harvest API V2 Documentation",
+          "snippet": "Introduction – Harvest API V2 Documentation\n\n# Welcome to the Harvest API v2 Help Center\n\nThis is the current API V2 documentation. You can still view the legacy API V1 documentation."
+        },
+        {
+          "url": "https://help.getharvest.com/forecast/your-profile/harvest-id/signing-in/",
+          "title": "Harvest ID – Signing in and more – Forecast Help Center",
+          "snippet": "Harvest ID – Signing in and more – Forecast Help Center\n\n# Harvest ID – Signing in and more \n\nHarvest ID is our integrated authentication system for both Harvest and Forecast that makes it easy to access multiple accounts that use the same email address. One single sign-in page gives you access to a"
+        }
+      ]
+    },
+    {
+      "query": "site:getharvest.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://support.getharvest.com/hc/en-us/articles/46293697226381-Harvest-MCP",
+          "title": "Harvest MCP – Harvest Help Center",
+          "snippet": "Harvest MCP – Harvest Help Center\n\n# Harvest MCP \n\nThe Harvest MCP (Model Context Protocol) connection lets you work with your Harvest data through an AI assistant, using plain language instead of clicking through the app. Once it's connected, you can start and stop timers, log hours, review your ti"
+        },
+        {
+          "url": "https://www.getharvest.com/blog/in-season-summer-2026",
+          "title": "In Season: The latest from Harvest, Summer 2026",
+          "snippet": "In Season: The latest from Harvest, Summer 2026\n\n# In Season: The latest from Harvest, Summer 2026\n\n July 15, 2026 \n\nIn Season is our periodic update on what's new in Harvest, what's coming soon, and the ideas we're looking for your feedback on.\n\nHarvest connects your time tracking with the invoices"
+        },
+        {
+          "url": "https://support.getharvest.com/hc/en-us/articles/49848118155789-Harvest-plugin-for-ChatGPT",
+          "title": "Harvest plugin for ChatGPT",
+          "snippet": "Harvest plugin for ChatGPT – Harvest Help Center\n\n# Harvest plugin for ChatGPT \n\nThe Harvest plugin lets you use Harvest from a ChatGPT conversation: start and stop timers, review your time and budgets, and draft invoices, without switching to Harvest.\n\nIt runs on the Harvest MCP, the connection we "
+        },
+        {
+          "url": "https://support.getharvest.com/hc/en-us/categories/360004023672-Integrations-extensions",
+          "title": "Integrations & extensions",
+          "snippet": "Integrations & extensions – Harvest Help Center\n\n# Integrations & extensions"
+        },
+        {
+          "url": "https://support.getharvest.com/hc/en-us/sections/360010084012-Project-management-integrations",
+          "title": "Project management integrations",
+          "snippet": "Project management integrations – Harvest Help Center\n\n# Project management integrations"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://help.getharvest.com/api-v2",
+      "final_url": "https://help.getharvest.com/api-v2/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "dc29b3742a12e6ee2885b0d74c29119029e836803d9bb0ab34ad771040f7158c",
+      "text_len": 1817
+    },
+    {
+      "requested_url": "https://help.getharvest.com/api-v2/authentication-api/",
+      "final_url": "https://help.getharvest.com/api-v2/authentication-api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "bef2a227a92e8ae4094a98d97e4fdad786dc803766dc4b1c24a2ea35e07a48d3",
+      "text_len": 185
+    },
+    {
+      "requested_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e0b3d79c33862c284e825f2b062fee96845ff94a2f802c8623be8e67de7e1f63",
+      "text_len": 9082
+    },
+    {
+      "requested_url": "https://www.getharvest.com/pricing",
+      "final_url": "https://www.getharvest.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6504976d6b4f62b401382421da197261af03a77cb1c3377a552aff69fc420965",
+      "text_len": 7287
+    },
+    {
+      "requested_url": "https://support.getharvest.com/hc/en-us/articles/46293697226381-Harvest-MCP",
+      "final_url": "https://support.getharvest.com/hc/en-us/articles/46293697226381-Harvest-MCP",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:04Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8b175aaa8ffd2bf42a5a5ac596b372fc8b99532be64b20e510d18dadd0280dd1",
+      "text_len": 8389
+    },
+    {
+      "requested_url": "https://help.getharvest.com/api-v2/introduction/index",
+      "final_url": "https://help.getharvest.com/api-v2/introduction/index",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a5479313393c9528ef07227633f6355810574b102624bd316c833b5aea100227",
+      "text_len": 183
+    },
+    {
+      "requested_url": "https://help.getharvest.com/api-v2/introduction/overview/code-samples/",
+      "final_url": "https://help.getharvest.com/api-v2/introduction/overview/code-samples/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "992480c16d013389037730b79369430768e3888ddf8817c6f7864cb36c0fbf37",
+      "text_len": 504
+    },
+    {
+      "requested_url": "https://help.getharvest.com/api-v2/introduction/overview/general/",
+      "final_url": "https://help.getharvest.com/api-v2/introduction/overview/general/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "544531e888dbd0b6538e8ea6826e2a752154a1915e66744378b4bd7f28946596",
+      "text_len": 6113
+    },
+    {
+      "requested_url": "https://help.getharvest.com/llms.txt",
+      "final_url": "https://help.getharvest.com/llms.txt",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:08Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "quote": "Implementing a full OAuth2 Authentication flow which allows other people to use your Harvest integrations.",
+        "verified": true
+      },
+      {
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "quote": "The API can be accessed by creating a Personal Access Token from the Developers section of Harvest ID.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.getharvest.com/pricing",
+        "quote": "Get started on any plan with a free trial. No credit card required.",
+        "verified": true
+      },
+      {
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "quote": "The application can be created from the Developers section of Harvest ID",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://help.getharvest.com/api-v2/introduction/overview/general/",
+        "quote": "The Harvest V2 API is a REST API that allows you to interact with your Harvest account programmatically.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://support.getharvest.com/hc/en-us/articles/46293697226381-Harvest-MCP",
+        "quote": "Set the Remote MCP server URL to: https://api.harvestapp.com/mcp",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://help.getharvest.com/api-v2/introduction/overview/general/",
+        "quote": "Harvest requires applications to authenticate all requests with OAuth2 or Personal Access Tokens.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://help.getharvest.com/api-v2/introduction/overview/general/",
+        "quote": "You can track time, log expenses, create projects, and more.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

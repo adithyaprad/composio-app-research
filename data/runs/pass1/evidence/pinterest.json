@@ -1,0 +1,418 @@
+{
+  "slug": "pinterest",
+  "searches": [
+    {
+      "query": "Pinterest API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+          "title": "Set up authentication and authorization",
+          "snippet": "# Set up authentication and authorization\n\nPinterest API services are only available to authenticated and authorized users.\n\nMake sure your API requests on a user\"s behalf include a current access token that identifies the user and defines your permissions, or scopes, for using the API on their beha"
+        },
+        {
+          "url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+          "title": "Connect app",
+          "snippet": "Pinterest Developers\n\n# Connect app\n\nUse with AI\n\nThere are a few steps you need to take in order to connect your first app.\n\n1. Login or create a business account. This is the account you will use to administer your app.\n2. Verify your account's email address\n3. Go to My apps and click through to a"
+        },
+        {
+          "url": "https://developers.pinterest.com/docs/api/v5/introduction/",
+          "title": "Pinterest API - v5 docs",
+          "snippet": "Pinterest Developers\n\nSkip to content\n\nPinterest Developers\n[\nSkip to content\n](#)\n[\n##\nDeveloper Platform\n](/)"
+        },
+        {
+          "url": "https://github.com/pinterest/pinterest-python-generated-api-client/blob/main/docs/OauthApi.md",
+          "title": "docs/OauthApi.md",
+          "snippet": "# docs/OauthApi.md\n\n- Branch: main\n- Repository: pinterest/pinterest-python-generated-api-client\n\n---\n\n# openapi_generated.pinterest_client.OauthApi\n\nAll URIs are relative to *https://api.pinterest.com/v5*\n\nMethod | HTTP request | Description\n------------- | ------------- | -------------\n**oauth_tok"
+        },
+        {
+          "url": "https://github.com/pinterest/api-quickstart",
+          "title": "pinterest/api-quickstart: Code that ...",
+          "snippet": "# pinterest/api-quickstart\n\nCode that makes it easy to get started with the Pinterest API.\n\n- Stars: 212\n- Forks: 55\n- Watchers: 212\n- Open issues: 5\n- License: Apache License 2.0\n- Default branch: main\n- Created: 2021-07-07T18:32:56Z\n\n## Languages\n\n- CSS\n- JavaScript\n- Makefile\n- PHP\n- Python\n- She"
+        }
+      ]
+    },
+    {
+      "query": "Pinterest developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.pinterest.com/docs/api/v5/introduction/",
+          "title": "Pinterest API - v5 docs",
+          "snippet": "Pinterest Developers\n\nSkip to content\n\nPinterest Developers\n[\nSkip to content\n](#)\n[\n##\nDeveloper Platform\n](/)"
+        },
+        {
+          "url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+          "title": "Connect app",
+          "snippet": "Pinterest Developers\n\n# Connect app\n\nUse with AI\n\nThere are a few steps you need to take in order to connect your first app.\n\n1. Login or create a business account. This is the account you will use to administer your app.\n2. Verify your account's email address\n3. Go to My apps and click through to a"
+        },
+        {
+          "url": "https://developers.pinterest.com/docs/",
+          "title": "Pinterest Developers | Welcome",
+          "snippet": "Pinterest Developers\n\nSkip to content\n\nPinterest Developers\n[\nSkip to content\n](#)\n[\n##\nDeveloper Platform\n](/)"
+        },
+        {
+          "url": "https://developers.pinterest.com/docs/key-concepts/access-tiers/",
+          "title": "",
+          "snippet": "# Understanding our access tiers\n\nThe Pinterest API v5 significantly increases the scope of what is possible for you to create as a developer. If approved for API use, your app receives Trial access, which is best for exploring our API features. If you want to offer Pinterest capabilities to your us"
+        },
+        {
+          "url": "https://developer.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+          "title": "",
+          "snippet": "# Set up authentication and authorization\n\nPinterest API services are only available to authenticated and authorized users.\n\nMake sure your API requests on a user\"s behalf include a current access token that identifies the user and defines your permissions, or scopes, for using the API on their beha"
+        }
+      ]
+    },
+    {
+      "query": "Pinterest pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.pinterest.com/en/business/article/get-a-business-account",
+          "title": "Get a business account | Pinterest Business help",
+          "snippet": "Get a business account | Pinterest Business help\n\nSet up a free Pinterest business account to get access to analytics on your Pins and the ability to run ads. There are two ways to get a business account on Pinterest:\n\nCreate a new business account\n\nConvert a personal account into a business account"
+        },
+        {
+          "url": "https://business.pinterest.com/",
+          "title": "Pinterest Business: Marketing on Pinterest",
+          "snippet": "Marketing on Pinterest | Pinterest Business\n\n# Grow your business on Pinterest\n\nA place where ads don’t feel like ads\n\nEffective solutions for every goal\n\nBuild awareness\n\nGrow your reach and build brand or product awareness. Formats like image ads, idea ads or Premiere Spotlight video can help tell"
+        },
+        {
+          "url": "https://help.pinterest.com/en/article/get-a-pinterest-account",
+          "title": "Get a Pinterest account | Pinterest help",
+          "snippet": "Get a Pinterest account | Pinterest help\n\nPinterest is a visual discovery engine for finding ideas like recipes, home and style inspiration, and more.\n\nSet up a Pinterest account to discover Pins you love and save them to boards to keep your ideas organized and easy to find.\n\nIf you’ve never used Pi"
+        },
+        {
+          "url": "https://create.pinterest.com/ultimate-creators-guide-to-pinterest/",
+          "title": "Pinterest Create",
+          "snippet": "Pinterest Create\n\n# The ultimate creators’ guide to Pinterest\n\n5 things you need to know to get started and set up for success in no time. \n\nFind your community. Earn money. Save time creating. On Pinterest, we’ve got you covered with tools to help you reach your goals—all in a more positive place. "
+        },
+        {
+          "url": "https://www.pinterest.com/",
+          "title": "Pinterest",
+          "snippet": "Pinterest\n\n# Welcome to Pinterest\n\nJoin Pinterest for free to discover more ideas\n\nUse 8 or more letters, numbers and symbols\n\nBirthday\n\nTo help keep Pinterest safe, we now require your birthdate. Your birthdate also helps us provide more personalized recommendations and relevant ads. We won't share"
+        }
+      ]
+    },
+    {
+      "query": "Pinterest official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.pinterest.com/about-pinterest-mcp/",
+          "title": "Pinterest Developers",
+          "snippet": "Pinterest Developers\n\nYour AI just got a new \n\nPinterest MCP Server brings the power of Pinterest data directly into the AI assistants, copilots, and agentic workflows you already use. Turn natural-language questions into fast, actionable insights, uncover performance opportunities in moments, and b"
+        },
+        {
+          "url": "https://community.pinterest.biz/t/introducing-the-pinterest-mcp-server/51358",
+          "title": "Introducing the Pinterest MCP Server",
+          "snippet": "# Introducing the Pinterest MCP Server\n\nURL: https://community.pinterest.biz/t/introducing-the-pinterest-mcp-server/51358\nCategory: Developers\nTags: Resources, Engineering-blog\nCreated: September 22, 2026, 9:50pm UTC\nPosts on this page: 1\nPage: 1\n\nAuthor: @PinterestButtercup\nPost date: September 22,"
+        },
+        {
+          "url": "https://help.pinterest.com/en/mcp-interest",
+          "title": "MCP Interest | Pinterest Help",
+          "snippet": "MCP Interest | Pinterest Help\n\n Your information \n\nInterested in the Pinterest MCP? Fill in your details below and we'll reach out when early access opens.\n\n What are you most interested in using the Pinterest MCP for? \n\nSelect all that apply.\n\nFields marked with * are required."
+        },
+        {
+          "url": "https://newsroom.pinterest.com/news/cannes-2026/",
+          "title": "Pinterest unveils new AI tools for ads and personalized shopping | Pinterest Newsroom",
+          "snippet": "Pinterest unveils new AI tools for ads and personalized shopping | Pinterest Newsroom\n\n# Pinterest’s new AI tools for the discovery era: from ads to personalized shopping \n\nJune 17, 2026\n\nAs AI changes how people search, browse, and make decisions, the industry is moving beyond the traditional searc"
+        },
+        {
+          "url": "https://community.pinterest.biz/t/introducing-pinterest-ai-tools-for-smarter-faster-decision-making/47883",
+          "title": "Introducing Pinterest AI tools for smarter, faster decision-making 🚀",
+          "snippet": "# Introducing Pinterest AI tools for smarter, faster decision-making 🚀\n\nURL: https://community.pinterest.biz/t/introducing-pinterest-ai-tools-for-smarter-faster-decision-making/47883\nCategory: What's New\nTags: Creators\nCreated: July 9, 2026, 1:00pm UTC\nPosts on this page: 3\nPage: 1\n\nAuthor: @Pintere"
+        }
+      ]
+    },
+    {
+      "query": "site:developers.pinterest.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.pinterest.com/about-pinterest-mcp/",
+          "title": "Pinterest Developers",
+          "snippet": "Pinterest Developers\n\nYour AI just got a new \n\nPinterest MCP Server brings the power of Pinterest data directly into the AI assistants, copilots, and agentic workflows you already use. Turn natural-language questions into fast, actionable insights, uncover performance opportunities in moments, and b"
+        },
+        {
+          "url": "https://developers.pinterest.com/",
+          "title": "Pinterest Developers",
+          "snippet": "Pinterest Developers\n\nFacebook\n\nTwitter\n\nYouTube\n\n© 2026 Pinterest\n\n### Launch faster than ever!\n\nMaximize conversion visibility on Pinterest by using Pinterest Conversions API, Pinterest Tag, or uploading conversion data.\n\nBuild apps and experiences that allow Pinterest users to create and manage o"
+        },
+        {
+          "url": "https://developers.pinterest.com/docs/api/v5/introduction/",
+          "title": "Pinterest API - v5 docs",
+          "snippet": "Pinterest Developers\n\nSkip to content\n\nPinterest Developers\n[\nSkip to content\n](#)\n[\n##\nDeveloper Platform\n](/)"
+        },
+        {
+          "url": "https://developers.pinterest.com/docs/overview/welcome/",
+          "title": "",
+          "snippet": "# Pinterest Developer Platform Overview\n\nWelcome to the Pinterest Developer Platform. The Pinterest API allows developers to build experiences and apps for creators, advertisers, and merchants. This page provides an overview of the information you can expect to find within our documentation.\n\n- [Con"
+        },
+        {
+          "url": "https://developers.pinterest.com/usecase/ads/",
+          "title": "Pinterest Developers",
+          "snippet": "Pinterest Developers\n\nGithub\n\nStack Overflow\n\nFacebook\n\nTwitter\n\nYouTube\n\nPeople on Pinterest love shopping. In fact, compared to other social media sites, Pinterest shoppers are 1.6x more likely to feel excited about shopping / browsing on Pinterest.* The Pinterest API for Ads includes a complete s"
+        }
+      ]
+    },
+    {
+      "query": "site:pinterest.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.pinterest.com/about-pinterest-mcp/",
+          "title": "Pinterest Developers",
+          "snippet": "Pinterest Developers\n\nYour AI just got a new \n\nPinterest MCP Server brings the power of Pinterest data directly into the AI assistants, copilots, and agentic workflows you already use. Turn natural-language questions into fast, actionable insights, uncover performance opportunities in moments, and b"
+        },
+        {
+          "url": "https://newsroom.pinterest.com/news/cannes-2026/",
+          "title": "Pinterest unveils new AI tools for ads and personalized shopping | Pinterest Newsroom",
+          "snippet": "Pinterest unveils new AI tools for ads and personalized shopping | Pinterest Newsroom\n\n# Pinterest’s new AI tools for the discovery era: from ads to personalized shopping \n\nJune 17, 2026\n\nAs AI changes how people search, browse, and make decisions, the industry is moving beyond the traditional searc"
+        },
+        {
+          "url": "https://in.pinterest.com/pin/1144618061561665525/",
+          "title": "Model Context Protocol (MCP) | How It Works | Context, It works, Development",
+          "snippet": "Model Context Protocol (MCP) | How It Works | Context, It works, Development\n\nWhen autocomplete results are available use up and down arrows to review and enter to select. Touch device users, explore by touch or with swipe gestures.\n\nLog in\n\nSign up\n\n## More about this Pin\n\n### Board containing this"
+        },
+        {
+          "url": "https://in.pinterest.com/pin/mcp--326511041756329513/",
+          "title": "What Is the Model Context Protocol (MCP) and How It Works | Context, Protocol movie, It works",
+          "snippet": "# What Is the Model Context Protocol (MCP) and How It Works"
+        },
+        {
+          "url": "https://in.pinterest.com/pin/an-introduction-to-anthropics-model-context-protocol-mcp-with-python-in-2025--72761350249890890/",
+          "title": "An Introduction to Anthropic’s Model Context Protocol (MCP) with Python | Data science learning, Learn computer science, Computer science programming",
+          "snippet": "An Introduction to Anthropic’s Model Context Protocol (MCP) with Python | Data science learning, Learn computer science, Computer science programming\n\nWhen autocomplete results are available use up and down arrows to review and enter to select. Touch device users, explore by touch or with swipe gest"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developers.pinterest.com",
+      "final_url": "https://developers.pinterest.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cbe9eebc630355ff64a1798833467163e887d9e5f6d51aa6097a67e3e5f4d771",
+      "text_len": 631
+    },
+    {
+      "requested_url": "https://developers.pinterest.com/docs/api/v5/introduction/",
+      "final_url": "https://developers.pinterest.com/docs/api/v5/introduction/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:15Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "703c3c7af1312348bc9ca59fa0cc58269584a5902457e9dcd7e78f505303078f",
+      "text_len": 111
+    },
+    {
+      "requested_url": "https://developer.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+      "final_url": "https://developer.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:16Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d6dc2e59625dbd45b74e88a42de9843ddc3cccf7f36f6d6a7254015d80201ef0",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://business.pinterest.com/",
+      "final_url": "https://business.pinterest.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "be69e5d0911e0a17f1a49c0f82107c3819531a7b95a4fc68bd8961c910d45a25",
+      "text_len": 579
+    },
+    {
+      "requested_url": "https://developers.pinterest.com/about-pinterest-mcp/",
+      "final_url": "https://developers.pinterest.com/about-pinterest-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4a94a5a7aea6bacc61bb9e6dbdfa6719a387390a0f03da27ba838606b444e2c0",
+      "text_len": 2234
+    },
+    {
+      "requested_url": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+      "final_url": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:15Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d6dc2e59625dbd45b74e88a42de9843ddc3cccf7f36f6d6a7254015d80201ef0",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://help.pinterest.com/en/mcp-interest",
+      "final_url": "https://help.pinterest.com/en/mcp-interest",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "eb2388a47d75a7a4f2e7df18ed9e49739e7d42dab8f53dbf4faa50e911f25fae",
+      "text_len": 279
+    },
+    {
+      "requested_url": "https://in.pinterest.com/pin/an-introduction-to-anthropics-model-context-protocol-mcp-with-python-in-2025--72761350249890890/",
+      "final_url": "https://in.pinterest.com/pin/an-introduction-to-anthropics-model-context-protocol-mcp-with-python-in-2025--72761350249890890/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f410479f734d9f9c3a6d7eff363695783281118e4c825fa617c20c7d93e5fb62",
+      "text_len": 322
+    },
+    {
+      "requested_url": "https://developers.pinterest.com/pricing",
+      "final_url": "https://developers.pinterest.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:23Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "28bf9809cdebb4c714835c36beb80ecf00580a19be241554a44724664a4cad93",
+      "text_len": 639
+    },
+    {
+      "requested_url": "https://developers.pinterest.com/llms.txt",
+      "final_url": "https://developers.pinterest.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:24Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "b1a011f734a5efdd354996d1bf9c3caba9c3e026dbb2c76c81b3d9d4743f57b8",
+      "text_len": 10038
+    },
+    {
+      "requested_url": "https://developers.pinterest.com/docs/key-concepts/access-tiers.md",
+      "final_url": "https://developers.pinterest.com/docs/key-concepts/access-tiers.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:38Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "4899eb018f9c68d6a9b9bb91ec76c942dc32becee34251df0c4381be8e7dbf72",
+      "text_len": 6852
+    },
+    {
+      "requested_url": "https://developers.pinterest.com/docs/getting-started/connect-app.md",
+      "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:38Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "93246a33c8671dc6d969b6cb6ae308d574cd2ad02ab5d25bcc19fd81346d3ac1",
+      "text_len": 4395
+    },
+    {
+      "requested_url": "https://github.com/pinterest/pinterest-python-generated-api-client/blob/main/docs/OauthApi.md",
+      "final_url": "https://github.com/pinterest/pinterest-python-generated-api-client/blob/main/docs/OauthApi.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:15Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "708334dafafc0e513b6c2134f21814fdd036412b3ea1191dbcf4466516d9c61c",
+      "text_len": 3369
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+        "quote": "Take the following three steps to generate a token with the Authorization Code grant."
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.pinterest.com/docs/getting-started/connect-app.md",
+        "quote": "Application requests are reviewed by Pinterest. You will receive an email notification after your app has been reviewed",
+        "verified": true
+      },
+      {
+        "url": "https://developers.pinterest.com/docs/key-concepts/access-tiers.md",
+        "quote": "If approved for API use, your app receives Trial access, which is best for exploring our API features.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.pinterest.com/llms.txt",
+        "quote": "Raw OpenAPI specification for the Pinterest API v5",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.pinterest.com/about-pinterest-mcp/",
+        "quote": "Be the first to know when it launches.",
+        "verified": true
+      },
+      {
+        "url": "https://help.pinterest.com/en/mcp-interest",
+        "quote": "we'll reach out when early access opens.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.pinterest.com/docs/key-concepts/access-tiers.md",
+        "quote": "Standard upgrade requests are reviewed regularly. You will receive an email notification once a decision has been made on your app.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developers.pinterest.com/llms.txt",
+        "quote": "Pinterest's developer platform for building integrations with the Pinterest API.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [
+      {
+        "claim": "auth",
+        "url": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+        "reason": "quote not in page text"
+      }
+    ],
+    "unfetched_urls": [],
+    "warnings": [
+      "no verified snippet for auth"
+    ],
+    "retried": false,
+    "validation_errors": []
+  }
+}

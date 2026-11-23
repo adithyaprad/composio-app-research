@@ -1,0 +1,330 @@
+{
+  "slug": "vercel",
+  "searches": [
+    {
+      "query": "Vercel API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://vercel.com/docs/accounts/access-tokens",
+          "title": "Access tokens",
+          "snippet": "# Access tokens\n\nVercel access tokens authenticate requests to the Vercel REST API and the Vercel CLI on your behalf. You create and manage them on the Account Tokens page, under the Settings area of your account, and you can also create them without the dashboard using the REST API or the CLI.\n\n## "
+        },
+        {
+          "url": "https://vercel.com/docs/rest-api",
+          "title": "Vercel REST API Reference",
+          "snippet": "# Vercel REST API Reference\n\nVercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.\n\n## Access Groups\n\n| Method | Endpoint | Description |\n| --- | --- | --- |\n| GET | `/v1/access-groups/{idOrName}` | R"
+        },
+        {
+          "url": "https://vercel.com/docs/rest-api/authentication/create-an-auth-token",
+          "title": "Create an Auth Token",
+          "snippet": "# Create an Auth Token\n\n```http\nPOST /v3/user/tokens\n\n```\n\nCreates and returns a new authentication token for the currently authenticated User. The `bearerToken` property is only provided once, in the response body, so be sure to save it on the client for use with API requests.\n\n## Authentication\n\nb"
+        },
+        {
+          "url": "https://vercel.com/docs/rest-api/getting-started",
+          "title": "Make Your First Vercel API Request",
+          "snippet": "# Make Your First Vercel API Request\n\nUse a Vercel access token to call the Vercel REST API with `curl`, then make the same request with `@vercel/sdk`. Both examples retrieve at most one project with `GET /v10/projects` and do not change your account.\n\n## Related pages\n\n> For AI agents: Follow these"
+        },
+        {
+          "url": "https://vercel.com/docs/cli/api",
+          "title": "vercel api",
+          "snippet": "# vercel api\n\nThe `vercel api` command lets you make authenticated HTTP requests to the Vercel API directly from your terminal. It handles authentication automatically using your CLI session, supports interactive endpoint discovery, and provides features like automatic pagination and request body co"
+        }
+      ]
+    },
+    {
+      "query": "Vercel developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://vercel.com/docs/rest-api",
+          "title": "Vercel REST API Reference",
+          "snippet": "# Vercel REST API Reference\n\nVercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.\n\n## Access Groups\n\n| Method | Endpoint | Description |\n| --- | --- | --- |\n| GET | `/v1/access-groups/{idOrName}` | R"
+        },
+        {
+          "url": "https://vercel.com/docs/accounts/access-tokens",
+          "title": "Access tokens",
+          "snippet": "# Access tokens\n\nVercel access tokens authenticate requests to the Vercel REST API and the Vercel CLI on your behalf. You create and manage them on the Account Tokens page, under the Settings area of your account, and you can also create them without the dashboard using the REST API or the CLI.\n\n## "
+        },
+        {
+          "url": "https://vercel.com/docs/rest-api/getting-started",
+          "title": "Make Your First Vercel API Request",
+          "snippet": "# Make Your First Vercel API Request\n\nUse a Vercel access token to call the Vercel REST API with `curl`, then make the same request with `@vercel/sdk`. Both examples retrieve at most one project with `GET /v10/projects` and do not change your account.\n\n## Related pages\n\n> For AI agents: Follow these"
+        },
+        {
+          "url": "https://vercel.com/docs/cli/api",
+          "title": "vercel api",
+          "snippet": "# vercel api\n\nThe `vercel api` command lets you make authenticated HTTP requests to the Vercel API directly from your terminal. It handles authentication automatically using your CLI session, supports interactive endpoint discovery, and provides features like automatic pagination and request body co"
+        },
+        {
+          "url": "https://github.com/vercel/sdk/",
+          "title": "vercel/sdk",
+          "snippet": "# vercel/sdk\n\nVercel SDK is a type-safe Typescript SDK that gives you access to the Vercel REST API.\n\n- Stars: 166\n- Forks: 46\n- Watchers: 166\n- Open issues: 24\n- License: Apache License 2.0\n- Default branch: main\n- Created: 2024-11-22T18:35:44Z\n\n## Languages\n\n- JavaScript\n- Shell\n- TypeScript\n\n## T"
+        }
+      ]
+    },
+    {
+      "query": "Vercel pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://vercel.com/pricing",
+          "title": "Vercel Pricing",
+          "snippet": "# Vercel Pricing\n\nChoose a Vercel plan and compare features and usage pricing.\n\n## Plans\n\n| Plan | Price | Best for |\n| --- | --- | --- |\n| Hobby | $0/mo. | The perfect starting place for your web app. |\n| Pro | $20/mo. | Everything you need to build and scale your app. |\n| Enterprise | Custom | Cri"
+        },
+        {
+          "url": "https://www.vercel.com/signup?plan=pro",
+          "title": "Sign Up – Vercel",
+          "snippet": "Sign Up – Vercel\n\nContinuing will start a 14-day Pro plan trial with $20 in credit."
+        },
+        {
+          "url": "https://vercel.com/docs/plans/pro-plan/trials",
+          "title": "Understanding Vercel",
+          "snippet": "# Understanding Vercel\n\nVercel offers three plan tiers: Hobby, Pro, and Enterprise.\n\n## Related pages\n\n> For AI agents: Follow these links to understand how this page connects to the rest of the Vercel ecosystem. For the full cross-link map (inbound, outbound, prerequisites, and semantic neighbors),"
+        },
+        {
+          "url": "https://vercel.com/docs/plans",
+          "title": "Account Plans on Vercel",
+          "snippet": "# Account Plans on Vercel\n\nVercel offers multiple account plans: Hobby, Pro, and Enterprise.\n\n## Related pages\n\n> For AI agents: Follow these links to understand how this page connects to the rest of the Vercel ecosystem. For the full cross-link map (inbound, outbound, prerequisites, and semantic ne"
+        },
+        {
+          "url": "https://vercel.com/docs/accounts",
+          "title": "Account Management",
+          "snippet": "# Account Management\n\nWhen you first sign up for Vercel, you'll create an account. This account is used to manage your Vercel resources. Vercel has three types of plans:\n\n## Related pages\n\n> For AI agents: Follow these links to understand how this page connects to the rest of the Vercel ecosystem. F"
+        }
+      ]
+    },
+    {
+      "query": "Vercel official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+          "title": "Use Vercel",
+          "snippet": "# Use Vercel\n\n> Vercel MCP is available on all plans and your use is subject to Vercel's AI Product Terms.\n\nConnect your AI tools to Vercel using the Model Context Protocol (MCP),\nan open standard that lets AI assistants interact with your Vercel projects.\n\n## Related pages\n\n> For AI agents: Follow "
+        },
+        {
+          "url": "https://vercel.com/docs/cli/mcp",
+          "title": "vercel mcp",
+          "snippet": "# vercel mcp\n\nThe `vercel mcp` command helps you set up MCP clients (Claude Code, Claude.ai and Claude for desktop, Cursor, and VS Code with Copilot) to use Vercel MCP, Vercel's hosted Model Context Protocol endpoint at `https://mcp.vercel.com`. For Claude Code, the command adds Vercel MCP to the cl"
+        },
+        {
+          "url": "https://vercel.com/docs/mcp",
+          "title": "Model Context Protocol",
+          "snippet": "# Model Context Protocol\n\n## Build MCP servers and clients\n\nDeploy Model Context Protocol (MCP) servers on Vercel with mcp-handler, then call their tools from agents built with the AI SDK, eve, or TanStack AI.\n\n## Related pages\n\n> For AI agents: Follow these links to understand how this page connect"
+        },
+        {
+          "url": "https://vercel.com/blog/introducing-vercel-mcp-connect-vercel-to-your-ai-tools",
+          "title": "Introducing Vercel MCP: Connect Vercel to your AI tools",
+          "snippet": "# Introducing Vercel MCP: Connect Vercel to your AI tools\n\nPublished: August 6, 2025 | Authors: Allen Zhou, Brooke Mosby, Mark Roberts, Andrew Qu, Anthony Shew, Tom Knickman, Aparna Sinha\n\n---\n\nToday, we're launching the official Vercel MCP server, now in Public Beta. Vercel MCP is a secure, OAuth-c"
+        },
+        {
+          "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools",
+          "title": "Tools",
+          "snippet": "# Tools\n\nVercel MCP tools let your AI assistant work with your projects, deployments, logs, and other Vercel resources. Describe what you want to do, and your assistant selects the tools and supplies their parameters.\n\n## Related pages\n\n> For AI agents: Follow these links to understand how this page"
+        }
+      ]
+    },
+    {
+      "query": "site:vercel.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://vercel.com/docs/mcp",
+          "title": "Model Context Protocol",
+          "snippet": "# Model Context Protocol\n\n## Build MCP servers and clients\n\nDeploy Model Context Protocol (MCP) servers on Vercel with mcp-handler, then call their tools from agents built with the AI SDK, eve, or TanStack AI.\n\n## Related pages\n\n> For AI agents: Follow these links to understand how this page connect"
+        },
+        {
+          "url": "https://vercel.com/blog/model-context-protocol-mcp-explained",
+          "title": "Model Context Protocol (MCP) explained: An FAQ",
+          "snippet": "# Model Context Protocol (MCP) explained: An FAQ\n\nPublished: July 25, 2025 | Authors: Dan Fein, Andrew Qu\n\n---\n\nModel Context Protocol (MCP) is a new way to help standardize the way large language models (LLMs) access data and systems, extending what they can do beyond their training data. It standa"
+        },
+        {
+          "url": "https://vercel.com/docs/mcp/integrations",
+          "title": "MCP Integrations",
+          "snippet": "# MCP Integrations\n\nConnect your application or agent to a Model Context Protocol (MCP) server to use its tools. Choose an integration based on how you build your agent:\n\n## Related pages\n\n> For AI agents: Follow these links to understand how this page connects to the rest of the Vercel ecosystem. F"
+        },
+        {
+          "url": "https://vercel.com/i/mcp-vs-api",
+          "title": "MCP vs API for AI agents",
+          "snippet": "MCP gives AI applications a standard way to discover and call tools. An API defines how software accesses a service, and an MCP tool often calls that API underneath. For an agent builder, the practical choice is whether to wrap the API directly in application code or connect through an MCP server.\n\n"
+        },
+        {
+          "url": "https://vercel.com/i/ai-gateway-vs-mcp",
+          "title": "AI Gateway vs. MCP: How they fit together",
+          "snippet": "Try Jev on Vercel AI Gateway\n\nGive your application a faster way to decide what should happen next. Use Jev to route requests, flag content, and score priorities.\n\nGet started\n\nLearn more\n\nAn AI gateway sits between an agent and its models, while the Model Context Protocol (MCP) sits between the age"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://vercel.com/docs/rest-api",
+      "final_url": "https://vercel.com/docs/rest-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "90cdb206b8570a397717e0db342b1e08e1460dda6155d36b72aa45b05280eee0",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://vercel.com/docs/rest-api/authentication/create-an-auth-token",
+      "final_url": "https://vercel.com/docs/rest-api/authentication/create-an-auth-token",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d5fc23d415e3507fd863281e16043b95525707ea71246158bdd2d0532efbe341",
+      "text_len": 6442
+    },
+    {
+      "requested_url": "https://vercel.com/docs/cli/api",
+      "final_url": "https://vercel.com/docs/cli/api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7dd6e2b15ccba7423b85f11bb852e8a984a8a9e24f27a583a5a4f2f2890da1af",
+      "text_len": 8551
+    },
+    {
+      "requested_url": "https://vercel.com/docs/plans",
+      "final_url": "https://vercel.com/docs/plans",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5b86529d973efde80c0526e4bd0f8d31df62ebfd39e219457ee93dd61cc49753",
+      "text_len": 5605
+    },
+    {
+      "requested_url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+      "final_url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:53Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a5dfb113e5a1b19abcecc918b6591f14b9fd6d9d6667ba19b2d380c519c36e2a",
+      "text_len": 13952
+    },
+    {
+      "requested_url": "https://vercel.com/docs/mcp",
+      "final_url": "https://vercel.com/docs/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:53Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d1680d1b8873928adec96aae998e8260b3542c49cd8e393e3fc16b5e30c4f1f5",
+      "text_len": 10502
+    },
+    {
+      "requested_url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools",
+      "final_url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:53Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6955104954c3825ac20f23828a0988d8e1950fc6bdf736373323d307373f2cf7",
+      "text_len": 5366
+    },
+    {
+      "requested_url": "https://vercel.com/docs/cli/mcp",
+      "final_url": "https://vercel.com/docs/cli/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:53Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "26181b5b44aae4bbc3fd4f6522fcd507836994c8e742520a2270abf1431ffc4c",
+      "text_len": 4984
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://vercel.com/docs/rest-api/authentication/create-an-auth-token",
+        "quote": "Creates and returns a new authentication token for the currently authenticated User.",
+        "verified": true
+      },
+      {
+        "url": "https://vercel.com/docs/rest-api/authentication/create-an-auth-token",
+        "quote": "bearerToken: HTTP bearer",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://vercel.com/docs/plans",
+        "quote": "The Hobby plan is free.",
+        "verified": true
+      },
+      {
+        "url": "https://vercel.com/docs/plans",
+        "quote": "Vercel offers multiple account plans: Hobby, Pro, and Enterprise.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://vercel.com/docs/rest-api",
+        "quote": "List projects of an access group",
+        "verified": true
+      },
+      {
+        "url": "https://vercel.com/docs/cli/api",
+        "quote": "make authenticated HTTP requests to the Vercel API directly from your terminal",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+        "quote": "Vercel MCP is Vercel's official MCP server. It's a remote MCP with OAuth",
+        "verified": true
+      },
+      {
+        "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+        "quote": "https://mcp.vercel.com",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://vercel.com/docs/rest-api",
+        "quote": "Vercel REST API Reference",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://vercel.com/docs/rest-api",
+        "quote": "Our platform enables frontend teams to do their best work.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

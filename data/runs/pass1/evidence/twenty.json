@@ -1,0 +1,330 @@
+{
+  "slug": "twenty",
+  "searches": [
+    {
+      "query": "Twenty API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.twenty.com/developers/extend/api",
+          "title": "APIs",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# APIs\n\n> REST and GraphQL APIs generated from your workspace schema.\n\n## Schema-per-tenant APIs\n\nThere is no static AP"
+        },
+        {
+          "url": "https://docs.twenty.com/developers/extend/oauth",
+          "title": "OAuth",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth\n\n> Authorization code flow with PKCE and client credentials for server-to-server access.\n\n## Overview\n\nTwenty i"
+        },
+        {
+          "url": "https://apis.io/security/twenty/twenty-authentication/",
+          "title": "Twenty API Authentication | APIs.io",
+          "snippet": "Twenty API Authentication | APIs.io\n\n# Twenty Authentication\n\nAuthentication\n\nTwenty secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.\n\n CRM Open Source REST GraphQL Webhook Self-Hosted Companies People Opportunities Workflows AI Agents Custom Obj"
+        },
+        {
+          "url": "https://docs.twenty.com/developers/extend/apps/operations/cli",
+          "title": "CLI",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# CLI\n\n> Sign in to a workspace, explore its data and build apps from your terminal with the twenty CLI.\n\n## Running th"
+        },
+        {
+          "url": "https://integrations.sh/twenty.com/twenty-core-rest-api/",
+          "title": "Twenty Core REST API — REST",
+          "snippet": "Twenty Core REST API — REST\n\n# Twenty Core REST API\n\n Details \n\nURL\n: `https://{your-workspace-url}/rest`\nDocs\n: https://docs.twenty.com/developers/extend/api\n\nAuthentication\n\n Twenty API key bearer discovered Get token ↗ \n\n `Authorization: Bearer ` \n\nIn your Twenty workspace, go to APIs / Settings "
+        }
+      ]
+    },
+    {
+      "query": "Twenty developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.twenty.com/developers/extend/api",
+          "title": "APIs",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# APIs\n\n> REST and GraphQL APIs generated from your workspace schema.\n\n## Schema-per-tenant APIs\n\nThere is no static AP"
+        },
+        {
+          "url": "https://docs.twenty.com/developers/extend/oauth",
+          "title": "OAuth",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth\n\n> Authorization code flow with PKCE and client credentials for server-to-server access.\n\n## Overview\n\nTwenty i"
+        },
+        {
+          "url": "https://docs.twenty.com/user-guide/data-migration/how-tos/import-data-via-api",
+          "title": "Import Data via API",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Import Data via API\n\n> When and how to use Twenty's APIs for large-scale data imports.\n\n## Overview\n\nTwenty provides "
+        },
+        {
+          "url": "https://docs.twenty.com/developers/extend/extend",
+          "title": "Extend",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Extend\n\n> Extend Twenty's functionality with APIs, webhooks, and custom apps.\n\n## Overview\n\nTwenty is designed to be "
+        },
+        {
+          "url": "https://docs.twenty.com/developers/introduction",
+          "title": "Build on Twenty",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Build on Twenty\n\n> Build apps in TypeScript, connect your tools through APIs, and host Twenty yourself.\n\nBuild your f"
+        }
+      ]
+    },
+    {
+      "query": "Twenty pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://twenty.com/pricing",
+          "title": "Simple",
+          "snippet": "# Simple\n\nPricing\n\nStart your free trial today without credit card.\n\nMonthlyYearly-25%\n\nSelf-hosting\n\n### Pro\n\nA custom agentic CRM for one team.\n\n#### $9\n\n/user/month\n\nIncludes\n\n- Emails and meetings log themselvesGoogle and Microsoft email and calendar sync\n- Calls recorded, leads enrichedAnd more"
+        },
+        {
+          "url": "https://docs.twenty.com/user-guide/getting-started/how-tos/create-workspace",
+          "title": "Create a Workspace",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Create a Workspace\n\n> Follow a step-by-step guide on how to register on Twenty, choose a subscription plan, and set u"
+        },
+        {
+          "url": "https://docs.twenty.com/user-guide/billing/capabilities/pricing-plans",
+          "title": "Pricing Plans",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Pricing Plans\n\n> Learn about Twenty's pricing plans and how to switch between them.\n\n## Overview\n\nTwenty offers flexi"
+        },
+        {
+          "url": "https://twenty.com/product",
+          "title": "A CRM for teams that move fast",
+          "snippet": "# A CRM for teams that move fast\n\nTrack relationships, manage pipelines, and take action quickly with an intuitive CRM that helps your team move faster from day one with confidence.\n\nGet started Talk to us\n\nTwenty\n\nApple\n\nHome\n\nFavorites\n\nSSales Dashboard· Dashboard\n\nWorkspace\n\nCompaniesPeopleOpport"
+        },
+        {
+          "url": "https://toolgpa.com/tools/twenty/pricing",
+          "title": "Twenty pricing: every plan, free plan and trial | ToolGPA",
+          "snippet": "Twenty pricing: every plan, free plan and trial | ToolGPA\n\n# Twenty pricing\n\nTwenty has a free plan. Paid plans start at $9 per user / month, billed yearly ($12 billed monthly).\n\nFree plan Checked Nov 2, 2026 against twenty.com\n\n## Plans and prices\n\nStarts at\n\n$9 per user / month, billed yearly ($12"
+        }
+      ]
+    },
+    {
+      "query": "Twenty official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+          "title": "MCP Server",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP Server\n\n> Connect AI assistants to your Twenty workspace using the Model Context Protocol.\n\n## Overview\n\nTwenty e"
+        },
+        {
+          "url": "https://twenty.com/llms.txt",
+          "title": "",
+          "snippet": "# Twenty\n\n> Twenty is an open-source CRM. AI assistants and agents can read and write CRM data through the Model Context Protocol (MCP) server or the REST/GraphQL API.\n\nEvery endpoint is workspace-scoped: replace `{your-workspace-url}` with your workspace host (e.g. `mycompany.twenty.com` or a custo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-agent-skills/skills/use-twenty-mcp/SKILL.md",
+          "title": "",
+          "snippet": "---\nname: use-twenty-mcp\ndescription: Use when the user wants the agent to connect to an existing Twenty workspace through MCP, retrieve or inspect workspace records and metadata, or present Twenty CRM data as readable Markdown with formatted dates, values, record links, and compact tables instead o"
+        },
+        {
+          "url": "https://docs.twenty.com/developers/self-host/capabilities/security",
+          "title": "Securing your instance",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Securing your instance\n\n> Keep Twenty off the public internet and open only the few paths your integrations need.\n\n##"
+        },
+        {
+          "url": "https://elevenlabs.io/docs/reception-ai/integrations/twenty",
+          "title": "Twenty",
+          "snippet": "Twenty | ElevenLabs Documentation\n\n- Set up\n- Limitations\n- Troubleshooting\n\n# Twenty\n\nRecognize callers and add new leads to Twenty CRM through its MCP server.\n\nYour receptionist can recognize callers who are already in Twenty and add new callers as people, with their name, phone number, and why th"
+        }
+      ]
+    },
+    {
+      "query": "site:twenty.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+          "title": "MCP Server",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP Server\n\n> Connect AI assistants to your Twenty workspace using the Model Context Protocol.\n\n## Overview\n\nTwenty e"
+        },
+        {
+          "url": "https://twenty.com/llms.txt",
+          "title": "",
+          "snippet": "# Twenty\n\n> Twenty is an open-source CRM. AI assistants and agents can read and write CRM data through the Model Context Protocol (MCP) server or the REST/GraphQL API.\n\nEvery endpoint is workspace-scoped: replace `{your-workspace-url}` with your workspace host (e.g. `mycompany.twenty.com` or a custo"
+        },
+        {
+          "url": "https://docs.twenty.com/developers/extend/apps/logic/skills-and-agents",
+          "title": "Skills & Agents",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Skills & Agents\n\n> Define AI skills and agents for your app.\n\n## Overview\n\n> [!WARNING]\n> \n> Skills and agents are cu"
+        },
+        {
+          "url": "https://twenty.com/",
+          "title": "Build your Enterprise CRM at AI Speed",
+          "snippet": "# Build your Enterprise CRM at AI Speed\n\nTwenty gives technical teams the building blocks for a custom CRM that meets complex business needs and quickly adapts as the business evolves.\n\nGet started Talk to us\n\nTwenty\n\nApple\n\nHome\n\nFavorites\n\nSSales Dashboard· Dashboard\n\nWorkspace\n\nCompaniesPeopleOpp"
+        },
+        {
+          "url": "https://docs.twenty.com/developers/self-host/capabilities/security",
+          "title": "Securing your instance",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.twenty.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Securing your instance\n\n> Keep Twenty off the public internet and open only the few paths your integrations need.\n\n##"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://twenty.com",
+      "final_url": "https://twenty.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:04Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "838f7abb0fcf12fb7d03bd6877a503eb7fd756e85980c284321d8811b90bde10",
+      "text_len": 13795
+    },
+    {
+      "requested_url": "https://docs.twenty.com/developers/extend/oauth",
+      "final_url": "https://docs.twenty.com/developers/extend/oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:58Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "702d57cfb8146eb2f55a4aa0cc356b5739d5f7c869c4b05348074256f9056e46",
+      "text_len": 5148
+    },
+    {
+      "requested_url": "https://docs.twenty.com/user-guide/billing/capabilities/pricing-plans",
+      "final_url": "https://docs.twenty.com/user-guide/billing/capabilities/pricing-plans",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6fad7e3afc993bacb11cc3e75ef66decffd95de86305a165f4e55f0db90e396a",
+      "text_len": 4290
+    },
+    {
+      "requested_url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+      "final_url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1b1e97638ee85385529817351b797d8f8a97239a2ec25e7b13c0fb67c476fc52",
+      "text_len": 8018
+    },
+    {
+      "requested_url": "https://docs.twenty.com/developers/extend/api",
+      "final_url": "https://docs.twenty.com/developers/extend/api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:58Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "40a064dbce7da68dfa06d232695006ec150f7291f9875181ca3285809b5d75fb",
+      "text_len": 3220
+    },
+    {
+      "requested_url": "https://twenty.com/pricing",
+      "final_url": "https://twenty.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3aab205540bc82653e5bd33a0f05ee27c9ec397c409abf069f74ea28b95f3c6c",
+      "text_len": 9746
+    },
+    {
+      "requested_url": "https://docs.twenty.com/developers/extend/apps/logic/skills-and-agents",
+      "final_url": "https://docs.twenty.com/developers/extend/apps/logic/skills-and-agents",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:04Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "149712c873d9ed27014f3e4e372ae0bbf9f2a8c8bebd7402af19ccbe57d3c2b3",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.twenty.com/developers/extend/apps/operations/cli",
+      "final_url": "https://docs.twenty.com/developers/extend/apps/operations/cli",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:58Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fb27d7d731e59ff295d99a5e0230390a0e3d351c208fba8688fcb02ebf1caed2",
+      "text_len": 9633
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.twenty.com/developers/extend/oauth",
+        "quote": "Twenty implements OAuth 2.0 with authorization code + PKCE for user-facing apps and client credentials for server-to-server access.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.twenty.com/developers/extend/api",
+        "quote": "Create an API key in Settings → Developers → API → + Create key.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://twenty.com/pricing",
+        "quote": "Start your free trial today without credit card.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.twenty.com/user-guide/billing/capabilities/pricing-plans",
+        "quote": "Host Twenty on your own infrastructure at no cost:",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.twenty.com/developers/extend/api",
+        "quote": "Each workspace has its own schema — when you add a custom object (say `Invoice`), it immediately gets REST and GraphQL endpoints",
+        "verified": true
+      },
+      {
+        "url": "https://docs.twenty.com/developers/extend/apps/operations/cli",
+        "quote": "Use it to inspect metadata, read records, send API requests, and create, sync and debug apps.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+        "quote": "Twenty exposes an MCP server so that AI assistants — Claude Desktop, Claude Code, Cursor, ChatGPT, and others — can read and write your CRM data",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.twenty.com/developers/extend/api",
+        "quote": "Both are available as REST and GraphQL.",
+        "verified": true
+      },
+      {
+        "url": "https://twenty.com/pricing",
+        "quote": "REST & GraphQL API",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://twenty.com/",
+        "quote": "Twenty gives technical teams the building blocks for a custom CRM that meets complex business needs",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}
