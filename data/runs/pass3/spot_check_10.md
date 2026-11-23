@@ -1,8 +1,10 @@
-# Spot check: 10 random rows (pending human check)
+# Spot check: 10 random rows (human checked)
 
 A fixed-seed (`42`) random sample of 10 rows from the final 100, excluding the 20 gold and 10 holdout apps (30 rows excluded). Candidates are sorted by slug and drawn with `random.Random(42).sample`, so the list is the same on every run.
 
-**Status: pending human verification. These rows are not self-graded.** A person checks each row against the vendor's official docs and ticks one box. Screenshot paths are relative to this run folder.
+**Status: `human_checked` (2026-11-23, reviewer: human reviewer).** Result: **10/10 rows and 40/40 claims correct** (auth, access, mcp and verdict for each row). Method: opened the evidence link and compared it to the claim. The agent did not grade these rows. Screenshot paths are relative to this run folder.
+
+**Scope:** 10 random rows outside gold and holdout, checked by one person, so it supports but does not prove accuracy on the 100.
 
 ## 1. Copper (`copper`)
 
@@ -37,7 +39,7 @@ Evidence:
 
 Screenshots: `screenshots/copper/01-76027c04a9.jpg`, `screenshots/copper/02-90b1656d72.jpg`, `screenshots/copper/03-20cc1cb39d.jpg`, `screenshots/copper/04-8c5719c51a.jpg`
 
-- [ ] Confirmed against official docs
+- [x] Confirmed against official docs (4/4 claims: auth, access, mcp, verdict)
 - [ ] Needs correction (notes: ___)
 
 ## 2. Amazon Selling Partner (`amazon-selling-partner`)
@@ -72,7 +74,7 @@ Evidence:
 
 Screenshots: `screenshots/amazon-selling-partner/01-05162b962c.jpg`, `screenshots/amazon-selling-partner/02-719a3642e7.jpg`, `screenshots/amazon-selling-partner/03-61ea7f35b7.jpg`, `screenshots/amazon-selling-partner/04-70a7c17549.jpg`
 
-- [ ] Confirmed against official docs
+- [x] Confirmed against official docs (4/4 claims: auth, access, mcp, verdict)
 - [ ] Needs correction (notes: ___)
 
 ## 3. LiveAgent (`liveagent`)
@@ -112,7 +114,7 @@ Evidence:
 
 Screenshots: `screenshots/liveagent/01-c33b8e0bf5.jpg`, `screenshots/liveagent/02-aa7bf6b127.jpg`, `screenshots/liveagent/03-0cfc810319.jpg`, `screenshots/liveagent/04-e0d114bad8.jpg`
 
-- [ ] Confirmed against official docs
+- [x] Confirmed against official docs (4/4 claims: auth, access, mcp, verdict)
 - [ ] Needs correction (notes: ___)
 
 ## 4. Jira (`jira`)
@@ -148,7 +150,7 @@ Evidence:
 
 Screenshots: `screenshots/jira/01-0663cd8aff.jpg`, `screenshots/jira/02-29e487b114.jpg`, `screenshots/jira/03-f06af199ca.jpg`
 
-- [ ] Confirmed against official docs
+- [x] Confirmed against official docs (4/4 claims: auth, access, mcp, verdict)
 - [ ] Needs correction (notes: ___)
 
 ## 5. higgsfield (`higgsfield`)
@@ -183,7 +185,7 @@ Evidence:
 
 Screenshots: `screenshots/higgsfield/01-449f62accb.jpg`, `screenshots/higgsfield/02-95f5a77cb3.jpg`, `screenshots/higgsfield/03-bc88d11469.jpg`, `screenshots/higgsfield/04-671af07ffc.jpg`
 
-- [ ] Confirmed against official docs
+- [x] Confirmed against official docs (4/4 claims: auth, access, mcp, verdict)
 - [ ] Needs correction (notes: ___)
 
 ## 6. Devin (`devin`)
@@ -221,7 +223,7 @@ Evidence:
 
 Screenshots: `screenshots/devin/01-abdab1b3ff.jpg`, `screenshots/devin/02-afe65daee7.jpg`, `screenshots/devin/03-3cdfab2a58.jpg`, `screenshots/devin/04-7ceea0f5a5.jpg`
 
-- [ ] Confirmed against official docs
+- [x] Confirmed against official docs (4/4 claims: auth, access, mcp, verdict)
 - [ ] Needs correction (notes: ___)
 
 ## 7. Consensus (`consensus`)
@@ -253,7 +255,7 @@ Evidence:
 - `verdict` https://docs.consensus.app/mcp-plans-and-access (official_docs)
   > Any Consensus API key works on the MCP server.
 
-- [ ] Confirmed against official docs
+- [x] Confirmed against official docs (4/4 claims: auth, access, mcp, verdict)
 - [ ] Needs correction (notes: ___)
 
 ## 8. Otter AI (`otter-ai`)
@@ -283,7 +285,7 @@ Evidence:
 - `verdict` https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API (official_docs)
   > Otter's Public API is available for all Enterprise workspaces.
 
-- [ ] Confirmed against official docs
+- [x] Confirmed against official docs (4/4 claims: auth, access, mcp, verdict)
 - [ ] Needs correction (notes: ___)
 
 ## 9. Plain (`plain`)
@@ -322,7 +324,7 @@ Evidence:
 - `one_liner` https://plain.com (official_other)
   > Plain is the agentic platform to orchestrate customer work.
 
-- [ ] Confirmed against official docs
+- [x] Confirmed against official docs (4/4 claims: auth, access, mcp, verdict)
 - [ ] Needs correction (notes: ___)
 
 ## 10. Sherlock (`sherlock`)
@@ -356,5 +358,5 @@ Evidence:
 
 Screenshots: `screenshots/sherlock/01-eb8e266816.jpg`, `screenshots/sherlock/02-0fad000af5.jpg`
 
-- [ ] Confirmed against official docs
+- [x] Confirmed against official docs (4/4 claims: auth, access, mcp, verdict)
 - [ ] Needs correction (notes: ___)
