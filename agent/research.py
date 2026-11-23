@@ -2,7 +2,8 @@
 
 For each app: a few targeted searches + start_url -> fetch the best N pages ->
 LLM fills the row from page text only -> optional single follow-up round ->
-llms.txt MCP check while mcp_status is none (re-ask only if it found MCP pages) ->
+gap-fill of leftover official MCP/auth search hits + llms.txt MCP check while mcp_status is none
+(one re-ask, only if either found usable pages) ->
 evidence post-check -> validation (one retry with errors fed back) -> write.
 """
 
@@ -305,6 +306,82 @@ def pick_urls(app: dict, searches: list[dict], max_pages: int, already: set[str]
     return picked
 
 
+# ---------- gap-fill: leftover official MCP / auth search hits ----------
+# A general retrieval rule, not a product patch: search often finds the vendor's MCP or OAuth docs, but
+# pick_urls can fill max_pages with other official pages. Before settling the row, fetch a few of those.
+
+GAP_FILL_MAX = 3
+REPO_HOSTS = ("github.com", "gitlab.com", "bitbucket.org")
+AUTH_SIGNAL_RE = re.compile(r"oauth|authenticat|authoriz", re.I)
+LOGIN_RE = re.compile(r"\b(log[ -]?in|sign[ -]?in|sign[ -]?up)\b|/(login|signin|sign-in|signup|sign-up)\b", re.I)
+
+
+def vendor_name(app: dict) -> str:
+    """The vendor's registrable name ("acmepay" for docs.acmepay.com), or its repo org when the official
+    host is itself a shared doc/code host (github.com/acmepay/cli -> "acmepay")."""
+    domain = official_domain(app)
+    if not domain:
+        return ""
+    if domain in DOC_HOSTS:
+        start = app.get("start_url") or ""
+        segs = [s for s in urlsplit(start if "//" in start else f"https://{start}").path.split("/") if s]
+        return segs[0].lower() if domain in REPO_HOSTS and segs else ""
+    return domain.split(".")[0]
+
+
+def vendor_tier(app: dict, url: str) -> int | None:
+    """0 = official domain or its subdomains, 1 = vendor-owned sibling (same name on another TLD, a vendor
+    subdomain of a doc host, or a repo under the vendor's org), None = not vendor-owned."""
+    parts = urlsplit(url.lower())
+    host = (parts.hostname or "").removeprefix("www.")
+    domain, name = official_domain(app), vendor_name(app)
+    if not name:
+        return None
+    if domain not in DOC_HOSTS and _host_matches(host, domain):
+        return 0
+    if any(_host_matches(host, d) for d in REPO_HOSTS):
+        org = next((s for s in parts.path.split("/") if s), "")
+        return 1 if org == name or name in org.split("-") else None
+    if any(_host_matches(host, d) for d in DOC_HOSTS):
+        return 1 if name in host.split(".")[:-2] else None  # acmepay.readme.io, not readme.io/acmepay
+    return 1 if base_domain(host).split(".")[0] == name else None  # developers.acmepay.io for acmepay.com
+
+
+def gap_signal(url: str, title: str) -> str | None:
+    """"mcp" or "auth" when the URL or title looks like MCP or API-auth/OAuth docs."""
+    if "mcp" in url.lower() or MCP_TEXT_RE.search(title):
+        return "mcp"
+    text = f"{url} {title}"
+    if AUTH_SIGNAL_RE.search(text) and not (LOGIN_RE.search(text) and "oauth" not in text.lower()):
+        return "auth"
+    return None
+
+
+def gap_fill_urls(app: dict, searches: list[dict], seen: set[str], row: dict | None,
+                  limit: int = GAP_FILL_MAX) -> list[str]:
+    """Unfetched vendor-owned search results that look like MCP or API-auth docs, best first.
+
+    MCP hits count only while MCP is unresolved (no row or mcp_status none); auth hits always count.
+    Order: official-domain MCP, official-domain auth, sibling/repo MCP, sibling/repo auth, then search order.
+    """
+    want_mcp = not row or row.get("mcp_status") in (None, "none")
+    ranked: list[tuple[int, int, str]] = []
+    keys = set(seen)
+    for s in searches:
+        for r in s["results"]:
+            url = r.get("url") or ""
+            key = normalize_url(url) if url.startswith("http") else ""
+            if not key or key in keys:
+                continue
+            tier = vendor_tier(app, url)
+            signal = gap_signal(url, r.get("title") or "")
+            if tier is None or signal is None or (signal == "mcp" and not want_mcp):
+                continue
+            keys.add(key)
+            ranked.append((tier * 2 + (signal == "auth"), len(ranked), url))
+    return [u for _, _, u in sorted(ranked)[:limit]]
+
+
 # ---------- per-app research ----------
 
 @dataclass
@@ -508,14 +585,18 @@ class Researcher:
                 res = self._llm(messages, stats, attempts, "follow_up", slug)
                 row, snippets, checks, errors = self._evaluate(app, res, pages)
 
+            # Before settling the row: leftover official MCP / auth search hits the page cap crowded out.
+            gap = self._fetch_new(slug, gap_fill_urls(app, searches, seen, row), stats, seen)
+            pages += gap
             # Before settling on mcp_status none: llms.txt often lists an MCP docs page the search missed.
             new = self._fetch_new(slug, self.mcp_llms_txt_urls(app, pages, row), stats, seen)
             new += self._fetch_new(slug, [u for p in new if p.ok for u in mcp_links(p)], stats, seen)
             pages += new
-            if any(p.ok and MCP_TEXT_RE.search(p.text) for p in new):
+            gap_ok = any(p.ok for p in gap)
+            if gap_ok or any(p.ok and MCP_TEXT_RE.search(p.text) for p in new):  # one re-ask for both passes
                 messages = [{"role": "user",
                              "content": prompts.research_prompt(app, pages, self.per_page_chars, False)}]
-                res = self._llm(messages, stats, attempts, "mcp_check", slug)
+                res = self._llm(messages, stats, attempts, "gap_fill" if gap_ok else "mcp_check", slug)
                 row, snippets, checks, errors = self._evaluate(app, res, pages)
 
             retried = False
