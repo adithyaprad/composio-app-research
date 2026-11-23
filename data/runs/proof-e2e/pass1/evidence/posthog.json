@@ -1,0 +1,337 @@
+{
+  "slug": "posthog",
+  "searches": [
+    {
+      "query": "PostHog API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://posthog.com/docs/api/personal-api-keys",
+          "title": "Personal API keys",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# Personal API keys\n\nCanonical URL: https://posthog.com/docs/api/personal-api-keys\n\n> Cloud region: This page uses US Cloud hosts. For an EU Cloud project, use `https://eu.posthog.c"
+        },
+        {
+          "url": "https://posthog.com/docs/api/",
+          "title": "API overview",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# API overview\n\nCanonical URL: https://posthog.com/docs/api\n\n## On this page\n\n- Authentication\n- Rate limiting\n- Responses\n- Pagination\n- Tips\n- GitHub secret scanning\n\nPostHog has "
+        },
+        {
+          "url": "https://posthog.com/docs/api/scopes",
+          "title": "API scopes",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# API scopes\n\nCanonical URL: https://posthog.com/docs/api/scopes\n\nA scope grants access to one part of PostHog, such as feature flags or insights. You choose scopes when you create "
+        },
+        {
+          "url": "https://posthog.com/docs/api/oauth",
+          "title": "OAuth integration",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# OAuth integration\n\nCanonical URL: https://posthog.com/docs/api/oauth\n\n## On this page\n\n- OAuth server endpoints\n- Client ID Metadata Document (CIMD)\n- Server metadata discovery\n- "
+        },
+        {
+          "url": "https://posthog.com/docs/endpoints/surfaces/api",
+          "title": "Call endpoints from your app",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# Call endpoints from your app\n\nCanonical URL: https://posthog.com/docs/endpoints/surfaces/api\n\n> Cloud region: This page uses US Cloud hosts. For an EU Cloud project, use `https://"
+        }
+      ]
+    },
+    {
+      "query": "PostHog developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://posthog.com/docs/api/",
+          "title": "API overview",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# API overview\n\nCanonical URL: https://posthog.com/docs/api\n\n## On this page\n\n- Authentication\n- Rate limiting\n- Responses\n- Pagination\n- Tips\n- GitHub secret scanning\n\nPostHog has "
+        },
+        {
+          "url": "https://posthog.com/docs/api/scopes",
+          "title": "API scopes",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# API scopes\n\nCanonical URL: https://posthog.com/docs/api/scopes\n\nA scope grants access to one part of PostHog, such as feature flags or insights. You choose scopes when you create "
+        },
+        {
+          "url": "https://github.com/PostHog/posthog.com/blob/master/contents/docs/api/personal-api-keys.mdx",
+          "title": "personal-api-keys.mdx - PostHog",
+          "snippet": "posthog.com/contents/docs/api/personal-api-keys.mdx at master · PostHog/posthog.com · GitHub\n\n# personal-api-keys.mdx\n\n# personal-api-keys.mdx\n\n## File metadata and controls\n\n| title | Personal API keys |\n| --- | --- |\n| sidebar | Docs |\n| showTitle | true |\n\nPersonal API keys authenticate requests "
+        },
+        {
+          "url": "https://posthog.com/docs/endpoints/surfaces/api",
+          "title": "Call endpoints from your app",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# Call endpoints from your app\n\nCanonical URL: https://posthog.com/docs/endpoints/surfaces/api\n\n> Cloud region: This page uses US Cloud hosts. For an EU Cloud project, use `https://"
+        },
+        {
+          "url": "https://posthog.com/docs/api/queries.md",
+          "title": "API queries - Docs",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# API queries\n\nCanonical URL: https://posthog.com/docs/api/queries\n\n> **Cloud region:** This page uses US Cloud hosts. For an EU Cloud project, use `https://eu.posthog.com` instead "
+        }
+      ]
+    },
+    {
+      "query": "PostHog pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://posthog.com/pricing",
+          "title": "PostHog pricing – Start free, scale when you need",
+          "snippet": "PostHog pricing – Start free, scale when you need\n\n# 97% of companies use PostHog for free.\n\nOne day we’d like your money, but not today. Only add a card if you need more than the free tier limits, advanced features, or want more projects. Your free allowance renews every month. Yes, for everything."
+        },
+        {
+          "url": "https://posthog.com/docs/billing/common-questions",
+          "title": "Common questions about billing",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# Common questions about billing\n\nCanonical URL: https://posthog.com/docs/billing/common-questions\n\n> Cloud region: This page uses US Cloud hosts. For an EU Cloud project, use `http"
+        },
+        {
+          "url": "https://posthog.com/faq",
+          "title": "FAQ - PostHog",
+          "snippet": "FAQ - PostHog\n\n# FAQ\n\n## About PostHog\n\n### What is PostHog?\n\nPostHog is the leading platform for building self-driving products. With a full suite of developer tools – AI observability, product analytics, session replay, feature flags, experiments, error tracking, logs, surveys, and more – PostHog "
+        },
+        {
+          "url": "https://posthog.com/experiments/pricing",
+          "title": "Experiments pricing – PostHog",
+          "snippet": "Experiments pricing – PostHog\n\n## How pricing works\n\nBilled with\n\nFeature Flags\n\nExperiments are bundled with Feature Flags and share volume limits, so you get access to both products for the same price.\n\n- 1 million requests free every month\n- Usage billed as Feature Flags requests after the free t"
+        },
+        {
+          "url": "https://posthog.com/docs/product-analytics/pricing",
+          "title": "Product Analytics pricing",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# Product Analytics pricing\n\nCanonical URL: https://posthog.com/docs/product-analytics/pricing\n\nProduct Analytics comes with a generous free tier and transparent, usage-based pricin"
+        }
+      ]
+    },
+    {
+      "query": "PostHog official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://posthog.com/docs/model-context-protocol/faq",
+          "title": "PostHog MCP FAQ and advanced setup",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# PostHog MCP FAQ and advanced setup\n\nCanonical URL: https://posthog.com/docs/model-context-protocol/faq\n\n> Cloud region: This page uses US Cloud hosts. For an EU Cloud project, use"
+        },
+        {
+          "url": "https://posthog.com/mcp",
+          "title": "PostHog MCP server",
+          "snippet": "# PostHog MCP server\n\n> For AI agents that act for a user. This is the plain version of https://posthog.com/mcp. Built 2026-11-23 from the PostHog docs and the live tool schema. If a detail here conflicts with https://posthog.com/docs/model-context-protocol/faq.md, the FAQ is correct.\n\n## What to do"
+        },
+        {
+          "url": "https://github.com/PostHog/posthog/blob/master/services/mcp/README.md",
+          "title": "services/mcp/README.md",
+          "snippet": "# services/mcp/README.md\n\n- Branch: master\n- Repository: PostHog/posthog\n\n---\n\n# PostHog MCP\n\nThe official MCP server for PostHog. PostHog makes your product self-driving — it reads your data and ships changes with you, never without you — and this server gives MCP clients (Claude, Cursor, VS Code, "
+        },
+        {
+          "url": "https://posthog.com/docs/model-context-protocol/tools",
+          "title": "PostHog MCP tools reference",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# PostHog MCP tools reference\n\nCanonical URL: https://posthog.com/docs/model-context-protocol/tools\n\n## On this page\n\n- Available MCP tools\n- CLI mode commands\n- Keep exploring\n\nThe"
+        },
+        {
+          "url": "https://posthog.com/docs/model-context-protocol/claude-code",
+          "title": "PostHog MCP for Claude Code",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# PostHog MCP for Claude Code\n\nCanonical URL: https://posthog.com/docs/model-context-protocol/claude-code\n\n## On this page\n\n- Server URL\n- Quick install\n- Claude Code plugin\n- Manua"
+        }
+      ]
+    },
+    {
+      "query": "site:posthog.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://posthog.com/docs/model-context-protocol",
+          "title": "Model Context Protocol (MCP)",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# Model Context Protocol (MCP)\n\nCanonical URL: https://posthog.com/docs/model-context-protocol\n\n## On this page\n\n- Get started in 30 seconds\n- What can you do with the PostHog MCP?\n"
+        },
+        {
+          "url": "https://posthog.com/mcp",
+          "title": "PostHog MCP server",
+          "snippet": "# PostHog MCP server\n\n> For AI agents that act for a user. This is the plain version of https://posthog.com/mcp. Built 2026-11-23 from the PostHog docs and the live tool schema. If a detail here conflicts with https://posthog.com/docs/model-context-protocol/faq.md, the FAQ is correct.\n\n## What to do"
+        },
+        {
+          "url": "https://posthog.com/docs/model-context-protocol/tools",
+          "title": "PostHog MCP tools reference",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# PostHog MCP tools reference\n\nCanonical URL: https://posthog.com/docs/model-context-protocol/tools\n\n## On this page\n\n- Available MCP tools\n- CLI mode commands\n- Keep exploring\n\nThe"
+        },
+        {
+          "url": "https://posthog.com/docs/model-context-protocol/faq",
+          "title": "PostHog MCP FAQ and advanced setup",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# PostHog MCP FAQ and advanced setup\n\nCanonical URL: https://posthog.com/docs/model-context-protocol/faq\n\n> Cloud region: This page uses US Cloud hosts. For an EU Cloud project, use"
+        },
+        {
+          "url": "https://posthog.com/blog/machine-copy-paste-mcp-intro",
+          "title": "MCP: machine copy/paste",
+          "snippet": "> AI agents: this is one page from PostHog's docs. Full index of Markdown docs for LLMs: https://posthog.com/llms.txt\n\n# MCP: machine copy/paste\n\nCanonical URL: https://posthog.com/blog/machine-copy-paste-mcp-intro\n\n## On this page\n\n- Are you down with MCP?\n- Saving labor with MCP\n- The power is you"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://posthog.com",
+      "final_url": "https://posthog.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:40Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "397322b5612f9a12dd8db3bdf97f94aa0966aa89d5d041e0666c7c86a0f2e925",
+      "text_len": 5566
+    },
+    {
+      "requested_url": "https://posthog.com/docs/api/oauth",
+      "final_url": "https://posthog.com/docs/api/oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3437bad2b05eb2e3c09c036b56bd73d6314ec509bb030b64b6be9067ad3c8ca8",
+      "text_len": 15431
+    },
+    {
+      "requested_url": "https://posthog.com/docs/api/",
+      "final_url": "https://posthog.com/docs/api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6eb334442abe8f7f85abe0c337bd792e9487beb3bbc5690c4d690803d531f674",
+      "text_len": 10048
+    },
+    {
+      "requested_url": "https://posthog.com/docs/product-analytics/pricing",
+      "final_url": "https://posthog.com/docs/product-analytics/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:37Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b20458195c4199ca942bd81721b459d058786342d15ead735455841a660164c4",
+      "text_len": 1198
+    },
+    {
+      "requested_url": "https://posthog.com/mcp",
+      "final_url": "https://posthog.com/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:38Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ab5226e4235f8ef3f2fd1ba1c7f14db47b769222f32a735c3145c68caa47f8a3",
+      "text_len": 9382
+    },
+    {
+      "requested_url": "https://posthog.com/blog/machine-copy-paste-mcp-intro",
+      "final_url": "https://posthog.com/blog/machine-copy-paste-mcp-intro",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:40Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "50cbc0e1ed314e410f422a05d2e12648a17a09cca010925b545074d4f399c843",
+      "text_len": 5367
+    },
+    {
+      "requested_url": "https://posthog.com/docs/billing/common-questions",
+      "final_url": "https://posthog.com/docs/billing/common-questions",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:37Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b698515188ae2769b878481ad801819cfd500cbd8d9d6f6f54329d6cdc3395fd",
+      "text_len": 5944
+    },
+    {
+      "requested_url": "https://posthog.com/experiments/pricing",
+      "final_url": "https://posthog.com/experiments/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:37Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b6ba754bf2cf1bf604ea36aaa143e68a3667e711b226d3a183693a0a047d0448",
+      "text_len": 3543
+    },
+    {
+      "requested_url": "https://posthog.com/llms.txt",
+      "final_url": "https://posthog.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:40Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "264bb2cd398e7d137abdd32ff75307e92eb27ca58ffafc684a380b30f14f4370",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://posthog.com/docs/api/",
+        "quote": "Personal API keys – Use these when you're using PostHog from your own scripts, automations, or any integration tied to your own account.",
+        "verified": true
+      },
+      {
+        "url": "https://posthog.com/docs/api/oauth",
+        "quote": "PostHog supports OAuth 2.0 for third-party applications to access PostHog on behalf of users.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://posthog.com/docs/billing/common-questions",
+        "quote": "PostHog is usage-based and you can use it for free for as long as you want, no trial needed.",
+        "verified": true
+      },
+      {
+        "url": "https://posthog.com",
+        "quote": "No credit card required",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://posthog.com/docs/api/",
+        "quote": "PostHog has a powerful API that enables you to capture, evaluate, create, update, and delete nearly all of your information in PostHog.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://posthog.com/mcp",
+        "quote": "A hosted MCP server. It gives an agent read and write access to a PostHog project",
+        "verified": true
+      },
+      {
+        "url": "https://posthog.com/mcp",
+        "quote": "Endpoint: `https://mcp.posthog.com/mcp` (streamable HTTP).",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://posthog.com/docs/api/",
+        "quote": "The API is available for all users and instances.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://posthog.com/llms.txt",
+        "quote": "It includes tools for product analytics, session replay, feature flags, A/B testing, error tracking, surveys, AI observability, web analytics, a data warehouse, and more.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

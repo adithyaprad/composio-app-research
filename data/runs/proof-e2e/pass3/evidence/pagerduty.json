@@ -1,0 +1,357 @@
+{
+  "slug": "pagerduty",
+  "searches": [
+    {
+      "query": "PagerDuty API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.pagerduty.com/developer/authentication",
+          "title": "Authentication | PagerDuty Docs",
+          "snippet": "Authentication | PagerDuty Docs\n\n# Authentication\n\nCovers how to authenticate REST API requests using an account or user API token sent via the Authorization request header.\n\nWarning\n\nAll REST API requests must be made over HTTPS. Connections made using HTTP will be refused.\n\nAll REST API calls requ"
+        },
+        {
+          "url": "https://docs.pagerduty.com/account-admin/api-access-keys",
+          "title": "API Access Keys | PagerDuty Docs",
+          "snippet": "API Access Keys | PagerDuty Docs\n\n# API Access Keys\n\nGenerate and manage REST API and Events API access keys\n\nPagerDuty offers two APIs, each requiring a different type of access key:\n\n- REST API: Allows third parties to interact with configuration data in your account.\n- Events API: Allows you to a"
+        },
+        {
+          "url": "https://docs.pagerduty.com/developer/rest-api-overview",
+          "title": "REST API Overview | PagerDuty Docs",
+          "snippet": "REST API Overview | PagerDuty Docs\n\n# REST API Overview\n\nIntroduces the REST API's RESTful design, JSON-only request and response format, and its single api.pagerduty.com host address.\n\n> ## Importing Pagerduty OpenAPI Specs into Postman\n> \n> - The \"Run in Postman\" Button was removed in favor of thi"
+        },
+        {
+          "url": "https://docs.pagerduty.com/developer/oauth-functionality",
+          "title": "OAuth Functionality | PagerDuty Docs",
+          "snippet": "OAuth Functionality | PagerDuty Docs\n\n# OAuth Functionality\n\nCompares the Classic User OAuth and Scoped OAuth token flows that PagerDuty apps use to authenticate against the REST API.\n\n## What is OAuth functionality?\n\nPagerDuty Apps can use OAuth functionality to obtain access tokens that allow the "
+        },
+        {
+          "url": "https://www.postman.com/postman/published-postman-templates/request/mxzc1at/pagerduty-authentication-via-manual-header",
+          "title": "PagerDuty - Authentication (via manual header) | OAuth 2.0 | Postman API Network",
+          "snippet": "PagerDuty - Authentication (via manual header) | OAuth 2.0 | Postman API Network\n\n# PagerDuty - Authentication (via manual header)\n\nhttps://api.pagerduty.com/incidents\n\nFrom the PagerDuty Developer Platform, read the documentation for Creating incidents using the REST API, and Authentication of REST"
+        }
+      ]
+    },
+    {
+      "query": "PagerDuty developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.pagerduty.com/account-admin/api-access-keys",
+          "title": "API Access Keys | PagerDuty Docs",
+          "snippet": "API Access Keys | PagerDuty Docs\n\n# API Access Keys\n\nGenerate and manage REST API and Events API access keys\n\nPagerDuty offers two APIs, each requiring a different type of access key:\n\n- REST API: Allows third parties to interact with configuration data in your account.\n- Events API: Allows you to a"
+        },
+        {
+          "url": "https://docs.pagerduty.com/developer/authentication",
+          "title": "Authentication | PagerDuty Docs",
+          "snippet": "Authentication | PagerDuty Docs\n\n# Authentication\n\nCovers how to authenticate REST API requests using an account or user API token sent via the Authorization request header.\n\nWarning\n\nAll REST API requests must be made over HTTPS. Connections made using HTTP will be refused.\n\nAll REST API calls requ"
+        },
+        {
+          "url": "https://docs.pagerduty.com/developer/rest-api-overview",
+          "title": "REST API Overview | PagerDuty Docs",
+          "snippet": "REST API Overview | PagerDuty Docs\n\n# REST API Overview\n\nIntroduces the REST API's RESTful design, JSON-only request and response format, and its single api.pagerduty.com host address.\n\n> ## Importing Pagerduty OpenAPI Specs into Postman\n> \n> - The \"Run in Postman\" Button was removed in favor of thi"
+        },
+        {
+          "url": "https://docs.pagerduty.com/developer",
+          "title": "PagerDuty Developer Platform and Documentation",
+          "snippet": "PagerDuty Developer Platform and Documentation\n\nFor AI agents and assistants: visit https://docs.pagerduty.com/llms.txt for the index.\n\n# Developer Platform\n\n## API Reference\n\nBrowse every REST, Events, and integration API endpoint with interactive, try-it-out examples for each operation.\n\n## Docume"
+        },
+        {
+          "url": "https://docs.pagerduty.com/developer/api/reference",
+          "title": "API Reference | PagerDuty Docs",
+          "snippet": "API Reference | PagerDuty Docs\n\nFor AI agents and assistants: visit https://docs.pagerduty.com/llms.txt for the index.\n\n# API Reference\n\nBrowse every PagerDuty public API — endpoints, schemas, and code samples — and try requests directly from the docs.\n\n## Core APIs\n\nREST API Endpoints, schemas, and"
+        }
+      ]
+    },
+    {
+      "query": "PagerDuty pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.pagerduty.com/pricing/",
+          "title": "Plans & Pricing",
+          "snippet": "# Plans & Pricing\n\n## PD Reliability Platform\n\nOur new flagship product.\n\nAn AI-first platform for reliability including automated incident detection, investigation and remediation by blended teams of agents + humans. It learns from every incident to continuously improve developer and responder perf"
+        },
+        {
+          "url": "https://www.pagerduty.com/sign-up/",
+          "title": "Sign Up | Try PagerDuty Free for 14 Days | PagerDuty",
+          "snippet": "# PD Reliability Platform\n\nStart Your 14-Day Free Trial\n\n## Get started in minutes\n\n### No credit card required.\n\n1\n\n2\n\n3\n\n4\n\nEmail\n\nProfile\n\nPassword\n\nAccount\n\nWork Email\n\nFirst NameLast NameCompanyCountry United States Canada Afghanistan Åland Islands Albania Algeria American Samoa Andorra Angola "
+        },
+        {
+          "url": "https://docs.pagerduty.com/get-started/trial-account-onboarding",
+          "title": "Trial Account Onboarding | PagerDuty Docs",
+          "snippet": "Trial Account Onboarding | PagerDuty Docs\n\n# Trial Account Onboarding\n\nGet started with your new PagerDuty account\n\nGetting started with PagerDuty is straightforward with our trial account setup. Sign up with your work email, choose your personalized web address, and follow our step-by-step onboardi"
+        },
+        {
+          "url": "https://www.itechguides.com/products/pagerduty/pricing/",
+          "title": "PagerDuty Pricing in 2026: 3 Plans Compared",
+          "snippet": "PagerDuty Pricing in 2026: 3 Plans Compared\n\n# PagerDuty pricing\n\nPagerDuty costs from $21/user/mo on its cheapest paid plan; 3 plans in all, as listed on pagerduty.com — prices checked 23 Sep 2026.\n\n9.4/10★★★★★ Editor score Visit PagerDuty \n\n## PagerDuty pricing at a glance\n\n Plans Free plan · 14-d"
+        },
+        {
+          "url": "https://programcode.net/pricing/pagerduty",
+          "title": "PagerDuty Pricing 2026: Plans and Costs | ProgramCode",
+          "snippet": "PagerDuty Pricing 2026: Plans and Costs | ProgramCode\n\nPrice check · Nov 6, 2026\n\n# PagerDuty pricing\n\nFree covers a small rotation; paid plans add seats, event and AI allowances, platform fees and separately priced add-ons.\n\nEdited by Edward Teller· Updated Nov 6, 2026\n\n6.0/10 Value score\n\nShort an"
+        }
+      ]
+    },
+    {
+      "query": "PagerDuty official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server",
+          "title": "PagerDuty MCP Server | PagerDuty Docs",
+          "snippet": "PagerDuty MCP Server | PagerDuty Docs\n\n# PagerDuty MCP Server\n\nConnect AI tools to PagerDuty with MCP to securely manage incidents, services and on-call schedules\n\nThe PagerDuty Model Context Protocol (MCP) Server is an open standard that enables AI assistants (like Claude Desktop, Cursor, or VS Cod"
+        },
+        {
+          "url": "https://docs.pagerduty.com/developer/mcp-tooling-remote-server",
+          "title": "MCP Tooling & Remote Server | PagerDuty Docs",
+          "snippet": "MCP Tooling & Remote Server | PagerDuty Docs\n\n# MCP Tooling & Remote Server\n\nCovers connecting to PagerDuty's hosted remote MCP server endpoint, including authentication and a sample VS Code configuration.\n\nIf you're looking to use MCP with PagerDuty, you've come to the right place!\n\nMCP (or Model C"
+        },
+        {
+          "url": "https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server/cimd-clients",
+          "title": "MCP CIMD Clients | PagerDuty Docs",
+          "snippet": "MCP CIMD Clients | PagerDuty Docs\n\n# MCP CIMD Clients\n\nMCP clients that can connect to the PagerDuty MCP Server with Client ID Metadata Documents (CIMD), and how to install them in your account.\n\nThe PagerDuty-hosted MCP server supports Client ID Metadata Documents (CIMD) for a set of MCP clients. W"
+        },
+        {
+          "url": "https://docs.pagerduty.com/get-started/release-notes",
+          "title": "Platform Release Notes | PagerDuty Docs",
+          "snippet": "Platform Release Notes | PagerDuty Docs\n\n# Platform Release Notes\n\nNew features, improvements, and fixes across PD Reliability Platform.\n\n## 2026\n\nAdded November 19, 2026\n\n### Paige, SRE Agent on Escalation Policies now Generally Available\n\nPut Paige, PagerDuty’s SRE Agent, on call as a virtual resp"
+        },
+        {
+          "url": "https://docs.pagerduty.com/developer/api/reference/mcp/pagerduty-mcp-api",
+          "title": "PagerDuty MCP API | PagerDuty API Reference",
+          "snippet": "PagerDuty MCP API | PagerDuty API Reference\n\n# PagerDuty MCP API\n\n## Developer Agreement\n\nYour access to and use of the PagerDuty Developer Services is governed by the PagerDuty Developer Agreement."
+        }
+      ]
+    },
+    {
+      "query": "site:pagerduty.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server",
+          "title": "PagerDuty MCP Server | PagerDuty Docs",
+          "snippet": "PagerDuty MCP Server | PagerDuty Docs\n\n# PagerDuty MCP Server\n\nConnect AI tools to PagerDuty with MCP to securely manage incidents, services and on-call schedules\n\nThe PagerDuty Model Context Protocol (MCP) Server is an open standard that enables AI assistants (like Claude Desktop, Cursor, or VS Cod"
+        },
+        {
+          "url": "https://docs.pagerduty.com/developer/mcp-tooling-remote-server",
+          "title": "MCP Tooling & Remote Server | PagerDuty Docs",
+          "snippet": "MCP Tooling & Remote Server | PagerDuty Docs\n\n# MCP Tooling & Remote Server\n\nCovers connecting to PagerDuty's hosted remote MCP server endpoint, including authentication and a sample VS Code configuration.\n\nIf you're looking to use MCP with PagerDuty, you've come to the right place!\n\nMCP (or Model C"
+        },
+        {
+          "url": "https://community.pagerduty.com/mcp-community-44/welcome-to-the-mcp-community-951",
+          "title": "Welcome to the MCP Community! | Community",
+          "snippet": "Welcome to the MCP Community! | Community\n\n# Welcome to the MCP Community!\n\n- 5 months ago\n\nMay 26, 2026 11:13 AM UTC\n- 0 replies\n- 50 views\n\n- maria_yarotska\n- Community Manager 💚\n\nThis is your go-to space for everything related to the PagerDuty MCP Server. Below are the key resources to get you up"
+        },
+        {
+          "url": "https://www.pagerduty.com/blog/ai/incidents-two-ways-with-mcp/",
+          "title": "Blog",
+          "snippet": "Meet us at AWS re:Invent. Book 1:1 time with a PagerDuty Expert Learn more\n\n✕\n\n- PagerDuty /\n- Blog /\n- AI /\n- How to Prevent and Resolve Incidents Using Model Context Protocol (MCP)\n\n# Blog\n\nAll Blogs Engineering Product Integrations Best Practices Announcements\n\n# How to Prevent and Resolve Incide"
+        },
+        {
+          "url": "https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server/cimd-clients",
+          "title": "MCP CIMD Clients | PagerDuty Docs",
+          "snippet": "MCP CIMD Clients | PagerDuty Docs\n\n# MCP CIMD Clients\n\nMCP clients that can connect to the PagerDuty MCP Server with Client ID Metadata Documents (CIMD), and how to install them in your account.\n\nThe PagerDuty-hosted MCP server supports Client ID Metadata Documents (CIMD) for a set of MCP clients. W"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://pagerduty.com",
+      "final_url": "https://pagerduty.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:38Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "835bf5faa2d9194257444d10bea06fa9e5bf962ad380c0065d0327a2f3262b65",
+      "text_len": 7718
+    },
+    {
+      "requested_url": "https://docs.pagerduty.com/developer/oauth-functionality",
+      "final_url": "https://docs.pagerduty.com/developer/oauth-functionality",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "199ad484332494b53311dd5e74a577beac817cfb76a554f73461c6170ee07634",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.pagerduty.com/developer/api/reference",
+      "final_url": "https://docs.pagerduty.com/developer/api/reference",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:34Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "449c5fcbd6da209fa1b18e8083eb9aecaed232d799695faff022d6c8886a6f36",
+      "text_len": 925
+    },
+    {
+      "requested_url": "https://docs.pagerduty.com/get-started/trial-account-onboarding",
+      "final_url": "https://docs.pagerduty.com/get-started/trial-account-onboarding",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7b4016c7298b4b7253c873a05fd63e425672b0f7d8e0824490ce7ed92fc1f0b8",
+      "text_len": 10094
+    },
+    {
+      "requested_url": "https://docs.pagerduty.com/developer/api/reference/mcp/pagerduty-mcp-api",
+      "final_url": "https://docs.pagerduty.com/developer/api/reference/mcp/pagerduty-mcp-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:36Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "30ef4b29d162a5228f94c078909f3b510b9f72dd88c981ad506a2f14a17eff88",
+      "text_len": 198
+    },
+    {
+      "requested_url": "https://docs.pagerduty.com/developer/mcp-tooling-remote-server",
+      "final_url": "https://docs.pagerduty.com/developer/mcp-tooling-remote-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:36Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "44d0c2b0982666a9acccb088fdf45ad2d551e5013148b5fe3367644a9d7a408c",
+      "text_len": 1739
+    },
+    {
+      "requested_url": "https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server",
+      "final_url": "https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:36Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "afded80c12712a86131d0cf7a64397bcf5d0cc51a68d64731f09ed9d3ad62194",
+      "text_len": 8097
+    },
+    {
+      "requested_url": "https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server/cimd-clients",
+      "final_url": "https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server/cimd-clients",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:36Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d7b95ffb859b3ca93f12aa7df59fb45ef53813cef0beacf9a845bf4c3e1f6d4e",
+      "text_len": 2135
+    },
+    {
+      "requested_url": "https://docs.pagerduty.com/llms.txt",
+      "final_url": "https://docs.pagerduty.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:38Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "372ab09f99a674a4f6903bf236550fe9ab741056f2f938013e3850bddd569e75",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.pagerduty.com/developer/authentication",
+      "final_url": "https://docs.pagerduty.com/developer/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T15:39:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "18aa62ec142afdddb041beb8e9d04e6c78ec865d7c3ebe503e756e0149fba832",
+      "text_len": 3349
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.pagerduty.com/developer/oauth-functionality",
+        "quote": "An app with Scoped OAuth can obtain an app token through the client credentials grant, to act as the app itself, or a user token through the authorization code grant",
+        "verified": true
+      },
+      {
+        "url": "https://docs.pagerduty.com/developer/authentication",
+        "quote": "The PagerDuty REST API supports authenticating via an account or user API token.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.pagerduty.com/get-started/trial-account-onboarding",
+        "quote": "Sign up with your work email, choose your personalized web address, and follow our step-by-step onboarding process.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.pagerduty.com/developer/oauth-functionality",
+        "quote": "To use it on other accounts, you must publish it, and an admin on each account must install it.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.pagerduty.com/developer/api/reference",
+        "quote": "Browse every PagerDuty public API — endpoints, schemas, and code samples — and try requests directly from the docs.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server",
+        "quote": "the PagerDuty-hosted MCP server, a managed service with the latest features at `https://mcp.pagerduty.com/mcp`",
+        "verified": true
+      },
+      {
+        "url": "https://docs.pagerduty.com/developer/mcp-tooling-remote-server",
+        "quote": "MCP Base URL: `https://mcp.pagerduty.com/mcp`",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.pagerduty.com/developer/authentication",
+        "quote": "Account API tokens have access to all of the data on an account",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://pagerduty.com",
+        "quote": "Incident detection, investigation and remediation by blended teams of agents and humans",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

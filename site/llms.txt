@@ -1,0 +1,29 @@
+# Can these 100 apps become agent toolkits?
+
+> Case study: an agent pipeline researched 100 apps for Composio (auth, access, API surface, MCP, Composio coverage, buildability verdict, evidence per claim), re-checked itself with a rule checker and a Browser Use pass, and was scored against hand-labelled gold (20 apps) and sealed holdout (10 apps) sets.
+
+Headline numbers (generated from the repo data, as of 2026-11-23):
+
+- Buildable now: 84/100; need vendor approval: 16 (8 sales-gated, 8 partner-gated)
+- OAuth2 is the primary auth for 66/100; 48 offer both OAuth2 and an API key; 30 are API-key only
+- Official MCP server: 86/100
+- Already on Composio: 78/100; easy wins (buildable now + official MCP + not on Composio): 11
+- Flagged for a human check: 36/100
+- Whole rows fully right, pass 1 -> 2 -> 3: gold 9 -> 16 -> 15 of 20; holdout 3 -> 3 -> 3 of 10
+- Human spot-check: 10/10 rows, 40/40 claims
+
+## Page
+
+- [Case study page](index.html): patterns, accuracy, next steps, the findings table, how the agent works, verification and limits
+
+## Data
+
+- [data/final.json](data/final.json): all 100 final rows (JSON array, sorted by id)
+- [data/final.csv](data/final.csv): the same rows as CSV (`;`-joined lists, JSON for evidence and composio_toolkit)
+- [data/schema.md](data/schema.md): field names, allowed values and meanings
+- [data/patterns.json](data/patterns.json): distributions, cross-tabs and headline patterns with accuracy caveats
+- [data/needs_human.json](data/needs_human.json): rows flagged for a human check, with reasons and evidence URLs
+
+## Source
+
+- [Repository](https://github.com/adithyaprad/composio-app-research): research agent, rule checker, browser pass, scorer and this page's generator (`scripts/build_site.py`)

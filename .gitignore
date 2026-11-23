@@ -15,4 +15,5 @@ secrets/
 
 # research agent run caches (raw fetched text) and offline dry runs
 data/runs/*/cache/
+data/runs/*/pass*/cache/
 data/runs/dry-run-*/
