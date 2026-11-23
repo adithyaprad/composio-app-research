@@ -41,7 +41,7 @@ We then added general validators and prompt/rubric rules for those patterns (see
 
 The same 10 were rerun once more after switching search and fetch to the direct Exa API (`data/runs/pilot-10c/`). Row-correct accuracy stayed 8/10: the blank-URL product-identity miss was fixed, a notes-vs-auth-methods contradiction reappeared on one row, and an MCP server whose official pages appeared in search results was still not fetched. The gold 20 were not used in that loop either.
 
-That last miss is a general retrieval gap, so the agent now fetches up to 3 leftover vendor-owned search results that look like MCP or API-auth/OAuth docs before it settles the row, even when the page cap is already full, and re-asks the LLM once only if they returned text.
+That last miss is a general retrieval gap, so the agent now fetches up to 3 leftover vendor-owned search results that look like MCP or API-auth/OAuth docs before it settles the row, even when the page cap is already full, and re-asks the LLM once only if they returned text. The same 10 were rerun again as `data/runs/pilot-10d/`; row-correct accuracy moved from 8/10 to 9/10. The leftover official API-auth docs were read this time. One MCP miss remains, where the official MCP-style pages either did not use the word MCP in the URL or title, lived on a sibling host the vendor-name check did not treat as owned, or were crowded out by other official-domain MCP pages about a different product line. The gold 20 were not used in that loop either.
 
 ## Refresh Composio coverage
 
