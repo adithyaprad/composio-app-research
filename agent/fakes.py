@@ -35,7 +35,7 @@ class FakeFetch:
             "Sign up for a free account to create API keys from the dashboard. "
             "The REST API covers contacts, deals and webhooks."
         )
-        return Page(requested_url=url, final_url=url, status=200, provider=self.name, text=text)
+        return Page(requested_url=url, final_url=url, status=200, provider=self.name, text=text, method="fake")
 
 
 class FakeLLM:

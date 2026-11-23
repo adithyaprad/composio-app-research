@@ -48,6 +48,9 @@ def cmd_run(args: argparse.Namespace) -> int:
     run_id = args.run_id or ("dry-run-" if args.dry_run else "") + datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
     run_dir = args.out_dir / run_id
 
+    from agent.tools import make_budget
+
+    budget = make_budget(settings)  # one Instant spend cap shared by search and fetch for the whole run
     if args.dry_run:
         from agent.fakes import FakeFetch, FakeLLM, FakeSearch
 
@@ -56,13 +59,15 @@ def cmd_run(args: argparse.Namespace) -> int:
         from agent.llm import get_llm
         from agent.tools import get_fetch, get_search
 
-        llm, search, fetch = get_llm(settings), get_search(settings), get_fetch(settings)
+        llm = get_llm(settings)
+        search, fetch = get_search(settings, budget=budget), get_fetch(settings, budget=budget)
 
     researcher = Researcher(settings, llm, search, fetch, run_dir, max_pages=args.max_pages,
-                            follow_up=not args.no_follow_up, coverage=load_coverage(COVERAGE_CSV))
+                            follow_up=not args.no_follow_up, coverage=load_coverage(COVERAGE_CSV), budget=budget)
     print(f"run {run_id}: {len(apps)} app(s), llm={llm.provider}:{llm.model}, "
           f"search={settings.search_provider if not args.dry_run else 'fake'}, "
-          f"fetch={settings.fetch_provider if not args.dry_run else 'fake'}", file=sys.stderr)
+          f"fetch={settings.fetch_provider if not args.dry_run else 'fake'}, "
+          f"instant_budget=${settings.instant_budget_usd:.2f}", file=sys.stderr)
     summary = run(apps, researcher, run_dir, concurrency=args.concurrency)
     print(json.dumps(summary, indent=2))
     return 0 if not summary["failed_validation"] and not summary["crashed"] else 1

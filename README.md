@@ -95,16 +95,22 @@ Failed apps are not written to `rows.jsonl`, so re-running the same `--run-id` r
 
 ### Search and fetch providers
 
-| Variable | Values | `auto` behaviour |
+The defaults are free first. Composio is a paid escalation, capped per run:
+
+| Variable | Default | Values |
 |---|---|---|
-| `SEARCH_PROVIDER` | `auto`, `composio_exa`, `composio_tavily`, `ddgs` | Composio Exa first, then `ddgs` |
-| `FETCH_PROVIDER` | `auto`, `composio_firecrawl`, `http` | Composio Firecrawl first, then `httpx` + `trafilatura` |
+| `SEARCH_PROVIDER` | `ddgs` | `ddgs` (free only); `hybrid` (ddgs, then Composio Exa only when ddgs returns 0 results); `auto` / `composio_exa` / `composio_tavily` (Composio first, ddgs fallback). `USE_COMPOSIO_EXA=true` is the same as `auto`. |
+| `FETCH_PROVIDER` | `hybrid` | `hybrid` (http first; a URL goes to Composio `FIRECRAWL_SCRAPE` only when the page is still thin after all extraction fallbacks, or blocked: status 401/403/429/503 or a network error); `auto` / `composio_firecrawl` (Firecrawl first, http fallback); `http` (free only). |
+| `INSTANT_BUDGET_USD` | `0.30` | Hard cap on Composio Instant spend per run. `0` disables Instant calls. |
 
-In `auto` mode, the first Composio connection, 400/401/403 or 410 error switches that tool to the keyless fallback for the rest of the run, logged once. Without `COMPOSIO_API_KEY`, `auto` goes straight to the keyless fallback. `ddgs` tries backends in the order set by `DDGS_BACKENDS` (default `yahoo,duckduckgo,bing,brave,google`). When this was written, only `yahoo` returned results from this machine.
+Composio is only tried when `COMPOSIO_API_KEY` is set. The first `No active connection`, 400/401/403 or 410 error switches Composio off for the rest of the run, logged once, and the free result is kept.
 
-**What Composio unlocks:** Exa, Tavily and Firecrawl run through a Composio session (`composio.sessions.create(...)` then `session.execute(...)`). In this project they currently fail with `No active connection found for toolkit(s) 'exa'`, because Composio Instant Toolkits are off and no provider key is connected. To use them, do one of these in the Composio dashboard:
+Every Composio call first reserves its listed price: `FIRECRAWL_SCRAPE` $0.003, `EXA_SEARCH` $0.007, `TAVILY_SEARCH` $0.008, anything else $0.01. You can override these with `INSTANT_PRICES`. If a call would push spend past the cap, it is skipped (logged once) and the free result is used. Sessions are created with `instant={"return_instant_charge": True}`. When Composio reports `instant_charge.amount`, that is counted as actual spend; otherwise the listed price is counted as an estimate.
 
-- enable Instant Toolkits (needs a prepaid balance), or
-- connect your own Exa / Tavily / Firecrawl key.
+`log.jsonl` (per app) and the end-of-run summary report `instant_calls`, `instant_calls_by_tool`, `instant_est_cost_usd` and `instant_charged_usd`.
 
-Then set `SEARCH_PROVIDER=composio_exa` (or `auto`). The result is better search ranking and JS-rendered page text. The old `composio_search` toolkit is retired (HTTP 410) and is not used.
+`ddgs` tries backends in the order set by `DDGS_BACKENDS` (default `yahoo,duckduckgo,bing,brave,google`). When this was written, only `yahoo` returned results from this machine.
+
+**What Composio unlocks:** Exa, Tavily and Firecrawl run through a Composio session (`composio.sessions.create(...)` then `session.execute(...)`). In this project they currently fail with `400 No active connection found for toolkit(s) ...`. This is still true after Instant was toggled in the dashboard: `session.search` reports `instant_account: null`. The free path keeps working, so nothing needs to change in the agent.
+
+Composio becomes active once Instant Toolkits work for the project key (prepaid balance) or an Exa / Firecrawl key is connected. From then on, `hybrid` fetch starts escalating thin or blocked pages to Firecrawl automatically, within `INSTANT_BUDGET_USD`. Set `SEARCH_PROVIDER=hybrid` or `auto` to also use Exa. The old `composio_search` toolkit is retired (HTTP 410) and is not used.

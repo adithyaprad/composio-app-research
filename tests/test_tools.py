@@ -3,8 +3,8 @@ import types
 import httpx
 import pytest
 
-from agent.config import Settings
-from agent.tools import Fallback, ProviderUnavailable, get_fetch, get_search, keyless
+from agent.config import ConfigError, Settings
+from agent.tools import Fallback, HybridFetch, ProviderUnavailable, get_fetch, get_search, keyless
 from agent.tools.composio_tools import ComposioFetch, ComposioSearch
 from agent.tools.keyless import DDGSSearch, HttpFetch
 
@@ -30,8 +30,9 @@ class FakeComposio:
             get_raw_composio_tool_by_slug=lambda slug: types.SimpleNamespace(
                 input_parameters={"properties": props or {}}))
 
-    def _create(self, user_id, toolkits):
+    def _create(self, user_id, toolkits, **kwargs):
         self.created.append(toolkits)
+        self.create_kwargs = kwargs
         return self.session
 
 
@@ -66,6 +67,7 @@ def test_composio_search_parses_results():
     name, results = ComposioSearch("EXA_SEARCH", "u", client).search("q", 3)
     assert name == "composio_exa" and results[0].url == "https://a.dev"
     assert client.created == [["exa"]]
+    assert client.create_kwargs == {"instant": {"return_instant_charge": True}}
     assert client.session.calls == [("EXA_SEARCH", {"query": "q", "numResults": 3})]
 
 
@@ -89,13 +91,28 @@ def test_auto_search_falls_back_once(fake_ddgs, caplog):
         name, results = search.search("hubspot api")
         assert name == "ddgs:yahoo" and results[0].url == "https://docs.example.com"
     assert len(client.session.calls) == 1  # Composio not retried after the first failure
-    assert sum("falling back" in r.message for r in caplog.records) == 1
+    assert sum("unavailable, using" in r.message for r in caplog.records) == 1
     assert fake_ddgs == ["duckduckgo", "yahoo"] * 3  # backend list falls through to yahoo
 
 
-def test_auto_without_composio_key_uses_keyless():
+def test_defaults_without_composio_key_are_free():
+    assert Settings.from_env().search_provider == "ddgs"
+    assert Settings.from_env().fetch_provider == "hybrid"
     assert isinstance(get_search(Settings()), DDGSSearch)
-    assert isinstance(get_fetch(Settings()), HttpFetch)
+    fetch = get_fetch(Settings())
+    assert isinstance(fetch, HybridFetch) and fetch.paid is None  # no key: never escalates
+    assert isinstance(get_search(Settings(search_provider="auto")), DDGSSearch)
+    assert isinstance(get_fetch(Settings(fetch_provider="auto")), HttpFetch)
+
+
+def test_explicit_composio_without_key_is_config_error():
+    with pytest.raises(ConfigError, match="COMPOSIO_API_KEY"):
+        get_search(Settings(search_provider="composio_exa"))
+
+
+def test_use_composio_exa_flag(monkeypatch):
+    monkeypatch.setenv("USE_COMPOSIO_EXA", "true")
+    assert Settings.from_env().search_provider == "auto"
 
 
 def test_ddgs_all_backends_empty(fake_ddgs):

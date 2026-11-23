@@ -15,6 +15,7 @@ from typing import Any
 
 from agent.config import require_env
 from agent.tools.base import Page, ProviderUnavailable, SearchResult
+from agent.tools.budget import InstantBudget, parse_charge
 
 log = logging.getLogger(__name__)
 
@@ -40,10 +41,11 @@ TOOLS: dict[str, tuple[str, dict[str, tuple[str, ...]]]] = {
 class ComposioTool:
     """One Composio tool slug, executed through a lazily created session."""
 
-    def __init__(self, slug: str, user_id: str, client: Any = None):
+    def __init__(self, slug: str, user_id: str, client: Any = None, budget: InstantBudget | None = None):
         self.slug = slug
         self.toolkit, self._arg_names = TOOLS[slug]
         self.user_id = user_id
+        self.budget = budget
         self._client = client
         self._session = None
         self._resolved: dict[str, str] | None = None
@@ -59,7 +61,9 @@ class ComposioTool:
 
                 self._client = Composio(api_key=key)
             try:
-                self._session = self._client.sessions.create(user_id=self.user_id, toolkits=[self.toolkit])
+                self._session = self._client.sessions.create(
+                    user_id=self.user_id, toolkits=[self.toolkit], instant={"return_instant_charge": True}
+                )
             except Exception as e:  # SDK raises several types; classify by message
                 raise _classify(e) from e
             self._resolved = self._resolve_args()
@@ -81,11 +85,21 @@ class ComposioTool:
         session = self._ensure_session()
         assert self._resolved is not None
         arguments = {self._resolved[k]: v for k, v in logical_args.items()}
+        if self.budget:
+            self.budget.reserve(self.slug)  # raises BudgetExceeded; nothing is sent
         try:
             resp = session.execute(self.slug, arguments=arguments)
         except Exception as e:
+            if self.budget:
+                self.budget.release(self.slug)
             raise _classify(e) from e
         result_type = getattr(resp, "result_type", "completed")
+        if self.budget:
+            charged = parse_charge(resp)
+            if charged is not None or result_type == "completed":
+                self.budget.record(self.slug, charged)
+            else:
+                self.budget.release(self.slug)
         if result_type != "completed":
             err = str(getattr(resp, "error", "") or result_type)
             if _UNAVAILABLE.search(err):
@@ -119,8 +133,8 @@ def _find_results(data: Any) -> list[dict]:
 
 
 class ComposioSearch:
-    def __init__(self, slug: str, user_id: str, client: Any = None):
-        self.tool = ComposioTool(slug, user_id, client)
+    def __init__(self, slug: str, user_id: str, client: Any = None, budget: InstantBudget | None = None):
+        self.tool = ComposioTool(slug, user_id, client, budget)
         self.name = f"composio_{self.tool.toolkit}"
 
     def search(self, query: str, max_results: int = 5) -> tuple[str, list[SearchResult]]:
@@ -153,8 +167,8 @@ def _dig(data: Any, *keys: str) -> Any:
 class ComposioFetch:
     name = "composio_firecrawl"
 
-    def __init__(self, user_id: str, max_chars: int, client: Any = None):
-        self.tool = ComposioTool("FIRECRAWL_SCRAPE", user_id, client)
+    def __init__(self, user_id: str, max_chars: int, client: Any = None, budget: InstantBudget | None = None):
+        self.tool = ComposioTool("FIRECRAWL_SCRAPE", user_id, client, budget)
         self.max_chars = max_chars
 
     def fetch(self, url: str) -> Page:

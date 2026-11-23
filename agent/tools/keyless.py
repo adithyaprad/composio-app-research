@@ -65,8 +65,10 @@ class HttpFetch:
         try:
             r = self._get_client().get(url)
         except Exception as e:
-            return Page(url, url, 0, self.name, error=f"{type(e).__name__}: {str(e)[:200]}")
+            return Page(url, url, 0, self.name, error=f"{type(e).__name__}: {str(e)[:200]}", method="http_error")
         final = str(r.url)
+        if r.status_code >= 400:
+            return Page(url, final, r.status_code, self.name, error=f"HTTP {r.status_code}", method="http_error")
         ctype = r.headers.get("content-type", "")
         body = r.text if ("text" in ctype or "json" in ctype or "xml" in ctype or not ctype) else ""
         if not ("html" in ctype or body.lstrip().startswith("<")):
@@ -74,7 +76,7 @@ class HttpFetch:
 
         method, text = "trafilatura", _trafilatura(body, final, recall=False)
         source = None
-        if len(text) < THIN_CHARS and r.status_code < 400:
+        if len(text) < THIN_CHARS:
             candidates = [(method, text, None), ("trafilatura_recall", _trafilatura(body, final, recall=True), None)]
             if is_docs_url(final):
                 twin_url, twin = self._md_twin(final)

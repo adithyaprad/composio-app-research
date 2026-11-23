@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import json
 
+from agent.validate import normalize_url
+
 SYSTEM = """You research whether a software product can become an AI-agent toolkit.
 You fill one JSON row from the fetched web pages you are given, and nothing else.
 Never use memory for facts; if the pages do not show something, say so (unknown /
@@ -11,21 +13,28 @@ low confidence / gated with evidence). "Gated, with evidence" is a correct answe
 
 FIELDS AND ENUMS
 - one_liner: one sentence, 20-240 chars, what the product does.
-- auth_methods (list, all documented): oauth2 | api_key (API keys, personal access
-  tokens, bot/dashboard tokens) | basic | jwt_service_account | custom_other (HMAC,
-  mTLS; explain in notes) | none (alone; no auth needed).
-  If auth cannot be determined because docs are gated or absent, use ["custom_other"],
-  write "auth undocumented in fetched pages" in notes, and pick blocker
-  auth_undocumented / docs_insufficient per the priority list. Never invent methods.
-- primary_auth: member of auth_methods; oauth2 if documented, else the default/most
-  common documented method.
+- auth_methods (list): every documented way to authenticate requests to the
+  product's own developer API. oauth2 | api_key (API keys, personal access tokens,
+  bot/dashboard tokens) | basic | jwt_service_account | custom_other (a DOCUMENTED
+  custom scheme: HMAC signatures, mTLS, proprietary handshake; explain in notes) |
+  none (alone; no auth needed) | unknown (alone).
+  This is API auth only: do NOT list OAuth that only applies to an MCP server, or
+  website / dashboard / SSO login. Mention those in notes if they differ.
+  If auth cannot be determined because developer docs are absent, gated, or omit
+  auth, use ["unknown"] with primary_auth "unknown", write "auth undocumented in
+  fetched pages" in notes, and pick blocker auth_undocumented / docs_insufficient
+  per the priority list. Never invent methods, and do not use custom_other for this.
+- primary_auth: member of auth_methods. oauth2 only if OAuth2 is a documented way
+  to call the product's API itself; otherwise the default/most common documented
+  API method.
 - access (how a developer gets credentials from the vendor):
   self_serve (free signup or a trial that includes API credentials) |
   self_serve_paid (must buy a plan, no sales talk, no qualifying trial) |
   gated_partner (partner program, app review, solution-provider approval) |
   gated_sales (contact sales, enterprise contract, waitlist, manual approval) |
   no_public_api. A customer workspace admin approving an install is NOT gated; set
-  requires_end_user_admin=true instead.
+  requires_end_user_admin=true instead. When a pricing/plans/signup page was
+  fetched, cite it in evidence.access alongside the developer docs.
 - api_types (list): rest | graphql | soap | sdk_only (no raw HTTP docs) |
   webhook_only | cli_only (local CLI/library, no hosted API) | none (alone).
   webhook_only ONLY when webhooks exist and there is NO useful request API. A REST
@@ -35,10 +44,10 @@ FIELDS AND ENUMS
 - docs_url: best official docs entry point; null iff has_public_docs is false.
 - mcp_status: official (vendor publishes/endorses) | community (third-party only) |
   none. If both exist use official and mention the community one in notes.
-- mcp_url: the MCP server, repo, or MCP docs page; null iff mcp_status is none.
-  If a page only vaguely mentions an MCP (e.g. "MCP (beta)") with no server/docs
-  URL, keep mcp_status, point mcp_url at the page that mentions it, say so in notes,
-  and set confidence no higher than medium.
+  A vague mention (e.g. "MCP (beta)" or "coming soon" on a marketing page) with no
+  actual server URL, installable repo, or dedicated MCP docs page is NOT an MCP:
+  use mcp_status none, mcp_url null, and record the mention in notes.
+- mcp_url: the MCP server, repo, or dedicated MCP docs page; null iff mcp_status is none.
 - verdict: buildable_now (documented interface + self_serve/self_serve_paid; a
   wrappable local CLI also counts) | buildable_with_approval (documented interface,
   partner/sales/vendor approval needed) | not_buildable.
@@ -103,11 +112,20 @@ NO_ROW_ERROR = (
 )
 
 
+def dedupe_pages(pages: list) -> list:
+    """One page per normalized final URL, preferring an OK page with the longest text; order kept."""
+    best: dict[str, object] = {}
+    for p in pages:
+        key = normalize_url(p.final_url)
+        cur = best.get(key)
+        if cur is None or (p.ok, len(p.text)) > (cur.ok, len(cur.text)):
+            best[key] = p
+    return list(best.values())
+
+
 def render_pages(pages: list, per_page_chars: int) -> str:
     blocks = []
-    for i, p in enumerate(pages, 1):
-        if not p.ok:
-            continue
+    for i, p in enumerate((p for p in dedupe_pages(pages) if p.ok), 1):
         blocks.append(f"=== PAGE {i}\nURL: {p.final_url}\n\n{p.text[:per_page_chars]}")
     return "\n\n".join(blocks) or "(no pages could be fetched)"
 

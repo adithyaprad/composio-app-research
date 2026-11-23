@@ -60,8 +60,8 @@ def consistency_errors(row: dict, identity: dict | None = None) -> list[str]:
                 errs.append(f"rule identity: {k} must be {identity[k]!r} from data/apps.csv")
     if g("primary_auth") not in (g("auth_methods") or []):
         errs.append("rule 1: primary_auth must be one of auth_methods")
-    if "oauth2" in (g("auth_methods") or []) and g("primary_auth") != "oauth2":
-        errs.append("rule primary_auth: oauth2 is documented, so primary_auth must be oauth2")
+    # The oauth2-first preference is not enforced here: it only applies when OAuth2 authenticates the
+    # product's API itself (not an MCP server or dashboard login), which code cannot tell. Prompt + rubric own it.
     access, verdict, blocker = g("access"), g("verdict"), g("blocker")
     if access == "no_public_api" and (verdict != "not_buildable" or blocker != "no_public_api"):
         errs.append("rule 7: access no_public_api requires verdict not_buildable and blocker no_public_api")

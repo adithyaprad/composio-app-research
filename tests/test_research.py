@@ -193,4 +193,6 @@ def test_pick_urls_prefers_start_url_and_official():
     app = {"start_url": "https://stripe.com", "source_hint": "stripe.com"}
     searches = [{"query": "Stripe API authentication", "results": [
         {"url": "https://blog.random.io/stripe"}, {"url": "https://docs.stripe.com/keys"}]}]
-    assert pick_urls(app, searches, 2) == ["https://stripe.com", "https://docs.stripe.com/keys"]
+    # no pricing page in results -> <origin>/pricing synthesized as one extra page
+    assert pick_urls(app, searches, 2) == ["https://stripe.com", "https://docs.stripe.com/keys",
+                                          "https://stripe.com/pricing"]

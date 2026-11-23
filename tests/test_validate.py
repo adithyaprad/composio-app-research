@@ -51,9 +51,26 @@ def test_rule1_primary_auth_in_methods(row):
     assert any(e.startswith("rule 1") for e in errs)
 
 
-def test_oauth2_preferred(row):
+def test_oauth2_not_forced_as_primary(row):
+    # e.g. OAuth exists but the API is mainly key-based: the preference is judged by prompt/rubric, not code
     row["primary_auth"] = "api_key"
-    assert any("oauth2 is documented" in e for e in validate_row(row))
+    assert validate_row(row) == []
+
+
+def test_unknown_auth_valid_alone(row):
+    row.update(auth_methods=["unknown"], primary_auth="unknown", verdict="not_buildable", blocker="auth_undocumented",
+               access="gated_sales")
+    assert validate_row(row) == []
+
+
+def test_unknown_auth_must_be_alone(row):
+    row.update(auth_methods=["unknown", "api_key"], primary_auth="unknown")
+    assert any(e.startswith("schema: auth_methods") for e in validate_row(row))
+
+
+def test_unknown_primary_must_be_in_methods(row):
+    row["primary_auth"] = "unknown"
+    assert any(e.startswith("rule 1") for e in validate_row(row))
 
 
 def test_rule7_no_public_api_pairing(row):

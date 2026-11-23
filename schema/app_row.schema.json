@@ -79,10 +79,11 @@
           "basic",
           "jwt_service_account",
           "custom_other",
-          "none"
+          "none",
+          "unknown"
         ]
       },
-      "description": "All documented developer auth methods. Use none alone when no auth is required."
+      "description": "All documented ways to authenticate requests to the product's own developer API. Not MCP-only OAuth or website/SSO login. Use none alone when no auth is required; unknown alone when developer docs are absent, gated, or omit auth."
     },
     "primary_auth": {
       "type": "string",
@@ -92,9 +93,10 @@
         "basic",
         "jwt_service_account",
         "custom_other",
-        "none"
+        "none",
+        "unknown"
       ],
-      "description": "The method a multi-tenant agent toolkit would implement first. Prefer oauth2 when it is a documented option; otherwise the most common documented method. Must appear in auth_methods."
+      "description": "The API auth method a multi-tenant agent toolkit would implement first. Prefer oauth2 only when OAuth2 is a documented way to call the product's API itself; otherwise the most common documented API method. unknown when auth could not be determined. Must appear in auth_methods."
     },
     "access": {
       "type": "string",
@@ -562,6 +564,28 @@
           "auth_methods": {
             "contains": {
               "const": "none"
+            }
+          }
+        },
+        "required": [
+          "auth_methods"
+        ]
+      },
+      "then": {
+        "properties": {
+          "auth_methods": {
+            "maxItems": 1
+          }
+        }
+      }
+    },
+    {
+      "description": "If auth_methods includes unknown, it must be the only value.",
+      "if": {
+        "properties": {
+          "auth_methods": {
+            "contains": {
+              "const": "unknown"
             }
           }
         },

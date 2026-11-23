@@ -24,8 +24,9 @@ from agent import prompts
 from agent.config import Settings
 from agent.llm import LLM, LLMResult, extract_json
 from agent.tools.base import Page, now_iso
+from agent.tools.budget import InstantBudget, current_app
 from agent.tools.keyless import THIN_CHARS, is_docs_url
-from agent.validate import check_evidence, validate_row
+from agent.validate import check_evidence, normalize_url, validate_row
 
 log = logging.getLogger(__name__)
 
@@ -73,8 +74,8 @@ def search_queries(app: dict) -> list[str]:
     n = app["name"]
     return [
         f"{n} API authentication",
-        f"{n} developer API access pricing",
-        f"{n} API documentation reference",
+        f"{n} developer API access documentation",
+        f"{n} pricing plans free trial signup",
         f"{n} MCP server",
     ]
 
@@ -93,9 +94,18 @@ def score_url(url: str, official: str, query: str) -> int:
     score += sum(2 for h in URL_HINTS if h in u)
     if "mcp" in query.lower() and ("github.com" in host or "mcp" in u):
         score += 3
+    if "pricing" in query.lower() and is_pricing_url(u):
+        score += 4
     if any(bad in host for bad in ("youtube.com", "facebook.com/groups", "pinterest.")):
         score -= 5
     return score
+
+
+PRICING_RE = re.compile(r"/(pricing|plans?|signup|sign-up|register|billing|free-trial|trial|get-started)(?=[/.?#]|$)")
+
+
+def is_pricing_url(url: str) -> bool:
+    return bool(PRICING_RE.search(urlsplit(url.lower()).path))
 
 
 # Code/doc hosts where a third-party-looking domain can still be the vendor's own page.
@@ -104,6 +114,9 @@ DOC_HOSTS = ("github.com", "gitlab.com", "npmjs.com", "pypi.org", "readme.io", "
 # Slug parts too generic to identify a vendor by themselves.
 GENERIC_TOKENS = {"ads", "api", "app", "apps", "business", "cloud", "commerce", "crm", "data", "partner", "selling",
                   "the", "io", "ai", "hq", "chat", "mail"}
+# Affixes vendors commonly glue to their name in a domain label (getclay, useplain, plainhq, ...).
+HOST_AFFIXES = ("get", "use", "try", "with", "go", "app", "hq", "api", "docs", "dev", "ai", "io", "cloud")
+SHORT_TOKEN = 6  # tokens this short never match inside another word
 MAX_THIRD_PARTY = 2
 
 OFFICIAL, DOC_HOST, THIRD_PARTY = 0, 1, 2
@@ -118,6 +131,28 @@ def app_tokens(app: dict) -> set[str]:
     return {t for t in tokens if len(t) >= 3}
 
 
+def token_in_label(token: str, label: str) -> bool:
+    """Does a host label (e.g. "dev-docs", "getclay") name the app?
+
+    Exact label, a hyphen segment, or the token plus a known affix. Only tokens
+    longer than SHORT_TOKEN may also prefix/suffix a label, so "plain" never
+    matches "plainenglish" and "front" never matches "storefront".
+    """
+    if label == token or token in label.split("-"):
+        return True
+    if any(label in (a + token, token + a) for a in HOST_AFFIXES):
+        return True
+    return len(token) > SHORT_TOKEN and (label.startswith(token) or label.endswith(token))
+
+
+def mentions(token: str, text: str) -> bool:
+    """Short tokens need a whole-word match; longer ones may appear inside compacted text ("FanBasis")."""
+    lowered = text.lower()
+    if len(token) <= SHORT_TOKEN:
+        return re.search(rf"\b{re.escape(token)}\b", re.sub(r"[^a-z0-9]+", " ", lowered)) is not None
+    return token in re.sub(r"[^a-z0-9]", "", lowered)
+
+
 def _host_matches(host: str, domain: str) -> bool:
     return bool(domain) and (host == domain or host.endswith("." + domain))
 
@@ -125,44 +160,58 @@ def _host_matches(host: str, domain: str) -> bool:
 def classify_result(app: dict, result: dict) -> int | None:
     """OFFICIAL / DOC_HOST / THIRD_PARTY tier, or None when the result looks unrelated to the app."""
     url = result["url"].lower()
-    host = (urlsplit(url).hostname or "").removeprefix("www.")
+    parts = urlsplit(url)
+    host = (parts.hostname or "").removeprefix("www.")
     tokens = app_tokens(app)
     if _host_matches(host, base_domain(app.get("start_url") or app.get("source_hint") or "")):
         return OFFICIAL
     labels = host.split(".")[:-1]  # drop the TLD so "fan" in ".fan" does not count
-    if any(t in label for t in tokens for label in labels):
+    if any(token_in_label(t, label) for t in tokens for label in labels):
         return OFFICIAL
-    title = (result.get("title") or "").lower()
-    compact_url = re.sub(r"[^a-z0-9]", "", url)
+    title = result.get("title") or ""
     if any(_host_matches(host, d) for d in DOC_HOSTS):
-        return DOC_HOST if any(t in compact_url or t in re.sub(r"[^a-z0-9]", "", title) for t in tokens) else None
-    text = re.sub(r"[^a-z0-9]", "", title + " " + (result.get("snippet") or "").lower())
-    return THIRD_PARTY if any(t in text for t in tokens) else None
+        return DOC_HOST if any(mentions(t, parts.path) or mentions(t, title) for t in tokens) else None
+    text = f"{title} {result.get('snippet') or ''}"
+    return THIRD_PARTY if any(mentions(t, text) for t in tokens) else None
+
+
+def origin(url: str) -> str:
+    p = urlsplit(url)
+    return f"{p.scheme}://{p.netloc}"
 
 
 def pick_urls(app: dict, searches: list[dict], max_pages: int, already: set[str] = frozenset(),
               include_start: bool = True) -> list[str]:
     """start_url first; then relevant results, official domain first, best of each query before the rest.
 
-    Results that don't look like the app are dropped, and at most MAX_THIRD_PARTY
-    third-party pages (directories, blogs) are kept, only when they name the app.
+    - Results that don't look like the app are dropped; at most MAX_THIRD_PARTY
+      third-party pages (directories, blogs) are kept, only when they name the app.
+    - URLs are deduped by normalize_url, including against `already` (normalized keys).
+    - With include_start, at least one official pricing/plans/signup page is
+      included: the best one found (replacing the lowest-ranked pick if full), or a
+      synthesized <origin>/pricing from start_url as one extra page.
     """
     official = base_domain(app.get("start_url") or app.get("source_hint") or "")
     picked: list[str] = []
+    keys: set[str] = set(already)
     third_party = 0
 
-    def add(url: str, tier: int) -> None:
+    def add(url: str, tier: int, force: bool = False) -> bool:
         nonlocal third_party
-        if not url or url in picked or url in already or len(picked) >= max_pages:
-            return
+        key = normalize_url(url) if url else ""
+        if not url or key in keys or (len(picked) >= max_pages and not force):
+            return False
         if tier == THIRD_PARTY:
             if third_party >= MAX_THIRD_PARTY:
-                return
+                return False
             third_party += 1
         picked.append(url)
+        keys.add(key)
+        return True
 
-    if include_start and app.get("start_url") and app["start_url"] not in already:
-        add(app["start_url"], OFFICIAL)
+    start = app.get("start_url") if include_start else None
+    if start:
+        add(start, OFFICIAL)
     ranked = []
     for s in searches:
         scored = []
@@ -174,8 +223,19 @@ def pick_urls(app: dict, searches: list[dict], max_pages: int, already: set[str]
         if scored:
             add(scored[0][2], scored[0][0])
         ranked += scored[1:]
-    for tier, _, url in sorted(ranked):
+    ranked.sort()
+    for tier, _, url in ranked:
         add(url, tier)
+
+    if include_start and max_pages > 0 and not any(is_pricing_url(u) for u in picked):
+        pricing = next((u for tier, _, u in ranked if tier == OFFICIAL and is_pricing_url(u)
+                        and normalize_url(u) not in keys), None)
+        if pricing:
+            if len(picked) >= max_pages and len(picked) > 1:
+                keys.discard(normalize_url(picked.pop()))
+            add(pricing, OFFICIAL, force=True)
+        elif start:
+            add(f"{origin(start)}/pricing", OFFICIAL, force=True)  # may be max_pages + 1
     return picked
 
 
@@ -204,8 +264,9 @@ class Outcome:
 class Researcher:
     def __init__(self, settings: Settings, llm: LLM, search, fetch, run_dir: Path,
                  max_pages: int = 8, follow_up: bool = True, per_page_chars: int = 6000,
-                 coverage: dict[str, dict] | None = None):
+                 coverage: dict[str, dict] | None = None, budget: InstantBudget | None = None):
         self.settings = settings
+        self.budget = budget
         self.llm = llm
         self.search = search
         self.fetch = fetch
@@ -232,13 +293,25 @@ class Researcher:
         try:
             page = self.fetch.fetch(url)
         except Exception as e:
-            page = Page(url, url, 0, "error", error=f"{type(e).__name__}: {str(e)[:200]}")
+            page = Page(url, url, 0, "error", error=f"{type(e).__name__}: {str(e)[:200]}", method="fetch_error")
         stats.providers[f"fetch:{page.provider}"] += 1
         if page.text:
             cache = self.run_dir / "cache" / slug
             cache.mkdir(parents=True, exist_ok=True)
             (cache / f"{hashlib.sha1(url.encode()).hexdigest()[:12]}.txt").write_text(page.text)
         return page
+
+    def _fetch_new(self, slug: str, urls: list[str], stats: Stats, seen: set[str]) -> list[Page]:
+        """Fetch URLs not already fetched in this app run. `seen` holds normalized requested + final URLs,
+        so a page reached through a redirect (firecrawl.dev -> www.firecrawl.dev/) is not fetched twice."""
+        pages = []
+        for url in urls:
+            if normalize_url(url) in seen:
+                continue
+            page = self._fetch(slug, url, stats)
+            seen.update({normalize_url(page.requested_url), normalize_url(page.final_url)})
+            pages.append(page)
+        return pages
 
     def _llm(self, messages: list[dict], stats: Stats, attempts: list[dict], label: str, slug: str) -> LLMResult:
         stats.llm_calls += 1
@@ -254,12 +327,9 @@ class Researcher:
     @staticmethod
     def _llms_txt_url(pages: list[Page]) -> str | None:
         """<origin>/llms.txt for the first thin docs page, once per app (fetched as its own page)."""
-        fetched = {p.requested_url for p in pages}
         for p in pages:
             if p.ok and len(p.text) < THIN_CHARS and is_docs_url(p.final_url):
-                parts = urlsplit(p.final_url)
-                url = f"{parts.scheme}://{parts.netloc}/llms.txt"
-                return None if url in fetched else url
+                return f"{origin(p.final_url)}/llms.txt"
         return None
 
     def _save_attempts(self, slug: str, attempts: list[dict]) -> None:
@@ -318,14 +388,16 @@ class Researcher:
         t0 = time.monotonic()
         slug = app["slug"]
         stats = Stats()
-        searches = [self._search(q, stats) for q in search_queries(app)]
-        pages = [self._fetch(slug, u, stats) for u in pick_urls(app, searches, self.max_pages)]
-        llms_txt = self._llms_txt_url(pages)
-        if llms_txt:
-            pages.append(self._fetch(slug, llms_txt, stats))
-
+        token = current_app.set(slug)  # attributes Instant spend to this app
         attempts: list[dict] = []
+        seen: set[str] = set()
         try:
+            searches = [self._search(q, stats) for q in search_queries(app)]
+            pages = self._fetch_new(slug, pick_urls(app, searches, self.max_pages), stats, seen)
+            llms_txt = self._llms_txt_url(pages)
+            if llms_txt:
+                pages += self._fetch_new(slug, [llms_txt], stats, seen)
+
             messages = [{"role": "user", "content": prompts.research_prompt(app, pages, self.per_page_chars,
                                                                              self.follow_up)}]
             res = self._llm(messages, stats, attempts, "initial", slug)
@@ -336,12 +408,12 @@ class Researcher:
                 queries = list(follow.get("queries") or [])[:FOLLOW_UP_MAX_QUERIES]
                 extra_searches = [self._search(q, stats) for q in queries]
                 searches += extra_searches
-                seen = {p.requested_url for p in pages}
                 wanted = [u for u in list(follow.get("urls") or []) if isinstance(u, str) and u.startswith("http")]
-                urls = [u for u in wanted if u not in seen][:FOLLOW_UP_MAX_PAGES]
-                urls += pick_urls(app, extra_searches, FOLLOW_UP_MAX_PAGES - len(urls), seen | set(urls),
-                                  include_start=False)
-                pages += [self._fetch(slug, u, stats) for u in urls]
+                urls = list({normalize_url(u): u for u in wanted if normalize_url(u) not in seen}.values())
+                urls = urls[:FOLLOW_UP_MAX_PAGES]
+                urls += pick_urls(app, extra_searches, FOLLOW_UP_MAX_PAGES - len(urls),
+                                  seen | {normalize_url(u) for u in urls}, include_start=False)
+                pages += self._fetch_new(slug, urls, stats, seen)
                 messages = [{"role": "user",
                              "content": prompts.research_prompt(app, pages, self.per_page_chars, False)}]
                 res = self._llm(messages, stats, attempts, "follow_up", slug)
@@ -355,6 +427,7 @@ class Researcher:
                 res = self._llm(messages, stats, attempts, "retry", slug)
                 row, snippets, checks, errors = self._evaluate(app, res, pages)
         finally:
+            current_app.reset(token)
             self._save_attempts(slug, attempts)
 
         checks.pop("follow_up", None)
@@ -396,6 +469,10 @@ def run(apps: list[dict], researcher: Researcher, run_dir: Path, concurrency: in
     summary = Counter(skipped=len(apps) - len(todo))
     totals = Counter()
     settings = researcher.settings
+    budget = researcher.budget or InstantBudget(0)
+
+    def instant_for(slug: str) -> dict:
+        return budget.app_stats(slug)
 
     def append(path: Path, obj: dict) -> None:
         with path.open("a") as f:
@@ -424,6 +501,7 @@ def run(apps: list[dict], researcher: Researcher, run_dir: Path, concurrency: in
             "llm_provider": researcher.llm.provider, "llm_model": researcher.llm.model,
             "providers": dict(s.providers),
             "dropped_evidence": len(out.evidence["checks"].get("dropped_evidence", [])),
+            **instant_for(out.slug),
             "at": now_iso(),
         }
         (run_dir / "evidence" / f"{out.slug}.json").write_text(json.dumps(out.evidence, indent=2, ensure_ascii=False))
@@ -451,4 +529,5 @@ def run(apps: list[dict], researcher: Researcher, run_dir: Path, concurrency: in
         "input_tokens": totals["input_tokens"],
         "output_tokens": totals["output_tokens"],
         "est_cost_usd": settings.est_cost(totals["input_tokens"], totals["output_tokens"]),
+        **budget.snapshot(),
     }
