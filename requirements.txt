@@ -1,1 +1,12 @@
 composio>=0.34.0
+ddgs>=9.16
+httpx>=0.28
+trafilatura>=2.0
+jsonschema>=4.23
+python-dotenv>=1.0
+
+# LLM SDKs are imported lazily: install only the one LLM_PROVIDER uses.
+boto3>=1.35          # LLM_PROVIDER=bedrock (default)
+# anthropic>=0.70    # LLM_PROVIDER=anthropic
+# openai>=1.50       # LLM_PROVIDER=openai
+# google-genai>=1.0  # LLM_PROVIDER=gemini

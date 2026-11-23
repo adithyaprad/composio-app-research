@@ -12,3 +12,7 @@ build/
 .DS_Store
 *.log
 secrets/
+
+# research agent run caches (raw fetched text) and offline dry runs
+data/runs/*/cache/
+data/runs/dry-run-*/

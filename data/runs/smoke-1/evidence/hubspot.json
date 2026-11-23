@@ -1,0 +1,232 @@
+{
+  "slug": "hubspot",
+  "searches": [
+    {
+      "query": "HubSpot API authentication",
+      "provider": "ddgs",
+      "results": []
+    },
+    {
+      "query": "HubSpot developer API access pricing",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://developers.hubspot.com/docs/developer-tooling/platform/apis-by-tier",
+          "title": "APIs by tier - HubSpot"
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/developer-tooling/platform/usage-guidelines",
+          "title": "API usage guidelines and limits - HubSpot docs"
+        },
+        {
+          "url": "https://pipeline.zoominfo.com/sales/hubspot-api",
+          "title": "HubSpot API Review 2026: Features, Limits & Pricing"
+        },
+        {
+          "url": "https://www.hubspot.com/company-news/pricing-headless",
+          "title": "HubSpot is headless. Here’s how we’ll price it"
+        },
+        {
+          "url": "https://community.hubspot.com/t/api-pricing/9952",
+          "title": "API Pricing - Marketplace Apps - HubSpot Community"
+        }
+      ]
+    },
+    {
+      "query": "HubSpot API documentation reference",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://developers.hubspot.com/docs",
+          "title": "HubSpot Developer Documentation - HubSpot docs"
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+          "title": "2026-09 API reference - HubSpot docs"
+        },
+        {
+          "url": "https://www.postman.com/hubspot/hubspot-public-api-workspace/overview",
+          "title": "HubSpot Public API Workspace | Postman API Network"
+        },
+        {
+          "url": "https://www.docuwriter.ai/posts/hubspot-api-docs",
+          "title": "HubSpot API Docs: A Developer's Reference Guide (2026)"
+        },
+        {
+          "url": "https://github.hubspot.com/documentation-example/api/full_reference/",
+          "title": "documentation-example - GitHub"
+        }
+      ]
+    },
+    {
+      "query": "HubSpot MCP server",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://developers.hubspot.com/ai-tools/mcp",
+          "title": "HubSpot MCP Server"
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server",
+          "title": "Using the HubSpot MCP server"
+        },
+        {
+          "url": "https://github.com/baryhuang/mcp-hubspot",
+          "title": "HubSpot MCP Server - GitHub"
+        },
+        {
+          "url": "https://www.npmjs.com/package/@hubspot/mcp-server",
+          "title": "@hubspot/mcp-server - npm"
+        },
+        {
+          "url": "https://www.npmjs.com/package/hubspot-mcp-server",
+          "title": "hubspot-mcp-server - npm"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://hubspot.com",
+      "final_url": "https://www.hubspot.com/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:20Z",
+      "error": null,
+      "sha256": "a0f8cedbc696ac61713bce8fdb4994fe187eb54061fb8e3b016fef18773fb144",
+      "text_len": 4055
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/developer-tooling/platform/apis-by-tier",
+      "final_url": "https://developers.hubspot.com/docs/developer-tooling/platform/apis-by-tier",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:20Z",
+      "error": null,
+      "sha256": "7ba8189aea6208ded5b8b73ef82aa62b43f5b90517b6c04392dec2e8c1f9f6b2",
+      "text_len": 816
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+      "final_url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:21Z",
+      "error": null,
+      "sha256": "e57f828565dd1b6baf0fcd5389b280f4e3da24d586b47c119e9f999cbad5473b",
+      "text_len": 800
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server",
+      "final_url": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:21Z",
+      "error": null,
+      "sha256": "b6910f2bf2fd0d413418e0daea11a779e04438e2038712dcdcbf880271ebe833",
+      "text_len": 1889
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/ai-tools/mcp",
+      "final_url": "https://developers.hubspot.com/ai-tools/mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:21Z",
+      "error": null,
+      "sha256": "089d0e5c4795e2a5af8ccb0b450c7578cd1cb8c23c5b3db86eeaa5ea236b8c70",
+      "text_len": 7287
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/developer-tooling/platform/usage-guidelines",
+      "final_url": "https://developers.hubspot.com/docs/developer-tooling/platform/usage-guidelines",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:21Z",
+      "error": null,
+      "sha256": "f607a681b60ff8b08b3f585b3a5f017b634cdf7158cebafd195825aec2189fda",
+      "text_len": 7059
+    },
+    {
+      "requested_url": "https://community.hubspot.com/t/api-pricing/9952",
+      "final_url": "https://community.hubspot.com/t/api-pricing/9952",
+      "status": 403,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:21Z",
+      "error": null,
+      "sha256": "9fea79acb501af6f155bbcbdf68d8793cf904139a6b297609bdece09d5308124",
+      "text_len": 41
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs",
+      "final_url": "https://developers.hubspot.com/docs",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:21Z",
+      "error": null,
+      "sha256": "33e95daf6e2bf5576ef6b575be59ed89b2d3ced900bc1b476cdf3eaf4ad6ef6e",
+      "text_len": 694
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.hubspot.com/docs/developer-tooling/platform/usage-guidelines",
+        "quote": "all apps must use HubSpot’s OAuth protocol directly, or use your app’s static auth token if you’re building an app installed in a single account",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.hubspot.com/docs",
+        "quote": "Install the HubSpot CLI globally",
+        "verified": true
+      },
+      {
+        "url": "https://developers.hubspot.com/docs/developer-tooling/platform/apis-by-tier",
+        "quote": "subscription tier (Free, Starter, Professional, Enterprise)",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+        "quote": "All endpoints in this section follow the pattern: https://api.hubapi.com/.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server",
+        "quote": "The remote HubSpot MCP server is a publicly hosted endpoint for connecting external AI tools and applications to HubSpot’s CRM.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.hubspot.com/ai-tools/mcp",
+        "quote": "HubSpot offers two distinct MCP (Model Context Protocol) servers",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.hubspot.com/docs/developer-tooling/platform/usage-guidelines",
+        "quote": "You can create up to 1,000 webhook subscriptions per app.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.hubspot.com/",
+        "quote": "HubSpot aligns marketing, sales, and service around your customer data, so your teams and AI always know what customers need.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

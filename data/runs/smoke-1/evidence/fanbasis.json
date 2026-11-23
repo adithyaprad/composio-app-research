@@ -1,0 +1,361 @@
+{
+  "slug": "fanbasis",
+  "searches": [
+    {
+      "query": "fanbasis API authentication",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://www.bing.com/aclick?ld=e8gaOHCeteYue8KZ6_g2yweDVUCUzKcI6upOAgOYS3c5D8Lo7bWtnt2UWWGmFFFjGPA-6tzkFDD_L-M1J6tmE9300sqbX4Zuro0asiOPTbT7XeKg5aEZSldKKttExW6myj5BslQYK38fBPzrp6a8hE3bCDgUdoRsxJQjiQj7y2CXhfFWKIZGLIRkmE18r1KLuW3BIhOW4KFOGx9p2zDMutaeGS8yM&u=aHR0cHMlM2ElMmYlMmZtb25pdG9yLmx1bmlvLmFpJTJmdjMuMCUyZnRlbXBsYXRlJTNmYWNjaWQlM2QxNjg5NiUyNnVybGRlY29kZSUzZDElMjZrdyUzZHNlY3VyZSUyNTIwYXBpJTI2bXQlM2RwJTI2bnclM2RvJTI2Y3BuJTNkNDI4MzI5MjQwJTI2ZGV2aSUzZGMlMjZkZXZtJTNkJTI2bG9jcCUzZDExNjA3MiUyNmxvY2klM2QlMjZwbCUzZCUyNmNyJTNkJTI2YWRwJTNkJTI2c2FkdCUzZCUyNnVybCUzZGh0dHBzJTI1M0ElMjUyRiUyNTJGd3d3LmRhdGFkb2docS5jb20lMjUyRmRnJTI1MkZzZWN1cml0eSUyNTJGc2VjdXJlLWFwaS1hY2Nlc3MlMjUyRiUyNTNGdXRtX3NvdXJjZSUyNTNEYmluZyUyNTI2dXRtX21lZGl1bSUyNTNEcGFpZC1zZWFyY2glMjUyNnV0bV9jYW1wYWlnbiUyNTNEZGctc2VjdXJpdHktbmEtdW5hdXRob3JpemVkYWNjZXNzJTI1MjZ1dG1fa2V5d29yZCUyNTNEc2VjdXJlJTI1MjUyMGFwaSUyNTI2dXRtX21hdGNodHlwZSUyNTNEcCUyNTI2aWdhYWclMjUzRDEzMTA2MTgyMzA5OTA0OTQlMjUyNmlnYWF0JTI1M0QlMjUyNmlnYWNtJTI1M0Q0MjgzMjkyNDAlMjUyNmlnYWNyJTI1M0QlMjUyNmlnYWt3JTI1M0RzZWN1cmUlMjUyNTIwYXBpJTI1MjZpZ2FtdCUyNTNEcCUyNTI2aWdhbnQlMjUzRG8lMjUyNnV0bV9jYW1wYWlnbmlkJTI1M0Q0MjgzMjkyNDAlMjUyNnV0bV9hZGdyb3VwaWQlMjUzRDEzMTA2MTgyMzA5OTA0OTQlMjZtc2Nsa2lkJTNkNWZmYzYzYWEzMTdlMThmN2Y1NzEwOGFlMmFmNWYwYWQ&rlid=5ffc63aa317e18f7f57108ae2af5f0ad",
+          "title": "Spot Unauthorized API Access - Enhance Threat Intelligence"
+        },
+        {
+          "url": "https://dev-docs.fanbasis.com/",
+          "title": "Login - FanBasis API Docsv3"
+        },
+        {
+          "url": "https://github.com/FanBasis/fbnewapi",
+          "title": "GitHub - FanBasis/fbnewapi"
+        },
+        {
+          "url": "https://api-sandbox.commas.net/",
+          "title": "api-sandbox.commas.net - FanBasis"
+        },
+        {
+          "url": "https://apidocs.fan/",
+          "title": "Commas API Reference"
+        }
+      ]
+    },
+    {
+      "query": "fanbasis developer API access pricing",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://dev-docs.fanbasis.com/",
+          "title": "Login - FanBasis API Docsv3"
+        },
+        {
+          "url": "https://github.com/FanBasis/fbnewapi",
+          "title": "GitHub - FanBasis/fbnewapi"
+        },
+        {
+          "url": "https://api-sandbox.commas.net/",
+          "title": "api-sandbox.commas.net - FanBasis"
+        },
+        {
+          "url": "https://legal.fanvue.com/api-policy",
+          "title": "API Access & Usage Policy | Fanvue"
+        },
+        {
+          "url": "https://www.plan.fanbase.io/",
+          "title": "Fanbase Plans — APIs and Widgets"
+        }
+      ]
+    },
+    {
+      "query": "fanbasis API documentation reference",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://github.com/FanBasis/fbnewapi",
+          "title": "GitHub - FanBasis/fbnewapi"
+        },
+        {
+          "url": "https://dev-docs.fanbasis.com/",
+          "title": "Login - FanBasis API Docsv3"
+        },
+        {
+          "url": "https://apidocs.fan/",
+          "title": "Commas API Reference"
+        },
+        {
+          "url": "https://api-sandbox.commas.net/enterprises",
+          "title": "FanBasis — Payments Infrastructure That Makes You More Money"
+        },
+        {
+          "url": "https://demo.embedded.fanbasis.io/docs/getting-started",
+          "title": "Vite + React + TS - demo.embedded.fanbasis.io"
+        }
+      ]
+    },
+    {
+      "query": "fanbasis MCP server",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://github.com/FanBasis/fbnewapi",
+          "title": "GitHub - FanBasis/fbnewapi"
+        },
+        {
+          "url": "https://mcpservers.org/",
+          "title": "Awesome MCP Servers"
+        },
+        {
+          "url": "https://supabase.com/blog/mcp-server",
+          "title": "Supabase MCP Server"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/rest/api/fabric/articles/mcp-servers/what-is-fabric-mcp-server",
+          "title": "Fabric MCP Servers overview - Microsoft Fabric REST APIs"
+        },
+        {
+          "url": "https://mcpservers.org/servers/supabase-mcp-server",
+          "title": "Official Supabase MCP Server | Awesome MCP Servers"
+        }
+      ]
+    },
+    {
+      "query": "Commas fanbasis API documentation developers",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://apidocs.fan/",
+          "title": "Commas API Reference"
+        },
+        {
+          "url": "https://github.com/FanBasis/fbnewapi",
+          "title": "GitHub - FanBasis/fbnewapi"
+        },
+        {
+          "url": "https://dev-docs.fanbasis.com/",
+          "title": "Login - FanBasis API Docsv3"
+        },
+        {
+          "url": "https://developers.3commas.io/",
+          "title": "3Commas API Docs | REST & MCP for Automated Trading"
+        },
+        {
+          "url": "https://api-sandbox.commas.net/enterprises",
+          "title": "FanBasis — Payments Infrastructure That Makes You More Money"
+        }
+      ]
+    },
+    {
+      "query": "fanbasis API key public API docs",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://dev-docs.fanbasis.com/",
+          "title": "Login - FanBasis API Docsv3"
+        },
+        {
+          "url": "https://github.com/FanBasis/fbnewapi",
+          "title": "GitHub - FanBasis/fbnewapi"
+        },
+        {
+          "url": "https://apidocs.fan/",
+          "title": "Commas API Reference"
+        },
+        {
+          "url": "https://api.fantasypros.com/public/v2/docs/",
+          "title": "FantasyPros v2 Public Documentation"
+        },
+        {
+          "url": "https://api.basis.net/docs/",
+          "title": "Basis Platform API"
+        }
+      ]
+    },
+    {
+      "query": "Commas MCP server beta documentation",
+      "provider": "ddgs:google",
+      "results": [
+        {
+          "url": "https://commareports.com/docs/mcp",
+          "title": "MCP server · Comma Docs"
+        },
+        {
+          "url": "https://trade.3commas.io/docs/mcp",
+          "title": "MCP Server for Crypto Trading Automation - 3Commas"
+        },
+        {
+          "url": "https://doc.stagesasaservice.com/261/mcpserver",
+          "title": "Stages MCP Server (Beta) [Stages Documentation]"
+        },
+        {
+          "url": "https://developers.webflow.com/mcp/installing/beta",
+          "title": "Beta server | Webflow Developer Documentation"
+        },
+        {
+          "url": "https://documentation.commvault.com/11.42/software/commvault_mcp_server.html",
+          "title": "Commvault MCP Server - documentation.commvault.com"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://fanbasis.com",
+      "final_url": "https://commas.com/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:14Z",
+      "error": null,
+      "sha256": "a6308aa7a6df240574967be24a0e38f4c6bfd3f9484a1762337e7d9693490702",
+      "text_len": 5139
+    },
+    {
+      "requested_url": "https://dev-docs.fanbasis.com/",
+      "final_url": "https://dev-docs.fanbasis.com/login.html",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:17Z",
+      "error": null,
+      "sha256": "7d8e8b0e2163cf4ae6b750d41c4f98f123c54203c567ee66009accf0a00bf2a1",
+      "text_len": 125
+    },
+    {
+      "requested_url": "https://learn.microsoft.com/en-us/rest/api/fabric/articles/mcp-servers/what-is-fabric-mcp-server",
+      "final_url": "https://learn.microsoft.com/en-us/rest/api/fabric/articles/mcp-servers/fabric-mcp-servers-list",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:17Z",
+      "error": null,
+      "sha256": "5942479ede88456dea110ead004e48fc7f7a89eb6360adedb2af296260694562",
+      "text_len": 3750
+    },
+    {
+      "requested_url": "https://github.com/FanBasis/fbnewapi",
+      "final_url": "https://github.com/FanBasis/fbnewapi",
+      "status": 404,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:19Z",
+      "error": null,
+      "sha256": "034596214412d70a14962523cba8e39dc314bc8028ace8cdf1b0a2bf663cf1b4",
+      "text_len": 1073
+    },
+    {
+      "requested_url": "https://mcpservers.org/",
+      "final_url": "https://mcpservers.org/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:19Z",
+      "error": null,
+      "sha256": "6bab454697cf74f1d6c2137ef3dddd4a61707744e566019620361990153b3da9",
+      "text_len": 994
+    },
+    {
+      "requested_url": "https://supabase.com/blog/mcp-server",
+      "final_url": "https://supabase.com/blog/mcp-server",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:20Z",
+      "error": null,
+      "sha256": "f87aeb8094ee56203c02a0dc2d7b523cb55660b0b7c499ef68d3198a1d77eaae",
+      "text_len": 8665
+    },
+    {
+      "requested_url": "https://mcpservers.org/servers/supabase-mcp-server",
+      "final_url": "https://mcpservers.org/servers/supabase-mcp-server",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:20Z",
+      "error": null,
+      "sha256": "a04a3a1c8ae67c43af4b3548bc0bbfbbb760d4612a3e5d20a25c2ce6880acc2e",
+      "text_len": 8409
+    },
+    {
+      "requested_url": "https://apidocs.fan/",
+      "final_url": "https://apidocs.fan/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:23Z",
+      "error": null,
+      "sha256": "c1c511c8e478c7be718a233fcd6141b0912ae62f40a027fe08799836d9a6cd68",
+      "text_len": 41
+    },
+    {
+      "requested_url": "https://commareports.com/docs/mcp",
+      "final_url": "https://commareports.com/docs/mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:58Z",
+      "error": null,
+      "sha256": "60ca346926727ee5577416e6a641d073ad22d79d97a8f554c38f41da06fee286",
+      "text_len": 2698
+    },
+    {
+      "requested_url": "https://trade.3commas.io/docs/mcp",
+      "final_url": "https://trade.3commas.io/docs/mcp",
+      "status": 403,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:58Z",
+      "error": null,
+      "sha256": "9fea79acb501af6f155bbcbdf68d8793cf904139a6b297609bdece09d5308124",
+      "text_len": 41
+    },
+    {
+      "requested_url": "https://developers.webflow.com/mcp/installing/beta",
+      "final_url": "https://developers.webflow.com/mcp/installing/beta",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:56:01Z",
+      "error": null,
+      "sha256": "59bc40fecd8097804e6d699cefa7f78179335403d0029c64a50359716ca628ee",
+      "text_len": 1259
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://dev-docs.fanbasis.com/login.html",
+        "quote": "Sign in to access API Docs",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://dev-docs.fanbasis.com/login.html",
+        "quote": "Sign in to access API Docs",
+        "verified": true
+      },
+      {
+        "url": "https://commas.com/",
+        "quote": "Embedded checkouts, multi-rail payouts, APIs and SDKs.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://commas.com/",
+        "quote": "Embedded checkouts, multi-rail payouts, APIs and SDKs. Everything you'd replace Stripe with",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://commas.com/",
+        "quote": "Run Commas from your AI assistant. Create checkout links, issue refunds and pull your numbers in plain English.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://dev-docs.fanbasis.com/login.html",
+        "quote": "Sign in to access API Docs",
+        "verified": true
+      },
+      {
+        "url": "https://commas.com/",
+        "quote": "What happened to FanBasis?",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://commas.com/",
+        "quote": "The first webinar platform with checkout and payments built in.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

@@ -21,8 +21,8 @@ Identity fields (`id`, `slug`, `name`, `category`) are copied from the CSV. `com
 
 ### Auth
 
-- **auth_methods** — every documented way a developer or app can authenticate. List all that apply.
-- **primary_auth** — the method a multi-tenant agent toolkit would implement first. If OAuth2 is documented, prefer it; otherwise use the most common documented method. Must be one of `auth_methods`.
+- **auth_methods** — every documented way to authenticate requests to the product's **own developer API**. List all that apply. Do not list OAuth that only applies to an MCP server, or website / dashboard / SSO login. Mention those in `notes` if they differ. Use `unknown` alone when auth cannot be determined.
+- **primary_auth** — the API auth method a multi-tenant agent toolkit would implement first. Prefer `oauth2` only when OAuth2 is a documented way to call the product's API itself; otherwise use the most common documented API method. Must be one of `auth_methods`.
 
 ### Access (how a developer gets credentials)
 
@@ -37,7 +37,7 @@ Identity fields (`id`, `slug`, `name`, `category`) are copied from the CSV. `com
 
 ### Existing MCP
 
-- **mcp_status** — `official`, `community`, or `none`. If both official and community exist, label `official` and mention the community server in `notes`.
+- **mcp_status** — `official`, `community`, or `none`. If both official and community exist, label `official` and mention the community server in `notes`. A vague mention with no actual server URL, installable repo, or dedicated MCP docs page counts as `none`. Examples: "MCP (beta)", or "coming soon" on a marketing page. Record the mention in `notes`.
 - **mcp_url** — server, repo, or official announcement. Required when status is not `none`; `null` when `none`.
 
 ### Buildability
@@ -78,8 +78,11 @@ Identity fields (`id`, `slug`, `name`, `category`) are copied from the CSV. `com
 | `api_key` | A developer-generated secret: API keys, personal access tokens, and dashboard tokens. These are lumped together so labelers do not argue “key vs token”. |
 | `basic` | HTTP Basic (username and password, or username and API key sent as Basic). |
 | `jwt_service_account` | Signed JWT, service-account JSON key, or similar machine credential that is not a static API key. |
-| `custom_other` | A vendor-specific scheme that does not fit the above (HMAC signatures, mutual TLS, proprietary handshakes). Explain in `notes`. |
+| `custom_other` | A documented vendor-specific scheme that does not fit the above (HMAC signatures, mutual TLS, proprietary handshakes). Explain in `notes`. Not for "we could not tell". |
 | `none` | No auth required (public or local tool). Use this value alone. |
+| `unknown` | Auth method could not be determined because developer docs are absent, gated, or omit auth. Use this value alone. |
+
+These values describe auth for the product's developer API only. OAuth used only by an MCP server, or website/SSO login, is not listed here.
 
 ### access
 
@@ -180,7 +183,7 @@ Coverage is matched by normalized name/slug, plus a manual alias map in `data/co
 These are also encoded in the rubric and should be treated as part of a valid row:
 
 1. `primary_auth` is a member of `auth_methods`.
-2. If `auth_methods` contains `none`, it is the only value.
+2. If `auth_methods` contains `none` or `unknown`, it is the only value.
 3. If `api_types` contains `none`, it is the only value.
 4. `docs_url` is `null` if and only if `has_public_docs` is false.
 5. `mcp_url` is `null` if and only if `mcp_status` is `none`.

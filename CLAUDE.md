@@ -1,0 +1,46 @@
+# CLAUDE.md
+
+Research agent that fills one `schema/app_row.schema.json` row per app in `data/apps.csv`. Field meanings, enums and consistency rules: `schema/README.md`. Scoring and evidence rules: `schema/RUBRIC.md`.
+
+## Checks (run before committing)
+
+```bash
+.venv/bin/ruff check .
+.venv/bin/pytest -q
+.venv/bin/python -m agent run --dry-run --apps hubspot   # offline end-to-end, writes data/runs/dry-run-*/ (gitignored)
+```
+
+Tests are offline: LLM, Composio and ddgs are mocked, and httpx uses `MockTransport`. Never add tests that call real APIs.
+
+## Non-obvious decisions
+
+- **Identity and `composio_toolkit` are never LLM output.** `research._assemble` copies id/slug/name/category from the CSV and `composio_toolkit` from `data/composio_coverage.csv`. Empty CSV cells become `null` / `[]`.
+- **Evidence integrity.** Evidence URLs must be pages fetched (status < 400, non-empty text) in the same run. Matching uses the requested or final URL, normalized. Others are dropped in `validate.check_evidence`. An empty required list then fails the schema and triggers the single retry. Snippets live in `evidence/<slug>.json`, not in the row, because the row has `additionalProperties: false`.
+- **Consistency rules** that JSON Schema can't express are in `validate.consistency_errors`: primary_auth in auth_methods, no_public_api pairing, gated cannot be buildable_now, gated_access needs gated access. The oauth2-first preference is deliberately NOT a code rule. It applies only when OAuth2 authenticates the product's own API, not an MCP server or a dashboard login, and code can't tell the difference. The prompt and rubric own it.
+- **Auth `unknown`** (alone, in both auth fields) = auth could not be determined because docs are absent, gated, or omit auth. `custom_other` is only for documented custom schemes. `auth_methods` is developer-API auth only.
+- **Vague MCP mentions are `none`**: "MCP (beta)" with no server URL, repo, or MCP docs page gives `mcp_status: none`, `mcp_url: null`, and the mention goes in notes.
+- **Composio still fails in this project** with `400 No active connection found for toolkit(s) ...`. This is true even after Instant was toggled; `session.search` shows `instant_account: null`. `composio_search` is retired (410). The defaults are free-first: `SEARCH_PROVIDER=ddgs`, `FETCH_PROVIDER=hybrid`.
+  - `HybridFetch` escalates a URL to Firecrawl only when the http page is thin (after all extraction fallbacks) or blocked (0/401/403/429/503). Other 4xx/5xx are not escalated.
+  - `HybridSearch` uses Exa only when ddgs returns nothing.
+  - The first ProviderUnavailable switches Composio off for the run, logged once. Explicit `composio_*` modes also fall back to free.
+- **Instant budget** (`tools/budget.py`, `INSTANT_BUDGET_USD`, default 0.30, 0 disables): one `InstantBudget` per run is shared by search and fetch.
+  - `ComposioTool.execute` reserves the listed price before calling. `BudgetExceeded` means nothing was sent, and the caller keeps the free result.
+  - It records `instant_charge.amount` if reported, otherwise the listed price as an estimate. The reservation is released when the call fails unbilled.
+  - Per-app attribution uses the `current_app` ContextVar set in `Researcher.research`. Per-app deltas go in `log.jsonl`, totals in the summary.
+- **ddgs:** only `backend="yahoo"` returned results on the dev box. The others raise "No results found". Backends are tried in order (`DDGS_BACKENDS`).
+- **Composio arg names** (`numResults`, `max_results`, `onlyMainContent`) are checked against the live tool schema (`tools.get_raw_composio_tool_by_slug`) when a session is created. They fall back to the defaults in `composio_tools.TOOLS`.
+- **LLM SDKs are imported lazily** inside each adapter. Missing-key errors name the variable, never a value.
+- **LLM output handling.** Every raw response (text, stop_reason, truncated, usage) is saved per attempt to `cache/<slug>.llm.json`. `extract_json` only parses the outermost object starting at the first `{`. The old fallback to later `{` returned a nested object when the outer one was malformed, which produced all-null rows (firecrawl in smoke-1). The row is accepted under `"row"`, at top level, or under one wrapper key. Truncation (`max_tokens` / `length` / `MAX_TOKENS`), unparseable JSON, and JSON with no row fields each give one explicit `output:` error for the single retry, never schema noise. `LLM_MAX_TOKENS` defaults to 8000.
+- **Relevance filter before fetching** (`research.classify_result`): a result is kept if:
+  - it is on the official domain, or a host label naming the app (`token_in_label`); or
+  - it is on a doc/code host (`DOC_HOSTS`) whose URL path or title names the app; or
+  - it is a third-party page naming the app in title/snippet (max 2).
+
+  `start_url` is always kept, and official pages rank first. Short tokens (≤ 6 chars, e.g. plain/close/front) never match inside another word. Host labels must equal the token, contain it as a hyphen segment, or be the token plus an allowlisted affix (get/use/app/hq/...). Text needs a whole-word match.
+- **Pricing page**: one of the 4 search queries targets pricing/plans/signup. `pick_urls` makes sure one official pricing/plans/signup URL is picked: it replaces the lowest-ranked pick if the list is full. If none was found, it synthesizes `<start_url origin>/pricing`, which may be max_pages + 1.
+- **Dedupe**: `pick_urls` dedupes by `normalize_url`. `Researcher._fetch_new` also skips URLs whose normalized form matches any already-fetched page's requested *or final* URL, which catches redirects. `prompts.render_pages` dedupes by final URL, keeping the OK page with the longest text. URLs are deduped by their normalized form but fetched as written, since normalizing strips `www.`.
+- **`Page.method` is never blank**: `http_error` for HTTP 4xx/5xx (text dropped) and request exceptions, `fetch_error` for crashes, `firecrawl_markdown`, `fake`, or one of the HttpFetch extraction methods.
+- **Thin pages (< 1500 chars)** in `HttpFetch`: trafilatura is tried, then trafilatura with favor_recall, then the `<url>.md` twin (docs URLs only), then lxml visible text. The first candidate that is no longer thin wins, else the longest. `method` / `text_source_url` are recorded in the page meta. `<origin>/llms.txt` is fetched once per app as its own page when a docs page is thin.
+- Concurrency uses a thread pool (the SDKs are sync). Writes to the jsonl files go through one lock. Resume means skipping slugs already in `rows.jsonl`.
+- Do not run the agent on all 100 apps without being asked. It costs real LLM tokens.
+- No person's real name anywhere. The repo owner is "adithyaprad".

@@ -63,8 +63,10 @@ A later catalog refresh can change labels. We score against the snapshot that wa
 - The gold set is the list of documented methods. Extra or missing values are a miss, with two exceptions:
   - If the agent finds a real additional official method that the gold pass missed, gold is updated and the agent is marked correct. That is a gold fix, not extra credit, and it is logged.
   - Close variants that we deliberately collapsed do not count as extra methods: personal access tokens, bot tokens, and dashboard API keys are all `api_key`.
-- `primary_auth` is correct if it is a documented method and follows the preference rule: `oauth2` when OAuth2 is documented, otherwise the method official docs present as the default or most common.
+- Auth is scored for the product's **developer API** only. OAuth that only applies to an MCP server, and website / dashboard / SSO login, are not API auth methods. Listing them in `auth_methods` is an extra value, and a miss.
+- `primary_auth` is correct if it is a documented API method and follows the preference rule: `oauth2` when OAuth2 is a documented way to call the product's API itself; otherwise the method official docs present as the default or most common. Validation only checks that `primary_auth` is in `auth_methods`. The OAuth preference is judged here, not in code.
 - If official docs only describe one method, `auth_methods` is that one value and it is also `primary_auth`.
+- `unknown` means the auth method could not be determined because developer docs are absent, gated, or omit auth. It is used alone, for both `auth_methods` and `primary_auth`. It matches a gold `unknown`. It is not interchangeable with `custom_other`, which is for a documented vendor-specific scheme (HMAC, mTLS, proprietary handshake).
 
 ### Access
 
@@ -91,6 +93,7 @@ Exact enum match, plus:
 - `official` means the vendor publishes or endorses it (docs, official repo, or official announcement).
 - `community` means third-party only.
 - If both exist, the correct status is `official`.
+- A vague mention is `none`, with `mcp_url: null` and the mention recorded in `notes`. Examples: "MCP (beta)", or "coming soon" on a marketing page, with no actual server URL, installable repo, or dedicated MCP docs page. Labelling such a mention `official` or `community` is a miss.
 - `none` is correct when no usable server is found after checking official docs, the vendor’s GitHub org if any, and a reasonable web/MCP-directory search. Evidence for `none` is the official docs or org URL that was checked, with a note that no official MCP was found. We do not require a page that literally says “we have no MCP”.
 
 ### Verdict and blocker

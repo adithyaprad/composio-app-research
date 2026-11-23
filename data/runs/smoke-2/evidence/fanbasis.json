@@ -1,0 +1,308 @@
+{
+  "slug": "fanbasis",
+  "searches": [
+    {
+      "query": "fanbasis API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://dev-docs.fanbasis.com/",
+          "title": "Login - FanBasis API Docsv3",
+          "snippet": "Sign in to access API Docs Password"
+        },
+        {
+          "url": "https://github.com/FanBasis/fbnewapi",
+          "title": "GitHub - FanBasis/fbnewapi",
+          "snippet": "It provides everything a developer needs to integrate with the FanBasis payment platform — from authentication and endpoint references to an interactive API playground, webhook event catalog, and AI agent integration."
+        },
+        {
+          "url": "https://api-sandbox.commas.net/",
+          "title": "api-sandbox.commas.net - FanBasis",
+          "snippet": "FanBasis is the all-in-one marketplace OS for digital products, combining payments, hosting, fulfillment, upsells, and analytics in one seamless platform."
+        },
+        {
+          "url": "https://apidocs.fan/",
+          "title": "Commas API Reference",
+          "snippet": "Here's the fastest path to accepting your first payment through the API. This whole flow takes about 10 minutes. Log into your Commas dashboard and go to Account → API Keys. Copy your API key. You'll use it in every request you make."
+        },
+        {
+          "url": "https://demo.embedded.fanbasis.io/docs/getting-started",
+          "title": "Vite + React + TS - demo.embedded.fanbasis.io",
+          "snippet": "Getting Started This guide will help you get up and running with the Fanbasis Payment SDK in just a few minutes. Prerequisites Before you begin, make sure you have: A Fanbasis merchant account Node.js 16+ installed A modern web browser Basic knowledge of JavaScript/TypeScript Installation For React "
+        }
+      ]
+    },
+    {
+      "query": "fanbasis developer API access pricing",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://dev-docs.fanbasis.com/",
+          "title": "Login - FanBasis API Docsv3",
+          "snippet": "Sign in to access API Docs Password"
+        },
+        {
+          "url": "https://github.com/FanBasis/fbnewapi",
+          "title": "GitHub - FanBasis/fbnewapi",
+          "snippet": "Complete API reference for the FanBasis payment platform. Checkout sessions, webhooks, subscriptions, customers, discount codes, transactions, refunds, disputes, and more."
+        },
+        {
+          "url": "https://api-sandbox.commas.net/",
+          "title": "api-sandbox.commas.net - FanBasis",
+          "snippet": "FanBasis is the all-in-one marketplace OS for digital products, combining payments, hosting, fulfillment, upsells, and analytics in one seamless platform."
+        },
+        {
+          "url": "https://legal.fanvue.com/api-policy",
+          "title": "API Access & Usage Policy | Fanvue",
+          "snippet": "Oct 16, 2026 · This API Access & Usage Policy (the “Policy”) governs use of Fanvue’s application programming interfaces (the “API”). It applies to every App that accesses the API and to every App Builder that builds or operates one, whether or not the App is listed on the Fanvue App Store."
+        },
+        {
+          "url": "https://www.plan.fanbase.io/",
+          "title": "Fanbase Plans — APIs and Widgets",
+          "snippet": "Choose and manage Fanbase API and widget plans for swaps, staking and digital-asset products."
+        }
+      ]
+    },
+    {
+      "query": "fanbasis API documentation reference",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://github.com/FanBasis/fbnewapi",
+          "title": "GitHub - FanBasis/fbnewapi",
+          "snippet": "Complete API reference for the FanBasis payment platform. Checkout sessions, webhooks, subscriptions, customers, discount codes, transactions, refunds, disputes, and more."
+        },
+        {
+          "url": "https://dev-docs.fanbasis.com/",
+          "title": "Login - FanBasis API Docsv3",
+          "snippet": "Sign in to access API Docs Password"
+        },
+        {
+          "url": "https://apidocs.fan/",
+          "title": "Commas API Reference",
+          "snippet": "Here's the fastest path to accepting your first payment through the API. This whole flow takes about 10 minutes. Log into your Commas dashboard and go to Account → API Keys. Copy your API key. You'll use it in every request you make."
+        },
+        {
+          "url": "https://api-sandbox.commas.net/enterprises",
+          "title": "FanBasis — Payments Infrastructure That Makes You More Money",
+          "snippet": "REST API + full documentation — comprehensive reference, Postman collection, and real-time webhooks. SDKs for Node, Python, PHP, Ruby — idiomatic libraries maintained by our engineering team. 10,000+ integrations via Zapier and native connectors — plug into your existing stack without custom code."
+        },
+        {
+          "url": "https://demo.embedded.fanbasis.io/docs/getting-started",
+          "title": "Vite + React + TS - demo.embedded.fanbasis.io",
+          "snippet": "Getting Started This guide will help you get up and running with the Fanbasis Payment SDK in just a few minutes. Prerequisites Before you begin, make sure you have: A Fanbasis merchant account Node.js 16+ installed A modern web browser Basic knowledge of JavaScript/TypeScript Installation For React "
+        }
+      ]
+    },
+    {
+      "query": "fanbasis MCP server",
+      "provider": "ddgs",
+      "results": []
+    },
+    {
+      "query": "fanbasis API documentation authentication API key",
+      "provider": "ddgs:google",
+      "results": [
+        {
+          "url": "https://dev-docs.fanbasis.com/",
+          "title": "Login - FanBasis API Docsv3",
+          "snippet": "Sign in to access API Docs Password"
+        },
+        {
+          "url": "https://github.com/FanBasis/fbnewapi",
+          "title": "GitHub - FanBasis/fbnewapi",
+          "snippet": "Test any FanBasis API endpoint directly from the docs. Enter your API key, choose an environment (sandbox or production), select an endpoint, and send requests — all without leaving the browser."
+        },
+        {
+          "url": "https://apidocs.fan/",
+          "title": "Commas API Reference",
+          "snippet": "Test any endpoint right here in the docs — enter your API key, pick an endpoint, fill in the parameters, and hit Send. No terminal required. Here's the fastest path to accepting your first payment through the API. This whole flow takes about 10 minutes."
+        },
+        {
+          "url": "https://launchonbasis.com/api-docs",
+          "title": "API Documentation - BASIS",
+          "snippet": "Programmatic access to the BASIS platform: SIWE auth, API keys, on-chain data, prediction markets, agents, social, and more."
+        },
+        {
+          "url": "https://legal.fanvue.com/api-policy",
+          "title": "API Access & Usage Policy | Fanvue",
+          "snippet": "Oct 16, 2026 · This API Access & Usage Policy (the “Policy”) governs use of Fanvue’s application programming interfaces (the “API”). It applies to every App that accesses the API and to every App Builder that builds or operates one, whether or not the App is listed on the Fanvue App Store."
+        }
+      ]
+    },
+    {
+      "query": "fanbasis MCP server",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://github.com/FanBasis/fbnewapi",
+          "title": "GitHub - FanBasis/fbnewapi",
+          "snippet": "Documentation for connecting AI assistants (Claude, ChatGPT, Grok) to the FanBasis API via the MCP protocol. Includes a ready-to-use MCP server configuration for Claude Desktop."
+        },
+        {
+          "url": "https://mcpservers.org/",
+          "title": "Awesome MCP Servers",
+          "snippet": "Explore 9,800+ official and community MCP servers for Claude, Codex, Cursor, and other AI agents. Find the right tools and setup guides for your workflow."
+        },
+        {
+          "url": "https://supabase.com/blog/mcp-server",
+          "title": "Supabase MCP Server",
+          "snippet": "Apr 4, 2025 · MCP stands for Model Context Protocol. It standardizes how Large Language Models (LLMs) talk to platforms like Supabase. Our MCP server connects your AI tools to Supabase so that they can perform tasks like launching databases, managing tables, fetching config, and querying data on you"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/rest/api/fabric/articles/mcp-servers/what-is-fabric-mcp-server",
+          "title": "Fabric MCP Servers overview - Microsoft Fabric REST APIs",
+          "snippet": "Oct 21, 2026 · Fabric MCP Server (local) is an open-source, development-focused MCP server that runs as a subprocess on your machine. It provides API documentation, OneLake data operations, core Fabric tools, and Data Factory workflows, including local file access for uploads and downloads."
+        },
+        {
+          "url": "https://mcpservers.org/servers/supabase-mcp-server",
+          "title": "Official Supabase MCP Server | Awesome MCP Servers",
+          "snippet": "Official Supabase MCP server for managing Supabase projects, databases, auth, storage, edge functions, and SQL workflows from AI agents."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://fanbasis.com",
+      "final_url": "https://commas.com/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:35Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "890365ab1501919d0340ef1ce9fd4d46908e1fbfefdfd8d8250a252ec735b09a",
+      "text_len": 4394
+    },
+    {
+      "requested_url": "https://dev-docs.fanbasis.com/",
+      "final_url": "https://dev-docs.fanbasis.com/login.html",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:38Z",
+      "error": null,
+      "method": "trafilatura_recall",
+      "text_source_url": null,
+      "sha256": "7d8e8b0e2163cf4ae6b750d41c4f98f123c54203c567ee66009accf0a00bf2a1",
+      "text_len": 125
+    },
+    {
+      "requested_url": "https://demo.embedded.fanbasis.io/docs/getting-started",
+      "final_url": "https://demo.embedded.fanbasis.io/docs/getting-started",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:40Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "35f0609503d0215ace0382b617de39334abce60ca6885b9553bd950fc1a7a754",
+      "text_len": 17
+    },
+    {
+      "requested_url": "https://github.com/FanBasis/fbnewapi",
+      "final_url": "https://github.com/FanBasis/fbnewapi",
+      "status": 404,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:42Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "205cac154cc9fb7f19e2de68b4d79bb5e1c8db56c2b106730adcb41ad136e0c9",
+      "text_len": 1877
+    },
+    {
+      "requested_url": "https://api-sandbox.commas.net/",
+      "final_url": "https://api-sandbox.commas.net/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:44Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "e038956bf860a99891765460b5c78d59fed63612a73a7372b312203c333cf4eb",
+      "text_len": 5916
+    },
+    {
+      "requested_url": "https://api-sandbox.commas.net/enterprises",
+      "final_url": "https://api-sandbox.commas.net/enterprises",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:45Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "1ebf94267cd7affd09783b4646218538176a01f3926cbc71cf3ae89291b01abe",
+      "text_len": 4767
+    },
+    {
+      "requested_url": "https://dev-docs.fanbasis.com/llms.txt",
+      "final_url": "https://dev-docs.fanbasis.com/llms.txt",
+      "status": 404,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:47Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "191ef4591556ca6093f2fed4319940fa75f371b1ae5cc8aeddb35ca2a05dd214",
+      "text_len": 20
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://dev-docs.fanbasis.com/login.html",
+        "quote": "Sign in to access API Docs",
+        "verified": true
+      },
+      {
+        "url": "https://api-sandbox.commas.net/enterprises",
+        "quote": "API keys, webhooks, sandbox testing",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://api-sandbox.commas.net/enterprises",
+        "quote": "Dedicated implementation support from day one.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://api-sandbox.commas.net/enterprises",
+        "quote": "REST API + full documentation — comprehensive reference, Postman collection, and real-time webhooks.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://commas.com/",
+        "quote": "Run Commas from your AI assistant. Create checkout links, issue refunds and pull your numbers in plain English.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://dev-docs.fanbasis.com/login.html",
+        "quote": "Invalid password. Please try again.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://api-sandbox.commas.net/",
+        "quote": "All-in-one software to run high-ticket, high-margin digital businesses. Everything from checkout to fulfillment with built-in financing, premium payments",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}
