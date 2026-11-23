@@ -1,0 +1,661 @@
+{
+  "slug": "dataforseo",
+  "searches": [
+    {
+      "query": "DataForSEO API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.dataforseo.com/v3/auth/",
+          "title": "Authentication – DataForSEO API v.3",
+          "snippet": "Authentication – DataForSEO API v.3\n\n# Authentication\n\n```python\nfrom client import RestClient\n#You can download this file from here https://cdn.dataforseo.com/v3/examples/python/python_Client.zip\n\n#Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access\ncli"
+        },
+        {
+          "url": "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples",
+          "title": "How to Authenticate with DataForSEO Google Search SERP API: API Key Setup and Code Examples – DataForSEO",
+          "snippet": "How to Authenticate with DataForSEO Google Search SERP API: API Key Setup and Code Examples – DataForSEO\n\n# How to Authenticate with DataForSEO Google Search SERP API: API Key Setup and Code Examples\n\n SERP API Updated 18.11.2026 \n\n Table of Contents \n\nYour DataForSEO API key is your API login and A"
+        },
+        {
+          "url": "https://dataforseo.com/help-center/common-first-errors-with-dataforseo-api-and-how-to-fix-them",
+          "title": "Common First Errors With DataForSEO API and How to Fix Them – DataForSEO",
+          "snippet": "Common First Errors With DataForSEO API and How to Fix Them – DataForSEO\n\n# Common First Errors With DataForSEO API and How to Fix Them\n\n Getting Started Updated 18.11.2026 \n\n Table of Contents \n\nRunning into errors is a normal part of working with any API, especially during the first integration. M"
+        },
+        {
+          "url": "https://dataforseo.com/dev-starter-kit",
+          "title": "App Development Starter Kit | DataForSEO",
+          "snippet": "App Development Starter Kit | DataForSEO\n\n# You’re in. Here’s the fastest path to your first working integration.\n\nPick your entry point. Four paths, no prerequisites, no required order.\n\n- Your first API call Only four steps – fit for any development stack. Jump to section \n- Developer toolbox Clie"
+        },
+        {
+          "url": "https://dataforseo.com/help-center/getting-started-with-google-search-engine-api-documentation",
+          "title": "Getting Started with DataForSEO Google Organic SERP API: Parameters, Endpoints, and Response Structure – DataForSEO",
+          "snippet": "Getting Started with DataForSEO Google Organic SERP API: Parameters, Endpoints, and Response Structure – DataForSEO\n\n# Getting Started with DataForSEO Google Organic SERP API: Parameters, Endpoints, and Response Structure\n\n SERP API Updated 18.11.2026 \n\n Table of Contents \n\nThis getting-started guid"
+        }
+      ]
+    },
+    {
+      "query": "DataForSEO developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.dataforseo.com/v3/",
+          "title": "DataForSEO API v.3",
+          "snippet": "DataForSEO API v.3\n\n# Introduction\n\n### Welcome to DataForSEO API!\n\nThis is the starting point on your journey towards building powerful SEO software, data analysis pipelines, and robust no-code automations. With DataForSEO you can get all the data you need while saving your time and budget.\n\n### Ge"
+        },
+        {
+          "url": "https://docs.dataforseo.com/v3/auth/",
+          "title": "Authentication – DataForSEO API v.3",
+          "snippet": "Authentication – DataForSEO API v.3\n\n# Authentication\n\n```python\nfrom client import RestClient\n#You can download this file from here https://cdn.dataforseo.com/v3/examples/python/python_Client.zip\n\n#Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access\ncli"
+        },
+        {
+          "url": "https://dataforseo.com/dev-starter-kit",
+          "title": "App Development Starter Kit | DataForSEO",
+          "snippet": "App Development Starter Kit | DataForSEO\n\n# You’re in. Here’s the fastest path to your first working integration.\n\nPick your entry point. Four paths, no prerequisites, no required order.\n\n- Your first API call Only four steps – fit for any development stack. Jump to section \n- Developer toolbox Clie"
+        },
+        {
+          "url": "https://dataforseo.com/apis",
+          "title": "DataForSEO APIs",
+          "snippet": "DataForSEO APIs – Powerful Data Solutions for SEO and SEM\n\n# DataForSEO APIs\n\nAll the data for your SEO tool in one place\n\n## DataForSEO APIs in Figures\n\n## DataForSEO APIs\n\n \n\n##### SERP API\n\n \n\n##### Keyword Data API\n\n##### Backlinks API\n\n \n\n##### Domain Analytics API\n\n \n\n##### On-Page API\n\n \n\n###"
+        },
+        {
+          "url": "https://docs.dataforseo.com/v3/migration_guide_v3/",
+          "title": "DataForSEO v3 Migration Guide – DataForSEO API v.3",
+          "snippet": "DataForSEO v3 Migration Guide – DataForSEO API v.3\n\n# DataForSEO v3 Migration Guide\n\nImportant note for current API v2 users: As of May 5, 2026, API v2 is no longer supported. To keep everything running, move to API v3. This guide will help you get started.\n\nVersion three is designed for improving, "
+        }
+      ]
+    },
+    {
+      "query": "DataForSEO pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://dataforseo.com/pricing",
+          "title": "DataForSEO API v3 Pricing – Transparent Pay-As-You-Go Pricing Model",
+          "snippet": "DataForSEO API v3 Pricing – Transparent Pay-As-You-Go Pricing Model\n\n# Pricing\n\nTransparent pay-as-you-go pricing for DataForSEO APIs. Find the API you need, understand how it is billed, and view the detailed pricing page for exact rates and parameters. \n\n- Pay as you go\n- No subscriptions\n- $50 min"
+        },
+        {
+          "url": "https://dataforseo.com/faq",
+          "title": "FAQ - Your Questions Answered by DataForSEO",
+          "snippet": "FAQ - Your Questions Answered by DataForSEO\n\n# FAQ\n\nMost common questions and answers can be found here\n\n## Your questions answered\n\n###### Do I need to sign a contract? \n\nWorking with us, you don’t have to sign any contracts and be bound by any conditions. We provide services based on the pay-as-yo"
+        },
+        {
+          "url": "https://dataforseo.com/apis/serp-api",
+          "title": "SERP API You Can Trust: DataForSEO Always Works.",
+          "snippet": "SERP API You Can Trust: DataForSEO Always Works.\n\n# for every use case\n\nPriced right at any scale. Focus on developing your tool, not fixing scrapers or chasing missing data.\n\nMade for software developers and SEO teams of every size.\n\n*No credit card required\n\nNo-code & AI friendly Get data via n8n,"
+        },
+        {
+          "url": "https://dataforseo.com/help-center/how-does-your-free-unlimited-trial-work",
+          "title": "How does your free unlimited trial work? – DataForSEO",
+          "snippet": "How does your free unlimited trial work? – DataForSEO\n\n# How does your free unlimited trial work?\n\n Getting Started Updated 18.11.2026 \n\nFirst of all, we offer a free unlimited trial to let you try out our APIs and evaluate the efficiency of our service. To get a free trial, you should simply create"
+        },
+        {
+          "url": "https://app.dataforseo.com/register",
+          "title": "Register",
+          "snippet": "DataForSEO\n\n# Integrate. Optimize. Scale.\n\nBusiness account benefits\n\n### Custom payment and invoice options\n\nGet wire transfer, PO-based billing, and custom invoice cycles tailored to your financial requirements\n\n### Contract with the an EU or US entity\n\nYou can sign a contract with either DataForS"
+        }
+      ]
+    },
+    {
+      "query": "DataForSEO official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://github.com/dataforseo/mcp-server-typescript",
+          "title": "dataforseo/mcp-server-typescript",
+          "snippet": "# dataforseo/mcp-server-typescript\n\nDataForSEO API modelcontextprotocol server \n\n- Stars: 262\n- Forks: 118\n- Watchers: 262\n- Open issues: 4\n- License: Apache License 2.0\n- Homepage: http://dataforseo.com/\n- Default branch: master\n- Created: 2025-04-10T10:47:08Z\n\n## Languages\n\n- Dockerfile\n- JavaScri"
+        },
+        {
+          "url": "https://dataforseo.com/model-context-protocol",
+          "title": "DataForSEO Model Context Protocol – DataForSEO",
+          "snippet": "DataForSEO Model Context Protocol – DataForSEO\n\n# Empower AI integration with DataForSEO MCP\n\nConnect your AI application with the most capable source of SEO data\n\n## Get Started With DataForSEO MCP\n\nChoose your AI client and follow the instructions to connect with DataForSEO APIs.\n\n Connectors Conf"
+        },
+        {
+          "url": "https://dataforseo.com/help-center/setting-up-the-official-dataforseo-mcp-server-simple-guide",
+          "title": "Setting Up the Official DataForSEO MCP Server: Simple Guide – DataForSEO",
+          "snippet": "Setting Up the Official DataForSEO MCP Server: Simple Guide – DataForSEO\n\n# Setting Up the Official DataForSEO MCP Server: Simple Guide\n\n DataForSEO MCP Updated 12.12.2025 \n\n Table of Contents \n\nThe DataForSEO MCP server is a powerful tool that allows the seamless integration of DataForSEO APIs and "
+        },
+        {
+          "url": "https://dataforseo.com/help-center/dataforseo-new-mcp-server-and-cli-connection-a-quickstart-guide",
+          "title": "DataForSEO New MCP Server and CLI Connection: A Quickstart Guide – DataForSEO",
+          "snippet": "DataForSEO New MCP Server and CLI Connection: A Quickstart Guide – DataForSEO\n\n# DataForSEO New MCP Server and CLI Connection: A Quickstart Guide\n\n DataForSEO MCP Updated 17.08.2026 \n\n Table of Contents \n\nIn this guide, we’ll explain how to connect DataForSEO APIs to desktop LLM apps and Command-Lin"
+        },
+        {
+          "url": "https://dataforseo.com/seo-mcp-server",
+          "title": "SEO MCP Server — Real SEO Data for Claude, Cursor & AI Agents",
+          "snippet": "SEO MCP Server — Real SEO Data for Claude, Cursor & AI Agents – DataForSEO\n\n# Give your AI assistant real SEO data\n\nThe DataForSEO MCP server connects Claude, Cursor, and any MCP-compatible agent to seven live SEO APIs. Ask in plain English; get real SERPs, keywords, backlinks, and audits back.\n\n$1 "
+        }
+      ]
+    },
+    {
+      "query": "site:docs.dataforseo.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.dataforseo.com/v3/on_page-overview/",
+          "title": "on_page/overview – DataForSEO API v.3",
+          "snippet": "on_page/overview – DataForSEO API v.3\n\n# OnPage API: Overview\n\n OnPage API is the customizable crawling engine for extracting website performance data \n\n## Endpoints and Parameters\n\nOnPage API encompasses multiple endpoints, which allow you to crawl any website or webpage according to customizable p"
+        },
+        {
+          "url": "https://docs.dataforseo.com/v3/serp-overview/",
+          "title": "serp/overview – DataForSEO API v.3",
+          "snippet": "serp/overview – DataForSEO API v.3\n\n# SERP API: Overview\n\n This API is designed to provide you with SERP results \n\nSERP API encompasses a broad range of endpoints. You can get the full list here.\n\nAll major search engines are supported: Google, Bing, YouTube, Yahoo, Baidu, Naver, and Seznam.\n\nThe re"
+        },
+        {
+          "url": "https://docs.dataforseo.com/v2/cmn/",
+          "title": "Common API – DataForSEO API v.2",
+          "snippet": "Common API – DataForSEO API v.2\n\n### Important note for current users! Effective May 5, 2026, DataForSEO v2 will no longer be supported. Learn more>>\n\n Here we’ve collected datasources that you’ll need to use to work with DataForSEO APIs effectively.\n\nThere is no charge for using these features!\n\n##"
+        },
+        {
+          "url": "https://docs.dataforseo.com/v3/databases-google-full_database/",
+          "title": "databases/google/full – DataForSEO API v.3",
+          "snippet": "databases/google/full – DataForSEO API v.3\n\n## Unified Search Google Database\n\n Unified Search Google Database is a combination of the Advanced Google SERP Database and Google Keyword Database. \n\nGoogle SERP Database offers millions of SERPs collected in 67 regions with most of Google’s advanced SER"
+        },
+        {
+          "url": "https://docs.dataforseo.com/v3/ai_optimization-llm_mentions-overview/",
+          "title": "ai_optimization/llm_mentions/overview – DataForSEO API v.3",
+          "snippet": "ai_optimization/llm_mentions/overview – DataForSEO API v.3\n\n# LLM Mentions API: Overview\n\n This API is the ultimate source of LLM mentions data for AI search optimization \n\nLLM Mentions API provides data on keyword, brand and website mentions in LLMs, including metrics like LLM chat mentions, source"
+        }
+      ]
+    },
+    {
+      "query": "site:dataforseo.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://dataforseo.com/model-context-protocol",
+          "title": "DataForSEO Model Context Protocol – DataForSEO",
+          "snippet": "DataForSEO Model Context Protocol – DataForSEO\n\n# Empower AI integration with DataForSEO MCP\n\nConnect your AI application with the most capable source of SEO data\n\n## Get Started With DataForSEO MCP\n\nChoose your AI client and follow the instructions to connect with DataForSEO APIs.\n\n Connectors Conf"
+        },
+        {
+          "url": "https://dataforseo.com/seo-mcp-server",
+          "title": "SEO MCP Server — Real SEO Data for Claude, Cursor & AI Agents – DataForSEO",
+          "snippet": "SEO MCP Server — Real SEO Data for Claude, Cursor & AI Agents – DataForSEO\n\n# Give your AI assistant real SEO data\n\nThe DataForSEO MCP server connects Claude, Cursor, and any MCP-compatible agent to seven live SEO APIs. Ask in plain English; get real SERPs, keywords, backlinks, and audits back.\n\n$1 "
+        },
+        {
+          "url": "https://dataforseo.com/help-center/setting-up-the-official-dataforseo-mcp-server-simple-guide",
+          "title": "Setting Up the Official DataForSEO MCP Server: Simple Guide – DataForSEO",
+          "snippet": "Setting Up the Official DataForSEO MCP Server: Simple Guide – DataForSEO\n\n# Setting Up the Official DataForSEO MCP Server: Simple Guide\n\n DataForSEO MCP Updated 12.12.2025 \n\n Table of Contents \n\nThe DataForSEO MCP server is a powerful tool that allows the seamless integration of DataForSEO APIs and "
+        },
+        {
+          "url": "https://dataforseo.com/blog/dataforseo-mcp-server-bridging-the-gap-between-ai-models-and-seo-data",
+          "title": "DataForSEO MCP Server: Bridging the Gap Between AI Models and SEO Data – DataForSEO",
+          "snippet": "DataForSEO MCP Server: Bridging the Gap Between AI Models and SEO Data – DataForSEO\n\n# DataForSEO MCP Server: Bridging the Gap Between AI Models and SEO Data\n\n What's New By Anatolii 25.06.2025 \n\n Table of Contents \n\nHave you ever dreamed of having a personal AI SEO assistant? The one who, with a si"
+        },
+        {
+          "url": "https://dataforseo.com/help-center/how-to-connect-the-official-dataforseo-mcp-server-to-chatgpt-simple-guide",
+          "title": "How to Connect the Official DataForSEO MCP Server to ChatGPT: Simple Guide – DataForSEO",
+          "snippet": "How to Connect the Official DataForSEO MCP Server to ChatGPT: Simple Guide – DataForSEO\n\n# How to Connect the Official DataForSEO MCP Server to ChatGPT: Simple Guide\n\n DataForSEO MCP Updated 16.10.2026 \n\nYou might have tried our integration with ChatGPT Actions, which effectively turns ChatGPT into "
+        }
+      ]
+    },
+    {
+      "query": "DataForSEO API authentication OAuth API key",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.dataforseo.com/v3/auth/",
+          "title": "Authentication – DataForSEO API v.3",
+          "snippet": "Authentication - DataForSEO API v.3\n\n# Authentication\n\n```python\nfrom client import RestClient\n#You can download this file from here https://cdn.dataforseo.com/v3/examples/python/python_Client.zip\n\n#Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access\ncli"
+        },
+        {
+          "url": "https://dataforseo.com/dev-starter-kit",
+          "title": "App Development Starter Kit | DataForSEO",
+          "snippet": "App Development Starter Kit | DataForSEO\n\n# You’re in. Here’s the fastest path to your first working integration.\n\nPick your entry point. Four paths, no prerequisites, no required order.\n\n- Your first API call Only four steps – fit for any development stack. Jump to section \n- Developer toolbox Clie"
+        },
+        {
+          "url": "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples",
+          "title": "How to Authenticate with DataForSEO Google Search SERP API: API Key Setup and Code Examples – DataForSEO",
+          "snippet": "How to Authenticate with DataForSEO Google Search SERP API: API Key Setup and Code Examples – DataForSEO\n\n# How to Authenticate with DataForSEO Google Search SERP API: API Key Setup and Code Examples\n\n SERP API Updated 18.11.2026 \n\n Table of Contents \n\nYour DataForSEO API key is your API login and A"
+        },
+        {
+          "url": "https://github.com/dataforseo/mcp-server-typescript",
+          "title": "dataforseo/mcp-server-typescript",
+          "snippet": "# dataforseo/mcp-server-typescript\n\nDataForSEO API modelcontextprotocol server \n\n- Stars: 262\n- Forks: 118\n- Watchers: 262\n- Open issues: 4\n- License: Apache License 2.0\n- Homepage: http://dataforseo.com/\n- Default branch: master\n- Created: 2025-04-10T10:47:08Z\n\n## Languages\n\n- Dockerfile\n- JavaScri"
+        },
+        {
+          "url": "https://dataforseo.com/help-center/connecting-the-remote-dataforseo-mcp-server-using-oauth",
+          "title": "Connecting the remote DataForSEO MCP server using OAuth – DataForSEO",
+          "snippet": "Connecting the remote DataForSEO MCP server using OAuth – DataForSEO\n\n# Connecting the remote DataForSEO MCP server using OAuth\n\n DataForSEO MCP Updated 07.08.2026 \n\n Table of Contents \n\nDataForSEO MCP server is an implementation of the Model Context Protocol that allows popular LLMs and AI-powered "
+        }
+      ]
+    },
+    {
+      "query": "site:docs.dataforseo.com API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.dataforseo.com/v3/auth/",
+          "title": "Authentication – DataForSEO API v.3",
+          "snippet": "Authentication - DataForSEO API v.3\n\n# Authentication\n\n```python\nfrom client import RestClient\n#You can download this file from here https://cdn.dataforseo.com/v3/examples/python/python_Client.zip\n\n#Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access\ncli"
+        },
+        {
+          "url": "https://docs.dataforseo.com/v3/migration_guide_v3/",
+          "title": "DataForSEO v3 Migration Guide – DataForSEO API v.3",
+          "snippet": "DataForSEO v3 Migration Guide – DataForSEO API v.3\n\n# DataForSEO v3 Migration Guide\n\nImportant note for current API v2 users: As of May 5, 2026, API v2 is no longer supported. To keep everything running, move to API v3. This guide will help you get started.\n\nVersion three is designed for improving, "
+        },
+        {
+          "url": "https://docs.dataforseo.com/v3/llms.txt/",
+          "title": "",
+          "snippet": "Docs DataForSEO V3\n\n- [Introduction](https://docs.dataforseo.com/v3.md) — This is the starting point on your journey towards building powerful SEO software, data analysis pipelines, and robust no-code automations. With DataForSEO you can get all the data you need while saving your time and budget.\n-"
+        },
+        {
+          "url": "https://docs.dataforseo.com/v2/auth/",
+          "title": "Authentication – DataForSEO API v.2",
+          "snippet": "Authentication – DataForSEO API v.2\n\n### Important note for current users! Effective May 5, 2026, DataForSEO v2 will no longer be supported. Learn more>>\n\n> To authorize, use this code:\n\n```\n<?php\nrequire('RestClient.php');\n//You can download this file from here https://api.dataforseo.com/_examples/"
+        },
+        {
+          "url": "https://docs.dataforseo.com/v3/appendix-errors/",
+          "title": "appendix/errors – DataForSEO API v.3",
+          "snippet": "appendix/errors – DataForSEO API v.3\n\n## Errors\n\nThis endpoint returns a list of possible DataForSEO API errors and general status codes. Below you will find a list of HTTP response codes and internal messages. We recommend storing the data connected to error codes in your application log and design"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.dataforseo.com",
+      "final_url": "https://docs.dataforseo.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:23Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "2bc8dbcdbd383d080caae10217e8e308e7c047e3cf2fa32648c6d62e36b2db64",
+      "text_len": 3399
+    },
+    {
+      "requested_url": "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples",
+      "final_url": "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:14Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "36f93b0383b8693c05a790b2e8e90f3b64d57a84b45f9fca356fdd7f4ad30bd5",
+      "text_len": 12711
+    },
+    {
+      "requested_url": "https://docs.dataforseo.com/v3/auth/",
+      "final_url": "https://docs.dataforseo.com/v3/auth/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:14Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "be432a8f2d27c012d6a7aedddff75f57a1df9c9d6ef6c0ee752b14456ce51c5b",
+      "text_len": 4896
+    },
+    {
+      "requested_url": "https://dataforseo.com/pricing",
+      "final_url": "https://dataforseo.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:16Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "22d0c8c642302680f0d231b48ee93b233bb92a6efb5cf07c3ccf3ee57ae2422b",
+      "text_len": 5840
+    },
+    {
+      "requested_url": "https://dataforseo.com/help-center/dataforseo-new-mcp-server-and-cli-connection-a-quickstart-guide",
+      "final_url": "https://dataforseo.com/help-center/dataforseo-new-mcp-server-and-cli-connection-a-quickstart-guide",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2e311d838a5a11a13f9364a1ee45935771ec352a404f14dcac9cb31500dbd89d",
+      "text_len": 6644
+    },
+    {
+      "requested_url": "https://docs.dataforseo.com/v2/cmn/",
+      "final_url": "https://docs.dataforseo.com/v2/cmn/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "492244edfff329eec74266ef420502a438c4f308005e5431a5bacf77eca963a3",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://dataforseo.com/blog/dataforseo-mcp-server-bridging-the-gap-between-ai-models-and-seo-data",
+      "final_url": "https://dataforseo.com/blog/dataforseo-mcp-server-bridging-the-gap-between-ai-models-and-seo-data",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "819b73b737235f04ebca8ff90eddcf4b4068f4a4ad2735c09069023f25b2f552",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://dataforseo.com/help-center/how-to-connect-the-official-dataforseo-mcp-server-to-chatgpt-simple-guide",
+      "final_url": "https://dataforseo.com/help-center/how-to-connect-the-official-dataforseo-mcp-server-to-chatgpt-simple-guide",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7a3246677c6e24c58aba008db983dfa377769dff86f66f7a305f8a7ff9bac84a",
+      "text_len": 3239
+    },
+    {
+      "requested_url": "https://docs.dataforseo.com",
+      "final_url": "https://docs.dataforseo.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:54Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "c596822049e5640a63547774cca5c8b79d5703198b61f7deac7b234487813f4b",
+      "text_len": 3441
+    },
+    {
+      "requested_url": "https://docs.dataforseo.com/v3/auth/",
+      "final_url": "https://docs.dataforseo.com/v3/auth/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c3468958b45d9fae90862d203cc2e9de72e7484cb5fd11760e01fb160555c464",
+      "text_len": 4896
+    },
+    {
+      "requested_url": "https://dataforseo.com/help-center/connecting-the-remote-dataforseo-mcp-server-using-oauth",
+      "final_url": "https://dataforseo.com/help-center/connecting-the-remote-dataforseo-mcp-server-using-oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2a7de8c803730af49b1f2ae6b0f58cf00700b52ef1cd80a688c202d4d6f43cb5",
+      "text_len": 3874
+    },
+    {
+      "requested_url": "https://docs.dataforseo.com/v2/auth/",
+      "final_url": "https://docs.dataforseo.com/v2/auth/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:53Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d72035729be05e5eb4abb66ee46b561d2e16fa92813bfe09ec1e63570011cc0c",
+      "text_len": 3255
+    },
+    {
+      "requested_url": "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples",
+      "final_url": "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "36f93b0383b8693c05a790b2e8e90f3b64d57a84b45f9fca356fdd7f4ad30bd5",
+      "text_len": 12711
+    },
+    {
+      "requested_url": "https://docs.dataforseo.com/v3/appendix-errors/",
+      "final_url": "https://docs.dataforseo.com/v3/appendix-errors/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:53Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c01cc4f9cadc7e85a6bd70af768fe4085bb01c82e4fe49af06ade7e134f2a4e2",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples",
+        "quote": "Your DataForSEO API key is your API login and API password, joined as `login:password` and encoded in Base64.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "quote": "Basic authentication is the only way to access DataForSEO API; credentials should always be passed in the header of the request.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://dataforseo.com/pricing",
+        "quote": "You can sign up for free and use your $1 trial credit available to new accounts",
+        "verified": true
+      },
+      {
+        "url": "https://dataforseo.com/pricing",
+        "quote": "The minimum account top-up is $50.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.dataforseo.com",
+        "quote": "DataForSEO API is using the REST technology for interchanging data between your application and our service.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://dataforseo.com/help-center/how-to-connect-the-official-dataforseo-mcp-server-to-chatgpt-simple-guide",
+        "quote": "paste the DataForSEO MCP server’s URL (`https://mcp.dataforseo.com/mcp`) in the URL field",
+        "verified": true
+      },
+      {
+        "url": "https://dataforseo.com/help-center/dataforseo-new-mcp-server-and-cli-connection-a-quickstart-guide",
+        "quote": "`api_request` – makes an authenticated API request.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "quote": "Create a free account with DataForSEO, then go to the API Access tab",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://docs.dataforseo.com",
+        "quote": "building powerful SEO software, data analysis pipelines, and robust no-code automations",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "basic_transport_not_method"
+    ],
+    "findings": [
+      {
+        "rule": "basic_transport_not_method",
+        "source": "llm",
+        "reason": "DataForSEO's 'Basic' scheme only carries an API login and API password generated by DataForSEO (not the dashboard account password), and the vendor itself calls it the 'API key'. It should be listed as api_key, not basic.",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "url": "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples",
+            "quote": "Your DataForSEO API key is your API login and API password, joined as `login:password` and encoded in Base64."
+          },
+          {
+            "url": "https://docs.dataforseo.com/v3/auth/",
+            "quote": "the API password is generated automatically by DataForSEO and is different from your account password."
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth"
+    ],
+    "claims": [
+      "auth"
+    ],
+    "review_searches": [
+      {
+        "query": "DataForSEO API authentication OAuth API key",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://docs.dataforseo.com/v3/auth/",
+            "title": "Authentication – DataForSEO API v.3",
+            "snippet": "Authentication - DataForSEO API v.3\n\n# Authentication\n\n```python\nfrom client import RestClient\n#You can download this file from here https://cdn.dataforseo.com/v3/examples/python/python_Client.zip\n\n#Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access\ncli"
+          },
+          {
+            "url": "https://dataforseo.com/dev-starter-kit",
+            "title": "App Development Starter Kit | DataForSEO",
+            "snippet": "App Development Starter Kit | DataForSEO\n\n# You’re in. Here’s the fastest path to your first working integration.\n\nPick your entry point. Four paths, no prerequisites, no required order.\n\n- Your first API call Only four steps – fit for any development stack. Jump to section \n- Developer toolbox Clie"
+          },
+          {
+            "url": "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples",
+            "title": "How to Authenticate with DataForSEO Google Search SERP API: API Key Setup and Code Examples – DataForSEO",
+            "snippet": "How to Authenticate with DataForSEO Google Search SERP API: API Key Setup and Code Examples – DataForSEO\n\n# How to Authenticate with DataForSEO Google Search SERP API: API Key Setup and Code Examples\n\n SERP API Updated 18.11.2026 \n\n Table of Contents \n\nYour DataForSEO API key is your API login and A"
+          },
+          {
+            "url": "https://github.com/dataforseo/mcp-server-typescript",
+            "title": "dataforseo/mcp-server-typescript",
+            "snippet": "# dataforseo/mcp-server-typescript\n\nDataForSEO API modelcontextprotocol server \n\n- Stars: 262\n- Forks: 118\n- Watchers: 262\n- Open issues: 4\n- License: Apache License 2.0\n- Homepage: http://dataforseo.com/\n- Default branch: master\n- Created: 2025-04-10T10:47:08Z\n\n## Languages\n\n- Dockerfile\n- JavaScri"
+          },
+          {
+            "url": "https://dataforseo.com/help-center/connecting-the-remote-dataforseo-mcp-server-using-oauth",
+            "title": "Connecting the remote DataForSEO MCP server using OAuth – DataForSEO",
+            "snippet": "Connecting the remote DataForSEO MCP server using OAuth – DataForSEO\n\n# Connecting the remote DataForSEO MCP server using OAuth\n\n DataForSEO MCP Updated 07.08.2026 \n\n Table of Contents \n\nDataForSEO MCP server is an implementation of the Model Context Protocol that allows popular LLMs and AI-powered "
+          }
+        ]
+      },
+      {
+        "query": "site:docs.dataforseo.com API authentication",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://docs.dataforseo.com/v3/auth/",
+            "title": "Authentication – DataForSEO API v.3",
+            "snippet": "Authentication - DataForSEO API v.3\n\n# Authentication\n\n```python\nfrom client import RestClient\n#You can download this file from here https://cdn.dataforseo.com/v3/examples/python/python_Client.zip\n\n#Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access\ncli"
+          },
+          {
+            "url": "https://docs.dataforseo.com/v3/migration_guide_v3/",
+            "title": "DataForSEO v3 Migration Guide – DataForSEO API v.3",
+            "snippet": "DataForSEO v3 Migration Guide – DataForSEO API v.3\n\n# DataForSEO v3 Migration Guide\n\nImportant note for current API v2 users: As of May 5, 2026, API v2 is no longer supported. To keep everything running, move to API v3. This guide will help you get started.\n\nVersion three is designed for improving, "
+          },
+          {
+            "url": "https://docs.dataforseo.com/v3/llms.txt/",
+            "title": "",
+            "snippet": "Docs DataForSEO V3\n\n- [Introduction](https://docs.dataforseo.com/v3.md) — This is the starting point on your journey towards building powerful SEO software, data analysis pipelines, and robust no-code automations. With DataForSEO you can get all the data you need while saving your time and budget.\n-"
+          },
+          {
+            "url": "https://docs.dataforseo.com/v2/auth/",
+            "title": "Authentication – DataForSEO API v.2",
+            "snippet": "Authentication – DataForSEO API v.2\n\n### Important note for current users! Effective May 5, 2026, DataForSEO v2 will no longer be supported. Learn more>>\n\n> To authorize, use this code:\n\n```\n<?php\nrequire('RestClient.php');\n//You can download this file from here https://api.dataforseo.com/_examples/"
+          },
+          {
+            "url": "https://docs.dataforseo.com/v3/appendix-errors/",
+            "title": "appendix/errors – DataForSEO API v.3",
+            "snippet": "appendix/errors – DataForSEO API v.3\n\n## Errors\n\nThis endpoint returns a list of possible DataForSEO API errors and general status codes. Below you will find a list of HTTP response codes and internal messages. We recommend storing the data connected to error codes in your application log and design"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://docs.dataforseo.com",
+        "final_url": "https://docs.dataforseo.com",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:54Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "c596822049e5640a63547774cca5c8b79d5703198b61f7deac7b234487813f4b",
+        "text_len": 3441
+      },
+      {
+        "requested_url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:52Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "c3468958b45d9fae90862d203cc2e9de72e7484cb5fd11760e01fb160555c464",
+        "text_len": 4896
+      },
+      {
+        "requested_url": "https://dataforseo.com/help-center/connecting-the-remote-dataforseo-mcp-server-using-oauth",
+        "final_url": "https://dataforseo.com/help-center/connecting-the-remote-dataforseo-mcp-server-using-oauth",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:52Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "2a7de8c803730af49b1f2ae6b0f58cf00700b52ef1cd80a688c202d4d6f43cb5",
+        "text_len": 3874
+      },
+      {
+        "requested_url": "https://docs.dataforseo.com/v2/auth/",
+        "final_url": "https://docs.dataforseo.com/v2/auth/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:53Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "d72035729be05e5eb4abb66ee46b561d2e16fa92813bfe09ec1e63570011cc0c",
+        "text_len": 3255
+      },
+      {
+        "requested_url": "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples",
+        "final_url": "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:52Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "36f93b0383b8693c05a790b2e8e90f3b64d57a84b45f9fca356fdd7f4ad30bd5",
+        "text_len": 12711
+      },
+      {
+        "requested_url": "https://docs.dataforseo.com/v3/appendix-errors/",
+        "final_url": "https://docs.dataforseo.com/v3/appendix-errors/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:53Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "c01cc4f9cadc7e85a6bd70af768fe4085bb01c82e4fe49af06ade7e134f2a4e2",
+        "text_len": 20000
+      }
+    ]
+  }
+}

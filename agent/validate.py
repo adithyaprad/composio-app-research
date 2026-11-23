@@ -112,17 +112,21 @@ _NO_MCP_AT_ALL = re.compile(r"\bno\s+mcp\s+(?:server\s+)?(?:was\s+|is\s+)?(?:fou
                             r"|\bonly\s+(?:a\s+)?vague\s+(?:mcp\s+)?mention")
 
 
+def notes_say_oauth_not_api(row: dict) -> bool:
+    """Notes say OAuth is MCP-only, login-only, undocumented for the API, or should be dropped."""
+    sentences = [s for s in _SENTENCE_SPLIT.split((row.get("notes") or "").lower()) if s.strip()]
+    return any(("oauth" in s and any(p.search(s) for p in _OAUTH_NOT_API)) or _AUTH_MORE_ACCURATE.search(s)
+               for s in sentences)
+
+
 def notes_contradictions(row: dict) -> list[str]:
     """Flag notes that contradict auth_methods / mcp_status in the same row."""
     notes = (row.get("notes") or "").lower()
     if not notes:
         return []
-    sentences = [s for s in _SENTENCE_SPLIT.split(notes) if s.strip()]
     errs = []
     if "oauth2" in (row.get("auth_methods") or []):
-        hit = any(("oauth" in s and any(p.search(s) for p in _OAUTH_NOT_API)) or _AUTH_MORE_ACCURATE.search(s)
-                  for s in sentences)
-        if hit:
+        if notes_say_oauth_not_api(row):
             errs.append(
                 "rule notes: notes say OAuth is MCP-only, dashboard/login-only, undocumented for the API, or should "
                 "be dropped, but auth_methods still lists oauth2. Either remove oauth2 from auth_methods (and set "

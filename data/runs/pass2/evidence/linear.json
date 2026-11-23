@@ -1,0 +1,382 @@
+{
+  "slug": "linear",
+  "searches": [
+    {
+      "query": "Linear API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://linear.app/developers/graphql",
+          "title": "Getting started",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# Getting started\n\nLinear's public API is built using GraphQL. It's the same "
+        },
+        {
+          "url": "https://linear.app/developers/oauth-2-0-authentication",
+          "title": "OAuth 2.0 authentication",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# OAuth 2.0 authentication\n\nLinear supports OAuth2 authentication, which is r"
+        },
+        {
+          "url": "https://linear.app/docs/api-and-webhooks",
+          "title": "API and Webhooks",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# API and Webhooks\n\nLinear's GraphQL API and webhooks lets you extend Linear'"
+        },
+        {
+          "url": "https://linear.app/developers/sdk",
+          "title": "Getting started",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# Getting started\n\nThe Linear Typescript SDK exposes the Linear GraphQL schem"
+        },
+        {
+          "url": "https://linear.app/developers/oauth-actor-authorization",
+          "title": "OAuth actor authorization",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# OAuth actor authorization\n\nBy default all Linear’s API authentication metho"
+        }
+      ]
+    },
+    {
+      "query": "Linear developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://linear.app/developers/graphql",
+          "title": "Getting started",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# Getting started\n\nLinear's public API is built using GraphQL. It's the same "
+        },
+        {
+          "url": "https://linear.app/developers",
+          "title": "Documentation",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# Documentation\n\n## GraphQL API\n\n- Getting started\n- Pagination\n- Filtering\n-"
+        },
+        {
+          "url": "https://linear.app/developers/oauth-2-0-authentication",
+          "title": "OAuth 2.0 authentication",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# OAuth 2.0 authentication\n\nLinear supports OAuth2 authentication, which is r"
+        },
+        {
+          "url": "https://linear.app/docs/api-and-webhooks",
+          "title": "API and Webhooks",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# API and Webhooks\n\nLinear's GraphQL API and webhooks lets you extend Linear'"
+        },
+        {
+          "url": "https://linear.app/developers/sdk",
+          "title": "Getting started",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# Getting started\n\nThe Linear Typescript SDK exposes the Linear GraphQL schem"
+        }
+      ]
+    },
+    {
+      "query": "Linear pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://linear.app/pricing",
+          "title": "Pricing",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# Pricing\n\n### Free\n\n$0\n\nFree for everyone\n\n- Unlimited members\n- 2 teams\n- 2"
+        },
+        {
+          "url": "https://linear.app/docs/billing-and-plans",
+          "title": "Billing and plans",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# Billing and plans\n\nWe offer a free plan and different paid plans to suit yo"
+        },
+        {
+          "url": "https://www.g2.com/products/linear/pricing",
+          "title": "Linear Pricing November 2026",
+          "snippet": "Linear Pricing November 2026\n\n# Linear Pricing Overview\n\nLast updated: July 28, 2026\n\n## Linear Pricing Key Insights\n\nLinear offers 4 pricing editions, starting at $12. Linear pricing tiers are designed to support different usage levels and team sizes. Linear does not offer a free trial. Compare the"
+        },
+        {
+          "url": "https://dev.to/annatadrzak/how-to-choose-a-linear-plan-by-team-size-limits-and-features-3j3f",
+          "title": "How to Choose a Linear Plan by Team Size, Limits, and Features - DEV Community",
+          "snippet": "How to Choose a Linear Plan by Team Size, Limits, and Features - DEV Community\n\n \n\nAnna Tadrzak\n\n Posted on Nov 20 • Fully Autonomous \n\n# How to Choose a Linear Plan by Team Size, Limits, and Features \n\nChoosing a Linear plan starts with three practical questions: how many teams and issues do you ma"
+        },
+        {
+          "url": "https://linear.app/startups",
+          "title": "Linear for startups",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# Linear for startups\n\nPlan, build, and scale your product with a shared syst"
+        }
+      ]
+    },
+    {
+      "query": "Linear official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://linear.app/docs/mcp",
+          "title": "MCP server",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# MCP server\n\nThe Model Context Protocol (MCP) server provides a standardized"
+        },
+        {
+          "url": "https://linear.app/docs/ai-at-linear",
+          "title": "AI at Linear",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# AI at Linear\n\nAI has made engineers faster at writing code and given produc"
+        },
+        {
+          "url": "https://linear.app/integrations/vs-code-mcp",
+          "title": "Connect VS Code to the Linear MCP server",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n1. Integrations\n2. Visual Studio Code MCP\n\n# Connect VS Code to the Linear MC"
+        },
+        {
+          "url": "https://useflori.com/mcp-servers/linear",
+          "title": "Linear MCP server: official server and setup | Flori",
+          "snippet": "Linear MCP server: official server and setup | Flori\n\n# Linear MCP server\n\nBy the Flori team · Published 2026-10-29 · Updated 2026-11-14\n\nShort answer: Yes. Linear has an official MCP server: `app.linear/linear`, published in the official MCP Registry under the verified linear.app domain and hosted "
+        },
+        {
+          "url": "https://dialmcp.com/blog/linear-mcp",
+          "title": "Linear MCP server: Claude, Cursor, Copilot setup — DialMCP",
+          "snippet": "Linear MCP server: Claude, Cursor, Copilot setup — DialMCP\n\n# Linear MCP: connect Linear to Claude, ChatGPT, Cursor and Copilot\n\nNovember 17, 2026 · DialMCP\n\nLinear runs an official MCP server at `https://mcp.linear.app/mcp`. Add that address to any client that supports remote MCP servers, sign in t"
+        }
+      ]
+    },
+    {
+      "query": "site:developers.linear.app MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://linear.app/docs/mcp",
+          "title": "MCP server",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# MCP server\n\nThe Model Context Protocol (MCP) server provides a standardized"
+        },
+        {
+          "url": "https://linear.app/developers",
+          "title": "Documentation",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# Documentation\n\n## GraphQL API\n\n- Getting started\n- Pagination\n- Filtering\n-"
+        },
+        {
+          "url": "https://linear.app/changelog/2025-05-01-mcp",
+          "title": "",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\nChangelog\n\nMay 1, 2025\n\n## Linear MCP server\n\n## ⁠\n\nYour AI models and agents"
+        },
+        {
+          "url": "https://linear.app/docs/ai-at-linear",
+          "title": "AI at Linear",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# AI at Linear\n\nAI has made engineers faster at writing code and given produc"
+        },
+        {
+          "url": "https://linear.app/integrations/vs-code-mcp",
+          "title": "Connect VS Code to the Linear MCP server",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n1. Integrations\n2. Visual Studio Code MCP\n\n# Connect VS Code to the Linear MC"
+        }
+      ]
+    },
+    {
+      "query": "site:linear.app MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://linear.app/docs/mcp",
+          "title": "MCP server",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# MCP server\n\nThe Model Context Protocol (MCP) server provides a standardized"
+        },
+        {
+          "url": "https://linear.app/docs/connect-mcp-servers",
+          "title": "MCP connectors",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n# MCP connectors\n\n## Overview\n\nLinear Agent uses MCP connectors to access too"
+        },
+        {
+          "url": "https://linear.app/integrations/claude",
+          "title": "Connect Claude to the Linear MCP server",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n1. Integrations\n2. Claude\n\n# Connect Claude to the Linear MCP server\n\nConnect"
+        },
+        {
+          "url": "https://linear.app/changelog/2026-02-05-linear-mcp-for-product-management",
+          "title": "",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\nChangelog\n\nFebruary 5, 2026\n\n## Linear MCP for product management\n\nWe’ve expa"
+        },
+        {
+          "url": "https://linear.app/integrations/cursor-mcp",
+          "title": "Connect Cursor to the Linear MCP server",
+          "snippet": "> For agents: connect to the Linear MCP server at https://mcp.linear.app/mcp to read and change issues, projects, and documents. Setup guide: https://linear.app/docs/mcp.md. Index of all docs: https://linear.app/llms.txt.\n\n1. Integrations\n2. Cursor MCP\n\n# Connect Cursor to the Linear MCP server\n\n###"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developers.linear.app",
+      "final_url": "https://developers.linear.app",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:15Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "67ad1b29e98f9421188c7f3b4f6e536703bbd50e58f278c9f8b6f0bc1d3ee737",
+      "text_len": 910
+    },
+    {
+      "requested_url": "https://linear.app/developers/oauth-2-0-authentication",
+      "final_url": "https://linear.app/developers/oauth-2-0-authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:07Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "88d2e6927680bb1d3f67e6f5c489b9a36e3aeab80373dc7bab51d98300d54c2c",
+      "text_len": 17806
+    },
+    {
+      "requested_url": "https://linear.app/pricing",
+      "final_url": "https://linear.app/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:09Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "65fc715e4143c7b3a9e4c21dc288b0fc121cd598483a27242237ddcc4c4be81e",
+      "text_len": 5275
+    },
+    {
+      "requested_url": "https://linear.app/docs/mcp",
+      "final_url": "https://linear.app/docs/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:11Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "106e8e317a3296a4579b0d09339125ebee7eba6ceafee348ce160d7af8b5c0c9",
+      "text_len": 15878
+    },
+    {
+      "requested_url": "https://linear.app/docs/connect-mcp-servers",
+      "final_url": "https://linear.app/docs/connect-mcp-servers",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:15Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "47c09d13799d03554cb39b2b07609d855327cc7507b4728f9878118e87bca1d1",
+      "text_len": 3225
+    },
+    {
+      "requested_url": "https://linear.app/developers/oauth-actor-authorization",
+      "final_url": "https://linear.app/developers/oauth-actor-authorization",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:07Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3da1ee01cf560492ad9fa6e4899a9a8705f11e14e9d3b83759f45f4a9e520908",
+      "text_len": 3444
+    },
+    {
+      "requested_url": "https://linear.app/changelog/2025-05-01-mcp",
+      "final_url": "https://linear.app/changelog/2025-05-01-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "59f20adc2b9be15c7f4ab2e0e95bc850852d3570af1418f597e2daa3e5d37a05",
+      "text_len": 2923
+    },
+    {
+      "requested_url": "https://linear.app/changelog/2026-02-05-linear-mcp-for-product-management",
+      "final_url": "https://linear.app/changelog/2026-02-05-linear-mcp-for-product-management",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:15Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8932f9db9bf9fd16bab7106e99bd2bee76e12c3b5ce6ce820ac762dae41a15e7",
+      "text_len": 4753
+    },
+    {
+      "requested_url": "https://developers.linear.app/llms.txt",
+      "final_url": "https://developers.linear.app/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:16Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "67ad1b29e98f9421188c7f3b4f6e536703bbd50e58f278c9f8b6f0bc1d3ee737",
+      "text_len": 910
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://linear.app/developers/oauth-2-0-authentication",
+        "quote": "Linear supports OAuth2 authentication, which is recommended if you’re building applications to integrate with Linear.",
+        "verified": true
+      },
+      {
+        "url": "https://linear.app/docs/mcp",
+        "quote": "You can also authenticate directly with a bearer token or Linear API key",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://linear.app/pricing",
+        "quote": "API and webhook access | Included | Included | Included | Included",
+        "verified": true
+      },
+      {
+        "url": "https://developers.linear.app",
+        "quote": "OAuth 2.0 authentication",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.linear.app",
+        "quote": "GraphQL Schema",
+        "verified": true
+      },
+      {
+        "url": "https://developers.linear.app",
+        "quote": "TypeScript SDK",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://linear.app/docs/mcp",
+        "quote": "Read-write access is provided through `https://mcp.linear.app/mcp` by default.",
+        "verified": true
+      },
+      {
+        "url": "https://linear.app/changelog/2025-05-01-mcp",
+        "quote": "Your AI models and agents can use our official MCP server to access your Linear data in a simple and secure way.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://linear.app/pricing",
+        "quote": "API and webhook access | Included | Included | Included | Included",
+        "verified": true
+      },
+      {
+        "url": "https://linear.app/developers/oauth-2-0-authentication",
+        "quote": "Create a new OAuth2 Application and configure the redirect callback URLs to your application.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://linear.app/docs/mcp",
+        "quote": "tools available for finding, creating, and updating objects in Linear like issues, projects, and comments",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

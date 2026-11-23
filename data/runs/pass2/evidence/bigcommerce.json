@@ -1,0 +1,377 @@
+{
+  "slug": "bigcommerce",
+  "searches": [
+    {
+      "query": "BigCommerce API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+          "title": "API Accounts",
+          "snippet": "API Accounts | BigCommerce Docs\n\n# API Accounts\n\nBigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations.\n\nBigCommerce API accounts play a role in "
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/rest/admin/overview",
+          "title": "Admin REST APIs",
+          "snippet": "> This page is for Developer.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.bigcommerce.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.bigcommerce.com/_mcp/server"
+        },
+        {
+          "url": "https://support.bigcommerce.com/s/article/Store-API-Accounts?language=en_US",
+          "title": "API Accounts",
+          "snippet": "API Accounts\n\n## What We'll Cover\n\n- Requirements\n- Creating an API account\n- Deleting an API account\n- Viewing webhooks\n- Notification settings\n- FAQ\n\nBigCommerce has a suite of APIs that let you manage store data, authenticate customers, make client-side queries for product information, and more. "
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/overview/quick-start",
+          "title": "BigCommerce Developers",
+          "snippet": "> This page is for Developer.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.bigcommerce.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.bigcommerce.com/_mcp/server"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/integrations/apps/guide/auth",
+          "title": "Single-Click App OAuth Flow",
+          "snippet": "> This page is for Developer.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.bigcommerce.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.bigcommerce.com/_mcp/server"
+        }
+      ]
+    },
+    {
+      "query": "BigCommerce developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+          "title": "API Accounts",
+          "snippet": "API Accounts | BigCommerce Docs\n\n# API Accounts\n\nBigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations.\n\nBigCommerce API accounts play a role in "
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/overview/quick-start",
+          "title": "BigCommerce Developers",
+          "snippet": "> This page is for Developer.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.bigcommerce.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.bigcommerce.com/_mcp/server"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/rest/admin/overview",
+          "title": "Admin REST APIs",
+          "snippet": "> This page is for Developer.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.bigcommerce.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.bigcommerce.com/_mcp/server"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/rest/overview",
+          "title": "REST API Overview",
+          "snippet": "> This page is for Developer.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.bigcommerce.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.bigcommerce.com/_mcp/server"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/about-our-apis",
+          "title": "About Our APIs | BigCommerce Docs",
+          "snippet": "> This page is for Developer.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.bigcommerce.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.bigcommerce.com/_mcp/server"
+        }
+      ]
+    },
+    {
+      "query": "BigCommerce pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.bigcommerce.com/pricing/",
+          "title": "BigCommerce Pricing and Plan Information | BigCommerce",
+          "snippet": "BigCommerce Pricing and Plan Information | BigCommerce\n\n# Start with a free trial. Scale when you’re ready. \n\nLimited-time offer\n\nSave 50% on your first year\n\nPurchase a Core, Growth, or Scale annual plan by Dec 31*\n\nPay Monthly\n\nPay Annually\n\nCore\n\nNew businesses with up to $30K in annual sales.\n\n$"
+        },
+        {
+          "url": "https://www.bigcommerce.com/free-trial/",
+          "title": "Start Your Free Trial — Your Store, Ready in Minutes | BigCommerce",
+          "snippet": "Start Your Free Trial — Your Store, Ready in Minutes | BigCommerce\n\n# Your store starts here.\n\nReal tools. Real support. Real results. Everything you need to launch is built in.\n\n15 days free. No commitment.\n\nDrag, drop, and publish. No developer needed.\n\nConnect your stack. Test critical integratio"
+        },
+        {
+          "url": "https://www.bigcommerce.com/start-your-trial/",
+          "title": "Start a Trial",
+          "snippet": "Start a Trial | BigCommerce\n\n## A real store, not a demo, ready today.\n\nShare a few details and we'll have your store ready to customize in minutes.\n\nWhere should your store be hosted?\n\nTo ensure optimal performance and speed for your store, select the region nearest to your prospective customers.\n\n"
+        },
+        {
+          "url": "https://www.bigcommerce.com/pricing/faq/",
+          "title": "Questions and Answers on Plans, Accounts and Store Setup | BigCommerce",
+          "snippet": "Questions and Answers on Plans, Accounts and Store Setup | BigCommerce\n\n# Frequently Asked Questions\n\n### I'm looking to switch to BigCommerce. How do I get my data over?\n\nIt's easy to import customers, products, images and variations into your BigCommerce store from a standard CSV file. Read our Us"
+        },
+        {
+          "url": "https://www.bigcommerce.com/",
+          "title": "Commerce built for momentum. | BigCommerce",
+          "snippet": "Commerce built for momentum. | BigCommerce\n\n# Get your brand ready for agentic commerce.\n\nAI agents are changing how customers discover, evaluate, and buy. Our solutions help you reach them— sharper product discovery, smoother buying, automated operations, and new agentic-ready features built to gro"
+        }
+      ]
+    },
+    {
+      "query": "BigCommerce official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.bigcommerce.com/developer/docs/ai-agent-setup",
+          "title": "Docs MCP Server",
+          "snippet": "> This page is for Developer.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.bigcommerce.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.bigcommerce.com/_mcp/server"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+          "title": "MCP Overview",
+          "snippet": "> This page is for Developer.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.bigcommerce.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.bigcommerce.com/_mcp/server"
+        },
+        {
+          "url": "https://www.bigcommerce.com/blog/storefront-mcp/",
+          "title": "Build AI Shopping Agents with BigCommerce Storefront MCP",
+          "snippet": "Build AI Shopping Agents with BigCommerce Storefront MCP\n\n# Storefront MCP Is Now Live: Here's What You Can Build with It\n\n##### Written by\n\nKristina Pototska\n\nA link to download the PDF will arrive in your inbox shortly.\n\nBigCommerce Storefront MCP is now available to every store on the platform. A"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/storefront/tools",
+          "title": "Storefront Tools",
+          "snippet": "Storefront Tools | BigCommerce Docs\n\n- Example prompts\n- Tools\n- Typical flow\n- Typical flow — authenticated shopper\n- Example\n\n# Storefront Tools\n\nStorefront tools are the base Storefront MCP tool set, available to every session on every store: guests, logged-in customers, and B2B buyers. AI agents"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/store-management",
+          "title": "Store Management MCP",
+          "snippet": "Store Management MCP | BigCommerce Docs\n\n- Before you begin\n- Enable Store Management MCP for your store\n- Grant a user access to connect an agent\n- Delegate scope management\n- Connect your MCP client\n- Server address\n- Authentication\n- Connect a client\n- Rate limits\n- Available tools\n- Tool details"
+        }
+      ]
+    },
+    {
+      "query": "site:developer.bigcommerce.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/storefront",
+          "title": "Storefront MCP",
+          "snippet": "Storefront MCP | BigCommerce Docs\n\n- Available tools\n- Prerequisites\n- Enable Storefront MCP\n- Connect your AI client\n- Connecting with session sync (Stencil storefronts)\n\n# Storefront MCP\n\nStorefront MCP lets AI agents shop your storefront on behalf of a shopper. Agents can search products, manage "
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview/",
+          "title": "MCP Overview",
+          "snippet": "> This page is for Developer.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.bigcommerce.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.bigcommerce.com/_mcp/server"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/store-management",
+          "title": "Store Management MCP",
+          "snippet": "Store Management MCP | BigCommerce Docs\n\n- Before you begin\n- Enable Store Management MCP for your store\n- Grant a user access to connect an agent\n- Delegate scope management\n- Connect your MCP client\n- Server address\n- Authentication\n- Connect a client\n- Rate limits\n- Available tools\n- Tool details"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/storefront/tools",
+          "title": "Storefront Tools",
+          "snippet": "Storefront Tools | BigCommerce Docs\n\n- Example prompts\n- Tools\n- Typical flow\n- Typical flow — authenticated shopper\n- Example\n\n# Storefront Tools\n\nStorefront tools are the base Storefront MCP tool set, available to every session on every store: guests, logged-in customers, and B2B buyers. AI agents"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/webmcp.md",
+          "title": "WebMCP",
+          "snippet": "> This page is for Developer.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.bigcommerce.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.bigcommerce.com/_mcp/server"
+        }
+      ]
+    },
+    {
+      "query": "site:bigcommerce.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+          "title": "MCP Overview",
+          "snippet": "> This page is for Developer.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.bigcommerce.com/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.bigcommerce.com/_mcp/server"
+        },
+        {
+          "url": "https://www.bigcommerce.com/blog/model-context-protocol/",
+          "title": "Model Context Protocol (MCP): The New Standard Every AI Developer Should Know | BigCommerce",
+          "snippet": "Model Context Protocol (MCP): The New Standard Every AI Developer Should Know | BigCommerce\n\n# Model Context Protocol (MCP): The New Standard Every AI Developer Should Know\n\n##### Written by\n\nKatie Hoesley\n\nA link to download the PDF will arrive in your inbox shortly.\n\nIn case you missed it, AI is h"
+        },
+        {
+          "url": "https://www.bigcommerce.com/blog/storefront-mcp/",
+          "title": "Build AI Shopping Agents with BigCommerce Storefront MCP",
+          "snippet": "Build AI Shopping Agents with BigCommerce Storefront MCP\n\n# Storefront MCP Is Now Live: Here's What You Can Build with It\n\n##### Written by\n\nKristina Pototska\n\nA link to download the PDF will arrive in your inbox shortly.\n\nBigCommerce Storefront MCP is now available to every store on the platform. A"
+        },
+        {
+          "url": "https://www.bigcommerce.com/articles/b2b-ecommerce/mcp-b2b-ecommerce/",
+          "title": "MCP for B2B Ecommerce: Quotes, Approvals, and Pricing Rules",
+          "snippet": "MCP for B2B Ecommerce: Quotes, Approvals, and Pricing Rules\n\n# MCP for B2B Ecommerce: Supporting Quotes, Pricing, Accounts, and Complex Orders\n\n##### Written by\n\nJohn Shieldsmith\n\n11/19/2026\n\nA link to download the PDF will arrive in your inbox shortly.\n\nKey highlights\n\n- MCP for B2B ecommerce is th"
+        },
+        {
+          "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/storefront/tools",
+          "title": "Storefront Tools",
+          "snippet": "Storefront Tools | BigCommerce Docs\n\n- Example prompts\n- Tools\n- Typical flow\n- Typical flow — authenticated shopper\n- Example\n\n# Storefront Tools\n\nStorefront tools are the base Storefront MCP tool set, available to every session on every store: guests, logged-in customers, and B2B buyers. AI agents"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developer.bigcommerce.com",
+      "final_url": "https://developer.bigcommerce.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:07Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "fca7befa7d9079167ffc6f38d80074a660963d888dd7885fe37f120bf8b13df7",
+      "text_len": 6781
+    },
+    {
+      "requested_url": "https://docs.bigcommerce.com/developer/api-reference/rest/admin/overview",
+      "final_url": "https://docs.bigcommerce.com/developer/api-reference/rest/admin/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cc1dc1838b43ac9247d243618898d171ca80cf034718f298ad28c7578bce03e2",
+      "text_len": 2014
+    },
+    {
+      "requested_url": "https://docs.bigcommerce.com/developer/api-reference/about-our-apis",
+      "final_url": "https://docs.bigcommerce.com/developer/api-reference/about-our-apis",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1599a883862fd58dc1a0e3a60c49483bcfc89e1ffafd98729bf5d7b74be7fe32",
+      "text_len": 3875
+    },
+    {
+      "requested_url": "https://www.bigcommerce.com/pricing/",
+      "final_url": "https://www.bigcommerce.com/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "406613604f9956ccf9e68a6da086bd35e91307dfd763582b4cf04e55c529ed99",
+      "text_len": 10514
+    },
+    {
+      "requested_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+      "final_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "055bedc0091eb08d69348516386efad6da30e5f27238f4701c1e1c6086cced07",
+      "text_len": 5816
+    },
+    {
+      "requested_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/store-management",
+      "final_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/store-management",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fd54d80cf282e74937598cf08cad2e46437587572dc6466f18dfd0aaca4831d8",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/storefront",
+      "final_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/storefront",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2a137f36b6ebfb77aa32cf95cde8e9138c6e3d248ff6a3f2ed6d4909c9b83607",
+      "text_len": 3689
+    },
+    {
+      "requested_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/storefront/tools",
+      "final_url": "https://docs.bigcommerce.com/developer/api-reference/mcp/storefront/tools",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1eb172a9081172bce47ed68ab9a32f6c8dc0ae9c35038241843e2405929bfe65",
+      "text_len": 6638
+    },
+    {
+      "requested_url": "https://docs.bigcommerce.com/developer/docs/integrations/apps/guide/auth",
+      "final_url": "https://docs.bigcommerce.com/developer/docs/integrations/apps/guide/auth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "28e5891cdc3beaeed8d95b9b84c9fe58fc322aa4c0dd2d571c642c104b821856",
+      "text_len": 11182
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.bigcommerce.com/developer/api-reference/rest/admin/overview",
+        "quote": "Admin APIs authenticate with an `X-Auth-Token` header using a store-level or app-level API account access token.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.bigcommerce.com/developer/docs/integrations/apps/guide/auth",
+        "quote": "BigCommerce uses a modified version of the OAuth2 authorization code grant",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developer.bigcommerce.com",
+        "quote": "Sign up for a free BigCommerce trial store to test API calls and build integrations without affecting live data.",
+        "verified": true
+      },
+      {
+        "url": "https://www.bigcommerce.com/pricing/",
+        "quote": "we offer a fully functional 15-day free trial",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.bigcommerce.com/developer/api-reference/about-our-apis",
+        "quote": "BigCommerce's GraphQL Storefront API lets you query and mutate products, customers, and carts",
+        "verified": true
+      },
+      {
+        "url": "https://docs.bigcommerce.com/developer/api-reference/rest/admin/overview",
+        "quote": "Server-side REST APIs for managing store data and operations.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/overview",
+        "quote": "BigCommerce supports MCP in three ways.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.bigcommerce.com/developer/api-reference/mcp/store-management",
+        "quote": "Store Management MCP lets an AI agent",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.bigcommerce.com",
+        "quote": "Navigate to Settings > API Accounts in your store control panel. Create credentials with the scopes you need.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developer.bigcommerce.com",
+        "quote": "Build, customize, and scale on the BigCommerce platform.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

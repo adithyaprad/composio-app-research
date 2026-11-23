@@ -45,6 +45,9 @@ class FakeLLM:
     model = "fake-1"
 
     def complete(self, system, messages, json_mode=True):
+        if "REVIEW CHECKLIST" in system:  # pass-2 reviewer: the fake finds nothing to flag
+            return LLMResult(json.dumps({"rules": []}), input_tokens=len(messages[-1]["content"]) // 4,
+                             output_tokens=10, stop_reason="end_turn")
         prompt = messages[-1]["content"] if "APP (" in messages[-1]["content"] else messages[0]["content"]
         app = json.loads(prompt.split("\n", 2)[1])
         pages = _PAGE_RE.findall(prompt)

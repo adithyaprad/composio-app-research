@@ -1,0 +1,365 @@
+{
+  "slug": "shopify",
+  "searches": [
+    {
+      "query": "Shopify API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://shopify.dev/docs/api/usage/authentication",
+          "title": "Shopify API authentication",
+          "snippet": "# Shopify API authentication\n\nTo call a Shopify API, your code sends an access token in a request header to authenticate the identity that token represents (your app or a buyer) and authorize what that identity can access. How you obtain the token and which header carries it vary by API.\n\nThis page "
+        },
+        {
+          "url": "https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens",
+          "title": "Access tokens",
+          "snippet": "# Access tokens\n\nAn access token is a credential your app sends with each API request. It authenticates your app to the API and carries a set of access scopes that authorize what your app can access. Shopify enforces those scopes on every request, returning only the data they allow.\n\nYour app obtain"
+        },
+        {
+          "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+          "title": "About app authentication",
+          "snippet": "# About app authentication\n\nShopify apps call the GraphQL Admin API to read and write store data on behalf of merchants. Before your app can make those calls, it needs to authenticate: prove which app is calling, which merchant approved it, and what the app is allowed to do.\n\nThis section covers how"
+        },
+        {
+          "url": "https://shopify.dev/docs/api/admin-graphql/latest",
+          "title": "GraphQL Admin API reference",
+          "snippet": "# GraphQL Admin API reference\n\nThe Admin API lets you build apps and integrations that extend and enhance the Shopify admin.\n\nThis page will help you get up and running with Shopify’s GraphQL API.\n\n## Client libraries\n\nUse Shopify’s officially supported libraries to build fast, reliable apps with th"
+        },
+        {
+          "url": "https://shopify.dev/docs/apps/build/authentication-authorization/client-credentials-grant",
+          "title": "Authenticate an app for stores in your organization",
+          "snippet": "# Authenticate an app for stores in your organization\n\nThis tutorial shows how to use the client credentials grant to get access tokens for a server-side app acting on stores in your own Shopify organization. Of the three grants, it takes the least setup: your app exchanges its own client ID and sec"
+        }
+      ]
+    },
+    {
+      "query": "Shopify developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://shopify.dev/docs/api/usage/access-scopes",
+          "title": "Shopify API access scopes",
+          "snippet": "# Shopify API access scopes\n\nAccess scopes control which store data your app can read and write. This guide lists available access scopes, grouped by scope type.\n\nThe REST Admin API uses authenticated access scopes too, listed in access scopes for the REST Admin API.\n\n---\n\n## How it works\n\nShopify g"
+        },
+        {
+          "url": "https://shopify.dev/docs/api/usage/authentication",
+          "title": "Shopify API authentication",
+          "snippet": "# Shopify API authentication\n\nTo call a Shopify API, your code sends an access token in a request header to authenticate the identity that token represents (your app or a buyer) and authorize what that identity can access. How you obtain the token and which header carries it vary by API.\n\nThis page "
+        },
+        {
+          "url": "https://shopify.dev/docs/api/admin-graphql/latest",
+          "title": "GraphQL Admin API reference",
+          "snippet": "# GraphQL Admin API reference\n\nThe Admin API lets you build apps and integrations that extend and enhance the Shopify admin.\n\nThis page will help you get up and running with Shopify’s GraphQL API.\n\n## Client libraries\n\nUse Shopify’s officially supported libraries to build fast, reliable apps with th"
+        },
+        {
+          "url": "https://shopify.dev/docs/api",
+          "title": "Shopify APIs, libraries, and tools",
+          "snippet": "# Shopify APIs, libraries, and tools\n\nReference documentation for Shopify's APIs, libraries, and developer tools, plus the concepts that apply across all of them.\n\nAuthentication\n\nHow authentication works across Shopify's APIs, and which token and header each API uses.\n\nCore concepts\n\n## Know what a"
+        },
+        {
+          "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+          "title": "About app authentication",
+          "snippet": "# About app authentication\n\nShopify apps call the GraphQL Admin API to read and write store data on behalf of merchants. Before your app can make those calls, it needs to authenticate: prove which app is calling, which merchant approved it, and what the app is allowed to do.\n\nThis section covers how"
+        }
+      ]
+    },
+    {
+      "query": "Shopify pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.shopify.com/pricing",
+          "title": "Shopify Pricing: Find the Right Plan for Your Business - Shopify",
+          "snippet": "Shopify Pricing: Find the Right Plan for Your Business - Shopify\n\n# You've got plans. Us too.\n\nTry 3 days free, then $1/month for 3 months.\n\nBasic\n\nBasic\n\n $29/mo\n\nFor solo entrepreneurs\n\nSell online, in person, and in AI chats\n\nCard rates from 2.9% + 30¢ USD\n\nBuilt-in AI assistant\n\nMillions of toke"
+        },
+        {
+          "url": "https://www.shopify.com/store-signup",
+          "title": "Sign Up for Shopify - Launch Your Online Store Today! - Shopify",
+          "snippet": "Sign Up for Shopify - Launch Your Online Store Today! - Shopify\n\n# Sign up\n\nGet 3 days free, then $1/month for 3 months"
+        },
+        {
+          "url": "https://www.shopify.com/free-trial-offer",
+          "title": "Start a Shopify Free Trial - Shopify",
+          "snippet": "Start a Shopify Free Trial - Shopify\n\n# Your business starts with Shopify\n\nStart for free, keep building for $1/month. Plus, earn up to $10,000 in credits as you sell.\n\nYou agree to receive marketing emails.\n\nMake a floral merch store called TALVA\n\nGenerating...\n\nAI store design\n\n## Chat your store "
+        },
+        {
+          "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/free-trial",
+          "title": "Shopify Help Center | Trying Shopify with a free trial",
+          "snippet": "Shopify Help Center | Trying Shopify with a free trial\n\n# Trying Shopify with a free trial\n\nTo explore Shopify before committing to an active monthly plan, you can sign up for a free trial. Your free trial begins when you first sign up, not when you start working on your store.\n\n## On this page\n\n- A"
+        },
+        {
+          "url": "https://www.shopify.com/about",
+          "title": "About Shopify",
+          "snippet": "About Shopify\n\n## What is Shopify?\n\nShopify is a complete commerce platform to sell online or in person—whether you're running a side hustle, retail shop, or global brand.\n\nNo credit card required. Get 3 days free, then 3 months for $1/month.\n\n## Start selling in no time\n\n### Create your store\n\nChoo"
+        }
+      ]
+    },
+    {
+      "query": "Shopify official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://shopify.dev/docs/apps/build/shop-mcp",
+          "title": "Shop MCP",
+          "snippet": "# Shop MCP\n\nShop MCP is a remote Model Context Protocol (MCP) server that gives your agent access to Shop.app product catalog. Ask your agent to find products, and it returns live results with images, prices, ratings, and purchase links.\n\n---\n\n## What you can do\n\nAfter you connect Shop MCP, you can "
+        },
+        {
+          "url": "https://shopify.dev/docs/api/ai-toolkit",
+          "title": "Shopify AI Toolkit",
+          "snippet": "# Shopify AI Toolkit\n\nAI coding agents can search the web, read documentation, and inspect your codebase, but they still need the right context at the right time to be effective. Shopify development depends on platform-specific details: which API surface applies, what fields exist in a schema, which"
+        },
+        {
+          "url": "https://shopify.dev/changelog/posts/mcp-server-for-the-shopify-dev-assistant",
+          "title": "Shopify.dev MCP Server",
+          "snippet": "March 31, 2025\n\n# Shopify.dev MCP Server\n\nDateMarch 31, 2025\n\nFlagsNew\n\nTagsTools\n\nWe're excited to announce the release of the new Shopify.dev MCP Server! The MCP server gives your AI assistant access to Shopify's development resources, enabling it to search our docs, introspect API schemas, and ge"
+        },
+        {
+          "url": "https://shopify.dev/docs/apps/build/storefront-mcp",
+          "title": "Migrate from Storefront MCP",
+          "snippet": "# Migrate from Storefront MCP\n\nRemoved:\n\nThe catalog and cart tools on `https://{shop}/api/mcp` were removed. Use Shop MCP instead, or build directly on the Universal Commerce Protocol (UCP). For the deprecation announcement, refer to the developer changelog.\n\nStorefront MCP let AI agents search a s"
+        },
+        {
+          "url": "https://shopify.dev/changelog/posts/add-shopping-and-shop-pay-checkout-to-any-agent-with-shop-mcp",
+          "title": "Add shopping and Shop Pay checkout to any agent with Shop MCP",
+          "snippet": "October 13, 2026\n\n# Add shopping and Shop Pay checkout to any agent with Shop MCP\n\nDateOctober 13, 2026\n\nFlagsNew\n\nTagsTools\n\nShop MCP lets your agent or app search Shopify Catalog, build carts, and complete Shop Pay checkout through a single MCP connection. It works with over 1 billion products in "
+        }
+      ]
+    },
+    {
+      "query": "site:shopify.dev MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://shopify.dev/docs/agents",
+          "title": "Build shopping into your agent",
+          "snippet": "# Build shopping into your agent\n\nBring product discovery, checkout, and order history into your agent or app with Shop MCP. Help buyers shop from Shopify merchants, from their first search to their next purchase.\n\nStart with Shop MCP\n\nLearn how to connect your agent to Shop MCP for search, carts, a"
+        },
+        {
+          "url": "https://shopify.dev/docs/apps/build/shop-mcp",
+          "title": "Shop MCP",
+          "snippet": "# Shop MCP\n\nShop MCP is a remote Model Context Protocol (MCP) server that gives your agent access to Shop.app product catalog. Ask your agent to find products, and it returns live results with images, prices, ratings, and purchase links.\n\n---\n\n## What you can do\n\nAfter you connect Shop MCP, you can "
+        },
+        {
+          "url": "https://shopify.dev/changelog/posts/mcp-server-for-the-shopify-dev-assistant",
+          "title": "Shopify.dev MCP Server",
+          "snippet": "March 31, 2025\n\n# Shopify.dev MCP Server\n\nDateMarch 31, 2025\n\nFlagsNew\n\nTagsTools\n\nWe're excited to announce the release of the new Shopify.dev MCP Server! The MCP server gives your AI assistant access to Shopify's development resources, enabling it to search our docs, introspect API schemas, and ge"
+        },
+        {
+          "url": "https://shopify.dev/docs/agents/carts-and-checkout/cart-mcp",
+          "title": "Cart MCP",
+          "snippet": "# Cart MCP\n\nThe Cart MCP server enables AI agents to build and iterate on a cart before the buyer commits to purchase. When the buyer is ready to buy, convert the cart into a checkout with Checkout MCP.\n\n## How it works\n\nCart MCP implements the UCP cart capability (`dev.ucp.shopping.cart`, version `"
+        },
+        {
+          "url": "https://shopify.dev/changelog/posts/add-shopping-and-shop-pay-checkout-to-any-agent-with-shop-mcp",
+          "title": "Add shopping and Shop Pay checkout to any agent with Shop MCP",
+          "snippet": "October 13, 2026\n\n# Add shopping and Shop Pay checkout to any agent with Shop MCP\n\nDateOctober 13, 2026\n\nFlagsNew\n\nTagsTools\n\nShop MCP lets your agent or app search Shopify Catalog, build carts, and complete Shop Pay checkout through a single MCP connection. It works with over 1 billion products in "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://shopify.dev",
+      "final_url": "https://shopify.dev",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:50Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "8344e7ffb083a7b709139a02dd0c4bc507b1f9993814dbd05f029a7ca47aeef7",
+      "text_len": 4845
+    },
+    {
+      "requested_url": "https://shopify.dev/docs/api/usage/authentication",
+      "final_url": "https://shopify.dev/docs/api/usage/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b4b0b85969410c61f999a2fa8299e416142e4f457d5608b9c2402868ebc6e78c",
+      "text_len": 3615
+    },
+    {
+      "requested_url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/free-trial",
+      "final_url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/free-trial",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "45041074fee286e22ecd5e2f7ec2aeb0e5aa185f2e0942d336ee4c9b7aa9c1a0",
+      "text_len": 13204
+    },
+    {
+      "requested_url": "https://shopify.dev/docs/apps/build/shop-mcp",
+      "final_url": "https://shopify.dev/docs/apps/build/shop-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7795d96481f3d87b9c47d9340ae9f920214ee0fbc2524a625f687db3d3cb16ec",
+      "text_len": 2444
+    },
+    {
+      "requested_url": "https://shopify.dev/docs/agents/carts-and-checkout/cart-mcp",
+      "final_url": "https://shopify.dev/docs/agents/carts-and-checkout/cart-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7ef6378f02eb7c28b2019b8796d36d936c0d556a6ba7bccf823f282c07631d04",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://shopify.dev/docs/apps/build/storefront-mcp",
+      "final_url": "https://shopify.dev/docs/apps/build/storefront-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6c3c42cab122635dd529de88003f46fcfdb6a102da15e02246bc73c11e6cc4c1",
+      "text_len": 1828
+    },
+    {
+      "requested_url": "https://shopify.dev/changelog/posts/add-shopping-and-shop-pay-checkout-to-any-agent-with-shop-mcp",
+      "final_url": "https://shopify.dev/changelog/posts/add-shopping-and-shop-pay-checkout-to-any-agent-with-shop-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9f325fe2f64536e981ddb2bf56293eaffe89165fafa93f522a5e08681080bc03",
+      "text_len": 3088
+    },
+    {
+      "requested_url": "https://shopify.dev/changelog/posts/mcp-server-for-the-shopify-dev-assistant",
+      "final_url": "https://shopify.dev/changelog/posts/mcp-server-for-the-shopify-dev-assistant",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3b52e58d82c2b19e2eda670efcdda3501c723135a8af387739bbe479fef829a7",
+      "text_len": 505
+    },
+    {
+      "requested_url": "https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens",
+      "final_url": "https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4e3830113c0f4ec2de06f8d864ce09530f1228f481d4ac3c250d43429dde286e",
+      "text_len": 19083
+    },
+    {
+      "requested_url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+      "final_url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4c5095b982f57c1fef29ce7d934b8d7ea8461eb24644ae295ec63a2ef3766f3f",
+      "text_len": 9376
+    },
+    {
+      "requested_url": "https://shopify.dev/docs/apps/build/authentication-authorization/client-credentials-grant",
+      "final_url": "https://shopify.dev/docs/apps/build/authentication-authorization/client-credentials-grant",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8a0a9607f8234324a92bb2651022cafb3e02332281a7584638a02311fe3db2a7",
+      "text_len": 12038
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+        "quote": "Authorization code grant, for apps that run outside the Shopify admin.",
+        "verified": true
+      },
+      {
+        "url": "https://shopify.dev/docs/api/usage/authentication",
+        "quote": "Create public or private tokens, or go tokenless for basic data",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://shopify.dev/docs/apps/build/authentication-authorization/client-credentials-grant",
+        "quote": "Find your Client ID and Client secret in the Dev Dashboard.",
+        "verified": true
+      },
+      {
+        "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/free-trial",
+        "quote": "To explore Shopify before committing to an active monthly plan, you can sign up for a free trial.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+        "quote": "Shopify apps call the GraphQL Admin API to read and write store data on behalf of merchants.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://shopify.dev/docs/apps/build/shop-mcp",
+        "quote": "Shop MCP is a remote Model Context Protocol (MCP) server that gives your agent access to Shop.app product catalog.",
+        "verified": true
+      },
+      {
+        "url": "https://shopify.dev/changelog/posts/mcp-server-for-the-shopify-dev-assistant",
+        "quote": "The MCP server gives your AI assistant access to Shopify's development resources",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://shopify.dev/docs/apps/build/authentication-authorization/client-credentials-grant",
+        "quote": "You've created an app in the Dev Dashboard.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://shopify.dev",
+        "quote": "Extend Shopify's core functionality with apps that integrate into Shopify's admin, online store, checkout and more.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

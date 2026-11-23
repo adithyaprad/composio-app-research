@@ -1,0 +1,346 @@
+{
+  "slug": "freshdesk",
+  "searches": [
+    {
+      "query": "Freshdesk API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.freshdesk.com/api/",
+          "title": "Freshdesk",
+          "snippet": "Freshdesk\n\n## Overview\n\n Freshdesk is a cloud-based customer support platform that was founded with the mission of enabling companies of all sizes to provide great customer service. Our goal is simple: make it easy for brands to talk to their customers and make it easy for users to get in touch with"
+        },
+        {
+          "url": "https://support.freshdesk.com/support/solutions/articles/225435-where-can-i-find-my-api-key-",
+          "title": "Where can I find my API key? : Freshdesk Support",
+          "snippet": "Where can I find my API key? : Freshdesk Support\n\n Where can I find my API key?\n\n Modified on: Tue, 30 Apr, 2024 at 6:07 PM\n\nFreshdesk\n\nOmnichannel (classic)\n\n Estate Omnichannel Forest Omnichannel \n\nOmnichannel (classic)\n\nNote: If your account is on the Sprout plan, the API key and the API function"
+        },
+        {
+          "url": "https://support.freshdesk.com/support/solutions/articles/215517-how-to-find-your-api-key",
+          "title": "How To Find Your API Key : Freshdesk Support",
+          "snippet": "How To Find Your API Key : Freshdesk Support\n\n How To Find Your API Key\n\n Modified on: Wed, 21 Jan, 2026 at 4:14 PM\n\nFreshdesk\n\nOmnichannel (classic)\n\n Estate Omnichannel Forest Omnichannel \n\nFreshdesk Omni\n\nOmnichannel (classic)\n\nTo find your API key:\n\n1. Log in to your account.\n2. Click on your pr"
+        },
+        {
+          "url": "https://developers.freshworks.com/freshdesk-sdk/",
+          "title": "Overview | Freshdesk SDK",
+          "snippet": "Overview | Freshdesk SDK\n\n# # Overview\n\nFreshdesk SDK - a javaScript SDK for Freshdesk APIs\n\n## # Getting Started\n\n### # Usage via NPM\n\n- To install, run:\n\n```bash\nnpm install @freshworks/freshdesk --save\n\n```\n\n1 \n\n- Execute the following JS code to get ticket details:\n\n```javascript\nlet Freshdesk ="
+        },
+        {
+          "url": "https://apis.io/security/freshdesk/freshdesk-authentication/",
+          "title": "Freshdesk API Authentication | APIs.io",
+          "snippet": "Freshdesk API Authentication | APIs.io\n\n# Freshdesk Authentication\n\nAuthentication\n\nFreshdesk secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.\n\n Automation Customer Service Application Help Desk Ticketing \n\n### Security Schemes\n\nbasicAuth http sc"
+        }
+      ]
+    },
+    {
+      "query": "Freshdesk developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.freshdesk.com/api/",
+          "title": "Freshdesk",
+          "snippet": "Freshdesk\n\n## Overview\n\n Freshdesk is a cloud-based customer support platform that was founded with the mission of enabling companies of all sizes to provide great customer service. Our goal is simple: make it easy for brands to talk to their customers and make it easy for users to get in touch with"
+        },
+        {
+          "url": "https://developers.freshdesk.com/",
+          "title": "Freshdesk Developers",
+          "snippet": "Freshdesk Developers\n\n# Design. Code. Publish.\n\n###### Documentation\n\n The A-Z guide for our app development tools so you can easily design, code, and bring your Freshdesk app ideas to life. \n\n###### API\n\n All the endpoints you need to access and manage your data, and bridge your helpdesk with the o"
+        },
+        {
+          "url": "https://support.freshdesk.com/support/solutions/articles/228991-where-do-i-find-the-documentation-for-api-",
+          "title": "Where do I find the documentation for API? : Freshdesk Support",
+          "snippet": "Where do I find the documentation for API? : Freshdesk Support\n\n Where do I find the documentation for API?\n\n Modified on: Thu, 31 Aug, 2017 at 9:27 PM\n\nFreshdesk\n\nOmnichannel (classic)\n\nFreshdesk API documentation could be found under - https://developers.freshdesk.com/api. Using the information av"
+        },
+        {
+          "url": "https://developers.freshworks.com/freshdesk-sdk/",
+          "title": "Overview | Freshdesk SDK",
+          "snippet": "Overview | Freshdesk SDK\n\n# # Overview\n\nFreshdesk SDK - a javaScript SDK for Freshdesk APIs\n\n## # Getting Started\n\n### # Usage via NPM\n\n- To install, run:\n\n```bash\nnpm install @freshworks/freshdesk --save\n\n```\n\n1 \n\n- Execute the following JS code to get ticket details:\n\n```javascript\nlet Freshdesk ="
+        },
+        {
+          "url": "https://developers.freshworks.com/freshdesk-sdk/docs/TicketsApi.html",
+          "title": "TicketsApi | Freshdesk SDK",
+          "snippet": "TicketsApi | Freshdesk SDK\n\n# # TicketsApi\n\nAll URIs are relative to https://freshdesk.com/api/v2\n\n| Method | HTTP request | Description |\n| --- | --- | --- |\n| addNote | POST /tickets/{id}/notes | Add a note in a Ticket |\n| createTicket | POST /tickets | create a ticket |\n| createTicketUsingOutboun"
+        }
+      ]
+    },
+    {
+      "query": "Freshdesk pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.freshworks.com/freshdesk/pricing/",
+          "title": "Plans forFreshdesk",
+          "snippet": "Skip to main content\n\nIT service Customer service CRM\n\n# Plans forFreshdesk\n\nSave 20%AnnuallyMonthly\n\n$19/agent/month, billed annuallyLaunch AI-powered service over email\n\n### Growth\n\nBest suits teams that want:\n\n- Freddy AI Agent (first 500 sessions included)\n- Ticketing & shared inbox \n- Customer "
+        },
+        {
+          "url": "https://www.freshworks.com/freshdesk/signup/",
+          "title": "Try the Freshdesk solution",
+          "snippet": "Skip to main content\n\n## Sign up for a 14-day all-access free trial\n\n- Try the omnichannel solution when you sign up\n- Access trial of email-only support from the same account\n- Bring all channels, interactions, context together\n- Use AI that resolves up to 80% queries, alerts on issues, and improve"
+        },
+        {
+          "url": "https://www.freshworks.com/freshdesk/pricing/free/",
+          "title": "How does the Freshdesk free trial work?",
+          "snippet": "# How does the Freshdesk free trial work?\n\nFor 14 days, support teams get access to collaboration tools such as real-time dashboards, self-service features, and more for easier ticketing.\n\nStart free trial Get a demo\n\n- Why Freshdesk\n- Features\n- Trial Overview\n\n## Why should you consider trying Fre"
+        },
+        {
+          "url": "https://support.freshdesk.com/support/solutions/articles/50000011778-understanding-freshdesk-pricing-plans",
+          "title": "Understanding Freshdesk Pricing, Plans & Subscription Management : Freshdesk Support",
+          "snippet": "Understanding Freshdesk Pricing, Plans & Subscription Management : Freshdesk Support\n\n Understanding Freshdesk Pricing Plans\n\n Modified on: Wed, 28 Jan, 2026 at 3:03 PM\n\nTABLE OF CONTENTS\n\n- About our products and plans\n- Subscription plans\n\n- Activate a plan\n- Manage subscriptions\n\n- View subscript"
+        },
+        {
+          "url": "https://www.freshworks.com/freshdesk/helpdesk-software/",
+          "title": "AI helpdesk to resolve customer issues in under 2 minutes",
+          "snippet": "# AI helpdesk to resolve customer issues in under 2 minutes\n\nFreshdesk brings ready-to-use AI, omnichannel support and advanced ticketing workflows in one helpdesk, so your team resolves faster from day one.\n\nStart free trial Start free trial Book a demo Book a demo\n\nNo credit card required. 14 day "
+        }
+      ]
+    },
+    {
+      "query": "Freshdesk official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk",
+          "title": "Model Context Protocol (MCP) integration in Freshdesk : Freshdesk Support",
+          "snippet": "Model Context Protocol (MCP) integration in Freshdesk : Freshdesk Support\n\n Model Context Protocol (MCP) integration in Freshdesk\n\n Modified on: Mon, 5 Oct, 2026 at 11:37 AM\n\nApplies to: Freshdesk, Freshdesk Omni 2026.\n\nThe Freshworks Model Context Protocol (MCP) server enables AI tools like Cursor "
+        },
+        {
+          "url": "https://partnerimplementationsupport.freshdesk.com/support/solutions/articles/50000014407-mcp-integration-frequently-asked-questions-faq-",
+          "title": "MCP Integration: Frequently asked questions (FAQ) : Partner Support",
+          "snippet": "MCP Integration: Frequently asked questions (FAQ) : Partner Support \n\n# MCP Integration: Frequently asked questions (FAQ)\n\n Modified on Fri, 6 Nov at 1:44 PM \n\nThe following FAQs address common questions and clarifications.\n\nInfo: For an overview of MCP integration, including setup and configuration"
+        },
+        {
+          "url": "https://www.freshworks.com/freshdesk/omni/mcp/",
+          "title": "Resolve customer issues wherever the work happens",
+          "snippet": "Skip to main content\n\n# Resolve customer issues wherever the work happens\n\nCustomer issues rarely live in one system. Freshdesk MCP lets teams work with Freshdesk from the AI tools they already use and reach the business systems a resolution depends on—so support can move from context to action with"
+        },
+        {
+          "url": "https://support.freshdesk.com/support/solutions/articles/50000014411-freshworks-mcp-security",
+          "title": "Freshworks MCP security : Freshdesk Support",
+          "snippet": "Freshworks MCP security : Freshdesk Support\n\n Freshworks MCP security\n\n Modified on: Thu, 10 Sep, 2026 at 7:05 PM\n\nThe Freshworks Model Context Protocol (MCP) server enables secure integration between AI tools and Freshdesk. It acts as a middleware layer that exposes selected Freshdesk capabilities,"
+        },
+        {
+          "url": "https://heydeacon.com/resources/freshdesk-mcp-server",
+          "title": "Freshdesk MCP server setup, tools and action limits | Deacon",
+          "snippet": "Freshdesk MCP server setup, tools and action limits | Deacon\n\n# Freshdesk MCP server setup, tools and action limits\n\nFreshworks’ own Freshdesk MCP server, its 37 tools, how to connect Claude or Cursor with an API key and what each action costs, read 10 November 2026.\n\nBy the Deacon team\n\nPublished 1"
+        }
+      ]
+    },
+    {
+      "query": "site:freshdesk.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://datagalaxy.freshdesk.com/en/support/solutions/articles/35000303501-what-is-mcp-server-and-how-it-works",
+          "title": "What is MCP Server and How It Works : DataGalaxy",
+          "snippet": "What is MCP Server and How It Works : DataGalaxy \n\n# What is MCP Server and How It Works \n\nModified on: Mon, 22 Jun, 2026 at 12:30 PM\n\n## What is an MCP server?\n\nAn MCP server (Model Context Protocol Server) is a service that exposes tools, data sources, or system capabilities in a standardized way,"
+        },
+        {
+          "url": "https://teampal.freshdesk.com/support/solutions/articles/69000869425-mcp-servers-the-business-owner-s-guide-to-seamless-ai-integration",
+          "title": "MCP Servers: The Business Owner's Guide to Seamless AI Integration : TeamPal Helpdesk",
+          "snippet": "MCP Servers: The Business Owner's Guide to Seamless AI Integration : TeamPal Helpdesk \n\n# MCP Servers: The Business Owner's Guide to Seamless AI Integration\n\n Modified on Fri, 11 Jul, 2025 at 3:09 PM \n\nIn today's rapidly evolving business landscape, artificial intelligence has become a powerful tool"
+        },
+        {
+          "url": "https://martussolutions.freshdesk.com/support/solutions/articles/35000321723-mcp-for-ai-applications",
+          "title": "MCP for AI Applications - Martus Solutions - Freshdesk",
+          "snippet": "MCP for AI Applications : Martus Solutions \n\n# MCP for AI Applications\n\n Modified on Sat, Oct 17 at 1:22 PM \n\nMCP stands for Model Context Protocol, an open standard created to connect artificial intelligence applications securely to external data sources, local files, and tools. It works like a uni"
+        },
+        {
+          "url": "https://teampal.freshdesk.com/support/solutions/articles/69000869430-discover-how-mcp-works-with-teampal",
+          "title": "Discover How MCP Works with TeamPal : TeamPal Helpdesk",
+          "snippet": "Discover How MCP Works with TeamPal : TeamPal Helpdesk \n\n# Discover How MCP Works with TeamPal\n\n Modified on Fri, 11 Jul, 2025 at 3:43 PM \n\nThink of MCP (Model Context Protocol) like a USB-C port for AI applications. Your agents can access a broader range of data and functionalities from external so"
+        },
+        {
+          "url": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk",
+          "title": "Model Context Protocol (MCP) integration in Freshdesk : Freshdesk Support",
+          "snippet": "Model Context Protocol (MCP) integration in Freshdesk : Freshdesk Support\n\n Model Context Protocol (MCP) integration in Freshdesk\n\n Modified on: Mon, 5 Oct, 2026 at 11:37 AM\n\nApplies to: Freshdesk, Freshdesk Omni 2026.\n\nThe Freshworks Model Context Protocol (MCP) server enables AI tools like Cursor "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://freshdesk.com",
+      "final_url": "https://freshdesk.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:02Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "e95a249a0d6394aaca2c49c98de285fcfaddb15c9cc52bff2130220c47af297e",
+      "text_len": 4667
+    },
+    {
+      "requested_url": "https://developers.freshdesk.com/api/",
+      "final_url": "https://developers.freshdesk.com/api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d487aa4974341959449975da1c85a41b1ab515dc7359e1f2b9f60edbeefd93af",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://support.freshdesk.com/support/solutions/articles/50000011778-understanding-freshdesk-pricing-plans",
+      "final_url": "https://support.freshdesk.com/support/solutions/articles/50000011778-understanding-freshdesk-pricing-plans",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "17dbd30fef738fe6e5e64afa73e30aaa95d90aaedc75dbce29b1109aef7fbaeb",
+      "text_len": 10253
+    },
+    {
+      "requested_url": "https://partnerimplementationsupport.freshdesk.com/support/solutions/articles/50000014407-mcp-integration-frequently-asked-questions-faq-",
+      "final_url": "https://partnerimplementationsupport.freshdesk.com/support/solutions/articles/50000014407-mcp-integration-frequently-asked-questions-faq-",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5f919525936b15ab3c8e540be46a026e8e8a6ae413041c76dbc6a7a2476be434",
+      "text_len": 5908
+    },
+    {
+      "requested_url": "https://datagalaxy.freshdesk.com/en/support/solutions/articles/35000303501-what-is-mcp-server-and-how-it-works",
+      "final_url": "https://datagalaxy.freshdesk.com/en/support/solutions/articles/35000303501-what-is-mcp-server-and-how-it-works",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6f9c36be22d8c17f77f676e527cdd94a3cfa549fe3d589380d3188d1c3935026",
+      "text_len": 5257
+    },
+    {
+      "requested_url": "https://martussolutions.freshdesk.com/support/solutions/articles/35000321723-mcp-for-ai-applications",
+      "final_url": "https://martussolutions.freshdesk.com/support/solutions/articles/35000321723-mcp-for-ai-applications",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "726dba3a75a68c90eb7426147c704f938e33d312815bb841726145516152a8a1",
+      "text_len": 2353
+    },
+    {
+      "requested_url": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk",
+      "final_url": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "27aa0692f87e159988654d701f188cdca759fb4cad932baad23ecf3849974a07",
+      "text_len": 16734
+    },
+    {
+      "requested_url": "https://support.freshdesk.com/support/solutions/articles/50000014411-freshworks-mcp-security",
+      "final_url": "https://support.freshdesk.com/support/solutions/articles/50000014411-freshworks-mcp-security",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a944f2d1bb4a6caf4a6205e836a2498e5105c6c99fc3835d45b2f418e058534a",
+      "text_len": 4847
+    },
+    {
+      "requested_url": "https://freshdesk.com/pricing",
+      "final_url": "https://freshdesk.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:03Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "313366a4ee932db0c7010c3df16b0b243d88646af48e3f0804e8fec183eb5947",
+      "text_len": 11597
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://support.freshdesk.com/support/solutions/articles/50000014411-freshworks-mcp-security",
+        "quote": "Freshworks MCP for Freshdesk currently supports API key authentication only.",
+        "verified": true
+      },
+      {
+        "url": "https://partnerimplementationsupport.freshdesk.com/support/solutions/articles/50000014407-mcp-integration-frequently-asked-questions-faq-",
+        "quote": "You can find your API key in your Freshdesk profile settings.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://support.freshdesk.com/support/solutions/articles/50000011778-understanding-freshdesk-pricing-plans",
+        "quote": "Every new account starts with a 14-day free trial that includes:",
+        "verified": true
+      },
+      {
+        "url": "https://freshdesk.com/pricing",
+        "quote": "When you sign up, you instantly get access to our Enterprise plan for 14 days.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.freshdesk.com/api/",
+        "quote": "Freshdesk APIs are plain JSON over HTTP and use the following HTTP verbs:",
+        "verified": true
+      },
+      {
+        "url": "https://developers.freshdesk.com/api/",
+        "quote": "For all trial users, there is a default API limit of 50 calls/minute.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk",
+        "quote": "The Freshworks Model Context Protocol (MCP) server enables AI tools like Cursor and Claude to securely connect and interact with Freshdesk.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.freshdesk.com/api/",
+        "quote": "They allow you to perform 'RESTful' operations such as reading, modifying, adding or deleting data from your helpdesk.",
+        "verified": true
+      },
+      {
+        "url": "https://freshdesk.com/pricing",
+        "quote": "You can then select a plan and pay by credit card to continue using the product.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developers.freshdesk.com/api/",
+        "quote": "Freshdesk is a cloud-based customer support platform that was founded with the mission of enabling companies of all sizes to provide great customer service.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

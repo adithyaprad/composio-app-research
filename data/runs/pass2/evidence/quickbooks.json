@@ -1,0 +1,786 @@
+{
+  "slug": "quickbooks",
+  "searches": [
+    {
+      "query": "QuickBooks API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization",
+          "title": "Authorization and authentication · QuickBooks Online",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        },
+        {
+          "url": "https://help.developer.intuit.com/s/article/Common-Authentication-and-Authorization-OAuth2-0-errors",
+          "title": "Common Authentication and Authorization OAuth2.0 errors",
+          "snippet": "Common Authentication and Authorization OAuth2.0 errors\n\n## Common Authentication and Authorization OAuth2.0 errors\n\n- Apr 16, 2020\n- Support Community\n\nIf you encounter any connection issues, please refer to the below solutions. Expand error details and see whether the error falls in the below scen"
+        },
+        {
+          "url": "https://intuit.github.io/QuickBooks-V3-PHP-SDK/authorization.html",
+          "title": "Authorization — QuickBooks V3 PHP SDK 4.0.5 documentation",
+          "snippet": "Authorization — QuickBooks V3 PHP SDK 4.0.5 documentation\n\n# Authorization¶\n\nThis page provides a quick introduction to QuickBooks Online Authorization Protocol: OAuth 1.0a and OAuth 2.0, and how to use it in the SDK. If you have not already installed QuickBooks V3 SDK, head over to the Installation"
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/develop",
+          "title": "Develop · QuickBooks Online",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        },
+        {
+          "url": "https://help.developer.intuit.com/s/question/0D54R0000873LCHSA2/api-authentication-without-a-user-logging-in",
+          "title": "API authentication without a user logging in? - Help - Intuit",
+          "snippet": "Intuit Developer Support\n\nLoading\n\nIntuit Developer Support\n \nLoading\n[×](#)Sorry to interrupt\nCSS Error\n[Refresh](?)"
+        }
+      ]
+    },
+    {
+      "query": "QuickBooks developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+          "title": "Get started · QuickBooks Online",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/develop",
+          "title": "Develop · QuickBooks Online",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/api/get-started/get-access-to-the-quickbooks-api",
+          "title": "Intuit Developer",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        },
+        {
+          "url": "https://intuitdeveloper.github.io/getstarted/",
+          "title": "Intuit Developer @ Github",
+          "snippet": "Intuit Developer @ Github\n\n### Getting started with QuickBooks API\n\nGET STARTED\n\n1. Create a developer account\n2. Create an app\n3. Generate OAuth tokens using playround\n4. Make the API call - click to see the curl request\n\n curl -X GET 'https://sandbox-quickbooks.api.intuit.com/v3/company/company id"
+        },
+        {
+          "url": "https://www.postman.com/intuit-developer/intuit-developer-quickbooks-online-accounting-api/documentation/4884662-e6c576f1-f6d3-440f-b090-da9ff1ac519d",
+          "title": "QuickBooks Online Accounting API | Documentation | Postman API Network",
+          "snippet": "QuickBooks Online Accounting API | Documentation | Postman API Network\n\n# QuickBooks Online Accounting API Documentation\n\nThe QuickBooks Online Accounting API is a RESTful API that is used to access QuickBooks companies.\n\nAn Account object is a component of a Chart Of Accounts, and is part of a ledg"
+        }
+      ]
+    },
+    {
+      "query": "QuickBooks pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://quickbooks.intuit.com/pricing/",
+          "title": "QuickBooks® Online Pricing & Free Trial | Official Site",
+          "snippet": "QuickBooks® Online Pricing & Free Trial | Official Site\n\n# Cleaner books from day one\n\n1\n\n3\n\nFree\n\nOrganize your finances for free\n\n$0/mo No credit card required\n\n1 user\n\nNo accountant access\n\nInvite your accountant to collaborate with you in QuickBooks by upgrading to one of our paid plans.\n\nTop fe"
+        },
+        {
+          "url": "https://quickbooks.intuit.com/free-trial/",
+          "title": "QuickBooks Free Trial - Start Your Trial Today",
+          "snippet": "QuickBooks Free Trial - Start Your Trial Today\n\n# Try QuickBooks Online for free\n\nGet instant access to the tools and features you need to drive your business forward with deeper insights, custom workflows, easy collaborations and more.\n\n## Reviews that speak volumes\n\nDiscover what makes QuickBooks "
+        },
+        {
+          "url": "https://quickbooks.intuit.com/online/",
+          "title": "QuickBooks® Online: All-in-One Business Solutions",
+          "snippet": "QuickBooks® Online: All-in-One Business Solutions\n\n# Business done right\n\nClean books, faster payments, and confident decisions—get it all done without doing it all yourself. Intuit Intelligence does the work for you, tailored to your business, and always under your control.\n\n## Cleaner books from d"
+        },
+        {
+          "url": "https://quickbooks.intuit.com/r/self-employed/is-quickbooks-free/",
+          "title": "Is QuickBooks free? Plans, features, limits & how to get started - Intuit",
+          "snippet": "Is QuickBooks free? Plans & features | QuickBooks Blog\n\n# Is QuickBooks free? Plans, features, limits & how to get started\n\nBy Ryan Weiss Published on \n\nTable of contents\n\nTable of contents\n\nTalk to sales\n\nYou could save up to 25% on transaction costs².\n\nSpeak with us now to see if you qualify.\n\nTal"
+        },
+        {
+          "url": "https://quickbooks.intuit.com/online/simple-start/",
+          "title": "QuickBooks Online Simple Start - 50% Off for Three Months",
+          "snippet": "QuickBooks Online Simple Start - 50% Off for Three Months\n\n# QuickBooks Online Simple Start\n\nIdeal for small businesses with a single user. Buy now and get 70% off for 3 months: $38 $11.40/month.*\n\n(2:37s)\n\n### Put your business on track with Simple Start\n\n#### Connect your bank\n\nWith Simple Start, "
+        }
+      ]
+    },
+    {
+      "query": "QuickBooks official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://quickbooks.intuit.com/llms.txt",
+          "title": "",
+          "snippet": "# QuickBooks\n\n> QuickBooks is an AI-powered accounting platform backed by trusted experts that helps small and mid-size businesses save time, make smart decisions, and grow. Trusted by millions of businesses worldwide. \n\nQuickBooks combines powerful AI automation with Live expert support, all access"
+        },
+        {
+          "url": "https://github.com/intuit/quickbooks-online-mcp-server",
+          "title": "intuit/quickbooks-online-mcp-server",
+          "snippet": "# intuit/quickbooks-online-mcp-server\n\nThe QuickBooks MCP Server lets AI assistants access QuickBooks data via a standard interface. It uses the Model Context Protocol to expose QBO features as callable tools, enabling developers to build AI apps that fetch real-time QBO data through MCP.\n\n- Stars: "
+        },
+        {
+          "url": "https://quickbooks.intuit.com/learn-support/en-us/help-article/accounting-bookkeeping/use-quickbooks-connector-claude/L3YBlo6Ht_US_en_US",
+          "title": "Use Claude to enter transactions and get insights in QuickBooks",
+          "snippet": "Use Claude to enter transactions and get insights in QuickBooks\n\n# Use Claude to enter transactions and get insights in QuickBooks\n\nby Intuit • \n\n Updated 10/28/2026 15:09\n\nNote: The QuickBooks connector for Claude is currently available to US customers only. We're working to bring it to other regio"
+        },
+        {
+          "url": "https://help.developer.intuit.com/s/question/0D5TR00001M7S950AF/is-there-any-mcp-available-for-quickbooks-online",
+          "title": "Is there any MCP available for Quickbooks online? - Help - Intuit",
+          "snippet": "Is there any MCP available for Quickbooks online?\n\nJafar1777389387375 asked a question.\n\nJune 1, 2026 at 2:35 PM\n\nIs there any MCP available for Quickbooks online?\n\n- User17713231151287064494\n\n6 months ago\n\nHi @Jafar1777389387375​ \n\nThank you for contacting QuickBooks Support.\n\nYes — Intuit has offi"
+        },
+        {
+          "url": "https://github.com/IntuitDeveloper/intuit-3p-ai-pilot",
+          "title": "IntuitDeveloper/intuit-3p-ai-pilot",
+          "snippet": "# IntuitDeveloper/intuit-3p-ai-pilot\n\n- Stars: 3\n- Forks: 1\n- Watchers: 3\n- Open issues: 0\n- Default branch: main\n- Created: 2026-05-18T18:25:45Z\n\n## Top Contributors\n\n- Soumiya-mohan (9 contributions)\n- smohan-intuit (4 contributions)\n\n---\n\n## README\n\n# Intuit AI Pilot — Hosted MCP Server\n\nConnect "
+        }
+      ]
+    },
+    {
+      "query": "site:developer.intuit.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.developer.intuit.com/s/question/0D5TR00001M7S950AF/is-there-any-mcp-available-for-quickbooks-online",
+          "title": "Intuit Developer Support",
+          "snippet": "Is there any MCP available for Quickbooks online?\n\nJafar1777389387375 asked a question.\n\nJune 1, 2026 at 2:35 PM\n\nIs there any MCP available for Quickbooks online?\n\n- User17713231151287064494\n\n6 months ago\n\nHi @Jafar1777389387375​ \n\nThank you for contacting QuickBooks Support.\n\nYes — Intuit has offi"
+        },
+        {
+          "url": "https://help.developer.intuit.com/s/question/0D5TR00001LtKZk0AN/is-there-a-plan-or-timeline-for-when-intuit-will-provide-a-hosted-quickbooks-mcp-server-we-are-exploring-the-possibility-of-a-multitenant-integration-with-quickbooks-and-selfhosted-is-not-a-viable-option-for-us",
+          "title": "Is there a plan or timeline for when intuit will provide a hosted ...",
+          "snippet": "Intuit Developer Support\n\nLoading\n\nIntuit Developer Support\n \nLoading\n[×](#)Sorry to interrupt\nCSS Error\n[Refresh](?)"
+        },
+        {
+          "url": "https://help.developer.intuit.com/s/question/0D5TR00001YU9WQ0A1/hosted-quickbooks-mcp-supported-authentication-for-independent-clients",
+          "title": "Intuit Developer Support",
+          "snippet": "Hosted QuickBooks MCP: supported authentication for independent clients?\n\nSun Valley1791697707288 asked a question.\n\nOctober 11, 2026 at 6:30 AM\n\nHosted QuickBooks MCP: supported authentication for independent clients?\n\nWe want to connect a private, owner-operated OpenClaw 2026.9.8 agent on macOS di"
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started/mcp",
+          "title": "Intuit Developer",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/mcp-server",
+          "title": "Intuit Developer",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        }
+      ]
+    },
+    {
+      "query": "site:intuit.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://quickbooks.intuit.com/learn-support/en-us/help-article/accounting-bookkeeping/use-quickbooks-connector-claude/L3YBlo6Ht_US_en_US",
+          "title": "Use Claude to enter transactions and get insights in QuickBooks",
+          "snippet": "Use Claude to enter transactions and get insights in QuickBooks\n\n# Use Claude to enter transactions and get insights in QuickBooks\n\nby Intuit • \n\n Updated 10/28/2026 15:09\n\nNote: The QuickBooks connector for Claude is currently available to US customers only. We're working to bring it to other regio"
+        },
+        {
+          "url": "https://quickbooks.intuit.com/llms.txt",
+          "title": "",
+          "snippet": "# QuickBooks\n\n> QuickBooks is an AI-powered accounting platform backed by trusted experts that helps small and mid-size businesses save time, make smart decisions, and grow. Trusted by millions of businesses worldwide. \n\nQuickBooks combines powerful AI automation with Live expert support, all access"
+        },
+        {
+          "url": "https://quickbooks.intuit.com/r/product-update/quickbooks-google-gemini-mcp-connector/",
+          "title": "QuickBooks now works with Gemini in Google Workspace",
+          "snippet": "QuickBooks now works with Gemini in Google Workspace\n\n# Turn Gemini answers into action: Your QuickBooks data, now in Gemini across Google Workspace\n\nBy QuickBooks Published on \n\nTable of contents\n\nTable of contents\n\nYou could save up to 25% on transaction costs².\n\nSpeak with us now to see if you qu"
+        },
+        {
+          "url": "https://investors.intuit.com/news-events/press-releases/detail/1305/intuit-and-anthropic-partner-to-bring-trusted-financial-intelligence-and-custom-ai-agents-to-consumers-and-businesses",
+          "title": "Intuit and Anthropic Partner to Bring Trusted Financial Intelligence and Custom AI Agents to Consumers and Businesses :: Intuit Inc. (INTU)",
+          "snippet": "Intuit and Anthropic Partner to Bring Trusted Financial Intelligence and Custom AI Agents to Consumers and Businesses :: Intuit Inc. (INTU)\n\n# Intuit and Anthropic Partner to Bring Trusted Financial Intelligence and Custom AI Agents to Consumers and Businesses\n\n February 24, 2026 8:00am EST Download"
+        },
+        {
+          "url": "https://www.intuit.com/blog/innovative-thinking/tech-innovation/intuit-perplexity-partnership/",
+          "title": "Intuit + Perplexity: Trusted Financial Action for Businesses",
+          "snippet": "Intuit + Perplexity: Trusted Financial Action for Businesses\n\n# Intuit and Perplexity Partner to Bring Trusted Financial Action for Businesses in Perplexity Computer\n\nNew QuickBooks and Mailchimp integrations enable businesses to seamlessly manage cash flow, chase overdue invoices, and track marketi"
+        }
+      ]
+    },
+    {
+      "query": "QuickBooks Online API OAuth 2.0 authorization code developer.intuit.com",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+          "title": "Set up OAuth 2.0 · QuickBooks Online",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/faq",
+          "title": "QuickBooks Online",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        },
+        {
+          "url": "https://blogs.intuit.com/2023/09/25/building-smarter-with-intuit-how-to-implement-oauth-2-0/",
+          "title": "Building Smarter with Intuit: How to implement OAuth 2.0",
+          "snippet": "Building Smarter with Intuit: How to implement OAuth 2.0\n\n# Building Smarter with Intuit: How to implement OAuth 2.0\n\nAs part of our “Building Smarter with Intuit” series around best practices for developing applications with Intuit APIs, we’re sharing insights and tips on optimizing everything from"
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization",
+          "title": "Authorization and authentication",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        },
+        {
+          "url": "https://help.developer.intuit.com/s/article/Configuring-the-Oauth-2-0-Playground-for-QuickBooks-Online",
+          "title": "Configuring the Oauth 2.0 Playground for QuickBooks Online - Help - Intuit",
+          "snippet": "Configuring the Oauth 2.0 Playground for QuickBooks Online\n\n## Configuring the Oauth 2.0 Playground for QuickBooks Online\n\nEverything you need to know about how to use our Oauth 2.0 playground. https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0-pla"
+        }
+      ]
+    },
+    {
+      "query": "QuickBooks API access pricing plans signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.developer.intuit.com/s/article/platform-service-fees",
+          "title": "Platform service fees for the Intuit App Partner Program - Help",
+          "snippet": "Platform service fees for the Intuit App Partner Program\n\n## Platform service fees for the Intuit App Partner Program\n\nThis article provides details and example scenarios about the pricing model for the Intuit App Partner Program, including the flat program fees, API credits, and variable API fees.\n"
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/develop",
+          "title": "Develop · QuickBooks Online",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        },
+        {
+          "url": "https://quickbooks.intuit.com/pricing/",
+          "title": "QuickBooks® Online Pricing & Free Trial | Official Site",
+          "snippet": "QuickBooks® Online Pricing & Free Trial | Official Site\n\n# Cleaner books from day one\n\n1\n\n3\n\nFree\n\nOrganize your finances for free\n\n$0/mo No credit card required\n\n1 user\n\nNo accountant access\n\nInvite your accountant to collaborate with you in QuickBooks by upgrading to one of our paid plans.\n\nTop fe"
+        },
+        {
+          "url": "https://www.maesn.com/integrations/quickbooks/",
+          "title": "QuickBooks API Integration: From Sandbox to App Partner | Maesn",
+          "snippet": "QuickBooks API Integration: From Sandbox to App Partner | Maesn\n\n# QuickBooks API Integration\n\nQuickBooks Online is Intuit's cloud accounting platform, used by small businesses and their accountants across the United States, Canada, the United Kingdom and Australia. It covers invoicing, expenses, ba"
+        },
+        {
+          "url": "https://www.itechguides.com/products/quickbooks-online-accounting-api/pricing/",
+          "title": "QuickBooks Online Accounting API Pricing in 2026",
+          "snippet": "QuickBooks Online Accounting API Pricing in 2026\n\n# QuickBooks Online Accounting API pricing\n\nQuickBooks Online Accounting API publishes 4 plans on developer.intuit.com — prices checked 20 Sep 2026.\n\n8.4/10★★★★☆ Editor score Visit QuickBooks \n\n## QuickBooks Online Accounting API pricing at a glance\n"
+        }
+      ]
+    },
+    {
+      "query": "QuickBooks developer API availability",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/troubleshooting/api-status",
+          "title": "Check API statuses · QuickBooks Online",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        },
+        {
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/develop",
+          "title": "Develop · QuickBooks Online",
+          "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+        },
+        {
+          "url": "https://dev.to/zuplo/quickbooks-api-complete-developers-guide-2026-3l77",
+          "title": "QuickBooks API: Complete Developer's Guide (2026) - DEV Community",
+          "snippet": "QuickBooks API: Complete Developer's Guide (2026) - DEV Community\n\nMartyn Davies for Zuplo\n\n Posted on May 20, 2025 \n\n# QuickBooks API: Complete Developer's Guide (2026) \n\nThe QuickBooks API gives developers programmatic access to the accounting features that millions of small and mid-sized business"
+        },
+        {
+          "url": "https://blogs.intuit.com/2025/07/17/announcing-the-launch-of-premium-apis/",
+          "title": "Announcing the launch of Premium APIs",
+          "snippet": "Announcing the launch of Premium APIs\n\n# Announcing the launch of Premium APIs\n\nThe Intuit Developer team has made four highly anticipated premium APIs— Projects, Custom Fields, Sales Tax, and Time API with Payroll Compensation—available to developers in the United States who are subscribed to the G"
+        },
+        {
+          "url": "https://ownpurse.com/landscape/quickbooks-online/",
+          "title": "QuickBooks Online · the landscape · ownpurse",
+          "snippet": "QuickBooks Online · the landscape · ownpurse\n\n# QuickBooks Online\n\nIntuit's cloud accounting software, the largest small-business ledger in the US.\n\nquickbooks.intuit.com · founded 1992 (QuickBooks); Intuit 1983 · Mountain View, California, US (Intuit) · researched 2026-10-10\n\nScope\n\nQuickBooks Onli"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developer.intuit.com",
+      "final_url": "https://developer.intuit.com/app/developer/homepage",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T13:45:19Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "751fc5f71f36d939273e8e1042b82a80fdae5e8f5ea6ed5c765640ff12ce74e1",
+      "text_len": 62
+    },
+    {
+      "requested_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization",
+      "final_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "642092da9bcc2af0564290f344f455d17bdf2bc8dd0834e0d56ce878f7198022",
+      "text_len": 127
+    },
+    {
+      "requested_url": "https://developer.intuit.com/app/developer/qbo/docs/api/get-started/get-access-to-the-quickbooks-api",
+      "final_url": "https://developer.intuit.com/app/developer/qbo/docs/api/get-started/get-access-to-the-quickbooks-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:07Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "642092da9bcc2af0564290f344f455d17bdf2bc8dd0834e0d56ce878f7198022",
+      "text_len": 127
+    },
+    {
+      "requested_url": "https://quickbooks.intuit.com/pricing/",
+      "final_url": "https://quickbooks.intuit.com/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:08Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5924ec5b79f76aeaa64e9a725f734b2e02dd40553d17dc68bbb42292266438ec",
+      "text_len": 9492
+    },
+    {
+      "requested_url": "https://help.developer.intuit.com/s/question/0D5TR00001M7S950AF/is-there-any-mcp-available-for-quickbooks-online",
+      "final_url": "https://help.developer.intuit.com/s/question/0D5TR00001M7S950AF/is-there-any-mcp-available-for-quickbooks-online",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:09Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "697221b1aac914f2b3c35b71852207163ef252df3e276b55d5db6ec4e677b6e1",
+      "text_len": 3013
+    },
+    {
+      "requested_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/mcp-server",
+      "final_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:11Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "642092da9bcc2af0564290f344f455d17bdf2bc8dd0834e0d56ce878f7198022",
+      "text_len": 127
+    },
+    {
+      "requested_url": "https://quickbooks.intuit.com/r/product-update/quickbooks-google-gemini-mcp-connector/",
+      "final_url": "https://quickbooks.intuit.com/r/product-update/quickbooks-google-gemini-mcp-connector/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a69a3ace9829e00fdc4fb114fa1b8326279f3f41be564de3b386ed1a5c03efeb",
+      "text_len": 4542
+    },
+    {
+      "requested_url": "https://developer.intuit.com/app/developer/qbo/docs/get-started/mcp",
+      "final_url": "https://developer.intuit.com/app/developer/qbo/docs/get-started/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:11Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "642092da9bcc2af0564290f344f455d17bdf2bc8dd0834e0d56ce878f7198022",
+      "text_len": 127
+    },
+    {
+      "requested_url": "https://developer.intuit.com/llms.txt",
+      "final_url": "https://developer.intuit.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:20Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "ca73d97a2cbf6641051d5346bb70ab6258095248192b7ba2c75665e3bf44a3d3",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://github.com/IntuitDeveloper/intuit-3p-ai-pilot/blob/main/README.md",
+      "final_url": "https://github.com/IntuitDeveloper/intuit-3p-ai-pilot/blob/main/README.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:42Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "fc838876d72355ad33b5d63163b136e339b64edc44a836fa3fd15134f731cbf6",
+      "text_len": 8143
+    },
+    {
+      "requested_url": "https://quickbooks.intuit.com/learn-support/en-us/help-article/accounting-bookkeeping/use-quickbooks-connector-claude/L3YBlo6Ht_US_en_US",
+      "final_url": "https://quickbooks.intuit.com/learn-support/en-us/help-article/accounting-bookkeeping/use-quickbooks-connector-claude/L3YBlo6Ht_US_en_US",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:09Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5b462fce03ac831b9f17e133bd3cc029ce69a530b55e4b28eb60db0e45db59a5",
+      "text_len": 11373
+    },
+    {
+      "requested_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+      "final_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:42Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "642092da9bcc2af0564290f344f455d17bdf2bc8dd0834e0d56ce878f7198022",
+      "text_len": 127
+    },
+    {
+      "requested_url": "https://help.developer.intuit.com/s/article/Common-Authentication-and-Authorization-OAuth2-0-errors",
+      "final_url": "https://help.developer.intuit.com/s/article/Common-Authentication-and-Authorization-OAuth2-0-errors",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "99554749b01b7a37a43543496b9c0209dc40609c79f2e6598c96b74209e1ec82",
+      "text_len": 5099
+    },
+    {
+      "requested_url": "https://help.developer.intuit.com/s/question/0D54R0000873LCHSA2/api-authentication-without-a-user-logging-in",
+      "final_url": "https://help.developer.intuit.com/s/question/0D54R0000873LCHSA2/api-authentication-without-a-user-logging-in",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fd8cf2c4df16dcde79da8bd8bf30775263ada7073797cb8a3b4d2033a0e5ee78",
+      "text_len": 117
+    },
+    {
+      "requested_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/faq",
+      "final_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/faq",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:42Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "642092da9bcc2af0564290f344f455d17bdf2bc8dd0834e0d56ce878f7198022",
+      "text_len": 127
+    },
+    {
+      "requested_url": "https://developer.intuit.com/app/developer/homepage",
+      "final_url": "https://developer.intuit.com/app/developer/homepage",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:20Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "642092da9bcc2af0564290f344f455d17bdf2bc8dd0834e0d56ce878f7198022",
+      "text_len": 127
+    },
+    {
+      "requested_url": "https://developer.intuit.com/llms.txt",
+      "final_url": "https://developer.intuit.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:20Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "ca73d97a2cbf6641051d5346bb70ab6258095248192b7ba2c75665e3bf44a3d3",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://help.developer.intuit.com/s/question/0D5TR00001M7S950AF/is-there-any-mcp-available-for-quickbooks-online",
+      "final_url": "https://help.developer.intuit.com/s/question/0D5TR00001M7S950AF/is-there-any-mcp-available-for-quickbooks-online",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:20Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "697221b1aac914f2b3c35b71852207163ef252df3e276b55d5db6ec4e677b6e1",
+      "text_len": 3013
+    },
+    {
+      "requested_url": "https://developer.intuit.com",
+      "final_url": "https://developer.intuit.com/app/developer/homepage",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T14:32:26Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "751fc5f71f36d939273e8e1042b82a80fdae5e8f5ea6ed5c765640ff12ce74e1",
+      "text_len": 62
+    },
+    {
+      "requested_url": "https://quickbooks.intuit.com/pricing/",
+      "final_url": "https://quickbooks.intuit.com/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5924ec5b79f76aeaa64e9a725f734b2e02dd40553d17dc68bbb42292266438ec",
+      "text_len": 9492
+    },
+    {
+      "requested_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/troubleshooting/api-status",
+      "final_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/troubleshooting/api-status",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:32:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "642092da9bcc2af0564290f344f455d17bdf2bc8dd0834e0d56ce878f7198022",
+      "text_len": 127
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://github.com/IntuitDeveloper/intuit-3p-ai-pilot/blob/main/README.md",
+        "quote": "The MCP server uses the same OAuth 2.0 authorization flow as the QuickBooks Online REST API.",
+        "verified": true
+      },
+      {
+        "url": "https://help.developer.intuit.com/s/article/Common-Authentication-and-Authorization-OAuth2-0-errors",
+        "quote": "The redirect_uri query parameter value is invalid.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developer.intuit.com/llms.txt",
+        "quote": "To create your Intuit Developer account, follow the steps below.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.intuit.com/llms.txt",
+        "quote": "When you create your developer profile, you automatically get a sandbox company.",
+        "verified": true
+      },
+      {
+        "url": "https://help.developer.intuit.com/s/question/0D5TR00001M7S950AF/is-there-any-mcp-available-for-quickbooks-online",
+        "quote": "As a free tier developer account, how do we contact someone at Intuit who can enable our app to make use of the MCP scopes?",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://github.com/IntuitDeveloper/intuit-3p-ai-pilot/blob/main/README.md",
+        "quote": "For deterministic, code-driven integrations, continue to use the QuickBooks Online REST API.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.intuit.com/llms.txt",
+        "quote": "The current version of the Desktop SDK is 18.0. This version supports 64-bit SDK.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://github.com/IntuitDeveloper/intuit-3p-ai-pilot/blob/main/README.md",
+        "quote": "PILOT - By Invitation Only",
+        "verified": true
+      },
+      {
+        "url": "https://help.developer.intuit.com/s/question/0D5TR00001M7S950AF/is-there-any-mcp-available-for-quickbooks-online",
+        "quote": "Intuit has officially released a QuickBooks Connector for Claude that uses MCP",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.intuit.com/llms.txt",
+        "quote": "Set up your Intuit Developer Account and developer environment",
+        "verified": true
+      },
+      {
+        "url": "https://developer.intuit.com/llms.txt",
+        "quote": "There are multiple ways to test your app during development.",
+        "verified": true
+      }
+    ],
+    "one_liner": []
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "unsupported_evidence"
+    ],
+    "findings": [
+      {
+        "rule": "unsupported_evidence",
+        "source": "llm",
+        "reason": "The access claim (self_serve) rests on a sandbox-company line from the Enterprise Suite docs and a community user's question. Neither shows how production API credentials are obtained, and the notes admit production-app review requirements were not seen.",
+        "fields": [
+          "access"
+        ],
+        "quotes": [
+          {
+            "url": "https://help.developer.intuit.com/s/question/0D5TR00001M7S950AF/is-there-any-mcp-available-for-quickbooks-online",
+            "quote": "As a free tier developer account, how do we contact someone at Intuit who can enable our app to make use of the MCP scopes?"
+          },
+          {
+            "url": "https://developer.intuit.com/llms.txt",
+            "quote": "When you create your developer profile, you automatically get a sandbox company."
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "access",
+      "verdict",
+      "blocker"
+    ],
+    "claims": [
+      "access",
+      "verdict"
+    ],
+    "review_searches": [
+      {
+        "query": "QuickBooks API access pricing plans signup",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://help.developer.intuit.com/s/article/platform-service-fees",
+            "title": "Platform service fees for the Intuit App Partner Program - Help",
+            "snippet": "Platform service fees for the Intuit App Partner Program\n\n## Platform service fees for the Intuit App Partner Program\n\nThis article provides details and example scenarios about the pricing model for the Intuit App Partner Program, including the flat program fees, API credits, and variable API fees.\n"
+          },
+          {
+            "url": "https://developer.intuit.com/app/developer/qbo/docs/develop",
+            "title": "Develop · QuickBooks Online",
+            "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+          },
+          {
+            "url": "https://quickbooks.intuit.com/pricing/",
+            "title": "QuickBooks® Online Pricing & Free Trial | Official Site",
+            "snippet": "QuickBooks® Online Pricing & Free Trial | Official Site\n\n# Cleaner books from day one\n\n1\n\n3\n\nFree\n\nOrganize your finances for free\n\n$0/mo No credit card required\n\n1 user\n\nNo accountant access\n\nInvite your accountant to collaborate with you in QuickBooks by upgrading to one of our paid plans.\n\nTop fe"
+          },
+          {
+            "url": "https://www.maesn.com/integrations/quickbooks/",
+            "title": "QuickBooks API Integration: From Sandbox to App Partner | Maesn",
+            "snippet": "QuickBooks API Integration: From Sandbox to App Partner | Maesn\n\n# QuickBooks API Integration\n\nQuickBooks Online is Intuit's cloud accounting platform, used by small businesses and their accountants across the United States, Canada, the United Kingdom and Australia. It covers invoicing, expenses, ba"
+          },
+          {
+            "url": "https://www.itechguides.com/products/quickbooks-online-accounting-api/pricing/",
+            "title": "QuickBooks Online Accounting API Pricing in 2026",
+            "snippet": "QuickBooks Online Accounting API Pricing in 2026\n\n# QuickBooks Online Accounting API pricing\n\nQuickBooks Online Accounting API publishes 4 plans on developer.intuit.com — prices checked 20 Sep 2026.\n\n8.4/10★★★★☆ Editor score Visit QuickBooks \n\n## QuickBooks Online Accounting API pricing at a glance\n"
+          }
+        ]
+      },
+      {
+        "query": "QuickBooks developer API availability",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/troubleshooting/api-status",
+            "title": "Check API statuses · QuickBooks Online",
+            "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+          },
+          {
+            "url": "https://developer.intuit.com/app/developer/qbo/docs/develop",
+            "title": "Develop · QuickBooks Online",
+            "snippet": "Intuit Developer\n\nCompiling and pre-filling your Intuit info...\n\nIntuit Developer\nCompiling and pre-filling your Intuit info..."
+          },
+          {
+            "url": "https://dev.to/zuplo/quickbooks-api-complete-developers-guide-2026-3l77",
+            "title": "QuickBooks API: Complete Developer's Guide (2026) - DEV Community",
+            "snippet": "QuickBooks API: Complete Developer's Guide (2026) - DEV Community\n\nMartyn Davies for Zuplo\n\n Posted on May 20, 2025 \n\n# QuickBooks API: Complete Developer's Guide (2026) \n\nThe QuickBooks API gives developers programmatic access to the accounting features that millions of small and mid-sized business"
+          },
+          {
+            "url": "https://blogs.intuit.com/2025/07/17/announcing-the-launch-of-premium-apis/",
+            "title": "Announcing the launch of Premium APIs",
+            "snippet": "Announcing the launch of Premium APIs\n\n# Announcing the launch of Premium APIs\n\nThe Intuit Developer team has made four highly anticipated premium APIs— Projects, Custom Fields, Sales Tax, and Time API with Payroll Compensation—available to developers in the United States who are subscribed to the G"
+          },
+          {
+            "url": "https://ownpurse.com/landscape/quickbooks-online/",
+            "title": "QuickBooks Online · the landscape · ownpurse",
+            "snippet": "QuickBooks Online · the landscape · ownpurse\n\n# QuickBooks Online\n\nIntuit's cloud accounting software, the largest small-business ledger in the US.\n\nquickbooks.intuit.com · founded 1992 (QuickBooks); Intuit 1983 · Mountain View, California, US (Intuit) · researched 2026-10-10\n\nScope\n\nQuickBooks Onli"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://developer.intuit.com/app/developer/homepage",
+        "final_url": "https://developer.intuit.com/app/developer/homepage",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:20Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "642092da9bcc2af0564290f344f455d17bdf2bc8dd0834e0d56ce878f7198022",
+        "text_len": 127
+      },
+      {
+        "requested_url": "https://developer.intuit.com/llms.txt",
+        "final_url": "https://developer.intuit.com/llms.txt",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:20Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "ca73d97a2cbf6641051d5346bb70ab6258095248192b7ba2c75665e3bf44a3d3",
+        "text_len": 20000
+      },
+      {
+        "requested_url": "https://help.developer.intuit.com/s/question/0D5TR00001M7S950AF/is-there-any-mcp-available-for-quickbooks-online",
+        "final_url": "https://help.developer.intuit.com/s/question/0D5TR00001M7S950AF/is-there-any-mcp-available-for-quickbooks-online",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:20Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "697221b1aac914f2b3c35b71852207163ef252df3e276b55d5db6ec4e677b6e1",
+        "text_len": 3013
+      },
+      {
+        "requested_url": "https://developer.intuit.com",
+        "final_url": "https://developer.intuit.com/app/developer/homepage",
+        "status": 200,
+        "provider": "http",
+        "fetched_at": "2026-11-23T14:32:26Z",
+        "error": null,
+        "method": "visible_text",
+        "text_source_url": null,
+        "sha256": "751fc5f71f36d939273e8e1042b82a80fdae5e8f5ea6ed5c765640ff12ce74e1",
+        "text_len": 62
+      },
+      {
+        "requested_url": "https://quickbooks.intuit.com/pricing/",
+        "final_url": "https://quickbooks.intuit.com/pricing/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:18Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "5924ec5b79f76aeaa64e9a725f734b2e02dd40553d17dc68bbb42292266438ec",
+        "text_len": 9492
+      },
+      {
+        "requested_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/troubleshooting/api-status",
+        "final_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/troubleshooting/api-status",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:32:19Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "642092da9bcc2af0564290f344f455d17bdf2bc8dd0834e0d56ce878f7198022",
+        "text_len": 127
+      }
+    ]
+  }
+}

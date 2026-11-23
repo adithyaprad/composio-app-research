@@ -184,3 +184,100 @@ def retry_prompt(errors: list[str], checks: dict) -> str:
     if dropped:
         msg += "\n\nEvidence URLs removed because they were not fetched pages:\n- " + "\n- ".join(dropped)
     return msg
+
+
+# ---------- pass-2 review ----------
+
+REVIEW_SYSTEM = """You review one already-filled research row about whether a software product can become an
+AI-agent toolkit. You do NOT rewrite the row. You only say which checklist rules apply.
+
+REVIEW CHECKLIST (stable ids):
+{checklist}
+
+How to judge (from the scoring rubric):
+- auth_methods is developer-API auth only. HTTP Basic is a separate basic method only for a username +
+  password (or equivalent user login); an API key or token sent through the Basic scheme is api_key.
+  A dashboard secret used only as the OAuth client_secret in a token request is not api_key.
+- OAuth that only authenticates an MCP server or a dashboard/SSO login is not API auth.
+- Access: manual vendor review (app review, developer-profile approval, partner program, mandatory
+  app-store listing) or sales-only access is gated. E.g. Apple App Store Connect or Google Play Console:
+  a paid developer account is bought online, but apps still pass vendor review, so gated_partner. But if a
+  developer can already get usable API credentials with no human review (a personal token after an online
+  checkout), access stays self_serve / self_serve_paid even when OAuth app registration is reviewed.
+  A customer workspace admin approving an install is not a vendor gate.
+- A beta or preview MCP server does not make the product API a preview.
+- MCP: a vague mention ("MCP (beta)", "coming soon") with no server URL, repo, or MCP docs page is none.
+  Third-party MCP directories are not vendor-published.
+
+Flag a rule only when the row, its notes, the quoted snippets, or the page text below support it, and copy
+a short verbatim quote (5-30 words) that shows it. When the text needed to decide is not provided, do not
+guess; flag unsupported_evidence only if a critical claim's evidence or snippet does not support it.
+
+OUTPUT: one JSON object:
+{{"rules": [{{"id": "<rule id>", "reason": "<one sentence>",
+             "quotes": [{{"url": "...", "quote": "..."}}],
+             "claims": ["auth" | "access" | "api_surface" | "mcp" | "verdict"]}}]}}
+"claims" is only for unsupported_evidence. Return {{"rules": []}} when no rule applies."""
+
+REVIEW_FILL_INSTRUCTIONS = """A reviewer flagged the rules above on this row. Re-check ONLY the editable fields
+against the FETCHED PAGES below and return a corrected answer for them. Every other field is frozen and is
+copied from the current row, so do not return it. A finding can be wrong: if the pages contradict it, keep
+the current value and cite a page that supports it. If no page supports any value for a field, use the
+conservative rubric value (e.g. unknown / docs_insufficient) and say so in notes. Never cite a URL that is
+not a "URL:" line below. Rewrite notes so they agree with the corrected fields (keep useful old caveats).
+
+OUTPUT: one JSON object:
+{{"row": {{<only these fields: {fields}>, "evidence": {{<only these claims: {claims}>}}, "notes": "..."}},
+  "snippets": {{<same claims>: [{{"url": "...", "quote": "..."}}]}}}}"""
+
+
+def _identity(app: dict) -> str:
+    return json.dumps({k: app.get(k) for k in ("id", "slug", "name", "category", "category_label", "source_hint",
+                                               "start_url")})
+
+
+def review_system(rules: dict[str, str]) -> str:
+    return REVIEW_SYSTEM.format(checklist="\n".join(f"- {rid}: {text}" for rid, text in rules.items()))
+
+
+def _row_for_prompt(row: dict) -> str:
+    return json.dumps({k: v for k, v in row.items() if k != "composio_toolkit"}, ensure_ascii=False)
+
+
+def review_prompt(app: dict, row: dict, snippets: dict, pages: list, per_page_chars: int) -> str:
+    snips = {c: [{"url": s.get("url"), "quote": s.get("quote"), "verified": bool(s.get("verified"))}
+                 for s in items if isinstance(s, dict)]
+             for c, items in (snippets or {}).items() if isinstance(items, list)}
+    page_text = render_pages(pages, per_page_chars) if pages else "(no cached page text; judge from snippets)"
+    return (
+        f"APP (identity from the research list; do not change):\n{_identity(app)}\n\n"
+        f"ROW UNDER REVIEW:\n{_row_for_prompt(row)}\n\n"
+        "QUOTED SNIPPETS FROM THE FIRST PASS (verified = found verbatim in the page text):\n"
+        f"{json.dumps(snips, ensure_ascii=False)}\n\n"
+        f"CACHED TEXT OF CITED PAGES:\n\n{page_text}\n\n"
+        "No more fetching is possible: list the rules that apply."
+    )
+
+
+def review_fill_prompt(app: dict, row: dict, findings: list[dict], fields: list[str], claims: list[str],
+                       pages: list, per_page_chars: int) -> str:
+    lines = []
+    for f in findings:
+        quotes = "; ".join(f'"{q["quote"]}"' for q in f.get("quotes") or [] if q.get("quote"))
+        lines.append(f"- {f['rule']} ({f['source']}): {f['reason']}" + (f" Quotes: {quotes}" if quotes else ""))
+    claim_list = ", ".join(claims) or "none"
+    return (
+        f"APP (identity from the research list; do not change):\n{_identity(app)}\n\n"
+        f"CURRENT ROW:\n{_row_for_prompt(row)}\n\n"
+        "REVIEW FINDINGS:\n" + "\n".join(lines) + "\n\n"
+        f"EDITABLE FIELDS: {', '.join(fields)}, notes\nEVIDENCE CLAIMS TO REPLACE: {claim_list}\n\n"
+        + REVIEW_FILL_INSTRUCTIONS.format(fields=", ".join(fields), claims=claim_list)
+        + f"\n\nFETCHED PAGES (the only allowed evidence):\n\n{render_pages(pages, per_page_chars)}\n\n"
+        "No more fetching is possible: give your final answer."
+    )
+
+
+def review_retry_prompt(errors: list[str], checks: dict) -> str:
+    return retry_prompt(errors, checks).replace(
+        "return the full JSON object again (row, snippets, follow_up with empty lists)",
+        "return the JSON object again with only the editable fields, their evidence claims, notes and snippets")

@@ -1,0 +1,765 @@
+{
+  "slug": "jira",
+  "searches": [
+    {
+      "query": "Jira API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+          "title": "Basic auth for REST APIs - Jira Cloud platform",
+          "snippet": "Basic auth for REST APIs\n\nLast updated Nov 23, 2026\n\n# Basic auth for REST APIs\n\nThis page shows you how REST clients can authenticate themselves using basic authentication with an Atlassian account email address and API token. Authentication using passwords has been deprecated.\n\nBasic authenticatio"
+        },
+        {
+          "url": "https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/",
+          "title": "Manage API tokens for your Atlassian account | Atlassian Support",
+          "snippet": "Manage API tokens for your Atlassian account | Atlassian Support\n\n# Manage API tokens for your Atlassian account\n\nAfter December 15, 2024, we set new API tokens to expire in one year by default. When you create an API token, you can set the expiration date to be from one day up to one year. After Ma"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+          "title": "The Jira Cloud platform REST API",
+          "snippet": "The Jira Cloud platform REST API\n\n## About\n\nOpenAPI\n\nThe Jira REST API enables you to interact with Jira programmatically. Use this API to build apps, script interactions with Jira, or develop any other type of integration. This page documents the REST resources available in Jira Cloud, including th"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/jira/platform/security-for-other-integrations/",
+          "title": "Security for other integrations",
+          "snippet": "Security for other integrations\n\nLast updated Nov 20, 2026\n\n# Security for other integrations\n\nIntegrations with Jira Cloud can be implemented by allowing external applications or services, scripts, or even bots, to access Jira's APIs directly. If you are not doing this and you are using the Connect"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/automation/security/authentication/",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\nThe Automation REST API supports two forms of authentication:\n\n1. API tokens\n2. Browser session cookies\n\n## API tokens\n\nAPI tokens are generated for your Atlassian account and used to authenticate in place of a traditional username + password. API tokens have the be"
+        }
+      ]
+    },
+    {
+      "query": "Jira developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+          "title": "The Jira Cloud platform REST API",
+          "snippet": "The Jira Cloud platform REST API\n\n## About\n\nOpenAPI\n\nThe Jira REST API enables you to interact with Jira programmatically. Use this API to build apps, script interactions with Jira, or develop any other type of integration. This page documents the REST resources available in Jira Cloud, including th"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/jira/software/",
+          "title": "Jira Software Cloud API introduction",
+          "snippet": "Jira Software Cloud API introduction\n\nLast updated Nov 20, 2026\n\n# Integrating with Jira Software Cloud\n\nJira Software Cloud can be customized and extended by creating apps. Apps can:\n\n- integrate with an existing service,\n- add new features,\n- update settings, and\n- retrieve information from Jira S"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+          "title": "Basic auth for REST APIs",
+          "snippet": "Basic auth for REST APIs\n\nLast updated Nov 23, 2026\n\n# Basic auth for REST APIs\n\nThis page shows you how REST clients can authenticate themselves using basic authentication with an Atlassian account email address and API token. Authentication using passwords has been deprecated.\n\nBasic authenticatio"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+          "title": "OAuth 2.0 (3LO) apps",
+          "snippet": "OAuth 2.0 (3LO) apps\n\nLast updated Nov 23, 2026\n\n# OAuth 2.0 (3LO) apps\n\nThis page shows you how to configure OAuth 2.0 (3LO) (also known as \"three-legged OAuth\" or \"authorization code grants\") apps. OAuth 2.0 (3LO) allows external applications and services to access Atlassian product APIs on a user"
+        },
+        {
+          "url": "https://developer.atlassian.com/server/jira/platform/about-the-jira-server-rest-apis/",
+          "title": "About the JIRA Server REST APIs",
+          "snippet": "About the JIRA Server REST APIs\n\n# About the JIRA Server REST APIs\n\nThe JIRA REST APIs are used to interact with the JIRA Server applications remotely, for example, when configuring webhooks. The JIRA Server platform provides a REST API for common features, like issues and workflows. Read the refere"
+        }
+      ]
+    },
+    {
+      "query": "Jira pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.atlassian.com/software/jira/pricing",
+          "title": "Jira pricing: Free, Standard, Premium, Enterprise",
+          "snippet": "Jira pricing: Free, Standard, Premium, Enterprise | Atlassian\n\nJira pricing: Free, Standard, Premium, Enterprise | Atlassian"
+        },
+        {
+          "url": "https://www.atlassian.com/try/cloud/signup",
+          "title": "Sign up - Jira - Try Atlassian Cloud | Atlassian",
+          "snippet": "Sign up - Jira - Try Atlassian Cloud | Atlassian\n\n# Get started with Jira\n\nIt’s free for up to 10 users - no credit card needed.\n\nyou@company.com"
+        },
+        {
+          "url": "https://www.atlassian.com/software/jira/guides/more/jira-editions",
+          "title": "What are the different Jira plans? | Atlassian",
+          "snippet": "What are the different Jira plans? | Atlassian\n\n# What are the different Jira plans?\n\nJira comes in four plans: Free, Standard, Premium, and Enterprise. Every plan includes the core of Jira, unlimited projects and work items, Scrum and Kanban boards, backlogs, and list, timeline, calendar, and board"
+        },
+        {
+          "url": "https://www.atlassian.com/licensing/jira",
+          "title": "Jira Licensing | Atlassian",
+          "snippet": "Jira Licensing | Atlassian \n\n# Jira Pricing & Licensing \n\n## Jira Cloud \n\nYou can start free trials for Jira Cloud Standard and Jira Cloud Premium on the Try Cloud page. We also offer a Free plan of Jira Cloud for up to 10 users, with 2GB storage, and Community Support. You can compare the Free, Sta"
+        },
+        {
+          "url": "https://www.atlassian.com/software/jira/standard",
+          "title": "Jira Standard Plan | Atlassian",
+          "snippet": "Jira Standard Plan | Atlassian \n\n# Jira Software Cloud Standard plan: the solution for growing teams \n\nSwitch to Standard for free for 14-days — safely revert back to your Free Edition at any time.\n\n## What’s included in Jira Software Standard? \n\nOur Standard Edition is best for for growing teams th"
+        }
+      ]
+    },
+    {
+      "query": "Jira official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.atlassian.com/cloud/rovo-mcp/",
+          "title": "Atlassian Rovo MCP Overview",
+          "snippet": "Atlassian Rovo MCP Overview\n\n# About the Atlassian Rovo MCP Server\n\nThe Atlassian Rovo MCP Server is a cloud-hosted Model Context Protocol (MCP) server that connects AI-powered clients to your Atlassian Cloud apps. It provides a standardized interface for AI assistants, IDEs, and automation tools to"
+        },
+        {
+          "url": "https://www.atlassian.com/platform/mcp",
+          "title": "Your AI should know better",
+          "snippet": "Extend Atlassian into any AI assistant using MCP | Atlassian\n\n# Your AI should know better\n\nAtlassian's MCP Server connects your AI to your team’s work and knowledge, grounding every answer and action in context.\n\n## The team agrees\n\nUse one AI solution that benefits everyone.\n\n- Founder\n\nGoverned, "
+        },
+        {
+          "url": "https://github.com/atlassian/atlassian-mcp-server",
+          "title": "GitHub - atlassian/atlassian-mcp- ...",
+          "snippet": "# atlassian/atlassian-mcp-server\n\nOfficial remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens.\n\n- Stars: 1186\n- Forks: 155\n- Watchers: 1186\n- Open is"
+        },
+        {
+          "url": "https://support.atlassian.com/security-and-access-policies/docs/understand-atlassian-mcp-server/",
+          "title": "Understand Atlassian MCP server | Atlassian Support",
+          "snippet": "Understand Atlassian MCP server | Atlassian Support\n\n# Understand Atlassian MCP server\n\nThe Atlassian MCP (Model Context Protocol) server allows tools, like AI assistants and developer environments, to securely access and interact with your Atlassian data. By connecting Atlassian’s MCP server, you c"
+        },
+        {
+          "url": "https://support.atlassian.com/atlassian-ai-gateway/docs/get-started-with-the-atlassian-remote-mcp-server/",
+          "title": "Get started with the Atlassian MCP server | Atlassian AI Gateway | Atlassian Support",
+          "snippet": "Get started with the Atlassian MCP server | Atlassian AI Gateway | Atlassian Support\n\n# Get started with the Atlassian MCP server\n\nAtlassian recently released v2 of Atlassian MCP server, introducing more tools and products which you can now interact with from your agents. Need help upgrading from v1"
+        }
+      ]
+    },
+    {
+      "query": "site:developer.atlassian.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.atlassian.com/cloud/rovo-mcp/",
+          "title": "Atlassian Rovo MCP Overview",
+          "snippet": "Atlassian Rovo MCP Overview\n\n# About the Atlassian Rovo MCP Server\n\nThe Atlassian Rovo MCP Server is a cloud-hosted Model Context Protocol (MCP) server that connects AI-powered clients to your Atlassian Cloud apps. It provides a standardized interface for AI assistants, IDEs, and automation tools to"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/rovo-mcp/guides/getting-started/",
+          "title": "Getting started with the Atlassian Rovo MCP Server",
+          "snippet": "Getting started with the Atlassian Rovo MCP Server\n\nLast updated Sep 2, 2026\n\n# Getting started with the Atlassian Rovo MCP Server\n\nThe Atlassian Rovo MCP Server connects your AI agent to your Atlassian apps and work in a single conversation, powered by your Teamwork Graph. Once connected, your AI c"
+        },
+        {
+          "url": "https://developer.atlassian.com/platform/forge/ai-development-toolkit/forge-mcp/",
+          "title": "Get started with the Forge MCP Server",
+          "snippet": "Get started with the Forge MCP Server\n\nLast updated Aug 28, 2026\n\n# Set up the Forge MCP Server\n\nThe Forge MCP Server is a remote Model Context Protocol (MCP) server that exposes authoritative Forge and Atlassian Cloud knowledge to coding agents and AI-powered IDEs. It’s designed to help developers "
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/rovo-mcp/guides/supported-tools/",
+          "title": "Supported tools",
+          "snippet": "Supported tools\n\n# Supported tools\n\nThe Atlassian Rovo MCP Server supports a catalog of tools across Atlassian apps. Each tool belongs to a permission group, and each group bundles one or more tools by intent - for example, read, write, search, delete, or manage.\n\n## How the server exposes tools\n\nRa"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/rovo-mcp/guides/authentication-and-authorization/",
+          "title": "Authentication and authorization",
+          "snippet": "Authentication and authorization\n\n# Authentication and authorization\n\nThe Atlassian Rovo MCP Server uses OAuth 2.1 as its primary authentication mechanism, providing a secure and standardized way for users to authorize access to resources via an interactive consent flow.\n\nIn addition, if enabled by "
+        }
+      ]
+    },
+    {
+      "query": "site:atlassian.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.atlassian.com/platform/mcp",
+          "title": "Extend Atlassian into any AI assistant using MCP | Atlassian",
+          "snippet": "Extend Atlassian into any AI assistant using MCP | Atlassian\n\n# Your AI should know better\n\nAtlassian's MCP Server connects your AI to your team’s work and knowledge, grounding every answer and action in context.\n\n## The team agrees\n\nUse one AI solution that benefits everyone.\n\n- Founder\n\nGoverned, "
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/rovo-mcp/",
+          "title": "Atlassian Rovo MCP Overview",
+          "snippet": "Atlassian Rovo MCP Overview\n\n# About the Atlassian Rovo MCP Server\n\nThe Atlassian Rovo MCP Server is a cloud-hosted Model Context Protocol (MCP) server that connects AI-powered clients to your Atlassian Cloud apps. It provides a standardized interface for AI assistants, IDEs, and automation tools to"
+        },
+        {
+          "url": "https://support.atlassian.com/security-and-access-policies/docs/understand-atlassian-mcp-server/",
+          "title": "Understand Atlassian MCP server | Atlassian Support",
+          "snippet": "Understand Atlassian MCP server | Atlassian Support\n\n# Understand Atlassian MCP server\n\nThe Atlassian MCP (Model Context Protocol) server allows tools, like AI assistants and developer environments, to securely access and interact with your Atlassian data. By connecting Atlassian’s MCP server, you c"
+        },
+        {
+          "url": "https://support.atlassian.com/atlassian-ai-gateway/docs/get-started-with-the-atlassian-remote-mcp-server/",
+          "title": "Get started with the Atlassian MCP server | Atlassian AI Gateway | Atlassian Support",
+          "snippet": "Get started with the Atlassian MCP server | Atlassian AI Gateway | Atlassian Support\n\n# Get started with the Atlassian MCP server\n\nAtlassian recently released v2 of Atlassian MCP server, introducing more tools and products which you can now interact with from your agents. Need help upgrading from v1"
+        },
+        {
+          "url": "https://community.atlassian.com/forums/discussion/3210627/what-is-model-context-protocol-mcp-and-why-does-it-matter-for-rovo",
+          "title": "What is Model Context Protocol (MCP) and Why Does It Matter for Rovo? - Atlassian",
+          "snippet": "What is Model Context Protocol (MCP) and Why Does It Matter for Rovo? - Atlassian\n\n# What is Model Context Protocol (MCP) and Why Does It Matter for Rovo?\n\n Dave Rosenlund (Trundl) \n\nIMPORTANT UPDATE: Team ‘26 (May 5th-7th) news from Atlassian has changed our perspectives a bit. This article is stil"
+        }
+      ]
+    },
+    {
+      "query": "Jira API authentication OAuth API key",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.atlassian.com/cloud/jira/platform/security-for-other-integrations/",
+          "title": "Security for other integrations",
+          "snippet": "Security for other integrations\n\nLast updated Nov 20, 2026\n\n# Security for other integrations\n\nIntegrations with Jira Cloud can be implemented by allowing external applications or services, scripts, or even bots, to access Jira's APIs directly. If you are not doing this and you are using the Connect"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/jira/software/basic-auth-for-rest-apis/",
+          "title": "Basic auth for REST APIs",
+          "snippet": "Basic auth for REST APIs\n\nLast updated Nov 23, 2026\n\n# Basic auth for REST APIs\n\nThis page shows you how REST clients can authenticate themselves using basic authentication with an Atlassian account email address and API token. Authentication using passwords has been deprecated.\n\nBasic authenticatio"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/jira/software/rest/intro/",
+          "title": "The Jira Software Cloud REST API",
+          "snippet": "The Jira Software Cloud REST API\n\n## Introduction\n\nOpenAPI\n\nWelcome to the Jira Software Cloud REST API reference. You can use this REST API to build add-ons for Jira Software, develop integrations between Jira Software and other applications, or script interactions with Jira Software. This page doc"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/jira/software/oauth-2-3lo-apps/",
+          "title": "OAuth 2.0 (3LO) apps",
+          "snippet": "OAuth 2.0 (3LO) apps\n\nLast updated Nov 20, 2026\n\n# OAuth 2.0 (3LO) apps\n\nThis page shows you how to configure OAuth 2.0 (3LO) (also known as \"three-legged OAuth\" or \"authorization code grants\") apps. OAuth 2.0 (3LO) allows external applications and services to access Atlassian product APIs on a user"
+        },
+        {
+          "url": "https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/",
+          "title": "Manage API tokens for your Atlassian account | Atlassian Support",
+          "snippet": "Manage API tokens for your Atlassian account | Atlassian Support\n\n# Manage API tokens for your Atlassian account\n\nAfter December 15, 2024, we set new API tokens to expire in one year by default. When you create an API token, you can set the expiration date to be from one day up to one year. After Ma"
+        }
+      ]
+    },
+    {
+      "query": "site:developer.atlassian.com API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.atlassian.com/developer-guide/auth/",
+          "title": "Authentication and authorization for developers",
+          "snippet": "Authentication and authorization for developers\n\nLast updated Jan 11, 2021\n\n# Authentication and authorization\n\nThis overview explains how to authenticate and authorize your apps to work with Atlassian apps. There are two main factors that determine how an app can work securely with an Atlassian app"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/confluence/basic-auth-for-rest-apis/",
+          "title": "Basic auth for REST APIs",
+          "snippet": "Basic auth for REST APIs\n\nLast updated Nov 20, 2026\n\n# Basic auth for REST APIs\n\nThis page shows you how to allow REST clients to authenticate themselves using basic authentication with an Atlassian account username and API token.\n\nBasic authentication is not as secure as other methods. We recommend"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/automation/security/authentication/",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\nThe Automation REST API supports two forms of authentication:\n\n1. API tokens\n2. Browser session cookies\n\n## API tokens\n\nAPI tokens are generated for your Atlassian account and used to authenticate in place of a traditional username + password. API tokens have the be"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/capacity-planning/security/authentication/",
+          "title": "Authentication",
+          "snippet": "Authentication\n\nLast updated Jul 20, 2026\n\n# Authentication\n\nAll requests to the Capacity Planning REST API must be authenticated. The API supports the following authentication methods.\n\n## API tokens\n\n### Personal API tokens (Basic auth)\n\nUse a personal API token for scripts, automation, and quick "
+        },
+        {
+          "url": "https://developer.atlassian.com/server/jira/platform/security-overview/",
+          "title": "Security overview",
+          "snippet": "Security overview\n\nLast updated Nov 5, 2026\n\n# Security overview\n\nSecurity is an essential part of both integrating with and building apps for Jira Data Center. Secure integrations allow Atlassian products to protect customer data from unauthorized access and from malicious or accidental changes. Fo"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developer.atlassian.com",
+      "final_url": "https://developer.atlassian.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:25Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "4156c50915589171aff995d29e4f0f6143f7d72a9fe824d5a0437accf0e9cd11",
+      "text_len": 934
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+      "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "901452fe1793b1f3b8121cd01ecbaabb5113a010799ae00494be20eff226e1df",
+      "text_len": 5021
+    },
+    {
+      "requested_url": "https://www.atlassian.com/software/jira/pricing",
+      "final_url": "https://www.atlassian.com/software/jira/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "eb214c1f879c3433c11dda95ac0e055779c54c1b38bf0fab477d926af290da68",
+      "text_len": 124
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/rovo-mcp/",
+      "final_url": "https://developer.atlassian.com/cloud/rovo-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:21Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "148a2f38bb248494cc3f069ebd06b5702453104d68f6061326f759ff6149471c",
+      "text_len": 3693
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/rovo-mcp/guides/authentication-and-authorization/",
+      "final_url": "https://developer.atlassian.com/cloud/rovo-mcp/guides/authentication-and-authorization/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2b4e4541434d43e2b6943aab43797a7dcee781695b8626ce9fe4869db1f7c127",
+      "text_len": 2865
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/rovo-mcp/guides/getting-started/",
+      "final_url": "https://developer.atlassian.com/cloud/rovo-mcp/guides/getting-started/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "37998ab571006a0cd4454c4d391d898b5ac4f70c381d37c61534d5f71f8d5f4b",
+      "text_len": 3690
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/rovo-mcp/guides/supported-tools/",
+      "final_url": "https://developer.atlassian.com/cloud/rovo-mcp/guides/supported-tools/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a3965e877eed192ed2662496accab2e238acc210e3531ebf9b250c5f4ee09772",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/platform/forge/ai-development-toolkit/forge-mcp/",
+      "final_url": "https://developer.atlassian.com/platform/forge/ai-development-toolkit/forge-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "949f3dc525e6b82112ef5592f818d7f2971d50f72309a52111a3a7f6ab26167b",
+      "text_len": 4361
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/llms.txt",
+      "final_url": "https://developer.atlassian.com/llms.txt",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:26Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/automation/security/authentication/",
+      "final_url": "https://developer.atlassian.com/cloud/automation/security/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c47c5d30c0f95b3ec456009ee82bc16614b004f22dcbdb3f55ab06c71d0fd4ce",
+      "text_len": 1070
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+      "final_url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0742707a9d635a7fc1b390f97a467c8b767fcadb1915295212deaa973ae1cac6",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/jira/platform/",
+      "final_url": "https://developer.atlassian.com/cloud/jira/platform/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:56Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "d36dbc75dfda8afd8fbb97dcf8452d6df55004f522f23766615dd59313693df6",
+      "text_len": 802
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+      "final_url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:56Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "0742707a9d635a7fc1b390f97a467c8b767fcadb1915295212deaa973ae1cac6",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+      "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:57Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "901452fe1793b1f3b8121cd01ecbaabb5113a010799ae00494be20eff226e1df",
+      "text_len": 5021
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/jira/software/basic-auth-for-rest-apis/",
+      "final_url": "https://developer.atlassian.com/cloud/jira/software/basic-auth-for-rest-apis/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "901452fe1793b1f3b8121cd01ecbaabb5113a010799ae00494be20eff226e1df",
+      "text_len": 5021
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/confluence/basic-auth-for-rest-apis/",
+      "final_url": "https://developer.atlassian.com/cloud/confluence/basic-auth-for-rest-apis/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e729b9ffd019c4ec5d776b6462b1d714a4f41204c1ec3133b3b9941c328add5b",
+      "text_len": 4799
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/jira/software/oauth-2-3lo-apps/",
+      "final_url": "https://developer.atlassian.com/cloud/jira/software/oauth-2-3lo-apps/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ec35c40e3db20eff9761ede02ef0dd22066f0840e452625635408020b983ecc4",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/developer-guide/auth/",
+      "final_url": "https://developer.atlassian.com/developer-guide/auth/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1890fb290c1a5cc25df9c8eb4cc120cdde0233da1a502955b9d72598d737f640",
+      "text_len": 3551
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/automation/security/authentication/",
+      "final_url": "https://developer.atlassian.com/cloud/automation/security/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c47c5d30c0f95b3ec456009ee82bc16614b004f22dcbdb3f55ab06c71d0fd4ce",
+      "text_len": 1070
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/capacity-planning/security/authentication/",
+      "final_url": "https://developer.atlassian.com/cloud/capacity-planning/security/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "97c5d6075a2cfe7a1a33f9df5ce2330beef94db2ac3758b797a10a5cecebf506",
+      "text_len": 2742
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+        "quote": "OAuth 2.0 (3LO) allows external applications and services to access Atlassian product APIs on a user's behalf.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "quote": "basic authentication with an Atlassian account email address and API token. Authentication using passwords has been deprecated.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "quote": "Forge apps and Connect apps use more secure methods for authentication: OAuth 2.0 and JWT respectively.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+        "quote": "OAuth 2.0 (3LO) apps are created and managed in the developer console.",
+        "verified": true
+      },
+      {
+        "url": "https://www.atlassian.com/software/jira/pricing",
+        "quote": "Jira pricing: Free, Standard, Premium, Enterprise",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "quote": "https://your-domain.atlassian.net/rest/api/2/issue/createmeta",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developer.atlassian.com/cloud/rovo-mcp/",
+        "quote": "The Atlassian Rovo MCP Server is a cloud-hosted Model Context Protocol (MCP) server that connects AI-powered clients to your Atlassian Cloud apps.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "quote": "You generate an API token for your Atlassian account and use it to authenticate anywhere where you would have used a password.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developer.atlassian.com/cloud/rovo-mcp/",
+        "quote": "read, create, and update work across Jira, Confluence, Jira Service Management, Bitbucket, Loom",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "basic_transport_not_method"
+    ],
+    "findings": [
+      {
+        "rule": "basic_transport_not_method",
+        "source": "llm",
+        "reason": "The Basic auth page only sends an email plus API token through the HTTP Basic scheme, which counts as api_key, and the row already lists api_key. Passwords are deprecated, so basic is not a separate method.",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+            "quote": "basic authentication with an Atlassian account email address and API token. Authentication using passwords has been deprecated."
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth"
+    ],
+    "claims": [
+      "auth"
+    ],
+    "review_searches": [
+      {
+        "query": "Jira API authentication OAuth API key",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developer.atlassian.com/cloud/jira/platform/security-for-other-integrations/",
+            "title": "Security for other integrations",
+            "snippet": "Security for other integrations\n\nLast updated Nov 20, 2026\n\n# Security for other integrations\n\nIntegrations with Jira Cloud can be implemented by allowing external applications or services, scripts, or even bots, to access Jira's APIs directly. If you are not doing this and you are using the Connect"
+          },
+          {
+            "url": "https://developer.atlassian.com/cloud/jira/software/basic-auth-for-rest-apis/",
+            "title": "Basic auth for REST APIs",
+            "snippet": "Basic auth for REST APIs\n\nLast updated Nov 23, 2026\n\n# Basic auth for REST APIs\n\nThis page shows you how REST clients can authenticate themselves using basic authentication with an Atlassian account email address and API token. Authentication using passwords has been deprecated.\n\nBasic authenticatio"
+          },
+          {
+            "url": "https://developer.atlassian.com/cloud/jira/software/rest/intro/",
+            "title": "The Jira Software Cloud REST API",
+            "snippet": "The Jira Software Cloud REST API\n\n## Introduction\n\nOpenAPI\n\nWelcome to the Jira Software Cloud REST API reference. You can use this REST API to build add-ons for Jira Software, develop integrations between Jira Software and other applications, or script interactions with Jira Software. This page doc"
+          },
+          {
+            "url": "https://developer.atlassian.com/cloud/jira/software/oauth-2-3lo-apps/",
+            "title": "OAuth 2.0 (3LO) apps",
+            "snippet": "OAuth 2.0 (3LO) apps\n\nLast updated Nov 20, 2026\n\n# OAuth 2.0 (3LO) apps\n\nThis page shows you how to configure OAuth 2.0 (3LO) (also known as \"three-legged OAuth\" or \"authorization code grants\") apps. OAuth 2.0 (3LO) allows external applications and services to access Atlassian product APIs on a user"
+          },
+          {
+            "url": "https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/",
+            "title": "Manage API tokens for your Atlassian account | Atlassian Support",
+            "snippet": "Manage API tokens for your Atlassian account | Atlassian Support\n\n# Manage API tokens for your Atlassian account\n\nAfter December 15, 2024, we set new API tokens to expire in one year by default. When you create an API token, you can set the expiration date to be from one day up to one year. After Ma"
+          }
+        ]
+      },
+      {
+        "query": "site:developer.atlassian.com API authentication",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developer.atlassian.com/developer-guide/auth/",
+            "title": "Authentication and authorization for developers",
+            "snippet": "Authentication and authorization for developers\n\nLast updated Jan 11, 2021\n\n# Authentication and authorization\n\nThis overview explains how to authenticate and authorize your apps to work with Atlassian apps. There are two main factors that determine how an app can work securely with an Atlassian app"
+          },
+          {
+            "url": "https://developer.atlassian.com/cloud/confluence/basic-auth-for-rest-apis/",
+            "title": "Basic auth for REST APIs",
+            "snippet": "Basic auth for REST APIs\n\nLast updated Nov 20, 2026\n\n# Basic auth for REST APIs\n\nThis page shows you how to allow REST clients to authenticate themselves using basic authentication with an Atlassian account username and API token.\n\nBasic authentication is not as secure as other methods. We recommend"
+          },
+          {
+            "url": "https://developer.atlassian.com/cloud/automation/security/authentication/",
+            "title": "Authentication",
+            "snippet": "Authentication\n\n# Authentication\n\nThe Automation REST API supports two forms of authentication:\n\n1. API tokens\n2. Browser session cookies\n\n## API tokens\n\nAPI tokens are generated for your Atlassian account and used to authenticate in place of a traditional username + password. API tokens have the be"
+          },
+          {
+            "url": "https://developer.atlassian.com/cloud/capacity-planning/security/authentication/",
+            "title": "Authentication",
+            "snippet": "Authentication\n\nLast updated Jul 20, 2026\n\n# Authentication\n\nAll requests to the Capacity Planning REST API must be authenticated. The API supports the following authentication methods.\n\n## API tokens\n\n### Personal API tokens (Basic auth)\n\nUse a personal API token for scripts, automation, and quick "
+          },
+          {
+            "url": "https://developer.atlassian.com/server/jira/platform/security-overview/",
+            "title": "Security overview",
+            "snippet": "Security overview\n\nLast updated Nov 5, 2026\n\n# Security overview\n\nSecurity is an essential part of both integrating with and building apps for Jira Data Center. Secure integrations allow Atlassian products to protect customer data from unauthorized access and from malicious or accidental changes. Fo"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://developer.atlassian.com/cloud/jira/platform/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:56Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "d36dbc75dfda8afd8fbb97dcf8452d6df55004f522f23766615dd59313693df6",
+        "text_len": 802
+      },
+      {
+        "requested_url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:56Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "0742707a9d635a7fc1b390f97a467c8b767fcadb1915295212deaa973ae1cac6",
+        "text_len": 20000
+      },
+      {
+        "requested_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:57Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "901452fe1793b1f3b8121cd01ecbaabb5113a010799ae00494be20eff226e1df",
+        "text_len": 5021
+      },
+      {
+        "requested_url": "https://developer.atlassian.com/cloud/jira/software/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/software/basic-auth-for-rest-apis/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:54Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "901452fe1793b1f3b8121cd01ecbaabb5113a010799ae00494be20eff226e1df",
+        "text_len": 5021
+      },
+      {
+        "requested_url": "https://developer.atlassian.com/cloud/confluence/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/confluence/basic-auth-for-rest-apis/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:56Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "e729b9ffd019c4ec5d776b6462b1d714a4f41204c1ec3133b3b9941c328add5b",
+        "text_len": 4799
+      },
+      {
+        "requested_url": "https://developer.atlassian.com/cloud/jira/software/oauth-2-3lo-apps/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/software/oauth-2-3lo-apps/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:54Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "ec35c40e3db20eff9761ede02ef0dd22066f0840e452625635408020b983ecc4",
+        "text_len": 20000
+      },
+      {
+        "requested_url": "https://developer.atlassian.com/developer-guide/auth/",
+        "final_url": "https://developer.atlassian.com/developer-guide/auth/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:56Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "1890fb290c1a5cc25df9c8eb4cc120cdde0233da1a502955b9d72598d737f640",
+        "text_len": 3551
+      },
+      {
+        "requested_url": "https://developer.atlassian.com/cloud/automation/security/authentication/",
+        "final_url": "https://developer.atlassian.com/cloud/automation/security/authentication/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:56Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "c47c5d30c0f95b3ec456009ee82bc16614b004f22dcbdb3f55ab06c71d0fd4ce",
+        "text_len": 1070
+      },
+      {
+        "requested_url": "https://developer.atlassian.com/cloud/capacity-planning/security/authentication/",
+        "final_url": "https://developer.atlassian.com/cloud/capacity-planning/security/authentication/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:56Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "97c5d6075a2cfe7a1a33f9df5ce2330beef94db2ac3758b797a10a5cecebf506",
+        "text_len": 2742
+      }
+    ]
+  }
+}

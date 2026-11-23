@@ -1,0 +1,329 @@
+{
+  "slug": "pumble",
+  "searches": [
+    {
+      "query": "Pumble API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.pumble.com/",
+          "title": "Pumble API reference",
+          "snippet": "Pumble API reference\n\n# Pumble Integration API\n\n## Introduction\n\n Welcome to the Pumble API. Built on REST principles, this API allows you to integrate Pumble into your own app, by using the endpoints below. If you're looking to integrate operations over users, channels, messages (list/preview, crea"
+        },
+        {
+          "url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+          "title": "Pumble API Overview - Pumble Help",
+          "snippet": "Pumble API Overview - Pumble Help\n\n In this article \n\n# Pumble API Overview\n\n isidora.komaromi@cake.com \n\nBy using the Pumble API addon, you can interact with Pumble’s API documentation without using any complex authentication processes. This addon lets you generate an API key that allows you to sen"
+        },
+        {
+          "url": "https://cake-com.github.io/pumble-node-sdk/api-client.html",
+          "title": "API Client | Pumble SDK",
+          "snippet": "API Client | Pumble SDK\n\n# API Client ​\n\n`pumble-sdk` provides an API client (`ApiClient`) for easier interaction the Pumble API. `ApiClient` contains methods that perform respective API calls, which can be done on behalf of either a user or a bot.\n\nEvery Request to Pumble API must be sent with two "
+        },
+        {
+          "url": "https://pumble.com/learn/pumble/ai-automation-guide/",
+          "title": "How to Use AI & Automation in Pumble (API, MCP, AI Assistant)",
+          "snippet": "How to Use AI & Automation in Pumble (API, MCP, AI Assistant)\n\n# How to Use AI and Automation in Pumble: API, AI Assistant, and MCP Server\n\nPublished:\n\nAugust 19, 2026\n\n Ana is a copywriter and editor specializing in team communication and collaboration. She examines remote team communication tools "
+        },
+        {
+          "url": "https://cake-com.github.io/pumble-node-sdk/authorization.html",
+          "title": "Authorization | Pumble SDK",
+          "snippet": "Authorization | Pumble SDK\n\n# Authorization ​\n\nPumble uses OAuth2 in order to allow your app to access the API.\n\n- User first clicks on a link to Install/Authorize your app. This link can either be through Pumble's `Configure Apps` page or externally through a website.\n- This link will open the Pumb"
+        }
+      ]
+    },
+    {
+      "query": "Pumble developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.pumble.com/",
+          "title": "Pumble API reference",
+          "snippet": "Pumble API reference\n\n# Pumble Integration API\n\n## Introduction\n\n Welcome to the Pumble API. Built on REST principles, this API allows you to integrate Pumble into your own app, by using the endpoints below. If you're looking to integrate operations over users, channels, messages (list/preview, crea"
+        },
+        {
+          "url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+          "title": "Pumble API Overview - Pumble Help",
+          "snippet": "Pumble API Overview - Pumble Help\n\n In this article \n\n# Pumble API Overview\n\n isidora.komaromi@cake.com \n\nBy using the Pumble API addon, you can interact with Pumble’s API documentation without using any complex authentication processes. This addon lets you generate an API key that allows you to sen"
+        },
+        {
+          "url": "https://cake-com.github.io/pumble-node-sdk/api-client.html",
+          "title": "API Client | Pumble SDK",
+          "snippet": "API Client | Pumble SDK\n\n# API Client ​\n\n`pumble-sdk` provides an API client (`ApiClient`) for easier interaction the Pumble API. `ApiClient` contains methods that perform respective API calls, which can be done on behalf of either a user or a bot.\n\nEvery Request to Pumble API must be sent with two "
+        },
+        {
+          "url": "https://pumble-api-keys.addons.marketplace.cake.com/api-docs/",
+          "title": "Pumble API Addon documentation",
+          "snippet": "Scalar API Reference\n\n# Pumble API Addon documentation\n\nDocumentation of the endpoints available in Pumble API addon\n\nServer\n\nAPI Keys documentation\n\n| Enter your API Key in the field below |\n| --- |\n| Name: ApiKey Clear Value |\n| Value: QUxMIFlPVVIgQkFTRSBBUkUgQkVMT05HIFRPIFVT |\n\nClient Libraries\n\n"
+        },
+        {
+          "url": "https://pumble.com/integrations",
+          "title": "Integrations",
+          "snippet": "Integrations - Pumble™\n\n# Pumble apps & integrations \n\n Explore a whole ecosystem of apps that integrate with Pumble to expand your collaboration even further. \n\n \n\n## Featured Apps & Integrations\n\n#### Google Calendar \n\n Join Pumble meet from Calendar. \n\n Get project management alerts in Pumble. \n\n"
+        }
+      ]
+    },
+    {
+      "query": "Pumble pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://pumble.com/pricing",
+          "title": "Pricing - Pumble™",
+          "snippet": "Pricing - Pumble™\n\n# Plans & Pricing\n\nStart using Pumble for free, and upgrade when you need more features.\n\n#### PRO\n\nOrganization\n\n $ 2.49 \n\n per seat Every active user or invited member listed on your Manage members page occupies one paid seat. This includes owner, admins, members and multi-chann"
+        },
+        {
+          "url": "https://pumble.com/help/workspace-administration/pricing/pumble-free-trial/",
+          "title": "Pumble Free Trial - Pumble Help",
+          "snippet": "Pumble Free Trial - Pumble Help\n\n In this article \n\n# Pumble Free Trial\n\n Tamara Radijevac \n\nDuring the 7-day trial period, you can explore and use the app’s best tools to optimize your workflow and facilitate seamless team communication.\n\nA 7-day Free Trial is automatically activated when you creat"
+        },
+        {
+          "url": "https://pumble.com/pro-plan",
+          "title": "Pumble™ PRO plan",
+          "snippet": "Pumble™ PRO plan\n\n# Pumble’s PRO plan \n\n Have all main features from Slack and Zoom in one app. \n\n Everything your team needs for better communication and collaboration \n\n#### Organize meetings \n\n Start video conferencing with up to 50 team members to brainstorm in real time. \n\n#### Share screen \n\n "
+        },
+        {
+          "url": "https://pumble.com/help/workspace-administration/pricing/pumble-subscription-plans-and-extra-features/",
+          "title": "Pumble Subscription Plans and Paid Features",
+          "snippet": "Pumble Subscription Plans and Paid Features - Pumble Help\n\n In this article \n\n# Pumble Subscription Plans and Paid Features\n\n milan.tankosic \n\nYou can use Pumble Free account with our core features, or upgrade a to paid plan to access our paid features. Check the pricing for the paid plans.\n\n## Comp"
+        },
+        {
+          "url": "https://rewardio.com/pumble-pricing/",
+          "title": "Pumble Pricing 2026: Every Plan and How to Save",
+          "snippet": "Pumble Pricing 2026: Every Plan and How to Save\n\n# Pumble Pricing 2026: An Honest Breakdown of Every Plan and How to Pay Less\n\nStefan Ionescu\n\n 23 Jul 2026 · 14 min read \n\n> TL;DR: Pumble pricing 2026 starts at $0 on the FREE plan, which allows unlimited users and unlimited message history. Paid pla"
+        }
+      ]
+    },
+    {
+      "query": "Pumble official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://pumble.com/mcp",
+          "title": "Connect AI agents with the Pumble MCP",
+          "snippet": "Connect AI agents with the Pumble MCP\n\n# Fully integrate AI agents in Pumble \n\n Bring your AI agent into your Pumble workspace and streamline collaboration, stay in the loop, and get an efficient way to interact with your workspace. \n\n## Work smarter with your AI agent in Pumble\n\n### Automate notifi"
+        },
+        {
+          "url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+          "title": "How to use the Pumble MCP server - Pumble Help",
+          "snippet": "How to use the Pumble MCP server - Pumble Help\n\n In this article \n\n# How to use the Pumble MCP server\n\nWith the Pumble Model Context Protocol (MCP) server, you can connect third-party AI agents (e.g., Claude, Gemini, Codex) to Pumble and let them access content so they can search messages, find info"
+        },
+        {
+          "url": "https://pumble.com/learn/pumble/ai-automation-guide/",
+          "title": "How to Use AI & Automation in Pumble (API, MCP, AI Assistant)",
+          "snippet": "How to Use AI & Automation in Pumble (API, MCP, AI Assistant)\n\n# How to Use AI and Automation in Pumble: API, AI Assistant, and MCP Server\n\nPublished:\n\nAugust 19, 2026\n\n Ana is a copywriter and editor specializing in team communication and collaboration. She examines remote team communication tools "
+        },
+        {
+          "url": "https://pumble.com/learn/pumble/connecting-pumble-with-ai-agents-mcp/",
+          "title": "Connect AI Agents to Team Chat via the Pumble MCP Server",
+          "snippet": "Connect AI Agents to Team Chat via the Pumble MCP Server\n\n# Connect Pumble With Your Favorite AI Agents & Create an Actionable Knowledge Base\n\nPublished:\n\nJuly 10, 2026\n\nWritten by:\n\n Martina Stojkovski \n\nHaving a knowledge base isn’t enough to help teams boost productivity. Scrolling, copying, past"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/pumble_connect-pumble-with-the-ai-agent-of-your-activity-7480262758672896001-TzCF",
+          "title": "Connect Pumble with the AI agent of your choice and automate your workspace safely. | Pumble",
+          "snippet": "# Connect Pumble with the AI agent of your choice and automate your workspace safely. | Pumble · LinkedIn · 2026-07-07\n\n**Pumble**: Pumble has 30-40 employees, founded in 2020. Headquartered in Palo Alto, California, United States. Its workforce is distributed across 5 countries (including Serbia, U"
+        }
+      ]
+    },
+    {
+      "query": "site:pumble.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://pumble.com/mcp",
+          "title": "Connect AI agents with the Pumble MCP",
+          "snippet": "Connect AI agents with the Pumble MCP\n\n# Fully integrate AI agents in Pumble \n\n Bring your AI agent into your Pumble workspace and streamline collaboration, stay in the loop, and get an efficient way to interact with your workspace. \n\n## Work smarter with your AI agent in Pumble\n\n### Automate notifi"
+        },
+        {
+          "url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+          "title": "How to use the Pumble MCP server - Pumble Help",
+          "snippet": "How to use the Pumble MCP server - Pumble Help\n\n In this article \n\n# How to use the Pumble MCP server\n\nWith the Pumble Model Context Protocol (MCP) server, you can connect third-party AI agents (e.g., Claude, Gemini, Codex) to Pumble and let them access content so they can search messages, find info"
+        },
+        {
+          "url": "https://pumble.com/learn/pumble/connecting-pumble-with-ai-agents-mcp/",
+          "title": "Connect AI Agents to Team Chat via the Pumble MCP Server",
+          "snippet": "Connect AI Agents to Team Chat via the Pumble MCP Server\n\n# Connect Pumble With Your Favorite AI Agents & Create an Actionable Knowledge Base\n\nPublished:\n\nJuly 10, 2026\n\nWritten by:\n\n Martina Stojkovski \n\nHaving a knowledge base isn’t enough to help teams boost productivity. Scrolling, copying, past"
+        },
+        {
+          "url": "https://pumble.com/learn/pumble/ai-automation-guide/",
+          "title": "How to Use AI & Automation in Pumble (API, MCP, AI Assistant)",
+          "snippet": "How to Use AI & Automation in Pumble (API, MCP, AI Assistant)\n\n# How to Use AI and Automation in Pumble: API, AI Assistant, and MCP Server\n\nPublished:\n\nAugust 19, 2026\n\n Ana is a copywriter and editor specializing in team communication and collaboration. She examines remote team communication tools "
+        },
+        {
+          "url": "https://pumble.com/",
+          "title": "Pumble™ - FREE Business Communication Tool",
+          "snippet": "Pumble™ - FREE Business Communication Tool\n\n# The all-in-one team communication app\n\nSend messages and files to team members, easily find them with unlimited messages history, and start video conferencing with one click.\n\n \n\n## Your team communication hub\n\n Start channels, share documents, organize "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://pumble.com",
+      "final_url": "https://pumble.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "56e22eb630e2858cb07fd9d3b2f4d486476f42973649719c9e01bfc6c60eb176",
+      "text_len": 4240
+    },
+    {
+      "requested_url": "https://docs.pumble.com/",
+      "final_url": "https://docs.pumble.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:27Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b8050bc1541a95b38206fa216025f3ea8dbfa18203750b9e3c5c4f27b07dc257",
+      "text_len": 5734
+    },
+    {
+      "requested_url": "https://pumble.com/help/workspace-administration/pricing/pumble-free-trial/",
+      "final_url": "https://pumble.com/help/workspace-administration/pricing/pumble-free-trial/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "56b5dcb60a31c745d659431864a1431ca8770432b032afdc8ab8d353dfc514ea",
+      "text_len": 1531
+    },
+    {
+      "requested_url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+      "final_url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "53870b30853068a2cf343f67628701affb1cf58846e66240ebbb209215e895fa",
+      "text_len": 5113
+    },
+    {
+      "requested_url": "https://pumble.com/help/workspace-administration/pricing/pumble-subscription-plans-and-extra-features/",
+      "final_url": "https://pumble.com/help/workspace-administration/pricing/pumble-subscription-plans-and-extra-features/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d38cd8fc9350ea9e6c1c7166579249a988594c4d44aa43f2c455916896973005",
+      "text_len": 2429
+    },
+    {
+      "requested_url": "https://pumble.com/pricing",
+      "final_url": "https://pumble.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f3930bfa528cd714b81d29f035b4acc9919735543e73885862fe0ff2313761c0",
+      "text_len": 16707
+    },
+    {
+      "requested_url": "https://pumble.com/learn/pumble/connecting-pumble-with-ai-agents-mcp/",
+      "final_url": "https://pumble.com/learn/pumble/connecting-pumble-with-ai-agents-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "615d59df8418e3f36f5514711eb9c70f6d11afc79061a7cad524a85ecaee3866",
+      "text_len": 11745
+    },
+    {
+      "requested_url": "https://pumble.com/mcp",
+      "final_url": "https://pumble.com/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6b88b124ba7d4c14a6e9df46cb837f9a09e54268681c765efac1485a67b866c9",
+      "text_len": 1768
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.pumble.com/",
+        "quote": "It's mandatory to include the token (access token issued to user/bot) and x-app-token (app token issued to your app, prefixed with 'xpat-') headers in every request",
+        "verified": true
+      },
+      {
+        "url": "https://docs.pumble.com/",
+        "quote": "App OAuth2 Operations",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+        "quote": "When the app is installed, make sure to copy the App key, user token, and bot token.",
+        "verified": true
+      },
+      {
+        "url": "https://pumble.com/pricing",
+        "quote": "Start using Pumble for free, and upgrade when you need more features.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.pumble.com/",
+        "quote": "Built on REST principles, this API allows you to integrate Pumble into your own app, by using the endpoints below.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+        "quote": "you can connect third-party AI agents (e.g., Claude, Gemini, Codex) to Pumble and let them access content",
+        "verified": true
+      },
+      {
+        "url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+        "quote": "\"url\": \"https://mcp.pumble.com/mcp\"",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://pumble.com/help/workspace-administration/pricing/pumble-free-trial/",
+        "quote": "A 7-day Free Trial is automatically activated when you create a new workspace.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://pumble.com/",
+        "quote": "Send messages and files to team members, easily find them with unlimited messages history, and start video conferencing with one click.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "slug": "salesforce-commerce-cloud",
+  "searches": [
+    {
+      "query": "Salesforce Commerce Cloud API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+          "title": "Authorization | SCAPI | B2C Commerce API | Salesforce Developers",
+          "snippet": "Authorization | SCAPI | B2C Commerce API | Salesforce Developers\n\n## Contents\n\nAccess Tokens Quick Path to a Token Next Steps\n\n# Authorization\n\nAuthorization for the B2C Commerce API resources is handled not through user permissions, but through client permissions.\n\nA client for the B2C Commerce API"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/slas.html",
+          "title": "Shopper Login (SLAS) | SCAPI | B2C Commerce API | Salesforce Developers",
+          "snippet": "Shopper Login (SLAS) | SCAPI | B2C Commerce API | Salesforce Developers\n\n## Contents\n\nSLAS Clients Grant Types and Token Types Access Tokens and Refresh Tokens Verify the SLAS Password Action Callback Shopper Tracking Preferences View SLAS Error Logs in Log Center SLAS Rate Limits Constraints Next S"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/custom-api-authentication.html",
+          "title": "Authentication and Authorization | SCAPI | B2C Commerce API",
+          "snippet": "Authentication and Authorization | SCAPI | B2C Commerce API | Salesforce Developers\n\n## Contents\n\nSecure Endpoints Request Endpoints Complete Security Scheme Definition\n\n# Authentication and Authorization\n\nTo make sure that the setup is complete, you must provide a scope for custom code execution an"
+        },
+        {
+          "url": "https://salesforcecommercecloud.github.io/b2c-developer-tooling/guide/authentication.html",
+          "title": "Authentication Setup | Agentic B2C Developer Toolkit",
+          "snippet": "Authentication Setup | Agentic B2C Developer Toolkit\n\n## Install AI Tools\n\nB2C Commerce tools, documentation, and skills for your assistant.\n\n### Claude\n\nUsing Claude Desktop? See Claude Desktop (Cowork) setup.\n\nInstall the plugin Recommended\n\n```\nclaude plugin marketplace add SalesforceCommerceClou"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/api-and-sdk-demo.html",
+          "title": "Quick Start | SCAPI | B2C Commerce API | Salesforce Developers",
+          "snippet": "Quick Start | SCAPI | B2C Commerce API | Salesforce Developers\n\n## Contents\n\nCreate a Test Project Demo Code Run Your Example Next Steps\n\n# Quick Start: B2C Commerce API and SDK\n\nMake your first request to the B2C Commerce API using the Salesforce Commerce SDK.\n\nFor working with on-demand sandboxes,"
+        }
+      ]
+    },
+    {
+      "query": "Salesforce Commerce Cloud developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/scapi-get-started.html",
+          "title": "SCAPI | B2C Commerce API | Salesforce Developers",
+          "snippet": "SCAPI | B2C Commerce API | Salesforce Developers\n\n## Contents\n\nMake Your First Request Choose Your Path Set Up Your Instance Understand SCAPI Operational Reference Next Steps\n\n# Get Started with the B2C Commerce API\n\nThe B2C Commerce API (SCAPI) is a set of RESTful APIs for building storefronts, mer"
+        },
+        {
+          "url": "https://developer.salesforce.com/developer-centers/commerce-cloud",
+          "title": "Commerce Cloud",
+          "snippet": "Commerce Cloud | Developer\n\n# Commerce Cloud \n\nDevelop personalized ecommerce experiences with our fast, flexible solutions.\n\n## What's Commerce Cloud? \n\nSalesforce Commerce Cloud offers distinct solutions for B2B/D2C (business-to-business and direct-to-consumer) and B2C (business-to-consumer) comme"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/commerce/sfnext/guide/authorization-for-admin-apis.html",
+          "title": "Authorization for SCAPI Admin APIs | SCAPI | Storefront Next | Salesforce Developers",
+          "snippet": "Authorization for SCAPI Admin APIs | SCAPI | Storefront Next | Salesforce Developers\n\n## Contents\n\nBefore You Begin Create an API Client Request an Access Token Next Steps\n\n# Authorization for SCAPI Admin APIs\n\nLearn how to create an API client in Account Manager and use the API client’s credentials"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/commerce/commerce-api/overview",
+          "title": "B2C Commerce API",
+          "snippet": "B2C Commerce API | Salesforce Developers\n\nThe B2C Commerce platform empowers teams to push beyond the boundaries of traditional ecommerce. Build headless commerce experiences fast with a modern developer toolset. Whether building an online storefront, engaging with shoppers on social media, or devel"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/commerce/sfnext/guide/authorization.html",
+          "title": "Authorization | SCAPI | Storefront Next | Salesforce Developers",
+          "snippet": "Authorization | SCAPI | Storefront Next | Salesforce Developers\n\n## Contents\n\nAccess Tokens Quick Path to a Token Next Steps\n\n# Authorization\n\nAuthorization for the B2C Commerce API resources is handled not through user permissions, but through client permissions.\n\nA client for the B2C Commerce API "
+        }
+      ]
+    },
+    {
+      "query": "Salesforce Commerce Cloud pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.salesforce.com/commerce/pricing/",
+          "title": "Salesforce Commerce Cloud Pricing and Editions | Salesforce",
+          "snippet": "Salesforce Commerce Cloud Pricing and Editions | Salesforce\n\n# Commerce Pricing \n\nExplore commerce pricing and find the right solutions for your business.\n\n## Choose the right Commerce solution for your business needs. \n\n### Commerce Cloud B2C Premium \n\n For businesses selling to consumers. \n\n Conta"
+        },
+        {
+          "url": "https://www.salesforce.com/small-business/commerce/?bc=HA",
+          "title": "Get started with commerce.",
+          "snippet": "Small Business Commerce | Salesforce US\n\nGet your free 30-day trial\n\n### Storefront Builder\n\nCreate, customize, and launch your digital storefront with low-code, drag-and-drop design tools. Plus, follow along with built-in guidance to get up and running faster, so you can start selling online and gr"
+        },
+        {
+          "url": "https://www.adtribute.io/directory/salesforce-commerce-cloud",
+          "title": "Salesforce Commerce Cloud: Features & Reviews | adtribute Directory",
+          "snippet": "Salesforce Commerce Cloud: Features & Reviews | adtribute Directory\n\n# Salesforce Commerce Cloud \n\n Salesforce's enterprise commerce suite (formerly Demandware): B2C Commerce for consumer storefronts, B2B Commerce for business buyers, plus order management, payments and POS. Priced as a percentage o"
+        },
+        {
+          "url": "https://www.softwareadvice.com/ecommerce/salesforce-b2c-profile/",
+          "title": "Salesforce Commerce Cloud Software Reviews, Demo & Pricing - 2026",
+          "snippet": "Salesforce Commerce Cloud Software Reviews, Demo & Pricing - 2026\n\n# Salesforce Commerce Cloud Review\n\nCustom quote 5 plans\n\nOn this page\n\n- Overview\n- User Interface\n- Popular Alternatives\n- Pricing and Plans\n- Features\n- Integrations\n- User Reviews\n- Popular Comparisons\n\n## Overview\n\nSalesforce Co"
+        },
+        {
+          "url": "https://www.salesforce.com/pricing/",
+          "title": "Salesforce Pricing: See Pricing Plans for All Salesforce Products | Salesforce",
+          "snippet": "Salesforce Pricing: See Pricing Plans for All Salesforce Products | Salesforce\n\n \n\n# Salesforce Product Pricing \n\nMax out your AI value. Meet the new Salesforce Max Edition.\n\nMore value. Less to assemble. Get business apps, AI, trusted data, security, analytics, Slack, and support — all in one editi"
+        }
+      ]
+    },
+    {
+      "query": "Salesforce Commerce Cloud official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://salesforcecommercecloud.github.io/b2c-developer-tooling/mcp/",
+          "title": "MCP (Model Context Protocol) | Agentic B2C Developer Toolkit",
+          "snippet": "MCP (Model Context Protocol) | Agentic B2C Developer Toolkit\n\n## Install AI Tools\n\nB2C Commerce tools, documentation, and skills for your assistant.\n\n### Claude\n\nUsing Claude Desktop? See Claude Desktop (Cowork) setup.\n\nInstall the plugin Recommended\n\n```\nclaude plugin marketplace add SalesforceComm"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/mcp-dx-intro.html",
+          "title": "Build B2C Storefronts Faster with the B2C DX MCP Server | Composable Storefront | B2C Commerce | Salesforce Developers",
+          "snippet": "Build B2C Storefronts Faster with the B2C DX MCP Server | Composable Storefront | B2C Commerce | Salesforce Developers\n\nSkip Navigation\n\nj\n\nChoose Your B2C Commerce Storefront Type\n\nComposable Storefront Overview\n\nDeploy Your Code\n\nSkills for Success\n\nIntroduction to Composable Storefront\n\nUse Compo"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/commerce/commerce-vibes/guide/b2c-developer-tooling.html",
+          "title": "Agentic B2C Developer Toolkit | B2C Commerce | Agentforce Commerce Vibes | Salesforce Developers",
+          "snippet": "Agentic B2C Developer Toolkit | B2C Commerce | Agentforce Commerce Vibes | Salesforce Developers\n\n## Contents\n\nRun the B2C CLI Configuration and Authentication Connect Your AI Assistant Explore the Tools\n\n# Agentic B2C Developer Toolkit\n\nBuild, debug, deploy, and manage Salesforce B2C Commerce from "
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/agentic-mcp-shopper-tools-quick-start.html",
+          "title": "Agentic MCP Shopper Tools Quick Start (Pilot) | B2C Commerce | B2C Commerce | Salesforce Developers",
+          "snippet": "Agentic MCP Shopper Tools Quick Start (Pilot) | B2C Commerce | B2C Commerce | Salesforce Developers\n\n## Contents\n\nB2C Commerce MCP Shopper Service Overview B2C Commerce MCP Service (Pilot) B2C Commerce MCP Shopper Service Tools Security Restrictions\n\n# Agentic MCP Shopper Tools Quick Start (Pilot)\n\n"
+        },
+        {
+          "url": "https://www.salesforce.com/blog/agentforce-commerce-anthropic-agents/",
+          "title": "Build Agents Your Way with Claude and Commerce Cloud - Salesforce",
+          "snippet": "Build Agents Your Way with Claude and Commerce Cloud - Salesforce\n\n# Build Agents Your Way with Claude and Commerce Cloud\n\n Katja Franz \n\n September 22, 2026 5 min read \n\nAnthropic recently launched a blueprint to help build commerce agents on Claude. This new starter kit for developers includes the"
+        }
+      ]
+    },
+    {
+      "query": "site:developer.salesforce.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/overview",
+          "title": "Salesforce Hosted MCP Servers | Hosted MCP Servers | Salesforce Developers",
+          "snippet": "Salesforce Hosted MCP Servers | Hosted MCP Servers | Salesforce Developers\n\nSalesforce Hosted MCP Servers\n\nGive AI agents a secure, governed way to interact with Salesforce data and automation using the Model Context Protocol (MCP). Any compatible AI client can connect to your org using standard OAu"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+          "title": "Get Started | Hosted MCP Servers | Salesforce Developers",
+          "snippet": "Get Started | Hosted MCP Servers | Salesforce Developers\n\n## Contents\n\nWhat Is MCP? When to Use This Key Capabilities Getting Started Billing Considerations Learn More Release Notes\n\n# Salesforce Hosted MCP Servers\n\nSalesforce Hosted MCP Servers give AI agents a secure, governed way to interact with"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html",
+          "title": "MCP Solutions | Agentforce Developer Guide | Salesforce Developers",
+          "snippet": "MCP Solutions | Headless Agentforce Development | Agentforce Developer Guide | Salesforce Developers\n\n## Contents\n\nBackground Salesforce Solutions MCP Skill See Also\n\n# MCP Solutions for Developers\n\nSalesforce offers Model Context Protocol (MCP) solutions that developers can use to access Salesforce"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/platform/agentforcevibes/guide/afv-mcp-servers.html",
+          "title": "MCP Servers | Toolkit | Agentforce Vibes Developer Guide | Salesforce Developers",
+          "snippet": "MCP Servers | Toolkit | Agentforce Vibes Developer Guide | Salesforce Developers\n\n## Contents\n\nHow MCP Works Manage MCP Servers Salesforce Platform Servers Third-Party and Custom MCP Servers Considerations See Also\n\n# MCP Servers\n\nModel Context Protocol (MCP) is the foundational technology that enab"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/platform/headless-get-started/guide/headless-mcp.html",
+          "title": "MCP Solutions | Welcome to Salesforce Headless Toolkit | Get Started | Salesforce Developers",
+          "snippet": "MCP Solutions | Welcome to Salesforce Headless Toolkit | Get Started | Salesforce Developers\n\n## Contents\n\nWhich MCP Server Should I Use? See Also\n\n# MCP Solutions for Headless Development\n\nSalesforce offers Model Context Protocol (MCP) solutions that developers can use to access Salesforce features"
+        }
+      ]
+    },
+    {
+      "query": "site:salesforce.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.salesforce.com/agentforce/mcp-support/model-context-protocol/",
+          "title": "Model Context Protocol: What Is MCP for Generative AI? | Salesforce",
+          "snippet": "Model Context Protocol: What Is MCP for Generative AI? | Salesforce\n\n# Model Context Protocol (MCP): The New Standard for AI Interoperability \n\nBy Magulan Duraipandian, Sr. AI Solutions Technical Evangelist - Salesforce\n\nThe Model Context Protocol (MCP) is an open standard that enables generative AI"
+        },
+        {
+          "url": "https://www.salesforce.com/agentforce/mcp-support/",
+          "title": "Agentforce MCP Support | Salesforce",
+          "snippet": "Agentforce MCP Support | Salesforce\n\n# Agentforce MCP Support \n\nConnect Agentforce to new tools and resources with secure, open interoperability through verified MCP server support from AgentExchange partners.\n\n## Unlock siloed data and agents with Agentforce. \n\nAgentforce will provide secure, enter"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html",
+          "title": "MCP Solutions | Agentforce Developer Guide | Salesforce Developers",
+          "snippet": "MCP Solutions | Headless Agentforce Development | Agentforce Developer Guide | Salesforce Developers\n\n## Contents\n\nBackground Salesforce Solutions MCP Skill See Also\n\n# MCP Solutions for Developers\n\nSalesforce offers Model Context Protocol (MCP) solutions that developers can use to access Salesforce"
+        },
+        {
+          "url": "https://www.salesforce.com/blog/architecting-secure-agent-connectivity-mcp-apis/",
+          "title": "MCP and APIs for Secure Agent Connectivity",
+          "snippet": "MCP and APIs for Secure Agent Connectivity\n\n# Architecting Secure Agent Connectivity: A Guide to Choosing Between MCP and APIs\n\nA real-world architectural scenario from episode six of the Think Like an Architect series, focused deciding when REST APIs are the right integration pattern and when Sales"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+          "title": "Get Started | Hosted MCP Servers | Salesforce Developers",
+          "snippet": "Get Started | Hosted MCP Servers | Salesforce Developers\n\n## Contents\n\nWhat Is MCP? When to Use This Key Capabilities Getting Started Billing Considerations Learn More Release Notes\n\n# Salesforce Hosted MCP Servers\n\nSalesforce Hosted MCP Servers give AI agents a secure, governed way to interact with"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developer.salesforce.com/docs/commerce",
+      "final_url": "https://developer.salesforce.com/docs/commerce",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:11Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "944f9430ce09bfe8bda01521e17e2bc4c944ce1bc2751be7d3e911d95c69fef2",
+      "text_len": 7115
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+      "final_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "131d16c2287bd9d146db0b5bf11769ec57c30f34d4d2aeb120b6694f32ac15f3",
+      "text_len": 2173
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/commerce/sfnext/guide/authorization-for-admin-apis.html",
+      "final_url": "https://developer.salesforce.com/docs/commerce/sfnext/guide/authorization-for-admin-apis.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:04Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "69787b73e03dfd8fe81b0c6b5d849f5505f9512839dbeae53b0aa97c1d08439e",
+      "text_len": 10164
+    },
+    {
+      "requested_url": "https://www.salesforce.com/commerce/pricing/",
+      "final_url": "https://www.salesforce.com/commerce/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a668a3169a96f5acb4e638401a3881636a33ba5508878bf84e0fae1dd7fc391c",
+      "text_len": 3571
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/agentic-mcp-shopper-tools-quick-start.html",
+      "final_url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/agentic-mcp-shopper-tools-quick-start.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f3b3bd51e4467cd9d1d8a1c7b4a610e9dcef14d0eb3bd250c03cfd43e21e4c46",
+      "text_len": 8842
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html",
+      "final_url": "https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a9b60ed7c2cb9bad619733fbd7e4a1c7c739875f57ac8ff80ed21401adfd131b",
+      "text_len": 4041
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/mcp-dx-intro.html",
+      "final_url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/mcp-dx-intro.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6a03e1825364077020499947c7cc6b26b7d1df3adcd9004938cf1a3db5d35e53",
+      "text_len": 3718
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/platform/agentforcevibes/guide/afv-mcp-servers.html",
+      "final_url": "https://developer.salesforce.com/docs/platform/agentforcevibes/guide/afv-mcp-servers.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:08Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e9ecbc7da512b38b1a3731ce41afe957d4f8a1454cafaf225a0e8cd793c109bb",
+      "text_len": 4873
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/custom-api-authentication.html",
+      "final_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/custom-api-authentication.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a2e0a15bf0a9535e814ab98d80b5240d104e8a22da027abdb87abb050f41f03e",
+      "text_len": 5295
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/commerce/sfnext/guide/authorization.html",
+      "final_url": "https://developer.salesforce.com/docs/commerce/sfnext/guide/authorization.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:04Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "67306dbccf0860d64ed8b3d0c4a28cd96a44e03317c91feee1b2f6f6e67d7e1e",
+      "text_len": 2172
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+        "quote": "we’ve defined a set of scopes based on the OAuth 2.1 standard",
+        "verified": true
+      },
+      {
+        "url": "https://developer.salesforce.com/docs/commerce/sfnext/guide/authorization-for-admin-apis.html",
+        "quote": "you (or someone with administrator access) must first create an API client",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.salesforce.com/commerce/pricing/",
+        "quote": "Contact for pricing",
+        "verified": true
+      },
+      {
+        "url": "https://developer.salesforce.com/docs/commerce/sfnext/guide/authorization-for-admin-apis.html",
+        "quote": "Log in to Account Manager.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.salesforce.com/docs/commerce",
+        "quote": "Use a headless API to build custom apps. B2C Commerce API is also known as Salesforce Commerce API (SCAPI).",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/mcp-dx-intro.html",
+        "quote": "The B2C DX MCP Server is implemented in the`@salesforce/b2c-dx-mcp` package",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://www.salesforce.com/commerce/pricing/",
+        "quote": "Commerce Cloud B2C Premium",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developer.salesforce.com/docs/commerce",
+        "quote": "Develop personalized ecommerce experiences with our fast, flexible solutions.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

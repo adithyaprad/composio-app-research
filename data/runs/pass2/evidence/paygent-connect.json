@@ -1,0 +1,355 @@
+{
+  "slug": "paygent-connect",
+  "searches": [
+    {
+      "query": "\"Paygent Connect\" NMI Finance Fintech API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://composio-100-audit-sszw.vercel.app/",
+          "title": "100 Apps, Audited — Composio Toolkit Buildability Report",
+          "snippet": "100 Apps, Audited — Composio Toolkit Buildability Report\n\n# Researched 100 apps for toolkit buildability. 61 are self-serve today. Here's the evidence, the agent, and where it lied to me.\n\nFull auth / gating / API-surface audit across 10 categories, run by a two-pass research agent (draft → live-ver"
+        },
+        {
+          "url": "https://github.com/Subodh26oct/composio-api-research-agent/blob/refs/heads/main/research_agent.py",
+          "title": "heads/main/research_agent.py",
+          "snippet": "# heads/main/research_agent.py\n\n- Branch: refs\n- Repository: Subodh26oct/composio-api-research-agent\n\n---\n\nimport os\nimport json\nimport sys\nimport time\n\n# List of 100 apps with hints\nAPP_LIST = [\n # 1. CRM and Sales\n {\"id\": 1, \"name\": \"Salesforce\", \"hint\": \"salesforce.com\", \"category\": \"CRM and Sale"
+        },
+        {
+          "url": "https://paymanai.mintlify.app/reference/keys",
+          "title": "Keys and environments",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://paymanai.mintlify.site/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Keys and environments\n\n> One secret, two environments, how credentials end.\n\n## One secret\n\n```ts\nimport { Pay"
+        },
+        {
+          "url": "https://gitlab.shiawasedo.co.jp/external/paygent-connect/-/tree/master/src/paygent_module",
+          "title": "src/paygent_module · master · Public group / paygent-connect · GitLab",
+          "snippet": "src/paygent_module · master · Public group / paygent-connect · GitLab\n\nsrc/paygent\\_module · master · Public group / paygent-connect · GitLab"
+        },
+        {
+          "url": "https://paymanai.mintlify.app/reference/http-api",
+          "title": "The wire protocol",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://paymanai.mintlify.site/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# The wire protocol\n\n> The HTTP contract underneath the SDK\n\nThe SDK exposes money tasks through `run()` and str"
+        }
+      ]
+    },
+    {
+      "query": "\"Paygent Connect\" NMI Finance Fintech developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://gitlab.shiawasedo.co.jp/external/paygent-connect/-/tree/master/src/paygent_module",
+          "title": "src/paygent_module · master · Public group / paygent-connect · GitLab",
+          "snippet": "src/paygent_module · master · Public group / paygent-connect · GitLab\n\nsrc/paygent\\_module · master · Public group / paygent-connect · GitLab"
+        },
+        {
+          "url": "https://composio-100-audit-sszw.vercel.app/",
+          "title": "100 Apps, Audited — Composio Toolkit Buildability Report",
+          "snippet": "100 Apps, Audited — Composio Toolkit Buildability Report\n\n# Researched 100 apps for toolkit buildability. 61 are self-serve today. Here's the evidence, the agent, and where it lied to me.\n\nFull auth / gating / API-surface audit across 10 categories, run by a two-pass research agent (draft → live-ver"
+        },
+        {
+          "url": "https://github.com/Subodh26oct/composio-api-research-agent/blob/refs/heads/main/research_agent.py",
+          "title": "heads/main/research_agent.py",
+          "snippet": "# heads/main/research_agent.py\n\n- Branch: refs\n- Repository: Subodh26oct/composio-api-research-agent\n\n---\n\nimport os\nimport json\nimport sys\nimport time\n\n# List of 100 apps with hints\nAPP_LIST = [\n # 1. CRM and Sales\n {\"id\": 1, \"name\": \"Salesforce\", \"hint\": \"salesforce.com\", \"category\": \"CRM and Sale"
+        },
+        {
+          "url": "https://gitlab.shiawasedo.co.jp/external/paygent-connect/-/tree/master/src",
+          "title": "src · master · Public group / paygent-connect · GitLab",
+          "snippet": "src · master · Public group / paygent-connect · GitLab\n\nsrc · master · Public group / paygent-connect · GitLab"
+        },
+        {
+          "url": "https://gitlab.shiawasedo.co.jp/external/paygent-connect/-/blob/master/src/paygent_module/modenv_properties.php.live",
+          "title": "src/paygent_module/modenv_properties.php.live · master · Public group / paygent-connect · GitLab",
+          "snippet": "src/paygent_module/modenv_properties.php.live · master · Public group / paygent-connect · GitLab"
+        }
+      ]
+    },
+    {
+      "query": "\"Paygent Connect\" NMI Finance Fintech pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.gopaygent.com/",
+          "title": "Paygent | Merchant Payments and Tapn Tap-to-Pay Solutions",
+          "snippet": "Paygent | Merchant Payments and Tapn Tap-to-Pay Solutions\n\n# Smart Payments. Real Results.\n\nThe intelligent payment gateway for modern businesses and platforms.\n\n99.99% Uptime SLA\n\nAI Fraud Engine Real-time protection\n\nGlobal Scale 150+ countries\n\nPayment verified\n\n+18.6% revenue\n\nTrusted by innovat"
+        },
+        {
+          "url": "https://gopaygent.com/signup",
+          "title": "Get Started with Paygent | Merchant Onboarding Request",
+          "snippet": "Get Started with Paygent | Merchant Onboarding Request\n\n# Create Your Account\n\nJoin Paygent and get access to the TapN Soft POS and industry-leading payment gateways.\n\nBy signing up, you agree to Paygent's Terms of Service and Privacy Policy."
+        },
+        {
+          "url": "https://support.nmi.com/hc/en-gb/articles/9875459482001-Free-Trials",
+          "title": "Free Trials! – NMI",
+          "snippet": "Free Trials! – NMI\n\n# Free Trials! \n\n 22 October 2025 17:46 Updated \n\n### Table of Contents\n\n1. What are Free Trials?\n2. Which Value-Added Services support Free Trials?\n3. How do I start a Free Trial for my Merchant?\n4. Does my Merchant get notified when a Free Trial starts?\n5. What happens once a F"
+        },
+        {
+          "url": "https://www.nmi.com/",
+          "title": "Embedded Payments Platform for ISOs & SaaS | NMI",
+          "snippet": "Embedded Payments Platform for ISOs & SaaS | NMI\n\n# Powering Every Possibility in Payments\n\nUnlock your growth potential and foster innovation by delivering the powerful, unified, scalable embedded payment solutions that your customers need to thrive in the modern financial landscape. Let’s build th"
+        },
+        {
+          "url": "https://github.com/Subodh26oct/composio-api-research-agent/blob/refs/heads/main/research_agent.py",
+          "title": "heads/main/research_agent.py",
+          "snippet": "# heads/main/research_agent.py\n\n- Branch: refs\n- Repository: Subodh26oct/composio-api-research-agent\n\n---\n\nimport os\nimport json\nimport sys\nimport time\n\n# List of 100 apps with hints\nAPP_LIST = [\n # 1. CRM and Sales\n {\"id\": 1, \"name\": \"Salesforce\", \"hint\": \"salesforce.com\", \"category\": \"CRM and Sale"
+        }
+      ]
+    },
+    {
+      "query": "\"Paygent Connect\" NMI Finance Fintech official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://github.com/Subodh26oct/composio-api-research-agent/blob/refs/heads/main/research_agent.py",
+          "title": "heads/main/research_agent.py",
+          "snippet": "# heads/main/research_agent.py\n\n- Branch: refs\n- Repository: Subodh26oct/composio-api-research-agent\n\n---\n\nimport os\nimport json\nimport sys\nimport time\n\n# List of 100 apps with hints\nAPP_LIST = [\n # 1. CRM and Sales\n {\"id\": 1, \"name\": \"Salesforce\", \"hint\": \"salesforce.com\", \"category\": \"CRM and Sale"
+        },
+        {
+          "url": "https://docs.nmi.com/docs/quick-start",
+          "title": "Explore Payment Solutions - NMI Developer Portal",
+          "snippet": "Explore Payment Solutions\n\n# Explore Payment Solutions\n\nChoose the payment acceptance method that fits your business, then start building in the sandbox.\n\nWelcome to NMI! This guide will help you get up and running quickly by choosing the right payment acceptance method for your business needs. Thro"
+        },
+        {
+          "url": "https://www.gopaygent.com/",
+          "title": "Paygent | Merchant Payments and Tapn Tap-to-Pay Solutions",
+          "snippet": "Paygent | Merchant Payments and Tapn Tap-to-Pay Solutions\n\n# Smart Payments. Real Results.\n\nThe intelligent payment gateway for modern businesses and platforms.\n\n99.99% Uptime SLA\n\nAI Fraud Engine Real-time protection\n\nGlobal Scale 150+ countries\n\nPayment verified\n\n+18.6% revenue\n\nTrusted by innovat"
+        },
+        {
+          "url": "https://docs.nmi.com/docs/online-payments-overview",
+          "title": "Online Payments Overview - NMI Developer Portal",
+          "snippet": "Online Payments Overview\n\n# Online Payments Overview\n\nCompare our online payment options: the recommended Payment Component, Hosted Checkout and Custom Checkout.\n\n> 🤖\n> \n> Building with AI coding assistant like Claude Code, Cursor, VS Code, or Windsurf? Connect the NMI Developer Docs MCP before you "
+        },
+        {
+          "url": "https://gitlab.shiawasedo.co.jp/external/paygent-connect/-/tree/master/src/paygent_module",
+          "title": "src/paygent_module · master · Public group / paygent-connect · GitLab",
+          "snippet": "src/paygent_module · master · Public group / paygent-connect · GitLab\n\nsrc/paygent\\_module · master · Public group / paygent-connect · GitLab"
+        }
+      ]
+    },
+    {
+      "query": "Paygent gopaygent API documentation authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.gopaygent.com/developers/docs",
+          "title": "Paygent | The Premier Stripe & PayPal Alternative for API Payments",
+          "snippet": "Paygent | The Premier Stripe & PayPal Alternative for API Payments\n\n# Developer Documentation\n\nDeep dive into the Pathfinder API, Collect.js, and Three-Step Redirect logic.\n\n### Collect.js\n\nTokenize payment data securely directly from the client browser. Never let raw PAN data touch your servers, ac"
+        },
+        {
+          "url": "https://www.gopaygent.com/",
+          "title": "Paygent | Merchant Payments and Tapn Tap-to-Pay Solutions",
+          "snippet": "Paygent | Merchant Payments and Tapn Tap-to-Pay Solutions\n\n# Smart Payments. Real Results.\n\nThe intelligent payment gateway for modern businesses and platforms.\n\n99.99% Uptime SLA\n\nAI Fraud Engine Real-time protection\n\nGlobal Scale 150+ countries\n\nPayment verified\n\n+18.6% revenue\n\nTrusted by innovat"
+        },
+        {
+          "url": "https://www.gopaygent.com/developers/sdk",
+          "title": "Paygent | The Premier Stripe & PayPal Alternative for API Payments",
+          "snippet": "Paygent | The Premier Stripe & PayPal Alternative for API Payments\n\n# Native SDKs & Libraries\n\nPre-built integrations for iOS, Android, and Windows/Linux environments.\n\n#### iOS (Swift)\n\n#### Android (Kotlin)\n\n#### React Native\n\n#### C# / .NET"
+        },
+        {
+          "url": "https://www.gopaygent.com/pricing",
+          "title": "Paygent | The Premier Stripe & PayPal Alternative for API Payments",
+          "snippet": "Paygent | The Premier Stripe & PayPal Alternative for API Payments\n\n# Powerful Infrastructure. Transparent Pricing.\n\nWe leverage wholesale rates to bring you enterprise-grade payment orchestration at a fraction of the cost of heavyweights like Stripe and Square.\n\n## Developer & B2B\n\nFor SaaS, Wholes"
+        },
+        {
+          "url": "https://www.gopaygent.com/security",
+          "title": "Paygent | The Premier Stripe & PayPal Alternative for API Payments",
+          "snippet": "Paygent | The Premier Stripe & PayPal Alternative for API Payments\n\n# Security\n\nHow Paygent protects your business and your customers' data.\n\n### PCI DSS Level 1\n\nHighest certification in the payments industry\n\n### SOC 2 Type II\n\nAudited security controls and processes\n\n### GDPR Compliant\n\nFull Euro"
+        }
+      ]
+    },
+    {
+      "query": "gopaygent developers docs API reference",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.gopaygent.com/developers/docs",
+          "title": "Paygent | The Premier Stripe & PayPal Alternative for API Payments",
+          "snippet": "Paygent | The Premier Stripe & PayPal Alternative for API Payments\n\n# Developer Documentation\n\nDeep dive into the Pathfinder API, Collect.js, and Three-Step Redirect logic.\n\n### Collect.js\n\nTokenize payment data securely directly from the client browser. Never let raw PAN data touch your servers, ac"
+        },
+        {
+          "url": "https://www.gopaygent.com/",
+          "title": "Paygent | Merchant Payments and Tapn Tap-to-Pay Solutions",
+          "snippet": "Paygent | Merchant Payments and Tapn Tap-to-Pay Solutions\n\n# Smart Payments. Real Results.\n\nThe intelligent payment gateway for modern businesses and platforms.\n\n99.99% Uptime SLA\n\nAI Fraud Engine Real-time protection\n\nGlobal Scale 150+ countries\n\nPayment verified\n\n+18.6% revenue\n\nTrusted by innovat"
+        },
+        {
+          "url": "https://www.gopaygent.com/developers/sdk",
+          "title": "Paygent | The Premier Stripe & PayPal Alternative for API Payments",
+          "snippet": "Paygent | The Premier Stripe & PayPal Alternative for API Payments\n\n# Native SDKs & Libraries\n\nPre-built integrations for iOS, Android, and Windows/Linux environments.\n\n#### iOS (Swift)\n\n#### Android (Kotlin)\n\n#### React Native\n\n#### C# / .NET"
+        },
+        {
+          "url": "https://www.gopaygent.com/developers/webhooks",
+          "title": "Paygent | The Premier Stripe & PayPal Alternative for API Payments",
+          "snippet": "Paygent | The Premier Stripe & PayPal Alternative for API Payments\n\n# Webhooks & System Status\n\nAutomate your reporting workflows with instant, real-time transaction notifications.\n\n### All Systems Operational\n\nRegister HTTP endpoints to receive JSON payloads whenever critical events occur on your a"
+        },
+        {
+          "url": "https://www.gopaygent.com/pricing",
+          "title": "Paygent | The Premier Stripe & PayPal Alternative for API Payments",
+          "snippet": "Paygent | The Premier Stripe & PayPal Alternative for API Payments\n\n# Powerful Infrastructure. Transparent Pricing.\n\nWe leverage wholesale rates to bring you enterprise-grade payment orchestration at a fraction of the cost of heavyweights like Stripe and Square.\n\n## Developer & B2B\n\nFor SaaS, Wholes"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://gitlab.shiawasedo.co.jp/external/paygent-connect/-/tree/master/src/paygent_module",
+      "final_url": "https://gitlab.shiawasedo.co.jp/external/paygent-connect/-/tree/master/src/paygent_module",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7b6ce58e1cf559b6ee55a2304a686f5445d892ec2cba4ee81c3e5be9241afa73",
+      "text_len": 141
+    },
+    {
+      "requested_url": "https://gitlab.shiawasedo.co.jp/external/paygent-connect/-/blob/master/src/paygent_module/modenv_properties.php.live",
+      "final_url": "https://gitlab.shiawasedo.co.jp/external/paygent-connect/-/blob/master/src/paygent_module/modenv_properties.php.live",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cedb96b657d7b4894ac5f633b70417251cc65724de5cd114e361c83f076943aa",
+      "text_len": 96
+    },
+    {
+      "requested_url": "https://gopaygent.com/signup",
+      "final_url": "https://gopaygent.com/signup",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:48Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "df989278268af36f3694d48b5f9de9e832105667ba769e542ed41642d853c1a8",
+      "text_len": 242
+    },
+    {
+      "requested_url": "https://www.gopaygent.com/",
+      "final_url": "https://www.gopaygent.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:48Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7368a0b6ecb6b5150c9e294a2b7f162dbc37bf0326aac5625d2653cf9e7beda5",
+      "text_len": 4778
+    },
+    {
+      "requested_url": "https://docs.gopaygent.com",
+      "final_url": "https://docs.gopaygent.com",
+      "status": 0,
+      "provider": "http",
+      "fetched_at": "2026-11-23T13:45:08Z",
+      "error": "ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)",
+      "method": "http_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://www.gopaygent.com/developers",
+      "final_url": "https://www.gopaygent.com/developers",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:11Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://www.gopaygent.com/developers/docs",
+      "final_url": "https://www.gopaygent.com/developers/docs",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:07Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cb4ed79ced6a90fa13d527e2b7e4f631599e480fa8c815d5c3d27bb785204f47",
+      "text_len": 610
+    },
+    {
+      "requested_url": "https://www.gopaygent.com/llms.txt",
+      "final_url": "https://www.gopaygent.com/llms.txt",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:25Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://www.gopaygent.com/",
+        "quote": "Authorization: Bearer pgt_live_xxx",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.gopaygent.com/",
+        "quote": "No credit card required. Free plan available.",
+        "verified": true
+      },
+      {
+        "url": "https://gopaygent.com/signup",
+        "quote": "Join Paygent and get access to the TapN Soft POS and industry-leading payment gateways.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://www.gopaygent.com/developers/docs",
+        "quote": "Deep dive into the Pathfinder API, Collect.js, and Three-Step Redirect logic.",
+        "verified": true
+      },
+      {
+        "url": "https://www.gopaygent.com/",
+        "quote": "Clean, predictable, and fully documented REST APIs for every payment workflow.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://www.gopaygent.com/developers/docs",
+        "quote": "Developer Documentation",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://www.gopaygent.com/",
+        "quote": "Start building for free.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.gopaygent.com/",
+        "quote": "The intelligent payment gateway for modern businesses and platforms.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

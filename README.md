@@ -16,7 +16,7 @@ This is a take-home style research pipeline, not a production product.
   - `README.md` — field and enum definitions
   - `RUBRIC.md` — scoring rules and gold-sample procedure
   - `gold_sample.md` — 20 apps reserved for a human accuracy check (answers not filled yet)
-- `agent/` — research agent CLI (`python -m agent run`): `llm/` provider adapters, `tools/` search/fetch providers, `research.py` loop, `validate.py` schema + consistency + evidence checks, `prompts.py`
+- `agent/` — research agent CLI (`python -m agent run`): `llm/` provider adapters, `tools/` search/fetch providers, `research.py` loop, `validate.py` schema + consistency + evidence checks, `prompts.py`; pass-2 reviewer (`python -m agent review`): `review.py` loop, `review_rules.py` rule checklist
 - `tests/` — offline unit tests (LLM and tools mocked)
 - `data/runs/<run_id>/` — agent outputs
 - `.agents/skills/composio/` — Composio skill used when building the research agent
@@ -42,6 +42,8 @@ We then added general validators and prompt/rubric rules for those patterns (see
 The same 10 were rerun once more after switching search and fetch to the direct Exa API (`data/runs/pilot-10c/`). Row-correct accuracy stayed 8/10: the blank-URL product-identity miss was fixed, a notes-vs-auth-methods contradiction reappeared on one row, and an MCP server whose official pages appeared in search results was still not fetched. The gold 20 were not used in that loop either.
 
 That last miss is a general retrieval gap, so the agent now fetches up to 3 leftover vendor-owned search results that look like MCP or API-auth/OAuth docs before it settles the row, even when the page cap is already full, and re-asks the LLM once only if they returned text. The same 10 were rerun again as `data/runs/pilot-10d/`; row-correct accuracy moved from 8/10 to 9/10. The leftover official API-auth docs were read this time. One MCP miss remains, where the official MCP-style pages either did not use the word MCP in the URL or title, lived on a sibling host the vendor-name check did not treat as owned, or were crowded out by other official-domain MCP pages about a different product line. The gold 20 were not used in that loop either.
+
+For pass 2 we added a reviewer step (`python -m agent review`) instead of rerunning the whole agent. It reads each pass-1 row and checks it against a fixed list of general rules with stable ids. The rules are: `basic_transport_not_method`, `oauth_client_secret_not_api_key`, `mcp_only_oauth`, `sales_or_review_gate`, `preview_not_buildable_now`, `official_graphql_omitted`, `public_docs_marked_false`, `missed_vendor_mcp`, `unsupported_evidence`, plus the existing validators. Code fires a rule only when the row's own notes or a vendor-page quote clearly show the pattern. One LLM reviewer call per row catches the rest, but it only names rules and never edits the row. Only the fields behind a fired rule are re-researched and rewritten. Every other field stays byte-identical, and a fix that official pages cannot support is dropped in favour of the pass-1 value, with a note. These rules came from the failure patterns above and the scoring rubric, not from any one app. The first live pass over all 100 is in `data/runs/pass2/`. It changed 31 rows and left 69 unchanged. On the locked gold 20, row accuracy moved from 9/20 (45%) in pass 1 to 16/20 (80%) in pass 2 (`data/scores/pass2.md`). The four remaining gold misses were already wrong in pass 1 and the reviewer did not fire on them: an official GraphQL API left off `api_types`, a vendor app-review gate still labelled self-serve, a vendor-published MCP page still missed, and a self-serve personal-token path labelled as a partner gate.
 
 ## Refresh Composio coverage
 
@@ -110,6 +112,18 @@ Output goes to `data/runs/<run_id>/`:
 Pages that extract to under ~1500 chars (typical for JS-rendered docs) go through fallbacks: trafilatura with favor_recall, then the page's `.md` twin, then plain visible text. For a thin docs page, `<origin>/llms.txt` is also fetched once per app. A truncated LLM answer (`LLM_MAX_TOKENS`, default 8000) gets one retry asking for a compact row.
 
 Failed apps are not written to `rows.jsonl`, so re-running the same `--run-id` retries them.
+
+### Review (pass 2)
+
+```bash
+# offline check: make a tiny dry-run input, then review it (both folders are gitignored)
+.venv/bin/python -m agent run --dry-run --limit 1 --run-id dry-run-pass1
+.venv/bin/python -m agent review --dry-run --from-run dry-run-pass1 --run-id dry-run-review --limit 1
+# real pass 2 over every row of data/runs/pass1 (reuse --run-id to resume)
+.venv/bin/python -m agent review --from-run pass1 --run-id pass2 --concurrency 3
+```
+
+`--from-dir PATH` reads any folder with a `rows.jsonl`. `--apps`, `--limit`, `--concurrency`, `--out-dir` and `--dry-run` work as they do for `run`. `--max-pages` (default 6) caps the pages fetched per re-researched row; gap-fill and llms.txt still apply on top of that, as in `run`. Search, fetch, Exa / Instant budgets and the free fallbacks are the same as `run`. The output folder has the usual `rows.jsonl`, `failures.jsonl`, `log.jsonl` and `evidence/<slug>.json` (pass-1 pages plus the review's pages, and a `review` block), plus `review.jsonl`. Each line in `review.jsonl` covers one row: status (`unchanged` / `confirmed` / `changed` / `kept` / `failed`), `rules_fired` with each finding's source (`code` / `llm` / `validator`), reason and quotes, the fields in scope, `fields_changed` with before and after values, whether re-research ran, and per-row search / fetch / LLM / Exa / Instant usage and wall time. If `cache/` from the input run is still present, the LLM reviewer also sees the pass-1 text of the cited pages.
 
 ### Search and fetch providers
 

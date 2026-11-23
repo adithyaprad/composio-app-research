@@ -1,0 +1,655 @@
+{
+  "slug": "copper",
+  "searches": [
+    {
+      "query": "Copper API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.copper.com/introduction/authentication.html",
+          "title": "Overview - Copper Developer API",
+          "snippet": "Overview - Copper Developer API\n\n# Authentication¶\n\nThere are two ways to access the Copper Developer API: API keys and OAuth2.0. API Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations.\n\n## API Keys¶\n\nThe Dev API uses token based authentication."
+        },
+        {
+          "url": "https://developer.copper.com/introduction/requests.html",
+          "title": "Requests - Copper Developer API",
+          "snippet": "Requests - Copper Developer API\n\n# Requests¶\n\n## Encryption¶\n\nAll requests must be sent using HTTPS with TLS 1.2 or higher. Please make sure your developer tools support this version of TLS as older versions or SSL are not supported for security reasons.\n\n## Headers¶\n\nAll Copper API calls must inclu"
+        },
+        {
+          "url": "https://developer.copper.com/introduction/oauth/index.html",
+          "title": "Authentication via OAuth2.0",
+          "snippet": "Overview - Copper Developer API\n\n# Authentication via OAuth2.0¶\n\n## 1. Introduction¶\n\nYou can now access the Copper Developer API via OAuth2.0. This authentication method is an alternative to Copper's legacy API Keys, and is particularly well-suited for third-party integrations looking to create a s"
+        },
+        {
+          "url": "https://developer.copper.co/api-reference/authentication",
+          "title": "Authentication - Copper Developer Portal",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developer.copper.co/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\nAuthentication to the API is performed via the Authorization header with an API key. Each request"
+        },
+        {
+          "url": "https://developer.copper.co/api-reference/create-api-key",
+          "title": "Create an API key",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developer.copper.co/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Create an API key\n\nTo access the Copper API, you need to have an API key.\n\nTo create an API key, go to the Copper"
+        }
+      ]
+    },
+    {
+      "query": "Copper developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.copper.com/introduction/authentication.html",
+          "title": "Overview - Copper Developer API",
+          "snippet": "Overview - Copper Developer API\n\n# Authentication¶\n\nThere are two ways to access the Copper Developer API: API keys and OAuth2.0. API Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations.\n\n## API Keys¶\n\nThe Dev API uses token based authentication."
+        },
+        {
+          "url": "https://developer.copper.com/introduction/requests.html",
+          "title": "Requests - Copper Developer API",
+          "snippet": "Requests - Copper Developer API\n\n# Requests¶\n\n## Encryption¶\n\nAll requests must be sent using HTTPS with TLS 1.2 or higher. Please make sure your developer tools support this version of TLS as older versions or SSL are not supported for security reasons.\n\n## Headers¶\n\nAll Copper API calls must inclu"
+        },
+        {
+          "url": "https://developer.copper.com/",
+          "title": "Getting started - Copper Developer API",
+          "snippet": "Getting started - Copper Developer API\n\n# Copper Developer API¶\n\nThe Copper Web API allows you to access and build your own applications that interact with Copper in more complex ways than the integrations we provide out of the box.\n\nThe Copper Developer API (\"Dev API\") provides a RESTful interface "
+        },
+        {
+          "url": "https://developer.copper.com/introduction/oauth/quickstart.html",
+          "title": "Quickstart Guide - Copper Developer API",
+          "snippet": "Quickstart Guide - Copper Developer API\n\n# OAuth2.0 Quickstart Guide¶\n\n## Introduction¶\n\nThis basic example demonstrates how to get started with Copper OAuth2.0. For a detailed documentation of each step, click here.\n\n## Prerequisites¶\n\n- Your application provides an HTTPS callback endpoint `redirec"
+        },
+        {
+          "url": "https://developer.copper.com/introduction/oauth/flow.html",
+          "title": "Documentation - Copper Developer API",
+          "snippet": "Documentation - Copper Developer API\n\n# Copper OAuth2.0 Flow¶\n\n## 1. Introduction¶\n\nThird-party integrations may take advantage of OAuth 2.0 for the purpose of authorizing and authenticating access to the Copper Developer API. Employing the widely used Authorization Code Grant flow, Copper ensures a"
+        }
+      ]
+    },
+    {
+      "query": "Copper pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.copper.com/pricing",
+          "title": "Pricing | Copper CRM",
+          "snippet": "Pricing | Copper CRM\n\n# Win customers for life.\n\nStart free, no credit card required.\n\nMonthly\n\nAnnual\n\nUp to 26% off 🎉\n\nBasic\n\n$ 29\n\nper seat, per month\n\nOptimize your processes with flexible pipelines and team collaboration features.\n\nWhat's included:\n\n- 2,500 contact limit\n- Task automation\n- Pip"
+        },
+        {
+          "url": "https://www.copper.com/signup",
+          "title": "Signup",
+          "snippet": "Signup | Copper CRM\n\n# Our customers love us.\n\n\"The best project management tool and CRM\" — Daniel C, Sales and Marketing Specialist\n\n\"Easy to use and great CRM\" — Federico M, Commercial Director and Financial Services\n\n\"The best CRM if you use Google Workspace products!\" — Erik V, Manager, Marketin"
+        },
+        {
+          "url": "https://app.copper.com/users/sign_up",
+          "title": "Copper",
+          "snippet": "Copper\n\nTry Copper for free\n\nStart building stronger relationships.\n\nGet 14 days for free.\n\nNo obligation, no credit card required."
+        },
+        {
+          "url": "https://cleanform.io/blog/copper-crm-pricing/",
+          "title": "Copper CRM pricing: cost at 10, 25 and 50 users | Cleanform",
+          "snippet": "Copper CRM pricing: cost at 10, 25 and 50 users | Cleanform\n\n# Copper CRM pricing: cost at 10, 25 and 50 users\n\nKevin Gowen October 27, 2026\n\nPhoto: Unsplash\n\nIn this article\n\n1. Copper CRM cost: what each plan includes and locks Copper CRM API\n2. How much does Copper CRM cost at 10, 25 and 50 users"
+        },
+        {
+          "url": "https://www.copper.com/crm",
+          "title": "CRM Resource Hub | Copper CRM",
+          "snippet": "CRM Resource Hub | Copper CRM\n\n# CRM resource hub.\n\nGuides, comparisons, and templates for choosing (and actually using) the right CRM.\n\n## CRM basics.\n\nStart here if CRM is new to you — what it is, what it fixes, what it costs.\n\n### CRM vs project management: Which one do you actually need?\n\nNot su"
+        }
+      ]
+    },
+    {
+      "query": "Copper official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.copper.com/mcp",
+          "title": "Copper MCP for Claude | Copper CRM",
+          "snippet": "Copper MCP for Claude | Copper CRM\n\n# MCP - COMING SOON\n\n## Ask questions. Get insights. \n\nCopper MCP is coming to Claude. Get answers about your clients and pipeline without opening a single record.\n\n## Ask Claude about your relationships, in your own words.\n\n### Built for AI from the ground up\n\nPu"
+        },
+        {
+          "url": "https://kingland.fr/actualites-ia/a40e8151-adbd-4cb8-aa32-36e97c9e3e4b/annonce-du-serveur-copper-mcp-pour-claude-et-ouverture-de-la-liste-d-attente",
+          "title": "Annonce du serveur Copper MCP pour Claude et ouverture de la liste d'attente | Actualité IA KingLand",
+          "snippet": "Annonce du serveur Copper MCP pour Claude et ouverture de la liste d'attente | Actualité IA KingLand\n\n Actualité IA 30 octobre 2026 \n\n# Annonce du serveur Copper MCP pour Claude et ouverture de la liste d'attente\n\nCopper CRM a dévoilé le développement d'un serveur MCP officiel hébergé pour intégrer "
+        },
+        {
+          "url": "https://salescrew.io/alternatives/copper",
+          "title": "Copper CRM Alternatives | SalesCrew",
+          "snippet": "Copper CRM Alternatives | SalesCrew\n\n# Copper CRM alternatives\n\nCopper lives inside Google Workspace, caps Basic at 2,500 contacts, and ships no MCP server. Six alternatives compared on ceilings and AI access.\n\nAn admin approves every new account by hand. Nothing is created until then. We reply by e"
+        },
+        {
+          "url": "https://github.com/hasankhadra/copper-mcp",
+          "title": "hasankhadra/copper-mcp",
+          "snippet": "# hasankhadra/copper-mcp\n\nUnofficial MCP server for Copper CRM — read-heavy, agent-friendly, one guarded write tool. Built to show what an official Copper MCP server could be.\n\n- Stars: 0\n- Forks: 1\n- Watchers: 0\n- Open issues: 0\n- License: MIT License\n- Default branch: main\n- Created: 2026-07-16T12"
+        },
+        {
+          "url": "https://usefulapi.io/copper/",
+          "title": "Copper MCP server & connector for Claude, ChatGPT | usefulapi",
+          "snippet": "Copper MCP server & connector for Claude, ChatGPT | usefulapi\n\n# Copper MCP server\n\nRead and write Copper CRM people, companies, opportunities and activities. Hosted by usefulapi: connect it to Claude, ChatGPT, Cursor or any MCP client.\n\nConnect Copper 50 free tool calls a month\n\n## What can I ask?\n"
+        }
+      ]
+    },
+    {
+      "query": "site:copper.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.copper.com/mcp",
+          "title": "Copper MCP for Claude | Copper CRM",
+          "snippet": "Copper MCP for Claude | Copper CRM\n\n# MCP - COMING SOON\n\n## Ask questions. Get insights. \n\nCopper MCP is coming to Claude. Get answers about your clients and pipeline without opening a single record.\n\n## Ask Claude about your relationships, in your own words.\n\n### Built for AI from the ground up\n\nPu"
+        },
+        {
+          "url": "https://support.copper.com/en/articles/10324524-chapter-1-where-do-i-start-here",
+          "title": "Chapter 1: Where do I start? Here. | Copper Help Center",
+          "snippet": "Chapter 1: Where do I start? Here. | Copper Help Center\n\n# Chapter 1: Where do I start? Here.\n\nUnderstanding your use cases and pain points to get started quickly in Copper\n\nWritten by Success at Copper\n\nSeptember 21, 2026\n\nWelcome to Copper 🥳\n\nThe best CRM is one you'll actually use. Whether this i"
+        },
+        {
+          "url": "https://www.copper.com/integrations/timelinesai-whatsapp-integration",
+          "title": "TimelinesAI WhatsApp integration with Copper CRM",
+          "snippet": "TimelinesAI WhatsApp integration with Copper CRM\n\n# TimelinesAI WhatsApp Integration\n\nTimelinesAI connects WhatsApp to Copper CRM — syncing every inbound and outbound message to the right contact automatically. Your whole team works together in one WhatsApp inbox and never loses a client conversatio"
+        },
+        {
+          "url": "https://www.copper.com/resources/google-workspace-turns-20",
+          "title": "Google Workspace 20th Anniversary: What's Changed | Copper | Copper CRM",
+          "snippet": "Google Workspace 20th Anniversary: What's Changed | Copper | Copper CRM\n\n# Google Workspace just turned 20. Here's what's changed (and what's next)\n\nA look back at 20 years of Gmail, Drive, and Meet updates, plus what's rolling out next.\n\nCopper Staff Contributors from members of the Copper team\n\nAu"
+        },
+        {
+          "url": "https://www.copper.com/",
+          "title": "CRM software company for service businesses | Copper CRM",
+          "snippet": "CRM software company for service businesses | Copper CRM\n\n# The CRM that helps you be there for your clients, every step of the way.\n\nConsulting\n\nCoaching\n\nAgencies\n\nConstruction\n\nCreators\n\nMedia\n\nFinancial Advisors\n\nProduction\n\nCopper is trusted by 30,000+ companies of all sizes\n\n## No more switchi"
+        }
+      ]
+    },
+    {
+      "query": "Copper official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.copper.com/mcp",
+          "title": "Copper MCP for Claude | Copper CRM",
+          "snippet": "Copper MCP for Claude | Copper CRM\n\n# MCP - COMING SOON\n\n## Ask questions. Get insights. \n\nCopper MCP is coming to Claude. Get answers about your clients and pipeline without opening a single record.\n\n## Ask Claude about your relationships, in your own words.\n\n### Built for AI from the ground up\n\nPu"
+        },
+        {
+          "url": "https://kingland.fr/actualites-ia/a40e8151-adbd-4cb8-aa32-36e97c9e3e4b/annonce-du-serveur-copper-mcp-pour-claude-et-ouverture-de-la-liste-d-attente",
+          "title": "Annonce du serveur Copper MCP pour Claude et ouverture de la liste d'attente | Actualité IA KingLand",
+          "snippet": "Annonce du serveur Copper MCP pour Claude et ouverture de la liste d'attente | Actualité IA KingLand\n\n Actualité IA 30 octobre 2026 \n\n# Annonce du serveur Copper MCP pour Claude et ouverture de la liste d'attente\n\nCopper CRM a dévoilé le développement d'un serveur MCP officiel hébergé pour intégrer "
+        },
+        {
+          "url": "https://salescrew.io/alternatives/copper",
+          "title": "Copper CRM Alternatives | SalesCrew",
+          "snippet": "Copper CRM Alternatives | SalesCrew\n\n# Copper CRM alternatives\n\nCopper lives inside Google Workspace, caps Basic at 2,500 contacts, and ships no MCP server. Six alternatives compared on ceilings and AI access.\n\nAn admin approves every new account by hand. Nothing is created until then. We reply by e"
+        },
+        {
+          "url": "https://github.com/hasankhadra/copper-mcp",
+          "title": "hasankhadra/copper-mcp",
+          "snippet": "# hasankhadra/copper-mcp\n\nUnofficial MCP server for Copper CRM — read-heavy, agent-friendly, one guarded write tool. Built to show what an official Copper MCP server could be.\n\n- Stars: 0\n- Forks: 1\n- Watchers: 0\n- Open issues: 0\n- License: MIT License\n- Default branch: main\n- Created: 2026-07-16T12"
+        },
+        {
+          "url": "https://actionlake.com/connectors/copper",
+          "title": "Copper MCP server for AI agents - actionlake",
+          "snippet": "Copper MCP server for AI agents - actionlake\n\n# Copper MCP server for AI agents.\n\nactionlake is an MCP gateway: one remote MCP server that connects Claude and other MCP clients to Copper and the rest of your systems. It gives your agent 89 Copper actions (44 reads, 33 writes and 12 that wait for a c"
+        }
+      ]
+    },
+    {
+      "query": "site:copper.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.copper.com/mcp",
+          "title": "Copper MCP for Claude | Copper CRM",
+          "snippet": "Copper MCP for Claude | Copper CRM\n\n# MCP - COMING SOON\n\n## Ask questions. Get insights. \n\nCopper MCP is coming to Claude. Get answers about your clients and pipeline without opening a single record.\n\n## Ask Claude about your relationships, in your own words.\n\n### Built for AI from the ground up\n\nPu"
+        },
+        {
+          "url": "https://support.copper.com/en/articles/10324524-chapter-1-where-do-i-start-here",
+          "title": "Chapter 1: Where do I start? Here. | Copper Help Center",
+          "snippet": "Chapter 1: Where do I start? Here. | Copper Help Center\n\n# Chapter 1: Where do I start? Here.\n\nUnderstanding your use cases and pain points to get started quickly in Copper\n\nWritten by Success at Copper\n\nSeptember 21, 2026\n\nWelcome to Copper 🥳\n\nThe best CRM is one you'll actually use. Whether this i"
+        },
+        {
+          "url": "https://www.copper.com/integrations/timelinesai-whatsapp-integration",
+          "title": "TimelinesAI WhatsApp integration with Copper CRM",
+          "snippet": "TimelinesAI WhatsApp integration with Copper CRM\n\n# TimelinesAI WhatsApp Integration\n\nTimelinesAI connects WhatsApp to Copper CRM — syncing every inbound and outbound message to the right contact automatically. Your whole team works together in one WhatsApp inbox and never loses a client conversatio"
+        },
+        {
+          "url": "https://www.copper.com/resources/google-workspace-turns-20",
+          "title": "Google Workspace 20th Anniversary: What's Changed | Copper | Copper CRM",
+          "snippet": "Google Workspace 20th Anniversary: What's Changed | Copper | Copper CRM\n\n# Google Workspace just turned 20. Here's what's changed (and what's next)\n\nA look back at 20 years of Gmail, Drive, and Meet updates, plus what's rolling out next.\n\nCopper Staff Contributors from members of the Copper team\n\nAu"
+        },
+        {
+          "url": "https://www.copper.com/",
+          "title": "CRM software company for service businesses | Copper CRM",
+          "snippet": "CRM software company for service businesses | Copper CRM\n\n# The CRM that helps you be there for your clients, every step of the way.\n\nConsulting\n\nCoaching\n\nAgencies\n\nConstruction\n\nCreators\n\nMedia\n\nFinancial Advisors\n\nProduction\n\nCopper is trusted by 30,000+ companies of all sizes\n\n## No more switchi"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://copper.com",
+      "final_url": "https://www.copper.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2000ce0fa4252ba24757a56a6af857d8b2e1822df0b99472dbb4f09c2f805a72",
+      "text_len": 9962
+    },
+    {
+      "requested_url": "https://developer.copper.com/introduction/oauth/index.html",
+      "final_url": "https://developer.copper.com/introduction/oauth/index.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:26Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "95792e2428a09107b4f688840b82bffd101d2992d1f9ae2f9c57fb7132faf9a1",
+      "text_len": 3552
+    },
+    {
+      "requested_url": "https://developer.copper.com/introduction/oauth/flow.html",
+      "final_url": "https://developer.copper.com/introduction/oauth/flow.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "388822481e68fd5ff4d33c444a52f5184382a38ba74471e7b65001bf95e52cc3",
+      "text_len": 5262
+    },
+    {
+      "requested_url": "https://www.copper.com/pricing",
+      "final_url": "https://www.copper.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e1f6d2ccd3cb04777e0c5a1ce269a35d4dbbd88b1d5d8c8a51ee7d07dce9d666",
+      "text_len": 8474
+    },
+    {
+      "requested_url": "https://www.copper.com/mcp",
+      "final_url": "https://www.copper.com/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c28bc46466b22eb6607c67a0791f323bc0a4d1986ea156a18c5d4522e9e0f11f",
+      "text_len": 3120
+    },
+    {
+      "requested_url": "https://developer.copper.com/introduction/oauth/quickstart.html",
+      "final_url": "https://developer.copper.com/introduction/oauth/quickstart.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9ac0e7ea0bdb5c4878012b3f6c7a37c5ebc1b7f9c47cfe372eb34cba218ff2cd",
+      "text_len": 2297
+    },
+    {
+      "requested_url": "https://developer.copper.com/introduction/authentication.html",
+      "final_url": "https://developer.copper.com/introduction/authentication.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:26Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7a339b36af758f5ec0d7f7effcdbc0e996e9ff4a0cfae098628f099edb1c8380",
+      "text_len": 831
+    },
+    {
+      "requested_url": "https://www.copper.com/signup",
+      "final_url": "https://www.copper.com/signup",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "29bc46a959c2cf708fc006b01c1cd10e00026b159928ff9e93e2afcbdf7ef022",
+      "text_len": 367
+    },
+    {
+      "requested_url": "https://developer.copper.com/llms.txt",
+      "final_url": "https://developer.copper.com/llms.txt",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:33Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://developer.copper.co/api-reference/authentication",
+      "final_url": "https://developer.copper.co/api-reference/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:26Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9994cf924189ca1ff0e616a06ce7bfffc9cba822e8c3618a0af0504baf862c8d",
+      "text_len": 6537
+    },
+    {
+      "requested_url": "https://developer.copper.com/introduction/authentication.html",
+      "final_url": "https://developer.copper.com/introduction/authentication.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:13Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "7a339b36af758f5ec0d7f7effcdbc0e996e9ff4a0cfae098628f099edb1c8380",
+      "text_len": 831
+    },
+    {
+      "requested_url": "https://www.copper.com/mcp",
+      "final_url": "https://www.copper.com/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:10Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c28bc46466b22eb6607c67a0791f323bc0a4d1986ea156a18c5d4522e9e0f11f",
+      "text_len": 3120
+    },
+    {
+      "requested_url": "https://support.copper.com/en/articles/10324524-chapter-1-where-do-i-start-here",
+      "final_url": "https://support.copper.com/en/articles/10324524-chapter-1-where-do-i-start-here",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "db29341d1fe099f8dc5e0660a8e2a78acb27ba0a62b8c7f4d9acd979202230a8",
+      "text_len": 6432
+    },
+    {
+      "requested_url": "https://www.copper.com/",
+      "final_url": "https://www.copper.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2000ce0fa4252ba24757a56a6af857d8b2e1822df0b99472dbb4f09c2f805a72",
+      "text_len": 9962
+    },
+    {
+      "requested_url": "https://www.copper.com/integrations/timelinesai-whatsapp-integration",
+      "final_url": "https://www.copper.com/integrations/timelinesai-whatsapp-integration",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "363be7b813a52539c81c78f1a7ec2a171be069a5b9cd4d1acab27cd9b12a87fb",
+      "text_len": 3913
+    },
+    {
+      "requested_url": "https://www.copper.com/resources/google-workspace-turns-20",
+      "final_url": "https://www.copper.com/resources/google-workspace-turns-20",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b41604999e02b5048465615b923a8ab446a66f76262473afd48128e5cc407be7",
+      "text_len": 6377
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.copper.com/introduction/authentication.html",
+        "quote": "There are two ways to access the Copper Developer API: API keys and OAuth2.0.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.copper.com/introduction/oauth/flow.html",
+        "quote": "Employing the widely used Authorization Code Grant flow, Copper ensures a seamless and quick authentication process.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developer.copper.com/introduction/authentication.html",
+        "quote": "in the Copper web app go to System settings > API Keys and click the 'GENERATE API KEY' button.",
+        "verified": true
+      },
+      {
+        "url": "https://www.copper.com/pricing",
+        "quote": "Start free, no credit card required.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.copper.com/introduction/oauth/index.html",
+        "quote": "To register your application, contact us (partners@copper.com).",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.copper.com/introduction/oauth/flow.html",
+        "quote": "https://api.copper.com/developer_api/v1/account",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://www.copper.com/mcp",
+        "quote": "Copper is launching an official MCP server, built and hosted by Copper. The beta launches in November 2026.",
+        "verified": true
+      },
+      {
+        "url": "https://www.copper.com/mcp",
+        "quote": "Request early access to the beta, or join the waitlist for updates as we get closer to launch.",
+        "verified": true
+      },
+      {
+        "url": "https://support.copper.com/en/articles/10324524-chapter-1-where-do-i-start-here",
+        "quote": "Coming soon: Copper MCP",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.copper.com/introduction/authentication.html",
+        "quote": "API Keys are suitable for individual users, while OAuth2.0 is the preferred approach for partner integrations.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.copper.com/",
+        "quote": "The CRM that helps you be there for your clients, every step of the way.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "missed_vendor_mcp"
+    ],
+    "findings": [
+      {
+        "rule": "missed_vendor_mcp",
+        "source": "code",
+        "reason": "a vendor-owned MCP URL is cited or quoted: https://www.copper.com/mcp",
+        "fields": [
+          "mcp_status",
+          "mcp_url"
+        ],
+        "quotes": []
+      }
+    ],
+    "fields_in_scope": [
+      "mcp_status",
+      "mcp_url"
+    ],
+    "claims": [
+      "mcp"
+    ],
+    "review_searches": [
+      {
+        "query": "Copper official MCP server",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://www.copper.com/mcp",
+            "title": "Copper MCP for Claude | Copper CRM",
+            "snippet": "Copper MCP for Claude | Copper CRM\n\n# MCP - COMING SOON\n\n## Ask questions. Get insights. \n\nCopper MCP is coming to Claude. Get answers about your clients and pipeline without opening a single record.\n\n## Ask Claude about your relationships, in your own words.\n\n### Built for AI from the ground up\n\nPu"
+          },
+          {
+            "url": "https://kingland.fr/actualites-ia/a40e8151-adbd-4cb8-aa32-36e97c9e3e4b/annonce-du-serveur-copper-mcp-pour-claude-et-ouverture-de-la-liste-d-attente",
+            "title": "Annonce du serveur Copper MCP pour Claude et ouverture de la liste d'attente | Actualité IA KingLand",
+            "snippet": "Annonce du serveur Copper MCP pour Claude et ouverture de la liste d'attente | Actualité IA KingLand\n\n Actualité IA 30 octobre 2026 \n\n# Annonce du serveur Copper MCP pour Claude et ouverture de la liste d'attente\n\nCopper CRM a dévoilé le développement d'un serveur MCP officiel hébergé pour intégrer "
+          },
+          {
+            "url": "https://salescrew.io/alternatives/copper",
+            "title": "Copper CRM Alternatives | SalesCrew",
+            "snippet": "Copper CRM Alternatives | SalesCrew\n\n# Copper CRM alternatives\n\nCopper lives inside Google Workspace, caps Basic at 2,500 contacts, and ships no MCP server. Six alternatives compared on ceilings and AI access.\n\nAn admin approves every new account by hand. Nothing is created until then. We reply by e"
+          },
+          {
+            "url": "https://github.com/hasankhadra/copper-mcp",
+            "title": "hasankhadra/copper-mcp",
+            "snippet": "# hasankhadra/copper-mcp\n\nUnofficial MCP server for Copper CRM — read-heavy, agent-friendly, one guarded write tool. Built to show what an official Copper MCP server could be.\n\n- Stars: 0\n- Forks: 1\n- Watchers: 0\n- Open issues: 0\n- License: MIT License\n- Default branch: main\n- Created: 2026-07-16T12"
+          },
+          {
+            "url": "https://actionlake.com/connectors/copper",
+            "title": "Copper MCP server for AI agents - actionlake",
+            "snippet": "Copper MCP server for AI agents - actionlake\n\n# Copper MCP server for AI agents.\n\nactionlake is an MCP gateway: one remote MCP server that connects Claude and other MCP clients to Copper and the rest of your systems. It gives your agent 89 Copper actions (44 reads, 33 writes and 12 that wait for a c"
+          }
+        ]
+      },
+      {
+        "query": "site:copper.com MCP",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://www.copper.com/mcp",
+            "title": "Copper MCP for Claude | Copper CRM",
+            "snippet": "Copper MCP for Claude | Copper CRM\n\n# MCP - COMING SOON\n\n## Ask questions. Get insights. \n\nCopper MCP is coming to Claude. Get answers about your clients and pipeline without opening a single record.\n\n## Ask Claude about your relationships, in your own words.\n\n### Built for AI from the ground up\n\nPu"
+          },
+          {
+            "url": "https://support.copper.com/en/articles/10324524-chapter-1-where-do-i-start-here",
+            "title": "Chapter 1: Where do I start? Here. | Copper Help Center",
+            "snippet": "Chapter 1: Where do I start? Here. | Copper Help Center\n\n# Chapter 1: Where do I start? Here.\n\nUnderstanding your use cases and pain points to get started quickly in Copper\n\nWritten by Success at Copper\n\nSeptember 21, 2026\n\nWelcome to Copper 🥳\n\nThe best CRM is one you'll actually use. Whether this i"
+          },
+          {
+            "url": "https://www.copper.com/integrations/timelinesai-whatsapp-integration",
+            "title": "TimelinesAI WhatsApp integration with Copper CRM",
+            "snippet": "TimelinesAI WhatsApp integration with Copper CRM\n\n# TimelinesAI WhatsApp Integration\n\nTimelinesAI connects WhatsApp to Copper CRM — syncing every inbound and outbound message to the right contact automatically. Your whole team works together in one WhatsApp inbox and never loses a client conversatio"
+          },
+          {
+            "url": "https://www.copper.com/resources/google-workspace-turns-20",
+            "title": "Google Workspace 20th Anniversary: What's Changed | Copper | Copper CRM",
+            "snippet": "Google Workspace 20th Anniversary: What's Changed | Copper | Copper CRM\n\n# Google Workspace just turned 20. Here's what's changed (and what's next)\n\nA look back at 20 years of Gmail, Drive, and Meet updates, plus what's rolling out next.\n\nCopper Staff Contributors from members of the Copper team\n\nAu"
+          },
+          {
+            "url": "https://www.copper.com/",
+            "title": "CRM software company for service businesses | Copper CRM",
+            "snippet": "CRM software company for service businesses | Copper CRM\n\n# The CRM that helps you be there for your clients, every step of the way.\n\nConsulting\n\nCoaching\n\nAgencies\n\nConstruction\n\nCreators\n\nMedia\n\nFinancial Advisors\n\nProduction\n\nCopper is trusted by 30,000+ companies of all sizes\n\n## No more switchi"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://developer.copper.com/introduction/authentication.html",
+        "final_url": "https://developer.copper.com/introduction/authentication.html",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:13Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "7a339b36af758f5ec0d7f7effcdbc0e996e9ff4a0cfae098628f099edb1c8380",
+        "text_len": 831
+      },
+      {
+        "requested_url": "https://www.copper.com/mcp",
+        "final_url": "https://www.copper.com/mcp",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:10Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "c28bc46466b22eb6607c67a0791f323bc0a4d1986ea156a18c5d4522e9e0f11f",
+        "text_len": 3120
+      },
+      {
+        "requested_url": "https://support.copper.com/en/articles/10324524-chapter-1-where-do-i-start-here",
+        "final_url": "https://support.copper.com/en/articles/10324524-chapter-1-where-do-i-start-here",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:13Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "db29341d1fe099f8dc5e0660a8e2a78acb27ba0a62b8c7f4d9acd979202230a8",
+        "text_len": 6432
+      },
+      {
+        "requested_url": "https://www.copper.com/",
+        "final_url": "https://www.copper.com/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:13Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "2000ce0fa4252ba24757a56a6af857d8b2e1822df0b99472dbb4f09c2f805a72",
+        "text_len": 9962
+      },
+      {
+        "requested_url": "https://www.copper.com/integrations/timelinesai-whatsapp-integration",
+        "final_url": "https://www.copper.com/integrations/timelinesai-whatsapp-integration",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:13Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "363be7b813a52539c81c78f1a7ec2a171be069a5b9cd4d1acab27cd9b12a87fb",
+        "text_len": 3913
+      },
+      {
+        "requested_url": "https://www.copper.com/resources/google-workspace-turns-20",
+        "final_url": "https://www.copper.com/resources/google-workspace-turns-20",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:13Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "b41604999e02b5048465615b923a8ab446a66f76262473afd48128e5cc407be7",
+        "text_len": 6377
+      }
+    ]
+  }
+}

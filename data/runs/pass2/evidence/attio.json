@@ -1,0 +1,643 @@
+{
+  "slug": "attio",
+  "searches": [
+    {
+      "query": "Attio API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.attio.com/rest-api/guides/authentication",
+          "title": "Authenticating requests",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authenticating requests\n\n> How to generate access tokens and make requests\n\nIn order to make requests to the Attio RES"
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+          "title": "Connect an app to Attio through OAuth",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connect an app to Attio through OAuth\n\n> Learn how to create an OAuth 2.0 app to access Attio's REST API\n\nIf you're bu"
+        },
+        {
+          "url": "https://docs.attio.com/docs/oauth/token",
+          "title": "Token",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Token\n\n#### Request\n\nclient_id `string` required\n\nYour app's client ID. You can find this in your app's settings pages"
+        },
+        {
+          "url": "https://docs.attio.com/sdk/server/attio-api-token",
+          "title": "Attio API Token",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Attio API Token\n\n> A token for your app to call the Attio REST API\n\n```js\nimport {ATTIO_API_TOKEN} from \"attio/server\""
+        },
+        {
+          "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+          "title": "Generate an API key",
+          "snippet": "# Generate an API key\n\nURL: https://attio.com/help/reference/apps/generating-an-api-key\nBreadcrumbs: Help > Reference > Apps\n\nEasily generate API keys for your Attio workspace.\n\n> Available on all plans.\n> \n> Admins can create and manage API keys.\n\nAPI keys allow you to connect external tools and se"
+        }
+      ]
+    },
+    {
+      "query": "Attio developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.attio.com/rest-api/guides/authentication",
+          "title": "Authenticating requests",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authenticating requests\n\n> How to generate access tokens and make requests\n\nIn order to make requests to the Attio RES"
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/overview",
+          "title": "Overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Overview\n\n> Learn about the REST API\n\nAttio provides a public REST API which exchanges JSON over HTTPS. In this sectio"
+        },
+        {
+          "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+          "title": "Generate an API key",
+          "snippet": "# Generate an API key\n\nURL: https://attio.com/help/reference/apps/generating-an-api-key\nBreadcrumbs: Help > Reference > Apps\n\nEasily generate API keys for your Attio workspace.\n\n> Available on all plans.\n> \n> Admins can create and manage API keys.\n\nAPI keys allow you to connect external tools and se"
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+          "title": "Connect an app to Attio through OAuth",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connect an app to Attio through OAuth\n\n> Learn how to create an OAuth 2.0 app to access Attio's REST API\n\nIf you're bu"
+        },
+        {
+          "url": "https://docs.attio.com/docs/overview",
+          "title": "Attio Docs: Overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Overview\n\n> Start building Attio Apps\n\nAttio is a revolutionary CRM platform which is highly customisable, incredibly "
+        }
+      ]
+    },
+    {
+      "query": "Attio pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://attio.com/pricing",
+          "title": "Plans & Pricing | Attio",
+          "snippet": "Plans & Pricing | Attio\n\n# Revenue around the clock.\n\nStart for free with plans for every stage of growth, whether startup or enterprise.\n\nMonthly Annual\n\nSave 20% with annual billing\n\n### Free\n\nFor individuals to get started with Attio.\n\n- Ask Attio, your personal agent\n- Self-builds from email and"
+        },
+        {
+          "url": "https://attio.com/help/reference/workspace-settings-billing/attio-plans-and-features",
+          "title": "Attio plans and features",
+          "snippet": "# Attio plans and features\n\nURL: https://attio.com/help/reference/workspace-settings-billing/attio-plans-and-features\nBreadcrumbs: Help > Reference > Workspace settings & billing\n\nDiscover which features are available on each Attio plan.\n\nThis article provides a detailed overview of the features ava"
+        },
+        {
+          "url": "https://attio.com/llms-full.txt",
+          "title": "",
+          "snippet": "# Attio\n> Attio is an AI-native CRM platform built for startups and builders, that lets startup teams unify customer data, automate workflows and build custom solutions to improve their operations.\n\n## Product\n- Over 80,000 startups trust Attio as the next-gen CRM platform with built-in data, automa"
+        },
+        {
+          "url": "https://attio.com/p/crm-1031-24",
+          "title": "The CRM that scales your business",
+          "snippet": "The CRM that scales your business | Attio\n\n# Loved by Granola, Modal, and Railway\n\n## Welcome to agentic revenue.\n\nAttio is the CRM that builds pipeline, advances deals, and grows accounts around the clock. \n\n- Partnership name\n- Partnership type\n- Location\n\nInvoices Custom\n\n- Billing address\n- Phon"
+        },
+        {
+          "url": "https://techpresso.co/reviews/attio-review",
+          "title": "Attio Review 2026: Pricing, Plans, Pros and Cons",
+          "snippet": "Attio Review 2026: Pricing, Plans, Pros and Cons\n\n# Attio Review 2026\n\nWhat Attio's Free, Plus and Pro plans include, where the seat, record and credit limits bite, what a five-person team pays, and how folk, HubSpot, Close and Zoho CRM compare.\n\nLouis Corneloup Founder, Dupple · 810,000+ Techpresso"
+        }
+      ]
+    },
+    {
+      "query": "Attio official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://mcp.attio.com/",
+          "title": "MCP Server | Attio",
+          "snippet": "MCP Server | Attio\n\n *@@@@#= ++: #@@@@# :# :+# =+@ @@+ #@@@@# + +++ :++ -*@@::::@@@:: --. +++: #@@@@+ :: :%@@@@@@@@ @@@@@@@@@@@@@ @@+ :#@@@@@@= #@@@@: *:++++ :@@+ +@@@ +@@ @@@ @@+:@@# +@@+ #@@@@: *:#@@# + *@# +@@ +@@ @@@ @@++@@ +@@ @@@@@- + #@@# + +@@: :@@@ +@@ @@@ @@+=@@: #@# :@@@@%: + #@@@@: :: #@"
+        },
+        {
+          "url": "https://docs.attio.com/mcp/overview",
+          "title": "Attio MCP",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Attio MCP\n\nLearn how to connect AI agents to your Attio workspace.\n\nConnect your AI tools to Attio using the Model Con"
+        },
+        {
+          "url": "https://attio.com/platform/mcp",
+          "title": "MCP",
+          "snippet": "MCP | Attio\n\n# MCP\n\n## Ask anywhere. Act everywhere.\n\nAttio connects to the AI tools your team already has open.\n\nStart for free\n\nUse Attio from your AI tools to find deals, log calls, and draft follow-ups.\n\nF i n d w a r m l e a d s i n A t t i o\n\n## Ready where you are.\n\nChatGPT, Claude, and every"
+        },
+        {
+          "url": "https://attio.com/apps/mcp",
+          "title": "MCP Integration",
+          "snippet": "MCP Integration | Attio\n\n# MCP\n\nUse your own LLM to read and write data in Attio\n\nOfficial app\n\n### Built by\n\nAttio\n\n### Category\n\nAnalytics\n\n### Resources\n\nWebsite\n\n## Overview\n\nAttio provides a hosted MCP server that gives AI tools secure access to your Attio workspace. It’s designed to work seaml"
+        },
+        {
+          "url": "https://attio.com/changelog/2026/mcp-server",
+          "title": "MCP server | Attio Changelog",
+          "snippet": "MCP server | Attio Changelog\n\n# MCP server Copy link to this entry\n\nEnhancement\n\nConnect Attio to the AI ecosystem.\n\nOur new MCP server let’s you search, query, and act on your Attio data, from any MCP client. Use it with coding agents, automation tools, or to integrate products."
+        }
+      ]
+    },
+    {
+      "query": "site:attio.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.attio.com/mcp/overview",
+          "title": "Attio MCP",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Attio MCP\n\nLearn how to connect AI agents to your Attio workspace.\n\nConnect your AI tools to Attio using the Model Con"
+        },
+        {
+          "url": "https://attio.com/platform/mcp",
+          "title": "MCP | Attio",
+          "snippet": "MCP | Attio\n\n# MCP\n\n## Ask anywhere. Act everywhere.\n\nAttio connects to the AI tools your team already has open.\n\nStart for free\n\nUse Attio from your AI tools to find deals, log calls, and draft follow-ups.\n\nF i n d w a r m l e a d s i n A t t i o\n\n## Ready where you are.\n\nChatGPT, Claude, and every"
+        },
+        {
+          "url": "https://attio.com/help/reference/attio-ai/attio-mcp",
+          "title": "Attio MCP",
+          "snippet": "# Attio MCP\n\nURL: https://attio.com/help/reference/attio-ai/attio-mcp\nBreadcrumbs: Help > Reference > Attio AI\n\nLearn how to connect AI assistants to your Attio workspace.\n\n> Available on all plans.\n> \n> Available for all workspace members.\n\nUsing the Model Context Protocol, Attio MCP enables compat"
+        },
+        {
+          "url": "https://attio.com/help/reference/how-to-guides/attio-mcp-prompts-and-best-practices",
+          "title": "Attio MCP: prompts and best practices",
+          "snippet": "# Attio MCP: prompts and best practices\n\nURL: https://attio.com/help/reference/how-to-guides/attio-mcp-prompts-and-best-practices\nBreadcrumbs: Help > Reference > How-to guides\n\nWork with your CRM in natural language using the Attio MCP.\n\n> Available on all plans.\n> \n> Available for all workspace mem"
+        },
+        {
+          "url": "https://attio.com/apps/mcp",
+          "title": "MCP Integration | Attio",
+          "snippet": "MCP Integration | Attio\n\n# MCP\n\nUse your own LLM to read and write data in Attio\n\nOfficial app\n\n### Built by\n\nAttio\n\n### Category\n\nAnalytics\n\n### Resources\n\nWebsite\n\n## Overview\n\nAttio provides a hosted MCP server that gives AI tools secure access to your Attio workspace. It’s designed to work seaml"
+        }
+      ]
+    },
+    {
+      "query": "Attio API authentication OAuth API key",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.attio.com/rest-api/guides/authentication",
+          "title": "Authenticating requests",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authenticating requests\n\n> How to generate access tokens and make requests\n\nIn order to make requests to the Attio RES"
+        },
+        {
+          "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+          "title": "Generate an API key",
+          "snippet": "# Generate an API key\n\nURL: https://attio.com/help/reference/apps/generating-an-api-key\nBreadcrumbs: Help > Reference > Apps\n\nEasily generate API keys for your Attio workspace.\n\n> Available on all plans.\n> \n> Admins can create and manage API keys.\n\nAPI keys allow you to connect external tools and se"
+        },
+        {
+          "url": "https://docs.attio.com/docs/oauth/token",
+          "title": "Token",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Token\n\n#### Request\n\nclient_id `string` required\n\nYour app's client ID. You can find this in your app's settings pages"
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+          "title": "Connect an app to Attio through OAuth",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connect an app to Attio through OAuth\n\n> Learn how to create an OAuth 2.0 app to access Attio's REST API\n\nIf you're bu"
+        },
+        {
+          "url": "https://docs.attio.com/skill.md",
+          "title": "Attio Developer Platform",
+          "snippet": "# Attio Developer Platform\n\n## Product summary\n\nAttio is a customizable CRM platform with a developer platform consisting of four parts: the App SDK (TypeScript React apps running in Attio's infrastructure), REST API (read/write records and subscribe to events via webhooks), SQL (read-only queries a"
+        }
+      ]
+    },
+    {
+      "query": "site:attio.com API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.attio.com/rest-api/guides/authentication",
+          "title": "Authenticating requests",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authenticating requests\n\n> How to generate access tokens and make requests\n\nIn order to make requests to the Attio RES"
+        },
+        {
+          "url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+          "title": "Connect an app to Attio through OAuth",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connect an app to Attio through OAuth\n\n> Learn how to create an OAuth 2.0 app to access Attio's REST API\n\nIf you're bu"
+        },
+        {
+          "url": "https://docs.attio.com/sdk/server/attio-api-token",
+          "title": "Attio API Token",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Attio API Token\n\n> A token for your app to call the Attio REST API\n\n```js\nimport {ATTIO_API_TOKEN} from \"attio/server\""
+        },
+        {
+          "url": "https://docs.attio.com/sdk/guides/authenticating-to-external-services",
+          "title": "Authenticating to external services",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authenticating to external services\n\n> How to use connections to authenticate users to external services\n\nConnections "
+        },
+        {
+          "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+          "title": "Generate an API key",
+          "snippet": "# Generate an API key\n\nURL: https://attio.com/help/reference/apps/generating-an-api-key\nBreadcrumbs: Help > Reference > Apps\n\nEasily generate API keys for your Attio workspace.\n\n> Available on all plans.\n> \n> Admins can create and manage API keys.\n\nAPI keys allow you to connect external tools and se"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://attio.com",
+      "final_url": "https://attio.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:03Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "f2194255051d075fdf8fda1c14808f1313e47c28c03db26cf5b9e76789893c62",
+      "text_len": 7209
+    },
+    {
+      "requested_url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+      "final_url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3cb7dd350938295b1901a3010223cf3c8265f2b39c34589a928e84e20a617a29",
+      "text_len": 13314
+    },
+    {
+      "requested_url": "https://attio.com/pricing",
+      "final_url": "https://attio.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b9b6726e85ba6820784d1cbd696d56caf82487bbabb929b6ad2ebcfac98581c1",
+      "text_len": 7360
+    },
+    {
+      "requested_url": "https://docs.attio.com/mcp/overview",
+      "final_url": "https://docs.attio.com/mcp/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fd80d5a7b8345f17a6752a01004881ddd7cf83d2941824ce27dbaff9dd5a7ee5",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://attio.com/help/reference/attio-ai/attio-mcp",
+      "final_url": "https://attio.com/help/reference/attio-ai/attio-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "aada0c44e20f235245eefb7e7315fdaaf0458686d37c4df65affce40a316c678",
+      "text_len": 3526
+    },
+    {
+      "requested_url": "https://attio.com/help/reference/how-to-guides/attio-mcp-prompts-and-best-practices",
+      "final_url": "https://attio.com/help/reference/how-to-guides/attio-mcp-prompts-and-best-practices",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9a13dd8829d6203672ca736eabdea403e9c74fec60890ffcad0fdab4b4ef1f5c",
+      "text_len": 9795
+    },
+    {
+      "requested_url": "https://docs.attio.com/docs/oauth/token",
+      "final_url": "https://docs.attio.com/docs/oauth/token",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e3300dacb9b821316e9b152e29f5ca49b079d77fac4171f8ccb7334bac5c440a",
+      "text_len": 1137
+    },
+    {
+      "requested_url": "https://docs.attio.com/rest-api/guides/authentication",
+      "final_url": "https://docs.attio.com/rest-api/guides/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1d884f2643d623aa56679c5159a59278b4c58c588ea5fba82ce65ecff5ecd263",
+      "text_len": 6691
+    },
+    {
+      "requested_url": "https://docs.attio.com/llms.txt",
+      "final_url": "https://docs.attio.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:03Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "dcdb7f61218cd7fb50b5657bc28c73bb67198920011ccd83f56880872828cebb",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.attio.com/llms.txt",
+      "final_url": "https://docs.attio.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:28:55Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "dcdb7f61218cd7fb50b5657bc28c73bb67198920011ccd83f56880872828cebb",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.attio.com/rest-api/guides/authentication",
+      "final_url": "https://docs.attio.com/rest-api/guides/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:28:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1d884f2643d623aa56679c5159a59278b4c58c588ea5fba82ce65ecff5ecd263",
+      "text_len": 6691
+    },
+    {
+      "requested_url": "https://docs.attio.com/docs/oauth/token",
+      "final_url": "https://docs.attio.com/docs/oauth/token",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:28:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e3300dacb9b821316e9b152e29f5ca49b079d77fac4171f8ccb7334bac5c440a",
+      "text_len": 1137
+    },
+    {
+      "requested_url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+      "final_url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:28:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3cb7dd350938295b1901a3010223cf3c8265f2b39c34589a928e84e20a617a29",
+      "text_len": 13314
+    },
+    {
+      "requested_url": "https://attio.com/help/reference/apps/generating-an-api-key",
+      "final_url": "https://attio.com/help/reference/apps/generating-an-api-key",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:28:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2fe8ed9b9ac6269fbfa2d8542b962d8499f8b90ad2fa0dc83d8f5f166cfc2912",
+      "text_len": 2075
+    },
+    {
+      "requested_url": "https://docs.attio.com/sdk/guides/authenticating-to-external-services",
+      "final_url": "https://docs.attio.com/sdk/guides/authenticating-to-external-services",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:28:55Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "93ac66905cb40c0228151356a2159706fb85444055fea02d508d1270e4e22a70",
+      "text_len": 5205
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.attio.com/rest-api/guides/authentication",
+        "quote": "There are two ways to generate an access token: 1. By implementing an OAuth 2.0 flow 2. By generating an API key for your workspace",
+        "verified": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/guides/authentication",
+        "quote": "We also support HTTP Basic Authentication, where the username is the token and the password is left blank."
+      }
+    ],
+    "access": [
+      {
+        "url": "https://attio.com/pricing",
+        "quote": "Every new Attio workspace starts with a 14-day free trial of the Pro plan, with access to all Pro features.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.attio.com/rest-api/guides/authentication",
+        "quote": "An unpublished app can be installed in up to 25 workspaces.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.attio.com/rest-api/guides/authentication",
+        "quote": "In order to make requests to the Attio REST API, you need to generate an access token.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.attio.com/mcp/overview",
+        "quote": "Attio MCP is Attio's hosted MCP server that gives AI tools secure access to your Attio workspace.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.attio.com/mcp/overview",
+        "quote": "Add `https://mcp.attio.com/mcp` as a remote MCP server and complete the OAuth authentication when prompted.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://attio.com/pricing",
+        "quote": "Yes. The Free plan costs nothing for up to three users.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://attio.com",
+        "quote": "Attio: The CRM for agentic revenue",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [
+      {
+        "claim": "auth",
+        "url": "https://docs.attio.com/rest-api/guides/authentication",
+        "reason": "quote not in page text"
+      }
+    ],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "basic_transport_not_method"
+    ],
+    "findings": [
+      {
+        "rule": "basic_transport_not_method",
+        "source": "llm",
+        "reason": "Basic is listed as an auth method, but the docs only describe sending the API token through HTTP Basic (token as username, blank password), which is transport, not a username+password method.",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "url": "https://docs.attio.com/rest-api/guides/authentication",
+            "quote": "We also support HTTP Basic Authentication, where the username is the token and the password is left blank."
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth"
+    ],
+    "claims": [
+      "auth"
+    ],
+    "review_searches": [
+      {
+        "query": "Attio API authentication OAuth API key",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://docs.attio.com/rest-api/guides/authentication",
+            "title": "Authenticating requests",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authenticating requests\n\n> How to generate access tokens and make requests\n\nIn order to make requests to the Attio RES"
+          },
+          {
+            "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+            "title": "Generate an API key",
+            "snippet": "# Generate an API key\n\nURL: https://attio.com/help/reference/apps/generating-an-api-key\nBreadcrumbs: Help > Reference > Apps\n\nEasily generate API keys for your Attio workspace.\n\n> Available on all plans.\n> \n> Admins can create and manage API keys.\n\nAPI keys allow you to connect external tools and se"
+          },
+          {
+            "url": "https://docs.attio.com/docs/oauth/token",
+            "title": "Token",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Token\n\n#### Request\n\nclient_id `string` required\n\nYour app's client ID. You can find this in your app's settings pages"
+          },
+          {
+            "url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+            "title": "Connect an app to Attio through OAuth",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connect an app to Attio through OAuth\n\n> Learn how to create an OAuth 2.0 app to access Attio's REST API\n\nIf you're bu"
+          },
+          {
+            "url": "https://docs.attio.com/skill.md",
+            "title": "Attio Developer Platform",
+            "snippet": "# Attio Developer Platform\n\n## Product summary\n\nAttio is a customizable CRM platform with a developer platform consisting of four parts: the App SDK (TypeScript React apps running in Attio's infrastructure), REST API (read/write records and subscribe to events via webhooks), SQL (read-only queries a"
+          }
+        ]
+      },
+      {
+        "query": "site:attio.com API authentication",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://docs.attio.com/rest-api/guides/authentication",
+            "title": "Authenticating requests",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authenticating requests\n\n> How to generate access tokens and make requests\n\nIn order to make requests to the Attio RES"
+          },
+          {
+            "url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+            "title": "Connect an app to Attio through OAuth",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connect an app to Attio through OAuth\n\n> Learn how to create an OAuth 2.0 app to access Attio's REST API\n\nIf you're bu"
+          },
+          {
+            "url": "https://docs.attio.com/sdk/server/attio-api-token",
+            "title": "Attio API Token",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Attio API Token\n\n> A token for your app to call the Attio REST API\n\n```js\nimport {ATTIO_API_TOKEN} from \"attio/server\""
+          },
+          {
+            "url": "https://docs.attio.com/sdk/guides/authenticating-to-external-services",
+            "title": "Authenticating to external services",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.attio.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authenticating to external services\n\n> How to use connections to authenticate users to external services\n\nConnections "
+          },
+          {
+            "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+            "title": "Generate an API key",
+            "snippet": "# Generate an API key\n\nURL: https://attio.com/help/reference/apps/generating-an-api-key\nBreadcrumbs: Help > Reference > Apps\n\nEasily generate API keys for your Attio workspace.\n\n> Available on all plans.\n> \n> Admins can create and manage API keys.\n\nAPI keys allow you to connect external tools and se"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://docs.attio.com/llms.txt",
+        "final_url": "https://docs.attio.com/llms.txt",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:28:55Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "dcdb7f61218cd7fb50b5657bc28c73bb67198920011ccd83f56880872828cebb",
+        "text_len": 20000
+      },
+      {
+        "requested_url": "https://docs.attio.com/rest-api/guides/authentication",
+        "final_url": "https://docs.attio.com/rest-api/guides/authentication",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:28:54Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "1d884f2643d623aa56679c5159a59278b4c58c588ea5fba82ce65ecff5ecd263",
+        "text_len": 6691
+      },
+      {
+        "requested_url": "https://docs.attio.com/docs/oauth/token",
+        "final_url": "https://docs.attio.com/docs/oauth/token",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:28:54Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "e3300dacb9b821316e9b152e29f5ca49b079d77fac4171f8ccb7334bac5c440a",
+        "text_len": 1137
+      },
+      {
+        "requested_url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+        "final_url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:28:54Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "3cb7dd350938295b1901a3010223cf3c8265f2b39c34589a928e84e20a617a29",
+        "text_len": 13314
+      },
+      {
+        "requested_url": "https://attio.com/help/reference/apps/generating-an-api-key",
+        "final_url": "https://attio.com/help/reference/apps/generating-an-api-key",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:28:54Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "2fe8ed9b9ac6269fbfa2d8542b962d8499f8b90ad2fa0dc83d8f5f166cfc2912",
+        "text_len": 2075
+      },
+      {
+        "requested_url": "https://docs.attio.com/sdk/guides/authenticating-to-external-services",
+        "final_url": "https://docs.attio.com/sdk/guides/authenticating-to-external-services",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:28:55Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "93ac66905cb40c0228151356a2159706fb85444055fea02d508d1270e4e22a70",
+        "text_len": 5205
+      }
+    ]
+  }
+}

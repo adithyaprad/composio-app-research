@@ -358,10 +358,11 @@ def gap_signal(url: str, title: str) -> str | None:
 
 
 def gap_fill_urls(app: dict, searches: list[dict], seen: set[str], row: dict | None,
-                  limit: int = GAP_FILL_MAX) -> list[str]:
+                  limit: int = GAP_FILL_MAX, want_auth: bool = True) -> list[str]:
     """Unfetched vendor-owned search results that look like MCP or API-auth docs, best first.
 
-    MCP hits count only while MCP is unresolved (no row or mcp_status none); auth hits always count.
+    MCP hits count only while MCP is unresolved (no row or mcp_status none); auth hits count unless
+    want_auth is false (the pass-2 reviewer turns it off when auth is not being rechecked).
     Order: official-domain MCP, official-domain auth, sibling/repo MCP, sibling/repo auth, then search order.
     """
     want_mcp = not row or row.get("mcp_status") in (None, "none")
@@ -375,7 +376,8 @@ def gap_fill_urls(app: dict, searches: list[dict], seen: set[str], row: dict | N
                 continue
             tier = vendor_tier(app, url)
             signal = gap_signal(url, r.get("title") or "")
-            if tier is None or signal is None or (signal == "mcp" and not want_mcp):
+            if tier is None or signal is None or (signal == "mcp" and not want_mcp) or (
+                    signal == "auth" and not want_auth):
                 continue
             keys.add(key)
             ranked.append((tier * 2 + (signal == "auth"), len(ranked), url))
@@ -458,9 +460,10 @@ class Researcher:
             pages.append(page)
         return pages
 
-    def _llm(self, messages: list[dict], stats: Stats, attempts: list[dict], label: str, slug: str) -> LLMResult:
+    def _llm(self, messages: list[dict], stats: Stats, attempts: list[dict], label: str, slug: str,
+             system: str = prompts.SYSTEM) -> LLMResult:
         stats.llm_calls += 1
-        res = self.llm.complete(prompts.SYSTEM, messages, json_mode=True)
+        res = self.llm.complete(system, messages, json_mode=True)
         stats.input_tokens += res.input_tokens
         stats.output_tokens += res.output_tokens
         log.info("%s: llm %s stop_reason=%s out_tokens=%d%s", slug, label, res.stop_reason, res.output_tokens,
