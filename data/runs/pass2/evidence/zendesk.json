@@ -1,0 +1,669 @@
+{
+  "slug": "zendesk",
+  "searches": [
+    {
+      "query": "Zendesk API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+          "title": "How can I authenticate API requests? – Zendesk help",
+          "snippet": "How can I authenticate API requests? – Zendesk help\n\n Important: Zendesk is removing API tokens as an authentication method. Starting July 28, 2026, unused tokens will automatically deactivate. By April 30, 2027, all API tokens will stop working. See Announcing the removal of API tokens as an authen"
+        },
+        {
+          "url": "https://developer.zendesk.com/documentation/authentication/oauth-vs-api-tokens/",
+          "title": "Understanding the differences between API tokens and OAuth access tokens",
+          "snippet": "# Understanding the differences between API tokens and OAuth access tokens\n\nBoth API tokens and OAuth access tokens let you authenticate Zendesk API requests without providing your Zendesk password. However, the token types support different creation methods and permission setups.\n\nFor server-to-ser"
+        },
+        {
+          "url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+          "title": "Using OAuth to authenticate API requests",
+          "snippet": "# Using OAuth to authenticate API requests\n\nThis guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices.\n\nOAuth is the recommended authentication method because it:\n\n-"
+        },
+        {
+          "url": "https://developer.zendesk.com/documentation/authentication/creating-and-using-oauth-tokens-with-the-api/",
+          "title": "Creating and using OAuth access tokens with the API",
+          "snippet": "# Creating and using OAuth access tokens with the API\n\nDevelopers typically use OAuth access tokens to authenticate Zendesk API requests on behalf of their users. Creating these tokens involves building an OAuth authorization flow that requires interaction from the user.\n\nYou can also create OAuth a"
+        },
+        {
+          "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+          "title": "Security and authentication",
+          "snippet": "Security and authentication | Zendesk Developer Docs\n\n# Security and authentication\n\nYou must be a verified user to make API requests. Zendesk supports using OAuth access tokens to authenticate API requests.\n\nNote: If you're an existing Zendesk customer and are currently using basic authentication o"
+        }
+      ]
+    },
+    {
+      "query": "Zendesk developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+          "title": "Security and authentication",
+          "snippet": "Security and authentication | Zendesk Developer Docs\n\n# Security and authentication\n\nYou must be a verified user to make API requests. Zendesk supports using OAuth access tokens to authenticate API requests.\n\nNote: If you're an existing Zendesk customer and are currently using basic authentication o"
+        },
+        {
+          "url": "https://developer.zendesk.com/api-reference/",
+          "title": "API Reference Home | Zendesk Developer Docs",
+          "snippet": "API Reference Home | Zendesk Developer Docs\n\n# API Reference\n\nWelcome to the Zendesk API reference docs. Whether you're an experienced developer and Zendesk user or just starting out, this is where you'll find the documentation you need.\n\nMost of our APIs are organized by product capabilities. You'l"
+        },
+        {
+          "url": "https://developer.zendesk.com/documentation/authentication/creating-and-using-oauth-tokens-with-the-api/",
+          "title": "Creating and using OAuth access tokens with the API",
+          "snippet": "# Creating and using OAuth access tokens with the API\n\nDevelopers typically use OAuth access tokens to authenticate Zendesk API requests on behalf of their users. Creating these tokens involves building an OAuth authorization flow that requires interaction from the user.\n\nYou can also create OAuth a"
+        },
+        {
+          "url": "https://developer.zendesk.com/documentation/authentication/",
+          "title": "Authentication | Zendesk Developer Docs",
+          "snippet": "Authentication | Zendesk Developer Docs\n\n# Authentication\n\n## Getting started\n\nUsing OAuth to authenticate API requests Learn how OAuth authentication works and choose the right flow for your integration.\n\nMigrating from API tokens to OAuth access tokens Move from API tokens to OAuth with a step-by-"
+        },
+        {
+          "url": "https://developer.zendesk.com/documentation/",
+          "title": "Zendesk Developer Docs: Documentation Home",
+          "snippet": "Documentation Home | Zendesk Developer Docs\n\n# Develop on the Zendesk Sunshine Platform\n\nZendesk Sunshine is our open and flexible platform, built natively on AWS. You can create unique customer experiences using our APIs and SDKs, connect data sources across your technology stack, and build any app"
+        }
+      ]
+    },
+    {
+      "query": "Zendesk pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.zendesk.com/pricing/",
+          "title": "Pricing for the #1 AI customer service solution",
+          "snippet": "Skip to main content\n\n##### Platform\n\n- Zendesk Resolution PlatformDeliver faster, higher quality resolutions with the only AI-first service platform\n- Zendesk AIPower your service with AI that continuously improves every resolution\n- Zendesk BridgeDeliver better outcomes with any AI agent, app, or "
+        },
+        {
+          "url": "https://www.zendesk.com/free-trial/",
+          "title": "Zendesk Free Trial | AI Customer & Employee Service",
+          "snippet": "Skip to main content\n\n##### Platform\n\n- Zendesk Resolution PlatformDeliver faster, higher quality resolutions with the only AI-first service platform\n- Zendesk AIPower your service with AI that continuously improves every resolution\n- Zendesk BridgeDeliver better outcomes with any AI agent, app, or "
+        },
+        {
+          "url": "https://www.zendesk.com/register/",
+          "title": "Start your free 14-day trial",
+          "snippet": "Skip to main content\n\nZendesk logo\n\n# Start your free 14-day trial\n\n#### 100% free. No credit card required.\n\nStep 1 of 9\n\nLet’s start with your work email\n\nUse your work email to connect customer emails, apps, and invite team members.\n\nI agree to Zendesk contacting me with marketing-related communi"
+        },
+        {
+          "url": "https://support.zendesk.com/hc/en-us/articles/9748832324634-Zendesk-Suite-trial-Using-AI-to-automatically-set-up-your-Zendesk-account",
+          "title": "Zendesk Suite trial: Using AI to automatically set up your Zendesk account – Zendesk help",
+          "snippet": "Zendesk Suite trial: Using AI to automatically set up your Zendesk account – Zendesk help\n\nThe Zendesk Suite trial provides an AI-driven setup wizard to help you automatically set up your account. The setup wizard leverages information from your corporate website to customize your account, minimizin"
+        },
+        {
+          "url": "https://support.zendesk.com/hc/en-us/articles/4408828690074-Buying-Zendesk-Suite",
+          "title": "Buying Zendesk Suite – Zendesk help",
+          "snippet": "Buying Zendesk Suite – Zendesk help\n\nVerified AI summary ◀▼\n\nYou can purchase a Zendesk Suite plan by starting with a trial to test features, buying directly if you're familiar with the product, or upgrading your existing account. When upgrading, verify that the number of agent seats you have will c"
+        }
+      ]
+    },
+    {
+      "query": "Zendesk official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://support.zendesk.com/hc/en-us/articles/11485591370650-Announcing-Zendesk-Bridge",
+          "title": "Announcing Zendesk Bridge – Zendesk help",
+          "snippet": "Announcing Zendesk Bridge – Zendesk help\n\n| Announced on | Rollout starts | Rollout ends |\n| --- | --- | --- |\n| November 10, 2026 | November 10, 2026 | November 10, 2026 |\n\n Zendesk Bridge lets your teams use Zendesk from the AI experiences where they already work. Connect supported AI providers or"
+        },
+        {
+          "url": "https://www.zendesk.com/blog/product-news/zendesk-bridge/",
+          "title": "Zendesk Bridge brings trusted service wherever work happens",
+          "snippet": "Skip to main content\n\n##### Platform\n\n- Zendesk Resolution PlatformDeliver faster, higher quality resolutions with the only AI-first service platform\n- Zendesk AIPower your service with AI that continuously improves every resolution\n- Zendesk BridgeDeliver better outcomes with any AI agent, app, or "
+        },
+        {
+          "url": "https://support.zendesk.com/hc/en-us/articles/11400026079130-Connecting-external-AI-agents-to-the-Zendesk-MCP-server-or-Zendesk-AI-agents-EAP",
+          "title": "Connecting external AI agents to the Zendesk MCP server or Zendesk AI agents (EAP) – Zendesk help",
+          "snippet": "Connecting external AI agents to the Zendesk MCP server or Zendesk AI agents (EAP) – Zendesk help\n\nZendesk Bridge provides a way to establish governed connections between the Zendesk MCP Server or Zendesk AI agents and external AI agents your organization uses, including Claude, ChatGPT, Microsoft C"
+        },
+        {
+          "url": "https://www.zendesk.com/newsroom/press-releases/relate-2026/",
+          "title": "Zendesk Introduces the Autonomous Service Workforce, Defining the Future of Customer and Employee Service",
+          "snippet": "Skip to main content\n\n#### Press releases\n\nView archive Return to newsroom\n\nFor media, analyst, and speaking inquiries, please contact us.\n\npress@zendesk.com\n\n## Zendesk Introduces the Autonomous Service Workforce, Defining the Future of Customer and Employee Service\n\nMay 19, 2026\n\nNew Agent Builder"
+        },
+        {
+          "url": "https://agentready.co/connectors/zendesk-mcp-bridge",
+          "title": "Zendesk MCP Bridge: Claude connector · Agent Ready",
+          "snippet": "Zendesk MCP Bridge: Claude connector · Agent Ready\n\n# Zendesk MCP Bridge✓\n\nZendesk, Inc· Customer support & success· Live in \n\nTriage, investigate, update and report on Zendesk tickets.\n\nZendesk MCP Bridge brings live Zendesk Support workflows into your AI. Using their existing Zendesk account and p"
+        }
+      ]
+    },
+    {
+      "query": "site:zendesk.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://prismppm.zendesk.com/hc/en-us/articles/54813648177427-MCP-Overview-and-Set-Up",
+          "title": "MCP Overview and Set Up – Knowledge Base",
+          "snippet": "MCP Overview and Set Up – Knowledge Base\n\n# MCP Overview and Set Up \n\n- August 26, 2026 13:34\n\n# What Is MCP and Why It Matters\n\nThe Model Context Protocol (MCP) is an open standard that helps AI applications connect to external tools, systems, and data sources in a consistent way. In practical term"
+        },
+        {
+          "url": "https://www.zendesk.com/blog/zendesk-insights/innovation/zendesk-ai-mcp-client/",
+          "title": "Unlocking new possibilities: Revolutionizing service with the Zendesk AI MCP client",
+          "snippet": "Skip to main content\n\n##### Platform\n\n- Zendesk Resolution PlatformDeliver faster, higher quality resolutions with the only AI-first service platform\n- Zendesk AIPower your service with AI that continuously improves every resolution\n- Zendesk BridgeDeliver better outcomes with any AI agent, app, or "
+        },
+        {
+          "url": "https://remote.zendesk.com/hc/en-us/articles/46712088162701-What-is-Remote-MCP",
+          "title": "What is Remote MCP? – Remote",
+          "snippet": "What is Remote MCP? – Remote\n\n# What is Remote MCP? \n\n- June 17, 2026 07:48\n\nRemote MCP is a connection between Remote and any AI client that supports the Model Context Protocol (MCP), an open standard for connecting AI applications to live data. Once connected, an admin, manager, or employee at you"
+        },
+        {
+          "url": "https://botsify.zendesk.com/hc/en-us/articles/51825781338649-Connect-MCPs-and-Use-It-Across-All-Agents",
+          "title": "Connect MCPs and Use It Across All Agents – Botsify Help Center",
+          "snippet": "Connect MCPs and Use It Across All Agents – Botsify Help Center\n\n# Connect MCPs and Use It Across All Agents \n\n Alan Walker \n\n July 03, 2026 06:00 Updated \n\n## Model Context Protocol (MCP)\n\nModel Context Protocol (MCP) allows your AI agent to securely connect with external tools and data sources suc"
+        },
+        {
+          "url": "https://academy.zendesk.com/what-is-an-mcp-client",
+          "title": "What is an MCP client?",
+          "snippet": "What is an MCP client?\n\n# What is an MCP client?\n\n## Learn how to connect an external MCP server to Zendesk and use its tools in action flows to reduce manual work.\n\n### About this course\n\nBring information and actions from external systems into your Zendesk workflows with MCP Client. In this short "
+        }
+      ]
+    },
+    {
+      "query": "Zendesk API authentication OAuth API key",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.zendesk.com/documentation/authentication/oauth-vs-api-tokens/",
+          "title": "Understanding the differences between API tokens and OAuth access tokens",
+          "snippet": "# Understanding the differences between API tokens and OAuth access tokens\n\nBoth API tokens and OAuth access tokens let you authenticate Zendesk API requests without providing your Zendesk password. However, the token types support different creation methods and permission setups.\n\nFor server-to-ser"
+        },
+        {
+          "url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+          "title": "How can I authenticate API requests? – Zendesk help",
+          "snippet": "How can I authenticate API requests? – Zendesk help\n\n Important: Zendesk is removing API tokens as an authentication method. Starting July 28, 2026, unused tokens will automatically deactivate. By April 30, 2027, all API tokens will stop working. See Announcing the removal of API tokens as an authen"
+        },
+        {
+          "url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+          "title": "Migrating from API tokens to OAuth access tokens",
+          "snippet": "# Migrating from API tokens to OAuth access tokens\n\nNote: This guide applies only to integrations that make HTTP requests using an API token created in the Zendesk Admin Center under Apps and integrations > APIs > API tokens. See Managing API token access to the Zendesk API in Zendesk help. APIs tha"
+        },
+        {
+          "url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+          "title": "Using OAuth to authenticate API requests",
+          "snippet": "# Using OAuth to authenticate API requests\n\nThis guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices.\n\nOAuth is the recommended authentication method because it:\n\n-"
+        },
+        {
+          "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+          "title": "Security and authentication",
+          "snippet": "Security and authentication | Zendesk Developer Docs\n\n# Security and authentication\n\nYou must be a verified user to make API requests. Zendesk supports using OAuth access tokens to authenticate API requests.\n\nNote: If you're an existing Zendesk customer and are currently using basic authentication o"
+        }
+      ]
+    },
+    {
+      "query": "site:zendesk.com API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+          "title": "How can I authenticate API requests? – Zendesk help",
+          "snippet": "How can I authenticate API requests? – Zendesk help\n\n Important: Zendesk is removing API tokens as an authentication method. Starting July 28, 2026, unused tokens will automatically deactivate. By April 30, 2027, all API tokens will stop working. See Announcing the removal of API tokens as an authen"
+        },
+        {
+          "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+          "title": "Security and authentication",
+          "snippet": "Security and authentication | Zendesk Developer Docs\n\n# Security and authentication\n\nYou must be a verified user to make API requests. Zendesk supports using OAuth access tokens to authenticate API requests.\n\nNote: If you're an existing Zendesk customer and are currently using basic authentication o"
+        },
+        {
+          "url": "https://developer.zendesk.com/documentation/authentication/oauth-vs-api-tokens/",
+          "title": "Understanding the differences between API tokens and OAuth access tokens",
+          "snippet": "# Understanding the differences between API tokens and OAuth access tokens\n\nBoth API tokens and OAuth access tokens let you authenticate Zendesk API requests without providing your Zendesk password. However, the token types support different creation methods and permission setups.\n\nFor server-to-ser"
+        },
+        {
+          "url": "https://support.zendesk.com/hc/en-us/articles/4408845965210-Using-OAuth-authentication-with-your-application",
+          "title": "Using OAuth authentication with your application – Zendesk help",
+          "snippet": "Using OAuth authentication with your application – Zendesk help\n\nYou can useOAuth 2to authenticate all your application's API requests to Zendesk. OAuth provides a secure way for your application to access Zendesk data without having to store and use the passwords of Zendesk users. For added securit"
+        },
+        {
+          "url": "https://developer.zendesk.com/documentation/authentication/",
+          "title": "Authentication | Zendesk Developer Docs",
+          "snippet": "Authentication | Zendesk Developer Docs\n\n# Authentication\n\n## Getting started\n\nUsing OAuth to authenticate API requests Learn how OAuth authentication works and choose the right flow for your integration.\n\nMigrating from API tokens to OAuth access tokens Move from API tokens to OAuth with a step-by-"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://zendesk.com",
+      "final_url": "https://zendesk.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:37Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "5cdab4c650d481e031b9dfa59fb4667f35360dd556cb66a74da26ce0242b8705",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8a987a4cb3cc51ea346363d15f81c6597dc19a249beeba4a407d6fc2559c834f",
+      "text_len": 5809
+    },
+    {
+      "requested_url": "https://www.zendesk.com/pricing/",
+      "final_url": "https://www.zendesk.com/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0c670bb5cece313b3a9eb865f6edd4340df099c7825c8541b3a1ff6174d7ffee",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://support.zendesk.com/hc/en-us/articles/11400026079130-Connecting-external-AI-agents-to-the-Zendesk-MCP-server-or-Zendesk-AI-agents-EAP",
+      "final_url": "https://support.zendesk.com/hc/en-us/articles/11400026079130-Connecting-external-AI-agents-to-the-Zendesk-MCP-server-or-Zendesk-AI-agents-EAP",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f239922ecdd280dfeccfced715bde37c8eac141187e1263953281341050ea8f5",
+      "text_len": 13567
+    },
+    {
+      "requested_url": "https://academy.zendesk.com/what-is-an-mcp-client",
+      "final_url": "https://academy.zendesk.com/what-is-an-mcp-client",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:37Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "78be251a18decda4946ba78e5fc2942fa06c05df1a0c3c07cfc448f0a84a20c7",
+      "text_len": 2423
+    },
+    {
+      "requested_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+      "final_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2a3f461e00afb7b69fb03a6f5147e08ef2ea2241621e438872248d12148ce10d",
+      "text_len": 12323
+    },
+    {
+      "requested_url": "https://developer.zendesk.com/documentation/authentication/creating-and-using-oauth-tokens-with-the-api/",
+      "final_url": "https://developer.zendesk.com/documentation/authentication/creating-and-using-oauth-tokens-with-the-api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "53777645393caacdf330c8026df21a0ff4a52313c001a209213cb957b160a256",
+      "text_len": 8702
+    },
+    {
+      "requested_url": "https://developer.zendesk.com/documentation/authentication/oauth-vs-api-tokens/",
+      "final_url": "https://developer.zendesk.com/documentation/authentication/oauth-vs-api-tokens/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "af138011b7fe28dfce05db6fea3781d074a9aa5a797b53a4f0910977b701f97c",
+      "text_len": 2003
+    },
+    {
+      "requested_url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+      "final_url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b644931cf25d995915563b735c78178147ad466c74767d10e7f644ec34c5a959",
+      "text_len": 2764
+    },
+    {
+      "requested_url": "https://developer.zendesk.com/documentation/authentication/",
+      "final_url": "https://developer.zendesk.com/documentation/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1dbc5f5aa59408a3f146d2c283f39aad8a7bda5e723f3098f60243aa0f585f3b",
+      "text_len": 1398
+    },
+    {
+      "requested_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8a987a4cb3cc51ea346363d15f81c6597dc19a249beeba4a407d6fc2559c834f",
+      "text_len": 5809
+    },
+    {
+      "requested_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+      "final_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2a3f461e00afb7b69fb03a6f5147e08ef2ea2241621e438872248d12148ce10d",
+      "text_len": 12323
+    },
+    {
+      "requested_url": "https://developer.zendesk.com/documentation/authentication/oauth-vs-api-tokens/",
+      "final_url": "https://developer.zendesk.com/documentation/authentication/oauth-vs-api-tokens/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "af138011b7fe28dfce05db6fea3781d074a9aa5a797b53a4f0910977b701f97c",
+      "text_len": 2003
+    },
+    {
+      "requested_url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+      "final_url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "dd04a2e68c9c8fc03fb8e4f960a9f04b6a2ee887a038bac97ee06170eedb0948",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer.zendesk.com/documentation/authentication/",
+      "final_url": "https://developer.zendesk.com/documentation/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1dbc5f5aa59408a3f146d2c283f39aad8a7bda5e723f3098f60243aa0f585f3b",
+      "text_len": 1398
+    },
+    {
+      "requested_url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+      "final_url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b644931cf25d995915563b735c78178147ad466c74767d10e7f644ec34c5a959",
+      "text_len": 2764
+    },
+    {
+      "requested_url": "https://support.zendesk.com/hc/en-us/articles/4408845965210-Using-OAuth-authentication-with-your-application",
+      "final_url": "https://support.zendesk.com/hc/en-us/articles/4408845965210-Using-OAuth-authentication-with-your-application",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6e7884dffbfe19947489883601d294c8844161980632ad21d8b4082b890ab5ee",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "quote": "Basic authentication is used for API tokens. The credentials must be sent with the request in an Authorization header.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+        "quote": "Zendesk supports two OAuth flows.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://zendesk.com",
+        "quote": "14-day free trial. No credit card required.",
+        "verified": true
+      },
+      {
+        "url": "https://www.zendesk.com/pricing/",
+        "quote": "Buy now",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "quote": "curl https://obscura.zendesk.com/api/v2/users.json",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://support.zendesk.com/hc/en-us/articles/11400026079130-Connecting-external-AI-agents-to-the-Zendesk-MCP-server-or-Zendesk-AI-agents-EAP",
+        "quote": "Zendesk Bridge provides a way to establish governed connections between the Zendesk MCP Server or Zendesk AI agents and external AI agents",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+        "quote": "Client credentials: Your integration authenticates on behalf of the user who created the OAuth client, with no user interaction at runtime.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://zendesk.com",
+        "quote": "AI-powered customer service platform",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "basic_transport_not_method"
+    ],
+    "findings": [
+      {
+        "rule": "basic_transport_not_method",
+        "source": "llm",
+        "reason": "The pages only describe API tokens sent through the HTTP Basic scheme, which counts as api_key and not as a separate basic username/password method.",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+            "quote": "Basic authentication is used for API tokens."
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth"
+    ],
+    "claims": [
+      "auth"
+    ],
+    "review_searches": [
+      {
+        "query": "Zendesk API authentication OAuth API key",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developer.zendesk.com/documentation/authentication/oauth-vs-api-tokens/",
+            "title": "Understanding the differences between API tokens and OAuth access tokens",
+            "snippet": "# Understanding the differences between API tokens and OAuth access tokens\n\nBoth API tokens and OAuth access tokens let you authenticate Zendesk API requests without providing your Zendesk password. However, the token types support different creation methods and permission setups.\n\nFor server-to-ser"
+          },
+          {
+            "url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+            "title": "How can I authenticate API requests? – Zendesk help",
+            "snippet": "How can I authenticate API requests? – Zendesk help\n\n Important: Zendesk is removing API tokens as an authentication method. Starting July 28, 2026, unused tokens will automatically deactivate. By April 30, 2027, all API tokens will stop working. See Announcing the removal of API tokens as an authen"
+          },
+          {
+            "url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+            "title": "Migrating from API tokens to OAuth access tokens",
+            "snippet": "# Migrating from API tokens to OAuth access tokens\n\nNote: This guide applies only to integrations that make HTTP requests using an API token created in the Zendesk Admin Center under Apps and integrations > APIs > API tokens. See Managing API token access to the Zendesk API in Zendesk help. APIs tha"
+          },
+          {
+            "url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+            "title": "Using OAuth to authenticate API requests",
+            "snippet": "# Using OAuth to authenticate API requests\n\nThis guide explains how to use OAuth access tokens to authenticate API requests to Zendesk. It covers the two supported OAuth flows, how to implement token refresh, and security best practices.\n\nOAuth is the recommended authentication method because it:\n\n-"
+          },
+          {
+            "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+            "title": "Security and authentication",
+            "snippet": "Security and authentication | Zendesk Developer Docs\n\n# Security and authentication\n\nYou must be a verified user to make API requests. Zendesk supports using OAuth access tokens to authenticate API requests.\n\nNote: If you're an existing Zendesk customer and are currently using basic authentication o"
+          }
+        ]
+      },
+      {
+        "query": "site:zendesk.com API authentication",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+            "title": "How can I authenticate API requests? – Zendesk help",
+            "snippet": "How can I authenticate API requests? – Zendesk help\n\n Important: Zendesk is removing API tokens as an authentication method. Starting July 28, 2026, unused tokens will automatically deactivate. By April 30, 2027, all API tokens will stop working. See Announcing the removal of API tokens as an authen"
+          },
+          {
+            "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+            "title": "Security and authentication",
+            "snippet": "Security and authentication | Zendesk Developer Docs\n\n# Security and authentication\n\nYou must be a verified user to make API requests. Zendesk supports using OAuth access tokens to authenticate API requests.\n\nNote: If you're an existing Zendesk customer and are currently using basic authentication o"
+          },
+          {
+            "url": "https://developer.zendesk.com/documentation/authentication/oauth-vs-api-tokens/",
+            "title": "Understanding the differences between API tokens and OAuth access tokens",
+            "snippet": "# Understanding the differences between API tokens and OAuth access tokens\n\nBoth API tokens and OAuth access tokens let you authenticate Zendesk API requests without providing your Zendesk password. However, the token types support different creation methods and permission setups.\n\nFor server-to-ser"
+          },
+          {
+            "url": "https://support.zendesk.com/hc/en-us/articles/4408845965210-Using-OAuth-authentication-with-your-application",
+            "title": "Using OAuth authentication with your application – Zendesk help",
+            "snippet": "Using OAuth authentication with your application – Zendesk help\n\nYou can useOAuth 2to authenticate all your application's API requests to Zendesk. OAuth provides a secure way for your application to access Zendesk data without having to store and use the passwords of Zendesk users. For added securit"
+          },
+          {
+            "url": "https://developer.zendesk.com/documentation/authentication/",
+            "title": "Authentication | Zendesk Developer Docs",
+            "snippet": "Authentication | Zendesk Developer Docs\n\n# Authentication\n\n## Getting started\n\nUsing OAuth to authenticate API requests Learn how OAuth authentication works and choose the right flow for your integration.\n\nMigrating from API tokens to OAuth access tokens Move from API tokens to OAuth with a step-by-"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:02Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "8a987a4cb3cc51ea346363d15f81c6597dc19a249beeba4a407d6fc2559c834f",
+        "text_len": 5809
+      },
+      {
+        "requested_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+        "final_url": "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:02Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "2a3f461e00afb7b69fb03a6f5147e08ef2ea2241621e438872248d12148ce10d",
+        "text_len": 12323
+      },
+      {
+        "requested_url": "https://developer.zendesk.com/documentation/authentication/oauth-vs-api-tokens/",
+        "final_url": "https://developer.zendesk.com/documentation/authentication/oauth-vs-api-tokens/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:02Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "af138011b7fe28dfce05db6fea3781d074a9aa5a797b53a4f0910977b701f97c",
+        "text_len": 2003
+      },
+      {
+        "requested_url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+        "final_url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:02Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "dd04a2e68c9c8fc03fb8e4f960a9f04b6a2ee887a038bac97ee06170eedb0948",
+        "text_len": 20000
+      },
+      {
+        "requested_url": "https://developer.zendesk.com/documentation/authentication/",
+        "final_url": "https://developer.zendesk.com/documentation/authentication/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:03Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "1dbc5f5aa59408a3f146d2c283f39aad8a7bda5e723f3098f60243aa0f585f3b",
+        "text_len": 1398
+      },
+      {
+        "requested_url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+        "final_url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:02Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "b644931cf25d995915563b735c78178147ad466c74767d10e7f644ec34c5a959",
+        "text_len": 2764
+      },
+      {
+        "requested_url": "https://support.zendesk.com/hc/en-us/articles/4408845965210-Using-OAuth-authentication-with-your-application",
+        "final_url": "https://support.zendesk.com/hc/en-us/articles/4408845965210-Using-OAuth-authentication-with-your-application",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:03Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "6e7884dffbfe19947489883601d294c8844161980632ad21d8b4082b890ab5ee",
+        "text_len": 20000
+      }
+    ]
+  }
+}

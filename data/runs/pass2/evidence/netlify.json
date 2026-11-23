@@ -1,0 +1,372 @@
+{
+  "slug": "netlify",
+  "searches": [
+    {
+      "query": "Netlify API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api",
+          "title": "Get started with the Netlify API",
+          "snippet": "> For the complete documentation index for AI agents, see llms.txt. Markdown versions of any documentation page are available by appending `.md` to its docs.netlify.com URL.\n\nUse the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets"
+        },
+        {
+          "url": "https://developers.netlify.com/guides/generating-personal-access-tokens-with-netlify-oauth/",
+          "title": "Generate personal access tokens with Netlify OAuth | Netlify Developers",
+          "snippet": "Generate personal access tokens with Netlify OAuth | Netlify Developers\n\n# Generate personal access tokens with Netlify OAuth\n\n by Domitrius Clark \n\nEvery action available in the Netlify UI is powered by an API endpoint. This means you can integrate these same capabilities directly into your own too"
+        },
+        {
+          "url": "https://open-api.netlify.com/",
+          "title": "Netlify API documentation",
+          "snippet": "Netlify API documentation\n\n# Netlify's API documentation (2.63.1)\n\nDownload OpenAPI specification: Download\n\nNetlify is a hosting service for the programmable web. It understands your documents and provides an API to handle atomic deploys of websites, manage form submissions, inject JavaScript snipp"
+        },
+        {
+          "url": "https://apis.io/security/netlify/netlify-authentication/",
+          "title": "Netlify API Authentication | APIs.io",
+          "snippet": "Netlify API Authentication | APIs.io\n\n# Netlify Authentication\n\nAuthentication\n\nNetlify secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).\n\n CDN Cloud Continuous Deployment Developer Tools Edge Compu"
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/cli-guides/get-started-with-cli",
+          "title": "Get started with Netlify CLI",
+          "snippet": "> For the complete documentation index for AI agents, see llms.txt. Markdown versions of any documentation page are available by appending `.md` to its docs.netlify.com URL.\n\nNetlify's command line interface (CLI) lets you configure continuous deployment straight from the command line. You can use N"
+        }
+      ]
+    },
+    {
+      "query": "Netlify developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api",
+          "title": "Get started with the Netlify API",
+          "snippet": "> For the complete documentation index for AI agents, see llms.txt. Markdown versions of any documentation page are available by appending `.md` to its docs.netlify.com URL.\n\nUse the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets"
+        },
+        {
+          "url": "https://open-api.netlify.com/",
+          "title": "Netlify API documentation",
+          "snippet": "Netlify API documentation\n\n# Netlify's API documentation (2.63.1)\n\nDownload OpenAPI specification: Download\n\nNetlify is a hosting service for the programmable web. It understands your documents and provides an API to handle atomic deploys of websites, manage form submissions, inject JavaScript snipp"
+        },
+        {
+          "url": "https://docs.netlify.com/api-and-cli-guides/overview/",
+          "title": "API & CLI Guides",
+          "snippet": "> For the complete documentation index for AI agents, see llms.txt. Markdown versions of any documentation page are available by appending `.md` to its docs.netlify.com URL.\n\nLearn best practices from our guides on working with the Netlify API & CLI.\n\n## API Guides\n\nLearn how to integrate with Netli"
+        },
+        {
+          "url": "https://netlify.com/auth.md",
+          "title": "Authenticating AI agents with Netlify",
+          "snippet": "# Authenticating AI agents with Netlify\n\nHow an AI agent gets credentials to act on a Netlify account. Every method ends with a bearer token that acts as a Netlify user. A human always grants access, either by approving an OAuth prompt or by creating a token. There is no anonymous or agent-only cred"
+        },
+        {
+          "url": "https://docs.netlify.com/",
+          "title": "Netlify Docs: Netlify Documentation",
+          "snippet": "> For the complete documentation index for AI agents, see llms.txt. Markdown versions of any documentation page are available by appending `.md` to its docs.netlify.com URL.\n\nimport \"../../styles/home.css\";\n\n{\ndata.sections.map((section) => {\nif (section?.componentType === 'explore') {\nreturn\n\n> Exp"
+        }
+      ]
+    },
+    {
+      "query": "Netlify pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.netlify.com/pricing/",
+          "title": "Netlify Pricing",
+          "snippet": "# Netlify Pricing\n\n## Plans\n\n### Free — $0 forever\n\n- Audience: Individual\n- Credits: 300 credit limit\n- Deploy from AI, Git, or API\n- Private by default until you publish\n- Unlimited deploy previews\n- Build with Agent Runners\n- Add Custom domains with SSL\n- Functions & AI models\n- Store structured "
+        },
+        {
+          "url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/billing-faq-for-credit-based-plans/",
+          "title": "Billing FAQ for Credit-based pricing plans",
+          "snippet": "> For the complete documentation index for AI agents, see llms.txt. Markdown versions of any documentation page are available by appending `.md` to its docs.netlify.com URL.\n\nThis page answers frequently asked questions about Netlify billing for our new Credit-based pricing plans.\n\n> Note - Credit-b"
+        },
+        {
+          "url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/credit-based-pricing-plans",
+          "title": "Credit-based pricing plans",
+          "snippet": "> For the complete documentation index for AI agents, see llms.txt. Markdown versions of any documentation page are available by appending `.md` to its docs.netlify.com URL.\n\nNetlify's Credit-based pricing plans are optimized to simplify metered & usage-based billing and work smoothly with AI develo"
+        },
+        {
+          "url": "https://www.netlify.com/pricing/pro-vs-free/",
+          "title": "Build and run production apps as a team",
+          "snippet": "Pro vs Free\n\n# Build and run production apps as a team\n\nFree works well for solo projects and early experiments. Pro adds shared access, higher usage limits, and 30-day visibility — so your team can deploy and operate production apps together, starting at $20/month.\n\nUpgrade to Pro Compare all plans"
+        },
+        {
+          "url": "https://www.g2.com/products/netlify/pricing",
+          "title": "Netlify Pricing November 2026",
+          "snippet": "Netlify Pricing November 2026\n\nBy Netlify\n\n4.4/5(83)\n\n###### 4.4 out of 5 stars\n\n5 star\n\n81%\n\n4 star\n\n12%\n\n3 star\n\n2 star\n\n2%\n\n1 star\n\n2%\n\n# Netlify Pricing Overview\n\nLast updated: July 28, 2026\n\n## Netlify Pricing Key Insights\n\nNetlify offers 4 pricing editions, starting at $0. Netlify pricing tier"
+        }
+      ]
+    },
+    {
+      "query": "Netlify official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/",
+          "title": "Agent setup overview | Netlify Docs",
+          "snippet": "> For the complete documentation index for AI agents, see llms.txt. Markdown versions of any documentation page are available by appending `.md` to its docs.netlify.com URL.\n\nLearn how to set up any agent with Netlify, including custom agents, in a few minutes. For setup steps written for your speci"
+        },
+        {
+          "url": "https://github.com/netlify/netlify-mcp/",
+          "title": "netlify/netlify-mcp",
+          "snippet": "# netlify/netlify-mcp\n\nNetlify's Official MCP server\n\n- Stars: 73\n- Forks: 47\n- Watchers: 73\n- Open issues: 21\n- Default branch: main\n- Created: 2025-03-20T16:09:33Z\n\n## Languages\n\n- JavaScript\n- TypeScript\n\n## Top Contributors\n\n- jah2488 (25 contributions)\n- sean-roberts (22 contributions)\n- token-"
+        },
+        {
+          "url": "https://www.npmjs.com/package/@netlify/mcp",
+          "title": "@netlify/mcp",
+          "snippet": "# @netlify/mcp\n\nNetlify MCP Server follows the Model Context Protocol (MCP) to enable code agents to use the Netlify API and CLI—so they can create new projects, bui\n\n- Version: 1.22.1\n- License: ISC\n- Homepage: https://docs.netlify.com/welcome/build-with-ai/netlify-mcp-server/\n- Repository: git+htt"
+        },
+        {
+          "url": "https://www.netlify.com/blog/netlify-mcp-server-ai-agents-deploy-your-code/",
+          "title": "Netlify MCP Server: AI Agents Can Now Deploy Code Directly | Netlify",
+          "snippet": "> Netlify MCP Server is a part of Agent Week. A week of announcements focused on making it easier, faster, and safer to go from prompt to production.\n\nYou’ve probably experienced this: your AI agent in Cursor generates a perfect React app, complete with components and thoughtful styling. Then it sto"
+        },
+        {
+          "url": "https://www.netlify.com/knowledge-base/netlify-for-coding-agents/",
+          "title": "Netlify for Coding Agents: Build and Ship a Full App",
+          "snippet": "An agent that writes an app can also provision its backend and ship it, without a human clicking through a dashboard. Netlify exposes each primitive through a CLI command, an SDK, or the MCP server, and every step returns structured output an agent can parse. This reference maps the full build-and-s"
+        }
+      ]
+    },
+    {
+      "query": "site:docs.netlify.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/",
+          "title": "Agent setup overview | Netlify Docs",
+          "snippet": "> For the complete documentation index for AI agents, see llms.txt. Markdown versions of any documentation page are available by appending `.md` to its docs.netlify.com URL.\n\nLearn how to set up any agent with Netlify, including custom agents, in a few minutes. For setup steps written for your speci"
+        },
+        {
+          "url": "https://docs.netlify.com/llms.txt",
+          "title": "",
+          "snippet": "# LLM documentation for Netlify\n\n> Comprehensive documentation for the Netlify web platform for building and deploying production-ready sites and web apps that are highly performant, secure, and ready to scale. Covers serverless functions, edge functions, async workloads, data and blob storage, imag"
+        },
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/set-up-claude-code-for-netlify/",
+          "title": "Set up Claude Code for Netlify | Netlify Docs",
+          "snippet": "Set up Claude Code for Netlify | Netlify Docs\n\nThe new Netlify experience is here. Learn more or join the waitlist.\n\n# Set up Claude Code for Netlify\n\nLearn different ways to set up Claude Code for use with Netlify.\n\nThis setup guide includes:\n\n- several ways to set up your Claude Code agent for suc"
+        },
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/overview",
+          "title": "Overview",
+          "snippet": "> For the complete documentation index for AI agents, see llms.txt. Markdown versions of any documentation page are available by appending `.md` to its docs.netlify.com URL.\n\nOptimize your AI workflows using Agent Runners, AI Gateway, the Netlify MCP Server, or other AI tools and learn best practice"
+        },
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/set-up-codex-for-netlify",
+          "title": "Set up Codex for Netlify",
+          "snippet": "> For the complete documentation index for AI agents, see llms.txt. Markdown versions of any documentation page are available by appending `.md` to its docs.netlify.com URL.\n\nLearn different ways to set up Codex for use with Netlify.\n\nThis setup guide includes:\n\n- several ways to set up your Codex a"
+        }
+      ]
+    },
+    {
+      "query": "site:netlify.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.netlify.com/blog/mcp-a-key-unlock-for-delivering-a-good-ax/",
+          "title": "MCP: A key unlock for delivering a good AX",
+          "snippet": "Agents are becoming ubiquitous tools for end-users to interact with digital services and platforms. Businesses that want to stay relevant in the world where agents and AI applications are the entry point for their discovery and interactions, they must support this new technology by providing a good "
+        },
+        {
+          "url": "https://developers.netlify.com/guides/write-mcps-on-netlify/",
+          "title": "Building MCPs with Netlify | Netlify Developers",
+          "snippet": "Building MCPs with Netlify | Netlify Developers\n\n# Building MCPs with Netlify\n\n by Sean Roberts \n\nLet’s build an MCP server and deploy it to Netlify!\n\nModel Context Protocol (MCP) provides a standardized way for AI agents to seamlessly interact with external tools, data sources, and APIs, greatly en"
+        },
+        {
+          "url": "https://www.netlify.com/blog/mcp-goes-stateless-and-extensible/",
+          "title": "MCP goes stateless and extensible",
+          "snippet": "Agents are now a primary user of the software we build. At Netlify, we’ve spent the last couple of years thinking deeply about Agent Experience (AX): how easily an agent can discover what a service does, call it reliably, and recover when something goes wrong. Much of that experience is determined b"
+        },
+        {
+          "url": "https://www.netlify.com/blog/netlify-mcp-server-ai-agents-deploy-your-code/",
+          "title": "Netlify MCP Server: AI Agents Can Now Deploy Code Directly | Netlify",
+          "snippet": "> Netlify MCP Server is a part of Agent Week. A week of announcements focused on making it easier, faster, and safer to go from prompt to production.\n\nYou’ve probably experienced this: your AI agent in Cursor generates a perfect React app, complete with components and thoughtful styling. Then it sto"
+        },
+        {
+          "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/",
+          "title": "Agent setup overview | Netlify Docs",
+          "snippet": "> For the complete documentation index for AI agents, see llms.txt. Markdown versions of any documentation page are available by appending `.md` to its docs.netlify.com URL.\n\nLearn how to set up any agent with Netlify, including custom agents, in a few minutes. For setup steps written for your speci"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.netlify.com/api",
+      "final_url": "https://docs.netlify.com/api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:58Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "e26226fa3eebeb9c2ea3d0d200a0ad780b761cc3125bac9c8bc8a9dc10cf0f88",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developers.netlify.com/guides/generating-personal-access-tokens-with-netlify-oauth/",
+      "final_url": "https://developers.netlify.com/guides/generating-personal-access-tokens-with-netlify-oauth/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:51Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9c5107acc394ed1f9a0727ac459f5e7138ce6e0e393bb57f1e01014729f76576",
+      "text_len": 8697
+    },
+    {
+      "requested_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api",
+      "final_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:51Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e26226fa3eebeb9c2ea3d0d200a0ad780b761cc3125bac9c8bc8a9dc10cf0f88",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/credit-based-pricing-plans",
+      "final_url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/credit-based-pricing-plans",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5bfdb90facb27fb59b14bc62f12e5f09eb7ebbe2d041a7118dc402e66570c4e2",
+      "text_len": 18312
+    },
+    {
+      "requested_url": "https://www.netlify.com/blog/netlify-mcp-server-ai-agents-deploy-your-code/",
+      "final_url": "https://www.netlify.com/blog/netlify-mcp-server-ai-agents-deploy-your-code/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:55Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8a4b0b76b8ce2eb1fa31a4a90dc6e4d88b87659b521e12ad8997869ce001f30f",
+      "text_len": 3635
+    },
+    {
+      "requested_url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/",
+      "final_url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:55Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e53c3741982e252e40901dc84268ea4e47c83a28e2a3faeac3519bc56187dc39",
+      "text_len": 5647
+    },
+    {
+      "requested_url": "https://developers.netlify.com/guides/write-mcps-on-netlify/",
+      "final_url": "https://developers.netlify.com/guides/write-mcps-on-netlify/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "46c45d026f7916bee92816a28a22d4cad4c3ed6afaea2fbb88ce49e2ec89a857",
+      "text_len": 14513
+    },
+    {
+      "requested_url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/billing-faq-for-credit-based-plans/",
+      "final_url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/billing-faq-for-credit-based-plans/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3f7cc584e6841348173e0627b0e55e5856d76abbf43f7dd55f7fda29944181a2",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://netlify.com/auth.md",
+      "final_url": "https://netlify.com/auth.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "bba64e8860f6a72b5b6d681955f10edab921f93a274f12c13b79ea79afcba748",
+      "text_len": 5210
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.netlify.com/api",
+        "quote": "If you're making a public integration with Netlify for others to enjoy, you must use OAuth2.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.netlify.com/api",
+        "quote": "To authenticate API requests, include the token in the authorization header:",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/credit-based-pricing-plans",
+        "quote": "Netlify's Credit-based plans currently include the Free plan, Personal plan, and Pro plan.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.netlify.com/api",
+        "quote": "You can register a new application in your Netlify user settings for OAuth applications.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.netlify.com/api",
+        "quote": "Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/",
+        "quote": "npx -y add-mcp https://mcp.netlify.com/mcp",
+        "verified": true
+      },
+      {
+        "url": "https://www.netlify.com/blog/netlify-mcp-server-ai-agents-deploy-your-code/",
+        "quote": "Today we’re releasing the Netlify MCP Server.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.netlify.com/api",
+        "quote": "All URLs start with `https://api.netlify.com/api/v1/`.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://docs.netlify.com/api",
+        "quote": "Use the Netlify REST API to manage atomic deploys of your sites and apps",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

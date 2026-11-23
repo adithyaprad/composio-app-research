@@ -1,0 +1,626 @@
+{
+  "slug": "woocommerce",
+  "searches": [
+    {
+      "query": "WooCommerce API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+          "title": "Authentication | WooCommerce developer docs",
+          "snippet": "Authentication | WooCommerce developer docs\n\nOn this page\n\n# Authentication\n\nWooCommerce includes two ways to authenticate with the WP REST API. It is also possible to authenticate using any WP REST API authentication plugin or method.\n\n## REST API keys​\n\nPre-generated keys can be used to authentica"
+        },
+        {
+          "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+          "title": "WooCommerce REST API | WooCommerce developer docs",
+          "snippet": "WooCommerce REST API | WooCommerce developer docs\n\nOn this page\n\n# WooCommerce REST API\n\nWooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication meth"
+        },
+        {
+          "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/v3.html?javascript=",
+          "title": "WooCommerce REST API Documentation v3",
+          "snippet": "WooCommerce REST API Documentation v3\n\n- Introduction\n\n- Requirements\n- Version\n- Schema\n- Requests/Responses\n- Authentication\n- Parameters\n- Pagination\n- Link Header\n- Errors\n- HTTP Verbs\n- JSONP Support\n- Webhooks\n- Troubleshooting\n- Official Libraries\n- Tools\n- Index\n\n- Index Properties\n- View In"
+        },
+        {
+          "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+          "title": "WooCommerce REST API Documentation - WooCommerce",
+          "snippet": "WooCommerce REST API Documentation - WooCommerce\n\n# WooCommerce REST API\n\nThe WooCommerce REST API connects your store to external systems and services. Most integrations require you to generate API keys in WooCommerce and enter them in the external service to establish the connection. This document"
+        },
+        {
+          "url": "https://github.com/woocommerce/wc-api-php/",
+          "title": "woocommerce/wc-api-php",
+          "snippet": "# woocommerce/wc-api-php\n\nWooCommerce REST API PHP Library\n\n- Stars: 543\n- Forks: 157\n- Watchers: 543\n- Open issues: 5\n- License: MIT License\n- Homepage: https://packagist.org/packages/automattic/woocommerce\n- Default branch: trunk\n- Created: 2015-02-04T05:08:32Z\n\n## Languages\n\n- PHP\n\n## Top Contrib"
+        }
+      ]
+    },
+    {
+      "query": "WooCommerce developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+          "title": "WooCommerce REST API | WooCommerce developer docs",
+          "snippet": "WooCommerce REST API | WooCommerce developer docs\n\nOn this page\n\n# WooCommerce REST API\n\nWooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication meth"
+        },
+        {
+          "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+          "title": "Authentication | WooCommerce developer docs",
+          "snippet": "Authentication | WooCommerce developer docs\n\nOn this page\n\n# Authentication\n\nWooCommerce includes two ways to authenticate with the WP REST API. It is also possible to authenticate using any WP REST API authentication plugin or method.\n\n## REST API keys​\n\nPre-generated keys can be used to authentica"
+        },
+        {
+          "url": "https://developer.woocommerce.com/docs/apis/",
+          "title": "Getting Started with WooCommerce APIs | WooCommerce developer docs",
+          "snippet": "Getting Started with WooCommerce APIs | WooCommerce developer docs\n\n# Getting Started with WooCommerce APIs\n\nWooCommerce provides a number of programmatic APIs to interact with WooCommerce store data.\n\n## WC REST API​\n\nThe WC REST API is a powerful part of WooCommerce which lets you read and write v"
+        },
+        {
+          "url": "https://developer.woocommerce.com/docs/apis/store-api/",
+          "title": "WooCommerce Store API | WooCommerce developer docs",
+          "snippet": "WooCommerce Store API | WooCommerce developer docs\n\nOn this page\n\n# WooCommerce Store API\n\nThe Store API provides public Rest API endpoints for the development of customer-facing cart, checkout, and product functionality. It follows many of the patterns used in the WordPress REST API.\n\nIn contrast t"
+        },
+        {
+          "url": "https://developer.woocommerce.com/docs/apis/rest-api/v3/",
+          "title": "REST API v3",
+          "snippet": "REST API v3 | WooCommerce developer docs\n\n# REST API v3\n\nThe current and recommended version of the WooCommerce REST API. Use `/wp-json/wc/v3/` endpoints for all new integrations.\n\nWhen WooPayments is active, it adds `/wp-json/wc/v3/payments/` endpoints for payment reports, authorizations, and payou"
+        }
+      ]
+    },
+    {
+      "query": "WooCommerce pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://woocommerce.com/pricing/",
+          "title": "WooCommerce Pricing Puts You In Control - WooCommerce",
+          "snippet": "WooCommerce Pricing Puts You In Control - WooCommerce\n\n# WooCommerce pricing puts you in control\n\nWooCommerce is the free, Open Source ecommerce platform for WordPress. Build a custom online store and only pay for the added features you use — no platform fees, no revenue share.\n\n## How WooCommerce p"
+        },
+        {
+          "url": "https://woocommerce.com/products/woocommerce-subscriptions/",
+          "title": "WooCommerce Subscriptions",
+          "snippet": "WooCommerce Subscriptions - WooCommerce\n\n# WooCommerce Subscriptions \n\n by Woo \n\n WooCommerce Subscriptions is a WooCommerce extension that lets customers subscribe to your products or services and pay on a weekly, monthly, or annual basis. It integrates with over 25 payment gateways for automatic r"
+        },
+        {
+          "url": "https://woocommerce.com/document/free-trial-extensions/",
+          "title": "Try WooCommerce extensions before you buy Documentation - WooCommerce",
+          "snippet": "Try WooCommerce extensions before you buy Documentation - WooCommerce\n\n# Try WooCommerce extensions before you buy\n\nYou can try selected WooCommerce Marketplace extensions for 30 days via free trial using an automatically-created personal demo site.\n\nNote: Demo testwoo.com sites are not eligible for"
+        },
+        {
+          "url": "https://woocommerce.com/document/frequently-asked-questions/",
+          "title": "Frequently Asked Questions Documentation - WooCommerce",
+          "snippet": "Frequently Asked Questions Documentation - WooCommerce\n\n# Frequently Asked Questions\n\nThis page contains answers to Frequently Asked Questions related to WooCommerce, products sold on WooCommerce.com, and account management on WooCommerce.com.\n\n## General Questions \n\n### What is WordPress? \n\nWordPre"
+        },
+        {
+          "url": "https://we.inc/pricing-guides/woocommerce-pricing",
+          "title": "WooCommerce Pricing (2026): Free Plugin, Real Store Cost",
+          "snippet": "WooCommerce Pricing (2026): Free Plugin, Real Store Cost\n\n# WooCommerce pricing: what a WooCommerce store really costs\n\nThe plugin costs nothing. Hosting, a domain, card fees and any paid extensions are where the money goes, so here is each line with today's price.\n\nBuilding your site on We.Inc is f"
+        }
+      ]
+    },
+    {
+      "query": "WooCommerce official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.woocommerce.com/docs/features/mcp/",
+          "title": "Model Context Protocol (MCP) Integration | WooCommerce developer docs",
+          "snippet": "Model Context Protocol (MCP) Integration | WooCommerce developer docs\n\nOn this page\n\n# Model Context Protocol (MCP) Integration\n\n## Introduction​\n\nWooCommerce registers product and order abilities in WordPress. With the MCP Adapter plugin, AI clients can discover and run these store operations throu"
+        },
+        {
+          "url": "https://developer.woocommerce.com/2026/10/21/woocommerce-11-3-mcp/",
+          "title": "WooCommerce 11.3 MCP Adaptor updates Advisories – The WooCommerce Developer Blog",
+          "snippet": "WooCommerce 11.3 MCP Adaptor updates Advisories – The WooCommerce Developer Blog\n\n# WooCommerce 11.3 MCP Adaptor updates\n\nDarren Ethier\n\nOct 21, 2026\n\nStarting with WooCommerce 11.3, WooCommerce core product and order abilities will be enabled by default, and will require the WordPress MCP Adapter p"
+        },
+        {
+          "url": "https://developer.woocommerce.com/2026/05/12/mcp-abilities-api-10-9/",
+          "title": "Introducing canonical WooCommerce abilities for products and orders Advisories – The WooCommerce Developer Blog",
+          "snippet": "Introducing canonical WooCommerce abilities for products and orders Advisories – The WooCommerce Developer Blog\n\n# Introducing canonical WooCommerce abilities for products and orders\n\nDarren Ethier\n\nMay 12, 2026\n\nWooCommerce 10.9 introduces an initial set of canonical WooCommerce domain abilities fo"
+        },
+        {
+          "url": "https://woocommerce.com/posts/woocommerce-mcp/",
+          "title": "WooCommerce MCP: Talk to your store like it's your AI assistant",
+          "snippet": "WooCommerce MCP: Talk to your store like it's your AI assistant\n\n# WooCommerce MCP: Talk to your store like it’s your AI assistant\n\n By Kamlesh Vidhani • Apr 15, 2026 \n\nThis post covers what MCP is, how it works, and how to get started with the built-in Abilities. For more on AI, commerce, and how t"
+        },
+        {
+          "url": "https://developer.woocommerce.com/2025/11/03/call-for-testing-woocommerce-mcp-beta/",
+          "title": "Call for Testing: WooCommerce MCP Beta Roadmap – The WooCommerce Developer Blog",
+          "snippet": "Call for Testing: WooCommerce MCP Beta Roadmap – The WooCommerce Developer Blog\n\n# Call for Testing: WooCommerce MCP Beta\n\nBrian Coords\n\nNov 3, 2025\n\nAs of WooCommerce 10.3, an early version of the WooCommerce MCP integration is in beta and ready for broader testing. This new feature enables AI assi"
+        }
+      ]
+    },
+    {
+      "query": "site:woocommerce.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.woocommerce.com/docs/features/mcp",
+          "title": "Model Context Protocol (MCP) Integration",
+          "snippet": "# Model Context Protocol (MCP) Integration\n\n## Introduction\n\nWooCommerce registers product and order abilities in WordPress. With the MCP Adapter plugin, AI clients can discover and run these store operations through the Model Context Protocol (MCP), subject to WordPress and WooCommerce permissions."
+        },
+        {
+          "url": "https://woocommerce.com/posts/woocommerce-mcp/",
+          "title": "WooCommerce MCP: Talk to your store like it's your AI assistant",
+          "snippet": "WooCommerce MCP: Talk to your store like it's your AI assistant\n\n# WooCommerce MCP: Talk to your store like it’s your AI assistant\n\n By Kamlesh Vidhani • Apr 15, 2026 \n\nThis post covers what MCP is, how it works, and how to get started with the built-in Abilities. For more on AI, commerce, and how t"
+        },
+        {
+          "url": "https://developer.woocommerce.com/2026/10/21/woocommerce-11-3-mcp/",
+          "title": "WooCommerce 11.3 MCP Adaptor updates Advisories – The WooCommerce Developer Blog",
+          "snippet": "WooCommerce 11.3 MCP Adaptor updates Advisories – The WooCommerce Developer Blog\n\n# WooCommerce 11.3 MCP Adaptor updates\n\nDarren Ethier\n\nOct 21, 2026\n\nStarting with WooCommerce 11.3, WooCommerce core product and order abilities will be enabled by default, and will require the WordPress MCP Adapter p"
+        },
+        {
+          "url": "https://woocommerce.com/products/w7s-mcp/",
+          "title": "MCP (Model Context Protocol) - WooCommerce Marketplace",
+          "snippet": "MCP (Model Context Protocol) - WooCommerce Marketplace\n\n# MCP (Model Context Protocol) for WooCommerce \n\n by W7S \n\n Connect Claude and ChatGPT to your store and manage orders, products and customers in plain language. You control what they can access. \n\nLatest version\n\n2.0.0\n\nActive installs\n\n 200+ "
+        },
+        {
+          "url": "https://woocommerce.com/document/w7s-mcp/",
+          "title": "MCP for WooCommerce Documentation - WooCommerce",
+          "snippet": "MCP for WooCommerce Documentation - WooCommerce\n\n# MCP for WooCommerce\n\nMCP for WooCommerce by w7s connects Claude, ChatGPT, and other AI assistants to your WooCommerce store so they can work with your orders, products, customers, and more in plain language. It runs its own Model Context Protocol (M"
+        }
+      ]
+    },
+    {
+      "query": "WooCommerce API authentication OAuth API key",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+          "title": "Authentication | WooCommerce developer docs",
+          "snippet": "Authentication | WooCommerce developer docs\n\nOn this page\n\n# Authentication\n\nWooCommerce includes two ways to authenticate with the WP REST API. It is also possible to authenticate using any WP REST API authentication plugin or method.\n\n## REST API keys​\n\nPre-generated keys can be used to authentica"
+        },
+        {
+          "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+          "title": "WooCommerce REST API Documentation - WooCommerce",
+          "snippet": "WooCommerce REST API Documentation - WooCommerce\n\n# WooCommerce REST API\n\nThe WooCommerce REST API connects your store to external systems and services. Most integrations require you to generate API keys in WooCommerce and enter them in the external service to establish the connection. This document"
+        },
+        {
+          "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+          "title": "WooCommerce REST API | WooCommerce developer docs",
+          "snippet": "WooCommerce REST API | WooCommerce developer docs\n\nOn this page\n\n# WooCommerce REST API\n\nWooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication meth"
+        },
+        {
+          "url": "https://github.com/woocommerce/wc-api-php/",
+          "title": "woocommerce/wc-api-php",
+          "snippet": "# woocommerce/wc-api-php\n\nWooCommerce REST API PHP Library\n\n- Stars: 543\n- Forks: 157\n- Watchers: 543\n- Open issues: 5\n- License: MIT License\n- Homepage: https://packagist.org/packages/automattic/woocommerce\n- Default branch: trunk\n- Created: 2015-02-04T05:08:32Z\n\n## Languages\n\n- PHP\n\n## Top Contrib"
+        },
+        {
+          "url": "https://github.com/woocommerce/woocommerce-rest-api-docs/blob/master/source/includes/v3/_introduction.md",
+          "title": "source/includes/v3/_introduction.md",
+          "snippet": "# source/includes/v3/_introduction.md\n\n- Branch: master\n- Repository: woocommerce/woocommerce-rest-api-docs\n\n---\n\n# Introduction #\n\nIntroduced in WooCommerce 2.1, the REST API allows WooCommerce data to be created, read, updated, and deleted using JSON format.\n\n## Requirements ##\n\nYou must be using "
+        }
+      ]
+    },
+    {
+      "query": "site:woocommerce.com API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+          "title": "WooCommerce REST API | WooCommerce developer docs",
+          "snippet": "WooCommerce REST API | WooCommerce developer docs\n\nOn this page\n\n# WooCommerce REST API\n\nWooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication meth"
+        },
+        {
+          "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+          "title": "Authentication | WooCommerce developer docs",
+          "snippet": "Authentication | WooCommerce developer docs\n\nOn this page\n\n# Authentication\n\nWooCommerce includes two ways to authenticate with the WP REST API. It is also possible to authenticate using any WP REST API authentication plugin or method.\n\n## REST API keys​\n\nPre-generated keys can be used to authentica"
+        },
+        {
+          "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+          "title": "WooCommerce REST API Documentation - WooCommerce",
+          "snippet": "WooCommerce REST API Documentation - WooCommerce\n\n# WooCommerce REST API\n\nThe WooCommerce REST API connects your store to external systems and services. Most integrations require you to generate API keys in WooCommerce and enter them in the external service to establish the connection. This document"
+        },
+        {
+          "url": "https://woocommerce.com/document/customer-orders-api/",
+          "title": "WooCommerce.com Orders and Invoices API Documentation - WooCommerce",
+          "snippet": "WooCommerce.com Orders and Invoices API Documentation - WooCommerce\n\n# WooCommerce.com Orders and Invoices API\n\nIf you purchase extensions, subscriptions, or other products from WooCommerce.com, you can use this REST API to retrieve your own order history and download invoices programmatically. This"
+        },
+        {
+          "url": "https://developer.woocommerce.com/docs/woo-marketplace/billing-api-saas/",
+          "title": "Billing API for SaaS products | WooCommerce developer docs",
+          "snippet": "Billing API for SaaS products | WooCommerce developer docs\n\nOn this page\n\n# Billing API for SaaS products\n\n## Introduction​\n\nWoo Marketplace's Billing API enables you to sell subscriptions for your SaaS app on the Woo Marketplace, via our in-house billing and subscription system. Woo Marketplace's B"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://woocommerce.com/document/woocommerce-rest-api",
+      "final_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:48Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cfc956d253cae460e2a4e2c842bd1f62f3a041af13688a279903bbcec27769c2",
+      "text_len": 3937
+    },
+    {
+      "requested_url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+      "final_url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:48Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1a557418b5a7748cdd1b542faf02ca07615ef293b74a93d2b3fb707e3ce88727",
+      "text_len": 12709
+    },
+    {
+      "requested_url": "https://woocommerce.com/pricing/",
+      "final_url": "https://woocommerce.com/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:51Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "41434c3b5b6427447c86a1fccfcab355ed6fdd60c62032377429a3770cf90ab5",
+      "text_len": 6886
+    },
+    {
+      "requested_url": "https://developer.woocommerce.com/2026/05/12/mcp-abilities-api-10-9/",
+      "final_url": "https://developer.woocommerce.com/2026/05/12/mcp-abilities-api-10-9/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7828fea9bbeec649d9985770e86033e65d216562eb93c3f07d1069c65833a72f",
+      "text_len": 13077
+    },
+    {
+      "requested_url": "https://developer.woocommerce.com/docs/features/mcp",
+      "final_url": "https://developer.woocommerce.com/docs/features/mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ac16d8f6bf102a954b0cc7d0a9f587735859d9c991b96bf8c87e2fd26f8fb487",
+      "text_len": 16722
+    },
+    {
+      "requested_url": "https://developer.woocommerce.com/2025/11/03/call-for-testing-woocommerce-mcp-beta/",
+      "final_url": "https://developer.woocommerce.com/2025/11/03/call-for-testing-woocommerce-mcp-beta/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "aa81f0045d2fb398137eef82d391d2a4d660d51f4174248fa374c2a708d3231b",
+      "text_len": 5132
+    },
+    {
+      "requested_url": "https://developer.woocommerce.com/2026/10/21/woocommerce-11-3-mcp/",
+      "final_url": "https://developer.woocommerce.com/2026/10/21/woocommerce-11-3-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "daa98e4aa8a92f87b946bec83d707b94d40b430d93b3e638b0418ea615febfdf",
+      "text_len": 6279
+    },
+    {
+      "requested_url": "https://developer.woocommerce.com/docs/apis/",
+      "final_url": "https://developer.woocommerce.com/docs/apis/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "30e571be7e20ee95f8d291484c4bf6cc7816e87709c432f025334e0939a26e1d",
+      "text_len": 2593
+    },
+    {
+      "requested_url": "https://developer.woocommerce.com/docs/apis/",
+      "final_url": "https://developer.woocommerce.com/docs/apis/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:39Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "30e571be7e20ee95f8d291484c4bf6cc7816e87709c432f025334e0939a26e1d",
+      "text_len": 2593
+    },
+    {
+      "requested_url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+      "final_url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1a557418b5a7748cdd1b542faf02ca07615ef293b74a93d2b3fb707e3ce88727",
+      "text_len": 12709
+    },
+    {
+      "requested_url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+      "final_url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "41446b81f8380ef7812ee27aa8ef4513e2b3531eb7ac6032efe4e9282aefb136",
+      "text_len": 9223
+    },
+    {
+      "requested_url": "https://developer.woocommerce.com/docs/woo-marketplace/billing-api-saas/",
+      "final_url": "https://developer.woocommerce.com/docs/woo-marketplace/billing-api-saas/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:39Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "49d833e3e413c7b193aad5591594c4f722edb18f6598a9da2b6bad9b8fb823fb",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://woocommerce.com/document/customer-orders-api/",
+      "final_url": "https://woocommerce.com/document/customer-orders-api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:39Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6bc570987eb66a16768cdb0c7bc613d9a6bd13a7638b84959df7d159d3b70bb8",
+      "text_len": 6423
+    },
+    {
+      "requested_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+      "final_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cfc956d253cae460e2a4e2c842bd1f62f3a041af13688a279903bbcec27769c2",
+      "text_len": 3937
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+        "quote": "You may use HTTP Basic Auth by providing the REST API Consumer Key as the username",
+        "verified": true
+      },
+      {
+        "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+        "quote": "Pre-generated keys can be used to authenticate use of the REST API endpoints.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+        "quote": "choose basic auth and enter your consumer key and consumer secret keys from WooCommerce into the username and password fields.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+        "quote": "Go to WooCommerce > Settings > Advanced > REST API.",
+        "verified": true
+      },
+      {
+        "url": "https://woocommerce.com/pricing/",
+        "quote": "WooCommerce is free to download and use",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.woocommerce.com/docs/apis/",
+        "quote": "lets you read and write various parts of WooCommerce data such as orders, products, coupons, customers, and shipping zones",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developer.woocommerce.com/docs/features/mcp/",
+        "quote": "With the MCP Adapter plugin, AI clients can discover and run these store operations through the Model Context Protocol (MCP)",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+        "quote": "Most integrations require you to generate API keys in WooCommerce and enter them in the external service",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://woocommerce.com/pricing/",
+        "quote": "WooCommerce is the free, Open Source ecommerce platform for WordPress.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "basic_transport_not_method"
+    ],
+    "findings": [
+      {
+        "rule": "basic_transport_not_method",
+        "source": "llm",
+        "reason": "The docs describe HTTP Basic Auth only as a way to send the REST API consumer key and secret, which makes it api_key transport and not a separate username/password method.",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+            "quote": "You may use HTTP Basic Auth by providing the REST API Consumer Key as the username"
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth"
+    ],
+    "claims": [
+      "auth"
+    ],
+    "review_searches": [
+      {
+        "query": "WooCommerce API authentication OAuth API key",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+            "title": "Authentication | WooCommerce developer docs",
+            "snippet": "Authentication | WooCommerce developer docs\n\nOn this page\n\n# Authentication\n\nWooCommerce includes two ways to authenticate with the WP REST API. It is also possible to authenticate using any WP REST API authentication plugin or method.\n\n## REST API keys​\n\nPre-generated keys can be used to authentica"
+          },
+          {
+            "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+            "title": "WooCommerce REST API Documentation - WooCommerce",
+            "snippet": "WooCommerce REST API Documentation - WooCommerce\n\n# WooCommerce REST API\n\nThe WooCommerce REST API connects your store to external systems and services. Most integrations require you to generate API keys in WooCommerce and enter them in the external service to establish the connection. This document"
+          },
+          {
+            "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+            "title": "WooCommerce REST API | WooCommerce developer docs",
+            "snippet": "WooCommerce REST API | WooCommerce developer docs\n\nOn this page\n\n# WooCommerce REST API\n\nWooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication meth"
+          },
+          {
+            "url": "https://github.com/woocommerce/wc-api-php/",
+            "title": "woocommerce/wc-api-php",
+            "snippet": "# woocommerce/wc-api-php\n\nWooCommerce REST API PHP Library\n\n- Stars: 543\n- Forks: 157\n- Watchers: 543\n- Open issues: 5\n- License: MIT License\n- Homepage: https://packagist.org/packages/automattic/woocommerce\n- Default branch: trunk\n- Created: 2015-02-04T05:08:32Z\n\n## Languages\n\n- PHP\n\n## Top Contrib"
+          },
+          {
+            "url": "https://github.com/woocommerce/woocommerce-rest-api-docs/blob/master/source/includes/v3/_introduction.md",
+            "title": "source/includes/v3/_introduction.md",
+            "snippet": "# source/includes/v3/_introduction.md\n\n- Branch: master\n- Repository: woocommerce/woocommerce-rest-api-docs\n\n---\n\n# Introduction #\n\nIntroduced in WooCommerce 2.1, the REST API allows WooCommerce data to be created, read, updated, and deleted using JSON format.\n\n## Requirements ##\n\nYou must be using "
+          }
+        ]
+      },
+      {
+        "query": "site:woocommerce.com API authentication",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+            "title": "WooCommerce REST API | WooCommerce developer docs",
+            "snippet": "WooCommerce REST API | WooCommerce developer docs\n\nOn this page\n\n# WooCommerce REST API\n\nWooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication meth"
+          },
+          {
+            "url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+            "title": "Authentication | WooCommerce developer docs",
+            "snippet": "Authentication | WooCommerce developer docs\n\nOn this page\n\n# Authentication\n\nWooCommerce includes two ways to authenticate with the WP REST API. It is also possible to authenticate using any WP REST API authentication plugin or method.\n\n## REST API keys​\n\nPre-generated keys can be used to authentica"
+          },
+          {
+            "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+            "title": "WooCommerce REST API Documentation - WooCommerce",
+            "snippet": "WooCommerce REST API Documentation - WooCommerce\n\n# WooCommerce REST API\n\nThe WooCommerce REST API connects your store to external systems and services. Most integrations require you to generate API keys in WooCommerce and enter them in the external service to establish the connection. This document"
+          },
+          {
+            "url": "https://woocommerce.com/document/customer-orders-api/",
+            "title": "WooCommerce.com Orders and Invoices API Documentation - WooCommerce",
+            "snippet": "WooCommerce.com Orders and Invoices API Documentation - WooCommerce\n\n# WooCommerce.com Orders and Invoices API\n\nIf you purchase extensions, subscriptions, or other products from WooCommerce.com, you can use this REST API to retrieve your own order history and download invoices programmatically. This"
+          },
+          {
+            "url": "https://developer.woocommerce.com/docs/woo-marketplace/billing-api-saas/",
+            "title": "Billing API for SaaS products | WooCommerce developer docs",
+            "snippet": "Billing API for SaaS products | WooCommerce developer docs\n\nOn this page\n\n# Billing API for SaaS products\n\n## Introduction​\n\nWoo Marketplace's Billing API enables you to sell subscriptions for your SaaS app on the Woo Marketplace, via our in-house billing and subscription system. Woo Marketplace's B"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://developer.woocommerce.com/docs/apis/",
+        "final_url": "https://developer.woocommerce.com/docs/apis/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:39Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "30e571be7e20ee95f8d291484c4bf6cc7816e87709c432f025334e0939a26e1d",
+        "text_len": 2593
+      },
+      {
+        "requested_url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+        "final_url": "https://developer.woocommerce.com/docs/apis/rest-api/authentication/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:33Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "1a557418b5a7748cdd1b542faf02ca07615ef293b74a93d2b3fb707e3ce88727",
+        "text_len": 12709
+      },
+      {
+        "requested_url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+        "final_url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:33Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "41446b81f8380ef7812ee27aa8ef4513e2b3531eb7ac6032efe4e9282aefb136",
+        "text_len": 9223
+      },
+      {
+        "requested_url": "https://developer.woocommerce.com/docs/woo-marketplace/billing-api-saas/",
+        "final_url": "https://developer.woocommerce.com/docs/woo-marketplace/billing-api-saas/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:39Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "49d833e3e413c7b193aad5591594c4f722edb18f6598a9da2b6bad9b8fb823fb",
+        "text_len": 20000
+      },
+      {
+        "requested_url": "https://woocommerce.com/document/customer-orders-api/",
+        "final_url": "https://woocommerce.com/document/customer-orders-api/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:39Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "6bc570987eb66a16768cdb0c7bc613d9a6bd13a7638b84959df7d159d3b70bb8",
+        "text_len": 6423
+      },
+      {
+        "requested_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+        "final_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:33Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "cfc956d253cae460e2a4e2c842bd1f62f3a041af13688a279903bbcec27769c2",
+        "text_len": 3937
+      }
+    ]
+  }
+}

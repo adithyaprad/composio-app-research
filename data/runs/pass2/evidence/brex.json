@@ -1,0 +1,355 @@
+{
+  "slug": "brex",
+  "searches": [
+    {
+      "query": "Brex API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.brex.com/guides/authentication",
+          "title": "",
+          "snippet": "## Authentication\n\nTo start making calls to Brex APIs, generate a user token from your Brex dashboard and pass it along in your API call headers.\n\n#### 1. Generate a user token\n\n1. Sign in to dashboard.brex.com as an account admin or card admin.\n2. Go to Developer > Settings.\n\n- If your company has "
+        },
+        {
+          "url": "https://developer.brex.com/guides/quickstart",
+          "title": "Quickstart",
+          "snippet": "# Quickstart\n\nThis guide will help you get up and running making your first Brex API call in just a few minutes. You will create a user token and make your first call against the Brex Team API to see the current user associated with that access token.\n\nThis guide assumes you are a Brex customer with"
+        },
+        {
+          "url": "https://developer.brex.com/guides/roles_permissions_scopes",
+          "title": "",
+          "snippet": "## User roles and permissions\n\nMost Brex APIs require a Brex admin to grant access. In these cases, only users with the account admin role can be authenticated.\n\nAdditionally:\n\n- Bookkeepers may access the accounting API.\n- Partners using the onboarding API authenticate with a Client Credentials Gra"
+        },
+        {
+          "url": "https://developer.brex.com/docs/mcp",
+          "title": "Brex MCP",
+          "snippet": "# Brex MCP\n\nThe Brex MCP server lets AI assistants interact directly with your Brex account: manage expenses, look up users, check cards, review banking transactions, track bills, and more through natural language.\n\nBeta\nThe MCP server's tools may change as we continue developing new use cases and f"
+        },
+        {
+          "url": "https://www.brex.com/support/brex-api",
+          "title": "Brex API",
+          "snippet": "# Brex API\n\nGet answers to all of your questions regarding Brex\n\nURL Source: https://www.brex.com/support/brex-api\n\n---\n\n## Overview\n\nThe Brex API is an automation layer that can be used to customize Brex workflows.\n\n- Spend limits API: View and manage your Brex spend limits.\n- Expenses API: View ex"
+        }
+      ]
+    },
+    {
+      "query": "Brex developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.brex.com/guides/authentication",
+          "title": "",
+          "snippet": "## Authentication\n\nTo start making calls to Brex APIs, generate a user token from your Brex dashboard and pass it along in your API call headers.\n\n#### 1. Generate a user token\n\n1. Sign in to dashboard.brex.com as an account admin or card admin.\n2. Go to Developer > Settings.\n\n- If your company has "
+        },
+        {
+          "url": "https://developer.brex.com/",
+          "title": "Overview",
+          "snippet": "# Overview\n\nBrex is the first fully unified spend platform — with global corporate cards, expense management, reimbursements, travel, and bill pay. Brex makes it easy for finance teams to control all of their spend, all in one place. Using the Brex API, you can power your internal tools and create c"
+        },
+        {
+          "url": "https://developer.brex.com/guides/quickstart",
+          "title": "Quickstart",
+          "snippet": "# Quickstart\n\nThis guide will help you get up and running making your first Brex API call in just a few minutes. You will create a user token and make your first call against the Brex Team API to see the current user associated with that access token.\n\nThis guide assumes you are a Brex customer with"
+        },
+        {
+          "url": "https://developer.brex.com/guides/roles_permissions_scopes",
+          "title": "",
+          "snippet": "## User roles and permissions\n\nMost Brex APIs require a Brex admin to grant access. In these cases, only users with the account admin role can be authenticated.\n\nAdditionally:\n\n- Bookkeepers may access the accounting API.\n- Partners using the onboarding API authenticate with a Client Credentials Gra"
+        },
+        {
+          "url": "https://developer.brex.com/guides/partner_authentication",
+          "title": "",
+          "snippet": "## Partner authentication\n\n> Note: This section is only for Brex developer partners. If you are a Brex client–i.e., you have your own Brex account–looking to authenticate to our APIs, refer to the authentication page to get started.\n\n## API servers\n\nFormer API server URLs\nAs of January 1, 2026, we a"
+        }
+      ]
+    },
+    {
+      "query": "Brex pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.brex.com/pricing",
+          "title": "Brex Pricing Plans | Get Started Today",
+          "snippet": "# Brex Pricing Plans | Get Started Today\n\nScale your business with the pricing plan that makes sense for you. Corporate cards, spend management, and startup banking—all in one platform. Get started.\n\nURL Source: https://www.brex.com/pricing\n\n---\n\nFind the right plan for your needs.\n\nEssentials\n\nFor "
+        },
+        {
+          "url": "https://www.brex.com/legal/premium-upgrade",
+          "title": "Premium Upgrade Terms | Legal",
+          "snippet": "# Premium Upgrade Terms | Legal\n\nBrex Premium Upgrade Terms | Legal | Brex\n\nURL Source: https://www.brex.com/legal/premium-upgrade\n\n---\n\nPremium Upgrade Terms\n\nThese Premium Upgrade Terms (\"Upgrade Terms\") are provided to Customer by Brex and are governed by the terms of the Brex Platform Agreement "
+        },
+        {
+          "url": "https://www.corpay.com/resources/blog/brex-pricing",
+          "title": "Brex Pricing in 2026: Plans, Fees ...",
+          "snippet": "Brex Pricing in 2026: Plans, Fees, and What Capital One Ownership Means | Corpay\n\n# Brex Pricing in 2026: Plans, Fees, and What Capital One Ownership Means\n\nCategory: Commercial Cards, Expense management Updated: 2026-12-02 Author: David Luther\n\n## Table of Contents\n\n1. What does Brex pricing look l"
+        },
+        {
+          "url": "https://fabric.so/comparison/brex-pricing",
+          "title": "Brex pricing (2026)",
+          "snippet": "Comparisons\n\n# Brex pricing (2026)\n\nWhat every tier costs, what you get, and whether Brex is worth the per-seat spend\n\nGet Fabric free\n\nLog in\n\nLast updated October 2026\n\n## Brex pricing overview\n\nBrex is a corporate card and spend management platform built for startups, growth-stage companies, and "
+        },
+        {
+          "url": "https://cfopresso.com/blog/brex-pricing",
+          "title": "Brex Pricing 2026: Plans, Premium Cost and Capital One",
+          "snippet": "Brex Pricing 2026: Plans, Premium Cost and Capital One\n\n# Brex Pricing 2026: Essentials $0, Premium $12 and the Capital One Deal\n\nBrex Essentials is $0 and Premium is $12 per active user a month. See seat costs for 25, 75 and 200 users, the fees outside the seat and the Capital One deal.\n\nLouis Corn"
+        }
+      ]
+    },
+    {
+      "query": "Brex official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.brex.com/docs/mcp",
+          "title": "Brex MCP",
+          "snippet": "# Brex MCP\n\nThe Brex MCP server lets AI assistants interact directly with your Brex account: manage expenses, look up users, check cards, review banking transactions, track bills, and more through natural language.\n\nBeta\nThe MCP server's tools may change as we continue developing new use cases and f"
+        },
+        {
+          "url": "https://www.brex.com/journal/brex-mcp-connect-brex-to-ai-tools",
+          "title": "Brex MCP: Connect Brex to any AI tool that supports MCP",
+          "snippet": "# Brex MCP: Connect Brex to any AI tool that supports MCP\n\nConnect Brex financial data to Claude Code, Cursor, and any MCP-compatible tool. Check expenses, balances, and bills without switching tabs.\n\nURL Source: https://www.brex.com/journal/brex-mcp-connect-brex-to-ai-tools\n\n---\n\n### Title\n\nBrex MC"
+        },
+        {
+          "url": "https://www.brex.com/product-announcements/access-brex-data-in-ai-assistants",
+          "title": "Access your Brex data directly in ChatGPT, Claude, and more",
+          "snippet": "# Access your Brex data directly in ChatGPT, Claude, and more\n\nBrex now integrates with ChatGPT and Claude, and supports MCP connections to AI tools like Claude Code, Codex, and Cursor.\n\nURL Source: https://www.brex.com/product-announcements/access-brex-data-in-ai-assistants\n\n---\n\nDate: 2026-05-19\n\n"
+        },
+        {
+          "url": "https://developer.brex.com/changelog",
+          "title": "",
+          "snippet": "## Changelog\n\nThis changelog tracks changes to the Brex API and is updated periodically. Updates to the API are on a rolling basis and not on any defined schedule.\n\n### November 2026\n\n- Team API: Added List roles (`GET /v2/roles`) and the `roles` and `roles.readonly` OAuth scopes. The endpoint lists"
+        },
+        {
+          "url": "https://www.brex.com/product-announcements/october-early-access",
+          "title": "October Early Access",
+          "snippet": "# October Early Access\n\nOctober brings proactive p-card insights, faster card issuing and receipt uploads, and new connectors for Brex workflows in your favorite AI tools.\n\nURL Source: https://www.brex.com/product-announcements/october-early-access\n\n---\n\nDate: 2026-11-12\n\nDomains: Expense management"
+        }
+      ]
+    },
+    {
+      "query": "site:developer.brex.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.brex.com/docs/mcp",
+          "title": "Brex MCP",
+          "snippet": "# Brex MCP\n\nThe Brex MCP server lets AI assistants interact directly with your Brex account: manage expenses, look up users, check cards, review banking transactions, track bills, and more through natural language.\n\nBeta\nThe MCP server's tools may change as we continue developing new use cases and f"
+        },
+        {
+          "url": "https://developer.brex.com/changelog",
+          "title": "",
+          "snippet": "## Changelog\n\nThis changelog tracks changes to the Brex API and is updated periodically. Updates to the API are on a rolling basis and not on any defined schedule.\n\n### November 2026\n\n- Team API: Added List roles (`GET /v2/roles`) and the `roles` and `roles.readonly` OAuth scopes. The endpoint lists"
+        },
+        {
+          "url": "https://developer.brex.com/.well-known/api-catalog",
+          "title": "",
+          "snippet": "{\n \"linkset\": [\n {\n \"anchor\": \"https://api.brex.com\",\n \"service-desc\": [\n {\n \"href\": \"https://developer.brex.com/_bundle/openapi/accounting_api.yaml?download\",\n \"type\": \"application/openapi+yaml\",\n \"title\": \"Accounting API\"\n }\n ],\n \"service-doc\": [\n {\n \"href\": \"https://developer.brex.com/openapi/acc"
+        },
+        {
+          "url": "https://developer.brex.com/openapi/accounting_api/accounting/listintegrations.md",
+          "title": "List accounting integrations",
+          "snippet": "# List accounting integrations\n\nList the account's accounting integrations (active and disabled), each with its subsidiaries and per-subsidiary VAT status.\n\nEndpoint: GET /v3/accounting/integrations\nVersion: 2026-09-28\nSecurity: oauth2\n\n## Query parameters:\n\n- `cursor` (string)\nCursor to start from."
+        },
+        {
+          "url": "https://developer.brex.com/llms.txt",
+          "title": "",
+          "snippet": "# Brex Developer API\n\n> APIs to build on top of the Brex financial OS.\n\n## Table of contents\n\n - [Steps](https://developer.brex.com/docs/partner_onboarding.md)\n - [Get started with Postman](https://developer.brex.com/docs/postman.md)\n - [Pipedream](https://developer.brex.com/docs/pipedream.md)\n - [C"
+        }
+      ]
+    },
+    {
+      "query": "site:brex.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.brex.com/docs/mcp",
+          "title": "Brex MCP",
+          "snippet": "# Brex MCP\n\nThe Brex MCP server lets AI assistants interact directly with your Brex account: manage expenses, look up users, check cards, review banking transactions, track bills, and more through natural language.\n\nBeta\nThe MCP server's tools may change as we continue developing new use cases and f"
+        },
+        {
+          "url": "https://www.brex.com/journal/brex-mcp-connect-brex-to-ai-tools",
+          "title": "Brex MCP: Connect Brex to any AI tool that supports MCP",
+          "snippet": "# Brex MCP: Connect Brex to any AI tool that supports MCP\n\nConnect Brex financial data to Claude Code, Cursor, and any MCP-compatible tool. Check expenses, balances, and bills without switching tabs.\n\nURL Source: https://www.brex.com/journal/brex-mcp-connect-brex-to-ai-tools\n\n---\n\n### Title\n\nBrex MC"
+        },
+        {
+          "url": "https://www.brex.com/support/using-brex-in-ai-apps",
+          "title": "Using Brex in AI apps",
+          "snippet": "# Using Brex in AI apps\n\nGet answers to all of your questions regarding Brex\n\nURL Source: https://www.brex.com/support/using-brex-in-ai-apps\n\n---\n\n## Overview\n\nBrex in AI assistants (ChatGPT and Claude) lets you quickly access your Brex information without leaving your AI workspace.\n\nReview the W_ha"
+        },
+        {
+          "url": "https://www.brex.com/journal/not-all-mcps-are-created-equal",
+          "title": "Not all MCPs are created equal",
+          "snippet": "# Not all MCPs are created equal\n\nTwo MCP servers can look identical on paper and behave nothing alike. Here are the three questions that tell them apart.\n\nURL Source: https://www.brex.com/journal/not-all-mcps-are-created-equal\n\n---\n\nNot all MCPs are created equal\n\nIf you're evaluating AI for your f"
+        },
+        {
+          "url": "https://www.brex.com/product-announcements/access-brex-data-in-ai-assistants",
+          "title": "Access your Brex data directly in ChatGPT, Claude, and more",
+          "snippet": "# Access your Brex data directly in ChatGPT, Claude, and more\n\nBrex now integrates with ChatGPT and Claude, and supports MCP connections to AI tools like Claude Code, Codex, and Cursor.\n\nURL Source: https://www.brex.com/product-announcements/access-brex-data-in-ai-assistants\n\n---\n\nDate: 2026-05-19\n\n"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developer.brex.com",
+      "final_url": "https://developer.brex.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:26Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "09094106d1fd7d8e74d7350ab4ebc4c95efe23d0013b5ff902c36404755d66c1",
+      "text_len": 1516
+    },
+    {
+      "requested_url": "https://developer.brex.com/docs/mcp",
+      "final_url": "https://developer.brex.com/docs/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:25Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "24318682252d1720a31e4a052e5ea268c5c11b4e10403b6fa80ed87539cbe033",
+      "text_len": 11005
+    },
+    {
+      "requested_url": "https://developer.brex.com/guides/authentication",
+      "final_url": "https://developer.brex.com/guides/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:25Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0f0fe572616fa15751832298f3399a6735d3ccfe7d5dea85a2c3ba61cb01cc46",
+      "text_len": 2255
+    },
+    {
+      "requested_url": "https://www.brex.com/pricing",
+      "final_url": "https://www.brex.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:27Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a2be78b553e33e8b812c244528416b98be8fafe74d424af8a89e1342829c769e",
+      "text_len": 5601
+    },
+    {
+      "requested_url": "https://www.brex.com/journal/brex-mcp-connect-brex-to-ai-tools",
+      "final_url": "https://www.brex.com/journal/brex-mcp-connect-brex-to-ai-tools",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b4845fe65461c72b311b7b2b0be33c32665d075e701a45fc7ad25e6125f4eaea",
+      "text_len": 3813
+    },
+    {
+      "requested_url": "https://www.brex.com/journal/not-all-mcps-are-created-equal",
+      "final_url": "https://www.brex.com/journal/not-all-mcps-are-created-equal",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2a8d67b0c14ff016c60b5e1134193b876008e721cd387f86998e67c22b4dc2f8",
+      "text_len": 12348
+    },
+    {
+      "requested_url": "https://developer.brex.com/.well-known/api-catalog",
+      "final_url": "https://developer.brex.com/.well-known/api-catalog",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "116cc67fd033ece916217a611217d6119f94672b051bd6178cb693f82a0cbfdf",
+      "text_len": 4027
+    },
+    {
+      "requested_url": "https://developer.brex.com/guides/partner_authentication",
+      "final_url": "https://developer.brex.com/guides/partner_authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:26Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "267b442d636127021310974ecbb7d81b1989fec800fff2b18770541e92093c6f",
+      "text_len": 11305
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.brex.com/guides/authentication",
+        "quote": "generate a user token from your Brex dashboard and pass it along in your API call headers",
+        "verified": true
+      },
+      {
+        "url": "https://developer.brex.com/guides/partner_authentication",
+        "quote": "For all other APIs, you will implement the Authorization Code Grant",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.brex.com/pricing",
+        "quote": "Brex API access",
+        "verified": true
+      },
+      {
+        "url": "https://developer.brex.com/guides/authentication",
+        "quote": "Sign in to dashboard.brex.com as an account admin or card admin.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.brex.com/",
+        "quote": "Brex APIs use the REST architecture, are defined using the OpenAPI specification and use standard HTTP response codes and verbs.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developer.brex.com/docs/mcp",
+        "quote": "The server is hosted at `https://api.brex.com/mcp` and supports any MCP-compatible client.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.brex.com/guides/authentication",
+        "quote": "Click Create Token.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developer.brex.com/",
+        "quote": "Brex is the first fully unified spend platform — with global corporate cards, expense management, reimbursements, travel, and bill pay.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

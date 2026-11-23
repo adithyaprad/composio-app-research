@@ -1,0 +1,645 @@
+{
+  "slug": "twilio",
+  "searches": [
+    {
+      "query": "Twilio API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+          "title": "Secure authentication",
+          "snippet": "# Secure authentication\n\nSecure authentication provides the foundation of API security. To verify that you granted the requester permission to your account resources, Twilio requires authentication on every API request.\n\nWhen you create a Twilio account, Twilio generates an Account SID and an Auth T"
+        },
+        {
+          "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+          "title": "Twilio API requests",
+          "snippet": "# Twilio API requests\n\nLearn how to authenticate your requests, what content type to use for API requests, and how the Twilio APIs handle webhooks. You'll also see examples of how to make requests to the Twilio APIs.\n\n## Ways to make requests to the Twilio APIs\n\nYou can make an HTTP request to the T"
+        },
+        {
+          "url": "https://www.twilio.com/docs/iam/api-keys",
+          "title": "API keys overview",
+          "snippet": "# API keys overview\n\nAPI keys are the preferred way to authenticate with Twilio's REST APIs. With API keys, you control which users and applications have access to your Twilio Account's API resources, and you can revoke access at your discretion.\n\nIf your Twilio application uses one of the client-si"
+        },
+        {
+          "url": "https://www.twilio.com/docs/iam/credentials/api",
+          "title": "REST API: Credentials",
+          "snippet": "# REST API: Credentials\n\nThe Credentials API helps you manage Public Keys or Amazon Web Services (AWS) credentials in your Twilio account.\n\n- Use public key credentials for Public Key Client Validation.\n- Use AWS credentials to store Twilio Voice and Video recordings in AWS S3. Learn more about stor"
+        },
+        {
+          "url": "https://www.twilio.com/docs/iam/api",
+          "title": "Our API: the basics",
+          "snippet": "# Our API: the basics\n\nThe Twilio REST API allows you to query metadata about your account, phone numbers, calls, text messages, and recordings. You can also do some fancy things like make outbound phone calls and send text messages.\n\n## Base URL [#base-url]\n\nAll URLs referenced in the documentation"
+        }
+      ]
+    },
+    {
+      "query": "Twilio developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.twilio.com/docs/usage/api",
+          "title": "Twilio API overview",
+          "snippet": "# Twilio API overview\n\nThe Twilio APIs are organized around REST. Behind these APIs is a software layer connecting and optimizing communications networks around the world. With the Twilio APIs, you can build applications that help your users send messages, make phone calls, look up phone numbers, an"
+        },
+        {
+          "url": "https://www.twilio.com/docs/iam/api-keys",
+          "title": "API keys overview",
+          "snippet": "# API keys overview\n\nAPI keys are the preferred way to authenticate with Twilio's REST APIs. With API keys, you control which users and applications have access to your Twilio Account's API resources, and you can revoke access at your discretion.\n\nIf your Twilio application uses one of the client-si"
+        },
+        {
+          "url": "https://www.twilio.com/docs/iam/api",
+          "title": "Our API: the basics",
+          "snippet": "# Our API: the basics\n\nThe Twilio REST API allows you to query metadata about your account, phone numbers, calls, text messages, and recordings. You can also do some fancy things like make outbound phone calls and send text messages.\n\n## Base URL [#base-url]\n\nAll URLs referenced in the documentation"
+        },
+        {
+          "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+          "title": "Twilio API requests",
+          "snippet": "# Twilio API requests\n\nLearn how to authenticate your requests, what content type to use for API requests, and how the Twilio APIs handle webhooks. You'll also see examples of how to make requests to the Twilio APIs.\n\n## Ways to make requests to the Twilio APIs\n\nYou can make an HTTP request to the T"
+        },
+        {
+          "url": "https://www.twilio.com/docs",
+          "title": "Twilio Docs",
+          "snippet": "# Twilio Docs\n\nBuild better and engage your customers across all channels with our API reference documentation, quickstarts, SDKs and multi-language code samples.\n\n## Conversations\n\nTurn fragmented interactions into continuous conversations with persistent memory, intelligent orchestration, and real"
+        }
+      ]
+    },
+    {
+      "query": "Twilio pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.twilio.com/en-us/pricing",
+          "title": "Twilio Pricing | Twilio",
+          "snippet": "Twilio Pricing | Twilio\n\n# Start for free. Then pay as you go. \n\nPricing current as of October 2026\n\nJump to: Conversations Communications Authentication Customer Data Builder tools\n\n## Conversations \n\nConversation Orchestrator\n\nKeep conversations connected across channels.\n\nStarts at $0.0002/1k cha"
+        },
+        {
+          "url": "https://www.twilio.com/docs/usage/trials",
+          "title": "Twilio trial account",
+          "snippet": "# Twilio trial account\n\nWhen you create a Twilio account, you start with a free 30-day trial that lets you explore Twilio products before upgrading. Instead of a dollar-based balance, your trial includes transparent, product-specific free units — such as 100 SMS messages, 3,000 emails, and 75 voice "
+        },
+        {
+          "url": "https://help.twilio.com/articles/55716603558939",
+          "title": "How do I choose a plan when I create a Twilio account? - Twilio Help Center",
+          "snippet": "## Objective\n\nThis article explains the plan choice you are offered when you create a Twilio account — a 30-day free trial or pay as you go — so you can pick the one that suits what you are building and know what each one includes.\n\n## Product\n\nTwilio Console\n\n## Environment\n\nTwilio Console\n\n## Proc"
+        },
+        {
+          "url": "https://www.twilio.com/en-us/voice/pricing/us",
+          "title": "Programmable Voice Pricing in United States | Twilio",
+          "snippet": "Programmable Voice Pricing in United States | Twilio\n\n# Flexible and transparent Voice pricing\n\nModernize your voice stack without ripping anything out. Snap on Voice AI, payments, and branded calls alongside your current setup. Pay transparent rates. No hidden fees.\n\nFree trial\n\nNo credit card requ"
+        },
+        {
+          "url": "https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account",
+          "title": "What you get with your Twilio trial ...",
+          "snippet": "# Get started with your Twilio free trial account\n\nYou can sign up for a Twilio free trial account without a credit card. After you sign up, explore the solutions for your use case in the Twilio Console.\n\n## What you get with your Twilio trial account\n\nYour trial includes product-specific free units"
+        }
+      ]
+    },
+    {
+      "query": "Twilio official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.twilio.com/docs/ai/mcp",
+          "title": "Twilio MCP server",
+          "snippet": "# Twilio MCP server\n\n> [!IMPORTANT]\n> \n> Twilio MCP and Twilio Skills are available as Public Beta products, and the information contained in this document is subject to change. This means that some features are not yet implemented and others may be changed before the products are declared as Genera"
+        },
+        {
+          "url": "https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills",
+          "title": "Introducing the Twilio MCP Server and Skills | Twilio",
+          "snippet": "Introducing the Twilio MCP Server and Skills | Twilio\n\n# Introducing the Twilio MCP Server and Skills: Give Your Coding Agents Native Access to 1,800+ Twilio APIs\n\n May 07, 2026 \n\nWritten by\n\n Seline Chen \n\n Twilion \n\n Christopher Lintz \n\n Twilion \n\n Andrew Hitti \n\n Twilion \n\nReviewed by\n\n Rikki Sin"
+        },
+        {
+          "url": "https://github.com/twilio/ai/blob/main/mcp/README.md",
+          "title": "mcp/README.md",
+          "snippet": "# mcp/README.md\n\n- Branch: main\n- Repository: twilio/ai\n\n---\n\n# Twilio MCP\n\nThe Twilio MCP (Model Context Protocol) server provides AI coding agents with semantic search over Twilio documentation and API specifications.\n\n> **Public Beta:** Twilio MCP is currently available as a Public Beta product, "
+        },
+        {
+          "url": "https://github.com/twilio/ai",
+          "title": "twilio/ai",
+          "snippet": "# twilio/ai\n\n- Stars: 41\n- Forks: 18\n- Watchers: 41\n- Open issues: 22\n- License: MIT License\n- Default branch: main\n- Created: 2026-04-24T12:57:23Z\n\n## Top Contributors\n\n- shchen-sketch (76 contributions)\n- RJFerguson (2 contributions)\n- bryan-anthropic (1 contributions)\n- califlower (1 contribution"
+        },
+        {
+          "url": "https://www.twilio.com/docs/ai",
+          "title": "Building with AI",
+          "snippet": "# Building with AI\n\n## Building with AI\n\nAccelerate development with AI coding agents that understand Twilio's APIs, or deploy AI-powered communication products that handle conversations at scale.\n\nConnect your AI agent\n\n## Tutorial\n\n```json !sample\n{\n  \"tool\": \"twilio__search\",\n  \"query\": \"How do I"
+        }
+      ]
+    },
+    {
+      "query": "site:twilio.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.twilio.com/docs/ai/mcp",
+          "title": "Twilio MCP server",
+          "snippet": "# Twilio MCP server\n\n> [!IMPORTANT]\n> \n> Twilio MCP and Twilio Skills are available as Public Beta products, and the information contained in this document is subject to change. This means that some features are not yet implemented and others may be changed before the products are declared as Genera"
+        },
+        {
+          "url": "https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills",
+          "title": "Introducing the Twilio MCP Server and Skills | Twilio",
+          "snippet": "Introducing the Twilio MCP Server and Skills | Twilio\n\n# Introducing the Twilio MCP Server and Skills: Give Your Coding Agents Native Access to 1,800+ Twilio APIs\n\n May 07, 2026 \n\nWritten by\n\n Seline Chen \n\n Twilion \n\n Christopher Lintz \n\n Twilion \n\n Andrew Hitti \n\n Twilion \n\nReviewed by\n\n Rikki Sin"
+        },
+        {
+          "url": "https://www.twilio.com/docs/ai",
+          "title": "Building with AI",
+          "snippet": "# Building with AI\n\n## Building with AI\n\nAccelerate development with AI coding agents that understand Twilio's APIs, or deploy AI-powered communication products that handle conversations at scale.\n\nConnect your AI agent\n\n## Tutorial\n\n```json !sample\n{\n  \"tool\": \"twilio__search\",\n  \"query\": \"How do I"
+        },
+        {
+          "url": "https://www.twilio.com/en-us/blog/developers/best-practices/why-connect-twilio-mcp-server",
+          "title": "Building with AI? Connect Twilio's MCP Server | Twilio",
+          "snippet": "Building with AI? Connect Twilio's MCP Server | Twilio\n\n# Building with AI? Why You Should Connect Twilio's MCP Server\n\n June 08, 2026 \n\nWritten by\n\n Elmer Thomas \n\n Twilion \n\nReviewed by\n\n Seline Chen \n\n Twilion \n\n Kelley Robinson \n\n Twilion \n\n Paul Kamp \n\n Twilion \n\nAI generated summary\n\n- Save ti"
+        },
+        {
+          "url": "https://www.twilio.com/en-us/blog/twilio-openai-responses-api-mcp-demo",
+          "title": "Build Communications Apps with Twilio MCP and the OpenAI Responses API | Twilio",
+          "snippet": "Build Communications Apps with Twilio MCP and the OpenAI Responses API | Twilio\n\n# Build Communications Applications with your Twilio MCP and the OpenAI Responses API \n\n May 21, 2025 \n\nWritten by\n\n Rikki Singh \n\n Twilion \n\n Kousha Talebian \n\n Twilion \n\n Paul Kamp \n\n Twilion \n\n## Build Communications"
+        }
+      ]
+    },
+    {
+      "query": "Twilio API authentication OAuth API key",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.twilio.com/docs/iam/api-keys",
+          "title": "API keys overview",
+          "snippet": "# API keys overview\n\nAPI keys are the preferred way to authenticate with Twilio's REST APIs. With API keys, you control which users and applications have access to your Twilio Account's API resources, and you can revoke access at your discretion.\n\nIf your Twilio application uses one of the client-si"
+        },
+        {
+          "url": "https://www.twilio.com/docs/iam/oauth-apps/overview",
+          "title": "OAuth apps",
+          "snippet": "# OAuth apps\n\nOAuth 2.0 is an industry-standard authorization protocol that lets applications securely access Twilio APIs on your behalf, without sharing your Account SID and Auth Token or other long-lived API keys. Instead of using static credentials, your application exchanges a Client ID and Clie"
+        },
+        {
+          "url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+          "title": "Secure authentication",
+          "snippet": "# Secure authentication\n\nSecure authentication provides the foundation of API security. To verify that you granted the requester permission to your account resources, Twilio requires authentication on every API request.\n\nWhen you create a Twilio account, Twilio generates an Account SID and an Auth T"
+        },
+        {
+          "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+          "title": "Twilio API requests",
+          "snippet": "# Twilio API requests\n\nLearn how to authenticate your requests, what content type to use for API requests, and how the Twilio APIs handle webhooks. You'll also see examples of how to make requests to the Twilio APIs.\n\n## Ways to make requests to the Twilio APIs\n\nYou can make an HTTP request to the T"
+        },
+        {
+          "url": "https://www.twilio.com/docs/iam/oauth-apps/oauth-access-token",
+          "title": "OAuth Token API",
+          "snippet": "# OAuth Token API\n\nAccess Tokens can be generated by calling the Token API endpoint with the right set of parameters and values. The request differs between Client Credentials and Authorization Code OAuth apps.\n\n## Client Credentials Access Token request\n\n`POST https://oauth.twilio.com/v2/token`\n\nEn"
+        }
+      ]
+    },
+    {
+      "query": "site:twilio.com API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+          "title": "Secure authentication",
+          "snippet": "# Secure authentication\n\nSecure authentication provides the foundation of API security. To verify that you granted the requester permission to your account resources, Twilio requires authentication on every API request.\n\nWhen you create a Twilio account, Twilio generates an Account SID and an Auth T"
+        },
+        {
+          "url": "https://www.twilio.com/docs/usage/api-security-reference-guide/faq",
+          "title": "FAQ about API security",
+          "snippet": "# FAQ about API security\n\nThe following topics cover frequently asked questions on API security.\n\n## REST API concepts\n\n### What's the difference between 401 and 403 errors?\n\nBoth can indicate security issues:\n\n| HTTP response | Credential issue |\n| --- | --- |\n| `401 Unauthorized` | missing, invali"
+        },
+        {
+          "url": "https://www.twilio.com/docs/iam/oauth-apps/overview",
+          "title": "OAuth apps",
+          "snippet": "# OAuth apps\n\nOAuth 2.0 is an industry-standard authorization protocol that lets applications securely access Twilio APIs on your behalf, without sharing your Account SID and Auth Token or other long-lived API keys. Instead of using static credentials, your application exchanges a Client ID and Clie"
+        },
+        {
+          "url": "https://www.twilio.com/docs/usage/api-security-reference-guide/defense-in-depth-strategy",
+          "title": "Defense-in-depth strategy",
+          "snippet": "# Defense-in-depth strategy\n\nDefense in depth means no single security measure provides enough security. To achieve comprehensive security, layer multiple complementary measures. If one fails or gets bypassed, others remain in place.\nA cohesive API security strategy combines authentication, encrypti"
+        },
+        {
+          "url": "https://www.twilio.com/docs/glossary/what-is-an-api-key",
+          "title": "API Key",
+          "snippet": "# API Key\n\nAn Application Programming Interface (API) Key is a unique identifier that is used to authenticate a developer or program to an API.\n\n## How do API Keys differ from Account credentials?\n\nWhen you create a Twilio Account, Twilio generates an Account SID (String IDentifier) and an Auth Toke"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://twilio.com",
+      "final_url": "https://twilio.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:06Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "3e80ac04c7221e1b4006ddbfa9fafb799d6b4f8638250a2a054460e085372711",
+      "text_len": 7653
+    },
+    {
+      "requested_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+      "final_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "da0614b97c09e48c466b8fd0a773fb78e4be4d20b5fc334d1828e357f64b45c2",
+      "text_len": 3472
+    },
+    {
+      "requested_url": "https://www.twilio.com/docs/iam/api",
+      "final_url": "https://www.twilio.com/docs/iam/api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "50f150f94af7b3022f26a9b6cc5482d0db9cbb24db2545328d417f1b4de281be",
+      "text_len": 2395
+    },
+    {
+      "requested_url": "https://www.twilio.com/en-us/pricing",
+      "final_url": "https://www.twilio.com/en-us/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8de4c428ce42d08b2f5c5750931199cf40c9d1d59536ab830a1bc3f3dddae4fa",
+      "text_len": 4383
+    },
+    {
+      "requested_url": "https://www.twilio.com/docs/ai/mcp",
+      "final_url": "https://www.twilio.com/docs/ai/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0f6d3d365e62c7cf543c11aefd8ef446b4573e2254a5babd5077160ba6327cb0",
+      "text_len": 6697
+    },
+    {
+      "requested_url": "https://www.twilio.com/en-us/blog/developers/best-practices/why-connect-twilio-mcp-server",
+      "final_url": "https://www.twilio.com/en-us/blog/developers/best-practices/why-connect-twilio-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a31aa9c14814ddca199bb0a9888b0068cf6a92c76ed4729e8232758550d9046c",
+      "text_len": 8999
+    },
+    {
+      "requested_url": "https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills",
+      "final_url": "https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1211f99b974f209e094e2c7ccec3a729a8b0d4950381d550a15131a6c6ffc14e",
+      "text_len": 11016
+    },
+    {
+      "requested_url": "https://www.twilio.com/en-us/blog/twilio-openai-responses-api-mcp-demo",
+      "final_url": "https://www.twilio.com/en-us/blog/twilio-openai-responses-api-mcp-demo",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "990fedf7eb6379fc750058c54fa6a4f368cd9bb95465a46114071f71d20c0523",
+      "text_len": 2850
+    },
+    {
+      "requested_url": "https://www.twilio.com/docs/iam/api",
+      "final_url": "https://www.twilio.com/docs/iam/api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:41Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "50f150f94af7b3022f26a9b6cc5482d0db9cbb24db2545328d417f1b4de281be",
+      "text_len": 2395
+    },
+    {
+      "requested_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+      "final_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:39Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "da0614b97c09e48c466b8fd0a773fb78e4be4d20b5fc334d1828e357f64b45c2",
+      "text_len": 3472
+    },
+    {
+      "requested_url": "https://www.twilio.com/docs/iam/oauth-apps/oauth-access-token",
+      "final_url": "https://www.twilio.com/docs/iam/oauth-apps/oauth-access-token",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:39Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b70d095e42cc65dbc430cc7c1830d167ae129c20473cc2c0c7f439a44a64cf3e",
+      "text_len": 5712
+    },
+    {
+      "requested_url": "https://www.twilio.com/docs/iam/oauth-apps/overview",
+      "final_url": "https://www.twilio.com/docs/iam/oauth-apps/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:39Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "75b9d99fb7ca8a35d4b714362037347da28f373728c1e46db56bd882dee5b400",
+      "text_len": 2868
+    },
+    {
+      "requested_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/defense-in-depth-strategy",
+      "final_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/defense-in-depth-strategy",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:41Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6c66b3219866a8ee0b2aefcc83414cd3fd0ec7808dc10bf10763c57cd1db4ca7",
+      "text_len": 7508
+    },
+    {
+      "requested_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/faq",
+      "final_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/faq",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:41Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3f020d378ac0a99e53e45beee1ece3c605290428db6ec828eeb2bbe8298a8835",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+        "quote": "Twilio supports three authentication methods.",
+        "verified": true
+      },
+      {
+        "url": "https://www.twilio.com/docs/iam/oauth-apps/oauth-access-token",
+        "quote": "Pass the `access_token` returned by the Token API as a Bearer token in the `Authorization` header of your Twilio API requests.",
+        "verified": true
+      },
+      {
+        "url": "https://www.twilio.com/docs/iam/api",
+        "quote": "Twilio supports HTTP Basic authentication. Use your API key SID as the username and your API key secret as the password.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://twilio.com",
+        "quote": "Sign up for a free Twilio account and grab one of our official server-side SDKs to get started.",
+        "verified": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us/pricing",
+        "quote": "Start for free. Then pay as you go.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://www.twilio.com/docs/iam/api",
+        "quote": "The Twilio REST API allows you to query metadata about your account, phone numbers, calls, text messages, and recordings.",
+        "verified": true
+      },
+      {
+        "url": "https://www.twilio.com/docs/ai/mcp",
+        "quote": "direct, structured access to Twilio's full API surface—over 1,800 endpoints across 30+ products",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://www.twilio.com/docs/ai/mcp",
+        "quote": "The server is hosted by Twilio at `mcp.twilio.com/docs`—point your IDE at the URL.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://twilio.com",
+        "quote": "Free trial No credit card required",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://twilio.com",
+        "quote": "The Twilio platform empowers humans and AI agents to work together, coordinate across channels",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "basic_transport_not_method"
+    ],
+    "findings": [
+      {
+        "rule": "basic_transport_not_method",
+        "source": "code",
+        "reason": "a key/token is sent via the Basic scheme; no username + password login is described",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "quote": "use your api key sid as the username and your api key secret as the password."
+          }
+        ]
+      },
+      {
+        "rule": "basic_transport_not_method",
+        "source": "llm",
+        "reason": "The docs only use HTTP Basic as the transport for an API key SID and secret, which is api_key rather than a separate basic method.",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "url": "https://www.twilio.com/docs/iam/api",
+            "quote": "Twilio supports HTTP Basic authentication. Use your API key SID as the username and your API key secret as the password."
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth"
+    ],
+    "claims": [
+      "auth"
+    ],
+    "review_searches": [
+      {
+        "query": "Twilio API authentication OAuth API key",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://www.twilio.com/docs/iam/api-keys",
+            "title": "API keys overview",
+            "snippet": "# API keys overview\n\nAPI keys are the preferred way to authenticate with Twilio's REST APIs. With API keys, you control which users and applications have access to your Twilio Account's API resources, and you can revoke access at your discretion.\n\nIf your Twilio application uses one of the client-si"
+          },
+          {
+            "url": "https://www.twilio.com/docs/iam/oauth-apps/overview",
+            "title": "OAuth apps",
+            "snippet": "# OAuth apps\n\nOAuth 2.0 is an industry-standard authorization protocol that lets applications securely access Twilio APIs on your behalf, without sharing your Account SID and Auth Token or other long-lived API keys. Instead of using static credentials, your application exchanges a Client ID and Clie"
+          },
+          {
+            "url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+            "title": "Secure authentication",
+            "snippet": "# Secure authentication\n\nSecure authentication provides the foundation of API security. To verify that you granted the requester permission to your account resources, Twilio requires authentication on every API request.\n\nWhen you create a Twilio account, Twilio generates an Account SID and an Auth T"
+          },
+          {
+            "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+            "title": "Twilio API requests",
+            "snippet": "# Twilio API requests\n\nLearn how to authenticate your requests, what content type to use for API requests, and how the Twilio APIs handle webhooks. You'll also see examples of how to make requests to the Twilio APIs.\n\n## Ways to make requests to the Twilio APIs\n\nYou can make an HTTP request to the T"
+          },
+          {
+            "url": "https://www.twilio.com/docs/iam/oauth-apps/oauth-access-token",
+            "title": "OAuth Token API",
+            "snippet": "# OAuth Token API\n\nAccess Tokens can be generated by calling the Token API endpoint with the right set of parameters and values. The request differs between Client Credentials and Authorization Code OAuth apps.\n\n## Client Credentials Access Token request\n\n`POST https://oauth.twilio.com/v2/token`\n\nEn"
+          }
+        ]
+      },
+      {
+        "query": "site:twilio.com API authentication",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+            "title": "Secure authentication",
+            "snippet": "# Secure authentication\n\nSecure authentication provides the foundation of API security. To verify that you granted the requester permission to your account resources, Twilio requires authentication on every API request.\n\nWhen you create a Twilio account, Twilio generates an Account SID and an Auth T"
+          },
+          {
+            "url": "https://www.twilio.com/docs/usage/api-security-reference-guide/faq",
+            "title": "FAQ about API security",
+            "snippet": "# FAQ about API security\n\nThe following topics cover frequently asked questions on API security.\n\n## REST API concepts\n\n### What's the difference between 401 and 403 errors?\n\nBoth can indicate security issues:\n\n| HTTP response | Credential issue |\n| --- | --- |\n| `401 Unauthorized` | missing, invali"
+          },
+          {
+            "url": "https://www.twilio.com/docs/iam/oauth-apps/overview",
+            "title": "OAuth apps",
+            "snippet": "# OAuth apps\n\nOAuth 2.0 is an industry-standard authorization protocol that lets applications securely access Twilio APIs on your behalf, without sharing your Account SID and Auth Token or other long-lived API keys. Instead of using static credentials, your application exchanges a Client ID and Clie"
+          },
+          {
+            "url": "https://www.twilio.com/docs/usage/api-security-reference-guide/defense-in-depth-strategy",
+            "title": "Defense-in-depth strategy",
+            "snippet": "# Defense-in-depth strategy\n\nDefense in depth means no single security measure provides enough security. To achieve comprehensive security, layer multiple complementary measures. If one fails or gets bypassed, others remain in place.\nA cohesive API security strategy combines authentication, encrypti"
+          },
+          {
+            "url": "https://www.twilio.com/docs/glossary/what-is-an-api-key",
+            "title": "API Key",
+            "snippet": "# API Key\n\nAn Application Programming Interface (API) Key is a unique identifier that is used to authenticate a developer or program to an API.\n\n## How do API Keys differ from Account credentials?\n\nWhen you create a Twilio Account, Twilio generates an Account SID (String IDentifier) and an Auth Toke"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://www.twilio.com/docs/iam/api",
+        "final_url": "https://www.twilio.com/docs/iam/api",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:41Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "50f150f94af7b3022f26a9b6cc5482d0db9cbb24db2545328d417f1b4de281be",
+        "text_len": 2395
+      },
+      {
+        "requested_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+        "final_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/secure-auth",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:39Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "da0614b97c09e48c466b8fd0a773fb78e4be4d20b5fc334d1828e357f64b45c2",
+        "text_len": 3472
+      },
+      {
+        "requested_url": "https://www.twilio.com/docs/iam/oauth-apps/oauth-access-token",
+        "final_url": "https://www.twilio.com/docs/iam/oauth-apps/oauth-access-token",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:39Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "b70d095e42cc65dbc430cc7c1830d167ae129c20473cc2c0c7f439a44a64cf3e",
+        "text_len": 5712
+      },
+      {
+        "requested_url": "https://www.twilio.com/docs/iam/oauth-apps/overview",
+        "final_url": "https://www.twilio.com/docs/iam/oauth-apps/overview",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:39Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "75b9d99fb7ca8a35d4b714362037347da28f373728c1e46db56bd882dee5b400",
+        "text_len": 2868
+      },
+      {
+        "requested_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/defense-in-depth-strategy",
+        "final_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/defense-in-depth-strategy",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:41Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "6c66b3219866a8ee0b2aefcc83414cd3fd0ec7808dc10bf10763c57cd1db4ca7",
+        "text_len": 7508
+      },
+      {
+        "requested_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/faq",
+        "final_url": "https://www.twilio.com/docs/usage/api-security-reference-guide/faq",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:41Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "3f020d378ac0a99e53e45beee1ece3c605290428db6ec828eeb2bbe8298a8835",
+        "text_len": 20000
+      }
+    ]
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "slug": "zoho-crm",
+  "searches": [
+    {
+      "query": "Zoho CRM API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+          "title": "OAuth 2.0 Authentication | Zoho CRM API | V8",
+          "snippet": "OAuth 2.0 Authentication | Zoho CRM API | V8\n\n# OAuth 2.0 for V8 APIs - An Overview\n\nThe Zoho CRM API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (clients) to gain delegated access to protected resourc"
+        },
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/auth-request.html",
+          "title": "Authorization Request | Zoho CRM API | V8",
+          "snippet": "Authorization Request | Zoho CRM API | V8\n\n# Authorization Request\n\nTo use the Zoho CRM APIs, the users must authenticate the application to make API calls on their behalf with an access token.\n\nThe access token, in return, must be obtained from a grant token (authorization code). The Zoho CRM APIs "
+        },
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/refresh.html",
+          "title": "Refresh Access Tokens | Zoho CRM API | V8",
+          "snippet": "Refresh Access Tokens | Zoho CRM API | V8\n\n# Refresh Access Token\n\nAccess tokens expire after an hour of generation. To generate a new access token, use the refresh token you generated earlier.\n\n- Make a POST request with the following URL:\n\n```\n{Accounts_URL}/oauth/v2/token?refresh_token={refresh_t"
+        },
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/scopes.html",
+          "title": "Scopes | Zoho CRM API | V8",
+          "snippet": "Scopes | Zoho CRM API | V8\n\n# Scopes\n\nScopes limit the level of access given to a client for protected resources. It enables a user to provide delegated access to a client. Zoho CRM APIs use selected scopes, which control the type of resource that the client application can access. Tokens are usuall"
+        },
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/api-collection.html",
+          "title": "API Collection | Zoho CRM API | V8",
+          "snippet": "API Collection | Zoho CRM API | V8\n\n# Zoho CRM REST API Collection\n\n### What is an API Collection?\n\nThe Zoho CRM REST API Postman collection is a set of all the Zoho CRM API requests. Using these boilerplate requests, you can test and explore the CRM APIs in various environments for multiple organiz"
+        }
+      ]
+    },
+    {
+      "query": "Zoho CRM developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/access-refresh.html",
+          "title": "Access & Refresh Tokens | Zoho CRM API | V8",
+          "snippet": "Access & Refresh Tokens | Zoho CRM API | V8\n\n# Generate Access Token and Refresh Token\n\nOAuth2.0 requests are usually authenticated with an access token, which is passed as bearer token. To use this access token, you need to construct a normal HTTP request and include it in an Authorization header a"
+        },
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+          "title": "Zoho CRM V8 APIs",
+          "snippet": "Zoho CRM V8 APIs\n\n# Zoho CRM V8 APIs\n\n- ### Metadata APIs\n\nFetch the metadata of modules, fields, layouts, custom views, and related lists.\n- ### Core APIs\n\nPerform CRUD operations on CRM module entities and integrate with any third party application through flexible RESTful endpoints.\n- ### Composi"
+        },
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/api-collection.html",
+          "title": "API Collection | Zoho CRM API | V8",
+          "snippet": "API Collection | Zoho CRM API | V8\n\n# Zoho CRM REST API Collection\n\n### What is an API Collection?\n\nThe Zoho CRM REST API Postman collection is a set of all the Zoho CRM API requests. Using these boilerplate requests, you can test and explore the CRM APIs in various environments for multiple organiz"
+        },
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/api/v8/openapi-specification.html",
+          "title": "OpenAPI Specification (OAS) for Zoho CRM APIs",
+          "snippet": "OpenAPI Specification (OAS) for Zoho CRM APIs\n\n# Open API Specification 3.0.0 (OAS) for Zoho CRM APIs\n\n## Table of Contents\n\n- Overview\n- Why use the OpenAPI Specification?\n- GitHub Repository Details\n- Swagger API Hub\n- How to Use the Zoho CRM OpenAPI Specification 3.0.0?\n- Integrating with third-p"
+        },
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/",
+          "title": "Developer Resources | Zoho CRM",
+          "snippet": "Developer Resources | Zoho CRM\n\n- ### Core APIs\n\nPerform CRUD operations on CRM module entities and integrate with any third party application through flexible RESTful endpoints.\n\nRead more\n- ### Bulk APIs\n\nAn asynchronous API, used to push or retrieve large amounts of data to and from Zoho CRM, thr"
+        }
+      ]
+    },
+    {
+      "query": "Zoho CRM pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.zoho.com/en-us/crm/zohocrm-pricing.html",
+          "title": "Zoho CRM Pricing and Editions - Free for 3 users",
+          "snippet": "Zoho CRM Pricing and Editions - Free for 3 users\n\n# Close more. Pay less.\n\n- Free Onboarding\n- Built-in AI Agents\n- Human Support\n\nBilling\n\n## Zoho CRM\n\nManage leads, deals, and customer relationships in one place, with automation and AI that help your sales team close faster. Manage leads, deals, a"
+        },
+        {
+          "url": "https://www.zoho.com/crm/signup.html",
+          "title": "Sign up for Zoho CRM | 15-day free CRM trial – Try now!",
+          "snippet": "Sign up for Zoho CRM | 15-day free CRM trial – Try now!\n\n\"Salesforce does a nice job of making people think all other CRMs lack functionality. We checked out Zoho and found that not only did it have all of the functionality Salesforce has, but the interface was much more thoughtful and well-designed"
+        },
+        {
+          "url": "https://www.zoho.com/crm/complete-feature-list.html",
+          "title": "Feature-wise comparison of Zoho CRM Editions | Zoho CRM",
+          "snippet": "Feature-wise comparison of Zoho CRM Editions | Zoho CRM\n\n# Compare all features of Zoho CRM editions\n\n## Pricing(local taxes will be charged in addition to the prices mentioned.)\n\n| Billed Annually | Free for 3 users | ₹ 800/user/month | ₹ 1400/user/month | ₹ 2400/user/month | ₹ 2600/user/month |\n| "
+        },
+        {
+          "url": "https://www.zoho.com/crm/free-crm.html",
+          "title": "Free CRM software for all your business needs- Zoho CRM",
+          "snippet": "Free CRM software for all your business needs- Zoho CRM\n\n# Zoho's Free CRM Software - rich in features, free of cost.\n\nZoho offers a fully-featured free edition of its flagship CRM software. That's right–robust features for sales and marketing, powerful integrations, and secure cloud storage, all fo"
+        },
+        {
+          "url": "https://www.zoho.com/en-us/crm/",
+          "title": "Zoho CRM | Built-in AI Agents",
+          "snippet": "Zoho CRM | Built-in AI Agents\n\n# Close more deals with free AI agents\n\nMillions of salespeople trust Zoho CRM to respond faster to leads, close more deals, and run leaner sales operations. Join them, start free.\n\nAlready a Zoho customer? Get a hands on Zoho CRM experience here\n\n## Serving 350K busin"
+        }
+      ]
+    },
+    {
+      "query": "Zoho CRM official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.zoho.com/crm/developer/mcp.html",
+          "title": "MCP for Zoho CRM: AI Agent Servers for Secure CRM Access",
+          "snippet": "MCP for Zoho CRM: AI Agent Servers for Secure CRM Access\n\n# Connect AI agents to your CRM\n\nDeploy four composable MCP servers that give your AI agent secure, scoped access to your Zoho CRM. Works with any LLM. You stay in complete control.\n\n#### Here's how we can help you\n\n- Your AI agent finally wo"
+        },
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/mcp/overview.html",
+          "title": "Zoho CRM MCP - An Overview | Developer Tools",
+          "snippet": "Zoho CRM MCP - An Overview | Developer Tools\n\n# Zoho CRM MCP Servers\n\nConnect your AI tools to Zoho CRM using the Model Context Protocol (MCP) to perform CRM operations using natural language.\n\n#### Table of Contents\n\n##### 2. Pre-built MCP Servers\n\n- Data Insights\n- Data Operations\n- Module Customi"
+        },
+        {
+          "url": "https://help.zoho.com/portal/en/kb/crm/getting-started/articles/welcome-to-zoho-crm",
+          "title": "Welcome to Zoho CRM",
+          "snippet": "Welcome to Zoho CRM\n\n# Welcome to Zoho CRM\n\nZoho CRM is a customer relationship management platform that helps your team capture leads, close deals, and build lasting customer relationships — all from one place. Whether you're a solo founder tracking your first prospects or an enterprise coordinatin"
+        },
+        {
+          "url": "https://www.zoho.com/mcp/",
+          "title": "Zoho MCP | Zoho's Model Context Protocol to empower AI Agents",
+          "snippet": "Zoho MCP | Zoho's Model Context Protocol to empower AI Agents\n\n# Apps weren’t built for AI agents until now.\n\n## Just prompt—or don’t prompt—and watch work get done.\n\n \n\n## For decades, business apps have made users click type toggle and chase \n\n### That ends now\n\nMeet Zoho MCP (Model Context Protoc"
+        },
+        {
+          "url": "https://www.zoho.com/crm/developer/docs/mcp/setup/claude.html",
+          "title": "Zoho CRM MCP - Claude Setup Guide | Developer Tools",
+          "snippet": "Zoho CRM MCP - Claude Setup Guide | Developer Tools\n\n# Claude Desktop\n\nConfigure Zoho CRM MCP servers in Claude Desktop using the Connectors interface.\n\nFollow these steps to set up Zoho CRM MCP servers in Claude Desktop.\n\n1. Open Claude Desktop and go to Customize > Connector.\n2. Click the Add icon"
+        }
+      ]
+    },
+    {
+      "query": "site:zoho.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.zoho.com/mcp/",
+          "title": "Zoho MCP | Zoho's Model Context Protocol to empower AI Agents",
+          "snippet": "Zoho MCP | Zoho's Model Context Protocol to empower AI Agents\n\n# Apps weren’t built for AI agents until now.\n\n## Just prompt—or don’t prompt—and watch work get done.\n\n \n\n## For decades, business apps have made users click type toggle and chase \n\n### That ends now\n\nMeet Zoho MCP (Model Context Protoc"
+        },
+        {
+          "url": "https://www.zoho.com/mail/glossary/what-is-mcp.html",
+          "title": "What is the Model Context Protocol? | Zoho Mail",
+          "snippet": "What is the Model Context Protocol? | Zoho Mail\n\n1. What is the Model Context Protocol?\n2. Why is MCP needed?\n3. MCP architecture explained\n4. How does MCP work?\n5. Get started with Zoho Mail MCP\n\n# Model Context Protocol (MCP)\n\n## What is the Model Context Protocol (MCP)?\n\nAI assistants, especially"
+        },
+        {
+          "url": "https://docs.catalyst.zoho.com/en/ai-toolkit/catalyst-mcp-server/overview/",
+          "title": "Overview | MCP Server | Catalyst Docs",
+          "snippet": "Overview | MCP Server | Catalyst Docs\n\n# Catalyst MCP Server\n\n### What is MCP?\n\nModel Context Protocol (MCP), is an open-source standard that defines how AI models and LLMs can connect, interact, and operate on other systems. Using MCP, you can instruct an AI model with precise context on the operat"
+        },
+        {
+          "url": "https://www.zoho.com/commerce/academy/mcp-for-ecommerce.html",
+          "title": "What is MCP and how can it be used in ecommerce?",
+          "snippet": "What is MCP and how can it be used in ecommerce?\n\n# What is MCP and how can it be used in ecommerce?\n\nArticle 7 mins read | Posted on September 25, 2026 | By Divyashree Durai\n\nWith the growing adoption of AI technologies, you're likely using AI and large language models (LLMs) in some form, but what"
+        },
+        {
+          "url": "https://help.zoho.com/portal/en/kb/mcp/getting-started",
+          "title": "MCP | Getting Started | Knowledge Base",
+          "snippet": "MCP | Getting Started | Knowledge Base\n\n# MCP | Getting Started | Knowledge Base\n\n- # Getting Started\n- ## Progressive Zoho MCP Server\n\nWhat is a Progressive MCP server? A Progressive MCP server is a Zoho MCP server type that removes the need to manually select and load tools. You only select the Zo"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://zoho.com/crm",
+      "final_url": "https://zoho.com/crm",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:21Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "703898abe2a90242a9e5a7130fb1dbab0c0b7b6c80ab342b469d7dbd9771fa27",
+      "text_len": 5280
+    },
+    {
+      "requested_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+      "final_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:14Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c7dc1560d4398d12b6db6ede48bf8f182580e70f85c17b451f0677d82807732f",
+      "text_len": 2837
+    },
+    {
+      "requested_url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+      "final_url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:15Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "eb31e69978f59422203a05998cbee55ef310127d474963acda002db09d64dab7",
+      "text_len": 637
+    },
+    {
+      "requested_url": "https://www.zoho.com/crm/signup.html",
+      "final_url": "https://www.zoho.com/crm/signup.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:16Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "17e7fd1396d4145a10f257a1da97a7012b929c934e9d68d2e13b2956c0e4c8cf",
+      "text_len": 489
+    },
+    {
+      "requested_url": "https://www.zoho.com/crm/developer/docs/mcp/overview.html",
+      "final_url": "https://www.zoho.com/crm/developer/docs/mcp/overview.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e400e8452c13aa4cd9ebe402b3002ba9a78ba2d2b46e3ce0b08f2f008cac0d50",
+      "text_len": 5967
+    },
+    {
+      "requested_url": "https://docs.catalyst.zoho.com/en/ai-toolkit/catalyst-mcp-server/overview/",
+      "final_url": "https://docs.catalyst.zoho.com/en/ai-toolkit/catalyst-mcp-server/overview/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "15c9a31dd1e6e230d9dc76ba4885f10c8927b63aa81330f9f9a567f4c745fa5d",
+      "text_len": 2817
+    },
+    {
+      "requested_url": "https://www.zoho.com/crm/developer/docs/mcp/setup/claude.html",
+      "final_url": "https://www.zoho.com/crm/developer/docs/mcp/setup/claude.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e768266beaadbd89b9f214be9d17121efa2ed412560ef1f318b19b9ef16292b9",
+      "text_len": 1145
+    },
+    {
+      "requested_url": "https://www.zoho.com/crm/developer/docs/api/v8/auth-request.html",
+      "final_url": "https://www.zoho.com/crm/developer/docs/api/v8/auth-request.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:14Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7871e3d25ed22ecd8c85771fd6ddc98ddcac9642f624c86aeeab6cd6dfa5dd32",
+      "text_len": 7177
+    },
+    {
+      "requested_url": "https://www.zoho.com/llms.txt",
+      "final_url": "https://www.zoho.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:21Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "723e13e858a8fd021bb66fb7a195054689af5740ea0548900fd62a6d3ae7304a",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "quote": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication.",
+        "verified": true
+      },
+      {
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/auth-request.html",
+        "quote": "The Zoho CRM APIs use the authorization code grant type to provide access to protected resources.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.zoho.com/crm/signup.html",
+        "quote": "Sign up for Zoho CRM | 15-day free CRM trial – Try now!",
+        "verified": true
+      },
+      {
+        "url": "https://zoho.com/crm",
+        "quote": "Zoho CRM's freemium edition supports up to 3 users and comes with the essentials like leads, documents, and mobile apps",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+        "quote": "Perform CRUD operations on CRM module entities and integrate with any third party application through flexible RESTful endpoints.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://www.zoho.com/crm/developer/docs/mcp/overview.html",
+        "quote": "Zoho CRM provides these as pre-built MCP servers, so you don't need to build, host, or maintain any infrastructure.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+        "quote": "Fetch records using the SELECT query(SQL syntax) from Zoho CRM.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://zoho.com/crm",
+        "quote": "Built with AI at its core, Zoho CRM supercharges your business to get ahead without the overhead.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

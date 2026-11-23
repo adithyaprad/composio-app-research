@@ -1,0 +1,346 @@
+{
+  "slug": "clickup",
+  "searches": [
+    {
+      "query": "ClickUp API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.clickup.com/docs/authentication",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\nAuthenticate to the ClickUp API using a personal token or OAuth.\n\nAuthentication\n\nTo use the ClickUp API, you must authenticate every request.\n\nFor personal use, authenticate with your personal API token.\n\nFor apps or integrations that other people use, use the OAut"
+        },
+        {
+          "url": "https://help.clickup.com/hc/en-us/articles/6303422883095-Create-your-own-app-with-the-ClickUp-API",
+          "title": "Create your own app with the ClickUp API – ClickUp Help",
+          "snippet": "Create your own app with the ClickUp API – ClickUp Help\n\n# Create your own app with the ClickUp API \n\nWant to create an app that integrates with ClickUp? Give your users the ability to sign in using OAuth 2.0!\n\nBe sure to also check out our API documentation!\n\n# What you'll need\n\n- The ClickUp API i"
+        },
+        {
+          "url": "https://developer.clickup.com/reference/getaccesstoken",
+          "title": "Get Access Token",
+          "snippet": "Get Access Token\n\n# Get Access Token\n\nThese are the routes for authing the API and going through the OAuth flow. Applications utilizing a personal API token don't use this endpoint. Note: OAuth tokens are not supported when using the Try It feature of our Reference docs. You can't try this endpoint "
+        },
+        {
+          "url": "https://clickup.com/blog/clickup-api/",
+          "title": "How to Build Two-Way Integrations With the ClickUp Public API",
+          "snippet": "How to Build Two-Way Integrations With the ClickUp Public API\n\n# What You Can Do With ClickUp’s API\n\nBen Spry\n\nSenior Content Strategist\n\n Dec 20, 2025\n\nYou know that one teammate who forwards invoices as PDFs, asks for updates in Slack, and tracks everything in a spreadsheet called `final-FINAL-inv"
+        },
+        {
+          "url": "https://developer.clickup.com/docs/Getting%20Started",
+          "title": "Get Started with the ClickUp API",
+          "snippet": "Get Started with the ClickUp API\n\n# Get Started with the ClickUp API\n\nUse the ClickUp API to build powerful integrations and apps!\n\nClickUp API 2.0\n\nBuild your own custom integrations and ClickUp apps with our public Application Programming Interface (API).\n\nExplore the ClickUp API\n\nClickUp API docs"
+        }
+      ]
+    },
+    {
+      "query": "ClickUp developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.clickup.com/docs/authentication",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\nAuthenticate to the ClickUp API using a personal token or OAuth.\n\nAuthentication\n\nTo use the ClickUp API, you must authenticate every request.\n\nFor personal use, authenticate with your personal API token.\n\nFor apps or integrations that other people use, use the OAut"
+        },
+        {
+          "url": "https://developer.clickup.com/",
+          "title": "ClickUp API",
+          "snippet": "ClickUp\n\n# Develop innovative solutions with the ClickUp API \n\n Build integrations and apps with our Public API. Connect your AI with ClickUp using our MCP Server. \n\n \n\n \n\n### API\n\n Browse our Public API specification. \n\n \n\n### MCP\n\n Use ClickUp right from your AI assistant. \n\n \n\n### Webhooks\n\n Trig"
+        },
+        {
+          "url": "https://developer.clickup.com/docs/Getting%20Started",
+          "title": "Get Started with the ClickUp API",
+          "snippet": "Get Started with the ClickUp API\n\n# Get Started with the ClickUp API\n\nUse the ClickUp API to build powerful integrations and apps!\n\nClickUp API 2.0\n\nBuild your own custom integrations and ClickUp apps with our public Application Programming Interface (API).\n\nExplore the ClickUp API\n\nClickUp API docs"
+        },
+        {
+          "url": "https://developer.clickup.com/reference/getaccesstoken",
+          "title": "Get Access Token",
+          "snippet": "Get Access Token\n\n# Get Access Token\n\nThese are the routes for authing the API and going through the OAuth flow. Applications utilizing a personal API token don't use this endpoint. Note: OAuth tokens are not supported when using the Try It feature of our Reference docs. You can't try this endpoint "
+        },
+        {
+          "url": "https://developer.clickup.com/docs/open-api-spec",
+          "title": "OpenAPI Specification",
+          "snippet": "OpenAPI Specification\n\n# OpenAPI Specification\n\nAccess and use the OpenAPI specification for the ClickUp API.\n\nOpenAPI Specification\n\nThe raw OpenAPI specification for the ClickUp API is available for each version of our Public API.\n\nThe specifications can be used with various API tools and code gen"
+        }
+      ]
+    },
+    {
+      "query": "ClickUp pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://clickup.com/pricing",
+          "title": "The best work solution, for the best price.",
+          "snippet": "The best work solution, for the best price.\n\n## The best work solution, for the best price.\n\n25,000+ reviews from\n\nYearlyMonthly\n\nfree forever\n\nBest for personal use\n\nFREE\n\nFree forever\n\nKey Features:\n\n100MB Storage\n\nUnlimited Tasks\n\nUnlimited Free Plan Members\n\nTwo-Factor Authentication\n\nCollaborat"
+        },
+        {
+          "url": "https://clickup.com/faqs",
+          "title": "ClickUp FAQs | Pricing, Features, AI, Security & More",
+          "snippet": "ClickUp FAQs | Pricing, Features, AI, Security & More\n\n# ClickUp FAQs\n\nGet answers to common questions about ClickUp's platform advantages, pricing, features, security, integrations, and more.\n\n## Overview\n\nWhat is ClickUp?\n\nClickUp is the all-in-one productivity platform that brings tasks, docs, go"
+        },
+        {
+          "url": "https://clickup.com/signup",
+          "title": "Sign Up | ClickUp™",
+          "snippet": "Sign Up | ClickUp™\n\n# Sign up for free and start using ClickUp in seconds\n\nSave one day every week. Guaranteed.\n\n25,000+ reviews from"
+        },
+        {
+          "url": "https://help.clickup.com/hc/en-us/articles/6303314345623-Upgrade-your-plan",
+          "title": "Upgrade your plan – ClickUp Help",
+          "snippet": "Upgrade your plan – ClickUp Help\n\n# Upgrade your plan \n\nChoose the plan with the best productivity-boosting features for your team!\n\nYou must be an owner or admin to upgrade or downgrade a Workspace, switch billing cycles, or contact us with any billing questions.\n\nWorkspaces are being upgraded to o"
+        },
+        {
+          "url": "https://www.g2.com/products/clickup/pricing",
+          "title": "ClickUp Pricing November 2026",
+          "snippet": "ClickUp Pricing November 2026\n\nClickUp\n\nBy ClickUp\n\n4.6/5(15,829)\n\n###### 4.6 out of 5 stars\n\n5 star\n\n78%\n\n4 star\n\n18%\n\n3 star\n\n2 star\n\n1 star\n\nAt least 10 G2 reviewers have confirmed using this product's AI features and functionality. AI Verified\n\n# ClickUp Pricing Overview\n\nLast updated: April 29,"
+        }
+      ]
+    },
+    {
+      "query": "ClickUp official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+          "title": "ClickUp's MCP Server",
+          "snippet": "ClickUp's MCP Server\n\n# ClickUp's MCP Server\n\nLearn about ClickUp's MCP Server so you can use your AI assistant with ClickUp!\n\nThe Model Context Protocol (MCP) is a secure, standardized framework that lets external AI agents interact with ClickUp Workspace data—like tasks, lists, folders, and docs—u"
+        },
+        {
+          "url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server-1",
+          "title": "MCP Server Setup Instructions",
+          "snippet": "MCP Server Setup Instructions\n\n# MCP Server Setup Instructions\n\nLearn how to setup your AI assistant with ClickUp's MCP server.\n\nSetup instructions\n\nBelow are the setup instructions for some of the most popular AI assistants.\n\nClaude\n\nSet up Claude to use the ClickUp MCP server!\n\nPro, Team, Enterpri"
+        },
+        {
+          "url": "https://help.clickup.com/hc/en-us/articles/33335772678423-What-is-ClickUp-MCP",
+          "title": "What is ClickUp MCP?",
+          "snippet": "What is ClickUp MCP? – ClickUp Help\n\n# What is ClickUp MCP? \n\nYour AI models and agents can use our official MCP (Model Context Protocol) server to access your ClickUp data in a simple and secure way. It's designed to work seamlessly with popular AI assistants like ChatGPT, Cursor, and Claude.\n\nClic"
+        },
+        {
+          "url": "https://clickup.com/blog/how-to-use-clickup-mcp-server/",
+          "title": "How to Use the ClickUp MCP Server: 2026 Setup Guide",
+          "snippet": "How to Use the ClickUp MCP Server: 2026 Setup Guide\n\n# How to Use the ClickUp MCP Server: Setup, Tools, and Real Examples\n\nManasi Nair\n\nManaging Editor\n\n Sep 08, 2026\n\nBefore MCP, getting an AI assistant to work with your project data meant copying context into chat windows, over and over. Anything "
+        },
+        {
+          "url": "https://developer.clickup.com/docs/mcp-tools",
+          "title": "Supported Tools",
+          "snippet": "Supported Tools\n\n# Supported Tools\n\nUse these supported tools with ClickUp's MCP Server.\n\nThe ClickUp MCP exposes many of the capabilities available in our API. The real magic happens when your AI assistant combines several tools to complete a larger request.\n\nNote: Your AI assistant will only be ab"
+        }
+      ]
+    },
+    {
+      "query": "site:clickup.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://clickup.com/blog/hub/ai/mcp/what/",
+          "title": "What Is MCP? Model Context Protocol Explained | ClickUp",
+          "snippet": "What Is MCP? Model Context Protocol Explained | ClickUp\n\n# What Is MCP? Model Context Protocol Explained [In Simple Terms]\n\n Oct 06, 2025\n\n## What Is MCP?\n\nMCP, or Model Context Protocol, is an open-source standard that lets any compliant AI model request data, functions, or prompts from any complia"
+        },
+        {
+          "url": "https://clickup.com/blog/hub/ai/mcp/anthropic-mcp/",
+          "title": "How the Anthropic MCP Works [At a High Level] | The ClickUp Blog",
+          "snippet": "How the Anthropic MCP Works [At a High Level] | The ClickUp Blog\n\n# How the Anthropic MCP Works [At a High Level]\n\nML engineers face mounting pressure to integrate AI assistants with dozens of external services, each demanding custom connectors and brittle integrations. This tool sprawl creates main"
+        },
+        {
+          "url": "https://clickup.com/blog/model-context-protocol/",
+          "title": "How to Implement Model Context Protocol in Your Workflow",
+          "snippet": "How to Implement Model Context Protocol in Your Workflow\n\n# How to Implement Model Context Protocol in Your Workflow\n\nPraburam Srinivasan\n\nGrowth Marketing Manager\n\n Apr 23, 2026\n\nYou’ve duct-taped APIs, rigged Slack bots, and begged ChatGPT to behave like a teammate.\n\nBut without real context, AI’s"
+        },
+        {
+          "url": "https://clickup.com/blog/mcp-tools/",
+          "title": "MCP Tools: The AI Agent Stack for the Model Context Protocol",
+          "snippet": "ClickUp Model Context Protocol (MCP) and MCP tools: How the protocol works\n\n# ClickUp Model Context Protocol (MCP) and MCP tools: How the protocol works\n\nArya P Dinesh\n\nSenior Content Editor\n\n Apr 23, 2026\n\nThe Model Context Protocol (MCP) specification says servers can expose tools that language mo"
+        },
+        {
+          "url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+          "title": "ClickUp's MCP Server",
+          "snippet": "ClickUp's MCP Server\n\n# ClickUp's MCP Server\n\nLearn about ClickUp's MCP Server so you can use your AI assistant with ClickUp!\n\nThe Model Context Protocol (MCP) is a secure, standardized framework that lets external AI agents interact with ClickUp Workspace data—like tasks, lists, folders, and docs—u"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://clickup.com/api",
+      "final_url": "https://clickup.com/api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:51Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "e42529b2867c490c45cb883d35c5b928a4fafbd58d95fbc3593fb5052ecb3c91",
+      "text_len": 530
+    },
+    {
+      "requested_url": "https://developer.clickup.com/docs/authentication",
+      "final_url": "https://developer.clickup.com/docs/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:46Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1ae385a667d816651adafa19ca44a344b86cdf2ee3fb599dbcfc284017a268e2",
+      "text_len": 3154
+    },
+    {
+      "requested_url": "https://clickup.com/pricing",
+      "final_url": "https://clickup.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:48Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9a254e149efda1f367e53ff921c819f24e072284f54ed9512439838efd82d4da",
+      "text_len": 8909
+    },
+    {
+      "requested_url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+      "final_url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "db40c7994b6b4419305193fbceb5a074301250f328641d21c672e02ff3feada6",
+      "text_len": 4033
+    },
+    {
+      "requested_url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server-1",
+      "final_url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server-1",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d850eae49156a55ef44dd0bd991b8e5c33ba484a97c0f2d012f5b1362b9e4768",
+      "text_len": 5199
+    },
+    {
+      "requested_url": "https://developer.clickup.com/docs/mcp-tools",
+      "final_url": "https://developer.clickup.com/docs/mcp-tools",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6e475dd5c147e962e8c929125c2dc80a817f12cf3b8c156f2b2221d599043acc",
+      "text_len": 19999
+    },
+    {
+      "requested_url": "https://developer.clickup.com/docs/open-api-spec",
+      "final_url": "https://developer.clickup.com/docs/open-api-spec",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a6460da3a03c1ad3c267c15746d9c82ea0fc0cbd50e5526f6cde0c3409a4e59d",
+      "text_len": 514
+    },
+    {
+      "requested_url": "https://clickup.com/blog/how-to-use-clickup-mcp-server/",
+      "final_url": "https://clickup.com/blog/how-to-use-clickup-mcp-server/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ca68977bc3fa19ceccc29dabce55a596559b668fc1d50511f28fe5a347dd1299",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://clickup.com/llms.txt",
+      "final_url": "https://clickup.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:51Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "77642ba3da3a6e0370205047d99a6089e2cf507d4471eb6199d2cde857405de7",
+      "text_len": 8826
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.clickup.com/docs/authentication",
+        "quote": "For apps or integrations that other people use, use the OAuth flow, allowing users to authorize Workspaces for your app.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.clickup.com/docs/authentication",
+        "quote": "Personal tokens begin with `pk_`.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developer.clickup.com/docs/authentication",
+        "quote": "Under API Token, click Generate or Regenerate.",
+        "verified": true
+      },
+      {
+        "url": "https://clickup.com/pricing",
+        "quote": "Unlimited Free Plan Members",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.clickup.com/docs/open-api-spec",
+        "quote": "The raw OpenAPI specification for the ClickUp API is available for each version of our Public API.",
+        "verified": true
+      },
+      {
+        "url": "https://clickup.com/api",
+        "quote": "Build integrations and apps with our Public API.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+        "quote": "Our MCP server URL is `https://mcp.clickup.com/mcp`.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+        "quote": "ClickUp's MCP Server is available on all plans.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.clickup.com/docs/authentication",
+        "quote": "Personal tokens never expire.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://clickup.com/llms.txt",
+        "quote": "ClickUp brings together tasks, docs, goals, chat, and AI in a single workspace to replace fragmented tools.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

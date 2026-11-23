@@ -1,0 +1,652 @@
+{
+  "slug": "help-scout",
+  "searches": [
+    {
+      "query": "Help Scout API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+          "title": "Authentication\n      \n      | Help Scout Developers",
+          "snippet": "Authentication | Help Scout Developers \n\n# Authentication \n\nThis is an HTTPS-only API and it uses OAuth 2.0 authorization, implementing Authorization Code and Client Credential flows. All requests have to be authenticated via the `Authorization` header:\n\n```\n\ncurl -H \"Authorization: Bearer f4f4994a8"
+        },
+        {
+          "url": "https://developer.helpscout.com/mailbox-api/",
+          "title": "Inbox API 2.0 | Help Scout Developers",
+          "snippet": "Inbox API 2.0 | Help Scout Developers \n\n# Inbox API 2.0 \n\nWelcome to the second generation of our Inbox API. This is an HTTPS-only API, with OAuth 2 authentication and CORS support running at:\n\n```\nhttps://api.helpscout.net/v2\n\n```\n\nIt uses JSON for requests, responses and error messages. The respon"
+        },
+        {
+          "url": "https://github.com/helpscout/helpscout-api-php-laravel/",
+          "title": "helpscout/helpscout-api-php-laravel",
+          "snippet": "# helpscout/helpscout-api-php-laravel\n\nService Provider and Facade for using the Help Scout API with Laravel and Lumen applications.\n\n- Stars: 9\n- Forks: 5\n- Watchers: 9\n- Open issues: 0\n- License: MIT License\n- Default branch: master\n- Created: 2018-12-19T15:19:20Z\n\n## Languages\n\n- PHP\n\n## Top Cont"
+        },
+        {
+          "url": "https://developer.helpscout.com/docs-api/",
+          "title": "Docs API Overview\n      \n      | Help Scout Developers",
+          "snippet": "Docs API Overview | Help Scout Developers \n\n# Overview\n\n## Your API Key\n\nEach User has a Docs API key. To generate, view, or regenerate the API key, click your avatar in the top right of your account, then click Your Profile.\n\nNext, click Security and Access in the menu on the left. Your API key is "
+        },
+        {
+          "url": "https://github.com/helpscout/helpscout-api-php/blob/master/README.md",
+          "title": "README.md",
+          "snippet": "# README.md\n\n- Branch: master\n- Repository: helpscout/helpscout-api-php\n\n---\n\n# Help Scout API PHP Client\n\nBuild Status\nMaintainability\nTest Coverage\n\nThis is the official Help Scout PHP client. This client contains methods for easily interacting with the Help Scout Mailbox API.\n\n| SDK Version | PHP"
+        }
+      ]
+    },
+    {
+      "query": "Help Scout developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.helpscout.com/",
+          "title": "Help Scout Developers - API Documentation\n      \n      | Help Scout Developers",
+          "snippet": "Help Scout Developers - API Documentation | Help Scout Developers \n\n# Getting Started\n\nHelp Scout provides several tools for developers to make magic happen:\n\n- Apps - display your own content as an internal sidebar application in the Inbox\n- Beacon - live chat, help docs, and a customer portal all "
+        },
+        {
+          "url": "https://developer.helpscout.com/mailbox-api/",
+          "title": "Inbox API 2.0\n      \n      | Help Scout Developers",
+          "snippet": "Inbox API 2.0 | Help Scout Developers \n\n# Inbox API 2.0 \n\nWelcome to the second generation of our Inbox API. This is an HTTPS-only API, with OAuth 2 authentication and CORS support running at:\n\n```\nhttps://api.helpscout.net/v2\n\n```\n\nIt uses JSON for requests, responses and error messages. The respon"
+        },
+        {
+          "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+          "title": "Authentication\n      \n      | Help Scout Developers",
+          "snippet": "Authentication | Help Scout Developers \n\n# Authentication \n\nThis is an HTTPS-only API and it uses OAuth 2.0 authorization, implementing Authorization Code and Client Credential flows. All requests have to be authenticated via the `Authorization` header:\n\n```\n\ncurl -H \"Authorization: Bearer f4f4994a8"
+        },
+        {
+          "url": "https://docs.helpscout.com/article/1140-mailbox-api",
+          "title": "Help Scout's Inbox API, Docs API, Beacon JavaScript, Apps, and Open ...",
+          "snippet": "Help Scout's Inbox API, Docs API, Beacon JavaScript, Apps, and Open Source Tools - Help Scout Support\n\n# Help Scout's Inbox API, Docs API, Beacon JavaScript, Apps, and Open Source Tools\n\nHelp Scout offers many integrations right out of the box, but there are lots of other apps out there in the world"
+        },
+        {
+          "url": "https://developer.helpscout.com/docs-api/",
+          "title": "Docs API Overview\n      \n      | Help Scout Developers",
+          "snippet": "Docs API Overview | Help Scout Developers \n\n# Overview\n\n## Your API Key\n\nEach User has a Docs API key. To generate, view, or regenerate the API key, click your avatar in the top right of your account, then click Your Profile.\n\nNext, click Security and Access in the menu on the left. Your API key is "
+        }
+      ]
+    },
+    {
+      "query": "Help Scout pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.helpscout.com/pricing/",
+          "title": "Help Scout Pricing: Affordable Customer Support Software",
+          "snippet": "Help Scout Pricing: Affordable Customer Support Software\n\n# Deliver delightful support at every stage of growth\n\nMonthly Annual -16%\n\n### Standard\n\n$25 per user/mo, billed annually\n\n$30 per user/mo, billed monthly\n\nFor growing teams looking to automate more tasks and move beyond email.\n\n#### Get cor"
+        },
+        {
+          "url": "https://docs.helpscout.com/article/596-billing-and-plans-guide",
+          "title": "Billing and Plans Guide - Help Scout Support",
+          "snippet": "Billing and Plans Guide - Help Scout Support\n\n# Billing and Plans Guide\n\nHelp Scout offers several different plans with different features and limits, as well as add-ons that are available to specific plans, allowing you to choose the plan and extras that meet your needs. \n\nThis guide is for active "
+        },
+        {
+          "url": "https://docs.helpscout.com/article/1597-free-plan",
+          "title": "Help Scout Free Plan - Help Scout Support",
+          "snippet": "Help Scout Free Plan - Help Scout Support\n\n# Help Scout Free Plan\n\nHelp Scout’s free plan is a great way to get started with delivering exceptional customer service at no cost. Whether you’re a small team or just starting out, the plan offers a robust set of tools to help you provide high-quality su"
+        },
+        {
+          "url": "https://freetrialdeals.com/trials/help-scout-15-day-free-trial",
+          "title": "Help Scout Free Trial: 15 Days, No Card + Free Plan",
+          "snippet": "Help Scout Free Trial: 15 Days, No Card + Free Plan\n\n# Help Scout Free Trial 2026: 15 Days, No Card, Plus a Free Plan\n\nFree trial offer from Help Scout\n\n ✅ Checked Oct 21, 2026🎁 15 Days✅ No card required After trial: Standard from $25/user/month📅 Published Oct 21, 2026\n\n## Help Scout Free Trial: Wha"
+        },
+        {
+          "url": "https://www.gleap.ai/blog/help-scout-pricing",
+          "title": "Help Scout Pricing 2026: Plans, AI Answers and Team Totals",
+          "snippet": "Help Scout Pricing 2026: Plans, AI Answers and Team Totals\n\n# Help Scout pricing in 2026: plans, AI Answers and what a team pays\n\n Lukas Böhler Oct 3, 2026 6 min read \n\n## Key takeaways\n\n- Help Scout has a free plan for 5 users and 100 contacts a month. Paid plans cost $25, $45 or $75 per user a mon"
+        }
+      ]
+    },
+    {
+      "query": "Help Scout official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.helpscout.com/article/1779-connect-your-ai-agent-with-help-scout-to-search-conversations-and-pull-reports",
+          "title": "Connect your AI Agent to Help Scout via MCP - Help Scout Support",
+          "snippet": "Connect your AI Agent to Help Scout via MCP - Help Scout Support\n\n# Connect your AI Agent to Help Scout via MCP\n\nHelp Scout MCP gives AI assistants secure, official access to Help Scout data. You can connect Claude, ChatGPT, Cursor, and your own internal AI tools directly to Help Scout to pull up co"
+        },
+        {
+          "url": "https://articles.helpscout.com/blog/introducing-help-scout-mcp/",
+          "title": "Help Scout's MCP server is now available",
+          "snippet": "Help Scout's MCP server is now available\n\n# Help Scout's MCP server is now available\n\nWritten By Help Scout• July 28, 2026\n\nEvery customer conversation tells a story. Support teams hear about issues before anyone else. They answer buying questions, uncover new customer requests, explain complex work"
+        },
+        {
+          "url": "https://www.helpscout.com/blog/help-scout-ai-features/",
+          "title": "Help Scout's AI Features: Deliver Better Support, Faster",
+          "snippet": "Help Scout's AI Features: Deliver Better Support, Faster\n\n# Help Scout's AI Features: Deliver Better Support, Faster\n\nWritten By Jessica Greene & Megan Kopalasingam• August 6, 2026\n\nMost of our customers are businesses where support is a revenue driver, not a cost center. Delivering great support is"
+        },
+        {
+          "url": "https://www.scalekit.com/blog/helpscout-mcp-vs-api",
+          "title": "Help Scout MCP vs API: Connect AI Agents to Help Scout",
+          "snippet": "Help Scout MCP vs API: Connect AI Agents to Help Scout\n\nNov 10, 2026\n\n# Help Scout MCP vs API: Connect AI Agents to Help Scout\n\nSaif Ali Shaik\n\nFounding Developer Advocate\n\nHelp Scout MCP vs API comes down to whether your agent only answers questions or also does the support work. Help Scout hosts a"
+        },
+        {
+          "url": "https://eseospace.com/blog/help-scout-mcp-server/",
+          "title": "Help Scout MCP Server: Tools, Setup and Security - eSEOspace",
+          "snippet": "Help Scout MCP Server: Tools, Setup and Security - eSEOspace\n\nLocated in the USA | 915 Highland Pointe Dr. Roseville, CA 95678\n\nhello@eseospace.com PR and Media Inquiries: pr@eseospace.com(916) 866-7893 (+19168667893) Public Sector\n\n# Help Scout MCP Server: Tools, Setup and Security\n\nHelp Scout's of"
+        }
+      ]
+    },
+    {
+      "query": "site:helpscout.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.helpscout.com/article/1779-connect-your-ai-agent-with-help-scout-to-search-conversations-and-pull-reports",
+          "title": "Connect your AI Agent to Help Scout via MCP - Help Scout Support",
+          "snippet": "Connect your AI Agent to Help Scout via MCP - Help Scout Support\n\n# Connect your AI Agent to Help Scout via MCP\n\nHelp Scout MCP gives AI assistants secure, official access to Help Scout data. You can connect Claude, ChatGPT, Cursor, and your own internal AI tools directly to Help Scout to pull up co"
+        },
+        {
+          "url": "https://articles.helpscout.com/blog/introducing-help-scout-mcp/",
+          "title": "Help Scout's MCP server is now available",
+          "snippet": "Help Scout's MCP server is now available\n\n# Help Scout's MCP server is now available\n\nWritten By Help Scout• July 28, 2026\n\nEvery customer conversation tells a story. Support teams hear about issues before anyone else. They answer buying questions, uncover new customer requests, explain complex work"
+        },
+        {
+          "url": "https://www.helpscout.com/blog/help-scout-ai-features/",
+          "title": "Help Scout's AI Features: Deliver Better Support, Faster",
+          "snippet": "Help Scout's AI Features: Deliver Better Support, Faster\n\n# Help Scout's AI Features: Deliver Better Support, Faster\n\nWritten By Jessica Greene & Megan Kopalasingam• August 6, 2026\n\nMost of our customers are businesses where support is a revenue driver, not a cost center. Delivering great support is"
+        },
+        {
+          "url": "https://docs.helpscout.com/category/1567-connectors",
+          "title": "Connectors - Help Scout Support",
+          "snippet": "Connectors - Help Scout Support\n\n# Connectors\n\nApps that help you connect Help Scout to other apps\n\n- Connect ChannelReply With Help Scout for eBay, Amazon, Shopify, and Walmart Support\n- Connect your AI Agent to Help Scout via MCP\n- Connect Fivetran With Help Scout for Data Analysis"
+        },
+        {
+          "url": "https://www.helpscout.com/seasonal-release-2026-h2/",
+          "title": "Help Scout's Seasonal Release - Fall 2026",
+          "snippet": "Help Scout's Seasonal Release - Fall 2026\n\n# From Conversations to Context\n\nEvery conversation holds valuable context. This season brings new ways to understand your customers and put that context to work. Here are the highlights. \n\n## Trust is built one promise at a time.\n\nCustomers trust teams tha"
+        }
+      ]
+    },
+    {
+      "query": "Help Scout API authentication OAuth API key",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+          "title": "Authentication\n      \n      | Help Scout Developers",
+          "snippet": "Authentication | Help Scout Developers \n\n# Authentication \n\nThis is an HTTPS-only API and it uses OAuth 2.0 authorization, implementing Authorization Code and Client Credential flows. All requests have to be authenticated via the `Authorization` header:\n\n```\n\ncurl -H \"Authorization: Bearer f4f4994a8"
+        },
+        {
+          "url": "https://developer.helpscout.com/llms.txt",
+          "title": "",
+          "snippet": "# Help Scout Developer APIs\n\nThis file documents the public APIs available through Help Scout's developer platform for integration and automation purposes.\n\n## Inbox API 2.0 (Primary API)\n\n**Base URL:** https://api.helpscout.net/v2\n**Authentication:** OAuth 2.0 (Authorization Code & Client Credentia"
+        },
+        {
+          "url": "https://developer.helpscout.com/docs-api/",
+          "title": "Docs API Overview\n      \n      | Help Scout Developers",
+          "snippet": "Docs API Overview | Help Scout Developers \n\n# Overview\n\n## Your API Key\n\nEach User has a Docs API key. To generate, view, or regenerate the API key, click your avatar in the top right of your account, then click Your Profile.\n\nNext, click Security and Access in the menu on the left. Your API key is "
+        },
+        {
+          "url": "https://github.com/helpscout/helpscout-api-php-laravel",
+          "title": "helpscout/helpscout-api-php-laravel",
+          "snippet": "# helpscout/helpscout-api-php-laravel\n\nService Provider and Facade for using the Help Scout API with Laravel and Lumen applications.\n\n- Stars: 9\n- Forks: 5\n- Watchers: 9\n- Open issues: 0\n- License: MIT License\n- Default branch: master\n- Created: 2018-12-19T15:19:20Z\n\n## Languages\n\n- PHP\n\n## Top Cont"
+        },
+        {
+          "url": "https://github.com/helpscout/helpscout-api-php/blob/master/README.md",
+          "title": "README.md",
+          "snippet": "# README.md\n\n- Branch: master\n- Repository: helpscout/helpscout-api-php\n\n---\n\n# Help Scout API PHP Client\n\nBuild Status\nMaintainability\nTest Coverage\n\nThis is the official Help Scout PHP client. This client contains methods for easily interacting with the Help Scout Mailbox API.\n\n| SDK Version | PHP"
+        }
+      ]
+    },
+    {
+      "query": "site:helpscout.com API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+          "title": "Authentication\n      \n      | Help Scout Developers",
+          "snippet": "Authentication | Help Scout Developers \n\n# Authentication \n\nThis is an HTTPS-only API and it uses OAuth 2.0 authorization, implementing Authorization Code and Client Credential flows. All requests have to be authenticated via the `Authorization` header:\n\n```\n\ncurl -H \"Authorization: Bearer f4f4994a8"
+        },
+        {
+          "url": "https://developer.helpscout.com/docs-api/",
+          "title": "Docs API Overview\n      \n      | Help Scout Developers",
+          "snippet": "Docs API Overview | Help Scout Developers \n\n# Overview\n\n## Your API Key\n\nEach User has a Docs API key. To generate, view, or regenerate the API key, click your avatar in the top right of your account, then click Your Profile.\n\nNext, click Security and Access in the menu on the left. Your API key is "
+        },
+        {
+          "url": "https://developer.helpscout.com/mailbox-api/",
+          "title": "Inbox API 2.0\n      \n      | Help Scout Developers",
+          "snippet": "Inbox API 2.0 | Help Scout Developers \n\n# Inbox API 2.0 \n\nWelcome to the second generation of our Inbox API. This is an HTTPS-only API, with OAuth 2 authentication and CORS support running at:\n\n```\nhttps://api.helpscout.net/v2\n\n```\n\nIt uses JSON for requests, responses and error messages. The respon"
+        },
+        {
+          "url": "https://developer.helpscout.com/llms.txt",
+          "title": "",
+          "snippet": "# Help Scout Developer APIs\n\nThis file documents the public APIs available through Help Scout's developer platform for integration and automation purposes.\n\n## Inbox API 2.0 (Primary API)\n\n**Base URL:** https://api.helpscout.net/v2\n**Authentication:** OAuth 2.0 (Authorization Code & Client Credentia"
+        },
+        {
+          "url": "https://developer.helpscout.com/docs-api/restricted-docs/",
+          "title": "Restricted Docs\n      \n      | Help Scout Developers",
+          "snippet": "Restricted Docs | Help Scout Developers \n\n# Restricted Docs\n\n Restricted Docs requires the Plus or Pro plan. Account Owners for Standard plans can access the Plans page for more information and change plans. \n\n## Overview\n\nSites can be restricted so only visitors you think should get access can see "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://helpscout.com",
+      "final_url": "https://helpscout.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:40Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "b26694e6e7b4a036f5f435cc9a2148a243c1bff8ec11d0d049fdf5d65f833e94",
+      "text_len": 4059
+    },
+    {
+      "requested_url": "https://developer.helpscout.com/docs-api/",
+      "final_url": "https://developer.helpscout.com/docs-api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f048a8f639ae3d10a1f7565cc9d94f376da3577be651d02e6a7489e17c6322ad",
+      "text_len": 4054
+    },
+    {
+      "requested_url": "https://www.helpscout.com/pricing/",
+      "final_url": "https://www.helpscout.com/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fd05b4103c33ab288378f98e6f79486df12aa81923923c55e5064705ee9a6262",
+      "text_len": 12009
+    },
+    {
+      "requested_url": "https://articles.helpscout.com/blog/introducing-help-scout-mcp/",
+      "final_url": "https://articles.helpscout.com/blog/introducing-help-scout-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:34Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5b5f36c0d07ecd3ac44a65b4d9de9e4a4e1bc23eb18c6be0ebda742333444410",
+      "text_len": 3716
+    },
+    {
+      "requested_url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+      "final_url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3dab699f0d25b34ae336a93157ffeb142cf849c831ec73118dbe1406a453e7d4",
+      "text_len": 4879
+    },
+    {
+      "requested_url": "https://developer.helpscout.com/mailbox-api/",
+      "final_url": "https://developer.helpscout.com/mailbox-api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "da99ca9d3cddcd1419f10071f9ad7218464bb2132255033399ab7563ac88528b",
+      "text_len": 1044
+    },
+    {
+      "requested_url": "https://docs.helpscout.com/article/1140-mailbox-api",
+      "final_url": "https://docs.helpscout.com/article/1140-mailbox-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5d910445017d9648dbfcb5200bb6d9c99d688fad5d93f3de744f11d49618364f",
+      "text_len": 2286
+    },
+    {
+      "requested_url": "https://developer.helpscout.com/",
+      "final_url": "https://developer.helpscout.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "02782bd017d508b465ae657fb8b147c273d82200cfa60b4d132ec628c0727c8d",
+      "text_len": 1085
+    },
+    {
+      "requested_url": "https://developer.helpscout.com/llms.txt",
+      "final_url": "https://developer.helpscout.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:40Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "4eab4d0a7dcb90d53e5b1df3503f13cf1cfe8e9b860dc5572545019117a31d36",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer.helpscout.com/",
+      "final_url": "https://developer.helpscout.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:32Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "02782bd017d508b465ae657fb8b147c273d82200cfa60b4d132ec628c0727c8d",
+      "text_len": 1085
+    },
+    {
+      "requested_url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+      "final_url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3dab699f0d25b34ae336a93157ffeb142cf849c831ec73118dbe1406a453e7d4",
+      "text_len": 4879
+    },
+    {
+      "requested_url": "https://developer.helpscout.com/docs-api/",
+      "final_url": "https://developer.helpscout.com/docs-api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f048a8f639ae3d10a1f7565cc9d94f376da3577be651d02e6a7489e17c6322ad",
+      "text_len": 4054
+    },
+    {
+      "requested_url": "https://developer.helpscout.com/docs-api/restricted-docs/",
+      "final_url": "https://developer.helpscout.com/docs-api/restricted-docs/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b6f775771a4aee10ce9d15933481e3755891bdc4d97270416a6450b4387ec651",
+      "text_len": 8760
+    },
+    {
+      "requested_url": "https://developer.helpscout.com/mailbox-api/",
+      "final_url": "https://developer.helpscout.com/mailbox-api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "da99ca9d3cddcd1419f10071f9ad7218464bb2132255033399ab7563ac88528b",
+      "text_len": 1044
+    },
+    {
+      "requested_url": "https://developer.helpscout.com/llms.txt",
+      "final_url": "https://developer.helpscout.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:29:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4eab4d0a7dcb90d53e5b1df3503f13cf1cfe8e9b860dc5572545019117a31d36",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+        "quote": "This is an HTTPS-only API and it uses OAuth 2.0 authorization, implementing Authorization Code and Client Credential flows.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.helpscout.com/docs-api/",
+        "quote": "The API key is passed via HTTP Basic Authentication and goes in the username field. A dummy password, such as X, goes in the password field.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.helpscout.com/article/1140-mailbox-api",
+        "quote": "The Free plan does not include access to the API or integrations.",
+        "verified": true
+      },
+      {
+        "url": "https://www.helpscout.com/pricing/",
+        "quote": "$25 per user/mo, billed annually",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.helpscout.com/",
+        "quote": "Inbox API - read and write data to Help Scout inboxes",
+        "verified": true
+      },
+      {
+        "url": "https://developer.helpscout.com/llms.txt",
+        "quote": "The primary REST API for managing Help Scout conversations, customers, and support operations.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://articles.helpscout.com/blog/introducing-help-scout-mcp/",
+        "quote": "we're bringing Help Scout's Model Context Protocol (MCP) server out of beta, making it generally available to all Help Scout customers.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+        "quote": "You need to create an OAuth2 application before you can use the API. Create one by navigating to Your Profile > My apps",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://helpscout.com",
+        "quote": "Inbox brings email, SMS, social, chat, and voice into one clean space.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "basic_transport_not_method"
+    ],
+    "findings": [
+      {
+        "rule": "basic_transport_not_method",
+        "source": "code",
+        "reason": "a key/token is sent via the Basic scheme; no username + password login is described",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "quote": "the api key is passed via http basic authentication and goes in the username field."
+          }
+        ]
+      },
+      {
+        "rule": "basic_transport_not_method",
+        "source": "llm",
+        "reason": "The Docs API sends an API key through HTTP Basic with a dummy password, so it is an api_key method and basic should not be listed separately.",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "url": "https://developer.helpscout.com/docs-api/",
+            "quote": "The API key is passed via HTTP Basic Authentication and goes in the username field. A dummy password, such as X, goes in the password field."
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth"
+    ],
+    "claims": [
+      "auth"
+    ],
+    "review_searches": [
+      {
+        "query": "Help Scout API authentication OAuth API key",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+            "title": "Authentication\n      \n      | Help Scout Developers",
+            "snippet": "Authentication | Help Scout Developers \n\n# Authentication \n\nThis is an HTTPS-only API and it uses OAuth 2.0 authorization, implementing Authorization Code and Client Credential flows. All requests have to be authenticated via the `Authorization` header:\n\n```\n\ncurl -H \"Authorization: Bearer f4f4994a8"
+          },
+          {
+            "url": "https://developer.helpscout.com/llms.txt",
+            "title": "",
+            "snippet": "# Help Scout Developer APIs\n\nThis file documents the public APIs available through Help Scout's developer platform for integration and automation purposes.\n\n## Inbox API 2.0 (Primary API)\n\n**Base URL:** https://api.helpscout.net/v2\n**Authentication:** OAuth 2.0 (Authorization Code & Client Credentia"
+          },
+          {
+            "url": "https://developer.helpscout.com/docs-api/",
+            "title": "Docs API Overview\n      \n      | Help Scout Developers",
+            "snippet": "Docs API Overview | Help Scout Developers \n\n# Overview\n\n## Your API Key\n\nEach User has a Docs API key. To generate, view, or regenerate the API key, click your avatar in the top right of your account, then click Your Profile.\n\nNext, click Security and Access in the menu on the left. Your API key is "
+          },
+          {
+            "url": "https://github.com/helpscout/helpscout-api-php-laravel",
+            "title": "helpscout/helpscout-api-php-laravel",
+            "snippet": "# helpscout/helpscout-api-php-laravel\n\nService Provider and Facade for using the Help Scout API with Laravel and Lumen applications.\n\n- Stars: 9\n- Forks: 5\n- Watchers: 9\n- Open issues: 0\n- License: MIT License\n- Default branch: master\n- Created: 2018-12-19T15:19:20Z\n\n## Languages\n\n- PHP\n\n## Top Cont"
+          },
+          {
+            "url": "https://github.com/helpscout/helpscout-api-php/blob/master/README.md",
+            "title": "README.md",
+            "snippet": "# README.md\n\n- Branch: master\n- Repository: helpscout/helpscout-api-php\n\n---\n\n# Help Scout API PHP Client\n\nBuild Status\nMaintainability\nTest Coverage\n\nThis is the official Help Scout PHP client. This client contains methods for easily interacting with the Help Scout Mailbox API.\n\n| SDK Version | PHP"
+          }
+        ]
+      },
+      {
+        "query": "site:helpscout.com API authentication",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+            "title": "Authentication\n      \n      | Help Scout Developers",
+            "snippet": "Authentication | Help Scout Developers \n\n# Authentication \n\nThis is an HTTPS-only API and it uses OAuth 2.0 authorization, implementing Authorization Code and Client Credential flows. All requests have to be authenticated via the `Authorization` header:\n\n```\n\ncurl -H \"Authorization: Bearer f4f4994a8"
+          },
+          {
+            "url": "https://developer.helpscout.com/docs-api/",
+            "title": "Docs API Overview\n      \n      | Help Scout Developers",
+            "snippet": "Docs API Overview | Help Scout Developers \n\n# Overview\n\n## Your API Key\n\nEach User has a Docs API key. To generate, view, or regenerate the API key, click your avatar in the top right of your account, then click Your Profile.\n\nNext, click Security and Access in the menu on the left. Your API key is "
+          },
+          {
+            "url": "https://developer.helpscout.com/mailbox-api/",
+            "title": "Inbox API 2.0\n      \n      | Help Scout Developers",
+            "snippet": "Inbox API 2.0 | Help Scout Developers \n\n# Inbox API 2.0 \n\nWelcome to the second generation of our Inbox API. This is an HTTPS-only API, with OAuth 2 authentication and CORS support running at:\n\n```\nhttps://api.helpscout.net/v2\n\n```\n\nIt uses JSON for requests, responses and error messages. The respon"
+          },
+          {
+            "url": "https://developer.helpscout.com/llms.txt",
+            "title": "",
+            "snippet": "# Help Scout Developer APIs\n\nThis file documents the public APIs available through Help Scout's developer platform for integration and automation purposes.\n\n## Inbox API 2.0 (Primary API)\n\n**Base URL:** https://api.helpscout.net/v2\n**Authentication:** OAuth 2.0 (Authorization Code & Client Credentia"
+          },
+          {
+            "url": "https://developer.helpscout.com/docs-api/restricted-docs/",
+            "title": "Restricted Docs\n      \n      | Help Scout Developers",
+            "snippet": "Restricted Docs | Help Scout Developers \n\n# Restricted Docs\n\n Restricted Docs requires the Plus or Pro plan. Account Owners for Standard plans can access the Plans page for more information and change plans. \n\n## Overview\n\nSites can be restricted so only visitors you think should get access can see "
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://developer.helpscout.com/",
+        "final_url": "https://developer.helpscout.com/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:32Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "02782bd017d508b465ae657fb8b147c273d82200cfa60b4d132ec628c0727c8d",
+        "text_len": 1085
+      },
+      {
+        "requested_url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+        "final_url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:29Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "3dab699f0d25b34ae336a93157ffeb142cf849c831ec73118dbe1406a453e7d4",
+        "text_len": 4879
+      },
+      {
+        "requested_url": "https://developer.helpscout.com/docs-api/",
+        "final_url": "https://developer.helpscout.com/docs-api/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:29Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "f048a8f639ae3d10a1f7565cc9d94f376da3577be651d02e6a7489e17c6322ad",
+        "text_len": 4054
+      },
+      {
+        "requested_url": "https://developer.helpscout.com/docs-api/restricted-docs/",
+        "final_url": "https://developer.helpscout.com/docs-api/restricted-docs/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:32Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "b6f775771a4aee10ce9d15933481e3755891bdc4d97270416a6450b4387ec651",
+        "text_len": 8760
+      },
+      {
+        "requested_url": "https://developer.helpscout.com/mailbox-api/",
+        "final_url": "https://developer.helpscout.com/mailbox-api/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:32Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "da99ca9d3cddcd1419f10071f9ad7218464bb2132255033399ab7563ac88528b",
+        "text_len": 1044
+      },
+      {
+        "requested_url": "https://developer.helpscout.com/llms.txt",
+        "final_url": "https://developer.helpscout.com/llms.txt",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:29:29Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "4eab4d0a7dcb90d53e5b1df3503f13cf1cfe8e9b860dc5572545019117a31d36",
+        "text_len": 20000
+      }
+    ]
+  }
+}

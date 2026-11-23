@@ -1,0 +1,336 @@
+{
+  "slug": "ahrefs",
+  "searches": [
+    {
+      "query": "Ahrefs API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.ahrefs.com/ahrefs-connect/docs/oauth-guide.md",
+          "title": "OAuth guide",
+          "snippet": "# OAuth guide\n\nAll API calls require authorization and are made on behalf of an authorized Ahrefs user. To do this, your app must obtain an API access token for that user.\n\nAhrefs Connect uses OAuth 2.0 Authorization Code Flow with Proof Key for Code Exchange (PKCE). The process has two main steps:\n"
+        },
+        {
+          "url": "https://docs.ahrefs.com/en/api/docs/introduction",
+          "title": "Introduction | Ahrefs for Developers",
+          "snippet": "Introduction | Ahrefs for Developers\n\n# Introduction\n\nWith Ahrefs API, you can use data from your Ahrefs workspace to create custom integrations and automations. Currently, API v3 allows you to pull data from the Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar,"
+        },
+        {
+          "url": "https://docs.corsair.dev/plugins/ahrefs/get-credentials",
+          "title": "Get Ahrefs credentials",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.corsair.dev/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Get Ahrefs credentials\n\n> How to get Ahrefs API credentials\n\n## Get your Ahrefs API Key\n\n1. Sign up or log in\n\nGo to"
+        },
+        {
+          "url": "https://apis.io/security/ahrefs/ahrefs-authentication/",
+          "title": "Ahrefs API Authentication | APIs.io",
+          "snippet": "Ahrefs API Authentication | APIs.io\n\n# Ahrefs Authentication\n\nAuthentication\n\nAhrefs secures its APIs with http and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).\n\n Company SEO Marketing Search Analytics Bac"
+        },
+        {
+          "url": "https://github.com/ahrefs/ahrefs-python/blob/master/README.md",
+          "title": "README.md",
+          "snippet": "# README.md\n\n- Branch: master\n- Repository: ahrefs/ahrefs-python\n\n---\n\n# Ahrefs Python SDK\n\nCI\nPython 3.11+\nLicense: MIT\n\nPython client for the Ahrefs API. Typed request and response models for all endpoints, auto-generated from the official OpenAPI specifications.\n\nAPI Documentation\n\n## Table of Co"
+        }
+      ]
+    },
+    {
+      "query": "Ahrefs developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.ahrefs.com/en/api/docs/introduction",
+          "title": "Introduction | Ahrefs for Developers",
+          "snippet": "Introduction | Ahrefs for Developers\n\n# Introduction\n\nWith Ahrefs API, you can use data from your Ahrefs workspace to create custom integrations and automations. Currently, API v3 allows you to pull data from the Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar,"
+        },
+        {
+          "url": "https://docs.ahrefs.com/",
+          "title": "Ahrefs for Developers",
+          "snippet": "Ahrefs for Developers\n\n# Build with Ahrefs data\n\nAccess Ahrefs marketing and search data through our APIs and developer tools to build custom integrations and workflows.\n\nAPI Request\n\nResponse 200 OK\n\nDomain / DR Ref. Domains\n\n1 wikipedia.org 98\n\n2 github.com 96\n\n3 medium.com 94\n\n4 stackoverflow.com"
+        },
+        {
+          "url": "https://help.ahrefs.com/en/articles/6559232-about-api-v3",
+          "title": "About API v3 | Help Center - Ahrefs",
+          "snippet": "About API v3 | Help Center - Ahrefs\n\n# About API v3\n\nLearn about our API v3 and the endpoints that we provide for the tools in our platform\n\nWritten by Dania\n\nSeptember 23, 2026\n\nTable of contents\n\nAhrefs provides data via API via 3 methods:\n\n- Direct API access\n- MCP Server\n- Ahrefs Connect\n\nUsing "
+        },
+        {
+          "url": "https://docs.ahrefs.com/en/api/reference/public",
+          "title": "Public | Ahrefs for Developers",
+          "snippet": "Public | Ahrefs for Developers\n\n# Public\n\nFree endpoints that don't require an Ahrefs subscription, or require a free/public APIv3 key\n\nBase URL`https://api.ahrefs.com/v3/public`\n\nVersion 3.0.0 Endpoints 5\n\n## Crawler\n\nGET Crawler IP addresses/crawler-ips GET Crawler IP ranges/crawler-ip-ranges\n\n## "
+        },
+        {
+          "url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+          "title": "What is Ahrefs MCP",
+          "snippet": "What is Ahrefs MCP | Ahrefs for Developers\n\n# What is Ahrefs MCP\n\nAhrefs MCP lets AI agents securely access the Ahrefs API and enrich their answers with real Ahrefs data. MCP (Model Context Protocol) is a standard that allows AI tools to connect with third-party APIs in a secure, consistent way. In "
+        }
+      ]
+    },
+    {
+      "query": "Ahrefs pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://ahrefs.com/pricing",
+          "title": "Plans & Pricing - Ahrefs",
+          "snippet": "Plans & Pricing - Ahrefs\n\n# Plans & pricing\n\nFrom first projects to enterprise scale, Ahrefs’ plans help your business stay discoverable in search, AI, and beyond—powered by one of the most active marketing crawlers and 16+ years of web-scale data.\n\nPay annually, save up to 17% \n\nThe prices shown ar"
+        },
+        {
+          "url": "https://help.ahrefs.com/en/articles/1406260-do-you-offer-any-discounts-or-free-trials",
+          "title": "Do you offer any discounts or free trials? | Help Center - Ahrefs",
+          "snippet": "Do you offer any discounts or free trials? | Help Center - Ahrefs\n\n# Do you offer any discounts or free trials?\n\nEverything you need to know about specials on our prices, and other frequently asked questions about discounts, free trials, and more.\n\nWritten by Anna\n\nUpdated over 2 weeks ago\n\nTable of"
+        },
+        {
+          "url": "https://ahrefs.com/free",
+          "title": "Ahrefs Free | Free SEO & marketing tools to grow your website",
+          "snippet": "Ahrefs Free | Free SEO & marketing tools to grow your website\n\n# Ahrefs Free Account\n\nGet found in search and AI for free\n\nNot a trial. A free marketing account to get your brand seen in search, AI, and beyond.\n\n## Six tools. Yours to keep.\n\nMost \"free\" tools are a 7-day countdown in disguise. Ahref"
+        },
+        {
+          "url": "https://ahrefs.com/faq",
+          "title": "Ahrefs FAQ | Frequently asked questions",
+          "snippet": "Ahrefs FAQ | Frequently asked questions\n\n# Frequently asked questions\n\nEverything you wanted to ask about Ahrefs\n\nPlans, credits, data, AI search, integrations, security — answered. 48 of the most common questions, written for buyers, founders, and SEO teams.\n\n## What is Ahrefs\n\n- What is Ahrefs and"
+        },
+        {
+          "url": "https://ahrefs.com/blog/ahrefs-pricing/",
+          "title": "How To Choose the Right Ahrefs Plan in 2026",
+          "snippet": "How To Choose the Right Ahrefs Plan in 2026\n\n# Ahrefs Pricing: How to Choose the Right Ahrefs Plan\n\nBy Constance Tan\n\nProduct Marketing at Ahrefs\n\nReviewed by\n\nAndrei Țiț\n\nContents\n\n- Ahrefs pricing overview\n- Ahrefs' free plan\n- Ahrefs' paid subscription plans\n- Optional Add-ons\n- Standalone tools\n"
+        }
+      ]
+    },
+    {
+      "query": "Ahrefs official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://ahrefs.com/seo-mcp",
+          "title": "Ahrefs SEO MCP | SEO & AEO Data in ChatGPT and Claude",
+          "snippet": "Ahrefs SEO MCP | SEO & AEO Data in ChatGPT and Claude\n\n# Ahrefs SEO MCP\n\nChat with Ahrefs for actionable SEO & marketing data\n\nGet live Ahrefs data inside ChatGPT, Claude, and other AI tools. No code required, just ask.\n\n## Ahrefs SEO MCP use cases\n\n### Research trendy keywords and content ideas\n\nGe"
+        },
+        {
+          "url": "https://help.ahrefs.com/en/articles/13913559-getting-started-with-ahrefs-mcp",
+          "title": "Getting started with Ahrefs MCP",
+          "snippet": "Getting started with Ahrefs MCP | Help Center - Ahrefs\n\n# Getting started with Ahrefs MCP\n\nChat with Ahrefs API for actionable SEO & marketing data\n\nWritten by Constance Tan\n\nSeptember 22, 2026\n\nTable of contents\n\nThe Ahrefs MCP server allows you to connect Ahrefs’ API to your AI tool of choice (Cha"
+        },
+        {
+          "url": "https://docs.ahrefs.com/mcp/docs/chatgpt-web.md",
+          "title": "ChatGPT Web",
+          "snippet": "# ChatGPT Web\n\n### Note on ChatGPT support\n\n> INFO\n> Full support for MCP client access is currently in beta in ChatGPT. At the moment, it's only available in Developer mode for Pro and Plus accounts on the web.\n\nWhile it's in beta, we recommend being as explicit and precise as possible in your prom"
+        },
+        {
+          "url": "https://docs.ahrefs.com/mcp/docs/introduction.md",
+          "title": "What is Ahrefs MCP",
+          "snippet": "# What is Ahrefs MCP\n\nAhrefs MCP lets AI agents securely access the Ahrefs API and enrich their answers with real Ahrefs data.\nMCP (Model Context Protocol) is a standard that allows AI tools to connect with third-party APIs in a secure, consistent way. In our case, it connects AI tools with Ahrefs, "
+        },
+        {
+          "url": "https://ahrefs.com/blog/new-features-oct-2025/",
+          "title": "Connect Ahrefs to ChatGPT, AI citations charts, and more (October 2025)",
+          "snippet": "Connect Ahrefs to ChatGPT, AI citations charts, and more (October 2025)\n\n# Connect Ahrefs to ChatGPT, AI citations charts, and more (October 2025)\n\nBy Rebekah Bek\n\nProduct Marketing at Ahrefs\n\nContents\n\n- Ahrefs MCP\n- Brand Radar\n- Web Analytics\n- Site Explorer\n- GSC Reports\n- Social Media Manager\n-"
+        }
+      ]
+    },
+    {
+      "query": "site:ahrefs.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.ahrefs.com/en/articles/13913559-getting-started-with-ahrefs-mcp",
+          "title": "Getting started with Ahrefs MCP | Help Center - Ahrefs",
+          "snippet": "Getting started with Ahrefs MCP | Help Center - Ahrefs\n\n# Getting started with Ahrefs MCP\n\nChat with Ahrefs API for actionable SEO & marketing data\n\nWritten by Constance Tan\n\nSeptember 22, 2026\n\nTable of contents\n\nThe Ahrefs MCP server allows you to connect Ahrefs’ API to your AI tool of choice (Cha"
+        },
+        {
+          "url": "https://ahrefs.com/blog/what-is-mcp-server/",
+          "title": "What Is an MCP Server, and Why Should Marketers Care?",
+          "snippet": "What Is an MCP Server, and Why Should Marketers Care?\n\n# What Is an MCP Server, and Why Should Marketers Care?\n\nBy Mateusz Makosiewicz\n\nSEO & Marketing Educator at Ahrefs\n\nContents\n\n- MCP explained in plain English\n- Where MCP fits in your marketing stack\n- 10 practical MCP use cases for marketers &"
+        },
+        {
+          "url": "https://ahrefs.com/seo-mcp",
+          "title": "Ahrefs SEO MCP | SEO & AEO Data in ChatGPT and Claude",
+          "snippet": "Ahrefs SEO MCP | SEO & AEO Data in ChatGPT and Claude\n\n# Ahrefs SEO MCP\n\nChat with Ahrefs for actionable SEO & marketing data\n\nGet live Ahrefs data inside ChatGPT, Claude, and other AI tools. No code required, just ask.\n\n## Ahrefs SEO MCP use cases\n\n### Research trendy keywords and content ideas\n\nGe"
+        },
+        {
+          "url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+          "title": "What is Ahrefs MCP | Ahrefs for Developers",
+          "snippet": "What is Ahrefs MCP | Ahrefs for Developers\n\n# What is Ahrefs MCP\n\nAhrefs MCP lets AI agents securely access the Ahrefs API and enrich their answers with real Ahrefs data. MCP (Model Context Protocol) is a standard that allows AI tools to connect with third-party APIs in a secure, consistent way. In "
+        },
+        {
+          "url": "https://ahrefs.com/blog/mcp-use-cases/",
+          "title": "15 Ahrefs MCP Use Cases for SEOs & Digital Marketers",
+          "snippet": "15 Ahrefs MCP Use Cases for SEOs & Digital Marketers\n\n# 15 Ahrefs MCP Use Cases for SEOs & Digital Marketers\n\nBy Glen Allsopp\n\nHead of Marketing Strategy & Research at Ahrefs\n\nReviewed by\n\nRyan Law\n\nContents\n\n- My best MCP advice to improve your marketing workflow\n- Simple prompts to get started (1-"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://ahrefs.com/api",
+      "final_url": "https://ahrefs.com/api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:53Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "bfa84859819902c7a6daeb2f7e76d6873d3eef9994993022773fdc10ccea657f",
+      "text_len": 3066
+    },
+    {
+      "requested_url": "https://docs.ahrefs.com/ahrefs-connect/docs/oauth-guide.md",
+      "final_url": "https://docs.ahrefs.com/ahrefs-connect/docs/oauth-guide.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9f86256fd3ff07a2b39251616f0307e8b721d3f935a1bd917678364acc590a99",
+      "text_len": 3059
+    },
+    {
+      "requested_url": "https://docs.ahrefs.com/en/api/reference/public",
+      "final_url": "https://docs.ahrefs.com/en/api/reference/public",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:48Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "259aca2d21277cf159c3165b48a4b6f303d4f458f66866103a98202be5cd9145",
+      "text_len": 455
+    },
+    {
+      "requested_url": "https://ahrefs.com/pricing",
+      "final_url": "https://ahrefs.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e304c2f21bf52b89c5ca3426c52db9c6586ddff49cdaff8e0678ca1e6fcd347a",
+      "text_len": 3742
+    },
+    {
+      "requested_url": "https://docs.ahrefs.com/mcp/docs/chatgpt-web.md",
+      "final_url": "https://docs.ahrefs.com/mcp/docs/chatgpt-web.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "14a4c5154e7e4f245235c564a1c19fd17f0eedfb99e66463c776ff1181e2994b",
+      "text_len": 1596
+    },
+    {
+      "requested_url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+      "final_url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:48Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "70fa9b6bc0e233466171e171ce00727ec421644d627729326321420580b7f813",
+      "text_len": 3506
+    },
+    {
+      "requested_url": "https://docs.ahrefs.com/mcp/docs/introduction.md",
+      "final_url": "https://docs.ahrefs.com/mcp/docs/introduction.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a752ba1e82746a4ff136c89b05de23692b479faeec7a5eeca50b10985f1e0f03",
+      "text_len": 2941
+    },
+    {
+      "requested_url": "https://ahrefs.com/blog/mcp-use-cases/",
+      "final_url": "https://ahrefs.com/blog/mcp-use-cases/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0c64b5ef3c906f93bc03533ceaa2243c7cc22747407a8fec1ecc32b59beb33f4",
+      "text_len": 17814
+    },
+    {
+      "requested_url": "https://docs.ahrefs.com/llms.txt",
+      "final_url": "https://docs.ahrefs.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:53Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "c66fe7202ce463023068fbd386a83a985df2f063609a54ed1287b3fe2c1f03f1",
+      "text_len": 9871
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.ahrefs.com/llms.txt",
+        "quote": "send your API key as a bearer token in the `Authorization: Bearer <API_KEY>` header",
+        "verified": true
+      },
+      {
+        "url": "https://docs.ahrefs.com/ahrefs-connect/docs/oauth-guide.md",
+        "quote": "Ahrefs Connect uses OAuth 2.0 Authorization Code Flow with Proof Key for Code Exchange (PKCE).",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://ahrefs.com/pricing",
+        "quote": "API and MCP access",
+        "verified": true
+      },
+      {
+        "url": "https://ahrefs.com/api",
+        "quote": "Try API endpoints without an Enterprise plan",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.ahrefs.com/llms.txt",
+        "quote": "Ahrefs API v3 gives programmatic access to Ahrefs' SEO, marketing, and AI-search data",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.ahrefs.com/mcp/docs/introduction.md",
+        "quote": "Ahrefs provides a hosted MCP server that allows users with a Lite plan or higher to connect their Ahrefs account",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.ahrefs.com/llms.txt",
+        "quote": "The complete OpenAPI specification for every tool is at [/openapi.json](/openapi.json).",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://ahrefs.com/api",
+        "quote": "Access Ahrefs marketing and search data through our APIs and developer tools to build custom integrations and workflows.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

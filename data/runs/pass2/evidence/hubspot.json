@@ -1,0 +1,373 @@
+{
+  "slug": "hubspot",
+  "searches": [
+    {
+      "query": "HubSpot API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+          "title": "HubSpot APIs | Authentication methods on HubSpot",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.hubspot.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n---\n\n## id: e01d7607-180d-4747-b5a5-d1d0b8af6650\n\n# HubSpot APIs | Authentication methods on HubSpot\n\n> Lea"
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "title": "Authentication overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.hubspot.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n---\n\n## id: 4f507b03-4d6d-43c3-badb-55b7fbc7d16b\n\n# Authentication overview\n\n> Learn how to manage authenti"
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+          "title": "Working with OAuth",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.hubspot.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n---\n\n## id: 6a01d77f-80bd-4477-85ee-9add64ee4c38\n\n# Working with OAuth\n\n> OAuth is a secure means of authen"
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+          "title": "Manage OAuth access tokens with the 2026-09 API",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.hubspot.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n---\n\n## id: a8647a1a-2973-40bb-b999-e32b45de7568\n\n# Manage OAuth access tokens with the 2026-09 API\n\n> Lear"
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/account-service-keys",
+          "title": "Make API requests using a service key",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.hubspot.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n---\n\n## id: 7972ba97-295f-44bf-8d35-d29b061142b6\n\n# Make API requests using a service key\n\n> Learn about ho"
+        }
+      ]
+    },
+    {
+      "query": "HubSpot developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+          "title": "2026-09 API reference",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.hubspot.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n---\n\n## id: 838e431c-7064-4f9b-abf4-5c7f76a2103d\n\n# 2026-09 API reference\n\n> Reference documentation for Hu"
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/scopes",
+          "title": "Scopes",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.hubspot.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n---\n\n## id: f3011044-1352-4940-b002-84555f2dd80a\n\n# Scopes\n\n> Learn about the different scopes available fo"
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "title": "Authentication overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.hubspot.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n---\n\n## id: 4f507b03-4d6d-43c3-badb-55b7fbc7d16b\n\n# Authentication overview\n\n> Learn how to manage authenti"
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/account-service-keys",
+          "title": "Make API requests using a service key",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.hubspot.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n---\n\n## id: 7972ba97-295f-44bf-8d35-d29b061142b6\n\n# Make API requests using a service key\n\n> Learn about ho"
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/getting-started/developer-overview",
+          "title": "Development overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.hubspot.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n---\n\n## id: 344190a0-7644-46b3-b766-02232cbc14a9\n\n# Development overview\n\n> Learn about the development ove"
+        }
+      ]
+    },
+    {
+      "query": "HubSpot pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.hubspot.com/pricing/crm",
+          "title": "Free Tools | HubSpot",
+          "snippet": "Free Tools | HubSpot\n\nFree Tools\n\nGet access to all of HubSpot's free foundational tools\n\n$0/mo\n\nStarter\n\nEssential marketing, sales, service, content, and data management software\n\n$7/mo/seat\n\n$20/mo/seat\n\nBilling period\n\nPay Monthly\n\nCommit monthly\n\nPay Annually\n\nBest Value\n\n500 HubSpot Credits\n\nS"
+        },
+        {
+          "url": "https://www.hubspot.com/products/get-started",
+          "title": "Get Started With HubSpot's Software",
+          "snippet": "Get Started With HubSpot's Software\n\n# Get Started With HubSpot\n\nHubSpot is an agentic customer platform with all the tools you need for marketing, sales, and customer service. Get a demo of our complete set of premium products, or start using our full suite of free tools today (your access never ex"
+        },
+        {
+          "url": "https://www.hubspot.com/products/crm/starter",
+          "title": "HubSpot's Starter Plan for Startups & Small Businesses",
+          "snippet": "HubSpot's Starter Plan for Startups & Small Businesses\n\n# For Startups & Small Businesses\n\nBuilt for those doing everything at once. Build demand, win more deals, and automate the grind.\n\n- ### More growth. Less chaos.\n\nYou have big plans. But most startups and small businesses use multiple tools th"
+        },
+        {
+          "url": "https://www.hubspot.com/products/crm",
+          "title": "Free CRM Software for Small Businesses | HubSpot",
+          "snippet": "Free CRM Software for Small Businesses | HubSpot\n\n# Free CRM Software for Startups & Small Businesses\n\nYour data deserves better than spreadsheets. HubSpot's free CRM unifies all your customer data on one platform, with AI that makes it easy to understand. And unlike a free trial, it's 100% free wit"
+        },
+        {
+          "url": "https://offers.hubspot.com/free-trial",
+          "title": "HubSpot 14 Day Free Trial | Content Marketing Software",
+          "snippet": "HubSpot 14 Day Free Trial | Content Marketing Software\n\n# Free 14-Day HubSpot Trial\n\nTry HubSpot’s all-in-one marketing software to experience how Marketing Hub Professional can simplify campaign management, drive leads and revenue, unify your teams, and save you time.\n\nNo credit card or commitment "
+        }
+      ]
+    },
+    {
+      "query": "HubSpot official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.hubspot.com/ai-tools/mcp",
+          "title": "HubSpot MCP Server",
+          "snippet": "HubSpot MCP Server\n\n# Enable your agents and dev tools to interact with HubSpot.\n\nHubSpot offers two distinct MCP (Model Context Protocol) servers — one for connecting any MCP-compatible AI tool or agent to your CRM, and one for building on the HubSpot Developer Platform. Whether you're querying dat"
+        },
+        {
+          "url": "https://developers.hubspot.com/changelog/remote-hubspot-mcp-server-is-now-generally-available",
+          "title": "Remote HubSpot MCP server is now generally available",
+          "snippet": "Remote HubSpot MCP server is now generally available\n\n# Remote HubSpot MCP server is now generally available\n\n Announced: Apr 13, 2026 \n\nThe remote HubSpot MCP server is graduating from beta and is now generally available to all HubSpot accounts. This release adds write capabilities, Activity histor"
+        },
+        {
+          "url": "https://hubspot.mintlify.io/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server",
+          "title": "Integrate AI tools with the HubSpot MCP server",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.hubspot.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n---\n\n## id: b482f855-dafa-419c-bfa2-18b6cf080d8c\n\n# Integrate AI tools with the HubSpot MCP server\n\n> Learn"
+        },
+        {
+          "url": "https://www.hubspot.com/ai-tools",
+          "title": "Your HubSpot context in every AI tool | HubSpot",
+          "snippet": "Your HubSpot context in every AI tool | HubSpot\n\n# AI that actually understands your business\n\nAI doesn't know your business. Now it can with HubSpot. AI connectors bring your HubSpot customer context into ChatGPT, Claude, Gemini, and Microsoft Copilot.\n\n## HubSpot Context for the AI Tools You Use\n\n"
+        },
+        {
+          "url": "https://developers.hubspot.com/ai-tools",
+          "title": "AI Tooling for Developers | HubSpot Developers",
+          "snippet": "AI Tooling for Developers | HubSpot Developers\n\n# AI Tools for HubSpot Developers\n\nCustomize agents, automate workflows, and connect external systems—all within HubSpot’s AI-ready unified framework.\n\n## AI-Assisted Development\n\nBuild HubSpot apps faster with AI coding tools. Now in Public Beta.\n\nThe"
+        }
+      ]
+    },
+    {
+      "query": "site:hubspot.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.hubspot.com/glossary/model-context-protocol-mcp",
+          "title": "Model Context Protocol (MCP) - Definitions, FAQs & How HubSpot Helps",
+          "snippet": "Model Context Protocol (MCP) - Definitions, FAQs & How HubSpot Helps\n\n# Model Context Protocol (MCP)\n\nModel Context Protocol (MCP) is an open standard that allows AI assistants to read and write data across connected applications in real time, giving large language models (LLMs) structured, secure a"
+        },
+        {
+          "url": "https://developers.hubspot.com/ai-tools/mcp",
+          "title": "HubSpot MCP Server",
+          "snippet": "HubSpot MCP Server\n\n# Enable your agents and dev tools to interact with HubSpot.\n\nHubSpot offers two distinct MCP (Model Context Protocol) servers — one for connecting any MCP-compatible AI tool or agent to your CRM, and one for building on the HubSpot Developer Platform. Whether you're querying dat"
+        },
+        {
+          "url": "https://developers.hubspot.com/blog/connect-hubspots-mcp-server-with-any-ai-tool-securely",
+          "title": "Connect HubSpot's MCP Server With Any AI Tool Securely",
+          "snippet": "Connect HubSpot's MCP Server With Any AI Tool Securely\n\n# Connect HubSpot's MCP Server With Any AI Tool Securely\n\nNovember 12, 2026|\n\n \n\n Brooke Bond \n\nToday, you’re not just using your HubSpot data in HubSpot. You’re likely leveraging HubSpot connectors for Claude, Gemini, ChatGPT, and other tools,"
+        },
+        {
+          "url": "https://www.hubspot.com/glossary/mcp-server",
+          "title": "MCP Server - Definitions, FAQs & How HubSpot Helps",
+          "snippet": "MCP Server - Definitions, FAQs & How HubSpot Helps\n\n# MCP Server\n\nAn MCP server is a software component that gives AI systems controlled access to a tool's data and functionality, acting as the bridge between an application and a large language model (LLM) over the Model Context Protocol. When an AI"
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server",
+          "title": "Using the HubSpot MCP server",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.hubspot.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n---\n\n## id: 3ae0b774-fc17-4d20-b32c-03c0db0a5cde\n\n# Using the HubSpot MCP server\n\n> Connect an external AI "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://hubspot.com",
+      "final_url": "https://hubspot.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:35Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "7cbe1589fe233336e1cc6b29383dd9c5c8ae5e7f285c24ce838c512620453afc",
+      "text_len": 4592
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+      "final_url": "https://developers.hubspot.com/docs/api-reference/latest/authentication/manage-oauth-tokens",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c9ada9a6691c761880c91e66f14ecdcd22ed29b047649007b1fa981ba3142543",
+      "text_len": 12372
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+      "final_url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a3dd5b50ffde64174f108da4b5bf4cabc06a354b26d4b714385ed51a6d283b9d",
+      "text_len": 1332
+    },
+    {
+      "requested_url": "https://www.hubspot.com/pricing/crm",
+      "final_url": "https://www.hubspot.com/pricing/crm",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8227378b09b1e78ee6644d4be9803b44cfcce1e8ce03e734f233bc838c825a69",
+      "text_len": 5876
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/ai-tools/mcp",
+      "final_url": "https://developers.hubspot.com/ai-tools/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0bf043948a966e5a90a8e106b9383c5642e6cccc523412647469c13c12d644a5",
+      "text_len": 8045
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server",
+      "final_url": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "09b760ac55ba8cc25d04c1f5f0b9419755713668a01687a1c36a037f01d95ae2",
+      "text_len": 3500
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+      "final_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f6f39ae10b92dae025d5f32d40ca331235f5ed75a5e8d7ae63eef38f30224e6a",
+      "text_len": 9652
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/blog/connect-hubspots-mcp-server-with-any-ai-tool-securely",
+      "final_url": "https://developers.hubspot.com/blog/connect-hubspots-mcp-server-with-any-ai-tool-securely",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c48361a91552bd78eb3b7cee1f46a9d447f17412532107c9d3b85b4b87b302e4",
+      "text_len": 9771
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/llms.txt",
+      "final_url": "https://developers.hubspot.com/llms.txt",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:36Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+      "final_url": "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "254f2aaf3cf0033d4a48e2f10c30bed235621a2157b60f9884622a30847b1f4c",
+      "text_len": 2434
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "final_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "dcf218382e7a8f4b1491ecf9cebbcf3287728a90258ab67b67e43ce55a17d469",
+      "text_len": 6733
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/account-service-keys",
+      "final_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/account-service-keys",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b50eef053291b7d26ec4a84d76f4d654e362dfdab0d65abf23b8a330191fb5bf",
+      "text_len": 5970
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+        "quote": "OAuth is required for multiple accounts, while static auth access tokens are used for installing in a single account at a time.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/account-service-keys",
+        "quote": "you can use service keys to query HubSpot's REST APIs directly without having to use the CLI or other platform developer tools first.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.hubspot.com/pricing/crm",
+        "source_type": "official_other",
+        "quote": "Get access to all of HubSpot's free foundational tools",
+        "verified": true
+      },
+      {
+        "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+        "quote": "Users installing apps in their HubSpot account must either be a Super Admin or have HubSpot Marketplace Access permissions.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+        "quote": "All APIs, whether legacy, new, or beta, use the same root path as before: `https://api.hubapi.com/`.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server",
+        "quote": "The remote HubSpot MCP server is a publicly hosted endpoint for connecting external AI tools and applications to HubSpot's CRM.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+        "quote": "If you want to limit distribution of your app to a single authorized account, you'll use a static auth access token.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://hubspot.com",
+        "quote": "HubSpot aligns marketing, sales, and service around your customer data, so your teams and AI always know what customers need.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

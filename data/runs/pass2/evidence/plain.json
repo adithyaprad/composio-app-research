@@ -1,0 +1,357 @@
+{
+  "slug": "plain",
+  "searches": [
+    {
+      "query": "Plain API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.plain.com/docs/graphql/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://www.plain.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Create a machine user and an API key, and scope it with fine-grained permissions.\n\nA machine use"
+        },
+        {
+          "url": "https://www.plain.com/docs/graphql/oauth",
+          "title": "OAuth",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://www.plain.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth\n\n> Call the API as a user in your workspace after they sign in to your OAuth app.\n\nAn OAuth app lets users i"
+        },
+        {
+          "url": "https://www.plain.com/docs/graphql/introduction",
+          "title": "Introduction",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://www.plain.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Introduction\n\n> An overview of Plain's GraphQL API and the data model behind it.\n\nPlain itself is built on this sa"
+        },
+        {
+          "url": "https://www.plain.com/docs/graphql/help-center/authentication",
+          "title": "Access & authentication - Plain Docs",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://www.plain.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Access & authentication\n\n> Control who can read your Help Center, from fully public to signed-in customers only.\n\n"
+        },
+        {
+          "url": "https://apis.io/security/plain/plain-authentication/",
+          "title": "Plain API Authentication | APIs.io",
+          "snippet": "Plain API Authentication | APIs.io\n\n# Plain Authentication\n\nAuthentication\n\nPlain secures its APIs with apiKey, oauth2, and mutualTLS across 4 declared security schemes, as derived from its OpenAPI definitions.\n\n Company Customer Service Help Desk Support Software-as-a-Service GraphQL Webhook MCP De"
+        }
+      ]
+    },
+    {
+      "query": "Plain developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.plain.com/docs/graphql/introduction",
+          "title": "Introduction",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://www.plain.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Introduction\n\n> An overview of Plain's GraphQL API and the data model behind it.\n\nPlain itself is built on this sa"
+        },
+        {
+          "url": "https://www.plain.com/docs/graphql/sdk",
+          "title": "GraphQL SDK",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://www.plain.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# GraphQL SDK\n\n> A typed SDK for Plain's GraphQL API, auto-generated from the schema.\n\nThe `@team-plain/graphql` pac"
+        },
+        {
+          "url": "https://www.plain.com/docs/graphql/oauth",
+          "title": "OAuth",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://www.plain.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth\n\n> Call the API as a user in your workspace after they sign in to your OAuth app.\n\nAn OAuth app lets users i"
+        },
+        {
+          "url": "https://help.plain.com/section/developer-api-f0oe2tcdaye68o2s2tqfwepi",
+          "title": "Developer & API | Help Center",
+          "snippet": "Developer & API | Help Center\n\n# Developer & API\n\n## Articles\n\n- ### What are the API rate limits?\n- ### Can you export a thread as a PDF?\n- ### What sort fields does the threads API support?\n- ### Migrating to accounts with the Plain API\n- ### How to allowlist IP addresses for an API key"
+        },
+        {
+          "url": "https://www.plain.com/docs/llms.txt",
+          "title": "",
+          "snippet": "# Plain Docs\n\n- [Documentation (161 pages)](https://www.plain.com/docs/_llms/documentation.txt): Agent setup, Agents, Channels, Platform, Integrations, Workflows, Broadcasts, Help center, Security, Plans & Billing.\n- [Developer (184 pages)](https://www.plain.com/docs/_llms/developer.txt): GraphQL AP"
+        }
+      ]
+    },
+    {
+      "query": "Plain pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.plain.com/pricing",
+          "title": "Pricing",
+          "snippet": "[Product]\n\n[Solutions]\n\n[Resources]\n\nCustomers\n\nPricing\n\nSign in\n\nBook a demo\n\n# Pricing\n\nSupport for teams that ship. Start today, no credit card required.\n\nFoundation\n\nFor small teams getting started with support\n\n### 55\n\n### 45\n\nper user per month\n\nBilled annually\n\n#### Save 20%\n\nstart Free Trial"
+        },
+        {
+          "url": "https://www.plain.com/get/trial",
+          "title": "Start your 7 day free trial —   no credit card required",
+          "snippet": "### Support infrastructure for modern teams\n\nUnified messaging across Slack, email, chat and more\n\nAI-powered automation with full customer context\n\nFree your team to focus on customers’ most valuable needs\n\n# Start your 7 day free trial —   no credit card required"
+        },
+        {
+          "url": "https://www.plain.com/llms-full.txt",
+          "title": "",
+          "snippet": "# Plain: agentic infrastructure for B2B customer support\n\n> Plain is the agentic infrastructure for B2B customer support. It gives support, success, and product teams one place for every customer conversation across Slack, Microsoft Teams, Discord, email, in-app chat, contact forms, and API, with AI"
+        },
+        {
+          "url": "https://www.plain.com/alternative/front",
+          "title": "Plain — Pylon Alternative",
+          "snippet": "#### Front alternative\n\n## Go beyond the email inbox with Plain.\n\nPlain is AI-native support for the new wave of B2B teams — every channel, workflow, and automation in one place.\n\nDeep Slack, Teams & Linear Support\n\nAI-Native Workflows\n\nGraphQL API\n\nPick a time → 29-min demo or live setup with a Pla"
+        },
+        {
+          "url": "https://www.plain.com/startups",
+          "title": "The only B2B support platform you’ll need from startup to scale-up",
+          "snippet": "[Product]\n\n[Solutions]\n\n[Resources]\n\nCustomers\n\nPricing\n\nSign in\n\nBook a demo\n\n# The only B2B support platform you’ll need from startup to scale-up\n\nFocus on growing your startup, not your costs.\nGet 50% off our Horizon plan: $6k flat fee, 12 months, 10 seats – no surprises.\n\nBOOK A DEMO\n\nFree 7 day"
+        }
+      ]
+    },
+    {
+      "query": "Plain official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.plain.com/docs/integrations/mcp-server",
+          "title": "MCP server",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://www.plain.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP server\n\n> Connect Claude Code, Cursor, or any MCP client to your Plain workspace over the Model Context Protoc"
+        },
+        {
+          "url": "https://www.plain.com/blog/mcp-server",
+          "title": "Plain's MCP Server: Connect Any AI Tool to Your Support Data",
+          "snippet": "[Product]\n\n[Solutions]\n\n[Resources]\n\nCustomers\n\nPricing\n\nSign in\n\nBook a demo\n\n#### Blog\n\n#### Product\n\n# Plain's MCP Server: Connect Any AI Tool to Your Support Data\n\nSusana de Sousa Community, Plain\n\nPublished On\n\n#### Mar 4, 2026\n\nUpdate, November 2026: Plain’s MCP server now has 400+ tools. See "
+        },
+        {
+          "url": "https://www.plain.com/docs/getting-started",
+          "title": "Set up Plain for a person",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://www.plain.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Set up Plain for a person\n\n> Instructions for an AI agent: get the person signed up, connect the Plain MCP server,"
+        },
+        {
+          "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+          "title": "AI Agents - Does the Plain MCP server support API key authentication? | Help Center",
+          "snippet": "AI Agents - Does the Plain MCP server support API key authentication? | Help Center\n\n# Does the Plain MCP server support API key authentication?\n\nUpdated 2 Sep 2026 by Plain\n\nNo. The Plain Model Context Protocol (MCP) server at `https://mcp.plain.com/mcp` supports OAuth only.\n\n### How authentication"
+        },
+        {
+          "url": "https://www.plain.com/blog/mcp-customer-support-2026",
+          "title": "MCP for Customer Support: Platforms and Permissions (2026)",
+          "snippet": "[Product]\n\n[Solutions]\n\n[Resources]\n\nCustomers\n\nPricing\n\nSign in\n\nBook a demo\n\n#### Blog\n\n#### Support Engineering\n\n# MCP for Customer Support: Platforms and Permissions (2026)\n\nCole D'Ambra Head of Growth & Demand Generation\n\nLast Updated\n\n#### Nov 18, 2026\n\nPublished On\n\n#### Mar 6, 2026\n\nMCP for "
+        }
+      ]
+    },
+    {
+      "query": "site:plain.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.plain.com/docs/integrations/mcp-server",
+          "title": "MCP server",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://www.plain.com/docs/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP server\n\n> Connect Claude Code, Cursor, or any MCP client to your Plain workspace over the Model Context Protoc"
+        },
+        {
+          "url": "https://www.plain.com/blog/mcp-customer-support-2026",
+          "title": "MCP for Customer Support: Platforms and Permissions (2026)",
+          "snippet": "[Product]\n\n[Solutions]\n\n[Resources]\n\nCustomers\n\nPricing\n\nSign in\n\nBook a demo\n\n#### Blog\n\n#### Support Engineering\n\n# MCP for Customer Support: Platforms and Permissions (2026)\n\nCole D'Ambra Head of Growth & Demand Generation\n\nLast Updated\n\n#### Nov 18, 2026\n\nPublished On\n\n#### Mar 6, 2026\n\nMCP for "
+        },
+        {
+          "url": "https://www.plain.com/blog/support-mcp-guide",
+          "title": "What is MCP? A quick guide for support teams",
+          "snippet": "[Product]\n\n[Solutions]\n\n[Resources]\n\nCustomers\n\nPricing\n\nSign in\n\nBook a demo\n\n#### Blog\n\n#### Integrations\n\n# What is MCP? A quick guide for support teams\n\nSusana de Sousa Community, Plain\n\nLast Updated\n\n#### Jul 10, 2026\n\nYou've probably used an AI assistant at work by now. Maybe you've asked it t"
+        },
+        {
+          "url": "https://www.plain.com/blog/mcp-server",
+          "title": "Plain's MCP Server: Connect Any AI Tool to Your Support Data",
+          "snippet": "[Product]\n\n[Solutions]\n\n[Resources]\n\nCustomers\n\nPricing\n\nSign in\n\nBook a demo\n\n#### Blog\n\n#### Product\n\n# Plain's MCP Server: Connect Any AI Tool to Your Support Data\n\nSusana de Sousa Community, Plain\n\nPublished On\n\n#### Mar 4, 2026\n\nUpdate, November 2026: Plain’s MCP server now has 400+ tools. See "
+        },
+        {
+          "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+          "title": "AI Agents - Does the Plain MCP server support API key authentication? | Help Center",
+          "snippet": "AI Agents - Does the Plain MCP server support API key authentication? | Help Center\n\n# Does the Plain MCP server support API key authentication?\n\nUpdated 2 Sep 2026 by Plain\n\nNo. The Plain Model Context Protocol (MCP) server at `https://mcp.plain.com/mcp` supports OAuth only.\n\n### How authentication"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://plain.com",
+      "final_url": "https://plain.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:31Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "767046496db9ea60f354f2086440d881905fb2ea4150135fb3018b1c792e5be5",
+      "text_len": 5608
+    },
+    {
+      "requested_url": "https://www.plain.com/docs/graphql/oauth",
+      "final_url": "https://www.plain.com/docs/graphql/oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0a008780c0435fb8179c697f12c0554dde569379994b72dd81014a04c91ef1d0",
+      "text_len": 7856
+    },
+    {
+      "requested_url": "https://www.plain.com/pricing",
+      "final_url": "https://www.plain.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:26Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f6a67e5642d44391ca237938e41d8f65ad43345633ef4974853800c212af3fa0",
+      "text_len": 4344
+    },
+    {
+      "requested_url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+      "final_url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:27Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7203ffb99abd468d312da7b2e67d8ec8f4c1d0810c00b85e401865e0ae24c21c",
+      "text_len": 1519
+    },
+    {
+      "requested_url": "https://www.plain.com/docs/integrations/mcp-server",
+      "final_url": "https://www.plain.com/docs/integrations/mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:27Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "583079b2dbcb734cc1b2b572738897b38b93b77f015ea45bcad11da406780b77",
+      "text_len": 9432
+    },
+    {
+      "requested_url": "https://www.plain.com/blog/mcp-customer-support-2026",
+      "final_url": "https://www.plain.com/blog/mcp-customer-support-2026",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:27Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b2a7fa112668949da17204ca00b6d771d0849ee15c769ad165a29789e9b4dcc4",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://www.plain.com/blog/mcp-server",
+      "final_url": "https://www.plain.com/blog/mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:27Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3c7b3c2eae7b5bbebac2198a72b33616ceadea7f4c83f88f5dd2d1ab022017ab",
+      "text_len": 6447
+    },
+    {
+      "requested_url": "https://www.plain.com/blog/support-mcp-guide",
+      "final_url": "https://www.plain.com/blog/support-mcp-guide",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6ec3a542da0c6e5f120d410306153987afc6227615778448867185f6f27d48a8",
+      "text_len": 10188
+    },
+    {
+      "requested_url": "https://www.plain.com/docs/graphql/authentication",
+      "final_url": "https://www.plain.com/docs/graphql/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7b12ba4213872c4464490248b8ff5469918699de1db59cf60bf20be8733c2706",
+      "text_len": 1553
+    },
+    {
+      "requested_url": "https://www.plain.com/docs/graphql/help-center/authentication",
+      "final_url": "https://www.plain.com/docs/graphql/help-center/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d86570f5595faaae779013dbfa36eb7c3af54518a674e45300a9d63067b77a3f",
+      "text_len": 2380
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://www.plain.com/docs/graphql/oauth",
+        "quote": "Your app gets an access token with the OAuth 2.0 authorization code flow",
+        "verified": true
+      },
+      {
+        "url": "https://www.plain.com/docs/graphql/authentication",
+        "quote": "pass it on any API call as a header: Authorization: Bearer plainApiKey_xxx"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.plain.com/pricing",
+        "quote": "7 day free trial No credit card required",
+        "verified": true
+      },
+      {
+        "url": "https://www.plain.com/docs/graphql/authentication",
+        "quote": "Go to Settings → Machine users & agents and click Add machine user.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://www.plain.com/docs/graphql/authentication",
+        "quote": "Each API key carries its own fine-grained permissions.",
+        "verified": true
+      },
+      {
+        "url": "https://www.plain.com/blog/mcp-customer-support-2026",
+        "quote": "For Plain that's the GraphQL API",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://www.plain.com/docs/integrations/mcp-server",
+        "quote": "The Plain MCP server at `https://mcp.plain.com/mcp` lets tools like Claude, ChatGPT, and Cursor work with your support data directly.",
+        "verified": true
+      },
+      {
+        "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+        "quote": "The Plain Model Context Protocol (MCP) server at `https://mcp.plain.com/mcp` supports OAuth only.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://www.plain.com/pricing",
+        "quote": "Developer platform API, Webhooks, Events, MCP, Custom channels",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://plain.com",
+        "quote": "Plain is the agentic platform to orchestrate customer work.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}

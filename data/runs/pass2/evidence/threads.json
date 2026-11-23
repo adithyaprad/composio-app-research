@@ -1,0 +1,769 @@
+{
+  "slug": "threads",
+  "searches": [
+    {
+      "query": "Threads (Meta) API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/threads/get-started",
+          "title": "Get started with the Threads API - Meta for Developers - Facebook",
+          "snippet": "# Get started with the Threads API\n\nWarning: To access the Threads API, create an app and pick the Threads use case.\n\nThis guide provides information on what you need to get started using the Threads API.\n\n## Before you start\n\nYou need the following:\n\n### Meta app\n\nA Meta app created with the Thread"
+        },
+        {
+          "url": "https://developers.facebook.com/docs/threads/get-started/long-lived-tokens/",
+          "title": "Long-Lived Access Tokens",
+          "snippet": "Long-Lived Access Tokens - Threads API - Documentation - Meta for Developers\n\nThreads API\n\n- Changelog\n- Tools and Resources\n- Reference\n- Troubleshooting\n- Web Intents\n- oEmbed\n- Webhooks\n- Insights\n- Profiles\n- Delete Posts\n- Retrieve and Manage Replies\n- Retrieve and Discover Posts\n- Create Posts"
+        },
+        {
+          "url": "https://www.postman.com/meta/threads/documentation/dht3nzz/threads-api",
+          "title": "Threads API | Documentation | Postman API Network",
+          "snippet": "Threads API | Documentation | Postman API Network\n\n# Threads API Documentation\n\n> ⚠️ We will update the Postman collection over time. Please note that all of the latest features may not be showcased in the Postman collection. Please refer to the developer documentation changelog for the most up-to-d"
+        },
+        {
+          "url": "https://developers.facebook.com/docs/development/create-an-app/threads-use-case/",
+          "title": "Threads Use Case",
+          "snippet": "# Customize a Meta app with the Access the Threads API Use Case\n\nThis document shows you how to customize the Access the Threads API use case you added to your app during the app creation process.\n\n## Customize use cases\n\n1. If you are not already on the Use cases page of the dashboard, click Use ca"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/threads",
+          "title": "Threads API - Meta for Developers - Facebook",
+          "snippet": "# Threads API\n\nUse the Threads API to create and publish posts, retrieve media and profiles, moderate replies, and access insights. The sections below link to reference material and step-by-step guides.\n\n## Documentation contents\n\n### Overview\n\nBrief overview of the Threads API limitations.\n\n### Get"
+        }
+      ]
+    },
+    {
+      "query": "Threads (Meta) developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/threads/get-started",
+          "title": "Get started with the Threads API - Meta for Developers - Facebook",
+          "snippet": "# Get started with the Threads API\n\nWarning: To access the Threads API, create an app and pick the Threads use case.\n\nThis guide provides information on what you need to get started using the Threads API.\n\n## Before you start\n\nYou need the following:\n\n### Meta app\n\nA Meta app created with the Thread"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/threads/overview",
+          "title": "Threads API overview | Developer Documentation",
+          "snippet": "# Threads API overview\n\nYou can use the Threads API to enable people to create and publish content on a person's behalf on Threads, and to display those posts within your app solely to the person who created it.\n\nWarning: The Threads API can be accessed by either `graph.threads.com` or `graph.thread"
+        },
+        {
+          "url": "https://developers.facebook.com/docs/development/create-an-app/threads-use-case/",
+          "title": "Threads Use Case",
+          "snippet": "# Customize a Meta app with the Access the Threads API Use Case\n\nThis document shows you how to customize the Access the Threads API use case you added to your app during the app creation process.\n\n## Customize use cases\n\n1. If you are not already on the Use cases page of the dashboard, click Use ca"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/threads/",
+          "title": "Threads API",
+          "snippet": "# Threads API\n\nUse the Threads API to create and publish posts, retrieve media and profiles, moderate replies, and access insights. The sections below link to reference material and step-by-step guides.\n\n## Documentation contents\n\n### Overview\n\nBrief overview of the Threads API limitations.\n\n### Get"
+        },
+        {
+          "url": "https://developers.facebook.com/docs/threads/get-started/long-lived-tokens/",
+          "title": "Long-Lived Access Tokens",
+          "snippet": "Long-Lived Access Tokens - Threads API - Documentation - Meta for Developers\n\nThreads API\n\n- Changelog\n- Tools and Resources\n- Reference\n- Troubleshooting\n- Web Intents\n- oEmbed\n- Webhooks\n- Insights\n- Profiles\n- Delete Posts\n- Retrieve and Manage Replies\n- Retrieve and Discover Posts\n- Create Posts"
+        }
+      ]
+    },
+    {
+      "query": "Threads (Meta) pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://techcrunch.com/2025/03/07/what-is-instagrams-threads-app-all-your-questions-answered/",
+          "title": "What is Instagram’s Threads app? All your questions answered | TechCrunch",
+          "snippet": "What is Instagram’s Threads app? All your questions answered | TechCrunch\n\nImage Credits: Natalie Christman, Alyssa Stringer (opens in a new window) / Screenshot\n\n# What is Instagram’s Threads app? All your questions answered\n\n Ivan Mehta \n\n11:26 AM PST · March 7, 2025\n\nTwitter alternatives — new an"
+        },
+        {
+          "url": "https://www.postlaty.com/blog/threads-free-trial/",
+          "title": "Threads free trial in 2026: what is free on Threads, and how to test a scheduler in 7 days | Postlaty Blog",
+          "snippet": "Threads free trial in 2026: what is free on Threads, and how to test a scheduler in 7 days | Postlaty Blog\n\n# Threads free trial in 2026: what is free on Threads, and how to test a scheduler in 7 days\n\n12 November 2026\n\nThreads has no paid plan, so there is no Threads free trial to start. Here is wh"
+        },
+        {
+          "url": "https://www.threads.com/",
+          "title": "Threads",
+          "snippet": "Threads\n\n# Home\n\nLog in or sign up for ThreadsSee what people are talking about and join the conversation.\n\nLog in with username instead\n\nThreads\n[\n](/)\n[\nHome\nHome\n](/)\nCreate\nNew thread\n[\nSearch\nSearch\n](/search)\nMessages\nMessages\nNotifications\nActivity\nProfile\nProfile\nInsights\nInsights\n[\nLog in\n]"
+        },
+        {
+          "url": "https://www.commonsensemedia.org/app-reviews/threads",
+          "title": "Threads - Parents' Guide & App Review | Common Sense Media",
+          "snippet": "Threads - Parents' Guide & App Review | Common Sense Media\n\n# Parents' Guide to Threads \n\n App iPhone , iPod Touch , iPad , Android Free Social Networking \n\n \n\n### Common Sense Media Review\n\n By Laura Ordoñez , based on child development research. How do we rate? \n\n age 14+ \n\nMeta's text-based Twitt"
+        },
+        {
+          "url": "https://www.bbb.org/article/news-releases/28995-bbb-st-louis-what-to-know-about-threads",
+          "title": "BBB Tip: What to know about Threads",
+          "snippet": "Skip to main content\n\n## Cookies on BBB.org\n\nWe use cookies to give users the best content and online experience. By clicking “Accept All Cookies”, you agree to allow us to use all cookies. Visit our Privacy Policy to learn more.\n\nAccept All Cookies Manage Cookies\n\nclose\n\nLatest News\n\n# BBB Tip: Wha"
+        }
+      ]
+    },
+    {
+      "query": "Threads (Meta) official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+          "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+        },
+        {
+          "url": "https://www.breakreach.com/mcp/threads",
+          "title": "Threads MCP Servers in 2026: Official API vs Browser",
+          "snippet": "Threads MCP Servers in 2026: Official API vs Browser\n\n# Threads MCP servers in 2026. Which ones post, and how they get in.\n\nMeta has no official Threads MCP server. Servers that post use the Threads API, either with your own Meta app and token (baguskto/threads-mcp, quinnjr/threads-mcp) or hosted, l"
+        },
+        {
+          "url": "https://spreadcast.app/tools/threads-mcp-server",
+          "title": "Threads MCP Server for Claude and ChatGPT | Spreadcast",
+          "snippet": "Threads MCP Server for Claude and ChatGPT | Spreadcast\n\n# Threads MCP Server for Claude and ChatGPT\n\nA Threads MCP server lets Claude, ChatGPT or Claude Code publish to Threads through Meta's Threads API. Here is what the API allows, which GitHub servers exist, how the 60 day token works, and how to"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+          "title": "Ads MCP Server | Meta for Developers - Facebook",
+          "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+        },
+        {
+          "url": "https://www.outstand.so/mcp/threads",
+          "title": "Threads MCP Server",
+          "snippet": "Model Context Protocol (MCP)\n\n# Threads MCP Server\n\nA Threads MCP server gives an AI agent tools for Threads, so a model can publish to your account instead of only drafting posts. Point Claude, Cursor, or any MCP client at Outstand's server and the agent can post text with optional media, chain a m"
+        }
+      ]
+    },
+    {
+      "query": "site:developers.facebook.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+          "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/devtools-mcp/",
+          "title": "Meta Social Technologies MCP | Meta for Developers",
+          "snippet": "Developer Tools MCP | Developer Documentation\n\nMCP\n\nWas this helpful?\n\n# Developer Tools MCP\n\nUpdated: Jun 12, 2026\n\nCopy for LLM\n\nThe Meta Developer Tools MCP server gives AI agents and IDE assistants a single entry point for the day-to-day work of building on the Meta developer platform. With it c"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+          "title": "Ads MCP Server",
+          "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+        },
+        {
+          "url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+          "title": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent",
+          "snippet": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\nJune 30, 2026\n\n# Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\n#### By Zoë Lieberman\n\nNOTE: As of August 18, 2026, we are now referrin"
+        },
+        {
+          "url": "https://developers.facebook.com/blog/post/2026/07/16/meta-ads-mcp-server/",
+          "title": "Meta's ads MCP server is now available for developers",
+          "snippet": "Meta's ads MCP server is now available for developers\n\nJuly 16, 2026\n\n# Meta's ads MCP server is now available for developers\n\n#### By Sydney Levitan, Sanjay Patel\n\nUpdated September 22, 2026\n\nToday, we are opening up our ads MCP server to any developer with their own Meta app. You can now connect y"
+        }
+      ]
+    },
+    {
+      "query": "site:facebook.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+          "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/devtools-mcp",
+          "title": "Meta Social Technologies MCP - Meta for Developers - Facebook",
+          "snippet": "# Meta Social Technologies MCP\n\nFor developers building apps and integrations on the Meta Social Technologies Developer Platform (developers.facebook.com) — the Meta Social Technologies MCP server helps you manage the Meta apps and integrations you build there. It gives your AI agent and IDE assista"
+        },
+        {
+          "url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+          "title": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent",
+          "snippet": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\nJune 30, 2026\n\n# Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\n#### By Zoë Lieberman\n\nNOTE: As of August 18, 2026, we are now referrin"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+          "title": "Ads MCP Server",
+          "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+          "title": "Connect an MCP client to Meta - Meta for Developers - Facebook",
+          "snippet": "# Connect an MCP client to Meta\n\nUse this guide to connect a supported AI client to a remote Meta MCP server and authorize access with OAuth. When you finish, your client can discover and execute the server's available tools.\n\n## Before you begin\n\nTo connect a client, you need:\n\n- A current version "
+        }
+      ]
+    },
+    {
+      "query": "Threads (Meta) official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+          "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+        },
+        {
+          "url": "https://www.breakreach.com/mcp/threads",
+          "title": "Threads MCP Servers in 2026: Official API vs Browser",
+          "snippet": "Threads MCP Servers in 2026: Official API vs Browser\n\n# Threads MCP servers in 2026. Which ones post, and how they get in.\n\nMeta has no official Threads MCP server. Servers that post use the Threads API, either with your own Meta app and token (baguskto/threads-mcp, quinnjr/threads-mcp) or hosted, l"
+        },
+        {
+          "url": "https://spreadcast.app/tools/threads-mcp-server",
+          "title": "Threads MCP Server for Claude and ChatGPT | Spreadcast",
+          "snippet": "Threads MCP Server for Claude and ChatGPT | Spreadcast\n\n# Threads MCP Server for Claude and ChatGPT\n\nA Threads MCP server lets Claude, ChatGPT or Claude Code publish to Threads through Meta's Threads API. Here is what the API allows, which GitHub servers exist, how the 60 day token works, and how to"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+          "title": "Ads MCP Server | Meta for Developers - Facebook",
+          "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+        },
+        {
+          "url": "https://www.outstand.so/mcp/threads",
+          "title": "Threads MCP Server",
+          "snippet": "Model Context Protocol (MCP)\n\n# Threads MCP Server\n\nA Threads MCP server gives an AI agent tools for Threads, so a model can publish to your account instead of only drafting posts. Point Claude, Cursor, or any MCP client at Outstand's server and the agent can post text with optional media, chain a m"
+        }
+      ]
+    },
+    {
+      "query": "site:developers.facebook.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+          "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/devtools-mcp",
+          "title": "Meta Social Technologies MCP - Meta for Developers - Facebook",
+          "snippet": "# Meta Social Technologies MCP\n\nFor developers building apps and integrations on the Meta Social Technologies Developer Platform (developers.facebook.com) — the Meta Social Technologies MCP server helps you manage the Meta apps and integrations you build there. It gives your AI agent and IDE assista"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+          "title": "Connect an MCP client to Meta - Meta for Developers - Facebook",
+          "snippet": "# Connect an MCP client to Meta\n\nUse this guide to connect a supported AI client to a remote Meta MCP server and authorize access with OAuth. When you finish, your client can discover and execute the server's available tools.\n\n## Before you begin\n\nTo connect a client, you need:\n\n- A current version "
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+          "title": "Ads MCP Server",
+          "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp",
+          "title": "WhatsApp Business Tools MCP - Meta for Developers - Facebook",
+          "snippet": "# WhatsApp Business Tools MCP\n\nFor developers building on the WhatsApp Business Platform (Cloud API) — the WhatsApp Business Tools MCP server lets your AI agent and IDE assistant manage and debug your WhatsApp Business integration from one place. It enables an agent to discover the businesses and Wh"
+        }
+      ]
+    },
+    {
+      "query": "site:facebook.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+          "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/devtools-mcp",
+          "title": "Meta Social Technologies MCP - Meta for Developers - Facebook",
+          "snippet": "# Meta Social Technologies MCP\n\nFor developers building apps and integrations on the Meta Social Technologies Developer Platform (developers.facebook.com) — the Meta Social Technologies MCP server helps you manage the Meta apps and integrations you build there. It gives your AI agent and IDE assista"
+        },
+        {
+          "url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+          "title": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent",
+          "snippet": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\nJune 30, 2026\n\n# Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\n#### By Zoë Lieberman\n\nNOTE: As of August 18, 2026, we are now referrin"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+          "title": "Connect an MCP client to Meta - Meta for Developers - Facebook",
+          "snippet": "# Connect an MCP client to Meta\n\nUse this guide to connect a supported AI client to a remote Meta MCP server and authorize access with OAuth. When you finish, your client can discover and execute the server's available tools.\n\n## Before you begin\n\nTo connect a client, you need:\n\n- A current version "
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+          "title": "Ads MCP Server",
+          "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developers.facebook.com/docs/threads",
+      "final_url": "https://developers.facebook.com/docs/threads",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:21Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "1e1b816c80ea2ea27220dceadc4c82aa29ca8df301597d11eac2eba552992244",
+      "text_len": 940
+    },
+    {
+      "requested_url": "https://developers.facebook.com/docs/development/create-an-app/threads-use-case/",
+      "final_url": "https://developers.facebook.com/docs/development/create-an-app/threads-use-case/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6d34ae570c036e8bec3ee14ce5010c54ba6c36fda4017960a199649cf0d1027e",
+      "text_len": 5595
+    },
+    {
+      "requested_url": "https://www.threads.com/",
+      "final_url": "https://www.threads.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3a0036c89ea084df3a72b356a8eeebf6b45ff8c503bccc7bb076ceb3f227fd52",
+      "text_len": 606
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+      "final_url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "576ad5c93e83bea79f121743dbd9dc127b3dd884845bee4640f04777ecc1ab9e",
+      "text_len": 2007
+    },
+    {
+      "requested_url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+      "final_url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d68a315685125a4ab9be8a67787b281b5981d226f076254936771385a69e0d2c",
+      "text_len": 3192
+    },
+    {
+      "requested_url": "https://developers.facebook.com/blog/post/2026/07/16/meta-ads-mcp-server/",
+      "final_url": "https://developers.facebook.com/blog/post/2026/07/16/meta-ads-mcp-server/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "87296f4d59d6f462ab35b1ed91382ac19eb5d26c9d2fa11ed73804d3d962b1d7",
+      "text_len": 7616
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/mcp",
+      "final_url": "https://developers.facebook.com/documentation/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8c4bcc389ebe0c93286e6c607c3c5bacf2ace351c4e3d88bc595b5b2865d6c2a",
+      "text_len": 4885
+    },
+    {
+      "requested_url": "https://developers.facebook.com/docs/threads/get-started/long-lived-tokens/",
+      "final_url": "https://developers.facebook.com/docs/threads/get-started/long-lived-tokens/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1e5264e13b49a5182fd91202e645efde5c89bc5566ed157d46590189c89b3451",
+      "text_len": 4310
+    },
+    {
+      "requested_url": "https://developers.facebook.com/llms.txt",
+      "final_url": "https://developers.facebook.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:55Z",
+      "error": null,
+      "method": "exa_cache",
+      "text_source_url": null,
+      "sha256": "5c6de424bf6299cb614fd5fe65e8bbda321447913184fa7348c2555fb65f7952",
+      "text_len": 6022
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/mcp/devtools-mcp/",
+      "final_url": "https://developers.facebook.com/documentation/mcp/devtools-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "96e7abebba57ebecda52c4b652efb4141d50d5885d5fec6a34278223d0206185",
+      "text_len": 10493
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+      "final_url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:55Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4eb4814a7f211040472b2cb93ee9abbcd0d9231a972f859bf8255eb6d21c07d8",
+      "text_len": 12432
+    },
+    {
+      "requested_url": "https://developers.facebook.com/docs/threads",
+      "final_url": "https://developers.facebook.com/docs/threads",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:25Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "1e1b816c80ea2ea27220dceadc4c82aa29ca8df301597d11eac2eba552992244",
+      "text_len": 940
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/mcp",
+      "final_url": "https://developers.facebook.com/documentation/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8c4bcc389ebe0c93286e6c607c3c5bacf2ace351c4e3d88bc595b5b2865d6c2a",
+      "text_len": 4885
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+      "final_url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "576ad5c93e83bea79f121743dbd9dc127b3dd884845bee4640f04777ecc1ab9e",
+      "text_len": 2007
+    },
+    {
+      "requested_url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+      "final_url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:25Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d68a315685125a4ab9be8a67787b281b5981d226f076254936771385a69e0d2c",
+      "text_len": 3192
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+      "final_url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4eb4814a7f211040472b2cb93ee9abbcd0d9231a972f859bf8255eb6d21c07d8",
+      "text_len": 12432
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/mcp/devtools-mcp",
+      "final_url": "https://developers.facebook.com/documentation/mcp/devtools-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "afe6ab9545e064361857cae8e5a18e695452dd312a262cda3772cff53e00999d",
+      "text_len": 12434
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp",
+      "final_url": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1a102086dd37e3191a7faa9f6c5c07f60745bb8ab992589d00b416bdfeec4b8e",
+      "text_len": 7187
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.facebook.com/docs/threads/get-started/long-lived-tokens/",
+        "quote": "By default, Threads user access tokens are short-lived and are valid for one hour. However, short-lived tokens can be exchanged for long-lived tokens.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.facebook.com/docs/development/create-an-app/threads-use-case/",
+        "quote": "Client OAuth Settings – valid OAuth redirect URIs",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.facebook.com/docs/development/create-an-app/threads-use-case/",
+        "quote": "Testing is only required if you are submitting your app for App Review; if your app will access data you don't own or manage.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.facebook.com/docs/threads",
+        "quote": "Use the Threads API to create and publish posts, retrieve media and profiles, moderate replies, and access insights.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.facebook.com/documentation/mcp",
+        "quote": "bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows",
+        "verified": true
+      },
+      {
+        "url": "https://developers.facebook.com/documentation/mcp/devtools-mcp",
+        "quote": "configure webhook subscriptions, look up the API changelog, and search developer documentation",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.facebook.com/docs/development/create-an-app/threads-use-case/",
+        "quote": "The following steps must be completed if you're a Tech Provider, your app will serve clients or other business portfolios.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developers.facebook.com/docs/threads",
+        "quote": "Use the Threads API to create and publish posts, retrieve media and profiles, moderate replies, and access insights.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "missed_vendor_mcp"
+    ],
+    "findings": [
+      {
+        "rule": "missed_vendor_mcp",
+        "source": "code",
+        "reason": "a vendor-owned MCP URL is cited or quoted: https://developers.facebook.com/documentation/mcp",
+        "fields": [
+          "mcp_status",
+          "mcp_url"
+        ],
+        "quotes": []
+      }
+    ],
+    "fields_in_scope": [
+      "mcp_status",
+      "mcp_url"
+    ],
+    "claims": [
+      "mcp"
+    ],
+    "review_searches": [
+      {
+        "query": "Threads (Meta) official MCP server",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developers.facebook.com/documentation/mcp",
+            "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+            "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+          },
+          {
+            "url": "https://www.breakreach.com/mcp/threads",
+            "title": "Threads MCP Servers in 2026: Official API vs Browser",
+            "snippet": "Threads MCP Servers in 2026: Official API vs Browser\n\n# Threads MCP servers in 2026. Which ones post, and how they get in.\n\nMeta has no official Threads MCP server. Servers that post use the Threads API, either with your own Meta app and token (baguskto/threads-mcp, quinnjr/threads-mcp) or hosted, l"
+          },
+          {
+            "url": "https://spreadcast.app/tools/threads-mcp-server",
+            "title": "Threads MCP Server for Claude and ChatGPT | Spreadcast",
+            "snippet": "Threads MCP Server for Claude and ChatGPT | Spreadcast\n\n# Threads MCP Server for Claude and ChatGPT\n\nA Threads MCP server lets Claude, ChatGPT or Claude Code publish to Threads through Meta's Threads API. Here is what the API allows, which GitHub servers exist, how the 60 day token works, and how to"
+          },
+          {
+            "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+            "title": "Ads MCP Server | Meta for Developers - Facebook",
+            "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+          },
+          {
+            "url": "https://www.outstand.so/mcp/threads",
+            "title": "Threads MCP Server",
+            "snippet": "Model Context Protocol (MCP)\n\n# Threads MCP Server\n\nA Threads MCP server gives an AI agent tools for Threads, so a model can publish to your account instead of only drafting posts. Point Claude, Cursor, or any MCP client at Outstand's server and the agent can post text with optional media, chain a m"
+          }
+        ]
+      },
+      {
+        "query": "site:developers.facebook.com MCP",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developers.facebook.com/documentation/mcp",
+            "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+            "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+          },
+          {
+            "url": "https://developers.facebook.com/documentation/mcp/devtools-mcp",
+            "title": "Meta Social Technologies MCP - Meta for Developers - Facebook",
+            "snippet": "# Meta Social Technologies MCP\n\nFor developers building apps and integrations on the Meta Social Technologies Developer Platform (developers.facebook.com) — the Meta Social Technologies MCP server helps you manage the Meta apps and integrations you build there. It gives your AI agent and IDE assista"
+          },
+          {
+            "url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+            "title": "Connect an MCP client to Meta - Meta for Developers - Facebook",
+            "snippet": "# Connect an MCP client to Meta\n\nUse this guide to connect a supported AI client to a remote Meta MCP server and authorize access with OAuth. When you finish, your client can discover and execute the server's available tools.\n\n## Before you begin\n\nTo connect a client, you need:\n\n- A current version "
+          },
+          {
+            "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+            "title": "Ads MCP Server",
+            "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+          },
+          {
+            "url": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp",
+            "title": "WhatsApp Business Tools MCP - Meta for Developers - Facebook",
+            "snippet": "# WhatsApp Business Tools MCP\n\nFor developers building on the WhatsApp Business Platform (Cloud API) — the WhatsApp Business Tools MCP server lets your AI agent and IDE assistant manage and debug your WhatsApp Business integration from one place. It enables an agent to discover the businesses and Wh"
+          }
+        ]
+      },
+      {
+        "query": "site:facebook.com MCP",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developers.facebook.com/documentation/mcp",
+            "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+            "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+          },
+          {
+            "url": "https://developers.facebook.com/documentation/mcp/devtools-mcp",
+            "title": "Meta Social Technologies MCP - Meta for Developers - Facebook",
+            "snippet": "# Meta Social Technologies MCP\n\nFor developers building apps and integrations on the Meta Social Technologies Developer Platform (developers.facebook.com) — the Meta Social Technologies MCP server helps you manage the Meta apps and integrations you build there. It gives your AI agent and IDE assista"
+          },
+          {
+            "url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+            "title": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent",
+            "snippet": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\nJune 30, 2026\n\n# Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\n#### By Zoë Lieberman\n\nNOTE: As of August 18, 2026, we are now referrin"
+          },
+          {
+            "url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+            "title": "Connect an MCP client to Meta - Meta for Developers - Facebook",
+            "snippet": "# Connect an MCP client to Meta\n\nUse this guide to connect a supported AI client to a remote Meta MCP server and authorize access with OAuth. When you finish, your client can discover and execute the server's available tools.\n\n## Before you begin\n\nTo connect a client, you need:\n\n- A current version "
+          },
+          {
+            "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+            "title": "Ads MCP Server",
+            "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://developers.facebook.com/docs/threads",
+        "final_url": "https://developers.facebook.com/docs/threads",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:25Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "1e1b816c80ea2ea27220dceadc4c82aa29ca8df301597d11eac2eba552992244",
+        "text_len": 940
+      },
+      {
+        "requested_url": "https://developers.facebook.com/documentation/mcp",
+        "final_url": "https://developers.facebook.com/documentation/mcp",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:22Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "8c4bcc389ebe0c93286e6c607c3c5bacf2ace351c4e3d88bc595b5b2865d6c2a",
+        "text_len": 4885
+      },
+      {
+        "requested_url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+        "final_url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:22Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "576ad5c93e83bea79f121743dbd9dc127b3dd884845bee4640f04777ecc1ab9e",
+        "text_len": 2007
+      },
+      {
+        "requested_url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+        "final_url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:25Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "d68a315685125a4ab9be8a67787b281b5981d226f076254936771385a69e0d2c",
+        "text_len": 3192
+      },
+      {
+        "requested_url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+        "final_url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:24Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "4eb4814a7f211040472b2cb93ee9abbcd0d9231a972f859bf8255eb6d21c07d8",
+        "text_len": 12432
+      },
+      {
+        "requested_url": "https://developers.facebook.com/documentation/mcp/devtools-mcp",
+        "final_url": "https://developers.facebook.com/documentation/mcp/devtools-mcp",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:24Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "afe6ab9545e064361857cae8e5a18e695452dd312a262cda3772cff53e00999d",
+        "text_len": 12434
+      },
+      {
+        "requested_url": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp",
+        "final_url": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:24Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "1a102086dd37e3191a7faa9f6c5c07f60745bb8ab992589d00b416bdfeec4b8e",
+        "text_len": 7187
+      }
+    ]
+  }
+}

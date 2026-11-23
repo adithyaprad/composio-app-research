@@ -1,0 +1,355 @@
+{
+  "slug": "klaviyo",
+  "searches": [
+    {
+      "query": "Klaviyo API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.klaviyo.com/en/docs/authenticate_",
+          "title": "Authenticate API requests",
+          "snippet": "Authenticate API requests\n\n# Authenticate API requests\n\nLearn how to authenticate requests to Klaviyo endpoints.\n\nYou will learn\n\nAfter reading this article, you will be able to distinguish which methods of authentication you should use for making calls with Klaviyo's server- and client-side APIs. Y"
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/reference/api%5Foverview",
+          "title": "API overview",
+          "snippet": "API overview\n\n# API overview\n\n> 📘\n> \n> Jumpstart your Klaviyo API journey with our YouTube tutorials.\n> \n> Dive into Klaviyo's API tutorial playlist on YouTube, where we provide walkthroughs of some of our most popular Klaviyo API endpoints.\n\nQuickstart\n\n1. New Klaviyo developers: Check out our Get "
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/v2024-06-15/docs/retrieve_api_credentials",
+          "title": "Obtain API credentials",
+          "snippet": "Obtain API credentials\n\nThese docs are for v2024-06-15. Click to read the latest docs for v2026-10-15.\n\n# Obtain API credentials\n\nLocate your API credentials in Klaviyo and differentiate between public and private keys.\n\nKlaviyo uses public and private API keys to authenticate API requests. You can "
+        },
+        {
+          "url": "https://help.klaviyo.com/hc/en-us/articles/7423954176283",
+          "title": "How to create or clone a private API key | Klaviyo Help Center",
+          "snippet": "# How to create or clone a private API key\n\n📋 Requirements: Owners, Admins, and Managers can create, clone, or delete private API keys.\n\n## You will learn\n\nLearn how to create or clone a private API key and choose scopes that control what an application can access in your Klaviyo account.\n\nBoth priv"
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/set_up_oauth",
+          "title": "Make API calls using OAuth",
+          "snippet": "# Make API calls using OAuth\n\n> This is the Markdown version of https://developers.klaviyo.com/en/docs/set_up_oauth\n\nLearn how to set up OAuth for your Klaviyo integration.\n\n> [!CAUTION]\n> On March 31, 2025, Klaviyo started blocking all OAuth token traffic (`oauth/token` and `oauth/revoke`) routed t"
+        }
+      ]
+    },
+    {
+      "query": "Klaviyo developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.klaviyo.com/en/docs/authenticate_",
+          "title": "Authenticate API requests",
+          "snippet": "Authenticate API requests\n\n# Authenticate API requests\n\nLearn how to authenticate requests to Klaviyo endpoints.\n\nYou will learn\n\nAfter reading this article, you will be able to distinguish which methods of authentication you should use for making calls with Klaviyo's server- and client-side APIs. Y"
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/get_started",
+          "title": "Get started with Klaviyo",
+          "snippet": "Get started with Klaviyo\n\n# Get started with Klaviyo\n\nGet started with Klaviyo's APIs in a few easy steps. Log in, grab your API credentials, and start developing.\n\nWhat is Klaviyo?\n\nKlaviyo is a powerful email and SMS marketing tool with a strong commitment to data science. Klaviyo's App Marketplac"
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/v2023-10-15/docs/retrieve_api_credentials",
+          "title": "Obtain API credentials",
+          "snippet": "Obtain API credentials\n\nThese docs are for v2023-10-15. Click to read the latest docs for v2026-10-15.\n\n# Obtain API credentials\n\nLocate your API credentials in Klaviyo and differentiate between public and private keys.\n\nKlaviyo uses public and private API keys to authenticate API requests. You can "
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/",
+          "title": "",
+          "snippet": "# API Reference & Technical Guides | Klaviyo Developers Documentation\n\n> Gain the knowledge you need to successfully integrate Klaviyo with your application. Build your custom project with our step-by-step guides, technical documentation, community forum, and more!\n\n## Guides: Changelog\n- [Changelog"
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/set_up_oauth",
+          "title": "Make API calls using OAuth",
+          "snippet": "# Make API calls using OAuth\n\n> This is the Markdown version of https://developers.klaviyo.com/en/docs/set_up_oauth\n\nLearn how to set up OAuth for your Klaviyo integration.\n\n> [!CAUTION]\n> On March 31, 2025, Klaviyo started blocking all OAuth token traffic (`oauth/token` and `oauth/revoke`) routed t"
+        }
+      ]
+    },
+    {
+      "query": "Klaviyo pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.klaviyo.com/pricing",
+          "title": "Klaviyo Pricing | Start Free with Email & SMS",
+          "snippet": "Klaviyo Pricing | Start Free with Email & SMS\n\n# Klaviyo pricing\n\n## Klaviyo free plan\n\n## For more than 250 active profiles, choose the plan that's right for you\n\nSelect your number of active profiles What is an active profile? Any contact in your database that you can market to\n\n- ### Email\n\nGrow "
+        },
+        {
+          "url": "https://help.klaviyo.com/hc/en-us/articles/56142459211675",
+          "title": "Understanding free plan limits and upgrading with Klaviyo in Shopify",
+          "snippet": "# Understanding free plan limits and upgrading with Klaviyo in Shopify\n\n### You will learn\n\nLearn what's included in your free Klaviyo plan inside Shopify, what happens when you reach a limit, and what changes (and doesn't) when you upgrade.\n\n### What the free plan includes\n\nYour free plan includes "
+        },
+        {
+          "url": "https://help.klaviyo.com/hc/en-us/articles/360050759151",
+          "title": "Understanding how free and paid plans differ | Klaviyo Help Center",
+          "snippet": "# Understanding how free and paid plans differ\n\n## You will learn\n\nLearn the difference between free and paid plans with Klaviyo.\n\nAs your audience grows, you may need to upgrade to a plan with higher messaging limits. Paid plans also provide access to support and branding options. The benefits depe"
+        },
+        {
+          "url": "https://www.forbes.com/advisor/business/software/klaviyo-pricing/",
+          "title": "Klaviyo Pricing (Guide) – Forbes Advisor",
+          "snippet": "Klaviyo Pricing (Guide) – Forbes Advisor\n\n# Klaviyo Pricing (Guide)\n\nAudited & Verified: Jul 30, 2025, 8:50am\n\nLeeron Hoory Staff Writer\n\nLeeron is a New York-based writer who specializes in covering technology for small and mid-sized businesses. Her work has been featured in publications including "
+        },
+        {
+          "url": "https://www.g2.com/products/klaviyo/pricing",
+          "title": "Klaviyo Pricing November 2026",
+          "snippet": "Klaviyo Pricing November 2026\n\nKlaviyo\n\nBy Klaviyo\n\n4.6/5(1,372)\n\n###### 4.6 out of 5 stars\n\n5 star\n\n76%\n\n4 star\n\n19%\n\n3 star\n\n2 star\n\n1 star\n\n# Klaviyo Pricing Overview\n\nLast updated: July 28, 2026\n\n## Klaviyo Pricing Key Insights\n\nKlaviyo offers 3 pricing editions, starting at $20. Klaviyo pricing"
+        }
+      ]
+    },
+    {
+      "query": "Klaviyo official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.klaviyo.com/solutions/ai/klaviyo-mcp-server",
+          "title": "Klaviyo MCP Server",
+          "snippet": "Klaviyo MCP Server: Analyze Performance & Build Campaigns With AI - Klaviyo\n\n# Give your marketing agent the customer context it's missing\n\nGenerated by Klaviyo AI\n\nThe Klaviyo MCP server connects compatible AI agents to account data and tools for reporting, customer analysis, and campaign creation."
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/connect_to_the_klaviyo_mcp_server",
+          "title": "Connect to the MCP server",
+          "snippet": "Connect to the MCP server | Klaviyo Developers\n\n# Connect to the MCP server\n\nConfigure your MCP client to connect to Klaviyo's remote-hosted or local MCP server.\n\n## You will learn\n\nTo communicate with the Klaviyo MCP server, each MCP client needs specific configuration. This page walks you through "
+        },
+        {
+          "url": "https://help.klaviyo.com/hc/en-us/articles/52833598880923",
+          "title": "Klaviyo MCP Server Guide For Agencies  | Klaviyo Help Center",
+          "snippet": "Klaviyo MCP Server Guide For Agencies | Klaviyo Help Center\n\n# Klaviyo MCP Server Guide For Agencies \n\nEstimated 7 minute read | Updated Oct 27, 2026, 12:00 AM EST\n\n## What the MCP server is\n\nThe Klaviyo MCP (Model Context Protocol) server is a secure bridge that lets AI assistants like Claude and C"
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+          "title": "Klaviyo MCP server",
+          "snippet": "# Klaviyo MCP server\n\n> This is the Markdown version of https://developers.klaviyo.com/en/docs/klaviyo_mcp_server\n\nGet AI assistance with your Klaviyo data using Klaviyo's MCP server.\n\n## You will learn\n\nThe Klaviyo Model Context Protocol (MCP) server seamlessly integrates with Klaviyo’s APIs, enabl"
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server_available_tools",
+          "title": "Available tools",
+          "snippet": "# Available tools\n\n> This is the Markdown version of https://developers.klaviyo.com/en/docs/klaviyo_mcp_server_available_tools\n\nBrowse the tools the Klaviyo MCP server exposes, grouped by category.\n\n## You will learn\n\nThe Klaviyo MCP server exposes over 300 tools that your MCP client can call to int"
+        }
+      ]
+    },
+    {
+      "query": "site:developers.klaviyo.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.klaviyo.com/en/docs/klaviyo%5Fmcp%5Fserver",
+          "title": "Klaviyo MCP server",
+          "snippet": "Klaviyo MCP server\n\n# Klaviyo MCP server\n\nGet AI assistance with your Klaviyo data using Klaviyo's MCP server.\n\nYou will learn\n\nThe Klaviyo Model Context Protocol (MCP) server seamlessly integrates with Klaviyo’s APIs, enabling AI clients to interact with your Klaviyo data. This page introduces the "
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/connect_to_the_klaviyo_mcp_server",
+          "title": "Connect to the MCP server",
+          "snippet": "Connect to the MCP server | Klaviyo Developers\n\n# Connect to the MCP server\n\nConfigure your MCP client to connect to Klaviyo's remote-hosted or local MCP server.\n\n## You will learn\n\nTo communicate with the Klaviyo MCP server, each MCP client needs specific configuration. This page walks you through "
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server_available_tools",
+          "title": "Available tools",
+          "snippet": "# Available tools\n\n> This is the Markdown version of https://developers.klaviyo.com/en/docs/klaviyo_mcp_server_available_tools\n\nBrowse the tools the Klaviyo MCP server exposes, grouped by category.\n\n## You will learn\n\nThe Klaviyo MCP server exposes over 300 tools that your MCP client can call to int"
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/",
+          "title": "",
+          "snippet": "# API Reference & Technical Guides | Klaviyo Developers Documentation\n\n> Gain the knowledge you need to successfully integrate Klaviyo with your application. Build your custom project with our step-by-step guides, technical documentation, community forum, and more!\n\n## Guides: Changelog\n- [Changelog"
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/klaviyo_stripe_projects_context",
+          "title": "Klaviyo Stripe Projects Agent Context",
+          "snippet": "Klaviyo Stripe Projects Agent Context\n\n# Klaviyo Stripe Projects Agent Context\n\nOrientation for AI agents building against a Klaviyo account on Stripe Projects.\n\nYou are building against a Klaviyo account. This file is the orientation.\n\nKlaviyo is a customer database, messaging engine, and customer-"
+        }
+      ]
+    },
+    {
+      "query": "site:klaviyo.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.klaviyo.com/solutions/ai/klaviyo-mcp-server",
+          "title": "Klaviyo MCP Server: Analyze Performance & Build Campaigns With AI - Klaviyo",
+          "snippet": "Klaviyo MCP Server: Analyze Performance & Build Campaigns With AI - Klaviyo\n\n# Give your marketing agent the customer context it's missing\n\nGenerated by Klaviyo AI\n\nThe Klaviyo MCP server connects compatible AI agents to account data and tools for reporting, customer analysis, and campaign creation."
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/klaviyo%5Fmcp%5Fserver",
+          "title": "Klaviyo MCP server",
+          "snippet": "Klaviyo MCP server\n\n# Klaviyo MCP server\n\nGet AI assistance with your Klaviyo data using Klaviyo's MCP server.\n\nYou will learn\n\nThe Klaviyo Model Context Protocol (MCP) server seamlessly integrates with Klaviyo’s APIs, enabling AI clients to interact with your Klaviyo data. This page introduces the "
+        },
+        {
+          "url": "https://help.klaviyo.com/hc/en-us/articles/52833598880923",
+          "title": "Klaviyo MCP Server Guide For Agencies  | Klaviyo Help Center",
+          "snippet": "Klaviyo MCP Server Guide For Agencies | Klaviyo Help Center\n\n# Klaviyo MCP Server Guide For Agencies \n\nEstimated 7 minute read | Updated Oct 27, 2026, 12:00 AM EST\n\n## What the MCP server is\n\nThe Klaviyo MCP (Model Context Protocol) server is a secure bridge that lets AI assistants like Claude and C"
+        },
+        {
+          "url": "https://www.klaviyo.com/integrate/claude/klaviyo-mcp-anthropic-claude-ai-marketing-data",
+          "title": "Klaviyo MCP for Claude: Ask Your Marketing Data Questions - Klaviyo",
+          "snippet": "Klaviyo MCP for Claude: Ask Your Marketing Data Questions - Klaviyo\n\n# Klaviyo MCP for Anthropic Claude: real-time marketing data meets AI conversations\n\nKlaviyo's Model Context Protocol (MCP) connector lets marketers query their live Klaviyo data directly within Claude using natural language. Inste"
+        },
+        {
+          "url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server_available_tools",
+          "title": "Available tools",
+          "snippet": "# Available tools\n\n> This is the Markdown version of https://developers.klaviyo.com/en/docs/klaviyo_mcp_server_available_tools\n\nBrowse the tools the Klaviyo MCP server exposes, grouped by category.\n\n## You will learn\n\nThe Klaviyo MCP server exposes over 300 tools that your MCP client can call to int"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developers.klaviyo.com",
+      "final_url": "https://developers.klaviyo.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:07Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "a4b1a13fca257ca823c298e2748cbacf3de98e85c5a87b159d35b5c2631462f4",
+      "text_len": 2621
+    },
+    {
+      "requested_url": "https://developers.klaviyo.com/en/docs/set_up_oauth",
+      "final_url": "https://developers.klaviyo.com/en/docs/set_up_oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ad5788b7ab26f509b40ea7d23dad69a4d3b750aa3f1ecd678dfbff37b80cfabf",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://www.klaviyo.com/pricing",
+      "final_url": "https://www.klaviyo.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "24ce98fe70866889084c1b168c94352575cfd25297dd95dc27bcdbb015a54512",
+      "text_len": 1574
+    },
+    {
+      "requested_url": "https://developers.klaviyo.com/en/docs/connect_to_the_klaviyo_mcp_server",
+      "final_url": "https://developers.klaviyo.com/en/docs/connect_to_the_klaviyo_mcp_server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4532aebcd6172455882641a50e1b16cb65434b4bfa20f1b3cd8354ce31cb9bc2",
+      "text_len": 17596
+    },
+    {
+      "requested_url": "https://developers.klaviyo.com/en/docs/klaviyo%5Fmcp%5Fserver",
+      "final_url": "https://developers.klaviyo.com/en/docs/klaviyo%5Fmcp%5Fserver",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e0513a4b1a5d3a94a7eb60592157eb649ad172c8d669e346160f950a94c61d3a",
+      "text_len": 1629
+    },
+    {
+      "requested_url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+      "final_url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fd8d19661a46c62ae9f9f9f0ce5c5c2fc66681ffbd1d5ea4e8de4cd041212ba4",
+      "text_len": 1684
+    },
+    {
+      "requested_url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server_available_tools",
+      "final_url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server_available_tools",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "03458e644a7cab617efe008f0d65ff562df0784d58baa8ca4ca5a866fcf1e1fb",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developers.klaviyo.com/en/docs/authenticate_",
+      "final_url": "https://developers.klaviyo.com/en/docs/authenticate_",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2bc5a3ac6dda25f16710e107442533030c42e0f98c2d4afcbf7b087d03ea47d0",
+      "text_len": 6972
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_",
+        "quote": "Authorization: Klaviyo-API-Key your-private-api-key",
+        "verified": true
+      },
+      {
+        "url": "https://developers.klaviyo.com/en/docs/set_up_oauth",
+        "quote": "Add Klaviyo's OAuth authorization code flow, with PKCE, to this app, so it can call the Klaviyo API on behalf of the accounts that install it.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.klaviyo.com/pricing",
+        "quote": "Klaviyo pricing",
+        "verified": true
+      },
+      {
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_",
+        "quote": "To manage API keys, you must have an Owner, Admin, or Manager role on your Klaviyo account.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.klaviyo.com",
+        "quote": "API reference: Every endpoint, with its parameters, request and response bodies, and an example request.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server_available_tools",
+        "quote": "The Klaviyo MCP server exposes over 300 tools that your MCP client can call to interact with your Klaviyo data.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_",
+        "quote": "Private API keys can be used to read and write data to your Klaviyo account.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developers.klaviyo.com",
+        "quote": "Create apps and integrations with Klaviyo's API, SDKs and MCP server that help businesses grow.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  }
+}
