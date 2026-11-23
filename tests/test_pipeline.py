@@ -50,30 +50,30 @@ def test_search_queries_no_site_query_on_shared_doc_host():
     assert "site:acme.stoplight.io MCP" in qs and "site:stoplight.io MCP" not in qs
 
 
-BLANK_START = {"id": 84, "slug": "paygent-connect", "name": "Paygent Connect", "category": "finance_and_fintech",
-               "category_label": "Finance and Fintech", "source_hint": "paygent (NMI-powered)", "start_url": ""}
+BLANK_START = {"id": 900, "slug": "acme-pay", "name": "Acme Pay", "category": "finance_and_fintech",
+               "category_label": "Finance and Fintech", "source_hint": "acme (processor-powered)", "start_url": ""}
 
 
 def test_search_queries_blank_start_url_use_hint_and_category():
     qs = search_queries(BLANK_START)
     assert len(qs) == 4  # no official host known: no site: query
     for q in qs:
-        assert '"Paygent Connect"' in q and "NMI" in q and "Finance" in q and "Fintech" in q
+        assert '"Acme Pay"' in q and "processor" in q and "Finance" in q and "Fintech" in q
     assert not any(" and " in q or "powered" in q for q in qs)
 
 
 def test_host_like_hint_is_a_domain_hint():
-    app = dict(BLANK_START, source_hint="gopaygent.com (NMI-powered)")
-    assert official_host(app) == "gopaygent.com"
-    assert "site:gopaygent.com MCP" in search_queries(app)
-    assert classify_result(app, {"url": "https://docs.gopaygent.com/api", "title": ""}) == OFFICIAL
+    app = dict(BLANK_START, source_hint="acmepay.io (processor-powered)")
+    assert official_host(app) == "acmepay.io"
+    assert "site:acmepay.io MCP" in search_queries(app)
+    assert classify_result(app, {"url": "https://docs.acmepay.io/api", "title": ""}) == OFFICIAL
     assert official_host(dict(BLANK_START, source_hint="github.com/foo/bar")) == "github.com"
-    assert official_host(BLANK_START) == ""  # "paygent (NMI-powered)" has no host
+    assert official_host(BLANK_START) == ""  # "acme (processor-powered)" has no host
 
 
 def test_start_url_queries_unchanged_by_hint():
-    app = dict(BLANK_START, start_url="https://gopaygent.com")
-    assert search_queries(app)[0] == "Paygent Connect API authentication"
+    app = dict(BLANK_START, start_url="https://acmepay.io")
+    assert search_queries(app)[0] == "Acme Pay API authentication"
 
 
 def test_research_prompt_shows_category_label():
@@ -295,14 +295,14 @@ def _app(slug, name, domain):
     return {"slug": slug, "name": name, "start_url": f"https://{domain}", "source_hint": domain}
 
 
-PLAIN = _app("plain", "Plain", "plain.com")
+SLATE = _app("slate", "Slate", "slate.com")
 CLOSE = _app("close", "Close", "close.com")
 FRONT = _app("front", "Front", "front.com")
 FANBASIS = _app("fanbasis", "fanbasis", "fanbasis.com")
 
 
 @pytest.mark.parametrize("app,url,title", [
-    (PLAIN, "https://plainenglish.io/blog/x", "Python tutorials | plainenglish.io"),
+    (SLATE, "https://slateenglish.io/blog/x", "Python tutorials | slateenglish.io"),
     (CLOSE, "https://foreclosure.com/listings", "Foreclosure listings"),
     (CLOSE, "https://disclose.io/docs", "Disclose vulnerability program"),
     (FRONT, "https://storefront.dev/docs/api", "Storefront API docs"),
@@ -315,9 +315,9 @@ def test_short_names_do_not_match_unrelated(app, url, title):
 
 
 @pytest.mark.parametrize("app,url,title", [
-    (PLAIN, "https://www.plain.com/docs", ""),
-    (PLAIN, "https://app.plain.com/x", ""),
-    (PLAIN, "https://useplain.io/x", ""),
+    (SLATE, "https://www.slate.com/docs", ""),
+    (SLATE, "https://app.slate.com/x", ""),
+    (SLATE, "https://useslate.io/x", ""),
     (CLOSE, "https://developer.close.com/", ""),
     (FRONT, "https://dev.frontapp.com/reference", ""),
     (FANBASIS, "https://dev-docs.fanbasis.com/", ""),
@@ -327,20 +327,20 @@ def test_official_hosts_still_match(app, url, title):
 
 
 def test_short_name_doc_host_and_third_party_need_whole_word():
-    gh = {"url": "https://github.com/team-plain/mcp-server", "title": "MCP server"}
-    assert classify_result(PLAIN, gh) is not None
-    blog = {"url": "https://example.org/x", "title": "Explained in plain English"}
-    assert classify_result(PLAIN, blog) is not None  # whole word "plain" (third party is capped anyway)
-    blog2 = {"url": "https://example.org/x", "title": "Plainly explained"}
-    assert classify_result(PLAIN, blog2) is None
+    gh = {"url": "https://github.com/team-slate/mcp-server", "title": "MCP server"}
+    assert classify_result(SLATE, gh) is not None
+    blog = {"url": "https://example.org/x", "title": "Explained in slate English"}
+    assert classify_result(SLATE, blog) is not None  # whole word "slate" (third party is capped anyway)
+    blog2 = {"url": "https://example.org/x", "title": "Slately explained"}
+    assert classify_result(SLATE, blog2) is None
 
 
 def test_token_in_label_rules():
-    assert token_in_label("plain", "plain")
-    assert token_in_label("plain", "team-plain")
+    assert token_in_label("slate", "slate")
+    assert token_in_label("slate", "team-slate")
     assert token_in_label("clay", "getclay")
     assert token_in_label("front", "frontapp")
-    assert not token_in_label("plain", "plainenglish")
+    assert not token_in_label("slate", "slateenglish")
     assert not token_in_label("front", "storefront")
     assert not token_in_label("close", "foreclosure")
     assert token_in_label("fanbasis", "fanbasisapp")  # long tokens may prefix a label

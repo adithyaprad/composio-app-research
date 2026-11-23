@@ -90,7 +90,7 @@ These values describe auth for the product's developer API only. OAuth used only
 |---|---|
 | `self_serve` | A developer can create an account and get credentials alone, for free or on a trial, with no sales conversation. |
 | `self_serve_paid` | Same, but API access requires a paid plan the developer can buy without talking to sales, and with no human vendor review. A free trial that already includes API access is `self_serve`, not this. |
-| `gated_partner` | Usable credentials, or permission to call the API as a third-party / multi-tenant app, require manual vendor review: a partner program, app review, developer-profile approval, or a mandatory app-store listing (e.g. WhatsApp Business solution-provider approval, Amazon SP-API developer-profile review + Appstore listing). A paid seller/developer account does not make it `self_serve_paid` if that review is also required. |
+| `gated_partner` | Usable credentials, or permission to call the API as a third-party / multi-tenant app, require manual vendor review: a partner program, app review, developer-profile approval, or a mandatory app-store listing (e.g. WhatsApp Business solution-provider approval, or a marketplace API whose developer registration needs vendor profile review and a mandatory app-store listing). A paid seller/developer account does not make it `self_serve_paid` if that review is also required. |
 | `gated_sales` | Credentials require contacting sales, an enterprise contract, a waitlist, or manual vendor approval that is not a self-serve checkout. |
 | `no_public_api` | No documented public API a third-party developer can call. |
 

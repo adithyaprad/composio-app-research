@@ -91,7 +91,7 @@ QUERY_STOPWORDS = {"a", "an", "and", "the", "of", "for", "by", "with", "powered"
 
 
 def hint_host(hint: str) -> str:
-    """First host-like token in a free-text hint ("gopaygent.com", "github.com/foo/bar", "x.io (MCP)"), or ""."""
+    """First host-like token in a free-text hint ("acmepay.io", "github.com/foo/bar", "x.io (MCP)"), or ""."""
     m = HOST_RE.search(hint or "")
     return m.group(1).lower().removeprefix("www.") if m else ""
 
@@ -111,7 +111,8 @@ def official_domain(app: dict) -> str:
 def query_context(app: dict) -> str:
     """With no start_url, the name alone can hit an unrelated product: add the hint and category words.
 
-    "paygent (NMI-powered)" + "Finance and Fintech" -> "NMI Finance Fintech". Words already in the name are dropped.
+    "acme (processor-powered)" + "Finance and Fintech" -> "processor Finance Fintech".
+    Words already in the name are dropped.
     """
     if (app.get("start_url") or "").strip():
         return ""
@@ -179,7 +180,7 @@ DOC_HOSTS = ("github.com", "gitlab.com", "npmjs.com", "pypi.org", "readme.io", "
 # Slug parts too generic to identify a vendor by themselves.
 GENERIC_TOKENS = {"ads", "api", "app", "apps", "business", "cloud", "commerce", "crm", "data", "partner", "selling",
                   "the", "io", "ai", "hq", "chat", "mail", "connect"}
-# Affixes vendors commonly glue to their name in a domain label (getclay, useplain, plainhq, ...).
+# Affixes vendors commonly glue to their name in a domain label (getacme, useacme, acmehq, ...).
 HOST_AFFIXES = ("get", "use", "try", "with", "go", "app", "hq", "api", "docs", "dev", "ai", "io", "cloud")
 SHORT_TOKEN = 6  # tokens this short never match inside another word
 MAX_THIRD_PARTY = 2
@@ -200,8 +201,8 @@ def token_in_label(token: str, label: str) -> bool:
     """Does a host label (e.g. "dev-docs", "getclay") name the app?
 
     Exact label, a hyphen segment, or the token plus a known affix. Only tokens
-    longer than SHORT_TOKEN may also prefix/suffix a label, so "plain" never
-    matches "plainenglish" and "front" never matches "storefront".
+    longer than SHORT_TOKEN may also prefix/suffix a label, so "slate" never
+    matches "slateenglish" and "front" never matches "storefront".
     """
     if label == token or token in label.split("-"):
         return True

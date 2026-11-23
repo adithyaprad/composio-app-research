@@ -123,7 +123,7 @@ def test_rest_and_graphql_pass(row):
 
 # ---- notes vs fields ---------------------------------------------------------------
 
-# Paraphrased from pilot-10 rows whose notes contradicted auth_methods ["api_key", "oauth2"].
+# Notes that say OAuth is not API auth, while auth_methods still lists oauth2.
 CONTRADICTING_OAUTH_NOTES = [
     "OAuth2 is documented for the MCP server only, not for the REST API, so it is not listed as an API auth "
     "method. A free trial is mentioned.",

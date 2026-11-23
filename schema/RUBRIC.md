@@ -78,7 +78,7 @@ Exact enum match, plus:
 - Free signup or a trial that already includes API credentials → `self_serve`.
 - Developer can buy a plan or sign up online and get API credentials with **no human vendor review**, and there is no qualifying trial → `self_serve_paid`.
 - Getting usable credentials, or being allowed to call the API as a third-party or multi-tenant app, needs **manual vendor review**: app review, a developer-profile approval, a partner or solution-provider program, or a mandatory app-store listing → `gated_partner`, with verdict `buildable_with_approval` and blocker `gated_access`. A paid seller or developer account does **not** make this `self_serve_paid` when that review is also required.
-  - Example: Amazon Selling Partner API (SP-API). Public-developer registration needs an Amazon developer-profile review and a Selling Partner Appstore listing, so it is `gated_partner` + `buildable_with_approval` + `gated_access`, even though a seller account can be bought online.
+  - Example: a marketplace API whose public-developer registration needs a vendor profile review and a mandatory app-store listing. That is `gated_partner` + `buildable_with_approval` + `gated_access`, even though a seller or developer account can be bought online.
 - Contact sales, enterprise contract, waitlist, or manual vendor approval → `gated_sales`.
 - No documented public API → `no_public_api`.
 - A workspace admin having to install an app is **not** gated access. Customer-side admin approval is `requires_end_user_admin`, not a vendor gate.
