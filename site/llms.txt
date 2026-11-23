@@ -14,7 +14,7 @@ Headline numbers (generated from the repo data, as of 2026-11-23):
 
 ## Page
 
-- [Case study page](index.html): patterns, accuracy, next steps, the findings table, how the agent works, verification and limits
+- [Case study page](index.html): patterns, accuracy, next steps, the findings table, how the agent works, human checks and limits
 
 ## Data
 

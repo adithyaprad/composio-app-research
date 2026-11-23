@@ -259,8 +259,9 @@ def test_field_accuracies_per_pass_match_scores(page, kind):
     for p in (1, 2, 3):
         score = json.loads((ROOT / bs.score_path(kind, p)).read_text())
         for key, entry in score["summary"]["field_accuracy"].items():
-            if key in bs.CRITICAL or key in bs.MINOR:
-                assert shown(page, bs.score_src(kind, p, key)) == f"{round(entry['accuracy'] * 100)}%"
+            src = bs.score_src(kind, p, key)
+            if (key in bs.CRITICAL or key in bs.MINOR) and src in page.values:  # the page shows a subset per pass
+                assert shown(page, src) == f"{round(entry['accuracy'] * 100)}%"
         assert shown(page, f"{bs.score_path(kind, p)}:summary.n_row_correct") == str(score["summary"]["n_row_correct"])
 
 
@@ -334,10 +335,11 @@ def test_download_links_resolve_and_name_their_files(built):
 def test_no_native_select_and_custom_filters_present(built):
     html = (built / "index.html").read_text()
     assert "<select" not in html
-    chips = re.findall(r'<button type="button" class="fchip" data-filter="([a-z_]+)"[^>]*'
-                       r'aria-pressed="(true|false)"', html)
-    assert {k for k, _ in chips} == {"verdict", "access", "mcp_status", "needs_human", "composio", "category"}
-    assert sum(p == "true" for _, p in chips) == 6  # one "All" chip pressed per group
+    dds = re.findall(r'<div class="dd" data-filter="([a-z_]+)">.*?</ul></div>', html)
+    assert set(dds) == {"verdict", "access", "mcp_status", "needs_human", "composio", "category"}
+    selected = re.findall(r'<li role="option" class="dd-opt" data-value="([^"]*)" aria-selected="true"', html)
+    assert selected == [""] * 6  # "All" selected in every dropdown
+    assert 'id="pager"' in html
     assert 'id="clear"' in html
 
 

@@ -741,7 +741,8 @@ def section_hero(src: dict, m: dict) -> str:
   <h1 id="h-patterns">{TITLE.format(n=tot)}</h1>
   <div class="sub-row">
     <p class="subtitle">Which apps an agent toolkit can be built for today, which need outreach first, and how far to trust the answers.</p>
-    <a class="btn btn-ghost" href="{esc(REPO_URL)}" target="_blank" rel="noopener">{GITHUB_SVG}<span>{esc(REPO_LABEL)}</span></a>
+    <div class="hero-btns"><a class="btn btn-ghost" href="https://composio.notion.site/AI-Product-Ops-Intern-The-take-home-assignment-391f261a6dfe80e9946bee899d3a3762" target="_blank" rel="noopener"><svg class="btn-ic" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h5"/></svg><span>Assignment brief</span></a>
+    <a class="btn btn-ghost" href="{esc(REPO_URL)}" target="_blank" rel="noopener">{GITHUB_SVG}<span>{esc(REPO_LABEL)}</span></a></div>
   </div>
   <p class="lead">An agent pipeline researched {tot} apps (auth, access, API, MCP, Composio coverage, a buildability verdict and the evidence behind each), checked itself in three loops, and was scored against hand-labelled answers.</p>
   <h2 class="kicker">The patterns</h2>
@@ -827,7 +828,6 @@ def section_accuracy(src: dict, m: dict) -> str:
     <li><strong>The browser pass added proof, not accuracy.</strong> It re-read the {n(flagged, f'{P_BROWSE}:count(flagged=true)')} flagged rows on {n(pages_local, f'{P_BROWSE}:sum(pages_local)')} local and {n(pages_cloud, f'{P_BROWSE}:sum(pages_cloud)')} cloud-rendered pages, with quotes and screenshots, but gold whole rows went {n(g[1], f"{score_path('gold', 2)}:summary.n_row_correct")} → {n(g[2], f"{score_path('gold', 3)}:summary.n_row_correct")} ({n(len(m['regressions']), f"{score_path('gold', 2)}:regressions({score_path('gold', 3)})")} regression).</li>
     <li><strong>The holdout did not move.</strong> It stayed at {n(h[0], f"{score_path('holdout', 3)}:summary.n_row_correct")} of {nh} whole rows in all three passes{holdout_extra}. Gold informed some checker rules, so the holdout is the more honest number.</li>
   </ul>
-  <p class="more"><a href="#verification">Full verification, every miss, and the spot-check</a></p>
 </section>"""
 
 
@@ -983,6 +983,10 @@ def _clip(text: str, limit: int = 320) -> str:
     return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
 
 
+DD_CHEV = '<svg class="dd-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>'
+DD_TICK = '<svg class="dd-tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>'
+
+
 def section_findings(src: dict, m: dict) -> str:
     rows = m["rows"]
     start = {a["slug"]: (a.get("start_url") or "").strip() for a in src["apps"]}
@@ -1045,14 +1049,18 @@ def section_findings(src: dict, m: dict) -> str:
     present = lambda field, labels: [(k, v) for k, v in labels.items() if any(r[field] == k for r in rows)]  # noqa: E731
 
     def group(key: str, label: str, options: list[tuple[str, str, str, int, str]], cls: str = "") -> str:
-        """options: (value, text, data-src filter, count, title)."""
-        chips = [f'<button type="button" class="fchip" data-filter="{key}" data-value="" aria-pressed="true">All</button>']
+        """options: (value, text, data-src filter, count, title). An in-page dropdown, not a native <select>."""
+        items = [f'<li role="option" class="dd-opt" data-value="" aria-selected="true" tabindex="-1">{DD_TICK}'
+                 f'<span class="dd-text">All</span></li>']
         for value, text, src_key, count, title in options:
             tip = f' title="{esc(title)}"' if title else ""
-            chips.append(f'<button type="button" class="fchip" data-filter="{key}" data-value="{esc(value)}" '
-                         f'aria-pressed="false"{tip}>{esc(text)}<span class="fc-n">{n(count, src_key)}</span></button>')
-        return (f'<div class="fgroup{cls}" role="group" aria-labelledby="fl-{key}">'
-                f'<span class="fg-label" id="fl-{key}">{label}</span><div class="chips">{"".join(chips)}</div></div>')
+            items.append(f'<li role="option" class="dd-opt" data-value="{esc(value)}" aria-selected="false" tabindex="-1"'
+                         f'{tip}>{DD_TICK}<span class="dd-text">{esc(text)}</span>'
+                         f'<span class="fc-n">{n(count, src_key)}</span></li>')
+        return (f'<div class="dd" data-filter="{key}"><span class="fg-label" id="fl-{key}">{label}</span>'
+                f'<button type="button" class="dd-btn" aria-haspopup="listbox" aria-expanded="false" '
+                f'aria-labelledby="fl-{key} dv-{key}"><span class="dd-val" id="dv-{key}">All</span>{DD_CHEV}</button>'
+                f'<ul class="dd-menu" role="listbox" aria-labelledby="fl-{key}" hidden>{"".join(items)}</ul></div>')
 
     def enum_opts(field: str, labels: dict[str, str]) -> list[tuple[str, str, str, int, str]]:
         return [(k, v, rows_src(f"{field}={k}"), sum(r[field] == k for r in rows), "") for k, v in present(field, labels)]
@@ -1072,7 +1080,7 @@ def section_findings(src: dict, m: dict) -> str:
              sum(composio_status(r) == "none" for r in rows), "")]),
         group("category", "Category", [
             (c, short_label(m["labels"][c]), rows_src(f"category={c}"), sum(r["category"] == c for r in rows),
-             m["labels"][c]) for c in m["categories"]], " fg-wide"),
+             m["labels"][c]) for c in m["categories"]]),
     ])
     total = m["total"]
     return f"""
@@ -1101,6 +1109,7 @@ def section_findings(src: dict, m: dict) -> str:
     </table>
     <p class="empty" id="empty" hidden>No apps match these filters. <button type="button" class="linkish" data-clear>Clear filters</button></p>
   </div>
+  <nav class="pager" id="pager" aria-label="Table pages"></nav>
 </section>"""
 
 
@@ -1371,24 +1380,6 @@ def section_tools(src: dict, m: dict) -> str:
 </section>"""
 
 
-def _acc_table(m: dict, kind: str) -> str:
-    s = m["scores"][kind]
-    keys = list(CRITICAL) + list(MINOR) + ["coverage"]
-    body = []
-    for key in keys:
-        vals = [field_acc(s[p], key) for p in PASSES]
-        cells = "".join(
-            f'<td class="acc {acc_class(v)}"><span class="bar" style="--w:{v * 100:.0f}%"></span>'
-            f'{n(v, score_src(kind, p, key), "pct")}</td>' for p, v in zip(PASSES, vals, strict=True))
-        crit = "critical" if key in CRITICAL else "minor"
-        body.append(f'<tr><th scope="row">{FIELD_LABEL[key]} <span class="muted small">{crit}</span></th>{cells}</tr>')
-    rows = "".join(f'<td>{n(s[p]["summary"]["n_row_correct"], f"{score_path(kind, p)}:summary.n_row_correct")}</td>'
-                   for p in PASSES)
-    return (f'<table class="mini"><thead><tr><th scope="col">Field</th><th scope="col">Pass 1</th><th scope="col">Pass 2</th>'
-            f'<th scope="col">Pass 3</th></tr></thead><tbody>{"".join(body)}'
-            f'<tr class="total"><th scope="row">Whole rows right</th>{rows}</tr></tbody></table>')
-
-
 def _val(unit: str, v: Any) -> str:
     if unit == "auth":
         primary = AUTH.get(v["primary_auth"], v["primary_auth"])
@@ -1401,166 +1392,13 @@ def _val(unit: str, v: Any) -> str:
     return labels.get(v, str(v))
 
 
-def section_verification(src: dict, m: dict) -> str:
-    s = m["scores"]
-    review = src["review"]
-    browse = src["browse"]
-    rule_counts = Counter(rule for r in review for rule in r.get("rules_fired") or [])
-    fields2 = Counter(f for r in review if r["status"] == "changed" for f in r.get("fields_changed") or []
-                      if f not in ("evidence", "notes"))
-    rules_li = "".join(f'<tr><td><code>{esc(k)}</code></td><td>{esc(RULE_TEXT.get(k, ""))}</td>'
-                       f'<td class="num">{n(v, f"{P_REVIEW}:count(rules_fired@={k})")}</td></tr>'
-                       for k, v in sorted(rule_counts.items(), key=lambda kv: (-kv[1], kv[0])))
-    fields2_txt = ", ".join(f"{esc(k)} {n(v, f'{P_REVIEW}:count(status=changed&fields_changed@={k})')}"
-                            for k, v in sorted(fields2.items(), key=lambda kv: (-kv[1], kv[0])))
-    st = Counter(b["status"] for b in browse)
-    why = Counter(p.get("why_cloud") for b in browse for p in b.get("pages") or [] if p.get("browser") == "cloud")
-    why_txt = ", ".join(f"{esc(k)} {n(v, f'{P_BROWSE}:count_pages(browser=cloud&why_cloud={k})')}"
-                        for k, v in sorted(why.items(), key=lambda kv: (-kv[1], str(kv[0]))))
-    cost3 = sum(b.get("est_cost_usd") or 0 for b in browse)
-    wall3 = sum(b.get("wall_s") or 0 for b in browse)
-    changed3 = Counter(f for b in browse if b["status"] == "changed" for f in b.get("fields_changed") or []
-                       if f not in ("evidence", "notes"))
-    changed3_txt = ", ".join(f"{esc(k)} {n(v, f'{P_BROWSE}:count(status=changed&fields_changed@={k})')}"
-                             for k, v in sorted(changed3.items(), key=lambda kv: (-kv[1], kv[0])))
-
-    # hits and misses
-    rows_by = {r["slug"]: r for r in m["rows"]}
-    miss_rows = []
-    for kind in SETS:
-        regress = set(m["regressions"] if kind == "gold" else m["holdout_regressions"])
-        for app in m["misses"][kind]:
-            # The generated reason adds detail only for list fields; for single values it would repeat the line.
-            fields = "".join(
-                f'<li><strong>{FIELD_LABEL[u["unit"]]}</strong>: agent <span class="val-bad">{esc(_val(u["unit"], u["agent"]))}</span>, '
-                f'gold <span class="val-good">{esc(_val(u["unit"], u["gold"]))}</span>'
-                f'{"<span class=why>" + esc(u["reason"]) + "</span>" if u["unit"] in ("auth", "api") else ""}</li>'
-                for u in app["units"])
-            tag = ""
-            if app["slug"] in regress:
-                b = m["browse"].get(app["slug"]) or {}
-                changed = [f for f in b.get("fields_changed") or [] if f not in ("evidence", "notes")]
-                evid = [it.get("note") for it in (rows_by.get(app["slug"], {}).get("evidence") or {}).get("verdict", [])]
-                tag = ('<span class="tag tag-rough">pass-3 regression</span> Right in pass 2, wrong in pass 3: the '
-                       f'browser pass changed {esc(", ".join(changed))}. Its verdict evidence: '
-                       f'<q>{esc(RENDERED_NOTE.sub("", evid[0] or "").strip().rstrip(".")) if evid else ""}</q>. '
-                       'Hand label note: ')
-            miss_rows.append(f'<tr><th scope="row"><span data-text>{esc(app["name"])}</span><span class="muted small"> {kind}</span></th>'
-                             f'<td><ul class="miss-list">{fields}</ul></td>'
-                             f'<td class="label-note" data-text>{tag}{esc(app["label_notes"])}</td></tr>')
-    hits = {kind: [a for a in s[kind][3]["apps"] if a.get("row_correct")] for kind in SETS}
-    hits_html = "".join(
-        f'<p><strong>{kind.title()} rows fully right in pass 3 ({n(len(hits[kind]), f"{score_path(kind, 3)}:summary.n_row_correct")}):</strong> '
-        f'<span data-text>{", ".join(esc(a["name"]) for a in hits[kind])}</span>.</p>' for kind in SETS)
-    n_miss_apps = {kind: len(m["misses"][kind]) for kind in SETS}
-
-    # pass-3 fixes outside the scored sets
-    fixes = changed_rows(src["rows2"], m["rows"], ("mcp_status", "mcp_url"), m["gold_slugs"] | m["holdout_slugs"])
-    fix_items = []
-    for f in fixes:
-        b = m["browse"].get(f["slug"]) or {}
-        def shown(v: Any) -> str:
-            if v is None:
-                return "null"
-            return short_url(v) if str(v).startswith("http") else str(v)
-
-        changes = "".join(f'<li><code>{esc(k)}</code>: <span class="val-bad">{esc(shown(f["before"][k]))}</span> → '
-                          f'<span class="val-good">{esc(shown(f["after"][k]))}</span></li>' for k in f["fields"])
-        pages = "".join(f'<li>{link(p.get("final_url") or p.get("url"), p.get("title") or p.get("url"))} '
-                        f'<span class="muted">({esc(p.get("browser"))}{", " + esc(p.get("why_cloud")) if p.get("why_cloud") else ""})</span>'
-                        f'{" · " + link(SCREENSHOT_BASE + p["screenshot"], "screenshot") if p.get("screenshot") else ""}</li>'
-                        for p in b.get("pages") or [])
-        quotes = [x for x in src["evidence"][f["slug"]]["snippets"].get("mcp", []) if x.get("quote")]
-        q = "".join(f'<blockquote>{esc(_clip(x["quote"]))}<cite>{link(x["url"], short_url(x["url"]))}'
-                    f'{" · " + esc(x["browser"]) + " browser" if x.get("browser") else ""}</cite></blockquote>'
-                    for x in quotes[:2])
-        fix_items.append(f'<div class="fix" data-text><h5>{esc(f["name"])}</h5><ul class="changes">{changes}</ul>'
-                         f'{q}<p class="small"><strong>Pages rendered:</strong></p><ul class="pages">{pages}</ul>'
-                         f'<p class="small muted">{esc(rows_by[f["slug"]].get("notes"))}</p></div>')
-
-    # spot-check
-    spot = src["spot"]
-    spot_items = "".join(
-        f'<li><span class="item-name" data-text>{esc(it["name"])}</span> '
-        f'<span class="muted">{esc(m["labels"].get(it["category"], it["category"]))}</span> <span class="chip ok">'
-        f'{n(sum(v == "right" for v in it["human_check"]["claims"].values()), f"{P_SPOT}:count_values(items.{i}.human_check.claims=right)")}/'
-        f'{n(len(it["human_check"]["claims"]), f"{P_SPOT}:len(items.{i}.human_check.claims)")} claims right</span></li>'
-        for i, it in enumerate(spot["items"]))
-    corrections = gold_audit_corrections(src["audit"])
-    ng = s["gold"][3]["summary"]["n_gold"]
-    nho = s["holdout"][3]["summary"]["n_gold"]
-    per_cat = Counter(g["category"] for g in src["gold"])
-    ensure(len(set(per_cat.values())) == 1, "gold has the same number of apps per category")
-    return f"""
-<section id="verification" aria-labelledby="h-verification">
-  <h2 id="h-verification">Verification in full</h2>
-  <p class="section-lead">How the numbers above were produced, every remaining miss, and what the browser pass actually fixed. A gated app with evidence of the gate counts as a correct finding, not a failure.</p>
-
-  <details class="v" id="v-misses" open>
-    <summary>Hits and misses on the hand-labelled sets (pass 3)</summary>
-    <div class="v-body">
-      <p>{n(n_miss_apps['gold'], f"{score_path('gold', 3)}:apps_with_critical_miss()")} of {n(ng, f"{score_path('gold', 3)}:summary.n_gold")} gold apps and {n(n_miss_apps['holdout'], f"{score_path('holdout', 3)}:apps_with_critical_miss()")} of {n(nho, f"{score_path('holdout', 3)}:summary.n_gold")} holdout apps still have a critical miss. Every one is listed, with the hand label's own note.</p>
-      <div class="table-wrap"><table class="misses">
-        <thead><tr><th scope="col">App</th><th scope="col">What the agent got wrong</th><th scope="col">Hand label note</th></tr></thead>
-        <tbody>{''.join(miss_rows)}</tbody>
-      </table></div>
-      {hits_html}
-    </div>
-  </details>
-
-  <details class="v" id="v-fields">
-    <summary>Per-field accuracy, all fields</summary>
-    <div class="v-body two-col">
-      <div><h4>Gold ({n(ng, f"{score_path('gold', 3)}:summary.n_gold")} apps)</h4>{_acc_table(m, 'gold')}</div>
-      <div><h4>Holdout ({n(nho, f"{score_path('holdout', 3)}:summary.n_gold")} apps)</h4>{_acc_table(m, 'holdout')}</div>
-      <p class="small muted full">Critical fields decide whether a whole row is right; minor fields are reported but never fail a row. Evidence scoring checks that each claim has an evidence URL; whether the page really supports the claim was checked by people on samples. Colours: {acc_legend()}.</p>
-    </div>
-  </details>
-
-  <details class="v" id="v-loops">
-    <summary>What each loop changed</summary>
-    <div class="v-body">
-      <h4>Pass 2 · rule checker</h4>
-      <p>{n(sum(r['status'] == 'changed' for r in review), f'{P_REVIEW}:count(status=changed)')} of {n(len(review), f'{P_REVIEW}:count()')} rows changed. Fields changed (besides evidence and notes): {fields2_txt}.</p>
-      <div class="table-wrap"><table class="mini rules"><thead><tr><th scope="col">Rule</th><th scope="col">What it catches</th><th scope="col" class="num">Rows</th></tr></thead><tbody>{rules_li}</tbody></table></div>
-      <h4>Pass 3 · Browser Use</h4>
-      <p>{n(sum(b.get('flagged', False) for b in browse), f'{P_BROWSE}:count(flagged=true)')} rows flagged: {n(st['confirmed'], f'{P_BROWSE}:count(status=confirmed)')} confirmed, {n(st['changed'], f'{P_BROWSE}:count(status=changed)')} changed, {n(st['copied'], f'{P_BROWSE}:count(status=copied)')} unflagged rows copied through unchanged.
-      Fields changed (besides evidence and notes): {changed3_txt}.
-      Pages: {n(sum(b.get('pages_local', 0) for b in browse), f'{P_BROWSE}:sum(pages_local)')} in local headless Chromium, {n(sum(b.get('pages_cloud', 0) for b in browse), f'{P_BROWSE}:sum(pages_cloud)')} retried on Browser Use Cloud ({why_txt}) across {n(sum(b.get('cloud_sessions', 0) for b in browse), f'{P_BROWSE}:sum(cloud_sessions)')} sessions.
-      LLM cost about {n(cost3, f'{P_BROWSE}:sum(est_cost_usd)', 'usd')} (token estimate) and {n(wall3, f'{P_BROWSE}:sum(wall_s)', 'min')} minutes of summed row time.</p>
-    </div>
-  </details>
-
-  <details class="v" id="v-fixes">
-    <summary>Pass 3 fixes outside the scored sets</summary>
-    <div class="v-body">
-      <p>{n(len(fixes), f'{P_ROWS2}:changed({P_ROWS};mcp_status,mcp_url;exclude_scored)')} rows outside gold and holdout had their MCP answer changed by the browser pass. Neither is scored, so these do not show up in the accuracy numbers.</p>
-      <div class="fixes">{''.join(fix_items)}</div>
-    </div>
-  </details>
-
-  <details class="v" id="v-spot">
-    <summary>Human spot-check of {n(spot['result']['rows_checked'], f'{P_SPOT}:result.rows_checked')} random rows</summary>
-    <div class="v-body">
-      <p><strong>Result:</strong> {n(spot['result']['rows_correct'], f'{P_SPOT}:result.rows_correct')}/{n(spot['result']['rows_checked'], f'{P_SPOT}:result.rows_checked')} rows and {n(spot['result']['claims_correct'], f'{P_SPOT}:result.claims_correct')}/{n(spot['result']['claims_checked'], f'{P_SPOT}:result.claims_checked')} claims (auth, access, MCP, verdict) confirmed.
-      <strong>Method:</strong> {esc(spot['method'])}. Sample: fixed seed {n(spot['seed'], f'{P_SPOT}:seed')}, drawn from the {n(spot['population'], f'{P_SPOT}:population')} final rows minus the {n(spot['excluded_count'], f'{P_SPOT}:excluded_count')} gold and holdout apps.</p>
-      <p class="scope-note"><strong>Scope:</strong> <span data-text>{esc(spot['scope_note'])}</span></p>
-      <ul class="spot">{spot_items}</ul>
-    </div>
-  </details>
-
-  <details class="v" id="v-keys">
-    <summary>How the answer keys were built</summary>
-    <div class="v-body">
-      <ul class="plain-list">
-        <li><strong>Gold ({n(ng, f"{score_path('gold', 3)}:summary.n_gold")} apps, {n(max(per_cat.values()), f'{P_GOLD}:max_per(category)')} per category).</strong> Labelled by hand from official docs without looking at the agent's rows, then audited field by field against current vendor docs. The audit corrected {n(len(corrections), f'{P_AUDIT}:corrected_apps()')} apps' scored labels and clarified the rubric (<code>schema/GOLD_AUDIT.md</code>).</li>
-        <li><strong>Sealed holdout ({n(nho, f"{score_path('holdout', 3)}:summary.n_gold")} apps).</strong> A seeded random draw, one per category, excluding gold and pilot apps. Labelled and locked before the pass-2 rules were written, scored once per frozen pass, and never used to write a rule.</li>
-        <li><strong>Gated counts as correct.</strong> Where an app is behind a sales or partner gate, saying so with the vendor page as evidence is the right answer and is scored that way.</li>
-        <li><strong>Strict row score.</strong> A row is right only if auth, access, API, MCP, verdict and blocker all match and every claim has evidence.</li>
-      </ul>
-    </div>
-  </details>
-</section>"""
+HUMAN_REASON_CARD = {  # needs_human reason id -> (card title, plain explanation)
+    "confidence_not_high": ("Not confident enough", "The agent's confidence was still below high after all three passes."),
+    "sales_or_partner_gate": ("Needs vendor outreach", "Access needs a sales demo or a manual partner review. A bot can't "
+                              "do that, so a person decides whether to start it."),
+    "conflicting_or_caveated_docs": ("Docs conflict or have caveats", "Conflicting docs, a login wall, a deprecation, "
+                                     "or a claim the browser pass couldn't confirm."),
+}
 
 
 def section_humans(src: dict, m: dict) -> str:
@@ -1569,11 +1407,10 @@ def section_humans(src: dict, m: dict) -> str:
     by_reason = needs["by_reason"]
     reason_sum = sum(by_reason.values())
     ensure(reason_sum > total, "needs-human reasons overlap (they sum to more than the flagged rows)")
-    mx = max(by_reason.values())
+    ensure(set(by_reason) <= set(HUMAN_REASON_CARD), "every needs-human reason has a card title")
     reasons = "".join(
-        f'<li><span class="hb-label">{esc(NEEDS_HUMAN_TEXT.get(k, "").capitalize())}<code>{esc(k)}</code></span>'
-        f'<span class="hb-bar" aria-hidden="true"><span style="width:{100 * v / mx:.0f}%"></span></span>'
-        f'<span class="hb-num">{n(v, f"{P_NEEDS}:by_reason.{k}")}</span></li>'
+        f'<li class="hr-card"><span class="hr-num">{n(v, f"{P_NEEDS}:by_reason.{k}")}</span>'
+        f'<div><h4>{esc(HUMAN_REASON_CARD[k][0])}</h4><p>{esc(HUMAN_REASON_CARD[k][1])}</p></div></li>'
         for k, v in sorted(by_reason.items(), key=lambda kv: -kv[1]))
     rows = m["rows"]
     flagged = {s for s, r in m["nh"].items() if r.get("needs_human")}
@@ -1581,36 +1418,34 @@ def section_humans(src: dict, m: dict) -> str:
                       sum(1 for r in rows if r["category"] == c)) for c in m["categories"]),
                     key=lambda t: (-t[1], m["categories"].index(t[0])))
     cats = "".join(
-        f'<li><span class="hb-label">{esc(m["labels"][c])}</span>'
-        f'<span class="hb-bar" aria-hidden="true"><span style="width:{100 * k / max(t, 1):.0f}%"></span></span>'
-        f'<span class="hb-num">{n(k, f"{P_PATTERNS}:crosstabs.by_category.{c}.needs_human.count")}</span></li>'
+        f'<li><span class="hc-name">{esc(m["labels"][c])}</span>'
+        f'<span class="hc-bar" aria-hidden="true"><span style="width:{100 * k / max(t, 1):.0f}%"></span></span>'
+        f'<span class="hc-num">{n(k, f"{P_PATTERNS}:crosstabs.by_category.{c}.needs_human.count")}</span></li>'
         for c, k, t in by_cat)
     s = m["scores"]
     return f"""
 <section id="humans" aria-labelledby="h-humans">
   <h2 id="h-humans">Where a human was needed</h2>
-  <p class="section-lead">People wrote the answer keys and are the referee for rows the agent is unsure about. A flag means "a person should look", not "the agent failed".</p>
-  <div class="two-col">
-    <div class="panel">
-      <h3>{n(total, f'{P_NEEDS}:needs_human_count')} of {n(needs['total'], f'{P_NEEDS}:total')} rows flagged for a human check</h3>
-      <p class="group-note">A row can have several reasons, so these add up to {n(reason_sum, f'{P_NEEDS}:sum(by_reason)')}, more than {n(total, f'{P_NEEDS}:needs_human_count')}.</p>
-      <ul class="hbars">{reasons}</ul>
-    </div>
-    <div class="panel panel-human">
-      <h3><span class="human-tag">human</span> The four human steps</h3>
-      <ol class="steps">
-        <li><strong>Gold labels + audit</strong>: {n(s['gold'][3]['summary']['n_gold'], f"{score_path('gold', 3)}:summary.n_gold")} apps labelled blind, then every field re-checked against official docs.</li>
-        <li><strong>Sealed holdout</strong>: {n(s['holdout'][3]['summary']['n_gold'], f"{score_path('holdout', 3)}:summary.n_gold")} apps labelled and locked before any checker rule existed.</li>
-        <li><strong>Needs-human review</strong>: {n(total, f'{P_NEEDS}:needs_human_count')} flagged rows listed in <a href="data/needs_human.json">needs_human.json</a> with reasons and evidence URLs.</li>
-        <li><strong>Spot-check</strong>: {n(src['spot']['result']['rows_checked'], f'{P_SPOT}:result.rows_checked')} random rows outside gold and holdout, every deciding claim opened and compared by hand.</li>
-      </ol>
-      <p class="small muted">Every sales or partner gate is flagged on purpose: a bot cannot sit through a demo or pass a partner review, so a person decides whether to start that outreach.</p>
-    </div>
+  <p class="section-lead">People wrote the answer keys, and people are the referee whenever the agent is unsure. A flag means <em>a person should look</em>, not <em>the agent failed</em>.</p>
+
+  <div class="h-summary">
+    <p class="h-big">{n(total, f'{P_NEEDS}:needs_human_count')}<span class="of"> / {n(needs['total'], f'{P_NEEDS}:total')}</span></p>
+    <p class="h-big-text"><strong>rows were flagged for a person to check.</strong> A row can have more than one reason, so the reasons below add up to {n(reason_sum, f'{P_NEEDS}:sum(by_reason)')}.</p>
   </div>
-  <div class="panel panel-flat">
-    <h3>Flagged rows by category <span class="muted small">out of {cat_size_n(m)} apps each</span></h3>
-    <ul class="hbars cat">{cats}</ul>
-  </div>
+
+  <h3 class="h-sub">Why rows were flagged</h3>
+  <ul class="h-reasons">{reasons}</ul>
+
+  <h3 class="h-sub">The four human steps</h3>
+  <ol class="h-steps">
+    <li><span class="hs-n" aria-hidden="true"></span><h4>Gold labels and audit</h4><p>{n(s['gold'][3]['summary']['n_gold'], f"{score_path('gold', 3)}:summary.n_gold")} apps labelled blind, then every field re-checked against official docs.</p></li>
+    <li><span class="hs-n" aria-hidden="true"></span><h4>Sealed holdout</h4><p>{n(s['holdout'][3]['summary']['n_gold'], f"{score_path('holdout', 3)}:summary.n_gold")} apps labelled and locked before any checker rule existed.</p></li>
+    <li><span class="hs-n" aria-hidden="true"></span><h4>Needs-human review</h4><p>{n(total, f'{P_NEEDS}:needs_human_count')} flagged rows listed in <a href="data/needs_human.json">needs_human.json</a> with reasons and evidence links.</p></li>
+    <li><span class="hs-n" aria-hidden="true"></span><h4>Spot-check</h4><p>{n(src['spot']['result']['rows_checked'], f'{P_SPOT}:result.rows_checked')} random rows outside gold and holdout. Every deciding claim opened and compared by hand.</p></li>
+  </ol>
+
+  <h3 class="h-sub">Flagged rows by category <span class="h-sub-note">out of {cat_size_n(m)} apps each</span></h3>
+  <ul class="h-cats">{cats}</ul>
 </section>"""
 
 
@@ -1728,7 +1563,7 @@ def section_links(src: dict, m: dict) -> str:
 
 
 NAV = (("patterns", "Patterns"), ("accuracy", "Accuracy"), ("next", "Next steps"), ("findings", "Findings"),
-       ("agent", "Agent"), ("tools", "Tools"), ("verification", "Verification"), ("humans", "Humans"),
+       ("agent", "Agent"), ("tools", "Tools"), ("humans", "Humans"),
        ("proof", "Proof"), ("limits", "Limits"), ("links", "Links"))
 
 
@@ -1736,7 +1571,7 @@ def render_page(src: dict, out: Path) -> str:
     m = build_model(src)
     nav = "".join(f'<li><a href="#{k}">{t}</a></li>' for k, t in NAV)
     body = "".join(fn(src, m) for fn in (section_hero, section_accuracy, section_next, section_findings, section_agent,
-                                         section_tools, section_verification, section_humans, section_proof,
+                                         section_tools, section_humans, section_proof,
                                          section_limits, section_links))
     side = {rel: (out / rel).read_text(encoding="utf-8") for rel in ("data/patterns.json", "data/schema.md", "llms.txt")}
     description = ("Research on 100 apps for Composio: auth, access, API, MCP and buildability, with the agent "
@@ -1859,7 +1694,7 @@ Headline numbers (generated from the repo data, as of {m['as_of']}):
 
 ## Page
 
-- [Case study page](index.html): patterns, accuracy, next steps, the findings table, how the agent works, verification and limits
+- [Case study page](index.html): patterns, accuracy, next steps, the findings table, how the agent works, human checks and limits
 
 ## Data
 
@@ -2091,12 +1926,12 @@ font-variant-numeric:tabular-nums;margin:0;line-height:1.7}
 font-size:.92rem;font-weight:600}
 .badge-spot .scope{display:block;font-weight:400;color:var(--muted);font-size:.82rem;margin-top:6px}
 .takeaways{margin:24px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.takeaways li{border-left:3px solid var(--accent);padding:4px 0 4px 14px;font-size:.93rem;color:var(--muted)}
+.takeaways li{background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:.93rem;color:var(--muted)}
 .takeaways strong{color:var(--fg);display:block;margin-bottom:2px}
 .two-col{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:start}
 .two-col>*,.cards>*,.use-grid>*,.fixes>*,.acc-layout>*{min-width:0}
 .panel{border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;background:#fff;box-shadow:var(--shadow)}
-.panel-good{border-top:3px solid #16a34a}.panel-warn{border-top:3px solid #f59e0b}.panel-human{border-top:3px solid var(--human)}
+
 .panel h3 .count,h4 .count{display:inline-block;min-width:1.8em;text-align:center;font-size:.8rem;background:var(--soft);
 border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:2px;color:var(--muted)}
 .panel h4:first-child{margin-top:0}
@@ -2151,14 +1986,14 @@ tr.detail>td{background:var(--soft);padding:0;border-bottom:1px solid var(--line
 .detail-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:24px;font-size:.86rem}
 .detail-grid p{margin-bottom:8px}
 .d-one{font-size:.95rem;color:var(--fg)}
-.d-human{border-left:3px solid var(--human);padding-left:10px}
+.d-human{background:var(--human-soft);border:1px solid #f5d0fe;border-radius:8px;padding:10px 12px}
 .d-human ul{margin:4px 0 0;padding-left:16px}
 .evidence{display:grid;gap:10px}
 .ev-claim ul{list-style:none;margin:0;padding:0}
 .ev-claim li{margin-bottom:6px}
 .ev-url{overflow-wrap:anywhere;font-size:.82rem}
 .ev-note{display:block;color:var(--muted)}
-blockquote{margin:4px 0 6px;padding:4px 10px;border-left:3px solid var(--line2);color:var(--fg);background:#fff;border-radius:0 6px 6px 0;
+blockquote{margin:4px 0 6px;padding:8px 12px;border:1px solid var(--line);color:var(--fg);background:#fff;border-radius:8px;
 font-size:.84rem}
 blockquote cite{display:block;font-style:normal;font-size:.76rem;color:var(--subtle);overflow-wrap:anywhere}
 .empty{padding:24px;text-align:center;color:var(--muted)}
@@ -2204,7 +2039,7 @@ details.v>summary{font-size:1.02rem;padding:14px 18px}
 .fix .changes code{font-size:.8em}
 .fix .changes span{overflow-wrap:anywhere}
 .pages li{overflow-wrap:anywhere;font-size:.84rem}
-.scope-note{background:var(--human-soft);border-left:3px solid var(--human);padding:8px 12px;border-radius:0 6px 6px 0}
+.scope-note{background:var(--human-soft);border:1px solid #f5d0fe;padding:10px 14px;border-radius:8px}
 .spot{list-style:none;padding:0;margin:8px 0 0;display:grid;grid-template-columns:repeat(2,1fr);gap:6px 20px}
 .spot li{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;padding:6px 0;border-bottom:1px solid var(--line)}
 .spot .chip{margin-left:auto}
@@ -2266,7 +2101,7 @@ padding:18px 22px;margin:4px 0 28px}
 .nx-head .count,.og-title .count{display:inline-block;min-width:1.8em;text-align:center;font-size:.8rem;background:var(--soft);
 border:1px solid var(--line);border-radius:999px;padding:1px 8px;color:var(--muted);font-weight:650}
 .bcards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:40px}
-.bcard{border:1px solid var(--line);border-top:3px solid #16a34a;border-radius:12px;background:#fff;box-shadow:var(--shadow);
+.bcard{border:1px solid var(--line);border-radius:12px;background:#fff;box-shadow:var(--shadow);
 padding:14px 16px;display:flex;flex-direction:column;gap:10px;min-width:0}
 .bc-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
 .bc-name{font-size:1.02rem;margin:0}
@@ -2285,7 +2120,7 @@ padding:6px 9px;background:var(--good-soft);border-radius:7px}
 .og-title{display:flex;align-items:center;gap:8px;margin:0 0 4px;font-size:1.02rem}
 .og-blurb{font-size:.86rem;color:var(--muted);margin-bottom:10px}
 .ocards{display:grid;gap:8px}
-.ocard{border:1px solid var(--line);border-left:3px solid #f59e0b;border-radius:10px;background:#fff;padding:10px 14px;
+.ocard{border:1px solid var(--line);border-radius:10px;background:#fff;padding:10px 14px;
 display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center}
 .oc-name{font-size:.95rem;text-transform:none;letter-spacing:0;color:var(--fg);margin:0}
 .oc-cat{margin:0;font-size:.76rem;color:var(--subtle)}
@@ -2401,7 +2236,7 @@ border-radius:12px 12px 0 0;padding:6px 10px 10px;background:#fff}
 .sw-human{background:var(--human-soft);border:1.5px solid var(--human)}
 .stage-panels{margin-top:22px;scroll-margin-top:80px}
 .js .sp:not(.open){display:none}
-.sp{border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:14px;background:#fff;box-shadow:var(--shadow);
+.sp{border:1px solid var(--line);border-radius:14px;background:#fff;box-shadow:var(--shadow);
 padding:18px 22px 20px;margin-bottom:12px;scroll-margin-top:80px}
 .sp-human{border-top-color:var(--human)}
 .sp-head{display:flex;gap:14px;align-items:flex-start;margin-bottom:14px}
@@ -2615,6 +2450,105 @@ transition:border-color .15s,box-shadow .15s}
  .btn-big{min-width:0;width:100%}
  .cu-stats dd{font-size:1.1rem}
 }
+.hero-btns{display:flex;gap:10px;flex:none;flex-wrap:wrap;margin-top:2px}
+.hero-btns .btn{padding:6px 11px;font-size:.82rem;gap:6px;border-radius:8px}
+.hero-btns svg{width:15px;height:15px}
+@media (max-width:640px){.hero-btns{margin-bottom:8px}.hero-btns .btn{margin:0}}
+/* ---- v3: in-page filter dropdowns ---- */
+.filters{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px 14px;padding:14px 16px}
+@media (max-width:1000px){.filters{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:640px){.filters{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.dd{position:relative;display:flex;flex-direction:column;gap:6px;min-width:0}
+.dd-btn{all:unset;box-sizing:border-box;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:8px;
+height:38px;padding:0 10px 0 12px;border:1px solid var(--line2);border-radius:9px;background:#fff;font-size:.9rem;color:var(--fg);
+box-shadow:var(--shadow);transition:border-color .12s,box-shadow .12s}
+.dd-btn:hover{border-color:#a5b4fc}
+.dd-btn:focus-visible,.dd-btn[aria-expanded="true"]{border-color:var(--accent);box-shadow:0 0 0 3px rgba(79,70,229,.15)}
+.dd.is-set .dd-btn{border-color:var(--accent);background:var(--accent-soft);color:var(--accent-d);font-weight:600}
+.dd-val{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dd-chev{width:16px;height:16px;flex:none;color:var(--subtle);transition:transform .15s}
+.dd-btn[aria-expanded="true"] .dd-chev{transform:rotate(180deg)}
+.dd-menu{position:absolute;top:calc(100% + 6px);left:0;min-width:100%;width:max-content;max-width:min(320px,90vw);max-height:300px;overflow:auto;
+margin:0;padding:6px;list-style:none;background:#fff;border:1px solid var(--line);border-radius:11px;z-index:30;
+box-shadow:0 10px 30px rgba(15,23,42,.12),0 2px 6px rgba(15,23,42,.06)}
+.dd-opt{display:grid;grid-template-columns:16px minmax(0,1fr) auto;align-items:center;gap:8px;padding:8px 10px;border-radius:7px;
+font-size:.9rem;cursor:pointer;color:var(--fg);outline:none}
+.dd-opt:hover,.dd-opt:focus{background:var(--soft)}
+.dd-opt[aria-selected="true"]{background:var(--accent-soft);color:var(--accent-d);font-weight:600}
+.dd-tick{width:15px;height:15px;visibility:hidden}
+.dd-opt[aria-selected="true"] .dd-tick{visibility:visible}
+.dd:last-child .dd-menu{left:auto;right:0}
+.dd-opt .fc-n{justify-self:end}
+.dd-opt:not(:has(.fc-n)) .dd-text{grid-column:2/4}
+/* ---- v3: pager ---- */
+.pager{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:14px}
+.pager[hidden]{display:none}
+.pg-info{font-size:.9rem;color:var(--muted)}
+.pg-info strong{color:var(--fg)}
+.pg-btns{display:flex;gap:6px;flex-wrap:wrap}
+.pg-btn{all:unset;box-sizing:border-box;cursor:pointer;min-width:36px;height:36px;padding:0 12px;display:inline-flex;align-items:center;
+justify-content:center;border:1px solid var(--line2);border-radius:9px;background:#fff;font-size:.88rem;font-weight:600;color:var(--fg)}
+.pg-btn:hover:not([disabled]){border-color:var(--accent);color:var(--accent-d)}
+.pg-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.pg-btn[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.pg-btn[disabled]{opacity:.4;cursor:default}
+/* ---- v3: where a human was needed ---- */
+.h-summary{display:flex;align-items:center;gap:20px 28px;flex-wrap:wrap;padding:22px 26px;border:1px solid #f5d0fe;
+background:var(--human-soft);border-radius:14px;margin-bottom:36px}
+.h-big{margin:0;font-size:3rem;font-weight:750;line-height:1;letter-spacing:-.03em;color:var(--human);font-variant-numeric:tabular-nums}
+.h-big .of{font-size:.45em;color:var(--subtle);font-weight:600;letter-spacing:0}
+.h-big-text{margin:0;max-width:56ch;color:var(--muted);font-size:1rem;line-height:1.6}
+.h-big-text strong{display:block;color:var(--fg);font-size:1.1rem;margin-bottom:2px}
+.h-sub{font-size:1.15rem;margin:0 0 14px}
+.h-sub-note{font-weight:400;font-size:.9rem;color:var(--subtle);margin-left:6px}
+.h-reasons{list-style:none;margin:0 0 40px;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.hr-card{display:flex;gap:16px;align-items:flex-start;padding:18px 20px;border:1px solid var(--line);border-radius:12px;background:#fff;box-shadow:var(--shadow)}
+.hr-num{flex:none;min-width:52px;height:52px;padding:0 8px;border-radius:12px;display:grid;place-items:center;background:var(--human-soft);
+color:var(--human);font-size:1.4rem;font-weight:750;font-variant-numeric:tabular-nums}
+.hr-card h4,.h-steps h4{margin:2px 0 4px;font-size:1rem}
+.hr-card p,.h-steps p{margin:0;font-size:.92rem;color:var(--muted);line-height:1.6}
+.h-steps{list-style:none;margin:0 0 40px;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.h-steps li{padding:18px 20px;border:1px solid var(--line);border-radius:12px;background:var(--soft)}
+.h-steps{counter-reset:hs}.h-steps li{counter-increment:hs}.hs-n::before{content:counter(hs)}
+.hs-n{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--fg);color:#fff;font-size:.82rem;font-weight:700;margin-bottom:10px}
+.h-cats{list-style:none;margin:0;padding:20px 24px;border:1px solid var(--line);border-radius:12px;display:grid;
+grid-template-columns:repeat(2,minmax(0,1fr));column-gap:48px;row-gap:12px}
+.h-cats li{display:grid;grid-template-columns:minmax(0,1fr) 140px 1.6em;gap:12px;align-items:center;font-size:.92rem}
+.hc-bar{height:8px;background:var(--soft);border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.hc-bar span{display:block;height:100%;background:var(--human);border-radius:999px}
+.hc-num{text-align:right;font-weight:650;font-variant-numeric:tabular-nums}
+@media (max-width:900px){.h-reasons{grid-template-columns:minmax(0,1fr)}.h-steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+.h-cats{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){.h-steps{grid-template-columns:minmax(0,1fr)}.h-cats li{grid-template-columns:minmax(0,1fr) 80px 1.6em}
+.h-cats{padding:16px}.h-summary{padding:18px}.filters{grid-template-columns:repeat(2,minmax(0,1fr))}
+.pager{justify-content:center}.pg-info{width:100%;text-align:center}}
+/* ---- v3: typography, easier reading ---- */
+body{font-size:16.5px;line-height:1.65;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+p,li{text-wrap:pretty}
+h1,h2,h3{text-wrap:balance}
+h2{font-size:1.75rem;letter-spacing:-.02em;margin-bottom:12px}
+h3{line-height:1.35}
+section{padding:72px 0 16px}
+.section-lead{font-size:1.05rem;line-height:1.7;max-width:68ch;margin-bottom:32px}
+.lead{line-height:1.7;max-width:68ch}
+.subtitle{line-height:1.5}
+.facts,.steps li,.takeaways li,.item-meta,.group-note,.eg,.og-blurb,.ho-note,.nx-head p{line-height:1.65}
+.takeaways li{font-size:.95rem}
+.facts{font-size:.95rem}
+.facts li{margin-bottom:6px}
+.item-meta,.group-note{font-size:.9rem}
+.og-blurb{font-size:.92rem}
+.ho-lead{line-height:1.6}
+.ck{font-size:.88rem;padding:7px 10px}
+.bc-cat,.oc-cat{font-size:.82rem}
+.warn-note{font-size:.84rem;line-height:1.5;padding:6px 10px}
+.findings{font-size:.88rem;line-height:1.5}
+.findings td,.findings tbody th{padding:12px 10px}
+.findings thead th{font-size:.72rem;padding:12px 10px}
+.detail-grid{font-size:.9rem;line-height:1.6}
+blockquote{font-size:.88rem;line-height:1.55}
+details>div{line-height:1.65}
+.panel p{line-height:1.65}
 @media print{
  .top,.toolbar,.skip{display:none}
  .js tr.detail{display:none}
@@ -2637,29 +2571,58 @@ JS = r"""
     verdict:r.verdict,access:r.access,mcp_status:r.mcp_status,category:r.category,
     composio:(r.composio_toolkit||{}).status,needs_human:String(!!flagged[r.slug])}});
 
-  /* ---- findings filters ---- */
-  var q=$('#q'),shown=$('#shown'),empty=$('#empty'),clear=$('#clear');
-  var trs=$$('tr.row'),chips=$$('.fchip'),state={};
+  /* ---- findings filters (in-page dropdowns) + pagination ---- */
+  var q=$('#q'),shown=$('#shown'),empty=$('#empty'),clear=$('#clear'),pager=$('#pager');
+  var trs=$$('tr.row'),dds=$$('.dd'),state={},PER=20,page=1,matched=[];
   function match(r){var t=(q&&q.value||'').trim().toLowerCase();
     if(t&&(r.name+' '+r.one_liner+' '+r.slug).toLowerCase().indexOf(t)<0)return false;
     for(var k in state){if(state[k]&&String(r[k])!==state[k])return false}return true}
-  function apply(){var n=0;trs.forEach(function(tr){var slug=tr.getAttribute('data-slug'),r=bySlug[slug];
-      var ok=!r||match(r);tr.hidden=!ok;var d=document.getElementById('d-'+slug);if(d)d.hidden=!ok;if(ok)n++});
-    if(shown)shown.textContent=n;if(empty)empty.hidden=n>0;
+  function render(){var pages=Math.max(1,Math.ceil(matched.length/PER));if(page>pages)page=pages;
+    var lo=(page-1)*PER,hi=lo+PER,on={};matched.slice(lo,hi).forEach(function(tr){on[tr.getAttribute('data-slug')]=1});
+    trs.forEach(function(tr){var slug=tr.getAttribute('data-slug'),v=!!on[slug];tr.hidden=!v;
+      var d=document.getElementById('d-'+slug);if(d)d.hidden=!v});
+    if(!pager)return;pager.hidden=!matched.length;if(!matched.length){pager.innerHTML='';return}
+    var h='<p class="pg-info">Showing <strong>'+(lo+1)+'–'+Math.min(hi,matched.length)+'</strong> of <strong>'+matched.length+'</strong></p>';
+    if(pages>1){h+='<div class="pg-btns"><button type="button" class="pg-btn" data-pg="'+(page-1)+'"'+(page<2?' disabled':'')+'>← Prev</button>';
+      for(var i=1;i<=pages;i++)h+='<button type="button" class="pg-btn" data-pg="'+i+'"'+(i===page?' aria-current="page"':'')+
+        ' aria-label="Page '+i+'">'+i+'</button>';
+      h+='<button type="button" class="pg-btn" data-pg="'+(page+1)+'"'+(page>=pages?' disabled':'')+'>Next →</button></div>'}
+    pager.innerHTML=h}
+  if(pager)pager.addEventListener('click',function(e){var b=e.target.closest('[data-pg]');if(!b||b.disabled)return;
+    page=+b.getAttribute('data-pg');render();var f=$('#findings .findings-wrap');
+    if(f&&f.getBoundingClientRect().top<0)f.scrollIntoView({block:'start'})});
+  function apply(keepPage){matched=trs.filter(function(tr){var r=bySlug[tr.getAttribute('data-slug')];return !r||match(r)});
+    if(!keepPage)page=1;render();
+    if(shown)shown.textContent=matched.length;if(empty)empty.hidden=matched.length>0;
     var active=(q&&q.value.trim())||Object.keys(state).some(function(k){return state[k]});
     if(clear)clear.disabled=!active}
-  chips.forEach(function(b){b.addEventListener('click',function(){var k=b.getAttribute('data-filter'),
-      v=b.getAttribute('data-value');if(v&&state[k]===v)v='';state[k]=v;
-      chips.forEach(function(c){if(c.getAttribute('data-filter')===k)
-        c.setAttribute('aria-pressed',String(c.getAttribute('data-value')===v))});apply()});
-    b.addEventListener('keydown',function(e){if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;
-      var sib=$$('.fchip',b.parentNode),i=sib.indexOf(b)+(e.key==='ArrowRight'?1:-1);
-      if(sib[i]){e.preventDefault();sib[i].focus()}})});
-  function clearAll(){state={};if(q)q.value='';chips.forEach(function(c){
-      c.setAttribute('aria-pressed',String(c.getAttribute('data-value')===''))});apply()}
-  if(q){q.addEventListener('input',apply);q.addEventListener('keydown',function(e){if(e.key==='Escape'){q.value='';apply()}})}
+  function showPageOf(slug){var i=matched.findIndex(function(tr){return tr.getAttribute('data-slug')===slug});
+    if(i<0){clearAll();i=matched.findIndex(function(tr){return tr.getAttribute('data-slug')===slug})}
+    if(i>=0){page=Math.floor(i/PER)+1;render()}}
+  function closeAll(except){dds.forEach(function(d){if(d===except)return;var m=$('.dd-menu',d);if(m)m.hidden=true;
+    $('.dd-btn',d).setAttribute('aria-expanded','false')})}
+  function setDD(d,v){var k=d.getAttribute('data-filter');state[k]=v;var label='All';
+    $$('.dd-opt',d).forEach(function(o){var on=o.getAttribute('data-value')===v;o.setAttribute('aria-selected',String(on));
+      if(on)label=$('.dd-text',o).textContent});
+    $('.dd-val',d).textContent=label;d.classList.toggle('is-set',!!v)}
+  dds.forEach(function(d){var btn=$('.dd-btn',d),menu=$('.dd-menu',d),opts=$$('.dd-opt',d);
+    function open(){closeAll(d);menu.hidden=false;btn.setAttribute('aria-expanded','true');
+      var cur=opts.filter(function(o){return o.getAttribute('aria-selected')==='true'})[0]||opts[0];cur.focus()}
+    function close(f){menu.hidden=true;btn.setAttribute('aria-expanded','false');if(f)btn.focus()}
+    btn.addEventListener('click',function(e){e.stopPropagation();menu.hidden?open():close()});
+    btn.addEventListener('keydown',function(e){if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();open()}});
+    opts.forEach(function(o,i){o.addEventListener('click',function(e){e.stopPropagation();setDD(d,o.getAttribute('data-value'));close(true);apply()});
+      o.addEventListener('keydown',function(e){var j=e.key==='ArrowDown'?i+1:e.key==='ArrowUp'?i-1:e.key==='Home'?0:e.key==='End'?opts.length-1:-9;
+        if(opts[j]){e.preventDefault();opts[j].focus();return}
+        if(e.key==='Enter'||e.key===' '){e.preventDefault();o.click()}
+        else if(e.key==='Escape'){e.preventDefault();close(true)}
+        else if(e.key==='Tab'){close(false)}})})});
+  document.addEventListener('click',function(e){if(!e.target.closest('.dd'))closeAll()});
+  function clearAll(){state={};if(q)q.value='';dds.forEach(function(d){setDD(d,'')});apply()}
+  if(q){q.addEventListener('input',function(){apply()});q.addEventListener('keydown',function(e){if(e.key==='Escape'){q.value='';apply()}})}
   if(clear)clear.addEventListener('click',clearAll);
   $$('[data-clear]').forEach(function(b){b.addEventListener('click',clearAll)});
+  apply();
 
   /* ---- row details ---- */
   function toggle(slug,open){var d=document.getElementById('d-'+slug);if(!d)return;
@@ -2671,7 +2634,7 @@ JS = r"""
     tr.addEventListener('click',function(e){if(e.target.closest('a,button'))return;
       if(window.getSelection&&String(window.getSelection()).length)return;toggle(slug)})});
   function fromUrl(){var m=(location.hash.match(/expand=([a-z0-9-]+)/)||location.search.match(/expand=([a-z0-9-]+)/));
-    if(!m)return;toggle(m[1],true);var tr=document.getElementById('app-'+m[1]);
+    if(!m)return;showPageOf(m[1]);toggle(m[1],true);var tr=document.getElementById('app-'+m[1]);
     if(tr)setTimeout(function(){tr.scrollIntoView({block:'start'})},0)}
   window.addEventListener('hashchange',fromUrl);fromUrl();
 
