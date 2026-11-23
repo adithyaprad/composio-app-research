@@ -1,8 +1,12 @@
 """Pluggable search/fetch providers.
 
-SEARCH_PROVIDER = ddgs (default) | hybrid | auto | composio_exa | composio_tavily
-FETCH_PROVIDER  = hybrid (default) | auto | composio_firecrawl | http
+SEARCH_PROVIDER = exa (default with EXA_API_KEY) | ddgs (default without) | hybrid | auto
+                  | composio_exa | composio_tavily
+FETCH_PROVIDER  = exa (default with EXA_API_KEY) | hybrid (default without) | auto | composio_firecrawl | http
 
+- exa: the Exa API directly (agent/tools/exa.py), ddgs / http fallback. Without a key, free only.
+  Search and fetch share one ExaClient, so fetching a searched URL reuses its text.
+  Every Exa call is gated by the per-run ExaBudget (EXA_BUDGET_USD).
 - ddgs / http: free only.
 - hybrid: free first. Search escalates to Composio Exa only when ddgs returns
   nothing. Fetch escalates a URL to Composio Firecrawl only when the http page is
@@ -22,9 +26,11 @@ import threading
 from typing import Any
 
 from agent.config import ConfigError, Settings
-from agent.tools.base import FetchProvider, Page, ProviderUnavailable, SearchProvider, SearchResult
-from agent.tools.budget import BudgetExceeded, InstantBudget
+from agent.tools.base import FetchProvider, Page, ProviderUnavailable, SearchProvider, SearchResult, UseFallback
+from agent.tools.budget import BudgetExceeded, ExaBudget, InstantBudget
 from agent.tools.composio_tools import ComposioFetch, ComposioSearch
+from agent.tools.exa import ExaClient, ExaFetch, ExaSearch
+from agent.tools.exa import make_exa as _make_exa_client
 from agent.tools.keyless import THIN_CHARS, DDGSSearch, HttpFetch
 
 log = logging.getLogger(__name__)
@@ -51,7 +57,7 @@ class _Switch:
 class Fallback:
     """Use `primary` until it raises ProviderUnavailable once, then `fallback` for good.
 
-    BudgetExceeded uses the fallback for that call only (the budget logs once itself).
+    BudgetExceeded (the budget logs once itself) and UseFallback use the fallback for that call only.
     """
 
     def __init__(self, primary: Any, fallback: Any, kind: str):
@@ -72,6 +78,8 @@ class Fallback:
                 self._switch.disable(str(e)[:200], getattr(self.fallback, "name", "fallback"))
             except BudgetExceeded:
                 pass
+            except UseFallback as e:
+                log.debug("%s: %s", self.kind, e)
         return getattr(self.fallback, method)(*args, **kwargs)
 
     def search(self, query: str, max_results: int = 5) -> tuple[str, list[SearchResult]]:
@@ -157,12 +165,33 @@ def make_budget(settings: Settings) -> InstantBudget:
     return InstantBudget(settings.instant_budget_usd, dict(settings.instant_prices))
 
 
-def get_search(settings: Settings, composio_client: Any = None, budget: InstantBudget | None = None) -> SearchProvider:
+def make_exa_budget(settings: Settings) -> ExaBudget:
+    return ExaBudget(settings.exa_budget_usd)
+
+
+def make_exa(settings: Settings, budget: ExaBudget | None = None, transport: Any = None) -> ExaClient | None:
+    """One ExaClient per run (shared by search and fetch), or None when EXA_API_KEY is unset."""
+    return _make_exa_client(None, budget or make_exa_budget(settings), max(settings.http_timeout, 30.0),
+                            settings.max_page_chars, transport)
+
+
+def _exa_or_none(settings: Settings, exa: ExaClient | None, kind: str, free: str) -> ExaClient | None:
+    exa = exa or make_exa(settings)
+    if exa is None:
+        log.warning("%s: %s_PROVIDER=exa but EXA_API_KEY is not set, using %s", kind, kind.upper(), free)
+    return exa
+
+
+def get_search(settings: Settings, composio_client: Any = None, budget: InstantBudget | None = None,
+               exa: ExaClient | None = None) -> SearchProvider:
     budget = budget or make_budget(settings)
     ddgs = DDGSSearch(settings.ddgs_backends)
     choice = settings.search_provider
     if choice == "ddgs":
         return ddgs
+    if choice == "exa":
+        exa = _exa_or_none(settings, exa, "search", "ddgs")
+        return Fallback(ExaSearch(exa), ddgs, "search") if exa else ddgs
     user = settings.composio_user_id
     if choice == "hybrid":
         ready = _composio_ready(choice, composio_client, explicit=False)
@@ -174,12 +203,16 @@ def get_search(settings: Settings, composio_client: Any = None, budget: InstantB
     return Fallback(ComposioSearch(slug, user, composio_client, budget), ddgs, "search")
 
 
-def get_fetch(settings: Settings, composio_client: Any = None, budget: InstantBudget | None = None) -> FetchProvider:
+def get_fetch(settings: Settings, composio_client: Any = None, budget: InstantBudget | None = None,
+              exa: ExaClient | None = None) -> FetchProvider:
     budget = budget or make_budget(settings)
     http = HttpFetch(settings.http_timeout, settings.max_page_chars)
     choice = settings.fetch_provider
     if choice == "http":
         return http
+    if choice == "exa":
+        exa = _exa_or_none(settings, exa, "fetch", "http")
+        return Fallback(ExaFetch(exa), http, "fetch") if exa else http
     if choice == "hybrid":
         ready = _composio_ready(choice, composio_client, explicit=False)
         firecrawl = ComposioFetch(settings.composio_user_id, settings.max_page_chars, composio_client, budget)
@@ -193,6 +226,8 @@ def get_fetch(settings: Settings, composio_client: Any = None, budget: InstantBu
 
 __all__ = [
     "BudgetExceeded",
+    "ExaBudget",
+    "ExaClient",
     "Fallback",
     "HybridFetch",
     "HybridSearch",
@@ -200,7 +235,10 @@ __all__ = [
     "Page",
     "ProviderUnavailable",
     "SearchResult",
+    "UseFallback",
     "get_fetch",
     "get_search",
     "make_budget",
+    "make_exa",
+    "make_exa_budget",
 ]

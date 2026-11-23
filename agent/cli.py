@@ -48,25 +48,30 @@ def cmd_run(args: argparse.Namespace) -> int:
     run_id = args.run_id or ("dry-run-" if args.dry_run else "") + datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
     run_dir = args.out_dir / run_id
 
-    from agent.tools import make_budget
+    from agent.tools import make_budget, make_exa_budget
 
-    budget = make_budget(settings)  # one Instant spend cap shared by search and fetch for the whole run
+    # One spend cap each for Instant and Exa, shared by search and fetch for the whole run.
+    budget, exa_budget = make_budget(settings), make_exa_budget(settings)
     if args.dry_run:
         from agent.fakes import FakeFetch, FakeLLM, FakeSearch
 
         llm, search, fetch = FakeLLM(), FakeSearch(), FakeFetch()
     else:
         from agent.llm import get_llm
-        from agent.tools import get_fetch, get_search
+        from agent.tools import get_fetch, get_search, make_exa
 
         llm = get_llm(settings)
-        search, fetch = get_search(settings, budget=budget), get_fetch(settings, budget=budget)
+        exa = make_exa(settings, exa_budget)  # None without EXA_API_KEY; one URL text cache for the run
+        search = get_search(settings, budget=budget, exa=exa)
+        fetch = get_fetch(settings, budget=budget, exa=exa)
 
     researcher = Researcher(settings, llm, search, fetch, run_dir, max_pages=args.max_pages,
-                            follow_up=not args.no_follow_up, coverage=load_coverage(COVERAGE_CSV), budget=budget)
+                            follow_up=not args.no_follow_up, coverage=load_coverage(COVERAGE_CSV), budget=budget,
+                            exa_budget=exa_budget)
     print(f"run {run_id}: {len(apps)} app(s), llm={llm.provider}:{llm.model}, "
           f"search={settings.search_provider if not args.dry_run else 'fake'}, "
           f"fetch={settings.fetch_provider if not args.dry_run else 'fake'}, "
+          f"exa_budget=${settings.exa_budget_usd:.2f}, "
           f"instant_budget=${settings.instant_budget_usd:.2f}", file=sys.stderr)
     summary = run(apps, researcher, run_dir, concurrency=args.concurrency)
     print(json.dumps(summary, indent=2))

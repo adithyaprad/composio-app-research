@@ -80,8 +80,10 @@ class Settings:
     llm_max_tokens: int = 8000
     price_in_per_mtok: float | None = None
     price_out_per_mtok: float | None = None
+    # Free defaults; from_env switches both to exa when EXA_API_KEY is set.
     search_provider: str = "ddgs"
     fetch_provider: str = "hybrid"
+    exa_budget_usd: float = 5.0
     instant_budget_usd: float = 0.30
     instant_prices: tuple[tuple[str, float], ...] = ()
     ddgs_backends: tuple[str, ...] = ("yahoo", "duckduckgo", "bing", "brave", "google")
@@ -92,10 +94,15 @@ class Settings:
     @classmethod
     def from_env(cls) -> Settings:
         backends = os.environ.get("DDGS_BACKENDS", "")
-        search = _choice("SEARCH_PROVIDER", "ddgs", ("ddgs", "hybrid", "auto", "composio_exa", "composio_tavily"))
-        if search == "ddgs" and os.environ.get("USE_COMPOSIO_EXA", "").strip().lower() in ("1", "true", "yes"):
+        has_exa = bool(os.environ.get("EXA_API_KEY", "").strip())
+        search = _choice("SEARCH_PROVIDER", "exa" if has_exa else "ddgs",
+                         ("exa", "ddgs", "hybrid", "auto", "composio_exa", "composio_tavily"))
+        explicit = bool(os.environ.get("SEARCH_PROVIDER", "").strip())
+        if (search == "ddgs" or not explicit) and os.environ.get(
+                "USE_COMPOSIO_EXA", "").strip().lower() in ("1", "true", "yes"):
             search = "auto"
         budget = _float_or_none("INSTANT_BUDGET_USD")
+        exa_budget = _float_or_none("EXA_BUDGET_USD")
         return cls(
             llm_provider=_choice("LLM_PROVIDER", "bedrock", ("bedrock", "anthropic", "openai", "gemini")),
             llm_model=os.environ.get("LLM_MODEL", "").strip() or None,
@@ -103,7 +110,9 @@ class Settings:
             price_in_per_mtok=_float_or_none("LLM_PRICE_IN_PER_MTOK"),
             price_out_per_mtok=_float_or_none("LLM_PRICE_OUT_PER_MTOK"),
             search_provider=search,
-            fetch_provider=_choice("FETCH_PROVIDER", "hybrid", ("hybrid", "auto", "composio_firecrawl", "http")),
+            fetch_provider=_choice("FETCH_PROVIDER", "exa" if has_exa else "hybrid",
+                                   ("exa", "hybrid", "auto", "composio_firecrawl", "http")),
+            exa_budget_usd=cls.exa_budget_usd if exa_budget is None else exa_budget,
             instant_budget_usd=cls.instant_budget_usd if budget is None else budget,
             instant_prices=_prices(os.environ.get("INSTANT_PRICES", "")),
             ddgs_backends=tuple(b.strip() for b in backends.split(",") if b.strip()) or cls.ddgs_backends,

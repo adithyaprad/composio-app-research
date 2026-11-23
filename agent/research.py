@@ -25,7 +25,7 @@ from agent import prompts
 from agent.config import Settings
 from agent.llm import LLM, LLMResult, extract_json
 from agent.tools.base import Page, now_iso
-from agent.tools.budget import InstantBudget, current_app
+from agent.tools.budget import ExaBudget, InstantBudget, current_app
 from agent.tools.keyless import THIN_CHARS, is_docs_url
 from agent.validate import check_evidence, normalize_url, validate_row
 
@@ -330,9 +330,11 @@ class Outcome:
 class Researcher:
     def __init__(self, settings: Settings, llm: LLM, search, fetch, run_dir: Path,
                  max_pages: int = 8, follow_up: bool = True, per_page_chars: int = 6000,
-                 coverage: dict[str, dict] | None = None, budget: InstantBudget | None = None):
+                 coverage: dict[str, dict] | None = None, budget: InstantBudget | None = None,
+                 exa_budget: ExaBudget | None = None):
         self.settings = settings
         self.budget = budget
+        self.exa_budget = exa_budget
         self.llm = llm
         self.search = search
         self.fetch = fetch
@@ -475,7 +477,7 @@ class Researcher:
         t0 = time.monotonic()
         slug = app["slug"]
         stats = Stats()
-        token = current_app.set(slug)  # attributes Instant spend to this app
+        token = current_app.set(slug)  # attributes Instant and Exa spend to this app
         attempts: list[dict] = []
         seen: set[str] = set()
         try:
@@ -567,9 +569,10 @@ def run(apps: list[dict], researcher: Researcher, run_dir: Path, concurrency: in
     totals = Counter()
     settings = researcher.settings
     budget = researcher.budget or InstantBudget(0)
+    exa_budget = researcher.exa_budget or ExaBudget(0)
 
-    def instant_for(slug: str) -> dict:
-        return budget.app_stats(slug)
+    def spend_for(slug: str) -> dict:
+        return {**budget.app_stats(slug), **exa_budget.app_stats(slug)}
 
     def append(path: Path, obj: dict) -> None:
         with path.open("a") as f:
@@ -598,7 +601,7 @@ def run(apps: list[dict], researcher: Researcher, run_dir: Path, concurrency: in
             "llm_provider": researcher.llm.provider, "llm_model": researcher.llm.model,
             "providers": dict(s.providers),
             "dropped_evidence": len(out.evidence["checks"].get("dropped_evidence", [])),
-            **instant_for(out.slug),
+            **spend_for(out.slug),
             "at": now_iso(),
         }
         (run_dir / "evidence" / f"{out.slug}.json").write_text(json.dumps(out.evidence, indent=2, ensure_ascii=False))
@@ -627,4 +630,5 @@ def run(apps: list[dict], researcher: Researcher, run_dir: Path, concurrency: in
         "output_tokens": totals["output_tokens"],
         "est_cost_usd": settings.est_cost(totals["input_tokens"], totals["output_tokens"]),
         **budget.snapshot(),
+        **exa_budget.snapshot(),
     }

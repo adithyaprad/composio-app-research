@@ -48,5 +48,6 @@ def clean_env(monkeypatch):
     """Tests never see the developer's real keys or .env."""
     for k in ("LLM_PROVIDER", "LLM_MODEL", "ANTHROPIC_API_KEY", "OPENAI_API_KEY", "GEMINI_API_KEY",
               "AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY", "AWS_PROFILE", "COMPOSIO_API_KEY",
-              "SEARCH_PROVIDER", "FETCH_PROVIDER", "ENV_FILE"):
+              "SEARCH_PROVIDER", "FETCH_PROVIDER", "ENV_FILE", "EXA_API_KEY", "EXA_BUDGET_USD",
+              "USE_COMPOSIO_EXA"):
         monkeypatch.delenv(k, raising=False)
