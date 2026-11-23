@@ -39,6 +39,8 @@ To find general failure modes first, we ran a 10-app pilot: one app per category
 
 We then added general validators and prompt/rubric rules for those patterns (see `agent/validate.py`, `agent/prompts.py`, and `schema/RUBRIC.md`) and reran the **same** 10 apps as a regression check (`data/runs/pilot-10b/`). Row-correct accuracy on that holdout went from 3/10 to 8/10. The gold 20 were not used in that loop.
 
+The same 10 were rerun once more after switching search and fetch to the direct Exa API (`data/runs/pilot-10c/`). Row-correct accuracy stayed 8/10: the blank-URL product-identity miss was fixed, a notes-vs-auth-methods contradiction reappeared on one row, and an MCP server whose official pages appeared in search results was still not fetched. The gold 20 were not used in that loop either.
+
 ## Refresh Composio coverage
 
 Needs a `COMPOSIO_API_KEY` (already in `.env.example`). From the repo root:
