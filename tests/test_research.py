@@ -3,7 +3,7 @@ import json
 from agent.config import APPS_CSV, COVERAGE_CSV, Settings
 from agent.fakes import FakeFetch, FakeLLM, FakeSearch
 from agent.llm.base import LLMResult
-from agent.research import Researcher, load_apps, load_coverage, pick_urls, run
+from agent.research import Researcher, classify_result, load_apps, load_coverage, pick_urls, run
 from agent.validate import validate_row
 
 APPS = load_apps(APPS_CSV)
@@ -114,6 +114,79 @@ def test_follow_up_round_fetches_more(tmp_path):
     urls = [p["requested_url"] for p in out.evidence["pages"]]
     assert "https://stripe.com/docs/connect" in urls and len(urls) <= 2 + 3
     assert out.stats.llm_calls == 2 and not out.errors
+
+
+FANBASIS = {"slug": "fanbasis", "name": "fanbasis", "source_hint": "fanbasis.com", "start_url": "https://fanbasis.com"}
+# Real ddgs results from smoke-1 (shortened).
+FANBASIS_SEARCHES = [
+    {"query": "fanbasis API authentication", "results": [
+        {"url": "https://www.bing.com/aclick?ld=abc", "title": "Spot Unauthorized API Access"},
+        {"url": "https://dev-docs.fanbasis.com/", "title": "Login - FanBasis API Docsv3"},
+        {"url": "https://github.com/FanBasis/fbnewapi", "title": "GitHub - FanBasis/fbnewapi"},
+        {"url": "https://apidocs.fan/", "title": "Commas API Reference"}]},
+    {"query": "fanbasis developer API access pricing", "results": [
+        {"url": "https://legal.fanvue.com/api-policy", "title": "API Access & Usage Policy | Fanvue"},
+        {"url": "https://www.plan.fanbase.io/", "title": "Fanbase Plans — APIs and Widgets"},
+        {"url": "https://demo.embedded.fanbasis.io/docs/getting-started", "title": "Vite + React + TS"}]},
+    {"query": "fanbasis MCP server", "results": [
+        {"url": "https://mcpservers.org/", "title": "Awesome MCP Servers"},
+        {"url": "https://supabase.com/blog/mcp-server", "title": "Supabase MCP Server"},
+        {"url": "https://learn.microsoft.com/en-us/rest/api/fabric/articles/mcp-servers/fabric-mcp-servers-list",
+         "title": "Fabric MCP Servers overview"},
+        {"url": "https://glama.ai/mcp/servers/fanbasis-mcp", "title": "FanBasis MCP server", "snippet": ""},
+        {"url": "https://mcp.so/server/x", "title": "Payments MCP", "snippet": "Unofficial FanBasis server"},
+        {"url": "https://smithery.ai/server/y", "title": "fanbasis tools"}]},
+    {"query": "Commas MCP server beta documentation", "results": [
+        {"url": "https://commareports.com/docs/mcp", "title": "MCP server · Comma Docs"},
+        {"url": "https://trade.3commas.io/docs/mcp", "title": "MCP Server for Crypto Trading Automation - 3Commas"},
+        {"url": "https://developers.webflow.com/mcp/installing/beta", "title": "Beta server | Webflow"},
+        {"url": "https://github.com/supabase/mcp", "title": "Supabase MCP"}]},
+]
+
+
+def test_relevance_filter_drops_unrelated_vendors():
+    picked = pick_urls(FANBASIS, FANBASIS_SEARCHES, 20)
+    assert picked[0] == "https://fanbasis.com"
+    for bad in ("bing.com", "fanvue", "fanbase.io", "apidocs.fan", "supabase", "microsoft", "commareports",
+                "3commas", "webflow", "https://mcpservers.org/"):
+        assert not any(bad in u for u in picked), bad
+    assert "https://dev-docs.fanbasis.com/" in picked
+    assert "https://demo.embedded.fanbasis.io/docs/getting-started" in picked  # name token in host
+    assert "https://github.com/FanBasis/fbnewapi" in picked  # doc host + name in URL
+    third_party = [u for u in picked if any(d in u for d in ("glama.ai", "mcp.so", "smithery.ai"))]
+    assert len(third_party) == 2  # capped, and only those naming the app
+
+
+def test_relevance_ranks_official_first():
+    picked = pick_urls(FANBASIS, FANBASIS_SEARCHES, 20)
+    tiers = ["official" if "fanbasis.com" in u or "fanbasis.io" in u else "other" for u in picked]
+    # within each query the best pick is official when one exists; all officials come before the leftovers
+    assert tiers[:3] == ["official"] * 3
+    assert picked.index("https://github.com/FanBasis/fbnewapi") > picked.index("https://dev-docs.fanbasis.com/")
+
+
+def test_relevance_short_tld_not_matched():
+    assert classify_result(FANBASIS, {"url": "https://apidocs.fan/", "title": "Commas API Reference"}) is None
+
+
+def test_llms_txt_fetched_once_for_thin_docs_page(tmp_path):
+    class ThinFetch(FakeFetch):
+        def __init__(self):
+            self.urls = []
+
+        def fetch(self, url):
+            self.urls.append(url)
+            page = super().fetch(url)
+            if url.endswith("/llms.txt"):
+                page.text = "# Docs index\n- [Auth](https://docs.stripe.example.com/auth.md)\n" * 50
+            return page
+
+    fetch = ThinFetch()
+    r = Researcher(Settings(), FakeLLM(), FakeSearch(), fetch, tmp_path, coverage=COVERAGE)
+    out = r.research(_apps("stripe")[0])
+    llms = [u for u in fetch.urls if u.endswith("/llms.txt")]
+    assert llms == ["https://stripe.com/llms.txt"]  # start_url stripe.com/docs/api is the first thin docs page
+    assert not out.errors
 
 
 def test_pick_urls_prefers_start_url_and_official():

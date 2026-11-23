@@ -14,6 +14,9 @@ FIELDS AND ENUMS
 - auth_methods (list, all documented): oauth2 | api_key (API keys, personal access
   tokens, bot/dashboard tokens) | basic | jwt_service_account | custom_other (HMAC,
   mTLS; explain in notes) | none (alone; no auth needed).
+  If auth cannot be determined because docs are gated or absent, use ["custom_other"],
+  write "auth undocumented in fetched pages" in notes, and pick blocker
+  auth_undocumented / docs_insufficient per the priority list. Never invent methods.
 - primary_auth: member of auth_methods; oauth2 if documented, else the default/most
   common documented method.
 - access (how a developer gets credentials from the vendor):
@@ -25,12 +28,17 @@ FIELDS AND ENUMS
   requires_end_user_admin=true instead.
 - api_types (list): rest | graphql | soap | sdk_only (no raw HTTP docs) |
   webhook_only | cli_only (local CLI/library, no hosted API) | none (alone).
+  webhook_only ONLY when webhooks exist and there is NO useful request API. A REST
+  API that also has webhooks is just ["rest"]; mention webhooks in notes.
 - has_public_docs: official public API/developer docs exist.
 - api_breadth: narrow | moderate | broad | unknown (prefer unknown over guessing).
 - docs_url: best official docs entry point; null iff has_public_docs is false.
 - mcp_status: official (vendor publishes/endorses) | community (third-party only) |
   none. If both exist use official and mention the community one in notes.
-- mcp_url: server/repo/announcement URL; null iff mcp_status is none.
+- mcp_url: the MCP server, repo, or MCP docs page; null iff mcp_status is none.
+  If a page only vaguely mentions an MCP (e.g. "MCP (beta)") with no server/docs
+  URL, keep mcp_status, point mcp_url at the page that mentions it, say so in notes,
+  and set confidence no higher than medium.
 - verdict: buildable_now (documented interface + self_serve/self_serve_paid; a
   wrappable local CLI also counts) | buildable_with_approval (documented interface,
   partner/sales/vendor approval needed) | not_buildable.
@@ -51,7 +59,10 @@ FIELDS AND ENUMS
 - confidence: high (official docs directly support the critical claims) | medium
   (official but incomplete, small inference) | low (community/news only, or an
   absence claim without a strong official page).
-- requires_end_user_admin: true when a customer workspace/org admin must approve.
+- requires_end_user_admin: true when installing/authorising the integration in a
+  customer account needs an admin / super-admin of that workspace (e.g. Slack
+  workspace apps, HubSpot app installs by super admins), and only if the fetched
+  pages show it. Otherwise false, and mention the uncertainty in notes.
 - notes: caveats, ambiguity, secondary blockers ("" if none).
 
 EVIDENCE RULES (strict)
@@ -72,7 +83,24 @@ OUTPUT: one JSON object:
 Use follow_up only if a critical claim (auth, access, api_surface, mcp) has no
 supporting page yet: up to 3 search queries and/or up to 3 URLs to fetch (official
 domains preferred). Leave both lists empty when the pages are sufficient. Always
-return your best complete row anyway."""
+return your best complete row anyway. Keep it compact: notes under 400 characters,
+1-2 evidence items and 1-2 snippets per claim. Escape any double quote inside a
+string value as \\"."""
+
+# Output-level errors fed back on retry, instead of per-field schema noise.
+TRUNCATED_ERROR = (
+    "output: your answer was cut off at the max-token limit (stop_reason={stop}), so it is not valid JSON. "
+    "Return a more compact answer: notes under 300 characters, exactly 1 evidence item and 1 snippet "
+    "(quote under 20 words) per claim, no follow_up."
+)
+UNPARSEABLE_ERROR = (
+    "output: your answer could not be parsed as JSON ({detail}). Return exactly one JSON object and nothing "
+    "else; escape double quotes inside strings as \\\"."
+)
+NO_ROW_ERROR = (
+    "output: your JSON had no row fields (top-level keys: {keys}). Put the row fields "
+    "(one_liner, auth_methods, ...) under \"row\"."
+)
 
 
 def render_pages(pages: list, per_page_chars: int) -> str:
@@ -99,8 +127,10 @@ def research_prompt(app: dict, pages: list, per_page_chars: int, can_follow_up: 
 
 def retry_prompt(errors: list[str], checks: dict) -> str:
     dropped = [f"{d['claim']}: {d['url']}" for d in checks.get("dropped_evidence", [])]
+    head = "Your previous answer was unusable." if any(e.startswith("output:") for e in errors) else (
+        "Your row failed validation.")
     msg = (
-        "Your row failed validation. Fix every error and return the full JSON object again "
+        f"{head} Fix every error and return the full JSON object again "
         "(row, snippets, follow_up with empty lists).\n\nErrors:\n- " + "\n- ".join(errors)
     )
     if dropped:

@@ -63,7 +63,7 @@ def _choice(name: str, default: str, allowed: tuple[str, ...]) -> str:
 class Settings:
     llm_provider: str = "bedrock"
     llm_model: str | None = None
-    llm_max_tokens: int = 4096
+    llm_max_tokens: int = 8000
     price_in_per_mtok: float | None = None
     price_out_per_mtok: float | None = None
     search_provider: str = "auto"
@@ -79,7 +79,7 @@ class Settings:
         return cls(
             llm_provider=_choice("LLM_PROVIDER", "bedrock", ("bedrock", "anthropic", "openai", "gemini")),
             llm_model=os.environ.get("LLM_MODEL", "").strip() or None,
-            llm_max_tokens=int(os.environ.get("LLM_MAX_TOKENS") or 4096),
+            llm_max_tokens=int(os.environ.get("LLM_MAX_TOKENS") or 8000),
             price_in_per_mtok=_float_or_none("LLM_PRICE_IN_PER_MTOK"),
             price_out_per_mtok=_float_or_none("LLM_PRICE_OUT_PER_MTOK"),
             search_provider=_choice(

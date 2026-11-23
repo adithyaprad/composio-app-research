@@ -25,4 +25,5 @@ class AnthropicLLM:
             messages=messages,
         )
         text = "".join(getattr(b, "text", "") for b in resp.content)
-        return LLMResult(text, resp.usage.input_tokens, resp.usage.output_tokens)
+        return LLMResult(text, resp.usage.input_tokens, resp.usage.output_tokens,
+                         stop_reason=resp.stop_reason, truncated=resp.stop_reason == "max_tokens")

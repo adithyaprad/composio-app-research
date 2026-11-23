@@ -33,8 +33,11 @@ class BedrockLLM:
         )
         blocks = resp["output"]["message"]["content"]
         usage = resp.get("usage", {})
+        stop = resp.get("stopReason")
         return LLMResult(
             text="".join(b.get("text", "") for b in blocks),
             input_tokens=usage.get("inputTokens", 0),
             output_tokens=usage.get("outputTokens", 0),
+            stop_reason=stop,
+            truncated=stop == "max_tokens",
         )

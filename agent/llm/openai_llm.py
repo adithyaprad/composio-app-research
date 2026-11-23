@@ -26,8 +26,11 @@ class OpenAILLM:
             **extra,
         )
         usage = resp.usage
+        choice = resp.choices[0]
         return LLMResult(
-            resp.choices[0].message.content or "",
+            choice.message.content or "",
             getattr(usage, "prompt_tokens", 0) or 0,
             getattr(usage, "completion_tokens", 0) or 0,
+            stop_reason=choice.finish_reason,
+            truncated=choice.finish_reason == "length",
         )

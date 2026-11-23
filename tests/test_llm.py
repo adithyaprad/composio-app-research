@@ -68,6 +68,46 @@ def test_bedrock_converse_parsing(monkeypatch):
     _fake_module(monkeypatch, "boto3", client=lambda *a, **k: Client())
     res = get_llm(Settings.from_env()).complete("sys", [{"role": "user", "content": "hi"}])
     assert (res.text, res.input_tokens, res.output_tokens) == ('{"a": 1}', 10, 5)
+    assert not res.truncated
+
+
+def test_bedrock_max_tokens_marks_truncated(monkeypatch):
+    monkeypatch.setenv("AWS_ACCESS_KEY_ID", "x")
+    monkeypatch.setenv("AWS_SECRET_ACCESS_KEY", "y")
+    seen = {}
+
+    class Client:
+        def converse(self, **kw):
+            seen.update(kw["inferenceConfig"])
+            return {"output": {"message": {"content": [{"text": '{"row": {'}]}},
+                    "stopReason": "max_tokens", "usage": {"inputTokens": 1, "outputTokens": 8000}}
+
+    _fake_module(monkeypatch, "boto3", client=lambda *a, **k: Client())
+    res = get_llm(Settings.from_env()).complete("sys", [{"role": "user", "content": "hi"}])
+    assert res.truncated and res.stop_reason == "max_tokens"
+    assert seen == {"maxTokens": 8000}  # generous default
+
+
+def test_llm_max_tokens_env(monkeypatch):
+    monkeypatch.setenv("LLM_MAX_TOKENS", "12000")
+    assert Settings.from_env().llm_max_tokens == 12000
+
+
+def test_openai_length_marks_truncated(monkeypatch):
+    monkeypatch.setenv("LLM_PROVIDER", "openai")
+    monkeypatch.setenv("OPENAI_API_KEY", "k")
+    resp = types.SimpleNamespace(
+        choices=[types.SimpleNamespace(message=types.SimpleNamespace(content="{"), finish_reason="length")],
+        usage=types.SimpleNamespace(prompt_tokens=1, completion_tokens=2))
+
+    class OpenAI:
+        def __init__(self, api_key):
+            create = lambda **kw: resp  # noqa: E731
+            self.chat = types.SimpleNamespace(completions=types.SimpleNamespace(create=create))
+
+    _fake_module(monkeypatch, "openai", OpenAI=OpenAI)
+    res = get_llm(Settings.from_env()).complete("sys", [{"role": "user", "content": "hi"}])
+    assert res.truncated and res.stop_reason == "length"
 
 
 @pytest.mark.parametrize("provider,var", [("anthropic", "ANTHROPIC_API_KEY"), ("openai", "OPENAI_API_KEY"),

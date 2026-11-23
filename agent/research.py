@@ -11,6 +11,7 @@ import csv
 import hashlib
 import json
 import logging
+import re
 import threading
 import time
 from collections import Counter
@@ -21,8 +22,9 @@ from urllib.parse import urlsplit
 
 from agent import prompts
 from agent.config import Settings
-from agent.llm import LLM, extract_json
+from agent.llm import LLM, LLMResult, extract_json
 from agent.tools.base import Page, now_iso
+from agent.tools.keyless import THIN_CHARS, is_docs_url
 from agent.validate import check_evidence, validate_row
 
 log = logging.getLogger(__name__)
@@ -96,25 +98,84 @@ def score_url(url: str, official: str, query: str) -> int:
     return score
 
 
-def pick_urls(app: dict, searches: list[dict], max_pages: int, already: set[str] = frozenset()) -> list[str]:
-    """start_url first, then the best result of each query, then the best of the rest."""
+# Code/doc hosts where a third-party-looking domain can still be the vendor's own page.
+DOC_HOSTS = ("github.com", "gitlab.com", "npmjs.com", "pypi.org", "readme.io", "stoplight.io", "postman.com",
+             "mintlify.app", "mintlify.dev", "gitbook.io", "readthedocs.io")
+# Slug parts too generic to identify a vendor by themselves.
+GENERIC_TOKENS = {"ads", "api", "app", "apps", "business", "cloud", "commerce", "crm", "data", "partner", "selling",
+                  "the", "io", "ai", "hq", "chat", "mail"}
+MAX_THIRD_PARTY = 2
+
+OFFICIAL, DOC_HOST, THIRD_PARTY = 0, 1, 2
+
+
+def app_tokens(app: dict) -> set[str]:
+    """Strings that identify the app in a host, title or URL: compact name/slug plus distinctive slug parts."""
+    name = re.sub(r"[^a-z0-9]", "", app.get("name", "").lower())
+    slug = app.get("slug", "")
+    tokens = {name, slug.replace("-", "")}
+    tokens |= {p for p in slug.split("-") if len(p) >= 4 and p not in GENERIC_TOKENS}
+    return {t for t in tokens if len(t) >= 3}
+
+
+def _host_matches(host: str, domain: str) -> bool:
+    return bool(domain) and (host == domain or host.endswith("." + domain))
+
+
+def classify_result(app: dict, result: dict) -> int | None:
+    """OFFICIAL / DOC_HOST / THIRD_PARTY tier, or None when the result looks unrelated to the app."""
+    url = result["url"].lower()
+    host = (urlsplit(url).hostname or "").removeprefix("www.")
+    tokens = app_tokens(app)
+    if _host_matches(host, base_domain(app.get("start_url") or app.get("source_hint") or "")):
+        return OFFICIAL
+    labels = host.split(".")[:-1]  # drop the TLD so "fan" in ".fan" does not count
+    if any(t in label for t in tokens for label in labels):
+        return OFFICIAL
+    title = (result.get("title") or "").lower()
+    compact_url = re.sub(r"[^a-z0-9]", "", url)
+    if any(_host_matches(host, d) for d in DOC_HOSTS):
+        return DOC_HOST if any(t in compact_url or t in re.sub(r"[^a-z0-9]", "", title) for t in tokens) else None
+    text = re.sub(r"[^a-z0-9]", "", title + " " + (result.get("snippet") or "").lower())
+    return THIRD_PARTY if any(t in text for t in tokens) else None
+
+
+def pick_urls(app: dict, searches: list[dict], max_pages: int, already: set[str] = frozenset(),
+              include_start: bool = True) -> list[str]:
+    """start_url first; then relevant results, official domain first, best of each query before the rest.
+
+    Results that don't look like the app are dropped, and at most MAX_THIRD_PARTY
+    third-party pages (directories, blogs) are kept, only when they name the app.
+    """
     official = base_domain(app.get("start_url") or app.get("source_hint") or "")
     picked: list[str] = []
+    third_party = 0
 
-    def add(url: str) -> None:
-        if url and url not in picked and url not in already and len(picked) < max_pages:
-            picked.append(url)
+    def add(url: str, tier: int) -> None:
+        nonlocal third_party
+        if not url or url in picked or url in already or len(picked) >= max_pages:
+            return
+        if tier == THIRD_PARTY:
+            if third_party >= MAX_THIRD_PARTY:
+                return
+            third_party += 1
+        picked.append(url)
 
-    if app.get("start_url") and app["start_url"] not in already:
-        add(app["start_url"])
+    if include_start and app.get("start_url") and app["start_url"] not in already:
+        add(app["start_url"], OFFICIAL)
     ranked = []
     for s in searches:
-        res = sorted(s["results"], key=lambda r: -score_url(r["url"], official, s["query"]))
-        if res:
-            add(res[0]["url"])
-        ranked += [(score_url(r["url"], official, s["query"]), r["url"]) for r in res[1:]]
-    for _, url in sorted(ranked, key=lambda x: -x[0]):
-        add(url)
+        scored = []
+        for r in s["results"]:
+            tier = classify_result(app, r)
+            if tier is not None:
+                scored.append((tier, -score_url(r["url"], official, s["query"]), r["url"]))
+        scored.sort()
+        if scored:
+            add(scored[0][2], scored[0][0])
+        ranked += scored[1:]
+    for tier, _, url in sorted(ranked):
+        add(url, tier)
     return picked
 
 
@@ -163,7 +224,8 @@ class Researcher:
             log.warning("search failed for %r: %s", query, type(e).__name__)
             provider, results = "error", []
         stats.providers[f"search:{provider}"] += 1
-        return {"query": query, "provider": provider, "results": [{"url": r.url, "title": r.title} for r in results]}
+        return {"query": query, "provider": provider,
+                "results": [{"url": r.url, "title": r.title, "snippet": r.snippet[:300]} for r in results]}
 
     def _fetch(self, slug: str, url: str, stats: Stats) -> Page:
         stats.fetch_calls += 1
@@ -178,29 +240,76 @@ class Researcher:
             (cache / f"{hashlib.sha1(url.encode()).hexdigest()[:12]}.txt").write_text(page.text)
         return page
 
-    def _llm(self, messages: list[dict], stats: Stats) -> str:
+    def _llm(self, messages: list[dict], stats: Stats, attempts: list[dict], label: str, slug: str) -> LLMResult:
         stats.llm_calls += 1
         res = self.llm.complete(prompts.SYSTEM, messages, json_mode=True)
         stats.input_tokens += res.input_tokens
         stats.output_tokens += res.output_tokens
-        return res.text
+        log.info("%s: llm %s stop_reason=%s out_tokens=%d%s", slug, label, res.stop_reason, res.output_tokens,
+                 " TRUNCATED" if res.truncated else "")
+        attempts.append({"label": label, "at": now_iso(), "stop_reason": res.stop_reason, "truncated": res.truncated,
+                         "input_tokens": res.input_tokens, "output_tokens": res.output_tokens, "text": res.text})
+        return res
+
+    @staticmethod
+    def _llms_txt_url(pages: list[Page]) -> str | None:
+        """<origin>/llms.txt for the first thin docs page, once per app (fetched as its own page)."""
+        fetched = {p.requested_url for p in pages}
+        for p in pages:
+            if p.ok and len(p.text) < THIN_CHARS and is_docs_url(p.final_url):
+                parts = urlsplit(p.final_url)
+                url = f"{parts.scheme}://{parts.netloc}/llms.txt"
+                return None if url in fetched else url
+        return None
+
+    def _save_attempts(self, slug: str, attempts: list[dict]) -> None:
+        cache = self.run_dir / "cache"
+        cache.mkdir(parents=True, exist_ok=True)
+        (cache / f"{slug}.llm.json").write_text(json.dumps({"slug": slug, "attempts": attempts}, indent=2,
+                                                           ensure_ascii=False))
 
     # row --------------------------------------------------------------
-    def _assemble(self, app: dict, out: dict) -> dict:
-        llm_row = out.get("row") if isinstance(out.get("row"), dict) else {}
+    @staticmethod
+    def _unwrap(out: dict) -> dict | None:
+        """The row object, whether under "row", at top level, or under some other single wrapper key."""
+        def looks_like_row(d: object) -> bool:
+            return isinstance(d, dict) and sum(k in d for k in RESEARCHED_KEYS) >= 3
+
+        if looks_like_row(out.get("row")):
+            return out["row"]
+        if looks_like_row(out):
+            return out
+        for v in out.values():
+            if looks_like_row(v):
+                return v
+            if isinstance(v, dict) and looks_like_row(v.get("row")):
+                return v["row"]
+        return None
+
+    def _assemble(self, app: dict, llm_row: dict) -> dict:
         row = {k: app[k] for k in IDENTITY_KEYS}
         row.update({k: llm_row.get(k) for k in RESEARCHED_KEYS})
         row["notes"] = llm_row.get("notes") or ""
         row["composio_toolkit"] = dict(self.coverage.get(app["slug"], UNKNOWN_COVERAGE))
         return {k: row[k] for k in ROW_ORDER}
 
-    def _evaluate(self, app: dict, text: str, pages: list[Page]) -> tuple[dict | None, dict, dict, list[str]]:
+    def _evaluate(self, app: dict, res: LLMResult, pages: list[Page]) -> tuple[dict | None, dict, dict, list[str]]:
+        """Parse, assemble, evidence-check and validate one LLM answer.
+
+        Output-level problems (truncation, unparseable JSON, no row fields) come back
+        as a single explicit "output:" error, not as a pile of "None is not of type" errors.
+        """
         try:
-            out = extract_json(text)
+            out = extract_json(res.text)
         except ValueError as e:
-            return None, {}, {}, [f"output: {e}"]
-        row = self._assemble(app, out)
-        snippets = out.get("snippets") if isinstance(out.get("snippets"), dict) else {}
+            if res.truncated:
+                return None, {}, {}, [prompts.TRUNCATED_ERROR.format(stop=res.stop_reason)]
+            return None, {}, {}, [prompts.UNPARSEABLE_ERROR.format(detail=e)]
+        llm_row = self._unwrap(out)
+        if llm_row is None:
+            return None, {}, {}, [prompts.NO_ROW_ERROR.format(keys=", ".join(list(out)[:10]))]
+        row = self._assemble(app, llm_row)
+        snippets = next((s for s in (out.get("snippets"), llm_row.get("snippets")) if isinstance(s, dict)), {})
         row, checks = check_evidence(row, snippets, pages)
         identity = {k: app[k] for k in IDENTITY_KEYS}
         return row, snippets, checks | {"follow_up": out.get("follow_up") or {}}, validate_row(row, identity)
@@ -211,32 +320,42 @@ class Researcher:
         stats = Stats()
         searches = [self._search(q, stats) for q in search_queries(app)]
         pages = [self._fetch(slug, u, stats) for u in pick_urls(app, searches, self.max_pages)]
+        llms_txt = self._llms_txt_url(pages)
+        if llms_txt:
+            pages.append(self._fetch(slug, llms_txt, stats))
 
-        messages = [{"role": "user", "content": prompts.research_prompt(app, pages, self.per_page_chars,
-                                                                         self.follow_up)}]
-        text = self._llm(messages, stats)
-        row, snippets, checks, errors = self._evaluate(app, text, pages)
+        attempts: list[dict] = []
+        try:
+            messages = [{"role": "user", "content": prompts.research_prompt(app, pages, self.per_page_chars,
+                                                                             self.follow_up)}]
+            res = self._llm(messages, stats, attempts, "initial", slug)
+            row, snippets, checks, errors = self._evaluate(app, res, pages)
 
-        follow = checks.get("follow_up") or {}
-        if self.follow_up and (follow.get("queries") or follow.get("urls")):
-            extra_searches = [self._search(q, stats) for q in list(follow.get("queries") or [])[:FOLLOW_UP_MAX_QUERIES]]
-            searches += extra_searches
-            seen = {p.requested_url for p in pages}
-            wanted = [u for u in list(follow.get("urls") or []) if isinstance(u, str) and u.startswith("http")]
-            urls = [u for u in wanted if u not in seen][:FOLLOW_UP_MAX_PAGES]
-            urls += pick_urls({}, extra_searches, FOLLOW_UP_MAX_PAGES - len(urls), seen | set(urls))
-            pages += [self._fetch(slug, u, stats) for u in urls]
-            messages = [{"role": "user", "content": prompts.research_prompt(app, pages, self.per_page_chars, False)}]
-            text = self._llm(messages, stats)
-            row, snippets, checks, errors = self._evaluate(app, text, pages)
+            follow = checks.get("follow_up") or {}
+            if self.follow_up and (follow.get("queries") or follow.get("urls")):
+                queries = list(follow.get("queries") or [])[:FOLLOW_UP_MAX_QUERIES]
+                extra_searches = [self._search(q, stats) for q in queries]
+                searches += extra_searches
+                seen = {p.requested_url for p in pages}
+                wanted = [u for u in list(follow.get("urls") or []) if isinstance(u, str) and u.startswith("http")]
+                urls = [u for u in wanted if u not in seen][:FOLLOW_UP_MAX_PAGES]
+                urls += pick_urls(app, extra_searches, FOLLOW_UP_MAX_PAGES - len(urls), seen | set(urls),
+                                  include_start=False)
+                pages += [self._fetch(slug, u, stats) for u in urls]
+                messages = [{"role": "user",
+                             "content": prompts.research_prompt(app, pages, self.per_page_chars, False)}]
+                res = self._llm(messages, stats, attempts, "follow_up", slug)
+                row, snippets, checks, errors = self._evaluate(app, res, pages)
 
-        retried = False
-        if errors:
-            retried = True
-            messages += [{"role": "assistant", "content": text},
-                         {"role": "user", "content": prompts.retry_prompt(errors, checks)}]
-            text = self._llm(messages, stats)
-            row, snippets, checks, errors = self._evaluate(app, text, pages)
+            retried = False
+            if errors:
+                retried = True
+                messages += [{"role": "assistant", "content": res.text.strip() or "(empty response)"},
+                             {"role": "user", "content": prompts.retry_prompt(errors, checks)}]
+                res = self._llm(messages, stats, attempts, "retry", slug)
+                row, snippets, checks, errors = self._evaluate(app, res, pages)
+        finally:
+            self._save_attempts(slug, attempts)
 
         checks.pop("follow_up", None)
         checks["retried"] = retried

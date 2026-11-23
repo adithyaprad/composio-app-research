@@ -61,4 +61,4 @@ class FakeLLM:
         }
         snippets = {k: [{"url": url, "quote": quote}] for k in ("auth", "access", "api_surface", "mcp", "verdict")}
         out = {"row": row, "snippets": snippets, "follow_up": {"queries": [], "urls": []}}
-        return LLMResult(json.dumps(out), input_tokens=len(prompt) // 4, output_tokens=300)
+        return LLMResult(json.dumps(out), input_tokens=len(prompt) // 4, output_tokens=300, stop_reason="end_turn")

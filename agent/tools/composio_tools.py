@@ -168,4 +168,5 @@ class ComposioFetch:
             status=int(status),
             provider=self.name,
             text=str(text)[: self.max_chars],
+            method="firecrawl_markdown",
         )

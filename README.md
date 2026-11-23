@@ -41,7 +41,7 @@ Without `--refresh`, the script reuses `data/composio_toolkits.json` and only re
 
 ## Run the research agent
 
-For each app in `data/apps.csv` the agent runs a few targeted web searches (API auth, access/pricing, API reference, MCP server), fetches up to `--max-pages` pages (always including `start_url`, preferring the official domain), and asks an LLM to fill the row **from the fetched page text only**. The LLM may ask for one follow-up round (max 3 searches / 3 extra pages). Then:
+For each app in `data/apps.csv` the agent runs a few targeted web searches (API auth, access/pricing, API reference, MCP server), drops results that don't look like the app (it keeps the official domain, doc/code hosts that name the app, and at most 2 third-party pages that name it), fetches up to `--max-pages` pages (always including `start_url`, official domain first), and asks an LLM to fill the row **from the fetched page text only**. The LLM may ask for one follow-up round (max 3 searches / 3 extra pages). Then:
 
 - Every evidence URL is checked against the pages actually fetched in that run. Unfetched URLs are dropped and logged in `checks`.
 - Each claim's quoted snippet is checked against the page text.
@@ -85,9 +85,11 @@ Output goes to `data/runs/<run_id>/`:
 
 - `rows.jsonl`: one schema-valid row per app
 - `failures.jsonl`: rows that stayed invalid after the retry, with their errors, plus crashes
-- `evidence/<slug>.json`: searches run, fetched pages (requested and final URL, status, fetched_at, sha256, text_len), a quoted snippet per claim, and `checks` (dropped evidence, unverified snippets, unfetched docs/MCP URLs, warnings, validation errors)
+- `evidence/<slug>.json`: searches run, fetched pages (requested and final URL, status, fetched_at, sha256, text_len, extraction `method`), a quoted snippet per claim, and `checks` (dropped evidence, unverified snippets, unfetched docs/MCP URLs, warnings, validation errors)
 - `log.jsonl`: per app wall time, search/fetch/LLM call counts, tokens, est. cost, and which providers served each call
-- `cache/`: raw fetched text (gitignored)
+- `cache/`: raw fetched text, plus `<slug>.llm.json` with every raw LLM response per attempt (text, stop reason, usage). Gitignored.
+
+Pages that extract to under ~1500 chars (typical for JS-rendered docs) go through fallbacks: trafilatura with favor_recall, then the page's `.md` twin, then plain visible text. For a thin docs page, `<origin>/llms.txt` is also fetched once per app. A truncated LLM answer (`LLM_MAX_TOKENS`, default 8000) gets one retry asking for a compact row.
 
 Failed apps are not written to `rows.jsonl`, so re-running the same `--run-id` retries them.
 

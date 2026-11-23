@@ -4,7 +4,7 @@ import httpx
 import pytest
 
 from agent.config import Settings
-from agent.tools import Fallback, ProviderUnavailable, get_fetch, get_search
+from agent.tools import Fallback, ProviderUnavailable, get_fetch, get_search, keyless
 from agent.tools.composio_tools import ComposioFetch, ComposioSearch
 from agent.tools.keyless import DDGSSearch, HttpFetch
 
@@ -136,3 +136,79 @@ def test_http_fetch_network_error_recorded():
 
     page = HttpFetch(client=_http_client(handler)).fetch("https://down.example.com")
     assert not page.ok and page.status == 0 and "ConnectError" in page.error
+
+
+# ---- thin-page extraction -------------------------------------------------------
+
+JS_SHELL = (
+    "<html><head><title>API overview</title><script>window.__NEXT_DATA__ = {big: 'state'};</script>"
+    "<style>body{color:red}</style></head><body><div id='root'><nav>Docs Guides Reference</nav>"
+    "<p>Loading...</p></div></body></html>"
+)
+NAV_HEAVY = "<html><body>" + "".join(f"<div><a href='/x{i}'>Endpoint number {i} reference</a></div>"
+                                     for i in range(120)) + "<script>var x = 'SCRIPT_TEXT';</script></body></html>"
+ARTICLE = ("<html><body><article><h1>Authentication</h1>"
+           + "".join(f"<p>Rule {i}: request number {i} must include an API key in the Authorization header.</p>"
+                     for i in range(30))
+           + "</article></body></html>")
+MARKDOWN = "# API overview\n\n" + "Authenticate with OAuth 2.0 or a private app access token. " * 40
+
+
+def _site(routes):
+    def handler(req):
+        body, ctype = routes.get(str(req.url), ("not found", "text/plain"))
+        status = 404 if body == "not found" else 200
+        return httpx.Response(status, headers={"content-type": ctype}, text=body)
+    return HttpFetch(client=_http_client(handler))
+
+
+def test_rich_page_uses_trafilatura():
+    page = _site({"https://docs.x.dev/auth": (ARTICLE, "text/html")}).fetch("https://docs.x.dev/auth")
+    assert page.method == "trafilatura" and len(page.text) >= 1500 and page.text_source_url is None
+
+
+def test_thin_docs_page_uses_markdown_twin():
+    f = _site({"https://developers.x.com/docs/api/overview": (JS_SHELL, "text/html"),
+               "https://developers.x.com/docs/api/overview.md": (MARKDOWN, "text/markdown")})
+    page = f.fetch("https://developers.x.com/docs/api/overview")
+    assert page.method == "md_twin" and page.text.startswith("# API overview")
+    assert page.text_source_url == "https://developers.x.com/docs/api/overview.md"
+    assert page.final_url == "https://developers.x.com/docs/api/overview"
+    assert page.meta()["method"] == "md_twin"
+
+
+def test_thin_page_without_twin_falls_back_to_visible_text(monkeypatch):
+    # Simulate trafilatura rejecting the page (as on JS-rendered docs) so the fallback chain is exercised.
+    monkeypatch.setattr(keyless, "_trafilatura", lambda html, url, recall: "short" if recall else "")
+    f = _site({"https://docs.x.dev/ref": (NAV_HEAVY, "text/html")})  # .md twin 404s
+    page = f.fetch("https://docs.x.dev/ref")
+    assert page.method == "visible_text"
+    assert "Endpoint number 119" in page.text and "SCRIPT_TEXT" not in page.text
+
+
+def test_thin_page_keeps_longest_when_all_thin(monkeypatch):
+    monkeypatch.setattr(keyless, "_trafilatura", lambda html, url, recall: "x" * (900 if recall else 300))
+    page = _site({"https://www.x.com/p": (JS_SHELL, "text/html")}).fetch("https://www.x.com/p")
+    assert page.method == "trafilatura_recall" and len(page.text) == 900
+
+
+def test_md_twin_returning_html_is_ignored():
+    f = _site({"https://docs.x.dev/a": (JS_SHELL, "text/html"), "https://docs.x.dev/a.md": (JS_SHELL, "text/html")})
+    page = f.fetch("https://docs.x.dev/a")
+    assert page.method != "md_twin" and "window.__NEXT_DATA__" not in page.text
+
+
+def test_non_docs_host_skips_twin():
+    calls = []
+
+    def handler(req):
+        calls.append(str(req.url))
+        return httpx.Response(200, headers={"content-type": "text/html"}, text=JS_SHELL)
+
+    HttpFetch(client=_http_client(handler)).fetch("https://www.x.com/pricing")
+    assert calls == ["https://www.x.com/pricing"]
+
+
+def test_plain_text_is_raw():
+    page = _site({"https://docs.x.dev/llms.txt": ("# Index\n- a", "text/plain")}).fetch("https://docs.x.dev/llms.txt")
+    assert page.method == "raw" and page.text == "# Index\n- a"

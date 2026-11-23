@@ -29,6 +29,8 @@ class Page:
     text: str = ""
     fetched_at: str = field(default_factory=lambda: now_iso())
     error: str | None = None
+    method: str | None = None  # how text was extracted: trafilatura, trafilatura_recall, visible_text, md_twin, raw
+    text_source_url: str | None = None  # set when the text came from another URL (e.g. the .md twin)
 
     @property
     def ok(self) -> bool:

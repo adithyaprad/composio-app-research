@@ -35,8 +35,12 @@ class GeminiLLM:
         )
         resp = self._client.models.generate_content(model=self.model, contents=contents, config=config)
         usage = resp.usage_metadata
+        reason = resp.candidates[0].finish_reason if resp.candidates else None
+        stop = getattr(reason, "name", None) or (str(reason) if reason else None)
         return LLMResult(
             resp.text or "",
             getattr(usage, "prompt_token_count", 0) or 0,
             getattr(usage, "candidates_token_count", 0) or 0,
+            stop_reason=stop,
+            truncated=stop == "MAX_TOKENS",
         )
