@@ -16,11 +16,14 @@ This is a take-home style research pipeline, not a production product.
   - `README.md` — field and enum definitions
   - `RUBRIC.md` — scoring rules and gold-sample procedure
   - `gold_sample.md` — 20 apps reserved for a human accuracy check (answers not filled yet)
+- `agent/` — research agent CLI (`python -m agent run`): `llm/` provider adapters, `tools/` search/fetch providers, `research.py` loop, `validate.py` schema + consistency + evidence checks, `prompts.py`
+- `tests/` — offline unit tests (LLM and tools mocked)
+- `data/runs/<run_id>/` — agent outputs
 - `.agents/skills/composio/` — Composio skill used when building the research agent
 
 ## Status
 
-Phase 1 is done: input list, schema, rubric, and a Composio catalog coverage snapshot. The research agent, verification loop, pattern write-up, and case-study page come next.
+Phase 1 is done: input list, schema, rubric, and a Composio catalog coverage snapshot. The research agent (v1, `agent/`) now exists. The verification loop, pattern write-up, and case-study page come next.
 
 ## Refresh Composio coverage
 
@@ -36,8 +39,70 @@ python scripts/composio_coverage.py --refresh
 
 Without `--refresh`, the script reuses `data/composio_toolkits.json` and only rebuilds the coverage table. It never prints secret values.
 
-## How to run the agent
+## Run the research agent
 
-Not available yet. This README will get a short run guide once the agent exists.
+For each app in `data/apps.csv` the agent runs a few targeted web searches (API auth, access/pricing, API reference, MCP server), fetches up to `--max-pages` pages (always including `start_url`, preferring the official domain), and asks an LLM to fill the row **from the fetched page text only**. The LLM may ask for one follow-up round (max 3 searches / 3 extra pages). Then:
 
-Until then, expected setup will be: copy `.env.example`, set an LLM provider (`bedrock` by default, or an API key for Gemini / Anthropic / OpenAI) plus a `COMPOSIO_API_KEY` if the agent uses Composio tools, then run a single command that writes JSON rows matching `schema/app_row.schema.json`.
+- Every evidence URL is checked against the pages actually fetched in that run. Unfetched URLs are dropped and logged in `checks`.
+- Each claim's quoted snippet is checked against the page text.
+- The row is validated against `schema/app_row.schema.json` and the consistency rules in `schema/README.md`. If it fails, the errors go back to the LLM for one retry. If it still fails, the row goes to `failures.jsonl` and the run continues.
+- `composio_toolkit` is copied from `data/composio_coverage.csv`. The LLM never researches it.
+
+### Install
+
+```bash
+python -m venv .venv && .venv/bin/pip install -r requirements.txt
+.venv/bin/pip install -r requirements-dev.txt   # tests + ruff
+```
+
+`requirements.txt` installs `boto3` for the default Bedrock provider. For another provider, install its SDK too: `anthropic`, `openai`, or `google-genai`.
+
+### Configure
+
+```bash
+cp .env.example .env   # then fill in one LLM provider
+```
+
+| `LLM_PROVIDER` | Needs | Default `LLM_MODEL` |
+|---|---|---|
+| `bedrock` (default) | `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` (or `AWS_PROFILE`), `AWS_REGION` (default `ap-south-1`) | `global.anthropic.claude-sonnet-5-5` |
+| `anthropic` | `ANTHROPIC_API_KEY` | `claude-sonnet-5-5` |
+| `openai` | `OPENAI_API_KEY` | `gpt-5.1` |
+| `gemini` | `GEMINI_API_KEY` | `gemini-2.5-pro` |
+
+`LLM_MODEL` overrides the default for any provider. Set `LLM_PRICE_IN_PER_MTOK` / `LLM_PRICE_OUT_PER_MTOK` to get `est_cost_usd` in the log. Variables already in the shell win over `.env`. Use `ENV_FILE=/path/to/file` to load a different file. Secrets are never printed or logged.
+
+### Run
+
+```bash
+.venv/bin/python -m agent run --dry-run --apps hubspot          # offline: fake LLM + fake tools, no keys
+.venv/bin/python -m agent run --apps hubspot,firecrawl --run-id smoke
+.venv/bin/python -m agent run --limit 10 --concurrency 3 --max-pages 8 --run-id pass1
+.venv/bin/python -m agent run --run-id pass1                    # resume: skips apps already in rows.jsonl
+```
+
+Output goes to `data/runs/<run_id>/`:
+
+- `rows.jsonl`: one schema-valid row per app
+- `failures.jsonl`: rows that stayed invalid after the retry, with their errors, plus crashes
+- `evidence/<slug>.json`: searches run, fetched pages (requested and final URL, status, fetched_at, sha256, text_len), a quoted snippet per claim, and `checks` (dropped evidence, unverified snippets, unfetched docs/MCP URLs, warnings, validation errors)
+- `log.jsonl`: per app wall time, search/fetch/LLM call counts, tokens, est. cost, and which providers served each call
+- `cache/`: raw fetched text (gitignored)
+
+Failed apps are not written to `rows.jsonl`, so re-running the same `--run-id` retries them.
+
+### Search and fetch providers
+
+| Variable | Values | `auto` behaviour |
+|---|---|---|
+| `SEARCH_PROVIDER` | `auto`, `composio_exa`, `composio_tavily`, `ddgs` | Composio Exa first, then `ddgs` |
+| `FETCH_PROVIDER` | `auto`, `composio_firecrawl`, `http` | Composio Firecrawl first, then `httpx` + `trafilatura` |
+
+In `auto` mode, the first Composio connection, 400/401/403 or 410 error switches that tool to the keyless fallback for the rest of the run, logged once. Without `COMPOSIO_API_KEY`, `auto` goes straight to the keyless fallback. `ddgs` tries backends in the order set by `DDGS_BACKENDS` (default `yahoo,duckduckgo,bing,brave,google`). When this was written, only `yahoo` returned results from this machine.
+
+**What Composio unlocks:** Exa, Tavily and Firecrawl run through a Composio session (`composio.sessions.create(...)` then `session.execute(...)`). In this project they currently fail with `No active connection found for toolkit(s) 'exa'`, because Composio Instant Toolkits are off and no provider key is connected. To use them, do one of these in the Composio dashboard:
+
+- enable Instant Toolkits (needs a prepaid balance), or
+- connect your own Exa / Tavily / Firecrawl key.
+
+Then set `SEARCH_PROVIDER=composio_exa` (or `auto`). The result is better search ranking and JS-rendered page text. The old `composio_search` toolkit is retired (HTTP 410) and is not used.
