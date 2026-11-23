@@ -42,6 +42,20 @@ These are reported, and they affect per-field accuracy, but they do **not** by t
 | `requires_end_user_admin` | Exact boolean match when the gold label is confident; ignored if gold marks it unknown/unspecified in notes. |
 | `notes` | Not scored, except they must be non-empty when `blocker` is `other`. |
 
+### Coverage lookup (scored separately)
+
+`composio_toolkit` is **not** a critical research field and is **not** part of the headline row-accuracy number. It is a fact lookup against a frozen catalog snapshot (`data/composio_toolkits.json`) and the alias map in `data/composio_aliases.json`.
+
+The gold label for this field is the row in `data/composio_coverage.csv`. A match is an exact `status` match, and when status is `exists`, an exact `toolkit_slug` match. Missing or extra `sibling_slugs` is a minor miss on this lookup only.
+
+If we report a coverage-lookup accuracy, it is:
+
+```
+coverage_accuracy = (gold apps whose composio_toolkit status and primary slug match) / (gold apps)
+```
+
+A later catalog refresh can change labels. We score against the snapshot that was frozen for that pass, and we say which snapshot `checked_at` was used.
+
 ## Field rules in more detail
 
 ### Auth
@@ -120,7 +134,7 @@ For each scored field or critical unit:
 field_accuracy = (number of gold apps where that field matches) / (number of gold apps where the field applies)
 ```
 
-`mcp_url` applies only when gold `mcp_status` is not `none`. `blocker` always applies. `confidence` and `notes` are not included in per-field accuracy.
+`mcp_url` applies only when gold `mcp_status` is not `none`. `blocker` always applies. `confidence` and `notes` are not included in per-field accuracy. `composio_toolkit` is reported as coverage-lookup accuracy, not as a research per-field score and not in the headline row-accuracy number.
 
 We report each critical unit and each minor field separately.
 

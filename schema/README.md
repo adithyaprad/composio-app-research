@@ -4,7 +4,7 @@ This folder defines **exactly what the research agent must output for each app**
 
 A schema is a contract. Before any agent code exists, we lock the fields, the allowed values, and what each value means, so two people — or a person and an agent — would label the same app the same way. The agent writes one JSON object per app that must validate against `app_row.schema.json`. The 100 apps themselves live in `../data/apps.csv`; the agent does not invent names, ids, slugs, or categories.
 
-Identity fields (`id`, `slug`, `name`, `category`) are copied from the CSV. Everything else is researched.
+Identity fields (`id`, `slug`, `name`, `category`) are copied from the CSV. `composio_toolkit` is filled from the Composio catalog snapshot. Everything else is researched.
 
 ## Fields
 
@@ -50,6 +50,7 @@ Identity fields (`id`, `slug`, `name`, `category`) are copied from the CSV. Ever
 - **evidence** — one or more URLs for each of `auth`, `access`, `api_surface`, `mcp`, and `verdict`. `one_liner` evidence is optional (a homepage is enough). Each item has `url`, `source_type`, and an optional `note`.
 - **confidence** — overall confidence in the row, driven by evidence quality.
 - **requires_end_user_admin** — true when a *customer* workspace/org admin must approve an install (e.g. Slack). This is **not** a vendor gate and does not by itself make `access` gated.
+- **composio_toolkit** — whether Composio already has a catalog toolkit for this product. This is a fact lookup against a cached catalog (`data/composio_toolkits.json`), produced by `scripts/composio_coverage.py`, not a researched judgment call.
 - **notes** — caveats, ambiguity, secondary blockers. Must be non-empty when `blocker` is `other`.
 
 ## Enums
@@ -161,6 +162,19 @@ Workspace-admin install approval is `requires_end_user_admin: true`, not a gated
 | `medium` | Official but incomplete pages, or a solid official blog/pricing page, with a small amount of inference. |
 | `low` | Community/news only, or an absence claim (e.g. no MCP found) without a strong official page to hang it on. |
 
+
+### composio_toolkit.status
+
+| Value | Meaning |
+|---|---|
+| `exists` | A native Composio catalog toolkit matches this product. |
+| `none` | The catalog snapshot was searched and no product-level match was found. |
+| `unknown` | The catalog could not be checked (no snapshot, no API access). Should not appear in a normal run. |
+
+`toolkit_slug` is the primary catalog slug (prefer the Composio-built `api` toolkit when a sibling `mcp` toolkit also exists). `sibling_slugs` lists other slugs for the same product. `checked_at` is the UTC timestamp of the catalog snapshot. `evidence_url` is `https://docs.composio.dev/toolkits/{slug}` when the status is `exists`, otherwise `null`.
+
+Coverage is matched by normalized name/slug, plus a manual alias map in `data/composio_aliases.json` for cases the automatic rules would get wrong. Shared parent domains (github.com, zoho.com, and similar) are not used as proof that two products are the same.
+
 ## Consistency rules
 
 These are also encoded in the rubric and should be treated as part of a valid row:
@@ -174,6 +188,7 @@ These are also encoded in the rubric and should be treated as part of a valid ro
 7. `access: no_public_api` goes with `verdict: not_buildable` and `blocker: no_public_api` (unless a narrow official CLI/skill path is documented — then explain in `notes` and do not use `no_public_api`).
 8. `access: gated_partner` or `gated_sales` is normally `verdict: buildable_with_approval` and `blocker: gated_access`, unless a separate blocker is worse (no docs, terms, etc.).
 9. When `blocker` is `other`, `notes` is non-empty.
+10. If `composio_toolkit.status` is `exists`, `toolkit_slug` and `evidence_url` are non-null. If it is `none`, `toolkit_slug` is null.
 
 ## Example (illustrative only, not a scored gold answer)
 

@@ -1,0 +1,52 @@
+{
+  "_comment": "Manual overrides for scripts/composio_coverage.py. slug is the primary Composio catalog slug, or null to force status=none. siblings are extra slugs for the same product. note is recorded in the coverage CSV.",
+  "whatsapp-business": {
+    "slug": "whatsapp",
+    "note": "Catalog slug is whatsapp; the toolkit description says it is the WhatsApp Business API, not WhatsApp personal."
+  },
+  "gohighlevel": {
+    "slug": "highlevel_location",
+    "siblings": ["highlevel_agency", "highlevel_mcp"],
+    "note": "Composio splits GoHighLevel into a location API (primary), an agency API, and an official MCP toolkit."
+  },
+  "google-ads": {
+    "slug": "googleads",
+    "note": "Catalog slug is googleads."
+  },
+  "meta-ads": {
+    "slug": "metaads",
+    "note": "Catalog slug is metaads."
+  },
+  "monday-com": {
+    "slug": "monday",
+    "note": "Catalog slug is monday."
+  },
+  "bright-data": {
+    "slug": "brightdata",
+    "note": "Catalog slug is brightdata."
+  },
+  "mongodb-atlas": {
+    "slug": "mongodb",
+    "note": "The mongodb toolkit is the Atlas administration API (organizations, projects, clusters), not a generic self-hosted MongoDB driver."
+  },
+  "notebooklm": {
+    "slug": "notebook_lm",
+    "note": "Catalog slug is notebook_lm (NotebookLM Enterprise)."
+  },
+  "youtube-transcript": {
+    "slug": null,
+    "note": "Catalog youtube_transcript is youtubetranscript.dev, a different vendor from transcriptapi.com in the research set."
+  },
+  "zoho-crm": {
+    "slug": null,
+    "note": "No dedicated Zoho CRM toolkit. Other Zoho product toolkits and the generic zoho app are not Zoho CRM."
+  },
+  "amazon-selling-partner": {
+    "slug": null,
+    "note": "Catalog amazon is a generic marketplace entry (0 tools in this snapshot), not the Selling Partner API."
+  },
+  "mermaid-cli": {
+    "slug": null,
+    "note": "mermaid_chart_mcp is Mermaid Chart (mermaid.ai), not the mermaid-js mermaid-cli tool listed here."
+  }
+}

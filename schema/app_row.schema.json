@@ -25,6 +25,7 @@
     "evidence",
     "confidence",
     "requires_end_user_admin",
+    "composio_toolkit",
     "notes"
   ],
   "properties": {
@@ -413,6 +414,59 @@
     "notes": {
       "type": "string",
       "description": "Caveats, secondary blockers, or ambiguity. Required and non-empty when blocker is other."
+    },
+    "composio_toolkit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "toolkit_slug",
+        "checked_at",
+        "evidence_url"
+      ],
+      "description": "Whether Composio already has a catalog toolkit for this app. Filled by scripts/composio_coverage.py against a cached catalog snapshot, not by free-form research.",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "exists",
+            "none",
+            "unknown"
+          ],
+          "description": "exists: a native catalog toolkit matches this product. none: the snapshot was searched and no product-level match was found. unknown: the catalog could not be checked."
+        },
+        "toolkit_slug": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Primary catalog slug. Prefer a Composio-built api toolkit over a sibling mcp toolkit when both exist. Null when status is none or unknown."
+        },
+        "sibling_slugs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "Other catalog slugs for the same product, such as a provider MCP sibling or a split agency/location toolkit."
+        },
+        "checked_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time",
+          "description": "UTC timestamp of the catalog snapshot used for this label. Null only when status is unknown and no snapshot was available."
+        },
+        "evidence_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "description": "Official Composio toolkit docs URL when status is exists. Null when none or unknown."
+        }
+      }
     }
   },
   "allOf": [
@@ -562,6 +616,67 @@
           "notes": {
             "type": "string",
             "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "description": "exists requires a primary slug and a docs URL.",
+      "if": {
+        "properties": {
+          "composio_toolkit": {
+            "properties": {
+              "status": {
+                "const": "exists"
+              }
+            }
+          }
+        },
+        "required": [
+          "composio_toolkit"
+        ]
+      },
+      "then": {
+        "properties": {
+          "composio_toolkit": {
+            "properties": {
+              "toolkit_slug": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence_url": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "description": "none requires a null toolkit_slug.",
+      "if": {
+        "properties": {
+          "composio_toolkit": {
+            "properties": {
+              "status": {
+                "const": "none"
+              }
+            }
+          }
+        },
+        "required": [
+          "composio_toolkit"
+        ]
+      },
+      "then": {
+        "properties": {
+          "composio_toolkit": {
+            "properties": {
+              "toolkit_slug": {
+                "type": "null"
+              }
+            }
           }
         }
       }
