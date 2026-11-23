@@ -1,0 +1,378 @@
+{
+  "slug": "ramp",
+  "searches": [
+    {
+      "query": "Ramp API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/authorization",
+          "title": "Authorization — Ramp API docs",
+          "snippet": "Authorization — Ramp API docs\n\nAuthorization\n\nRamp uses OAuth 2.0. Your app gets an access token from `/developer/v1/token`, authenticating with its client ID and secret (typically HTTP Basic Auth), and scopes control what the token can access.\n\nFor a quick start, see the Setup Guide. For Ramp's own"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/getting-started",
+          "title": "Quickstart — Ramp API docs",
+          "snippet": "Quickstart — Ramp API docs\n\nThis guide will help you make your first Ramp API call in just a few minutes. You'll create an access token and call the Transactions API to retrieve transaction data.\n\nThis guide assumes you are a Ramp customer with admin access to your dashboard. Need a test environment"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/api/authorization",
+          "title": "Ramp API docs",
+          "snippet": "Ramp API docs\n\nAuthorization\n\nBefore using the API, you'll need to set up authorization. To quickly get started, refer to our Setup Guide.\n\n## Create a token\n\nExpects two headers:\n\n- Authorization header formed from base-64 encoded client credentials as `Authorization: Basic `\n- `Content-Type: appli"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/",
+          "title": "Welcome — Ramp API docs",
+          "snippet": "Welcome — Ramp API docs\n\n## Get started\n\nUse Ramp at your company, or build for others.\n\nFor customers\n\nHave a Ramp account? Create credentials and make your first API call.\n\nFor partners\n\nBuilding an integration for other businesses? Start with the partner program.\n\nGet sandbox access\n\nDon't have a"
+        },
+        {
+          "url": "https://apis.io/security/ramp/ramp-authentication/",
+          "title": "Ramp API Authentication | APIs.io",
+          "snippet": "Ramp API Authentication | APIs.io\n\n# Ramp Authentication\n\nAuthentication\n\nRamp secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the clientCredentials flow(s).\n\n Finance Spend Management Corporate Cards Expense Managemen"
+        }
+      ]
+    },
+    {
+      "query": "Ramp developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/getting-started",
+          "title": "Quickstart — Ramp API docs",
+          "snippet": "Quickstart — Ramp API docs\n\nThis guide will help you make your first Ramp API call in just a few minutes. You'll create an access token and call the Transactions API to retrieve transaction data.\n\nThis guide assumes you are a Ramp customer with admin access to your dashboard. Need a test environment"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/authorization",
+          "title": "Authorization — Ramp API docs",
+          "snippet": "Authorization — Ramp API docs\n\nAuthorization\n\nRamp uses OAuth 2.0. Your app gets an access token from `/developer/v1/token`, authenticating with its client ID and secret (typically HTTP Basic Auth), and scopes control what the token can access.\n\nFor a quick start, see the Setup Guide. For Ramp's own"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/",
+          "title": "Welcome — Ramp API docs",
+          "snippet": "Welcome — Ramp API docs\n\n## Get started\n\nUse Ramp at your company, or build for others.\n\nFor customers\n\nHave a Ramp account? Create credentials and make your first API call.\n\nFor partners\n\nBuilding an integration for other businesses? Start with the partner program.\n\nGet sandbox access\n\nDon't have a"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/api/authorization",
+          "title": "Ramp API docs",
+          "snippet": "Ramp API docs\n\nAuthorization\n\nBefore using the API, you'll need to set up authorization. To quickly get started, refer to our Setup Guide.\n\n## Create a token\n\nExpects two headers:\n\n- Authorization header formed from base-64 encoded client credentials as `Authorization: Basic `\n- `Content-Type: appli"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/",
+          "title": "Ramp API docs",
+          "snippet": "Ramp API docs\n\n### REST API\n\nIt is day 2807 at Ramp."
+        }
+      ]
+    },
+    {
+      "query": "Ramp pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://ramp.com/pricing",
+          "title": "Ramp Pricing and Plans",
+          "snippet": "Ramp Pricing and Plans\n\n# Start for free. Scale with Intelligence.\n\nWhether you’re a startup, global enterprise, or somewhere in between, Ramp is designed to save you time and money.\n\nAI-assisted\n\nFree $0/mo/user\n\nBest for smaller teams who want to simplify finances.\n\nKey features:\n\nTravel & Expense"
+        },
+        {
+          "url": "https://ramp.com/signup",
+          "title": "Sign Up for Ramp — Apply for a Card in Minutes",
+          "snippet": "Sign Up for Ramp — Apply for a Card in Minutes\n\n# Get started with Ramp.\n\nApply for Ramp’s corporate card and all-in-one finance platform."
+        },
+        {
+          "url": "https://ramp.com/en-ca/pricing",
+          "title": "Ramp Pricing and Plans for Canada",
+          "snippet": "Ramp Pricing and Plans for Canada\n\n# Start for free. Scale with Intelligence.\n\nRamp pricing for eligible Canadian businesses, with plans designed to save your team time and money.\n\nAI-assisted\n\nFree CA$0/mo/user\n\nBest for smaller Canadian teams who want to simplify finances.\n\nKey features:\n\nCorporat"
+        },
+        {
+          "url": "https://aiproduct.reviews/reviews/ramp-pricing",
+          "title": "Ramp pricing (Nov 2026): Free at $0 a user, Plus at $15 a user a month plus a platform fee based on team size, and custom Enterprise — what Plus adds, the 30-day trial, 1099 filing fees, and add-ons",
+          "snippet": "Ramp pricing (Nov 2026): Free at $0 a user, Plus at $15 a user a month plus a platform fee based on team size, and custom Enterprise — what Plus adds, the 30-day trial, 1099 filing fees, and add-ons\n\n# Ramp pricing (Nov 2026): Free at $0 a user, Plus at $15 a user a month plus a platform fee based o"
+        },
+        {
+          "url": "https://deciderstack.com/ramp-review/",
+          "title": "Ramp Review 2026: Pricing, Hidden Fees, and the AI Agent Play",
+          "snippet": "Ramp Review 2026: Pricing, Hidden Fees, and the AI Agent Play\n\n \n\n# Ramp Review 2026: Pricing, Hidden Fees, and the AI Agent Play\n\n by DeciderStack Editorial Team \n\nThe card is the door. Cards, expense, AP, travel and treasury on one rail.\n\nOne price printed, the fee is not. Free charges none; Plus "
+        }
+      ]
+    },
+    {
+      "query": "Ramp official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/ramp-mcp",
+          "title": "Ramp MCP — Ramp API docs",
+          "snippet": "Ramp MCP — Ramp API docs\n\nRamp MCP\n\nRamp MCP connects AI tools such as Claude, ChatGPT, and Cursor to your Ramp account. Each connection acts as the signed-in user, with that user's Ramp permissions.\n\n## Connect\n\n- Claude: Install Ramp from Claude's directory↗, then sign in to Ramp.\n- ChatGPT: Insta"
+        },
+        {
+          "url": "https://agents.ramp.com/docs/guides/connecting",
+          "title": "Connecting · Docs · agents.ramp.com",
+          "snippet": "Connecting · Docs · agents.ramp.com\n\n# Connecting\n\nThere are three ways to connect your agents to Ramp:\n\nMCP, CLI, and API connection options\n\n| Criterion | CLI | MCP Connectors | API |\n| --- | --- | --- | --- |\n| Set up | CLI Instant | MCP Connectors Instant to 15 minutes | API Hours to days |\n| Ho"
+        },
+        {
+          "url": "https://ramp.com/integrations/ramp-mcp",
+          "title": "Ramp MCP",
+          "snippet": "Ramp MCP\n\n## App description\n\nRamp MCP lets your team use AI copilots to get real work done in Ramp with plain language — checking balances, requesting reimbursements, and getting quick policy answers — with permissions enforced by Ramp roles.\n\n- Users can only access data they are privileged to see"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/mcp",
+          "title": "MCP — Ramp API docs",
+          "snippet": "MCP — Ramp API docs\n\nMCP\n\nThe Model Context Protocol (MCP)↗ lets AI assistants work with your systems directly. Ramp runs two MCP servers, one for your Ramp account and one for Ramp Data benchmarks.\n\n- Ramp MCP: connect AI assistants to your Ramp account to analyze spend, process approvals, and take"
+        },
+        {
+          "url": "https://agents.ramp.com/docs/overview/introduction",
+          "title": "Introduction · Docs · agents.ramp.com",
+          "snippet": "Introduction · Docs · agents.ramp.com\n\n# Introduction\n\nRamp provides financial capabilities designed for agent-native companies.\n\n## How agents act in Ramp\n\nA person connects Ramp, and the agent can see and do only what that person can. Ramp attributes its actions to that person.\n\n| Merchant | Cardh"
+        }
+      ]
+    },
+    {
+      "query": "site:docs.ramp.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/ramp-mcp",
+          "title": "Ramp MCP — Ramp API docs",
+          "snippet": "Ramp MCP — Ramp API docs\n\nRamp MCP\n\nRamp MCP connects AI tools such as Claude, ChatGPT, and Cursor to your Ramp account. Each connection acts as the signed-in user, with that user's Ramp permissions.\n\n## Connect\n\n- Claude: Install Ramp from Claude's directory↗, then sign in to Ramp.\n- ChatGPT: Insta"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/mcp",
+          "title": "MCP — Ramp API docs",
+          "snippet": "MCP — Ramp API docs\n\nMCP\n\nThe Model Context Protocol (MCP)↗ lets AI assistants work with your systems directly. Ramp runs two MCP servers, one for your Ramp account and one for Ramp Data benchmarks.\n\n- Ramp MCP: connect AI assistants to your Ramp account to analyze spend, process approvals, and take"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/ramp-data-mcp",
+          "title": "Ramp Data MCP — Ramp API docs",
+          "snippet": "Ramp Data MCP — Ramp API docs\n\nRamp Data MCP\n\nThe Ramp Data MCP server exposes Ramp's datasets — Ramp Rate software benchmarks and AI Index business AI adoption metrics — to MCP-compatible clients.\n\nServer URL: `https://mcp.ramp.com/ramp-data/mcp`\n\nOne MCP connection queries both datasets — the tool"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/mcp-redirect-whitelist-request",
+          "title": "Add Redirect URI to Ramp MCP — Ramp API docs",
+          "snippet": "Add Redirect URI to Ramp MCP — Ramp API docs\n\nUse this form to ask Ramp to allowlist the redirect URI of a custom MCP client or third-party gateway. You'll need your email, the app type, the redirect URI, and the use case. The URI must use `https://`, or `http://` with `localhost` or `127.0.0.1`, an"
+        },
+        {
+          "url": "https://docs.ramp.com/llms-guides/mcp.txt",
+          "title": "",
+          "snippet": "title: MCP\nsource_url: /developer-api/v1/mcp\nsummary: The Model Context Protocol (MCP) lets AI assistants work with your systems directly. Ramp runs two MCP servers, one for your Ramp account and one for Ramp Data benchmarks.\n\ncontent:\nThe [Model Context Protocol (MCP)↗]() lets AI assistants work wi"
+        }
+      ]
+    },
+    {
+      "query": "site:ramp.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://ramp.com/integrations/ramp-mcp",
+          "title": "Ramp MCP",
+          "snippet": "Ramp MCP\n\n## App description\n\nRamp MCP lets your team use AI copilots to get real work done in Ramp with plain language — checking balances, requesting reimbursements, and getting quick policy answers — with permissions enforced by Ramp roles.\n\n- Users can only access data they are privileged to see"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/mcp",
+          "title": "MCP — Ramp API docs",
+          "snippet": "MCP — Ramp API docs\n\nMCP\n\nThe Model Context Protocol (MCP)↗ lets AI assistants work with your systems directly. Ramp runs two MCP servers, one for your Ramp account and one for Ramp Data benchmarks.\n\n- Ramp MCP: connect AI assistants to your Ramp account to analyze spend, process approvals, and take"
+        },
+        {
+          "url": "https://docs.ramp.com/developer-api/v1/ramp-mcp",
+          "title": "Ramp MCP — Ramp API docs",
+          "snippet": "Ramp MCP — Ramp API docs\n\nRamp MCP\n\nRamp MCP connects AI tools such as Claude, ChatGPT, and Cursor to your Ramp account. Each connection acts as the signed-in user, with that user's Ramp permissions.\n\n## Connect\n\n- Claude: Install Ramp from Claude's directory↗, then sign in to Ramp.\n- ChatGPT: Insta"
+        },
+        {
+          "url": "https://agents.ramp.com/docs/guides/connecting",
+          "title": "Connecting · Docs · agents.ramp.com",
+          "snippet": "Connecting · Docs · agents.ramp.com\n\n# Connecting\n\nThere are three ways to connect your agents to Ramp:\n\nMCP, CLI, and API connection options\n\n| Criterion | CLI | MCP Connectors | API |\n| --- | --- | --- | --- |\n| Set up | CLI Instant | MCP Connectors Instant to 15 minutes | API Hours to days |\n| Ho"
+        },
+        {
+          "url": "https://builders.ramp.com/post/building-laminar/tools",
+          "title": "Tools",
+          "snippet": "While much of our team focuses on issuing cards, paying bills, and safely moving money, my job for the past several months has been designing and building out Laminar, the in-house agent harness for Ramp’s agentic products. We studied the other offerings on the market and decided that we could do be"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.ramp.com",
+      "final_url": "https://docs.ramp.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:33Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "48681a03156c02c03b624556d8bd9318147763437e9fa249fb37903934a7b062",
+      "text_len": 2922
+    },
+    {
+      "requested_url": "https://docs.ramp.com/developer-api/v1/api/authorization",
+      "final_url": "https://docs.ramp.com/developer-api/v1/api/authorization",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:26Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0011473f6ebb2737afdcb9cd3fac93459f19a5e0757dda694a0f01b3fbd478f8",
+      "text_len": 4928
+    },
+    {
+      "requested_url": "https://ramp.com/en-ca/pricing",
+      "final_url": "https://ramp.com/en-ca/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "bd163dbce595b67331892879839e926beba89e2bf465a931664aca6c4a8d2256",
+      "text_len": 15784
+    },
+    {
+      "requested_url": "https://docs.ramp.com/developer-api/v1/mcp",
+      "final_url": "https://docs.ramp.com/developer-api/v1/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b9ea8b58b48f044ccbb771a23a749ddc5d3e9882c7bdf9af51c2450324569323",
+      "text_len": 621
+    },
+    {
+      "requested_url": "https://docs.ramp.com/developer-api/v1/mcp-redirect-whitelist-request",
+      "final_url": "https://docs.ramp.com/developer-api/v1/mcp-redirect-whitelist-request",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b9b69a22cf322e1e75ea6f87dffb43ae9524c76b12716be9495ad5f72593b398",
+      "text_len": 866
+    },
+    {
+      "requested_url": "https://docs.ramp.com/developer-api/v1/ramp-data-mcp",
+      "final_url": "https://docs.ramp.com/developer-api/v1/ramp-data-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f1c93fa6ffb83991d167f86061a39510c02d60c4b4b2a1af710e2feeec24d859",
+      "text_len": 2678
+    },
+    {
+      "requested_url": "https://docs.ramp.com/developer-api/v1/ramp-mcp",
+      "final_url": "https://docs.ramp.com/developer-api/v1/ramp-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7ffd69cdf264a1686f5227c6eed36a0166d6003bff270473ba571770b6fa2e64",
+      "text_len": 1152
+    },
+    {
+      "requested_url": "https://docs.ramp.com/developer-api/v1/authorization",
+      "final_url": "https://docs.ramp.com/developer-api/v1/authorization",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:26Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5243e3aea5cc6288dc7c9f229448c2e5445e91d39a23dd84c85efb12209df650",
+      "text_len": 15748
+    },
+    {
+      "requested_url": "https://docs.ramp.com/llms.txt",
+      "final_url": "https://docs.ramp.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:33Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "880eb47075745731c69016d1020e6a286a7cb9c2cbc694c3f91178b492b3496c",
+      "text_len": 14577
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.ramp.com/developer-api/v1/authorization",
+        "quote": "Ramp uses OAuth 2.0. Your app gets an access token from `/developer/v1/token`",
+        "verified": true
+      },
+      {
+        "url": "https://docs.ramp.com/developer-api/v1/authorization",
+        "quote": "Authorization Code | Third-party apps, public integrations",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.ramp.com",
+        "quote": "Have a Ramp account? Create credentials and make your first API call.",
+        "verified": true
+      },
+      {
+        "url": "https://ramp.com/en-ca/pricing",
+        "quote": "Free CA$0/mo/user",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.ramp.com",
+        "quote": "Canonical OpenAPI schema for the Developer API: /openapi/developer-api.json.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.ramp.com/llms.txt",
+        "quote": "the full REST surface covers everything else",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.ramp.com/developer-api/v1/ramp-mcp",
+        "quote": "Ramp MCP connects AI tools such as Claude, ChatGPT, and Cursor to your Ramp account.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.ramp.com/developer-api/v1/mcp",
+        "quote": "Ramp runs two MCP servers, one for your Ramp account and one for Ramp Data benchmarks.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.ramp.com/developer-api/v1/authorization",
+        "quote": "Internal integrations, server-to-server",
+        "verified": true
+      },
+      {
+        "url": "https://docs.ramp.com",
+        "quote": "Don't have a Ramp account? Request a sandbox to start building right away.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://ramp.com/en-ca/pricing",
+        "quote": "Corporate Card Unlimited CAD and USD cards Card issuing controls",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

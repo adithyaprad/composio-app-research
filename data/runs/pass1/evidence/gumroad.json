@@ -1,0 +1,320 @@
+{
+  "slug": "gumroad",
+  "searches": [
+    {
+      "query": "Gumroad API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://gumroad.com/api/",
+          "title": "Gumroad",
+          "snippet": "API\n\n# API\n\n## Command line\n\nPrefer a terminal? The Gumroad CLI wraps every endpoint below and is built for humans and AI agents alike.\n\nInstall with Homebrew\n\n```\nbrew install antiwork/cli/gumroad\n```\n\nOr run the install script\n\n```\ncurl -fsSL https://gumroad.com/install-cli.sh | bash\n```\n\nEach end"
+        },
+        {
+          "url": "https://gumroad.com/help/article/280-create-application-api",
+          "title": "Create an application for the API - Gumroad Help Center",
+          "snippet": "Create an application for the API - Gumroad Help Center\n\n## Create an application for the API\n\nIn this article:\n\n- For just your Gumroad account\n\n- Generating an access token\n- For any Gumroad account\n\n- Sign in with Gumroad\n- Using a Redirect URI\n- Enabling your application\n\nTo create an applicatio"
+        },
+        {
+          "url": "https://gumkit.app/blog/gumroad-api-access-token/",
+          "title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+          "snippet": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)\n\n# Gumroad API Access Token: How to Create, Use, and Revoke It (2026)\n\nUpdated 2026-07-27 · GumKit guides\n\nIf you want to automate anything on your Gumroad account — pull your sales, bulk-edit prices, generate discount codes, or conn"
+        },
+        {
+          "url": "https://docs.n8n.io/integrations/builtin/credentials/gumroad",
+          "title": "Gumroad credentials | Nodes | n8n Docs",
+          "snippet": "Gumroad credentials | Nodes | n8n Docs\n\n# Gumroad credentials\n\nYou can use these credentials to authenticate the following nodes:\n\n- Gumroad Trigger\n\n## Prerequisites\n\nCreate a Gumroad account.\n\n## Supported authentication methods\n\n- API access token\n- OAuth2\n\n## Related resources\n\nRefer to Gumroad'"
+        },
+        {
+          "url": "https://www.postman.com/api-reference-library/gumroad/overview",
+          "title": "Gumroad | Postman API Network",
+          "snippet": "Gumroad | Postman API Network\n\n# Gumroad\n\nArnaud Lauret\n\n05:54 PM, June 26, 2026\n\nThe Gumroad API workspace enables developers to integrate with this platform for creators selling digital products.\n\nThis workspace provides access to the Gumroad API, enabling developers to integrate with this platfor"
+        }
+      ]
+    },
+    {
+      "query": "Gumroad developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://gumroad.com/api/",
+          "title": "Gumroad",
+          "snippet": "API\n\n# API\n\n## Command line\n\nPrefer a terminal? The Gumroad CLI wraps every endpoint below and is built for humans and AI agents alike.\n\nInstall with Homebrew\n\n```\nbrew install antiwork/cli/gumroad\n```\n\nOr run the install script\n\n```\ncurl -fsSL https://gumroad.com/install-cli.sh | bash\n```\n\nEach end"
+        },
+        {
+          "url": "https://gumroad.com/help/article/280-create-application-api",
+          "title": "Create an application for the API - Gumroad Help Center",
+          "snippet": "Create an application for the API - Gumroad Help Center\n\n## Create an application for the API\n\nIn this article:\n\n- For just your Gumroad account\n\n- Generating an access token\n- For any Gumroad account\n\n- Sign in with Gumroad\n- Using a Redirect URI\n- Enabling your application\n\nTo create an applicatio"
+        },
+        {
+          "url": "https://www.postman.com/api-reference-library/gumroad/overview",
+          "title": "Gumroad | Postman API Network",
+          "snippet": "Gumroad | Postman API Network\n\n# Gumroad\n\nArnaud Lauret\n\n05:54 PM, June 26, 2026\n\nThe Gumroad API workspace enables developers to integrate with this platform for creators selling digital products.\n\nThis workspace provides access to the Gumroad API, enabling developers to integrate with this platfor"
+        },
+        {
+          "url": "https://apis.io/apis/gumroad/v2-api/",
+          "title": "Gumroad v2 API",
+          "snippet": "# Gumroad v2 API\n\nCanonical: https://apis.io/apis/gumroad/v2-api/\nProvider: Gumroad — https://apis.io/providers/gumroad/\nBase URL: https://api.gumroad.com/v2\nDocumentation: https://app.gumroad.com/api\n\nGumroad v2 API is published by Gumroad on the APIs.io network, described by an AsyncAPI event-driv"
+        },
+        {
+          "url": "https://gumkit.app/blog/gumroad-api-access-token/",
+          "title": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)",
+          "snippet": "Gumroad API Access Token: How to Create, Use, and Revoke It (2026)\n\n# Gumroad API Access Token: How to Create, Use, and Revoke It (2026)\n\nUpdated 2026-07-27 · GumKit guides\n\nIf you want to automate anything on your Gumroad account — pull your sales, bulk-edit prices, generate discount codes, or conn"
+        }
+      ]
+    },
+    {
+      "query": "Gumroad pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://gumroad.com/pricing",
+          "title": "Gumroad pricing: 10% + 50¢ direct, 30% via Discover",
+          "snippet": "Gumroad pricing: 10% + 50¢ direct, 30% via Discover\n\n# Simple, transparent pricing\n\nWe believe in transparent pricing that helps you grow. No hidden fees, no monthly charges.\n\n \n\n \n\n \n\n### 10% + $0.50 \n\n Per transaction for all sales through your profile or direct links to your customers. \n\n### 30% "
+        },
+        {
+          "url": "https://sellfy.com/blog/gumroad-pricing/",
+          "title": "Gumroad Pricing 2026: 10% + 50¢ Is Closer to 14%",
+          "snippet": "- Sellfy\n- blog\n- tips & tricks\n- |By  Aleksey Haritonenko, Last Updated: 29 Sep, 2026\n\n# Gumroad Pricing 2026: 10% + 50¢ Is Closer to 14%\n\nSell downloads, subscriptions, and merch from one online store\n\nSellfy is the store builder behind 75K+ creators. One flat monthly fee, and no commissions on yo"
+        },
+        {
+          "url": "https://gumroad.com/signup",
+          "title": "Sign up for Gumroad",
+          "snippet": "Sign up for Gumroad\n\n# Join over 325,935 creators who have earned over $1,248,093,875 on Gumroad selling digital products and memberships.\n\nGoogle X"
+        },
+        {
+          "url": "https://everstood.com/teardowns/gumroad",
+          "title": "How Gumroad makes money taking 10% of every sale | Everstood",
+          "snippet": "How Gumroad makes money taking 10% of every sale | Everstood\n\n# How Gumroad makes money taking 10% of every sale\n\n20.66M\n\nOctober 2026. Third-party estimate, not official MAU/DAU. Semrush — up 3.69% on September's 19.93M, which was down from 31.08M in August.\n\nWhere visits come from (October 2026, S"
+        },
+        {
+          "url": "https://www.swell.is/content/gumroad-pricing",
+          "title": "Gumroad Pricing 2026: 10% + 50¢ Fees, Is It Free? | Swell",
+          "snippet": "Gumroad Pricing 2026: 10% + 50¢ Fees, Is It Free? | Swell\n\n# Gumroad Pricing 2026: How Much Does Gumroad Really Cost?\n\nGumroad is free to join with no monthly fee. It takes 10% + 50¢ per direct sale plus card processing, 30% on Discover sales, and 5% + 50¢ above $20K a month.\n\nSwell Team | April 16,"
+        }
+      ]
+    },
+    {
+      "query": "Gumroad official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://gumroad.com/mcp",
+          "title": "Gumroad MCP | Sell digital products from your AI assistant",
+          "snippet": "Gumroad MCP | Sell digital products from your AI assistant\n\n# Gumroad MCP\n\nConnect your Gumroad store to the AI assistant you already use. Check sales, draft products, publish them, and track payouts from your chat.\n\n Set up the connector \n\nYou’ll need a Gumroad account and an assistant that support"
+        },
+        {
+          "url": "https://gumroad.com/claude",
+          "title": "Gumroad MCP for Claude",
+          "snippet": "Gumroad MCP for Claude | Sell digital products\n\n# Gumroad MCP for Claude\n\nConnect your Gumroad store to Claude. Create product drafts, check sales, and track payouts from your chat.\n\nListed in Claude’s connector directory. You can also add it as a custom connector.\n\nYou’ll need a Gumroad account and"
+        },
+        {
+          "url": "https://gumroad.com/chatgpt",
+          "title": "Gumroad MCP for ChatGPT | Sell digital products",
+          "snippet": "Gumroad MCP for ChatGPT | Sell digital products\n\n# Gumroad MCP for ChatGPT\n\nConnect your Gumroad store to ChatGPT. Create product drafts, check sales, and track payouts from your chat.\n\nListed in ChatGPT’s plugin directory.\n\nYou’ll need a Gumroad account and MCP support in ChatGPT.\n\n## What can you "
+        },
+        {
+          "url": "https://gumroad.com/muse",
+          "title": "Gumroad MCP for Muse | Sell digital products",
+          "snippet": "Gumroad MCP for Muse | Sell digital products\n\n# Gumroad MCP for Muse\n\nSubmitted for review. The Gumroad connector is not yet available in Muse.\n\n \n\nAn MCP server for selling digital products\n\n## What does the connector support?\n\nUse Model Context Protocol (MCP) to connect your AI assistant to your s"
+        },
+        {
+          "url": "https://toolfolio.com/agent-resources/mcp-servers/gumroad-mcp",
+          "title": "Gumroad MCP — MCP Setup & Tools | Toolfolio",
+          "snippet": "Gumroad MCP — MCP Setup & Tools | Toolfolio\n\n# Gumroad MCP\n\nBy Gumroad · Official MCP server\n\n## What it does\n\nConnect your Gumroad store to an AI assistant with Model Context Protocol. List sales, draft products, publish them, and check payouts from your chat.\n\nConnection\n\nRemote\n\nAuthentication\n\nS"
+        }
+      ]
+    },
+    {
+      "query": "site:gumroad.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://codeupvik.gumroad.com/l/lcsrof",
+          "title": "MCP: The Missing Manual (2026-07-28 Spec, SDK v2)",
+          "snippet": "MCP: The Missing Manual (2026-07-28 Spec, SDK v2)\n\n$2.10\n\nhttps://schema.org/InStock\n\n# MCP: The Missing Manual (2026-07-28 Spec, SDK v2)\n\n$2.10\n\nhttps://schema.org/InStock\n\nThe Model Context Protocol changed on 28 July 2026. The revision removed the handshake and protocol sessions, added server/dis"
+        },
+        {
+          "url": "https://promptmasterstore.gumroad.com/l/mcp-cheat-sheet",
+          "title": "MCP Quick-Start Cheat Sheet — Connect Your AI to Everything in 10 Minutes (Free, No Code)",
+          "snippet": "MCP Quick-Start Cheat Sheet — Connect Your AI to Everything in 10 Minutes (Free, No Code)\n\n# MCP Quick-Start Cheat Sheet — Connect Your AI to Everything in 10 Minutes (Free, No Code)\n\n$0+\n\nhttps://schema.org/InStock\n\n##### Size\n\n47.4 KB\n\n5 pages\n\nYour AI assistant can't see your files, your code, or"
+        },
+        {
+          "url": "https://developassion.gumroad.com/l/knowii-model-context-protocol-mcp",
+          "title": "Knowii - Model Context Protocol (MCP)",
+          "snippet": "Knowii - Model Context Protocol (MCP)\n\n$22.39\n\nSébastien Dubois\n\n# Knowii - Model Context Protocol (MCP)\n\n$22.39\n\nhttps://schema.org/InStock\n\nEUR\n\nSébastien Dubois\n\nThis product has no reviews yet.\n\n## What is this?\n\nThis is a Masterclass about AI, Large Language Models (LLMs) and the Model Context "
+        },
+        {
+          "url": "https://concaption.gumroad.com/l/mcp",
+          "title": "MCP in One Picture, Plus a Starter List of Servers",
+          "snippet": "MCP in One Picture, Plus a Starter List of Servers\n\n# MCP in One Picture, Plus a Starter List of Servers\n\n$0+\n\nhttps://schema.org/InStock\n\nUSD\n\nUsama Navid\n\nNo refunds allowed\n\nOne port, many plugs. The explainer as a clean file, plus a starter list of servers you can run today.\n\nWhat you get\n\n- 22-"
+        },
+        {
+          "url": "https://t3pacademy.gumroad.com/l/tipjhj",
+          "title": "MCP Explained Visually (Visual Playbook for Building AI Agents and MCP Servers)",
+          "snippet": "MCP Explained Visually (Visual Playbook for Building AI Agents and MCP Servers)\n\n# MCP Explained Visually (Visual Playbook for Building AI Agents and MCP Servers)\n\n$3+\n\nhttps://schema.org/InStock\n\nUSD\n\nTech Fusionist\n\nName a fair price:\n\n$\n\n##### Size\n\n8.23 MB\n\n##### Length\n\n15 pages\n\n### Ratings\n\n5"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://gumroad.com/api",
+      "final_url": "https://gumroad.com/api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ff362bf213cf3283e96d0bf111101fbd00a1862539936f731a81071083e92f0f",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://gumroad.com/pricing",
+      "final_url": "https://gumroad.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:53Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d37b71318d419cffebb1306978ca6a0a60505f50bf1fcd864a835a95dd3efb85",
+      "text_len": 3806
+    },
+    {
+      "requested_url": "https://gumroad.com/mcp",
+      "final_url": "https://gumroad.com/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:55Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1a82879763445e82542a20b1cb45bcc41b0b46e0e97bc203aa415715cd1b8167",
+      "text_len": 3297
+    },
+    {
+      "requested_url": "https://concaption.gumroad.com/l/mcp",
+      "final_url": "https://concaption.gumroad.com/l/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "22b68659a94f0e6bc5559e0267d5657dd47060ea442779508c967bf83bff84d9",
+      "text_len": 1016
+    },
+    {
+      "requested_url": "https://developassion.gumroad.com/l/knowii-model-context-protocol-mcp",
+      "final_url": "https://developassion.gumroad.com/l/knowii-model-context-protocol-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "77b08f54fd1441d53e115c87880a8cfab1b8660fb795e6b4717528c4c29ff9ab",
+      "text_len": 731
+    },
+    {
+      "requested_url": "https://promptmasterstore.gumroad.com/l/mcp-cheat-sheet",
+      "final_url": "https://promptmasterstore.gumroad.com/l/mcp-cheat-sheet",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "111c77acfe96d65c5f3be1c933c9434e470f82a770b364762ce8d3143e108427",
+      "text_len": 1736
+    },
+    {
+      "requested_url": "https://gumroad.com/signup",
+      "final_url": "https://gumroad.com/signup",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:53Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7a595cb0d7a11e5ec29a7cde0b69c6ddc7d8261c8602998d5a59f225d88cb6a3",
+      "text_len": 148
+    },
+    {
+      "requested_url": "https://gumroad.com/help/article/280-create-application-api",
+      "final_url": "https://gumroad.com/help/article/280-create-application-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "117d8e6f099dd065e2483bd485c105ce9faaa66a042610b9cd22b8a83707f832",
+      "text_len": 5546
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://gumroad.com/help/article/280-create-application-api",
+        "quote": "send the user to Gumroad for authorization using a URL like this",
+        "verified": true
+      },
+      {
+        "url": "https://gumroad.com/api/",
+        "quote": "On the application page, click Generate access token to get the token you will use with the API.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://gumroad.com/help/article/280-create-application-api",
+        "quote": "First, sign in to your Gumroad account. Then, go to advanced settings. Here, you'll see a form to create a new application.",
+        "verified": true
+      },
+      {
+        "url": "https://gumroad.com/pricing",
+        "quote": "Gumroad doesn't charge you a monthly fee.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://gumroad.com/api/",
+        "quote": "The Gumroad OAuth API is based around REST. We return JSON for every request, including errors.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://gumroad.com/mcp",
+        "quote": "Connect your Gumroad store to the AI assistant you already use.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://gumroad.com/api/",
+        "quote": "Requests are rate limited per access token: 1500 requests per minute",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://gumroad.com/pricing",
+        "quote": "Digital products, e-books, courses, tutorials, and memberships—almost anything!",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

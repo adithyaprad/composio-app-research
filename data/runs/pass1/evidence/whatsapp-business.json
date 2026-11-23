@@ -1,0 +1,368 @@
+{
+  "slug": "whatsapp-business",
+  "searches": [
+    {
+      "query": "WhatsApp Business API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/access-tokens",
+          "title": "Access Tokens Guide",
+          "snippet": "# Access Tokens Guide\n\nThe platform supports the following access token types. The type you use depends on who uses your application, and whether you are a partner.\n\n- If you are a direct developer, meaning only you or your business accesses your own data, use a System User access token.\n- If you ar"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started",
+          "title": "WhatsApp Cloud API Get Started - Meta for Developers - Facebook",
+          "snippet": "# WhatsApp Cloud API Get Started\n\nWarning: This documentation is for developers building on the WhatsApp Business Platform. If you are a WhatsApp user experiencing issues with your personal account, visit the WhatsApp Help Center for support.\n\nThis guide helps developers quickly get started with the"
+        },
+        {
+          "url": "https://www.postman.com/meta/whatsapp-business-platform/documentation/wlk6lh4/whatsapp-cloud-api/",
+          "title": "WhatsApp Cloud API | Documentation | Postman API Network",
+          "snippet": "WhatsApp Cloud API | Documentation | Postman API Network\n\n# WhatsApp Cloud API Documentation\n\n﻿ WhatsApp Cloud API, hosted by Meta, is the official WhatsApp Business Platform API used for business messaging. This collection contains common queries, sample responses, and links to supporting documenta"
+        },
+        {
+          "url": "https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/",
+          "title": "Using Authorization Tokens for the WhatsApp Business Platform",
+          "snippet": "Using Authorization Tokens for the WhatsApp Business Platform\n\nDecember 5, 2022\n\n# Using Authorization Tokens for the WhatsApp Business Platform\n\n#### By Rashed Talukder\n\nThe WhatsApp Business Platform makes it easy to send WhatsApp messages to your customers and automate replies. Here, we’ll explor"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/development/create-an-app/whatsapp-use-case",
+          "title": "Customize the Connect with customers through WhatsApp Use Case",
+          "snippet": "# Customize the Connect with customers through WhatsApp Use Case\n\nThis document shows you how to customize the Connect with customers through WhatsApp use case you added to your app during the app creation process in Meta's App Dashboard.\n\nAfter creating your app with the WhatsApp use case you are r"
+        }
+      ]
+    },
+    {
+      "query": "WhatsApp Business developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started",
+          "title": "WhatsApp Cloud API Get Started - Meta for Developers - Facebook",
+          "snippet": "# WhatsApp Cloud API Get Started\n\nWarning: This documentation is for developers building on the WhatsApp Business Platform. If you are a WhatsApp user experiencing issues with your personal account, visit the WhatsApp Help Center for support.\n\nThis guide helps developers quickly get started with the"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/access-tokens",
+          "title": "Access Tokens Guide",
+          "snippet": "# Access Tokens Guide\n\nThe platform supports the following access token types. The type you use depends on who uses your application, and whether you are a partner.\n\n- If you are a direct developer, meaning only you or your business accesses your own data, use a System User access token.\n- If you ar"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/overview/",
+          "title": "WhatsApp Business Platform | Meta for Developers",
+          "snippet": "WhatsApp Business Platform | Meta for Developers\n\n# WhatsApp Business Platform \n\n Drive revenue growth, boost efficiency, and deliver exceptional customer experiences with the WhatsApp Business Platform—our enterprise-grade APIs for messaging and calling. \n\n## Demo the API \n\nPreview an interactive e"
+        },
+        {
+          "url": "https://developers.facebook.com/docs/whatsapp/business-management-api/",
+          "title": "WhatsApp Business Management API",
+          "snippet": "About the WhatsApp Business Platform | Developer Documentation\n\nWhatsApp Business Platform\n\nWas this helpful?\n\n# About the WhatsApp Business Platform\n\nUpdated: Jun 2, 2026\n\nCopy for LLM\n\nView as Markdown\n\nThe WhatsApp Business Platform enables businesses to communicate with customers at scale.\n\nThis"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/development/create-an-app/whatsapp-use-case",
+          "title": "Customize the Connect with customers through WhatsApp Use Case",
+          "snippet": "# Customize the Connect with customers through WhatsApp Use Case\n\nThis document shows you how to customize the Connect with customers through WhatsApp use case you added to your app during the app creation process in Meta's App Dashboard.\n\nAfter creating your app with the WhatsApp use case you are r"
+        }
+      ]
+    },
+    {
+      "query": "WhatsApp Business pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://whatsappbusiness.com/products/business-app-meta-one/",
+          "title": "Meta One on WhatsApp Business App | WhatsApp for Business",
+          "snippet": "Meta One on WhatsApp Business App | WhatsApp for Business\n\n# Meta One on WhatsApp Business app\n\nMeta One is a subscription service designed to grow your business where your customers already discover, connect, and buy.\n\n## Meta One works natively within the app you already use every day\n\nServe more "
+        },
+        {
+          "url": "https://whatsappbusiness.com/resources/faq/",
+          "title": "Frequently Asked Questions | Get answers from WhatsApp for Business",
+          "snippet": "Frequently Asked Questions | Get answers from WhatsApp for Business\n\n# Frequently Asked Questions about WhatsApp for Business\n\nGet answers to common questions about using the WhatsApp Business Platform and WhatsApp Business app for business messaging and customer engagement.\n\n## WhatsApp Business Pl"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+          "title": "Pricing on the WhatsApp Business Platform",
+          "snippet": "# Pricing on the WhatsApp Business Platform\n\nWarning: This page encompasses pricing across Cloud API and the Marketing Messages API for WhatsApp, for the following message categories: Marketing, utility, authentication, service, and Meta Business Agent.\n\nWarning: This page reflects pricing updates t"
+        },
+        {
+          "url": "https://chatfuel.com/blog/whatsapp-business-pricing",
+          "title": "WhatsApp Business Pricing: App, API and Meta Fees",
+          "snippet": "# WhatsApp Business Pricing: App, API and Meta Fees\n\nWhat WhatsApp Business costs in 2026: the free app, Meta's per-message API fees by country, the October 2026 changes and what a platform adds.\n\nKatie Ranaraja Updated October 21, 202613 min read\n\nFor many of your customers, WhatsApp is the first p"
+        },
+        {
+          "url": "https://whatsappbusiness.com/products/platform-pricing/",
+          "title": "WhatsApp Business Platform Pricing | WhatsApp API Pricing",
+          "snippet": "WhatsApp Business Platform Pricing | WhatsApp API Pricing\n\n# Business Platform Pricing\n\n## Simple and transparent pricing\n\nDrive your business goals for growth and customer engagement knowing pricing on WhatsApp is consistent with industry-standard pricing for messaging.\n\n## The simplicity you need "
+        }
+      ]
+    },
+    {
+      "query": "WhatsApp Business official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp",
+          "title": "WhatsApp Business Tools MCP - Meta for Developers - Facebook",
+          "snippet": "# WhatsApp Business Tools MCP\n\nFor developers building on the WhatsApp Business Platform (Cloud API) — the WhatsApp Business Tools MCP server lets your AI agent and IDE assistant manage and debug your WhatsApp Business integration from one place. It enables an agent to discover the businesses and Wh"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+          "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+        },
+        {
+          "url": "https://www.toolbit.ai/blog/whatsapp-business-mcp-ai-agents-setup",
+          "title": "WhatsApp Business Tools MCP: Set It Up With AI Agents",
+          "snippet": "WhatsApp Business Tools MCP: Set It Up With AI Agents\n\n# WhatsApp Business Tools MCP: Let AI Agents Set It Up\n\nLet an AI agent do the fiddly WhatsApp Business setup for you: account creation, phone verification, templates, and webhooks, handled in your chat via Meta's new MCP server.\n\nToolbit AI - T"
+        },
+        {
+          "url": "https://findaiagency.com/whatsapp-business-agent-setup-mcp",
+          "title": "WhatsApp Business MCP: What an AI Agent Automates",
+          "snippet": "WhatsApp Business MCP: What an AI Agent Automates\n\n# Meta now lets an AI agent set up WhatsApp Business — here's what it actually automates\n\nPublished September 18, 2026 Updated September 18, 2026 By ABD Legacy LLC\n\nMeta shipped a WhatsApp Business Tools MCP server on 15 September 2026, and it lets "
+        },
+        {
+          "url": "https://martechdb.com/vendors/whatsapp",
+          "title": "WhatsApp MCP server review: official URL and setup for Claude, ChatGPT and Cursor | MartechDB",
+          "snippet": "WhatsApp MCP server review: official URL and setup for Claude, ChatGPT and Cursor | MartechDB\n\n# WhatsApp MCP server\n\nwhatsapp.com, developers.facebook.com, whatsappbusiness.com\n\nYes. WhatsApp publishes an official MCP server at https://mcp.facebook.com/whatsapp_business_tools. It's hosted and lets "
+        }
+      ]
+    },
+    {
+      "query": "site:developers.facebook.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+          "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/devtools-mcp/",
+          "title": "Meta Social Technologies MCP | Meta for Developers",
+          "snippet": "Developer Tools MCP | Developer Documentation\n\nMCP\n\nWas this helpful?\n\n# Developer Tools MCP\n\nUpdated: Jun 12, 2026\n\nCopy for LLM\n\nThe Meta Developer Tools MCP server gives AI agents and IDE assistants a single entry point for the day-to-day work of building on the Meta developer platform. With it c"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+          "title": "Ads MCP Server",
+          "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+        },
+        {
+          "url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+          "title": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent",
+          "snippet": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\nJune 30, 2026\n\n# Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\n#### By Zoë Lieberman\n\nNOTE: As of August 18, 2026, we are now referrin"
+        },
+        {
+          "url": "https://developers.facebook.com/blog/post/2026/07/16/meta-ads-mcp-server/",
+          "title": "Meta's ads MCP server is now available for developers",
+          "snippet": "Meta's ads MCP server is now available for developers\n\nJuly 16, 2026\n\n# Meta's ads MCP server is now available for developers\n\n#### By Sydney Levitan, Sanjay Patel\n\nUpdated September 22, 2026\n\nToday, we are opening up our ads MCP server to any developer with their own Meta app. You can now connect y"
+        }
+      ]
+    },
+    {
+      "query": "site:facebook.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "title": "Connect AI Agents to Meta with MCP | Developer Documentation",
+          "snippet": "# Connect AI agents to Meta with MCP\n\nMeta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.\n\nNote: This page is documentation, not an MCP server. Don't add this page's URL to your MCP client. Use "
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/devtools-mcp",
+          "title": "Meta Social Technologies MCP - Meta for Developers - Facebook",
+          "snippet": "# Meta Social Technologies MCP\n\nFor developers building apps and integrations on the Meta Social Technologies Developer Platform (developers.facebook.com) — the Meta Social Technologies MCP server helps you manage the Meta apps and integrations you build there. It gives your AI agent and IDE assista"
+        },
+        {
+          "url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+          "title": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent",
+          "snippet": "Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\nJune 30, 2026\n\n# Announcing Meta Social Technologies MCP: Explore and debug your Meta app integrations from your AI agent\n\n#### By Zoë Lieberman\n\nNOTE: As of August 18, 2026, we are now referrin"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+          "title": "Ads MCP Server",
+          "snippet": "# Ads MCP Server\n\nThe ads MCP server is a Meta-hosted Model Context Protocol server that lets you manage Meta ads directly from an AI agent. It is one of Meta's ads AI connectors — a family of integrations that expose Meta business surfaces to third-party AI clients through structured, permission-sc"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp/connect-an-mcp-client",
+          "title": "Connect an MCP client to Meta - Meta for Developers - Facebook",
+          "snippet": "# Connect an MCP client to Meta\n\nUse this guide to connect a supported AI client to a remote Meta MCP server and authorize access with OAuth. When you finish, your client can discover and execute the server's available tools.\n\n## Before you begin\n\nTo connect a client, you need:\n\n- A current version "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developers.facebook.com/docs/whatsapp",
+      "final_url": "https://developers.facebook.com/docs/whatsapp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:55Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "851299227833cba30347851ae35690973b2830b77a590c79a6cf3c25986d5851",
+      "text_len": 1282
+    },
+    {
+      "requested_url": "https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/",
+      "final_url": "https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "77bee236ce7b6caba558eacb07ea6b888883d147bec6b5c273c7610cff298253",
+      "text_len": 7122
+    },
+    {
+      "requested_url": "https://developers.facebook.com/docs/whatsapp/business-management-api/",
+      "final_url": "https://developers.facebook.com/docs/whatsapp/business-management-api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:48Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4e78b5c2817d77c2cf0a9d32fd7682e1dbde899703170f30eb63e31ff465f922",
+      "text_len": 12879
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "final_url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5a4e0c36b46d2f3dd748d0476f537218b4d04fed0fd1f9765b9ad4485ed824ac",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/mcp",
+      "final_url": "https://developers.facebook.com/documentation/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8c4bcc389ebe0c93286e6c607c3c5bacf2ace351c4e3d88bc595b5b2865d6c2a",
+      "text_len": 4885
+    },
+    {
+      "requested_url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+      "final_url": "https://developers.facebook.com/blog/post/2026/06/30/developer-tools-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d68a315685125a4ab9be8a67787b281b5981d226f076254936771385a69e0d2c",
+      "text_len": 3192
+    },
+    {
+      "requested_url": "https://developers.facebook.com/blog/post/2026/07/16/meta-ads-mcp-server/",
+      "final_url": "https://developers.facebook.com/blog/post/2026/07/16/meta-ads-mcp-server/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "87296f4d59d6f462ab35b1ed91382ac19eb5d26c9d2fa11ed73804d3d962b1d7",
+      "text_len": 7616
+    },
+    {
+      "requested_url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+      "final_url": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "576ad5c93e83bea79f121743dbd9dc127b3dd884845bee4640f04777ecc1ab9e",
+      "text_len": 2007
+    },
+    {
+      "requested_url": "https://developers.facebook.com/llms.txt",
+      "final_url": "https://developers.facebook.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:55Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "5c6de424bf6299cb614fd5fe65e8bbda321447913184fa7348c2555fb65f7952",
+      "text_len": 6022
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.facebook.com/docs/whatsapp/business-management-api/",
+        "quote": "Authentication uses OAuth (not 2.0) access tokens, while permissions restrict access to specific resources.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/",
+        "quote": "Failure to include this header causes the API to return a 401 Unauthorized response code.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/",
+        "quote": "Start by making sure you have a developer account on Meta for Developers.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing",
+        "quote": "Businesses are only charged when a message is delivered.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.facebook.com/docs/whatsapp/business-management-api/",
+        "quote": "The WhatsApp Business Platform Cloud API enables you to programmatically message and call on WhatsApp.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.facebook.com/documentation/mcp",
+        "quote": "Meta runs official remote Model Context Protocol (MCP) servers that bring Facebook, Instagram, WhatsApp, and Meta Ads capabilities to your agentic workflows.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.facebook.com/docs/whatsapp/business-management-api/",
+        "quote": "The WhatsApp Business Platform is built on Graph API and uses HTTP protocol.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developers.facebook.com/docs/whatsapp/business-management-api/",
+        "quote": "The WhatsApp Business Platform enables businesses to communicate with customers at scale.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [
+      {
+        "field": "mcp_url",
+        "url": "https://mcp.facebook.com/whatsapp_business_tools"
+      }
+    ],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

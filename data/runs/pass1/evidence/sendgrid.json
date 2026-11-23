@@ -1,0 +1,339 @@
+{
+  "slug": "sendgrid",
+  "searches": [
+    {
+      "query": "SendGrid API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+          "title": "Authentication | SendGrid Docs",
+          "snippet": "# Authentication\n\n## Twilio supported SDKs\n\nThe Twilio SendGrid Web REST API v3 provides SDKs for seven different languages.\n\n- C#\n- Go\n- Java\n- Node.js\n- PHP\n- Python\n- Ruby\n\n## Authorization header\n\nTo authenticate, add an HTTP `Authorization` header to your API request that contains an API Key.\n\n"
+        },
+        {
+          "url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+          "title": "Authentication",
+          "snippet": "# Authentication\n\nTwilio SendGrid supports API keys delivered via Bearer token or Basic authentication, depending on the Twilio SendGrid functionality you are using. In addition to Bearer API key authentication, Twilio SendGrid recommends two-factor authentication (2FA) to improve security.\n\n## API "
+        },
+        {
+          "url": "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/api-keys",
+          "title": "API Keys",
+          "snippet": "# API Keys\n\n> [!WARNING]\n> \n> - Twilio supports a key longer than 69 characters. No exceptions can be made for third-party infrastructure.\n> - Twilio limits accounts to 100 API keys.\n> - You can't give an API key greater permissions than your own.\n> - The Twilio SendGrid Console displays the API key"
+        },
+        {
+          "url": "https://www.twilio.com/docs/sendgrid/api-reference/api-keys/create-api-keys",
+          "title": "Create API keys",
+          "snippet": "# Create API keys\n\n## API Overview\n\nYour application, mail client, or website can all use API (Application Programming Interface) keys to authenticate access to SendGrid services. You can revoke an API key at any time without having to change your username and password, and an API key can be scoped "
+        },
+        {
+          "url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/api-getting-started",
+          "title": "Getting started with the SendGrid API",
+          "snippet": "# Getting started with the SendGrid API\n\nYou can send your first email with the SendGrid API using cURL or one of the official SendGrid libraries. This guide walks through the cURL approach.\n\n## Prerequisites for sending your first email with the SendGrid API\n\nThese instructions describe how to send"
+        }
+      ]
+    },
+    {
+      "query": "SendGrid developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+          "title": "Authentication",
+          "snippet": "# Authentication\n\n## Twilio supported SDKs\n\nThe Twilio SendGrid Web REST API v3 provides SDKs for seven different languages.\n\n- C#\n- Go\n- Java\n- Node.js\n- PHP\n- Python\n- Ruby\n\n## Authorization header\n\nTo authenticate, add an HTTP `Authorization` header to your API request that contains an API Key.\n\n"
+        },
+        {
+          "url": "https://www.twilio.com/docs/sendgrid/api-reference",
+          "title": "SendGrid v3 API reference",
+          "snippet": "# SendGrid v3 API reference\n\nThe SendGrid v3 Web API provides a REST interface to send email at scale and ensure your application can handle high volumes.\n\nThe SendGrid API endpoints allow you to integrate with your tech stack to send transactional emails, create marketing campaigns, manage your con"
+        },
+        {
+          "url": "https://www.twilio.com/docs/sendgrid/api-reference/api-keys",
+          "title": "API Keys",
+          "snippet": "# API Keys\n\nYour application, mail client, or website can all use API (Application Programming Interface) keys to authenticate access to SendGrid services. You can revoke an API key at any time without having to change your username and password, and an API key can be scoped to perform a limited num"
+        },
+        {
+          "url": "https://www.twilio.com/docs/sendgrid/for-developers",
+          "title": "Twilio SendGrid developer documentation",
+          "snippet": "# Twilio SendGrid developer documentation\n\nTwilio SendGrid documentation has three main sections:\n\n- Developer documentation (where you are now)\n- User interface (UI) documentation\n- API reference\n\nDeveloper documentation describes how to implement SendGrid's APIs and developer-focused features.\n\n##"
+        },
+        {
+          "url": "https://www.twilio.com/docs/sendgrid/api-reference/api-keys/create-api-keys",
+          "title": "Create API keys",
+          "snippet": "# Create API keys\n\n## API Overview\n\nYour application, mail client, or website can all use API (Application Programming Interface) keys to authenticate access to SendGrid services. You can revoke an API key at any time without having to change your username and password, and an API key can be scoped "
+        }
+      ]
+    },
+    {
+      "query": "SendGrid pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.twilio.com/en-us/products/email-api/pricing",
+          "title": "Twilio SendGrid Email API pricing",
+          "snippet": "Email API Pricing | Twilio\n\n# Start sending with a free SendGrid Email API trial \n\n \n\n \n\n## SendGrid Email API pricing summary \n\n- Free trial lets you send 100 emails/day for 60 days\n- Essentials plan starts at $19.95 per month\n- Exact pricing depends on email send volume, features\n- Pro and premier"
+        },
+        {
+          "url": "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/upgrading-your-plan",
+          "title": "Upgrade your plan",
+          "snippet": "# Upgrade your plan\n\nWhen you sign up for a SendGrid account, you can start a 60-day free trial to explore the Email API and Marketing Campaigns features. During or after the trial period, you can upgrade your plan to meet your email sending needs.\n\n## Free trial\n\nDuring the 60-day free trial period"
+        },
+        {
+          "url": "https://support.sendgrid.com/hc/en-us/articles/35270136965403-Overview-of-60-Day-Free-Trial-Plans-for-New-SendGrid-Accounts",
+          "title": "Overview of 60-Day Free Trial Plans for New SendGrid Accounts – SendGrid",
+          "snippet": "Overview of 60-Day Free Trial Plans for New SendGrid Accounts – SendGrid\n\n# Overview of 60-Day Free Trial Plans for New SendGrid Accounts \n\n## Overview\n\nBeginning March 25, 2025 and when creating a new Twilio SendGrid account for email sending through either Twilio Console (then navigating to SendGr"
+        },
+        {
+          "url": "https://www.twilio.com/en-us/products/marketing-campaigns/pricing",
+          "title": "Marketing Campaigns Pricing | Twilio",
+          "snippet": "Marketing Campaigns Pricing | Twilio\n\n# Try SendGrid Marketing Campaigns \n\n- Start with a free trial—no credit card required \n- Pick a plan for your email volume and contact storage \n- Unlock volume discounts as you scale \n\n \n\n \n\n## Marketing Campaigns Plans \n\nPricing is determined by monthly contac"
+        },
+        {
+          "url": "https://www.twilio.com/en-us/sendgrid",
+          "title": "SendGrid Email API and Email Marketing Campaigns",
+          "snippet": "SendGrid Email API and Email Marketing Campaigns | Twilio\n\n# SendGrid ❤️ Twilio. We moved in together on Twilio.com! \n\nWe merged our websites to make things simpler. You can now find all our trusted email solutions, plus everything else Twilio offers, over on Twilio.com.\n\nFree trial\n\nNo credit card "
+        }
+      ]
+    },
+    {
+      "query": "SendGrid official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.usecarly.com/blog/sendgrid-mcp/",
+          "title": "SendGrid MCP: No Official Server, and What to Use Instead",
+          "snippet": "SendGrid MCP: No Official Server, and What to Use Instead\n\n \n\n Jul 19, 2026 \n\n# SendGrid MCP: No Official Server, and What to Use Instead\n\nNo — SendGrid does not ship an official MCP server. That answer needs a caveat, because two things nearby look like one and neither is. Twilio (which owns SendGr"
+        },
+        {
+          "url": "https://smtpedia.com/platforms/sendgrid/api/",
+          "title": "SendGrid API 2026: v3 REST, 7 SDKs and MCP Status",
+          "snippet": "SendGrid API 2026: v3 REST, 7 SDKs and MCP Status\n\n Transactional email service Twilio-owned since 2019; the free plan ended 27 May 2025\n\n# SendGrid API + MCP (2026): v3 REST, 7 SDKs, docs-only MCP\n\nLast verified Aug 27, 2026\n\nBy Alaa Touil\n\nEmail infrastructure specialist, 8+ years in SMTP and deli"
+        },
+        {
+          "url": "https://www.scalekit.com/blog/sendgrid-mcp-vs-api",
+          "title": "SendGrid MCP vs API for AI Agents (2026)",
+          "snippet": "SendGrid MCP vs API for AI Agents (2026)\n\nOct 5, 2026\n\n# SendGrid MCP vs SendGrid API for AI Agents (2026)\n\nNityashree Yadunath\n\nProduct Marketing Manager\n\n## TL;DR\n\n- SendGrid ships no MCP server that executes API calls. Twilio's hosted MCP server indexes SendGrid docs, but it is read-only.\n- Every"
+        },
+        {
+          "url": "https://mcp.pipedream.com/app/sendgrid",
+          "title": "Twilio SendGrid MCP Server",
+          "snippet": "# Twilio SendGrid MCP Server\n\nSend marketing and transactional email through the Twilio SendGrid platform with the Email API, proprietary mail transfer agent, and infrastructure for scalable delivery.\n\nMarketing\n\nConfigure Twilio SendGrid\n\nConnect your account and select your client below to get sta"
+        },
+        {
+          "url": "https://mymcptools.com/compare/resend-vs-sendgrid",
+          "title": "Resend MCP Server vs SendGrid MCP Server — MCP Server Comparison | MyMCPTools",
+          "snippet": "Resend MCP Server vs SendGrid MCP Server — MCP Server Comparison | MyMCPTools\n\n# Resend MCP Server vs SendGrid MCP Server\n\nUpdated June 2026\n\nCompare these two MCP servers to find which one fits your needs best.\n\nResend MCP Server\n\nby Resend\n\n✓ Official\n\nSendGrid MCP Server\n\nby Garoth (Community)\n\nD"
+        }
+      ]
+    },
+    {
+      "query": "site:sendgrid.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://mc.sendgrid.com/",
+          "title": "SendGrid",
+          "snippet": "SendGrid\n\nSendGrid"
+        },
+        {
+          "url": "https://sendgrid.com/en-us",
+          "title": "Get your emails to the inbox—where they belong.",
+          "snippet": "SendGrid Email API and Email Marketing Campaigns | SendGrid\n\nTwilio SendGrid\n\n# Get your emails to the inbox—where they belong.\n\n<titleAn icon of a outbound link arrow</title <path class=\"icon-stroke\" d=\"M75.3037 3.98207L3 75.5935M75.3037 3.98207L76.0435 43.3021M75.3037 3.98207L35.951 3.59351\" strok"
+        },
+        {
+          "url": "https://mc.sendgrid.com/contacts/import",
+          "title": "SendGrid",
+          "snippet": "SendGrid\n\nSendGrid"
+        },
+        {
+          "url": "https://mc-people.staging.sendgrid.com/",
+          "title": "SendGrid",
+          "snippet": "SendGrid\n\nSendGrid"
+        },
+        {
+          "url": "https://mc.sendgrid.com/single-sends/3f3d97a7-3124-5306-3f3d-97a73720955b/editor/modules?moduleId=7cd4c72c-c042-4c16-82f3-4aca5b1f0da3.1.1.2.1.1",
+          "title": "SendGrid",
+          "snippet": "SendGrid\n\nSendGrid"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://sendgrid.com",
+      "final_url": "https://sendgrid.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:30Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "ab29599de8bdee72265cb4e45424cdf582e4bb54e7a186f2706a41ec7d7e928b",
+      "text_len": 1412
+    },
+    {
+      "requested_url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+      "final_url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "240030d7d4f40363c963fc072b48f56ac901bde80ec46429c7396d8fd9aaeef3",
+      "text_len": 1082
+    },
+    {
+      "requested_url": "https://support.sendgrid.com/hc/en-us/articles/35270136965403-Overview-of-60-Day-Free-Trial-Plans-for-New-SendGrid-Accounts",
+      "final_url": "https://support.sendgrid.com/hc/en-us/articles/35270136965403-Overview-of-60-Day-Free-Trial-Plans-for-New-SendGrid-Accounts",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:26Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8074f3abab122835f6307b01722906c162887c450c9fa269248979adc708d87b",
+      "text_len": 8653
+    },
+    {
+      "requested_url": "https://www.scalekit.com/blog/sendgrid-mcp-vs-api",
+      "final_url": "https://www.scalekit.com/blog/sendgrid-mcp-vs-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:27Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fdbb23de32a1072a8904ce5caadae2e54f2091d59520cbada57aa8afc24dc989",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://mc-people.staging.sendgrid.com/",
+      "final_url": "https://mc-people.staging.sendgrid.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "841e8d5122393128f59ca93299f1befe98440f624bbaa32ae27c48bb402d4f36",
+      "text_len": 18
+    },
+    {
+      "requested_url": "https://mc.sendgrid.com/",
+      "final_url": "https://mc.sendgrid.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "841e8d5122393128f59ca93299f1befe98440f624bbaa32ae27c48bb402d4f36",
+      "text_len": 18
+    },
+    {
+      "requested_url": "https://mc.sendgrid.com/contacts/import",
+      "final_url": "https://mc.sendgrid.com/contacts/import",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "841e8d5122393128f59ca93299f1befe98440f624bbaa32ae27c48bb402d4f36",
+      "text_len": 18
+    },
+    {
+      "requested_url": "https://mc.sendgrid.com/single-sends/3f3d97a7-3124-5306-3f3d-97a73720955b/editor/modules?moduleId=7cd4c72c-c042-4c16-82f3-4aca5b1f0da3.1.1.2.1.1",
+      "final_url": "https://mc.sendgrid.com/single-sends/3f3d97a7-3124-5306-3f3d-97a73720955b/editor/modules?moduleId=7cd4c72c-c042-4c16-82f3-4aca5b1f0da3.1.1.2.1.1",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "841e8d5122393128f59ca93299f1befe98440f624bbaa32ae27c48bb402d4f36",
+      "text_len": 18
+    },
+    {
+      "requested_url": "https://sendgrid.com/pricing",
+      "final_url": "https://sendgrid.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:33Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "ab29599de8bdee72265cb4e45424cdf582e4bb54e7a186f2706a41ec7d7e928b",
+      "text_len": 1412
+    },
+    {
+      "requested_url": "https://www.twilio.com/llms.txt",
+      "final_url": "https://www.twilio.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:33Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "051185b1202eeba2dc6155b108ad1b5d80477f9656b3d0b24b04152c4704dbde",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+        "quote": "To authenticate, add an HTTP `Authorization` header to your API request that contains an API Key.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://support.sendgrid.com/hc/en-us/articles/35270136965403-Overview-of-60-Day-Free-Trial-Plans-for-New-SendGrid-Accounts",
+        "quote": "users will be given a 60 day timed free trial plan",
+        "verified": true
+      },
+      {
+        "url": "https://sendgrid.com/pricing",
+        "quote": "No credit card required",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+        "quote": "The Twilio SendGrid Web REST API v3 provides SDKs for seven different languages.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://www.scalekit.com/blog/sendgrid-mcp-vs-api",
+        "quote": "SendGrid ships no MCP server that executes API calls.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://support.sendgrid.com/hc/en-us/articles/35270136965403-Overview-of-60-Day-Free-Trial-Plans-for-New-SendGrid-Accounts",
+        "quote": "creating an API key with email send permissions and then sending from your authenticated domain via your API key",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://sendgrid.com",
+        "quote": "The trusted SendGrid Email API for delivery at scale.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

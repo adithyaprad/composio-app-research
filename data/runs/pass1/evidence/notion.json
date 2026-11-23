@@ -1,0 +1,363 @@
+{
+  "slug": "notion",
+  "searches": [
+    {
+      "query": "Notion API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.notion.com/guides/authorization/overview",
+          "title": "Authorization",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authorization\n\n> Authenticate Notion API requests with personal access tokens, internal connection tokens, or O"
+        },
+        {
+          "url": "https://developers.notion.com/reference/authentication",
+          "title": "Authentication - Notion Docs",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Learn how to authenticate your connection requests using bearer tokens.\n\nRequests use the HTT"
+        },
+        {
+          "url": "https://developers.notion.com/guides/notion-api/quick-start",
+          "title": "Quickstart",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Create a page in your Notion workspace with a personal access token and a single API request.\n\nBu"
+        },
+        {
+          "url": "https://developers.notion.com/guides/connections-and-tokens/personal-access-tokens",
+          "title": "Personal access tokens",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Personal access tokens\n\n> Create and manage personal access tokens for Notion API requests, scripts, and Worker"
+        },
+        {
+          "url": "https://developers.notion.com/guides/connections-and-tokens/oauth-integrations/overview",
+          "title": "OAuth integrations",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# OAuth integrations\n\n> Build an internal tool for your Notion workspaces where each user authorizes their own ac"
+        }
+      ]
+    },
+    {
+      "query": "Notion developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.notion.com/guides/authorization/overview",
+          "title": "Authorization",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authorization\n\n> Authenticate Notion API requests with personal access tokens, internal connection tokens, or O"
+        },
+        {
+          "url": "https://developers.notion.com/guides/notion-api/quick-start",
+          "title": "Quickstart",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Create a page in your Notion workspace with a personal access token and a single API request.\n\nBu"
+        },
+        {
+          "url": "https://developers.notion.com/guides/connections-and-tokens/overview",
+          "title": "Connections and tokens",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connections and tokens\n\n> Compare personal access tokens, internal connections, OAuth integrations, and public "
+        },
+        {
+          "url": "https://developers.notion.com/reference/intro",
+          "title": "Introduction",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Introduction\n\n> Find the base URL, headers, and data formats for Notion API requests.\n\nSend requests over HTTPS"
+        },
+        {
+          "url": "https://developers.notion.com/reference/create-a-token",
+          "title": "Create a token",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Create a token\n\n> Creates an access token that a third-party service can use to authenticate with Notion.\n\n> [!"
+        }
+      ]
+    },
+    {
+      "query": "Notion pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.notion.com/pricing",
+          "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
+          "snippet": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.\n\n# One tool to run your company.\n\nPrice in USD\n\n## Essentials for staying organized.\n\n### Free\n\n$0 per member / month\n\nFor individuals to organize personal projects and life.\n\nIncludes:\n\n- Trial of Notion AI\n- Basic forms\n- Basic sites\n- Noti"
+        },
+        {
+          "url": "https://www.notion.com/help/paid-plan-trials",
+          "title": "Notion paid plan trials | Notion Help",
+          "snippet": "Notion paid plan trials | Notion Help\n\n# Paid plan trials\n\n## Learn how you can trial Notion's paid plans.\n\nWe offer Business Plan trials to teams getting started on Notion. If you're new to Notion, you can start a Business Plan trial when you create your workspace.\n\nWhen you start a trial from the "
+        },
+        {
+          "url": "https://www.notion.com/help/upgrade-or-downgrade-your-plan",
+          "title": "Change your Notion plan | Notion Help",
+          "snippet": "Change your Notion plan | Notion Help\n\n# Change your plan\n\n## We offer four different pricing plans for every type of user and team. Here, we'll walk through each one and what it means to upgrade or downgrade your workspace.\n\nNote: Plans apply and are billed at the workspace level. You can have mult"
+        },
+        {
+          "url": "https://www.notion.com/help/complimentary-ai-responses",
+          "title": "Notion AI trial usage | Notion Help",
+          "snippet": "Notion AI trial usage | Notion Help\n\n# Try Notion AI on Free and Plus plans\n\n## Everyone can try Notion AI features for free.\n\nEveryone can try Notion AI for free. Once you've used all your trial usage, you will see a message that an upgrade to the Business or Enterprise Plan is necessary to continu"
+        },
+        {
+          "url": "https://www.notion.com/startups",
+          "title": "Your connected workspace for wiki, docs & projects | Notion",
+          "snippet": "Your connected workspace for wiki, docs & projects | Notion\n\n# One workspace. Every startup tool.\n\nThe AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included.\n\nThe fastest growing companies in history build on Notion\n\n## The tool of choice for startups.\n"
+        }
+      ]
+    },
+    {
+      "query": "Notion official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.notion.com/guides/mcp/get-started-with-mcp",
+          "title": "Connect to Notion MCP",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connect to Notion MCP\n\n> Connect Notion to your AI assistant through its connector library, Notion’s directory,"
+        },
+        {
+          "url": "https://developers.notion.com/guides/mcp/overview",
+          "title": "Connect AI assistants to Notion with MCP",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Overview\n\n> Connect your AI assistant to Notion with MCP to manage projects and tasks, work with meeting notes,"
+        },
+        {
+          "url": "https://www.notion.com/help/notion-mcp",
+          "title": "Connect AI tools with Notion MCP | Notion Help",
+          "snippet": "Connect AI tools with Notion MCP | Notion Help\n\n# Connect AI tools to your workspace with Notion MCP\n\n## Connect your favorite AI apps, like Claude, ChatGPT, and Cursor, directly to your Notion workspace.\n\nNotion MCP (Model Context Protocol) is a powerful way to connect your favorite AI apps directl"
+        },
+        {
+          "url": "https://developers.notion.com/guides/mcp/build-mcp-client",
+          "title": "Build an MCP client for Notion",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Build an MCP client for Notion\n\n> Connect your app or AI assistant to Notion MCP with OAuth 2.0, PKCE, and supp"
+        },
+        {
+          "url": "https://developers.notion.com/guides/mcp/mcp-security-best-practices",
+          "title": "Security best practices",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Security best practices\n\n> Protect your Notion workspace when connecting AI assistants, manage client access, a"
+        }
+      ]
+    },
+    {
+      "query": "site:developers.notion.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.notion.com/guides/mcp/overview",
+          "title": "Overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Overview\n\n> Connect your AI assistant to Notion with MCP to manage projects and tasks, work with meeting notes,"
+        },
+        {
+          "url": "https://developers.notion.com/guides/mcp/get-started-with-mcp",
+          "title": "Connect to Notion MCP",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connect to Notion MCP\n\n> Connect Notion to your AI assistant through its connector library, Notion’s directory,"
+        },
+        {
+          "url": "https://developers.notion.com/guides/mcp/mcp-supported-tools",
+          "title": "Supported tools",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Supported tools\n\n> Explore Notion MCP tools to manage projects and tasks, find meeting notes, share feedback, u"
+        },
+        {
+          "url": "https://developers.notion.com/guides/mcp/build-mcp-client",
+          "title": "Build an MCP client for Notion",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Build an MCP client for Notion\n\n> Connect your app or AI assistant to Notion MCP with OAuth 2.0, PKCE, and supp"
+        },
+        {
+          "url": "https://developers.notion.com/guides/mcp/tools-faqs",
+          "title": "Notion MCP tool FAQs",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Notion MCP tool FAQs\n\n> Browse the complete Notion MCP tool list and find answers about tool access, AI assista"
+        }
+      ]
+    },
+    {
+      "query": "site:notion.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://app.notion.com/p/MCP-Model-Context-Protocol-3e54a2e62375810e90baff55b2c06717",
+          "title": "MCP (Model Context Protocol) | Notion",
+          "snippet": "MCP (Model Context Protocol) | Notion\n\nMCP is the open standard that lets any AI agent connect to any tool or data source without custom API integrations — the USB-C port for AI. It solves the N×M problem: instead of building a bespoke connector for every model × every tool, you build the tool once "
+        },
+        {
+          "url": "https://www.notion.com/blog/notions-hosted-mcp-server-an-inside-look",
+          "title": "Notion’s hosted MCP server: an inside look",
+          "snippet": "Notion’s hosted MCP server: an inside look\n\nPublished July 15, 2025 in Tech\n\n# Notion’s hosted MCP server: an inside look\n\nBy Kenneth Sinder\n\nSoftware Engineer, Notion\n\nWhen Anthropic announced Model Context Protocol (MCP) in November 2024, the vision was simple but powerful: Align tech companies an"
+        },
+        {
+          "url": "https://developers.notion.com/guides/mcp/overview",
+          "title": "Overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.notion.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Overview\n\n> Connect your AI assistant to Notion with MCP to manage projects and tasks, work with meeting notes,"
+        },
+        {
+          "url": "https://www.notion.com/help/notion-mcp",
+          "title": "Connect AI tools to your workspace with Notion MCP",
+          "snippet": "Connect AI tools with Notion MCP | Notion Help\n\n# Connect AI tools to your workspace with Notion MCP\n\n## Connect your favorite AI apps, like Claude, ChatGPT, and Cursor, directly to your Notion workspace.\n\nNotion MCP (Model Context Protocol) is a powerful way to connect your favorite AI apps directl"
+        },
+        {
+          "url": "https://app.notion.com/p/Model-Context-Protocol-MCP-Developer-Notebook-363402a71ca08031a7c1cd4b4e17ff97",
+          "title": "📓 Model Context Protocol (MCP) - Developer Notebook | Notion",
+          "snippet": "📓 Model Context Protocol (MCP) - Developer Notebook | Notion\n\n> Prepared by: Majd Majdi Ayoub\n> \n> GitHub Profile: majd102-p\n> \n> Hugging Face Profile: Ma120\n> \n> LinkedIn: Majd Ayoub | LinkedIn\n> \n> vercel: Interactive Web App\n\n## 📖 Table of Contents\n\n1. 📌 1. Core Concepts & Definitions (Sampling)\n"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developers.notion.com",
+      "final_url": "https://developers.notion.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:03Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "29b6226bb02a945788e7b3ed48b71bd2fa0944f117070e1058a990f4763554dd",
+      "text_len": 7010
+    },
+    {
+      "requested_url": "https://developers.notion.com/guides/connections-and-tokens/oauth-integrations/overview",
+      "final_url": "https://developers.notion.com/guides/connections-and-tokens/oauth-integrations/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b14dbed378bcb729fb1c95616d7d88a910c3332cef5f0fe12e6c81679aeaaef8",
+      "text_len": 4166
+    },
+    {
+      "requested_url": "https://developers.notion.com/guides/authorization/overview",
+      "final_url": "https://developers.notion.com/guides/authorization/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "60ad250e7f2eff64ba7590248afb52cfe6c0b714c8eab3cb687f2ab63539a5ff",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://www.notion.com/pricing",
+      "final_url": "https://www.notion.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:58Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "bcdbd6fab3e23b07e8b031874568becd5dece2416d1084bc7e951a874ac92e32",
+      "text_len": 11227
+    },
+    {
+      "requested_url": "https://developers.notion.com/guides/mcp/build-mcp-client",
+      "final_url": "https://developers.notion.com/guides/mcp/build-mcp-client",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3dfed54395b21922a370594230e0bb6b4d569c7a1354e8d1b9eeb5d97f9da00a",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://app.notion.com/p/Model-Context-Protocol-MCP-Developer-Notebook-363402a71ca08031a7c1cd4b4e17ff97",
+      "final_url": "https://app.notion.com/p/Model-Context-Protocol-MCP-Developer-Notebook-363402a71ca08031a7c1cd4b4e17ff97",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d86bfeb5e36b641cb8acaf60464535855f6d2c8add409852be21e90031c1b8d3",
+      "text_len": 2388
+    },
+    {
+      "requested_url": "https://developers.notion.com/guides/mcp/get-started-with-mcp",
+      "final_url": "https://developers.notion.com/guides/mcp/get-started-with-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f988b2132c746770c9a11f41d65f3460e664304bfece0e131bf1ea1e641cba90",
+      "text_len": 13913
+    },
+    {
+      "requested_url": "https://developers.notion.com/guides/mcp/mcp-security-best-practices",
+      "final_url": "https://developers.notion.com/guides/mcp/mcp-security-best-practices",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "36e2481c5baeb9d71ed3273811e048a5e0afb8e65fdbf05ee66e976bb1a31fb3",
+      "text_len": 2108
+    },
+    {
+      "requested_url": "https://developers.notion.com/reference/authentication",
+      "final_url": "https://developers.notion.com/reference/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fec2242a30da549f43d1a0bd166b7091b6d91678a446f4b8529d7c8fa59d9aa4",
+      "text_len": 1313
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.notion.com/guides/authorization/overview",
+        "quote": "OAuth integrations and public integrations use the OAuth 2.0 protocol.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.notion.com/reference/authentication",
+        "quote": "The Notion API accepts bearer tokens in this header.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.notion.com",
+        "quote": "A personal access token (PAT) lets you authenticate API requests as yourself without setting up a connection or completing an OAuth flow.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.notion.com/guides/authorization/overview",
+        "quote": "Marketplace submission or review is not required.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.notion.com",
+        "quote": "Make a POST request to the Create a page endpoint with markdown content.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.notion.com/guides/mcp/get-started-with-mcp",
+        "quote": "The remote server URL is `https://mcp.notion.com/mcp`.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.notion.com/guides/authorization/overview",
+        "quote": "Personal access tokens (PATs) are created directly by a Notion user in the Developer portal.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.notion.com/pricing",
+        "quote": "One tool to run your company.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

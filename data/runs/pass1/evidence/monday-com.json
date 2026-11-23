@@ -1,0 +1,397 @@
+{
+  "slug": "monday-com",
+  "searches": [
+    {
+      "query": "Monday.com API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.monday.com/api-reference/docs/authentication",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\nLearn about monday platform API token permissions, how to access tokens, and how to authenticate requests\n\nThe monday.com platform API utilizes personal V2 API tokens to authenticate requests and identify the user making the call. These tokens are unique to each use"
+        },
+        {
+          "url": "https://developer.monday.com/apps/docs/choosing-auth",
+          "title": "Choosing an authentication method",
+          "snippet": "Choosing an authentication method\n\n# Choosing an authentication method\n\nLearn the different ways your app can authenticate with the monday API and the best use-cases for each\n\nIntroduction\n\nDetermining which authentication method to use in your app can be difficult and confusing.\n\nWhen designing you"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/getting-started",
+          "title": "Making your first request",
+          "snippet": "Making your first request\n\n# Making your first request\n\nSetting up a monday.com account\n\nThe first step is to sign up and create a trial account. For building and testing apps or API integrations, use a developer account (sign up). If you already have a monday.com account, skip to the next step!\n\nEn"
+        },
+        {
+          "url": "https://support.monday.com/hc/en-us/articles/360005144659-Does-monday-com-have-an-API",
+          "title": "Does monday.com have an API? – Support",
+          "snippet": "Does monday.com have an API? – Support\n\n# Does monday.com have an API?\n\nYes, it does! Our API is built on GraphQL and will give you a ton of flexibility for accessing and changing information in your monday.com account.\n\n For more detailed information on everything API related, make sure to check ou"
+        },
+        {
+          "url": "https://developer.monday.com/apps/docs/oauth",
+          "title": "OAuth and Permissions",
+          "snippet": "OAuth and Permissions\n\n# OAuth and Permissions\n\nAuthenticating monday apps with OAuth2 and defining permission scopes.\n\nOAuth 2.0 is a protocol that lets your app request authorization to read or modify data in a user's monday account. At the end of the OAuth process, your app gets an access token t"
+        }
+      ]
+    },
+    {
+      "query": "Monday.com developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.monday.com/api-reference/docs/authentication",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\nLearn about monday platform API token permissions, how to access tokens, and how to authenticate requests\n\nThe monday.com platform API utilizes personal V2 API tokens to authenticate requests and identify the user making the call. These tokens are unique to each use"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/getting-started",
+          "title": "Making your first request",
+          "snippet": "Making your first request\n\n# Making your first request\n\nSetting up a monday.com account\n\nThe first step is to sign up and create a trial account. For building and testing apps or API integrations, use a developer account (sign up). If you already have a monday.com account, skip to the next step!\n\nEn"
+        },
+        {
+          "url": "https://developer.monday.com/apps/docs/choosing-auth",
+          "title": "Choosing an authentication method",
+          "snippet": "Choosing an authentication method\n\n# Choosing an authentication method\n\nLearn the different ways your app can authenticate with the monday API and the best use-cases for each\n\nIntroduction\n\nDetermining which authentication method to use in your app can be difficult and confusing.\n\nWhen designing you"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/the-developer-center",
+          "title": "The Developer Center",
+          "snippet": "The Developer Center\n\n# The Developer Center\n\nLearn about managing your API usage in the Developer Center\n\nThe Developer Center is a one-stop-shop to manage your monday apps and API usage. For API users, you can access the API playground, view your API token, and monitor your API usage through the A"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/",
+          "title": "monday.com Platform API",
+          "snippet": "monday.com Platform API\n\n# Connect to your monday data with the platform API \n\n## An expressive API to interact with your workflows, automate processes, power integrations, and more! \n\nKey features\n\n Get everything you need in one API call \n\n Use GraphQL's nested querying capabilities to get all the"
+        }
+      ]
+    },
+    {
+      "query": "Monday.com pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://monday.com/pricing",
+          "title": "monday.com pricing and plans",
+          "snippet": "monday.com pricing and plans\n\n# Plans for every team, people and included.\n\n## Start free, no credit card needed.\n\n10 Seats\n\nFree\n\n$ 0 free forever\n\nUp to 2 seats\n\nAI features Available from Basic\n\nFree includes: \n\nUp to 3 boards\n\nUp to 3 Docs\n\n200+ templates\n\n8 column types\n\niOS and Android apps\n\nB"
+        },
+        {
+          "url": "https://support.monday.com/hc/en-us/articles/4405633151634-Plans-and-pricing-for-monday-com",
+          "title": "Plans and pricing for monday.com – Support",
+          "snippet": "Plans and pricing for monday.com – Support\n\n# Plans and pricing for monday.com\n\nIf you're exploring monday.com for the first time (or you're ready to upgrade to a paid product), you’re in the right place! This article will walk you through everything you need to know about how our pricing works: wha"
+        },
+        {
+          "url": "https://support.monday.com/hc/en-us/articles/360010594079-All-about-the-monday-com-free-trial",
+          "title": "All about the monday.com free trial – Support",
+          "snippet": "All about the monday.com free trial – Support\n\n# Sign up \n\nTo get started, head to monday.com and create an account using your email. After sharing a few quick details about your team and workflow needs, you’ll land on your first board. From there, you can start exploring or add more products to you"
+        },
+        {
+          "url": "https://monday.com/dev/pricing",
+          "title": "monday dev pricing: unlimited boards, no add-ons",
+          "snippet": "monday dev pricing: unlimited boards, no add-ons\n\n# Start your free trial\n\n## Unlimited users and boards. No credit card needed.\n\n3 Seats\n\nBasic\n\n$ 9 seat / month\n\nTotal $27/ month\n\nPlan and manage your team’s Scrum processes\n\nBasic includes: \n\nAI credits\n\nWiki & documentations\n\nUnlimited free viewe"
+        },
+        {
+          "url": "https://support.monday.com/hc/en-us/articles/360010487220-Understanding-the-Free-Plan",
+          "title": "Understanding the Free Plan",
+          "snippet": "Understanding the Free Plan – Support\n\n# Understanding the Free Plan\n\nWho can use this feature\n\nOur Free Plan is for small teams looking to keep track of their tasks and work. If you are interested in using only the most essential features of monday.com, this is the plan for you! Below you will find"
+        }
+      ]
+    },
+    {
+      "query": "Monday.com official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.monday.com/api-reference/docs/mondaycom-mcp",
+          "title": "Platform MCP overview",
+          "snippet": "Platform MCP overview\n\n# Platform MCP overview\n\nConnect AI agents to monday.com data through the hosted Platform MCP server\n\nThe Platform MCP is monday.com's hosted MCP (Model Context Protocol) server, maintained by the monday.com AI team. It lets AI agents read and write monday.com data — creating "
+        },
+        {
+          "url": "https://support.monday.com/hc/en-us/articles/28588158981266-Get-started-with-monday-MCP",
+          "title": "Get started with monday MCP",
+          "snippet": "Get started with monday MCP – Support\n\n# Get started with monday MCP\n\nmonday MCP is the hosted server that gives AI tools secure access to your monday.com workspace. It connects your account directly to AI assistants like Claude, Cursor, and Copilot Studio through the Model Context Protocol (MCP), a"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/compatible-mcp-clients",
+          "title": "Compatible MCP clients",
+          "snippet": "Compatible MCP clients\n\n# Compatible MCP clients\n\nConnect monday.com to pre-approved third-party agents through the hosted MCP permission, or approve additional clients as dynamic connectors\n\nThe Model Context Protocol (MCP) is an open standard that enables AI assistants to securely connect to exter"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/integrate-with-monday-mcp",
+          "title": "Integrate with the monday MCP server",
+          "snippet": "Integrate with the monday MCP server\n\n# Integrate with the monday MCP server\n\nConnect your MCP client to the monday.com hosted MCP server — choose API token, OAuth, or dynamic client registration\n\nThis guide walks you through connecting your own MCP client — an AI assistant, agent platform, or produ"
+        },
+        {
+          "url": "https://monday.com/w/mcp",
+          "title": "monday MCP: Connect AI assistants to your account",
+          "snippet": "monday MCP: Connect AI assistants to your account\n\n# Connect your AI tool to monday.com with MCP\n\nEmpower AI tools like Claude and Cursor to securely work on your behalf while you stay in control. \n\nSales\n\nMarketing\n\n Your browser does not support the video tag. \n\n Your browser does not support the "
+        }
+      ]
+    },
+    {
+      "query": "site:developer.monday.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.monday.com/api-reference/docs/mondaycom-mcp",
+          "title": "Platform MCP overview",
+          "snippet": "Platform MCP overview\n\n# Platform MCP overview\n\nConnect AI agents to monday.com data through the hosted Platform MCP server\n\nThe Platform MCP is monday.com's hosted MCP (Model Context Protocol) server, maintained by the monday.com AI team. It lets AI agents read and write monday.com data — creating "
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/platform-mcp-tools",
+          "title": "Platform MCP tools",
+          "snippet": "Platform MCP tools\n\n# Platform MCP tools\n\nComplete reference for all tools available in the monday.com Platform MCP server, organized by category, with links to individual tool pages and equivalent GraphQL APIs.\n\nThe monday.com Platform MCP exposes more than 60 tools that let AI agents read and writ"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/compatible-mcp-clients",
+          "title": "Compatible MCP clients",
+          "snippet": "Compatible MCP clients\n\n# Compatible MCP clients\n\nConnect monday.com to pre-approved third-party agents through the hosted MCP permission, or approve additional clients as dynamic connectors\n\nThe Model Context Protocol (MCP) is an open standard that enables AI assistants to securely connect to exter"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/integrate-with-monday-mcp",
+          "title": "Integrate with the monday MCP server",
+          "snippet": "Integrate with the monday MCP server\n\n# Integrate with the monday MCP server\n\nConnect your MCP client to the monday.com hosted MCP server — choose API token, OAuth, or dynamic client registration\n\nThis guide walks you through connecting your own MCP client — an AI assistant, agent platform, or produ"
+        },
+        {
+          "url": "https://developer.monday.com/apps/docs/mcp-servers",
+          "title": "MCP servers",
+          "snippet": "MCP servers\n\n# MCP servers\n\nMCP (Model Context Protocol) is an open standard that lets AI assistants interact with external tools and services.\n\nmonday.com provides two MCP servers:\n\nmonday apps MCP\n\nBuild, configure, and deploy monday apps through your preferred AI assistant\n\nmonday platform MCP\n\nM"
+        }
+      ]
+    },
+    {
+      "query": "site:monday.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://monday.com/w/mcp",
+          "title": "monday MCP: Connect AI assistants to your account",
+          "snippet": "monday MCP: Connect AI assistants to your account\n\n# Connect your AI tool to monday.com with MCP\n\nEmpower AI tools like Claude and Cursor to securely work on your behalf while you stay in control. \n\nSales\n\nMarketing\n\n Your browser does not support the video tag. \n\n Your browser does not support the "
+        },
+        {
+          "url": "https://monday.com/blog/ai-agents/what-is-mcp-explained/",
+          "title": "What Is MCP? Model Context Protocol Explained",
+          "snippet": "What Is MCP? Model Context Protocol Explained\n\n# Model Context Protocol (MCP) explained: how AI connects to your real work\n\n Naama Oren•\n\nApr 22, 2026\n\nMost AI tools today still operate in isolation.\n\nThey can write, summarize, and answer questions, but they don’t actually know what’s happening insi"
+        },
+        {
+          "url": "https://monday.com/blog/vibe-coding/model-context-protocol-mcp/",
+          "title": "Model Context Protocol (MCP): How It Works",
+          "snippet": "Model Context Protocol (MCP): How It Works\n\n# Model Context Protocol (MCP) explained in 2027\n\n Naama Oren•\n\nJul 19, 2026\n\nYour AI assistant is capable of a lot, but to truly help your business, it needs live access to your open deals, project status, and what your team shipped last week. Without tha"
+        },
+        {
+          "url": "https://developer.monday.com/api-reference/docs/mondaycom-mcp",
+          "title": "Platform MCP overview",
+          "snippet": "Platform MCP overview\n\n# Platform MCP overview\n\nConnect AI agents to monday.com data through the hosted Platform MCP server\n\nThe Platform MCP is monday.com's hosted MCP (Model Context Protocol) server, maintained by the monday.com AI team. It lets AI agents read and write monday.com data — creating "
+        },
+        {
+          "url": "https://support.monday.com/hc/en-us/articles/28588158981266-Get-started-with-monday-MCP",
+          "title": "Get started with monday MCP – Support",
+          "snippet": "Get started with monday MCP – Support\n\n# Get started with monday MCP\n\nmonday MCP is the hosted server that gives AI tools secure access to your monday.com workspace. It connects your account directly to AI assistants like Claude, Cursor, and Copilot Studio through the Model Context Protocol (MCP), a"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developer.monday.com",
+      "final_url": "https://developer.monday.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:33Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "96e8886c763158ac52a49ccf120515b9003ba9578b0ee0b7113ea2cdd86d0095",
+      "text_len": 4301
+    },
+    {
+      "requested_url": "https://developer.monday.com/api-reference/docs/authentication",
+      "final_url": "https://developer.monday.com/api-reference/docs/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:27Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2a3031b2514a6e1f997cbca2209a14543c9e1d8da7106e65370ef0dfb130adfd",
+      "text_len": 2844
+    },
+    {
+      "requested_url": "https://monday.com/dev/pricing",
+      "final_url": "https://monday.com/dev/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "dfe07690ab7190f7ae87b3b787d77072cac8cd98357bc547de831a05eaf72937",
+      "text_len": 5806
+    },
+    {
+      "requested_url": "https://developer.monday.com/api-reference/docs/compatible-mcp-clients",
+      "final_url": "https://developer.monday.com/api-reference/docs/compatible-mcp-clients",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8088905ea045bc472a822dcc59d404642d17f5bf77f67296df918825100e3ed1",
+      "text_len": 3744
+    },
+    {
+      "requested_url": "https://developer.monday.com/api-reference/docs/mondaycom-mcp",
+      "final_url": "https://developer.monday.com/api-reference/docs/mondaycom-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ce5073f2865aeba3fba5ab35d16e79a1390ed17904e6d73ef7d6a3a59b6a8068",
+      "text_len": 1468
+    },
+    {
+      "requested_url": "https://developer.monday.com/api-reference/docs/integrate-with-monday-mcp",
+      "final_url": "https://developer.monday.com/api-reference/docs/integrate-with-monday-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fd4f918e8e72762b88d51e28c4162abba20b5d8655bc5f94be89528e4fc4253f",
+      "text_len": 5184
+    },
+    {
+      "requested_url": "https://developer.monday.com/api-reference/docs/platform-mcp-tools",
+      "final_url": "https://developer.monday.com/api-reference/docs/platform-mcp-tools",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ebef8497939067636edd15b532bcf6727506101bc2c0e5d0a52df44bda76a324",
+      "text_len": 8977
+    },
+    {
+      "requested_url": "https://developer.monday.com/apps/docs/mcp-servers",
+      "final_url": "https://developer.monday.com/apps/docs/mcp-servers",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d20ba2ec36964eb3c3c1855675c7d881509213e53da12eac942ee6b4dd59af66",
+      "text_len": 365
+    },
+    {
+      "requested_url": "https://developer.monday.com/llms.txt",
+      "final_url": "https://developer.monday.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:33Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "d02ee289396a543a86f17f809b97d238703b612fd92cfa82df15d59e86065bb2",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer.monday.com/apps/docs/choosing-auth",
+      "final_url": "https://developer.monday.com/apps/docs/choosing-auth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:27Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7fe9a26f09073abb3d8af5020f07c96fa73d7a643ecd73fc311dfeaffd3ed350",
+      "text_len": 5675
+    },
+    {
+      "requested_url": "https://developer.monday.com/apps/docs/oauth",
+      "final_url": "https://developer.monday.com/apps/docs/oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:27Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ce7d9195d2b4cbe2b65b274cea5f579648c8f80465010a15e3c83bb81e3951ee",
+      "text_len": 9758
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.monday.com/api-reference/docs/authentication",
+        "quote": "The monday.com platform API utilizes personal V2 API tokens to authenticate requests and identify the user making the call.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.monday.com/apps/docs/oauth",
+        "quote": "OAuth 2.0 is a protocol that lets your app request authorization to read or modify data in a user's monday account.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developer.monday.com/api-reference/docs/authentication",
+        "quote": "create a free developer account to get an API token and start testing.",
+        "verified": true
+      },
+      {
+        "url": "https://monday.com/dev/pricing",
+        "quote": "Unlimited users and boards. No credit card needed.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.monday.com",
+        "quote": "An expressive GraphQL API to interact with your workflows, automate processes, power integrations, and more!",
+        "verified": true
+      },
+      {
+        "url": "https://developer.monday.com/llms.txt",
+        "quote": "a GraphQL API to build apps, integrations, and AI agents on the AI work platform",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developer.monday.com/api-reference/docs/mondaycom-mcp",
+        "quote": "The Platform MCP is monday.com's hosted MCP (Model Context Protocol) server, maintained by the monday.com AI team.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.monday.com/api-reference/docs/platform-mcp-tools",
+        "quote": "The monday.com Platform MCP exposes more than 60 tools that let AI agents read and write monday.com data.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.monday.com/api-reference/docs/authentication",
+        "quote": "you can make requests with the API by passing the token in the `Authorization` header.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developer.monday.com",
+        "quote": "Build on monday, the AI work platform",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

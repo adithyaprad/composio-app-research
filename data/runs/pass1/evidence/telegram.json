@@ -1,0 +1,373 @@
+{
+  "slug": "telegram",
+  "searches": [
+    {
+      "query": "Telegram API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://core.telegram.org/api/obtaining_api_id/",
+          "title": "Creating your Telegram Application",
+          "snippet": "# Creating your Telegram Application\n\nWe welcome all developers to use our API and source code to create Telegram-like messaging applications on our platform free of charge.\n\n> In order to ensure consistency and security across the Telegram ecosystem,\n> all third-party client apps must comply with t"
+        },
+        {
+          "url": "https://docs.telethon.dev/en/stable/basic/signing-in.html",
+          "title": "Signing In ",
+          "snippet": "- Home\n- Signing In\n- View page source\n\n---\n\n# Signing In \n\nBefore working with Telegram’s API, you need to get your own API ID and hash:\n\n1. Login to your Telegram account with the phone number of the developer account to use.\n2. Click under API Development tools.\n3. A Create new application windo"
+        },
+        {
+          "url": "https://core.telegram.org/bots/api/",
+          "title": "Telegram Bot API",
+          "snippet": "# Telegram Bot API\n\nAll types are listed at Bot API types.\n\n> The Bot API is an HTTP-based interface created for developers keen on building bots for Telegram.\n> To learn how to create and set up a bot, please consult our Introduction to Bots and Bot FAQ.\n\n### Recent changes\n\nRecent updates are list"
+        },
+        {
+          "url": "https://core.telegram.org/api/",
+          "title": "Telegram APIs",
+          "snippet": "# Telegram APIs\n\nWe offer three kinds of APIs for developers. The Bot API allows you to easily create programs that use Telegram messages for an interface. The Telegram API and TDLib allow you to build your own customized Telegram clients. You are welcome to use both APIs free of charge. Lastly, the"
+        },
+        {
+          "url": "https://docs.pyrogram.org/start/auth",
+          "title": "Authorization — Pyrogram Documentation",
+          "snippet": "Authorization — Pyrogram Documentation\n\n# Authorization#\n\nOnce a project is set up, you will still have to follow a few steps before you can actually use Pyrogram to make API calls. This section provides all the information you need in order to authorize yourself as user or bot.\n\n## User Authorizati"
+        }
+      ]
+    },
+    {
+      "query": "Telegram developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://core.telegram.org/api/obtaining_api_id/",
+          "title": "Creating your Telegram Application",
+          "snippet": "# Creating your Telegram Application\n\nWe welcome all developers to use our API and source code to create Telegram-like messaging applications on our platform free of charge.\n\n> In order to ensure consistency and security across the Telegram ecosystem,\n> all third-party client apps must comply with t"
+        },
+        {
+          "url": "https://core.telegram.org/api/",
+          "title": "Telegram APIs",
+          "snippet": "# Telegram APIs\n\nWe offer three kinds of APIs for developers. The Bot API allows you to easily create programs that use Telegram messages for an interface. The Telegram API and TDLib allow you to build your own customized Telegram clients. You are welcome to use both APIs free of charge. Lastly, the"
+        },
+        {
+          "url": "https://core.telegram.org/bots/api/",
+          "title": "Telegram Bot API",
+          "snippet": "# Telegram Bot API\n\nAll types are listed at Bot API types.\n\n> The Bot API is an HTTP-based interface created for developers keen on building bots for Telegram.\n> To learn how to create and set up a bot, please consult our Introduction to Bots and Bot FAQ.\n\n### Recent changes\n\nRecent updates are list"
+        },
+        {
+          "url": "https://docs.telethon.dev/en/stable/basic/signing-in.html",
+          "title": "Signing In ",
+          "snippet": "- Home\n- Signing In\n- View page source\n\n---\n\n# Signing In \n\nBefore working with Telegram’s API, you need to get your own API ID and hash:\n\n1. Login to your Telegram account with the phone number of the developer account to use.\n2. Click under API Development tools.\n3. A Create new application windo"
+        },
+        {
+          "url": "https://core.telegram.org/",
+          "title": "Telegram APIs",
+          "snippet": "# Telegram APIs\n\nWe offer three kinds of APIs for developers. The Bot API allows you to easily create programs that use Telegram messages for an interface. The Telegram API and TDLib allow you to build your own customized Telegram clients. You are welcome to use both APIs free of charge. Lastly, the"
+        }
+      ]
+    },
+    {
+      "query": "Telegram pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.telegram.org/faq_premium",
+          "title": "Telegram Premium FAQ",
+          "snippet": "Telegram Premium FAQ\n\n# Telegram Premium FAQ\n\n> This FAQ covers the main questions about Telegram Premium. Check out our Premium Terms of Service for more information, as well as our Basic FAQ for general questions about Telegram.\n\n### Telegram Premium\n\nGeneral Features Availability Payments Cancell"
+        },
+        {
+          "url": "https://www.telegram.org/faq",
+          "title": "Telegram FAQ",
+          "snippet": "Telegram FAQ\n\n# Telegram FAQ\n\n> This FAQ provides answers to basic questions about Telegram. Check out our Advanced FAQ for more technical information.\n\n> Telegram keeps evolving and adding new features, so this document may contain outdated information. We expect to finish updating the FAQ, Bot Man"
+        },
+        {
+          "url": "https://stardo.io/en/blog/telegram-premium-price/",
+          "title": "Telegram Premium Price: What It Costs and What You Get · StarDo",
+          "snippet": "Telegram Premium Price: What It Costs and What You Get · StarDo\n\n# How much does Telegram Premium cost?\n\nNovember 3, 2026 · 7 min read\n\nPhoto by Rubaitul Azad on Unsplash\n\nShort answer: in the US App Store, Telegram Premium costs $4.99 a month or $35.99 a year (prices as of November 3, 2026). Paying"
+        },
+        {
+          "url": "https://www.gamsgo.com/blog/telegram-premium-free",
+          "title": "Telegram Premium Free: Every Legit Way to Get It in 2026",
+          "snippet": "List of Contents\n\n- How Can You Get Telegram Premium for Free?\n- Win a Channel Giveaway Get Premium as a Gift Join the Peer-to-Peer Login Program Which Free Method Should You Try First?\n- Which Free Telegram Premium Offers Are Scams?\n- Is Telegram Premium Worth Paying For?\n- How Can You Get Telegram"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+          "title": "‎Telegram Messenger App - App Store",
+          "snippet": "‎Telegram Messenger App - App Store\n\n Telegram Messenger \n\nFast. Secure. Powerful.\n\nFree · In‑App Purchases\n\n- 287K Ratings \n\n4.0\n- Age Rating \n\n13+\n\n Years \n- Chart \n\n#6\n\n Social Networking \n- Developer \n\n Telegram FZ-LLC \n- Language \n\nEN\n\n + 18 More \n- Size \n\n270.3\n\n MB \n\niPhone, iPad, Apple Watch"
+        }
+      ]
+    },
+    {
+      "query": "Telegram official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.usecarly.com/blog/telegram-mcp/",
+          "title": "Telegram MCP: No Official Server, and the Ban Risk",
+          "snippet": "Telegram MCP: No Official Server, and the Ban Risk\n\n \n\n Jul 17, 2026 \n\n# Telegram MCP: No Official Server, and the Ban Risk\n\nNo — Telegram does not have an official MCP server. Telegram hasn’t published anything for the Model Context Protocol. What you’ll find searching “Telegram MCP” are community-"
+        },
+        {
+          "url": "https://www.sociahive.com/mcp/telegram",
+          "title": "Telegram MCP Server for Claude and ChatGPT | SociaHive",
+          "snippet": "Telegram MCP Server for Claude and ChatGPT | SociaHive\n\n# Telegram MCP server for Claude, ChatGPT and other AI tools\n\nA Telegram MCP server gives an AI assistant tools to work with Telegram. SociaHive's hosted server at https://www.sociahive.com/api/mcp lets Claude or ChatGPT build automations for y"
+        },
+        {
+          "url": "https://www.breakreach.com/mcp/telegram",
+          "title": "Telegram MCP Servers in 2026: Bots vs Your Own Account",
+          "snippet": "Telegram MCP Servers in 2026: Bots vs Your Own Account\n\n# Telegram MCP servers in 2026. Most of them log in as you.\n\nTelegram has no official MCP server. The most-starred ones sign in as your personal account over Telegram's MTProto API, with an api_id, your phone number and a login code, so they re"
+        },
+        {
+          "url": "https://www.anygen.io/showcase/mcp-telegram/index.html",
+          "title": "MCP Telegram: Connect AI to Telegram | AnyGen",
+          "snippet": "MCP Telegram: Connect AI to Telegram | AnyGen\n\n# MCP Telegram: connect an AI assistant to Telegram\n\nMCP Telegram connects an MCP-compatible AI client to Telegram so it can search chats, summarize messages, draft replies, or send approved actions. Use the right connection model first: a Telegram user"
+        },
+        {
+          "url": "https://spreadcast.app/tools/telegram-mcp-server",
+          "title": "Telegram MCP Server for Posting From Claude | Spreadcast",
+          "snippet": "Telegram MCP Server for Posting From Claude | Spreadcast\n\n# Telegram MCP Server for Posting to a Channel From Claude and ChatGPT\n\nA Telegram MCP server lets Claude or ChatGPT post to your Telegram channel. Telegram runs no MCP server of its own, so this page covers bot servers and account servers, C"
+        }
+      ]
+    },
+    {
+      "query": "site:core.telegram.org MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://core.telegram.org/mtproto/",
+          "title": "MTProto Mobile Protocol",
+          "snippet": "# ﻿MTProto Mobile Protocol\n\n> Please feel free to check out our FAQ for the Technically Inclined.\n> Client developers are required to comply with the Security Guidelines.\n\n### Related articles\n\n---\n\nThis page deals with the basic layer of MTProto encryption used for Cloud chats (server-client encryp"
+        },
+        {
+          "url": "https://core.telegram.org/",
+          "title": "Telegram APIs",
+          "snippet": "# Telegram APIs\n\nWe offer three kinds of APIs for developers. The Bot API allows you to easily create programs that use Telegram messages for an interface. The Telegram API and TDLib allow you to build your own customized Telegram clients. You are welcome to use both APIs free of charge. Lastly, the"
+        },
+        {
+          "url": "https://core.telegram.org/tdlib/",
+          "title": "Telegram Database Library",
+          "snippet": "# Telegram Database Library\n\n```\n[![](/file/811140459/1bdb/rl5NwUNbBzM.26909.gif/0ecbc461e020d4bc3a)](/file/811140459/1bdb/rl5NwUNbBzM.26909.gif/0ecbc461e020d4bc3a)\n\n```\n\nTDLib (Telegram Database Library) is a cross-platform, fully functional Telegram client. We designed it to help third-party devel"
+        },
+        {
+          "url": "https://core.telegram.org/bots/API",
+          "title": "Telegram Bot API",
+          "snippet": "# Telegram Bot API\n\n> The Bot API is an HTTP-based interface created for developers keen on building bots for Telegram.\n> To learn how to create and set up a bot, please consult our Introduction to Bots and Bot FAQ.\n\n### Recent changes\n\n> Subscribe to @BotNews to be the first to know about the lates"
+        },
+        {
+          "url": "https://core.telegram.org/bots/",
+          "title": "Bots: An introduction for developers",
+          "snippet": "# Bots: An introduction for developers\n\nBots are small applications that run entirely within the Telegram app. Users interact with bots through flexible interfaces that can support any kind of task or service. For more information, see:\n\n- Detailed Guide to Bot Features\n- Full API Reference for Deve"
+        }
+      ]
+    },
+    {
+      "query": "site:telegram.org MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://instantview.telegram.org/contest/medium.com/template58/issue1067/",
+          "title": "Contest - Instant View",
+          "snippet": "Contest - Instant View\n\n### Preview\n\n### Issue #1067\n\nA\n\n## Log In\n\nLog in here to create Instant View templates. Please enter your phone number in the international format and we will send a confirmation message to your account via Telegram."
+        },
+        {
+          "url": "https://core.telegram.org/mtproto/",
+          "title": "MTProto Mobile Protocol",
+          "snippet": "# ﻿MTProto Mobile Protocol\n\n> Please feel free to check out our FAQ for the Technically Inclined.\n> Client developers are required to comply with the Security Guidelines.\n\n### Related articles\n\n---\n\nThis page deals with the basic layer of MTProto encryption used for Cloud chats (server-client encryp"
+        },
+        {
+          "url": "https://core.telegram.org/",
+          "title": "Telegram APIs",
+          "snippet": "# Telegram APIs\n\nWe offer three kinds of APIs for developers. The Bot API allows you to easily create programs that use Telegram messages for an interface. The Telegram API and TDLib allow you to build your own customized Telegram clients. You are welcome to use both APIs free of charge. Lastly, the"
+        },
+        {
+          "url": "https://core.telegram.org/mtproto/security_guidelines",
+          "title": "Security Guidelines for Client Developers",
+          "snippet": "# Security Guidelines for Client Developers\n\nSee also:\n\nWhile MTProto is designed to be a reasonably fast and secure protocol, its advantages can be easily negated by careless implementation. We collected some security guidelines for client software developers on this page. All Telegram clients are "
+        },
+        {
+          "url": "https://core.telegram.org/bots/",
+          "title": "Bots: An introduction for developers",
+          "snippet": "# Bots: An introduction for developers\n\nBots are small applications that run entirely within the Telegram app. Users interact with bots through flexible interfaces that can support any kind of task or service. For more information, see:\n\n- Detailed Guide to Bot Features\n- Full API Reference for Deve"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://core.telegram.org",
+      "final_url": "https://core.telegram.org/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c6e3f2ab04776f2c371aec7b2917cf0acd7f81a3164f60a744606f72e0aacdbe",
+      "text_len": 19495
+    },
+    {
+      "requested_url": "https://core.telegram.org/api/",
+      "final_url": "https://core.telegram.org/api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c6e3f2ab04776f2c371aec7b2917cf0acd7f81a3164f60a744606f72e0aacdbe",
+      "text_len": 19495
+    },
+    {
+      "requested_url": "https://www.telegram.org/faq",
+      "final_url": "https://www.telegram.org/faq",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8702a6f251bb7b75237e029e6302ebc66d4362ee5ec9c6035067dfc8ca4f6a2d",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://spreadcast.app/tools/telegram-mcp-server",
+      "final_url": "https://spreadcast.app/tools/telegram-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:46Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fdd5d433715a38fbff2453e97639b87722fe939a7b9c4bc40600c5ff3b1db438",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://core.telegram.org/bots/API",
+      "final_url": "https://core.telegram.org/bots/API",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:48Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "39c24712cad2d7d3085c498033833dda01f30ab64f3e7a290888c8b77c3424a7",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://core.telegram.org/api/obtaining_api_id/",
+      "final_url": "https://core.telegram.org/api/obtaining_api_id/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6080dca8d7981274944d62ae6eb7dba5cc3d71ea746e248ae3436d92d47a0efc",
+      "text_len": 2286
+    },
+    {
+      "requested_url": "https://core.telegram.org/bots/api/",
+      "final_url": "https://core.telegram.org/bots/api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a9520fa0c10031d1e7dbd0f9aed2a613658d7296fa0817444c18b37b10d48ee5",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://core.telegram.org/bots/",
+      "final_url": "https://core.telegram.org/bots/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:48Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f0f108f5a1db384951922017c527a6bebeaee2743fa8543b2f4cbf9746131464",
+      "text_len": 8061
+    },
+    {
+      "requested_url": "https://core.telegram.org/pricing",
+      "final_url": "https://core.telegram.org/pricing",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:50Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://core.telegram.org/bots/api/",
+        "quote": "Each bot is given a unique authentication token when it is created.",
+        "verified": true
+      },
+      {
+        "url": "https://core.telegram.org/api/obtaining_api_id/",
+        "quote": "You will get basic addresses as well as the api_id and api_hash parameters required for user authorization.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://core.telegram.org/bots/",
+        "quote": "The Telegram Bot Platform hosts more than 10 million bots and is free for both users and developers.",
+        "verified": true
+      },
+      {
+        "url": "https://core.telegram.org/api/obtaining_api_id/",
+        "quote": "Go to \"API development tools\" and fill out the form.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://core.telegram.org/bots/api/",
+        "quote": "The Bot API is an HTTP-based interface created for developers keen on building bots for Telegram.",
+        "verified": true
+      },
+      {
+        "url": "https://core.telegram.org/bots/api/",
+        "quote": "We support GET and POST HTTP methods.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://spreadcast.app/tools/telegram-mcp-server",
+        "quote": "Telegram publishes no MCP server and no MCP address to paste into Claude or ChatGPT.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://core.telegram.org/bots/api/",
+        "quote": "All queries to the Telegram Bot API must be served over HTTPS",
+        "verified": true
+      },
+      {
+        "url": "https://core.telegram.org/bots/",
+        "quote": "free for both users and developers",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://core.telegram.org/",
+        "quote": "We offer three kinds of APIs for developers. The Bot API allows you to easily create programs that use Telegram messages for an interface.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

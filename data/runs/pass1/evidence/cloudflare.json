@@ -1,0 +1,368 @@
+{
+  "slug": "cloudflare",
+  "searches": [
+    {
+      "query": "Cloudflare API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+          "title": "Create API token · Cloudflare Fundamentals docs",
+          "snippet": "Create API token · Cloudflare Fundamentals docs\n\n# Create API token\n\nPrerequisite\n\nBefore you begin, find your zone and account IDs.\n\n1. Determine if you want a user token or an Account API token. Use Account API tokens if you prefer service tokens that are not associated with users and your desired"
+        },
+        {
+          "url": "https://developers.cloudflare.com/api/overview/",
+          "title": "Cloudflare API | Cloudflare API",
+          "snippet": "Cloudflare API | Cloudflare API\n\n# Cloudflare API\n\nTo get started using Cloudflare’s products and services via the API, refer to how to interact with Cloudflare, which covers using tools like Terraform and the official SDKs to maintain your Cloudflare resources.\n\nUsing the Cloudflare API requires au"
+        },
+        {
+          "url": "https://developers.cloudflare.com/fundamentals/api/how-to/make-api-calls/",
+          "title": "Make API calls · Cloudflare Fundamentals docs",
+          "snippet": "Make API calls · Cloudflare Fundamentals docs\n\n# Make API calls\n\nOnce you create your API token, all API requests are authorized in the same way. Cloudflare uses the RFC standard ↗︎ `Authorization: Bearer <API_TOKEN>` interface. An example request is shown below.\n\nCopy code to clipboard\n\n```\ncurl \"h"
+        },
+        {
+          "url": "https://developers.cloudflare.com/fundamentals/api/get-started/",
+          "title": "Get started · Cloudflare Fundamentals docs",
+          "snippet": "Get started · Cloudflare Fundamentals docs\n\n# Get started\n\nUsing the Cloudflare API requires authentication so that Cloudflare knows who is making requests and what permissions you have. Create an API token to grant access to the API to perform actions.\n\nNote\n\nYou can also authenticate with API keys"
+        },
+        {
+          "url": "https://developers.cloudflare.com/fundamentals/api/get-started/token-formats/",
+          "title": "Token formats · Cloudflare Fundamentals docs",
+          "snippet": "Token formats · Cloudflare Fundamentals docs\n\n# Token formats\n\nCloudflare API keys and API tokens use a prefixed, scannable format that makes them identifiable by credential scanning tools. Each credential type in the following table has a distinct prefix followed by 40 characters and a checksum.\n\n|"
+        }
+      ]
+    },
+    {
+      "query": "Cloudflare developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.cloudflare.com/api/overview/",
+          "title": "Cloudflare API | Cloudflare API",
+          "snippet": "Cloudflare API | Cloudflare API\n\n# Cloudflare API\n\nTo get started using Cloudflare’s products and services via the API, refer to how to interact with Cloudflare, which covers using tools like Terraform and the official SDKs to maintain your Cloudflare resources.\n\nUsing the Cloudflare API requires au"
+        },
+        {
+          "url": "https://developers.cloudflare.com/api/",
+          "title": "API Reference | Cloudflare API",
+          "snippet": "API Reference | Cloudflare API\n\n# API Reference\n\n### Libraries\n\nTypeScript 7.3.0\n\n```\nnpm install cloudflare\n```\n\nRead Docs\n\nPython 5.10.0\n\n```\npip install cloudflare\n```\n\n```\ngo get -u github.com/cloudflare/cloudflare-go/v7@v7.15.0\n```\n\nTerraform 5.29.0\n\n```\nterraform {\n  required_providers {\n    c"
+        },
+        {
+          "url": "https://developers.cloudflare.com/fundamentals/api/how-to/make-api-calls/",
+          "title": "Make API calls · Cloudflare Fundamentals docs",
+          "snippet": "Make API calls · Cloudflare Fundamentals docs\n\n# Make API calls\n\nOnce you create your API token, all API requests are authorized in the same way. Cloudflare uses the RFC standard ↗︎ `Authorization: Bearer <API_TOKEN>` interface. An example request is shown below.\n\nCopy code to clipboard\n\n```\ncurl \"h"
+        },
+        {
+          "url": "https://developers.cloudflare.com/",
+          "title": "Cloudflare Developer Docs | Cloudflare Docs",
+          "snippet": "Cloudflare Developer Docs | Cloudflare Docs\n\n# Cloudflare Developer Docs\n\nExplore guides and tutorials to start building on Cloudflare's platform\n\n## Powerful primitives, seamlessly integrated \n\nWrangler CF\n\nCompute AI Storage & Databases Media\n\n### Deploy with one command\n\nBuild and deploy serverle"
+        },
+        {
+          "url": "https://developers.cloudflare.com/fundamentals/api/how-to/account-owned-token-template/",
+          "title": "API token template URLs · Cloudflare Fundamentals docs",
+          "snippet": "API token template URLs · Cloudflare Fundamentals docs\n\n# API token template URLs\n\nUse template URLs to generate Cloudflare API tokens with pre-configured permissions. Template URLs allow you to share token requirements with users without manually selecting permissions in the dashboard.\n\nTemplate UR"
+        }
+      ]
+    },
+    {
+      "query": "Cloudflare pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.cloudflare.com/plans/",
+          "title": "Pricing",
+          "snippet": "Pricing\n\n# Scale predictably\n\nPay only for what you use. Simple, transparent pricing for all Cloudflare products\n\n### Free\n\nFor personal or hobby projects that aren't business-critical.\n\n$0\n\n/month\n\n### Pro\n\nFor professional websites that aren't business-critical.\n\n$20\n\n/mo billed annually, or $25/m"
+        },
+        {
+          "url": "https://www.cloudflare.com/plans/free/",
+          "title": "Free Plan Overview | Cloudflare",
+          "snippet": "Free Plan Overview | Cloudflare\n\n# The basics you need to protect and accelerate your site\n\nOur mission is to build a better Internet. We believe every website should have free access to foundational security and performance.\n\n### Get your site or network up and running with our Free plan features\n\n"
+        },
+        {
+          "url": "https://www.cloudflare.com/plans/pro/",
+          "title": "Pro Plan Overview | Features & Pricing | Cloudflare",
+          "snippet": "Pro Plan Overview | Features & Pricing | Cloudflare\n\n# Deliver a lightning fast web experience\n\nCloudflare optimizes the performance of your websites and applications, delivering fast content through its global network. Cloudflare Pro is best suited for professional websites, high traffic blogs, and"
+        },
+        {
+          "url": "https://www.cloudflare.com/plans/faq/",
+          "title": "Cloudflare Frequently Asked Questions | Cloudflare",
+          "snippet": "Cloudflare Frequently Asked Questions | Cloudflare\n\n# Frequently Asked Questions about Plans\n\nFind some of Cloudflare’s most frequently asked questions about our plans, getting started, and billing.\n\n### Getting Started\n\nHow does Cloudflare work?\n\nCloudflare protects and accelerates any website onli"
+        },
+        {
+          "url": "https://www.cloudflare.com/",
+          "title": "Cloudflare: Build for the agent era",
+          "snippet": "Cloudflare: Build for the agent era\n\n# Everything we learned from powering 20% of the Internet—yours by default \n\n One platform for your apps, agents, and workforce. Build, secure, and scale without managing infrastructure. \n\n Region: Earth \n\n One smart network for workloads + security — close to us"
+        }
+      ]
+    },
+    {
+      "query": "Cloudflare official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/",
+          "title": "Cloudflare's own MCP servers · Cloudflare Agents docs",
+          "snippet": "Cloudflare's own MCP servers · Cloudflare Agents docs\n\n# Cloudflare's own MCP servers\n\nCloudflare runs a catalog of managed remote MCP servers which you can connect to using OAuth on clients like Claude ↗︎, Windsurf ↗︎, our own AI Playground ↗︎ or any SDK that supports MCP ↗︎.\n\nThese MCP servers all"
+        },
+        {
+          "url": "https://github.com/cloudflare/mcp",
+          "title": "cloudflare/mcp",
+          "snippet": "# cloudflare/mcp\n\nMCP server for the Cloudflare API\n\n- Stars: 1158\n- Forks: 182\n- Watchers: 1158\n- Open issues: 58\n- License: Apache License 2.0\n- Homepage: https://mcp.cloudflare.com/mcp\n- Default branch: main\n- Created: 2026-01-29T15:10:49Z\n\n## Languages\n\n- JavaScript\n- Shell\n- TypeScript\n\n## Topi"
+        },
+        {
+          "url": "https://blog.cloudflare.com/code-mode-mcp/",
+          "title": "Code Mode: give agents an entire API in 1,000 tokens | Cloudflare Blog",
+          "snippet": "Code Mode: give agents an entire API in 1,000 tokens | Cloudflare Blog\n\nFebruary 20, 2026\n\n# Code Mode: give agents an entire API in 1,000 tokens\n\nMatt Carey\n\nModel Context Protocol (MCP) has become the standard way for AI agents to use external tools. But there is a tension at its core: agents need"
+        },
+        {
+          "url": "https://developers.cloudflare.com/agent-setup/prompt.md",
+          "title": "",
+          "snippet": "These are official instructions from Cloudflare to set up a good AI development environment for building and deploying on the Cloudflare platform. All commands are validated by Cloudflare and ready to use.\n\nComplete all of the following steps yourself by running the commands directly. Do not ask the"
+        },
+        {
+          "url": "https://developers.cloudflare.com/agent-setup/visual-studio-code/detailed-walkthrough/",
+          "title": "Visual Studio Code detailed walkthrough · Agent setup docs",
+          "snippet": "Visual Studio Code detailed walkthrough · Agent setup docs\n\n# Visual Studio Code detailed walkthrough\n\nThis walkthrough connects Visual Studio Code directly to the Cloudflare API using the Cloudflare MCP server ↗︎. By the end, you can create a DNS record by typing a sentence, without leaving the edi"
+        }
+      ]
+    },
+    {
+      "query": "site:developers.cloudflare.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.cloudflare.com/agents/model-context-protocol/",
+          "title": "Model Context Protocol (MCP) · Cloudflare Agents docs",
+          "snippet": "Model Context Protocol (MCP) · Cloudflare Agents docs\n\n# Model Context Protocol (MCP)\n\nYou can build and deploy Model Context Protocol (MCP) ↗︎ servers on Cloudflare.\n\n## What is the Model Context Protocol (MCP)?\n\nModel Context Protocol (MCP) ↗︎ is an open standard that connects AI systems with exte"
+        },
+        {
+          "url": "https://developers.cloudflare.com/learning-paths/holistic-ai-security/concepts/mcp/",
+          "title": "What is Model Context Protocol (MCP)? · Cloudflare Learning Paths",
+          "snippet": "What is Model Context Protocol (MCP)? · Cloudflare Learning Paths\n\n# What is Model Context Protocol (MCP)?\n\nModel Context Protocol (MCP) ↗︎ is a standardized way for AI agents to get the information and tools they need to operate. Similar to how an API works, it is a protocol that allows AI programs"
+        },
+        {
+          "url": "https://developers.cloudflare.com/agents/tools/mcp/",
+          "title": "MCP · Cloudflare Agents docs",
+          "snippet": "MCP · Cloudflare Agents docs\n\n# MCP\n\nAgents can use Model Context Protocol (MCP) as clients. Connect an agent to external MCP servers, discover the tools those servers expose, and pass those tools into model calls.\n\nUse MCP when you want an agent to:\n\n- Call tools exposed by external MCP servers.\n- "
+        },
+        {
+          "url": "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/",
+          "title": "Cloudflare's own MCP servers · Cloudflare Agents docs",
+          "snippet": "Cloudflare's own MCP servers · Cloudflare Agents docs\n\n# Cloudflare's own MCP servers\n\nCloudflare runs a catalog of managed remote MCP servers which you can connect to using OAuth on clients like Claude ↗︎, Windsurf ↗︎, our own AI Playground ↗︎ or any SDK that supports MCP ↗︎.\n\nThese MCP servers all"
+        },
+        {
+          "url": "https://developers.cloudflare.com/agents/model-context-protocol/apis/client-api/",
+          "title": "MCP Client · Cloudflare Agents docs",
+          "snippet": "MCP Client · Cloudflare Agents docs\n\n# MCP Client\n\nConnect your agent to external Model Context Protocol (MCP) servers to use their tools, resources, and prompts. Agents SDK v0.20.0 uses `@modelcontextprotocol/client` and negotiates stateless or legacy behavior automatically. The MCP client does not"
+        }
+      ]
+    },
+    {
+      "query": "site:cloudflare.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.cloudflare.com/learning/ai/what-is-model-context-protocol-mcp/",
+          "title": "What is the Model Context Protocol (MCP)?",
+          "snippet": "What is the Model Context Protocol (MCP)?\n\n## What is the Model Context Protocol (MCP)? \n\n The Model Context Protocol (MCP) enables AI agents to access external tools and data sources so that they can more effectively take action. \n\n###### Learning objectives \n\n After reading this article you will b"
+        },
+        {
+          "url": "https://developers.cloudflare.com/agents/model-context-protocol/",
+          "title": "Model Context Protocol (MCP) · Cloudflare Agents docs",
+          "snippet": "Model Context Protocol (MCP) · Cloudflare Agents docs\n\n# Model Context Protocol (MCP)\n\nYou can build and deploy Model Context Protocol (MCP) ↗︎ servers on Cloudflare.\n\n## What is the Model Context Protocol (MCP)?\n\nModel Context Protocol (MCP) ↗︎ is an open standard that connects AI systems with exte"
+        },
+        {
+          "url": "https://developers.cloudflare.com/learning-paths/holistic-ai-security/concepts/mcp/",
+          "title": "What is Model Context Protocol (MCP)? · Cloudflare Learning Paths",
+          "snippet": "What is Model Context Protocol (MCP)? · Cloudflare Learning Paths\n\n# What is Model Context Protocol (MCP)?\n\nModel Context Protocol (MCP) ↗︎ is a standardized way for AI agents to get the information and tools they need to operate. Similar to how an API works, it is a protocol that allows AI programs"
+        },
+        {
+          "url": "https://developers.cloudflare.com/agents/tools/mcp/",
+          "title": "MCP · Cloudflare Agents docs",
+          "snippet": "MCP · Cloudflare Agents docs\n\n# MCP\n\nAgents can use Model Context Protocol (MCP) as clients. Connect an agent to external MCP servers, discover the tools those servers expose, and pass those tools into model calls.\n\nUse MCP when you want an agent to:\n\n- Call tools exposed by external MCP servers.\n- "
+        },
+        {
+          "url": "https://www.cloudflare.com/learning/ai/mcp-client-and-server/",
+          "title": "What is an MCP client?",
+          "snippet": "What is an MCP client?\n\n## What is an MCP client? \n\n An MCP client is a subprogram of an AI agent application, and it communicates with an MCP server to get information and carry out tasks. \n\n After reading this article you will be able to: \n\n## What is an MCP client? Copy link to clipboard\n\nA Model"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developers.cloudflare.com/api",
+      "final_url": "https://developers.cloudflare.com/api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "230723d379eeedd61e8e0d4f2ec30d306d70b01bbe2f5ee6c6d31ad851eb37cd",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developers.cloudflare.com/api/overview/",
+      "final_url": "https://developers.cloudflare.com/api/overview/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ddef09bc5f07213dbfb93f5bd7b560a95df2813ef6fade4108d9d2a4521b1152",
+      "text_len": 903
+    },
+    {
+      "requested_url": "https://www.cloudflare.com/plans/",
+      "final_url": "https://www.cloudflare.com/plans/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:58Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "daf0e824730a5e0a3696decc7b35854dd1c75a67f1715af58e592ff66f5117a2",
+      "text_len": 14724
+    },
+    {
+      "requested_url": "https://blog.cloudflare.com/code-mode-mcp/",
+      "final_url": "https://blog.cloudflare.com/code-mode-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ba6e587f569fe8c1aab06d3ea518e13bc934b5c325fbb312115efae0c332341a",
+      "text_len": 12683
+    },
+    {
+      "requested_url": "https://developers.cloudflare.com/agents/tools/mcp/",
+      "final_url": "https://developers.cloudflare.com/agents/tools/mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "dd8b894ef2b6e50dbbd79bc807cf0c17ec07a03525b0da1f4b51393f3e43cf63",
+      "text_len": 2947
+    },
+    {
+      "requested_url": "https://developers.cloudflare.com/learning-paths/holistic-ai-security/concepts/mcp/",
+      "final_url": "https://developers.cloudflare.com/learning-paths/holistic-ai-security/concepts/mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2772014360afc9b3a765fcf643cd09590c88340ede8e392436a2f32255706565",
+      "text_len": 1360
+    },
+    {
+      "requested_url": "https://www.cloudflare.com/learning/ai/mcp-client-and-server/",
+      "final_url": "https://www.cloudflare.com/learning/ai/mcp-client-and-server/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ca84d9d2cf9417d4939105e38c356efa066cf0d0fc2f54688e8932c1f7a31cc0",
+      "text_len": 5779
+    },
+    {
+      "requested_url": "https://www.cloudflare.com/learning/ai/what-is-model-context-protocol-mcp/",
+      "final_url": "https://www.cloudflare.com/learning/ai/what-is-model-context-protocol-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "892da3ac6832664d1b91e9289c30a72f9cd5f43fe66782b559ad0f6f27b12528",
+      "text_len": 8800
+    },
+    {
+      "requested_url": "https://developers.cloudflare.com/llms.txt",
+      "final_url": "https://developers.cloudflare.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:03Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "1ab547903952808257429ea1db90254cb13655baa2645241e4f1c716f3b2cd2b",
+      "text_len": 16605
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.cloudflare.com/api/overview/",
+        "quote": "You can also authenticate with API keys, but these keys have several limitations that make them less secure than API tokens.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.cloudflare.com/api/overview/",
+        "quote": "Create an API token to grant access to the API to perform actions.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.cloudflare.com/plans/",
+        "quote": "For personal or hobby projects that aren't business-critical.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.cloudflare.com/api/overview/",
+        "quote": "To create an API token, from the Cloudflare dashboard, go to My Profile → API Tokens and select Create Token.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.cloudflare.com/api/",
+        "quote": "npm install cloudflare",
+        "verified": true
+      },
+      {
+        "url": "https://developers.cloudflare.com/api/",
+        "quote": "POST/accounts/{account_id}/tokens",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://blog.cloudflare.com/code-mode-mcp/",
+        "quote": "we are introducing a new MCP server for the entire Cloudflare API",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.cloudflare.com/api/overview/",
+        "quote": "Whenever possible, use API tokens to interact with the Cloudflare API.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.cloudflare.com/plans/",
+        "quote": "Simple, transparent pricing for all Cloudflare products",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

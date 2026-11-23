@@ -1,0 +1,373 @@
+{
+  "slug": "podio",
+  "searches": [
+    {
+      "query": "Podio API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.podio.com/authentication",
+          "title": "Authentication - Podio API Documentation",
+          "snippet": "Authentication - Podio API Documentation\n\n# How to authenticate with Podio API\n\nThe Podio API uses the OAuth2 protocol for authentication. This allows external apps to request authorization to Podio without having direct access to the user's password. Our API supports different OAuth flows depending"
+        },
+        {
+          "url": "https://developers.podio.com/authentication/client_side",
+          "title": "Authentication: Client-side flow - Podio API Documentation",
+          "snippet": "Authentication: Client-side flow - Podio API Documentation\n\n# Authentication\n\n## Client-side flow\n\nThe client-side flow is very similar to the server-side flow. It uses the same concept of redirects, and you should make yourself familiar with the server-side flow first. The only difference between t"
+        },
+        {
+          "url": "https://developers.podio.com/doc/oauth-authorization",
+          "title": "OAuth authorization",
+          "snippet": "OAuth authorization | API Documentation - Podio API Documentation\n\n# Podio API Documentation\n\n## OAuth authorization\n\n### Operations\n\n- Invalidate grant\n\n- Invalidate tokens\n\nThis API uses OAuth 2.0 (http://oauth.net/2/) for authentication users of the API. Currently supported is draft-10 of the spe"
+        },
+        {
+          "url": "https://developers.podio.com/authentication/username_password",
+          "title": "Authentication: Username & password flow - Podio API Documentation",
+          "snippet": "Authentication: Username & password flow - Podio API Documentation\n\n# Authentication\n\n## Username and password flow\n\nThe username and password flow is suitable for clients capable of asking end-users for their usernames and passwords. The advantage over HTTP Basic, is that the user credentials are u"
+        },
+        {
+          "url": "https://developers.podio.com/index/faq",
+          "title": "Frequently Asked Questions - Podio API Documentation",
+          "snippet": "Frequently Asked Questions - Podio API Documentation\n\n# Frequently Asked Questions\n\n## Frequently Asked Questions\n\n#### Is the Podio API free to use?\n\nThe Podio API is available to use for both paid and free Podio accounts. Both have full access to the API and the same base rate Limit A and Limit B "
+        }
+      ]
+    },
+    {
+      "query": "Podio developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.podio.com/authentication",
+          "title": "Authentication - Podio API Documentation",
+          "snippet": "Authentication - Podio API Documentation\n\n# How to authenticate with Podio API\n\nThe Podio API uses the OAuth2 protocol for authentication. This allows external apps to request authorization to Podio without having direct access to the user's password. Our API supports different OAuth flows depending"
+        },
+        {
+          "url": "https://developers.podio.com/",
+          "title": "Podio API Documentation",
+          "snippet": "Developers - Podio API Documentation\n\n# Getting started with Podio API\n\n## The Podio API lets you integrate with other services and build tools and applications on top of Podio\n\n- 1\n\n#### Get an API Key\n\nGet started right away - generate your API key.\n- 2\n\n#### Browse the documentation\n\nLearn how th"
+        },
+        {
+          "url": "https://developers.podio.com/api-key",
+          "title": "Get API key - Podio API Documentation",
+          "snippet": "Get API key - Podio API Documentation\n\n# Get API key\n\n## Generating API keys to Podio\n\nIt's easy to get one or more API keys for accessing your Podio data. You just have to sign in or sign up with Podio, and go to the API key tab in your settings."
+        },
+        {
+          "url": "https://developers.podio.com/doc/",
+          "title": "Podio API Documentation - Podio API Documentation",
+          "snippet": "Podio API Documentation - Podio API Documentation\n\n# Podio API Documentation\n\n## Areas\n\nOur API is split up into different areas, that each contains a subset of methods grouped by functionality. You could call each area its own API, but we like to call them areas, because it's just a simple grouping"
+        },
+        {
+          "url": "https://developers.podio.com/authentication/scopes",
+          "title": "Authentication: Scopes & Permissions - Podio API Documentation",
+          "snippet": "Authentication: Scopes & Permissions - Podio API Documentation\n\n# Authentication\n\n## Scopes\n\nPodio uses the concept of scopes to manage access restriction in order to ensure a safe relationship between a user's account and the externally connected application.\n\nCurrently, five different scope types "
+        }
+      ]
+    },
+    {
+      "query": "Podio pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.progress.com/podio/pricing",
+          "title": "Plans & Pricing",
+          "snippet": "Pricing | Flexible Plans for Teams of All Sizes | Podio \n\n# Plans & Pricing\n\nWhether you’re getting started with the Progress ® Podio ® platform or scaling it across your department, there is a plan to fit your business. Paid plans include usage capacity to support everyday work, with options to sca"
+        },
+        {
+          "url": "https://www.progress.com/podio/documentation/using-podio/account-billing-and-administration/understanding-your-30-day-podio-premium-trial",
+          "title": "Understanding Your 30‑Day Podio Premium Trial",
+          "snippet": "×\n\nEnglish\n\nWelcome to Podio\n\nResource Library\n\nGetting started\n\nUsing Podio\n\nWorkflow automation\n\nPodio Labs\n\nUsing Podio /  Account, billing & administration /  30-Day Podio Premium Trial\n\nIs this article helpful?\n\nYesNo\n\n# Understanding Your 30‑Day Podio Premium Trial\n\n## Overview\n\nIf you're curr"
+        },
+        {
+          "url": "https://podio.com/signup",
+          "title": "Podio",
+          "snippet": "Podio\n\n## Create your free account and join over 500,000 teams getting their work done on Podio."
+        },
+        {
+          "url": "https://www.progress.com/podio/documentation/using-podio/account-billing-and-administration/pricing",
+          "title": "Pricing",
+          "snippet": "×\n\nEnglish\n\nWelcome to Podio\n\nResource Library\n\nGetting started\n\nUsing Podio\n\nWorkflow automation\n\nPodio Labs\n\nUsing Podio /  Account, billing & administration /  Pricing\n\nOpen in Claude\n\nIs this article helpful?\n\nYesNo\n\n# Pricing\n\nFor information on the pricing for each tier, see https://podio.com/"
+        },
+        {
+          "url": "https://toolgpa.com/tools/podio/pricing",
+          "title": "Podio pricing: plans, free plan and discounts | ToolGPA",
+          "snippet": "Podio pricing: plans, free plan and discounts | ToolGPA\n\n# Podio pricing\n\nPodio has a free plan. Paid plans start at $11.20 per user / month, billed annually.\n\nFree plan Checked Oct 5, 2026 against progress.com\n\n## Plans and prices\n\nStarts at\n\n$11.20 per user / month, billed annually\n\nFree plan\n\nFre"
+        }
+      ]
+    },
+    {
+      "query": "Podio official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://martechdb.com/vendors/podio",
+          "title": "Podio MCP server review: official URL and setup for Claude, ChatGPT and Cursor | MartechDB",
+          "snippet": "Podio MCP server review: official URL and setup for Claude, ChatGPT and Cursor | MartechDB\n\n# Podio MCP server\n\npodio.com\n\nYes. Podio publishes an official MCP server at https://mcp.podio.com/mcp. It's hosted and lets you sign in with your Podio account. It offers 27 tools. We last checked it on 23 "
+        },
+        {
+          "url": "https://www.progress.com/podio/documentation/using-podio/ai-and-mcp/podio-mcp-server-integration-guide",
+          "title": "Podio MCP Server — Integration Guide",
+          "snippet": "Podio MCP Server Integration Guide\n\n# Podio MCP Server — Integration Guide \n\nThe Podio MCP (Model Context Protocol) Server connects AI assistants — ChatGPT, Microsoft Copilot Studio, Claude Desktop, and any other MCP-compatible platform — directly to your Podio data. Once connected, your AI assistan"
+        },
+        {
+          "url": "https://apis.io/servers/podio/podio/",
+          "title": "podio — MCP Server | APIs.io",
+          "snippet": "podio — MCP Server | APIs.io\n\n# podio\n\nOne-click install for Cursor, VS Code, Claude, and 20+ other MCP clients, powered by API Commons MCP Install — visit install.apicommons.org for more information.\n\n Provider: Podio Type: Hosted endpoint Transport: `http` Host: `mcp.podio.com` \n\n## Endpoint\n\nhttp"
+        },
+        {
+          "url": "https://apis.io/providers/podio/",
+          "title": "Podio",
+          "snippet": "# Podio\n\nCanonical: https://apis.io/providers/podio/\nWebsite: https://www.podio.com\nAPIs profiled: 1\n\nPodio is a flexible work management and collaboration platform (originally acquired by Citrix in 2012, and now part of Progress Software following the October 2024 acquisition of ShareFile and Podio"
+        },
+        {
+          "url": "https://developers.podio.com/doc/",
+          "title": "Podio API Documentation - Podio API Documentation",
+          "snippet": "Podio API Documentation - Podio API Documentation\n\n# Podio API Documentation\n\n## Areas\n\nOur API is split up into different areas, that each contains a subset of methods grouped by functionality. You could call each area its own API, but we like to call them areas, because it's just a simple grouping"
+        }
+      ]
+    },
+    {
+      "query": "site:podio.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.podio.com/",
+          "title": "Work Management Platform | Streamline Collaboration & Workflows | Podio",
+          "snippet": "Work Management Platform | Streamline Collaboration & Workflows | Podio\n\n# Simplify Work, Amplify Results with Progress Podio\n\nUnify and automate work with no-code tools, flexible workflows and customizable business solutions.\n\n## Structure, Automate and Scale—Your Way\n\nPodio supports building digit"
+        },
+        {
+          "url": "https://developers.podio.com/index/api",
+          "title": "Concepts and conventions: Conventions and structure of the API - Podio API Documentation",
+          "snippet": "Concepts and conventions: Conventions and structure of the API - Podio API Documentation\n\n# Concepts and conventions: Conventions and structure of the API\n\n## Structure and conventions\n\nThe API is available at https://api.podio.com. It is RESTful and uses json as the exchange format. SSL is mandator"
+        },
+        {
+          "url": "https://workflow-automation.podio.com/help/errors-and-troubleshooting-tips.php",
+          "title": "Errors and Troubleshooting Tips",
+          "snippet": "Errors and Troubleshooting Tips\n\n# Errors and Troubleshooting Tips\n\nThe best place to start, when your flows are not performing correctly, is to view your Flow Logs. Typically, an error will show in the Errors Only view but for more complex errors, or to follow a log of what happened, you can invest"
+        },
+        {
+          "url": "https://workflow-automation.podio.com/help/remote-post-get.php",
+          "title": "Remote HTTP Call",
+          "snippet": "Remote HTTP Call\n\n# Remote HTTP Call\n\nUse the Remote HTTP Call action to send data to a remote script via GET, PUT, PATCH, DELETE or POST and capture the result. This allows you to use accessible external scripts to further extend your use of Podio and Workflow Automations. This was formerly called "
+        },
+        {
+          "url": "https://developers.podio.com/doc/reference",
+          "title": "Reference | API Documentation - Podio API Documentation",
+          "snippet": "Reference | API Documentation - Podio API Documentation\n\n# Podio API Documentation\n\n## Reference\n\n### Operations\n\n- Count user profiles with access to object\n- Get reference\n\n- Get user profiles with access to object\n- Resolve URL"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://podio.com",
+      "final_url": "https://www.podio.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0d101e364ba9b1fe7f5581b4d4ad25847b28ccf4c94ef709cda18d19c4bce39e",
+      "text_len": 5785
+    },
+    {
+      "requested_url": "https://developers.podio.com/doc/oauth-authorization",
+      "final_url": "https://developers.podio.com/doc/oauth-authorization",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "59ade44cb68fbbc5772c3cde47dadbe55c56ac48034d0be9a936b11017b4c247",
+      "text_len": 1524
+    },
+    {
+      "requested_url": "https://developers.podio.com/api-key",
+      "final_url": "https://developers.podio.com/api-key",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c7a7818f10e0d194d2cd5b89cbe968bb30310a859f70e2bfa90d70380fc98f4c",
+      "text_len": 247
+    },
+    {
+      "requested_url": "https://podio.com/signup",
+      "final_url": "https://podio.com/signup",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "098024c1b81256bfdb8c76b45dd29d9c0767afd967b1ab786e840760e587a4d4",
+      "text_len": 96
+    },
+    {
+      "requested_url": "https://developers.podio.com/doc/",
+      "final_url": "https://developers.podio.com/doc/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "38ddeef5bd4cc7ce2c4457d908ad90c8d94c1512b72181bfaf55d1ac46bbff50",
+      "text_len": 3677
+    },
+    {
+      "requested_url": "https://developers.podio.com/doc/reference",
+      "final_url": "https://developers.podio.com/doc/reference",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b79a3ad7d2b85ebe8cb5a20b766c778267c434e2a0c09a5d61f542b72796d866",
+      "text_len": 230
+    },
+    {
+      "requested_url": "https://developers.podio.com/authentication",
+      "final_url": "https://developers.podio.com/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "217da22b5f705611375a567acb4f75ee284814b8d7ef6e73d990510733aecee6",
+      "text_len": 4292
+    },
+    {
+      "requested_url": "https://developers.podio.com/authentication/client_side",
+      "final_url": "https://developers.podio.com/authentication/client_side",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3f73a41908d022bc919e5a38a3f07bb33d516ea544a4136e3fc3c80a319f356e",
+      "text_len": 1076
+    },
+    {
+      "requested_url": "https://developers.podio.com/llms.txt",
+      "final_url": "https://developers.podio.com/llms.txt",
+      "status": 500,
+      "provider": "http",
+      "fetched_at": "2026-11-23T13:34:08Z",
+      "error": "HTTP 500",
+      "method": "http_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://developers.podio.com/authentication/username_password",
+      "final_url": "https://developers.podio.com/authentication/username_password",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3207f294c58f0ce802de7cdc93dd7f75233655db92fa79de19e022f82afd8e62",
+      "text_len": 2346
+    },
+    {
+      "requested_url": "https://developers.podio.com/authentication/scopes",
+      "final_url": "https://developers.podio.com/authentication/scopes",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "999efaa42cc7a93e98798a8598a7c6a79be1fdfe979633479e6239e7aee05668",
+      "text_len": 4573
+    },
+    {
+      "requested_url": "https://podio.com/llms.txt",
+      "final_url": "https://podio.com/llms.txt",
+      "status": 406,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:17Z",
+      "error": "exa /contents: page HTTP 406",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.podio.com/authentication",
+        "quote": "This allows external apps to request authorization to Podio without having direct access to the user's password.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.podio.com/api-key",
+        "quote": "You just have to sign in or sign up with Podio, and go to the API key tab in your settings.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.podio.com/api-key",
+        "quote": "It's easy to get one or more API keys for accessing your Podio data.",
+        "verified": true
+      },
+      {
+        "url": "https://podio.com/signup",
+        "quote": "Create your free account and join over 500,000 teams getting their work done on Podio.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.podio.com/doc/",
+        "quote": "Our API is split up into different areas, that each contains a subset of methods grouped by functionality.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.podio.com/doc/",
+        "quote": "Hooks are webhooks that can call external sites when certain actions occur in Podio.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.podio.com/doc/",
+        "quote": "Our API is split up into different areas, that each contains a subset of methods grouped by functionality.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.podio.com/authentication",
+        "quote": "Before you can use the Podio API you must register your application.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.podio.com/",
+        "quote": "Unify and automate work with no-code tools, flexible workflows and customizable business solutions.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

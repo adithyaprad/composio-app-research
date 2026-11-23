@@ -1,0 +1,342 @@
+{
+  "slug": "pylon",
+  "searches": [
+    {
+      "query": "Pylon API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "title": "Authentication | Pylon",
+          "snippet": "Authentication | Pylon\n\n# Authentication\n\nHow to authenticate with Pylon's API\n\nThe Pylon API uses Bearer authentication. This means you’ll need to pass your API token in the header of your request:\n\n```\nAuthorization: Bearer <token>\n```\n\nGenerate an API token in the Pylon dashboard.\n\n### API region"
+        },
+        {
+          "url": "https://support.usepylon.com/articles/4735104435-how-do-i-create-an-api-token",
+          "title": "How do I create a Pylon API token? | Pylon Knowledge Base",
+          "snippet": "How do I create a Pylon API token? | Pylon Knowledge Base\n\n# How do I create a Pylon API token?\n\n Last updated 2 months ago \n\nApplies to: Pylon API access\n\nTo create a Pylon API token, sign in as a user with permission to manage API tokens, then open Settings → API Tokens. If you do not see that pag"
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+          "title": "API | Pylon",
+          "snippet": "API | Pylon\n\n# API\n\nProgrammatic access to read and write data in Pylon\n\nPylon’s API can be used to programmatically access and take action on data within Pylon.\n\nOnly Admin users can create API tokens. To learn more about Admins, see Roles & User Management.\n\nSome common use cases for our API inclu"
+        },
+        {
+          "url": "https://www.usepylon.com/integrations/api-webhooks",
+          "title": "API & Webhooks",
+          "snippet": "The support metrics that matter in the age of AI\n\nRegister now\n\n# API & Webhooks\n\nRead and act on your Pylon data programmatically.\n\nThank you! Your submission has been received!\n\nOops! Something went wrong while submitting the form.\n\nTrusted by 1,800+ B2B customers globally\n\nWhy teams use it\n\nDeplo"
+        },
+        {
+          "url": "https://apis.io/security/pylon/pylon-authentication/",
+          "title": "Pylon Authentication",
+          "snippet": "Pylon API Authentication | APIs.io\n\n# Pylon Authentication\n\nAuthentication\n\nPylon secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.\n\n Customer Service Customer Operations Ticketing Knowledge Base B2B Help Desk \n\n### Security Schemes\n\nbearerAuth ht"
+        }
+      ]
+    },
+    {
+      "query": "Pylon developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+          "title": "API | Pylon",
+          "snippet": "API | Pylon\n\n# API\n\nProgrammatic access to read and write data in Pylon\n\nPylon’s API can be used to programmatically access and take action on data within Pylon.\n\nOnly Admin users can create API tokens. To learn more about Admins, see Roles & User Management.\n\nSome common use cases for our API inclu"
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+          "title": "Authentication | Pylon",
+          "snippet": "Authentication | Pylon\n\n# Authentication\n\nHow to authenticate with Pylon's API\n\nThe Pylon API uses Bearer authentication. This means you’ll need to pass your API token in the header of your request:\n\n```\nAuthorization: Bearer <token>\n```\n\nGenerate an API token in the Pylon dashboard.\n\n### API region"
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/developer/api/api-reference",
+          "title": "API reference",
+          "snippet": "API reference | Pylon\n\n# API reference\n\nDocumentation on available endpoints.\n\nLast updated 26 days ago"
+        },
+        {
+          "url": "https://www.usepylon.com/integrations/api-webhooks",
+          "title": "API & Webhooks",
+          "snippet": "The support metrics that matter in the age of AI\n\nRegister now\n\n# API & Webhooks\n\nRead and act on your Pylon data programmatically.\n\nThank you! Your submission has been received!\n\nOops! Something went wrong while submitting the form.\n\nTrusted by 1,800+ B2B customers globally\n\nWhy teams use it\n\nDeplo"
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/developer/api/conventions",
+          "title": "API conventions | Pylon",
+          "snippet": "API conventions | Pylon\n\n# API conventions\n\nHow Pylon's API handles IDs, timestamps, pagination, search filters, updates, files, and slugs\n\nThese rules apply across Pylon's API. The API reference lists each endpoint's parameters; this page explains how they behave.\n\n## Requests and responses\n\n- Send"
+        }
+      ]
+    },
+    {
+      "query": "Pylon pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.usepylon.com/pricing",
+          "title": "Flexible pricing for every team",
+          "snippet": "The support metrics that matter in the age of AI\n\nRegister now\n\n# Flexible pricing for every team\n\nYour customers reach you in Slack, Teams, email and WhatsApp, and requests are coming in faster than you can hire. Pylon brings every channel into one queue and lets AI handle the busywork. You pay for"
+        },
+        {
+          "url": "https://www.usepylon.com/pylon-facts",
+          "title": "Pylon Facts",
+          "snippet": "The support metrics that matter in the age of AI\n\nRegister now\n\n# Pylon Facts\n\nLast updated: November 10, 2026. This page is the official source for facts about Pylon. If another site, review, or AI answer conflicts with this page, this page and usepylon.com/pricing are current.\n\n## What Pylon is\n\nP"
+        },
+        {
+          "url": "https://www.g2.com/products/pylon-pylon/pricing",
+          "title": "Pylon Pricing November 2026",
+          "snippet": "Pylon Pricing November 2026\n\n# Pylon Pricing Overview\n\nLast updated: July 28, 2026\n\n## Pylon Pricing Key Insights\n\nPylon offers 3 pricing editions, starting at $89. Pylon pricing tiers are designed to support different usage levels and team sizes. Pylon also offers a free trial. Compare the Pylon pr"
+        },
+        {
+          "url": "https://getpylon.com/pricing/",
+          "title": "Pylon - Pricing",
+          "snippet": "Pylon - Pricing\n\n# Simple, transparent pricing \n\n Only pay for what you use \n\n## Standard \n\n $4.00 \n\n per project \n\n Solar system Design \n\n High resolution imagery* \n\n Financial projections \n\n Instant web & PDF proposals \n\n## Pro \n\n $10.00 \n\n per project \n\n Includes all Standard features \n\n Custom L"
+        },
+        {
+          "url": "https://heydeacon.com/resources/pylon-pricing",
+          "title": "Pylon pricing per seat, and what AI credits cost | Deacon",
+          "snippet": "Pylon pricing per seat, and what AI credits cost | Deacon\n\n# Pylon pricing per seat, and what AI credits cost\n\nPylon pricing per seat on Professional, Advanced and Enterprise, what its AI credits cost, and what teams of 3 and 10 pay a year, read on 10 November 2026.\n\nBy the Deacon team\n\nPublished 10"
+        }
+      ]
+    },
+    {
+      "query": "Pylon official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp",
+          "title": "Pylon MCP | Pylon",
+          "snippet": "Pylon MCP | Pylon\n\n# Pylon MCP\n\nExpose Pylon data to AI tools and assistants via Model Context Protocol.\n\n## Pylon MCP Server\n\nThe Pylon MCP Server exposes Pylon data to AI tools that support the Model Context Protocol (e.g. Claude, ChatGPT, Cursor). AI tools authenticate with OAuth or an API token "
+        },
+        {
+          "url": "https://support.usepylon.com/articles/2407390554-connecting-to-the-pylon-mcp-server",
+          "title": "How do I connect to the Pylon MCP Server? | Pylon Knowledge Base",
+          "snippet": "How do I connect to the Pylon MCP Server? | Pylon Knowledge Base\n\n# How do I connect to the Pylon MCP Server?\n\n Last updated 22 days ago \n\nThe Pylon MCP server at https://mcp.usepylon.com provides AI tools access to your Pylon data. The endpoint uses HTTPS, so the connection is protected with TLS. I"
+        },
+        {
+          "url": "https://www.usepylon.com/integrations/claude",
+          "title": "Claude",
+          "snippet": "The support metrics that matter in the age of AI\n\nRegister now\n\n# Claude\n\nConnect Claude to your Pylon issues, accounts, and contacts.\n\nThank you! Your submission has been received!\n\nOops! Something went wrong while submitting the form.\n\nTrusted by 1,800+ B2B customers globally\n\nWhy teams use it\n\nDe"
+        },
+        {
+          "url": "https://www.usepylon.com/blog/connect-pylon-chatgpt-mcp",
+          "title": "How to connect Pylon to ChatGPT with MCP",
+          "snippet": "The support metrics that matter in the age of AI\n\nRegister now\n\n Resources\n\nGuides\n\n·\n\nNovember 6, 2026\n\n# How to connect Pylon to ChatGPT with MCP\n\nA practical how-to for support teams that want ChatGPT to work on Pylon issues and accounts without inventing a custom integration.\n\nPylon Team\n\n·\n\n5 m"
+        },
+        {
+          "url": "https://www.usepylon.com/blog/mcp-ai-agents",
+          "title": "Customer support platforms that work with ChatGPT and MCP",
+          "snippet": "The support metrics that matter in the age of AI\n\nRegister now\n\n Resources\n\nGuides\n\n·\n\nOctober 28, 2026\n\n# Customer support platforms that work with ChatGPT and MCP\n\nCompare customer support platforms with MCP for ChatGPT: Pylon, Front, HubSpot, Plain, Intercom, Freshdesk, and Zendesk. What each con"
+        }
+      ]
+    },
+    {
+      "query": "site:usepylon.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.usepylon.com/integrations/mcp",
+          "title": "Pylon MCP server",
+          "snippet": "The support metrics that matter in the age of AI\n\nRegister now\n\n# Pylon MCP server\n\nConnect ChatGPT, Claude, and Cursor to Pylon. Work issues, accounts, contacts, and your knowledge base with the permissions you already have.\n\nThank you! Your submission has been received!\n\nOops! Something went wrong"
+        },
+        {
+          "url": "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp",
+          "title": "Pylon MCP | Pylon",
+          "snippet": "Pylon MCP | Pylon\n\n# Pylon MCP\n\nExpose Pylon data to AI tools and assistants via Model Context Protocol.\n\n## Pylon MCP Server\n\nThe Pylon MCP Server exposes Pylon data to AI tools that support the Model Context Protocol (e.g. Claude, ChatGPT, Cursor). AI tools authenticate with OAuth or an API token "
+        },
+        {
+          "url": "https://support.usepylon.com/articles/2407390554-connecting-to-the-pylon-mcp-server",
+          "title": "How do I connect to the Pylon MCP Server? | Pylon Knowledge Base",
+          "snippet": "How do I connect to the Pylon MCP Server? | Pylon Knowledge Base\n\n# How do I connect to the Pylon MCP Server?\n\n Last updated 22 days ago \n\nThe Pylon MCP server at https://mcp.usepylon.com provides AI tools access to your Pylon data. The endpoint uses HTTPS, so the connection is protected with TLS. I"
+        },
+        {
+          "url": "https://www.usepylon.com/integrations/chatgpt",
+          "title": "ChatGPT",
+          "snippet": "The support metrics that matter in the age of AI\n\nRegister now\n\n# ChatGPT\n\nBring your Pylon data into ChatGPT to answer questions and take action.\n\nThank you! Your submission has been received!\n\nOops! Something went wrong while submitting the form.\n\nTrusted by 1,800+ B2B customers globally\n\nWhy team"
+        },
+        {
+          "url": "https://www.usepylon.com/blog/mcp-ai-agents",
+          "title": "Customer support platforms that work with ChatGPT and MCP",
+          "snippet": "The support metrics that matter in the age of AI\n\nRegister now\n\n Resources\n\nGuides\n\n·\n\nOctober 28, 2026\n\n# Customer support platforms that work with ChatGPT and MCP\n\nCompare customer support platforms with MCP for ChatGPT: Pylon, Front, HubSpot, Plain, Intercom, Freshdesk, and Zendesk. What each con"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://usepylon.com",
+      "final_url": "https://usepylon.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:19Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "fce15cc2d32bd1aa10a849291293357959bbd21ac5d2d8285b93adae4f6b59fc",
+      "text_len": 5853
+    },
+    {
+      "requested_url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+      "final_url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cb00f5b27687ac466ad9d147031d850160d233a779c896392544b325fa2c49a7",
+      "text_len": 4767
+    },
+    {
+      "requested_url": "https://docs.usepylon.com/pylon-docs/developer/api/api-reference",
+      "final_url": "https://docs.usepylon.com/pylon-docs/developer/api/api-reference",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:14Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "07662c3f7820bd6ac2b0ebfaf8bba3a45ec719f291848b3cd3550d94ec10c5d6",
+      "text_len": 103
+    },
+    {
+      "requested_url": "https://www.usepylon.com/pricing",
+      "final_url": "https://www.usepylon.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:16Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ed236e471ddfc7ce8f2b83cfd47f65fe3c5ca5680b2f8ebd4abf499fbc5e0897",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp",
+      "final_url": "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cf07addbb4fd570e1769ad9ed8565b60897e06f852f4319b5cee7d9739fec10e",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+      "final_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "37c42889f70e69a4d3df314b29e9d4ff93801e0197836e6faf26acab2a411421",
+      "text_len": 1068
+    },
+    {
+      "requested_url": "https://docs.usepylon.com/pylon-docs/developer/api/conventions",
+      "final_url": "https://docs.usepylon.com/pylon-docs/developer/api/conventions",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:14Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7961bddb2da6486f66daff177088f4fb79b810a6abe63c7c3ad4e1a35d064e25",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://support.usepylon.com/articles/2407390554-connecting-to-the-pylon-mcp-server",
+      "final_url": "https://support.usepylon.com/articles/2407390554-connecting-to-the-pylon-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5fcf52bcd8d6b0c1a77f33bae84c0d0667ef7bf94234297205654b35da64d7d6",
+      "text_len": 4839
+    },
+    {
+      "requested_url": "https://docs.usepylon.com/llms.txt",
+      "final_url": "https://docs.usepylon.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:20Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "2dba28468a6614ed823d1969d229da701699698c057da371caea61d29a0a6a72",
+      "text_len": 17967
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+        "quote": "The Pylon API uses Bearer authentication. This means you’ll need to pass your API token in the header of your request",
+        "verified": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+        "quote": "Only Admins can create and manage API tokens.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.usepylon.com/pricing",
+        "quote": "You pay for the seats and AI credits your team uses, never per ticket.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "quote": "Only Admin users can create API tokens.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "quote": "Pylon’s API can be used to programmatically access and take action on data within Pylon.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api/conventions",
+        "quote": "List and search endpoints use cursor pagination.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp",
+        "quote": "The Pylon MCP Server exposes Pylon data to AI tools that support the Model Context Protocol",
+        "verified": true
+      },
+      {
+        "url": "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp",
+        "quote": "Server URL (US): `https://mcp.usepylon.com`",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://www.usepylon.com/pricing",
+        "quote": "MCP API Integrations",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://usepylon.com",
+        "quote": "Pylon lets humans and agents collaborate on customer work—investigating, resolving, and acting on every signal.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "slug": "ecwid",
+  "searches": [
+    {
+      "query": "Ecwid API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+          "title": "Make your first API request | Ecwid Documentation",
+          "snippet": "Make your first API request | Ecwid Documentation\n\n# Make your first API request\n\nAll requests to Ecwid REST API require an access token. Ecwid uses OAuth 2.0 to provide secure access to the store data for public apps. If you customize your own store, however, you can skip OAuth and easily get an ac"
+        },
+        {
+          "url": "https://docs.ecwid.com/launch-apps/native-and-external-apps",
+          "title": "Native and external apps | Ecwid Documentation",
+          "snippet": "Native and external apps | Ecwid Documentation\n\n# Native and external apps\n\nWhile custom apps work only in one store, public applications can be used by thousands of clients. Therefore, they must be able to:\n\n- Have some form of SQL database for managing users and REST API access to their data.\n- Pr"
+        },
+        {
+          "url": "https://docs.ecwid.com/develop-apps/app-settings",
+          "title": "App settings | Ecwid Documentation",
+          "snippet": "App settings | Ecwid Documentation\n\n# App settings\n\nConfiguration for all Ecwid apps consists of the following settings:\n\n- Access scopes - a list of permissions defining API access for the app.\n- Access tokens - non-expiring authorization keys for REST API requests.\n- Endpoints - static URLs on the"
+        },
+        {
+          "url": "https://github.com/Ecwid/ecwid-api-docs/blob/master/includes/_authentication.md",
+          "title": "includes/_authentication.md at master · Ecwid/ecwid-api-docs",
+          "snippet": "ecwid-api-docs/includes/_authentication.md at master · Ecwid/ecwid-api-docs · GitHub\n\nMinor fixes\n\nFeb 25, 2019\n\n371 lines (252 loc) · 23.8 KB\n\n371 lines (252 loc) · 23.8 KB\n\n# Authentication\n\nThe Ecwid platform provides two ways of installing and operating applications in an online store: native an"
+        },
+        {
+          "url": "https://docs.ecwid.com/api-reference",
+          "title": "REST API overview | REST API Reference | Ecwid Documentation",
+          "snippet": "REST API overview | REST API Reference | Ecwid Documentation\n\n# REST API overview\n\nEcwid REST API allows you to access and manage any store data, payment and shipping methods, and storefront settings.\n\nWe use OAuth 2.0 authorization simplified for single-store customizations, JSON-formatted data, an"
+        }
+      ]
+    },
+    {
+      "query": "Ecwid developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.ecwid.com/api-reference",
+          "title": "REST API overview | REST API Reference | Ecwid Documentation",
+          "snippet": "REST API overview | REST API Reference | Ecwid Documentation\n\n# REST API overview\n\nEcwid REST API allows you to access and manage any store data, payment and shipping methods, and storefront settings.\n\nWe use OAuth 2.0 authorization simplified for single-store customizations, JSON-formatted data, an"
+        },
+        {
+          "url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+          "title": "Make your first API request | Ecwid Documentation",
+          "snippet": "Make your first API request | Ecwid Documentation\n\n# Make your first API request\n\nAll requests to Ecwid REST API require an access token. Ecwid uses OAuth 2.0 to provide secure access to the store data for public apps. If you customize your own store, however, you can skip OAuth and easily get an ac"
+        },
+        {
+          "url": "https://docs.ecwid.com/develop-apps/app-settings",
+          "title": "App settings | Ecwid Documentation",
+          "snippet": "App settings | Ecwid Documentation\n\n# App settings\n\nConfiguration for all Ecwid apps consists of the following settings:\n\n- Access scopes - a list of permissions defining API access for the app.\n- Access tokens - non-expiring authorization keys for REST API requests.\n- Endpoints - static URLs on the"
+        },
+        {
+          "url": "https://developers.ecwid.com/",
+          "title": "Ecwid Developers | Build an e-commerce app for Ecwid merchants",
+          "snippet": "Ecwid Developers | Build an e-commerce app for Ecwid merchants\n\n# Start building with the Ecwid API\n\nDevelop innovative solutions that power the future of ecommerce. Customize a store’s functionality or design, create headless sites, or build powerful apps that empower merchants selling around the w"
+        },
+        {
+          "url": "https://docs.ecwid.com/launch-apps/native-and-external-apps",
+          "title": "Native and external apps | Ecwid Documentation",
+          "snippet": "Native and external apps | Ecwid Documentation\n\n# Native and external apps\n\nWhile custom apps work only in one store, public applications can be used by thousands of clients. Therefore, they must be able to:\n\n- Have some form of SQL database for managing users and REST API access to their data.\n- Pr"
+        }
+      ]
+    },
+    {
+      "query": "Ecwid pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.ecwid.com/pricing",
+          "title": "Ecwid Pricing - Choose the right Ecwid plan for your business!",
+          "snippet": "Ecwid Pricing - Choose the right Ecwid plan for your business!\n\n# Ecommerce made easy for every stage of your business\n\n Choose the perfect plan to support your business from its first steps to the big leagues.\n\nAnnual (save 16%)\n\nMonthly\n\n## Starter\n\nFor beginners\n\n$ MX$ £ AU$ ₹ 5 5 5 8 99 450 5 5 "
+        },
+        {
+          "url": "https://support.ecwid.com/hc/en-us/articles/207100729-Ecwid-plans-and-features",
+          "title": "Ecwid plans and features – Ecwid Help Center",
+          "snippet": "Ecwid plans and features – Ecwid Help Center\n\n# Ecwid plans and features \n\n Table of contents \n\nEcwid offers four plans (Starter, Venture, Business, and Unlimited) to fit the needs of any business. The Starter plan is a great way to test the platform, and premium plans will add new features and func"
+        },
+        {
+          "url": "https://support.ecwid.com/hc/en-us/articles/25122701806108-Changes-to-the-Ecwid-plan-pricing-after-March-2-2026",
+          "title": "Changes to the Ecwid plan pricing after March 2, 2026 – Ecwid Help Center",
+          "snippet": "Changes to the Ecwid plan pricing after March 2, 2026 – Ecwid Help Center\n\n# Changes to the Ecwid plan pricing after March 2, 2026 \n\n Table of contents \n\nOver time, Ecwid continues to invest in adding new ecommerce features, improving performance, and expanding the tools that help you run and grow y"
+        },
+        {
+          "url": "https://support.ecwid.com/hc/en-us/articles/360008502999-Getting-started-with-Ecwid",
+          "title": "Getting started with Ecwid – Ecwid Help Center",
+          "snippet": "Getting started with Ecwid – Ecwid Help Center\n\n# Getting started with Ecwid \n\n Table of contents \n\nWe are excited that you start selling online! If you want to create a stylish and professional site with an online store without spending tons of money and time on programmers and designers, you came "
+        },
+        {
+          "url": "https://www.ecwid.com/pricing/venture",
+          "title": "Upgrade to the Venture plan",
+          "snippet": "Upgrade to the Venture plan\n\n# Expand your journey on the Venture plan\n\nIf you’re looking to expand your online presence and selling capabilities, this plan is for you. It allows up to 100 products and unlocks new marketing, product management, and customization tools for your store.\n\n## Increase re"
+        }
+      ]
+    },
+    {
+      "query": "Ecwid official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://usefulapi.io/ecwid/",
+          "title": "Ecwid MCP server & connector for Claude, ChatGPT | usefulapi",
+          "snippet": "Ecwid MCP server & connector for Claude, ChatGPT | usefulapi\n\n# Ecwid MCP server\n\nRead store products, orders, customers, categories and coupons; adjust inventory and update orders. Hosted by usefulapi: connect it to Claude, ChatGPT, Cursor or any MCP client.\n\nConnect Ecwid 50 free tool calls a mont"
+        },
+        {
+          "url": "https://zapier.com/mcp/ecwid",
+          "title": "Ecwid by Lightspeed MCP Server - MCP AI | Zapier",
+          "snippet": "Ecwid by Lightspeed MCP Server - MCP AI | Zapier\n\n# Use Ecwid by Lightspeed MCP to take action in your AI tools\n\nUse Zapier Agents for a quick no-code setup, or connect to any AI environment with the Zapier MCP server.\n\nYou Today Create customer in Ecwid by Lightspeed\n\nSure thing, I'll get right on "
+        },
+        {
+          "url": "https://docs.ecwid.com/",
+          "title": "Build with Ecwid apps | Ecwid Documentation",
+          "snippet": "Build with Ecwid apps | Ecwid Documentation\n\n# Build with Ecwid apps\n\nExplore our guides and examples to integrate Ecwid Ecommerce\n\nCustomize your store\n\nGet access to API with an app\n\nLearn app settings\n\nFAQ about public applications\n\n### Get human support\n\nAsk your questions and get answers from o"
+        },
+        {
+          "url": "https://docs.ecwid.com/api-reference",
+          "title": "REST API overview | REST API Reference | Ecwid Documentation",
+          "snippet": "REST API overview | REST API Reference | Ecwid Documentation\n\n# REST API overview\n\nEcwid REST API allows you to access and manage any store data, payment and shipping methods, and storefront settings.\n\nWe use OAuth 2.0 authorization simplified for single-store customizations, JSON-formatted data, an"
+        },
+        {
+          "url": "https://anythingmcp.com/marketplace/ecwid",
+          "title": "Ecwid MCP Connector for Claude, ChatGPT & Copilot | AnythingMCP",
+          "snippet": "Ecwid MCP Connector for Claude, ChatGPT & Copilot | AnythingMCP\n\n# Ecwid\n\nDrive Ecwid (Lightspeed-owned e-commerce platform) from any AI agent: products, categories, orders, customers. 10 tools, OAuth2 Bearer auth, store-scoped URL.\n\n7-day free trial · No credit card · EU-hosted\n\nConnector specs\n\nMC"
+        }
+      ]
+    },
+    {
+      "query": "site:api-docs.ecwid.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://anythingmcp.com/marketplace/ecwid",
+          "title": "Ecwid MCP connector · Connect Ecwid to Claude, ChatGPT & Copilot | AnythingMCP",
+          "snippet": "Ecwid MCP Connector for Claude, ChatGPT & Copilot | AnythingMCP\n\n# Ecwid\n\nDrive Ecwid (Lightspeed-owned e-commerce platform) from any AI agent: products, categories, orders, customers. 10 tools, OAuth2 Bearer auth, store-scoped URL.\n\n7-day free trial · No credit card · EU-hosted\n\nConnector specs\n\nMC"
+        },
+        {
+          "url": "https://www.docs.popmcp.com/docs/integrations/ecwid/",
+          "title": "Connect Ecwid MCP Server to Claude and ChatGPT",
+          "snippet": "Connect Ecwid MCP Server to Claude and ChatGPT\n\n# Ecwid\n\nConnect Ecwid to manage products, variations, orders, customers, categories, discount coupons, and store settings. MCP setup guide for Claude and ChatGPT.\n\nAPI credentials Paid plan required Ecommerce & Marketplaces Ecwid API docs Ecwid MCP se"
+        },
+        {
+          "url": "https://usefulapi.io/ecwid/",
+          "title": "Ecwid MCP server & connector for Claude, ChatGPT | usefulapi",
+          "snippet": "Ecwid MCP server & connector for Claude, ChatGPT | usefulapi\n\n# Ecwid MCP server\n\nRead store products, orders, customers, categories and coupons; adjust inventory and update orders. Hosted by usefulapi: connect it to Claude, ChatGPT, Cursor or any MCP client.\n\nConnect Ecwid 50 free tool calls a mont"
+        },
+        {
+          "url": "https://docs.ecwid.com/api-reference",
+          "title": "REST API overview | REST API Reference | Ecwid Documentation",
+          "snippet": "REST API overview | REST API Reference | Ecwid Documentation\n\n# REST API overview\n\nEcwid REST API allows you to access and manage any store data, payment and shipping methods, and storefront settings.\n\nWe use OAuth 2.0 authorization simplified for single-store customizations, JSON-formatted data, an"
+        },
+        {
+          "url": "https://www.popmcp.com/mcp-servers/ecwid/",
+          "title": "Ecwid MCP Server for Claude, ChatGPT and Codex | PopMCP",
+          "snippet": "Ecwid MCP Server for Claude, ChatGPT and Codex | PopMCP\n\n# Ecwid MCP server for your AI\n\nAdjust stock, edit prices and variations, search orders by status, create coupons and pull an invoice — against the single store your secret token is scoped to.\n\nPopMCP∞ Ecwid\n\n## Supported Ecwid tools\n\nEvery ca"
+        }
+      ]
+    },
+    {
+      "query": "site:ecwid.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://store15651317.ecwid.com/MCP-master-cylinder-3-4-diameter-rebuild-kit-p837587251",
+          "title": "MCP master cylinder 3/4\" diameter rebuild kit",
+          "snippet": "MCP master cylinder 3/4\" diameter rebuild kit\n\n# MCP master cylinder 3/4\" diameter rebuild kit\n\n$20.95\n\nIn stock: 2 available\n\nProduct Details\n\nRebuild kit for 3/4\" bore MCP master cylinder"
+        },
+        {
+          "url": "https://store15651317.ecwid.com/MCP-master-cylinder-7-8-diameter-rebuild-kit-p837574120",
+          "title": "MCP master cylinder 7/8\" diameter rebuild kit",
+          "snippet": "MCP master cylinder 7/8\" diameter rebuild kit\n\n# MCP master cylinder 7/8\" diameter rebuild kit\n\n$20.95\n\nIn stock: 1 available\n\nProduct Details\n\nRebuild kit for 7/8\" bore MCP master cylinder"
+        },
+        {
+          "url": "https://store15651317.ecwid.com/MCP-master-cylinder-fill-plug-p837578649",
+          "title": "MCP master cylinder fill plug",
+          "snippet": "MCP master cylinder fill plug\n\n +2\n\n# MCP master cylinder fill plug\n\n$0.96\n\nIn stock: 6 available\n\nProduct Details"
+        },
+        {
+          "url": "https://store15651317.ecwid.com/MCP-caliper-rebuild-kit-standard-caliper-p837574144",
+          "title": "MCP caliper rebuild kit (standard caliper)",
+          "snippet": "MCP caliper rebuild kit (standard caliper)\n\n# MCP caliper rebuild kit (standard caliper)\n\n$18.52\n\nIn stock: 1 available\n\nProduct Details\n\nMCP caliper rebuild kit for standard caliper with 1 3/8\" bore"
+        },
+        {
+          "url": "https://store15651317.ecwid.com/MCP-brake-adjuster-p837587261",
+          "title": "MCP brake adjuster",
+          "snippet": "MCP brake adjuster\n\n# MCP brake adjuster\n\n$9.00\n\nIn stock: 2 available\n\nProduct Details\n\nMCP brake adjuster"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://api-docs.ecwid.com",
+      "final_url": "https://api-docs.ecwid.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:45Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "46c747f6308a64a0aeec1c32c50d9e2b8e69e60cd9f5d292b859a34749ebd3e1",
+      "text_len": 4456
+    },
+    {
+      "requested_url": "https://docs.ecwid.com/api-reference",
+      "final_url": "https://docs.ecwid.com/api-reference",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "78fcaf8f17cd6f2e1fa248559f24ff99c80a986285fa380761b48b06f9a2821a",
+      "text_len": 1102
+    },
+    {
+      "requested_url": "https://www.ecwid.com/pricing",
+      "final_url": "https://www.ecwid.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:37Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "dedb17a3cbe51edec58ed859f4ff2327e75cc1d0a5093bc22317eec2c166e1e1",
+      "text_len": 11441
+    },
+    {
+      "requested_url": "https://store15651317.ecwid.com/MCP-brake-adjuster-p837587261",
+      "final_url": "https://store15651317.ecwid.com/MCP-brake-adjuster-p837587261",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:44Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "058e362543db8960abbf89855a4d1457a5b8de5ca96c0b50d07cdb505b56ba8b",
+      "text_len": 107
+    },
+    {
+      "requested_url": "https://www.ecwid.com/pricing/venture",
+      "final_url": "https://www.ecwid.com/pricing/venture",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:37Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "70277c030296478aa5c8e3ca29f14257990f75c426d51c30334aacca5663da9c",
+      "text_len": 4631
+    },
+    {
+      "requested_url": "https://store15651317.ecwid.com/MCP-caliper-rebuild-kit-standard-caliper-p837574144",
+      "final_url": "https://store15651317.ecwid.com/MCP-caliper-rebuild-kit-standard-caliper-p837574144",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:44Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "63dec38adeaf4d47edbc3811774c45fc86b4cdb1bdb277ae126c0d6a385141a6",
+      "text_len": 199
+    },
+    {
+      "requested_url": "https://store15651317.ecwid.com/MCP-master-cylinder-3-4-diameter-rebuild-kit-p837587251",
+      "final_url": "https://store15651317.ecwid.com/MCP-master-cylinder-3-4-diameter-rebuild-kit-p837587251",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:44Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8f3dc858afbbe818b7c5a39391589a24049d9c580c15706d4e686d28f53387ec",
+      "text_len": 189
+    },
+    {
+      "requested_url": "https://store15651317.ecwid.com/MCP-master-cylinder-7-8-diameter-rebuild-kit-p837574120",
+      "final_url": "https://store15651317.ecwid.com/MCP-master-cylinder-7-8-diameter-rebuild-kit-p837574120",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:44Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3c078061e882acc4690a99f8dc0b0f62ae868e912bfadfa258d8ebba880d9e16",
+      "text_len": 189
+    },
+    {
+      "requested_url": "https://docs.ecwid.com/llms.txt",
+      "final_url": "https://docs.ecwid.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:45Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "26620e5a8de5b8526a8167cee85e0c9bf738077739973168a54c6dae56a41f0a",
+      "text_len": 17228
+    },
+    {
+      "requested_url": "https://store15651317.ecwid.com/MCP-master-cylinder-fill-plug-p837578649",
+      "final_url": "https://store15651317.ecwid.com/MCP-master-cylinder-fill-plug-p837578649",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:44Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e7e7865bbfcafe761dc78ce77b33f5558f5a9d8304ff22c17e5330b6d31eb132",
+      "text_len": 114
+    },
+    {
+      "requested_url": "https://github.com/Ecwid/ecwid-api-docs/blob/master/includes/_authentication.md",
+      "final_url": "https://github.com/Ecwid/ecwid-api-docs/blob/master/includes/_authentication.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "18357d637227257b4de05fb611877b4acb6accadc9803d108cc663a8775632fb",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.ecwid.com/api-reference",
+        "quote": "We use OAuth 2.0 authorization simplified for single-store customizations, JSON-formatted data, and a clear structure.",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/Ecwid/ecwid-api-docs/blob/master/includes/_authentication.md",
+        "quote": "These apps use oAuth2 flow to get access token for a specific Ecwid store.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://api-docs.ecwid.com",
+        "quote": "Get access to API with an app",
+        "verified": true
+      },
+      {
+        "url": "https://www.ecwid.com/pricing",
+        "quote": "Choose the perfect plan to support your business from its first steps to the big leagues.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.ecwid.com/api-reference",
+        "quote": "Ecwid REST API allows you to access and manage any store data, payment and shipping methods, and storefront settings.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.ecwid.com/llms.txt",
+        "quote": "Contact Ecwid API support team",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.ecwid.com/api-reference",
+        "quote": "We accept up to 600 requests per minute per token.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://api-docs.ecwid.com",
+        "quote": "Explore our guides and examples to integrate Ecwid Ecommerce",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

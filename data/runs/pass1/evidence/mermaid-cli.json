@@ -1,0 +1,289 @@
+{
+  "slug": "mermaid-cli",
+  "searches": [
+    {
+      "query": "Mermaid CLI API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://github.com/mermaid-js/mermaid-cli/",
+          "title": "mermaid-js/mermaid-cli",
+          "snippet": "# mermaid-js/mermaid-cli\n\nCommand line tool for the Mermaid library\n\n- Stars: 5182\n- Forks: 398\n- Watchers: 5182\n- Open issues: 92\n- License: MIT License\n- Default branch: master\n- Created: 2020-05-18T07:26:06Z\n\n## Languages\n\n- CSS\n- Dockerfile\n- HTML\n- JavaScript\n- Mermaid\n- Shell\n- TypeScript\n\n## "
+        },
+        {
+          "url": "https://api.mermaid.ai/v1/docs",
+          "title": "Mermaid API reference",
+          "snippet": "Mermaid API reference\n\n# Mermaid API\n\nMermaid API validates and renders Mermaid diagrams for programs: agents, LLM tool calls, CI pipelines and products. Validate says whether diagram code is valid and why not; render turns it into SVG, PNG or PDF, with the latest Mermaid unless the call pins an ear"
+        },
+        {
+          "url": "https://mermaid.ai/docs/guides/mermaid-api-skill",
+          "title": "Mermaid API skill — Mermaid Chart",
+          "snippet": "Mermaid API skill — Mermaid Chart\n\n# Mermaid API skill\n\nAsk your coding agent to check or draw a Mermaid diagram, and it does it for you through Mermaid API. With the `mermaid-api` skill installed, your agent can:\n\n- Validate diagram code. When the code is invalid, the API reports the line and colum"
+        },
+        {
+          "url": "https://mermaid.ai/open-source/config/mermaidCLI.html",
+          "title": "mermaid CLI",
+          "snippet": "mermaid CLI | Mermaid\n\n# mermaid CLI ​\n\nmermaid CLI has been moved to mermaid-cli. Please read its documentation instead."
+        },
+        {
+          "url": "https://www.npmjs.com/package/@mermaidchart/cli",
+          "title": "@mermaidchart/cli",
+          "snippet": "# @mermaidchart/cli\n\nCLI for interacting with https://mermaid.ai, the platform that makes collaborating with Mermaid diagrams easy\n\n- Version: 0.1.1\n- License: MIT\n- Homepage: https://github.com/Mermaid-Chart/plugins/tree/main/packages/cli#readme\n- Author: Alois Klink <alois@mermaidchart.com>\n- Repo"
+        }
+      ]
+    },
+    {
+      "query": "Mermaid CLI developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://github.com/mermaid-js/mermaid-cli/",
+          "title": "mermaid-js/mermaid-cli",
+          "snippet": "# mermaid-js/mermaid-cli\n\nCommand line tool for the Mermaid library\n\n- Stars: 5182\n- Forks: 398\n- Watchers: 5182\n- Open issues: 92\n- License: MIT License\n- Default branch: master\n- Created: 2020-05-18T07:26:06Z\n\n## Languages\n\n- CSS\n- Dockerfile\n- HTML\n- JavaScript\n- Mermaid\n- Shell\n- TypeScript\n\n## "
+        },
+        {
+          "url": "https://github.com/noahsabaj/mermaid-cli",
+          "title": "noahsabaj/mermaid-cli",
+          "snippet": "# noahsabaj/mermaid-cli\n\nAn open-source, model-agnostic AI pair programmer CLI that provides an interactive chat interface with full agentic coding capabilities.\n\n- Stars: 3\n- Forks: 1\n- Watchers: 3\n- Open issues: 10\n- License: Apache License 2.0\n- Default branch: main\n- Created: 2025-09-20T15:19:33"
+        },
+        {
+          "url": "https://mermaid.ai/open-source/config/mermaidCLI.html",
+          "title": "mermaid CLI",
+          "snippet": "mermaid CLI | Mermaid\n\n# mermaid CLI ​\n\nmermaid CLI has been moved to mermaid-cli. Please read its documentation instead."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/noahsabaj/mermaid-cli/main/docs/cli-reference.md",
+          "title": "",
+          "snippet": "# CLI and TUI reference\n\n## Command line\n\n```bash\nmermaid                                         # Start fresh session\nmermaid --continue                              # Resume the most recent session in this directory\nmermaid --resume                                # Pick a past session from a sear"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/noahsabaj/mermaid-cli/main/docs/tools.md",
+          "title": "",
+          "snippet": "# Tool details\n\nThe tool table lives in the [README](../README.md#tools). This covers the behavior behind it.\n\n## Core tools\n\nAlways registered: `read_file`, `write_file`, `edit_file`, `apply_patch`, `delete_file`,\n`create_directory`, `execute_command`, `background_process`, `memory`, `agent`, the c"
+        }
+      ]
+    },
+    {
+      "query": "Mermaid CLI pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://mermaid.ai/pricing",
+          "title": "Mermaid",
+          "snippet": "Mermaid Pricing: Plans for Individuals & Teams\n\n## Pricing made for the way you diagram\n\nExplore different pricing options that scales with your team's needs.\n\n### Basic\n\nFree\n\nFor getting started and simple diagrams\n\n- 3 Diagrams\n- Limited diagram size\n- Limited AI\n- 1 team & project creation\n- Lim"
+        },
+        {
+          "url": "https://mermaid.ai/docs/workspace-and-admin/manage-your-account",
+          "title": "Manage your account — Mermaid Chart",
+          "snippet": "Manage your account — Mermaid Chart\n\n# Manage your account\n\n## Update your profile\n\n1. Go to Settings → Profile.\n2. Update your name, email, or password.\n3. Click Save.\n\n## Your plan and billing\n\n### Free trial\n\nNew accounts start on the Basic plan with a 7-day free trial. During the trial you have "
+        },
+        {
+          "url": "https://mermaid.ai/faq/",
+          "title": "Mermaid FAQ: Answers to Pricing, Features & Security",
+          "snippet": "Mermaid FAQ: Answers to Pricing, Features & Security\n\n#### Getting Started\n\nUsing Mermaid: Code\n\n## FAQ\n\n### Getting Started\n\nWhat is Mermaid? \n\nMermaid is a collaborative diagramming platform that lets you create diagrams using code, clicks, or AI. You can build flowcharts, sequence diagrams, class"
+        },
+        {
+          "url": "https://github.com/mermaid-js/mermaid-cli/",
+          "title": "mermaid-js/mermaid-cli",
+          "snippet": "# mermaid-js/mermaid-cli\n\nCommand line tool for the Mermaid library\n\n- Stars: 5182\n- Forks: 398\n- Watchers: 5182\n- Open issues: 92\n- License: MIT License\n- Default branch: master\n- Created: 2020-05-18T07:26:06Z\n\n## Languages\n\n- CSS\n- Dockerfile\n- HTML\n- JavaScript\n- Mermaid\n- Shell\n- TypeScript\n\n## "
+        },
+        {
+          "url": "https://mermaid.js.org/ecosystem/mermaid-chart.html",
+          "title": "Mermaid Chart",
+          "snippet": "Mermaid Chart | Mermaid\n\n# Mermaid Chart ​\n\nThe Future of Diagramming & Visual Collaboration\n\nTry the Ultimate AI, Mermaid, and Visual Diagramming Suite by creating an account at Mermaid Chart.\n\n## About ​\n\nMermaid Chart was born out of the Mermaid open source project and was founded by Knut Sveidqv"
+        }
+      ]
+    },
+    {
+      "query": "Mermaid CLI official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://mermaid.ai/docs/ai/mcp-server",
+          "title": "MCP Server — Mermaid Chart",
+          "snippet": "MCP Server — Mermaid Chart\n\n# Mermaid MCP Server\n\nThe Mermaid MCP Server enables AI assistants to create, validate, and render Mermaid diagrams seamlessly, plus full integration with your Mermaid account for advanced diagram management. When you ask your AI assistant to create a flowchart, sequence "
+        },
+        {
+          "url": "https://mermaid-25331.zendesk.com/hc/en-us/articles/51112817195923-Mermaid-MCP-Server",
+          "title": "Mermaid MCP Server – Mermaid Help Center",
+          "snippet": "Mermaid MCP Server – Mermaid Help Center\n\n# Mermaid MCP Server \n\n Mushfika Rahman-Khan \n\n April 28, 2026 14:34 Updated \n\nThe Mermaid MCP Server is an AI integration that lets AI assistants — Claude, Cursor, VS Code, Antigravity, and any other client that supports the Model Context Protocol (MCP) — g"
+        },
+        {
+          "url": "https://mermaid.ai/open-source/config/mermaidCLI.html",
+          "title": "mermaid CLI | Mermaid",
+          "snippet": "mermaid CLI | Mermaid\n\n# mermaid CLI ​\n\nmermaid CLI has been moved to mermaid-cli. Please read its documentation instead."
+        },
+        {
+          "url": "https://github.com/mermaid-js/mermaid-cli/",
+          "title": "mermaid-js/mermaid-cli",
+          "snippet": "# mermaid-js/mermaid-cli\n\nCommand line tool for the Mermaid library\n\n- Stars: 5182\n- Forks: 398\n- Watchers: 5182\n- Open issues: 92\n- License: MIT License\n- Default branch: master\n- Created: 2020-05-18T07:26:06Z\n\n## Languages\n\n- CSS\n- Dockerfile\n- HTML\n- JavaScript\n- Mermaid\n- Shell\n- TypeScript\n\n## "
+        },
+        {
+          "url": "https://mermaid.ai/docs/ai/mcp-apps-server/v3",
+          "title": "Claude MCP App v3 — Mermaid Chart",
+          "snippet": "Claude MCP App v3 — Mermaid Chart\n\n# Mermaid Claude MCP App\n\nThe Mermaid Claude MCP App enables Claude to create, render, and manage Mermaid diagrams directly within the conversation. When you ask Claude to create a flowchart, sequence diagram, or any other Mermaid diagram, this app handles the enti"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://github.com/mermaid-js/mermaid-cli",
+      "final_url": "https://github.com/mermaid-js/mermaid-cli/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e8b2ec5b6eeff78f4152b165662ecb194136211e38fce878b7c5fb2bb6a875b8",
+      "text_len": 7167
+    },
+    {
+      "requested_url": "https://mermaid.ai/pricing",
+      "final_url": "https://mermaid.ai/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "810583fa5e7db76f192e9181dd5af9fe9e3bc9b053f3c200617837645e4a6538",
+      "text_len": 3797
+    },
+    {
+      "requested_url": "https://mermaid.ai/docs/ai/mcp-apps-server/v3",
+      "final_url": "https://mermaid.ai/docs/ai/mcp-apps-server/v3",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:46Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3689771252d4e9aeab4ccde6d0f1b7d0b50e144da8cb60935dd0c3483aa4eec4",
+      "text_len": 7740
+    },
+    {
+      "requested_url": "https://mermaid.ai/docs/ai/mcp-server",
+      "final_url": "https://mermaid.ai/docs/ai/mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:46Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2dbc4fe0bb1c3287ebc9a15ed73cfdf6eda8110c431a4b4fe6a3b7a4040fd00d",
+      "text_len": 7935
+    },
+    {
+      "requested_url": "https://github.com/noahsabaj/mermaid-cli",
+      "final_url": "https://github.com/noahsabaj/mermaid-cli",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "051faa074087fc6b16ff0890e5fb930cedaae9d6d234e646c91a3319a5dc3b38",
+      "text_len": 11312
+    },
+    {
+      "requested_url": "https://mermaid-25331.zendesk.com/hc/en-us/articles/51112817195923-Mermaid-MCP-Server",
+      "final_url": "https://mermaid-25331.zendesk.com/hc/en-us/articles/51112817195923-Mermaid-MCP-Server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:46Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "40e2bc7d8d7bf70fca823b5bcb83561550e5a490e6fecf767f08a27edb41c079",
+      "text_len": 6372
+    },
+    {
+      "requested_url": "https://api.mermaid.ai/v1/docs",
+      "final_url": "https://api.mermaid.ai/v1/docs",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "40ea24fa3b3ab3be1dc87aa83f8407432910042b7d76cf01f5c999ca0bae0817",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://mermaid.ai/docs/guides/mermaid-api-skill",
+      "final_url": "https://mermaid.ai/docs/guides/mermaid-api-skill",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:43Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f8eb745430f25f737547ed6cf5b31b8ae337f400aa69bbb2979eb590bc97d592",
+      "text_len": 12341
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://github.com/mermaid-js/mermaid-cli/",
+        "quote": "npm install -g @mermaid-js/mermaid-cli",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://github.com/mermaid-js/mermaid-cli/",
+        "quote": "License: MIT License",
+        "verified": true
+      },
+      {
+        "url": "https://mermaid.ai/pricing",
+        "quote": "The core Mermaid syntax is always free and open-source.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://github.com/mermaid-js/mermaid-cli/",
+        "quote": "It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output.",
+        "verified": true
+      },
+      {
+        "url": "https://api.mermaid.ai/v1/docs",
+        "quote": "Mermaid API validates and renders Mermaid diagrams for programs",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://mermaid.ai/docs/ai/mcp-server",
+        "quote": "The Mermaid MCP Server enables AI assistants to create, validate, and render Mermaid diagrams seamlessly",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://github.com/mermaid-js/mermaid-cli/",
+        "quote": "mmdc -i input.mmd -o output.svg",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://github.com/mermaid-js/mermaid-cli/",
+        "quote": "This is a command-line interface (CLI) for mermaid.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": true,
+    "validation_errors": []
+  }
+}

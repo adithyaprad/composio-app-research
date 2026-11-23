@@ -1,0 +1,332 @@
+{
+  "slug": "plaid",
+  "searches": [
+    {
+      "query": "Plaid API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://plaid.com/docs/api/",
+          "title": "API Reference",
+          "snippet": "# API Reference \n\n#### Comprehensive reference for integrating with Plaid API endpoints \n\n#### API endpoints and webhooks \n\nFor documentation on specific API endpoints and webhooks, use the navigation menu or search.\n\n#### API access \n\nTo gain access to the Plaid API, create an account on the Plaid "
+        },
+        {
+          "url": "https://plaid.com/docs/auth/add-to-app/",
+          "title": "Add Auth to your app",
+          "snippet": "# Add Auth to your app\n\n#### Use Auth to connect user bank accounts\n\nIn this guide, we'll demonstrate how to add Auth to your app so that you can connect to your users' bank accounts and obtain the information needed to set up funds transfers.\n\nIf you're already familiar with using Plaid and are set"
+        },
+        {
+          "url": "https://plaid.com/docs/link/",
+          "title": "Link overview",
+          "snippet": "# Link overview \n\n#### Use Link to connect to your users' financial accounts with the Plaid API \n\n#### Introduction to Link \n\nPlaid Link is the client-side component that your users will interact with in order to link their accounts to Plaid and allow you to access their accounts via the Plaid API. "
+        },
+        {
+          "url": "https://plaid.com/docs/api/products/auth/",
+          "title": "Auth",
+          "snippet": "# Auth\n\n#### API reference for Auth endpoints and webhooks\n\nRetrieve bank account information to set up electronic funds transfers, such as ACH payments in the US, EFT payments in Canada, Bacs payments in the UK, and IBAN / SEPA payments in the EU.\n\nFor how-to guidance, see the Auth documentation .\n"
+        },
+        {
+          "url": "https://plaid.com/docs/quickstart/",
+          "title": "Get started with the Quickstart",
+          "snippet": "# Get started with the Quickstart\n\n#### A quick introduction to building with Plaid\n\nWatch video\n\nWant more video tutorials? The full getting started guide for the Quickstart app is available on YouTube.\n\nDon't want to write code? Check out the Plaid Postman Collection for a no-code way to get start"
+        }
+      ]
+    },
+    {
+      "query": "Plaid developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://plaid.com/docs/api/",
+          "title": "API Reference",
+          "snippet": "# API Reference \n\n#### Comprehensive reference for integrating with Plaid API endpoints \n\n#### API endpoints and webhooks \n\nFor documentation on specific API endpoints and webhooks, use the navigation menu or search.\n\n#### API access \n\nTo gain access to the Plaid API, create an account on the Plaid "
+        },
+        {
+          "url": "https://plaid.com/docs/quickstart/",
+          "title": "Get started with the Quickstart",
+          "snippet": "# Get started with the Quickstart\n\n#### A quick introduction to building with Plaid\n\nWatch video\n\nWant more video tutorials? The full getting started guide for the Quickstart app is available on YouTube.\n\nDon't want to write code? Check out the Plaid Postman Collection for a no-code way to get start"
+        },
+        {
+          "url": "https://plaid.com/docs/",
+          "title": "Welcome to the Docs",
+          "snippet": "# Welcome to the Docs \n\n#### Here you'll find guides, resources, and references to build with Plaid. \n\n(An image of \"Decorative image of a Abe Lincoln enjoying an energy drink\")\n\n#### Quickstart \n\nLearn about Plaid's key concepts and run starter code\n\nGet started\n\n#### API Reference \n\nExplore server"
+        },
+        {
+          "url": "https://plaid.com/docs/api/sandbox/",
+          "title": "Sandbox endpoints",
+          "snippet": "# Sandbox endpoints\n\n#### API reference for Sandbox endpoints\n\n#### Introduction\n\nPlaid's Sandbox environment provides a number of endpoints that can be used to configure testing scenarios. These endpoints are unique to the Sandbox environment and cannot be used in Production. For more information o"
+        },
+        {
+          "url": "https://plaid.com/docs/api/postman/",
+          "title": "Plaid Postman Collection",
+          "snippet": "# Plaid Postman Collection \n\n#### Learn more about the Plaid Postman Collection, which allows you to send API requests without code \n\n#### Introduction \n\nInterested in experimenting with the Plaid API without having to write a full-stack application? Plaid offers a Postman Collection as a convenient"
+        }
+      ]
+    },
+    {
+      "query": "Plaid pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://plaid.com/pricing/",
+          "title": "Pricing: API costs, free tier & pay-as-you-go plans | Plaid",
+          "snippet": "Pricing: API costs, free tier & pay-as-you-go plans | Plaid\n\n# Pricing Plans\n\n## Simple, scalable plans for businesses of all sizes\n\n### Pay as You Go\n\nBest for individuals & solo developers\n\nMonth to month with no commitment. No caps on usage. Only pay for what you use.\n\n$0/month, pay-as-you-go.\n\nK"
+        },
+        {
+          "url": "https://support.plaid.com/hc/en-us/articles/39994173227159-What-is-the-Plaid-Trial-plan",
+          "title": "What is the Plaid Trial plan? – Plaid Customer Help Center",
+          "snippet": "What is the Plaid Trial plan? – Plaid Customer Help Center\n\n# What is the Plaid Trial plan? \n\nThe Plaid Trial plan provides free access to Plaid's production APIs. You can connect real financial accounts, call production endpoints, and build projects — no business registration, security questionnair"
+        },
+        {
+          "url": "https://plaid.com/docs/account/billing/",
+          "title": "Account - Pricing and billing | Plaid Docs",
+          "snippet": "# Plaid pricing and billing \n\n#### Learn about pricing, what is considered a billable event, and how to monitor your bill \n\n#### Pricing information \n\nTo view pricing, apply for Production access . Detailed pricing for Pay-as-you-go and Growth plans appears before you submit your request. To learn m"
+        },
+        {
+          "url": "https://support.plaid.com/hc/en-us/articles/16110502116887-What-are-Plaid-s-prices-and-pricing-plans-and-how-do-they-differ",
+          "title": "What are Plaid's prices and pricing plans, and how do they differ?",
+          "snippet": "What are Plaid's prices and pricing plans, and how do they differ? – Plaid Customer Help Center\n\n# What are Plaid's prices and pricing plans, and how do they differ? \n\n## Pricing plans\n\nPlaid offers a variety of pricing plans to cater to different needs and usage levels. These plans are designed to "
+        },
+        {
+          "url": "https://support.plaid.com/hc/en-us/articles/16194632655895-How-much-does-Plaid-cost-and-what-are-the-pricing-models",
+          "title": "How much does Plaid cost, and what are the pricing models?",
+          "snippet": "How much does Plaid cost, and what are the pricing models? – Plaid Customer Help Center\n\n# How much does Plaid cost, and what are the pricing models? \n\nIf you're on a Trial plan, Plaid is free — Trial plans support up to 10 Production Items. The pricing models below apply to paid Production plans on"
+        }
+      ]
+    },
+    {
+      "query": "Plaid official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://plaid.com/docs/resources/mcp/",
+          "title": "Dashboard MCP server",
+          "snippet": "# Dashboard MCP server\n\n#### Connect an LLM application to Plaid Dashboard tools\n\nPlaid offers two Model Context Protocol (MCP) servers:\n\n- The Dashboard MCP server is a remote MCP server hosted by Plaid. It provides Production diagnostics and analytics tools, including tools for debugging Items, re"
+        },
+        {
+          "url": "https://plaid.com/blog/plaid-mcp-ai-assistant-claude/",
+          "title": "“Claude, let’s analyze and improve my Plaid integration” | Plaid",
+          "snippet": "“Claude, let’s analyze and improve my Plaid integration” | Plaid\n\nMay 01, 2025\n\n# “Claude, let’s analyze and improve my Plaid integration”\n\nStella Zhang\n\nAyesha Jaggi\n\nAllen Chen\n\nNew Plaid MCP server brings data, insights, and troubleshooting into one conversation with Claude, Anthropic’s AI assist"
+        },
+        {
+          "url": "https://github.com/plaid/ai-coding-toolkit",
+          "title": "plaid/ai-coding-toolkit: Build your Plaid integration in record ...",
+          "snippet": "# plaid/ai-coding-toolkit\n\nBuild your Plaid integration in record time with a development toolkit for your AI coding tools, including prompts, sandbox data, and an MCP server.\n\n- Stars: 32\n- Forks: 22\n- Watchers: 32\n- Open issues: 0\n- License: MIT License\n- Default branch: main\n- Created: 2025-05-19"
+        },
+        {
+          "url": "https://plaid.com/blog/openai-plaid-mcp/",
+          "title": "Plaid",
+          "snippet": "Connect your Plaid integration to agents built with OpenAI | Plaid\n\nMay 21, 2025\n\n# Connect your Plaid integration to agents built with OpenAI\n\nStella Zhang\n\nAllen Chen\n\nConnect agents built with OpenAI’s API directly into Plaid’s diagnostics and analytics to automate workflows, streamline debugging"
+        },
+        {
+          "url": "https://www.scalekit.com/blog/plaid-mcp-vs-api",
+          "title": "Which to Build On",
+          "snippet": "Plaid MCP vs Plaid API for AI Agents: Which to Build On\n\nOct 30, 2026\n\n# Plaid MCP vs Plaid API for AI Agents (2026)\n\nHrishikesh Premkumar\n\nFounding Architect\n\nOpen in ChatGPT\n\nPlaid ships two very different surfaces for an AI agent: a hosted Dashboard MCP server that answers questions about your ow"
+        }
+      ]
+    },
+    {
+      "query": "site:plaid.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://plaid.com/docs/resources/mcp/",
+          "title": "Dashboard MCP server",
+          "snippet": "# Dashboard MCP server\n\n#### Connect an LLM application to Plaid Dashboard tools\n\nPlaid offers two Model Context Protocol (MCP) servers:\n\n- The Dashboard MCP server is a remote MCP server hosted by Plaid. It provides Production diagnostics and analytics tools, including tools for debugging Items, re"
+        },
+        {
+          "url": "https://plaid.com/docs/resources/",
+          "title": "Plaid resources",
+          "snippet": "# Plaid resources \n\n#### External resources to help build your Plaid integration \n\nIn addition to the docs here, Plaid has a collection of tools, sample code, SDKs, and videos to help you build your Plaid integration.\n\n#### Sample apps \n\nOur GitHub contains a number of sample apps to help you get st"
+        },
+        {
+          "url": "https://plaid.com/core-exchange/docs/data-partner-mcp/",
+          "title": "Plaid Data Partner MCP",
+          "snippet": "# Plaid Data Partner MCP \n\n#### Quickstart for AI-assisted FDX diagnostics, validation, and integration health \n\nThe Plaid Data Partner MCP lets you use an AI agent to review production FDX request activity, troubleshoot individual calls, monitor integration health, and run and inspect validation fo"
+        },
+        {
+          "url": "https://support.plaid.com/hc/en-us/articles/16148264475287-What-implementation-resources-are-available",
+          "title": "What implementation resources are available? – Plaid Customer Help Center",
+          "snippet": "What implementation resources are available? – Plaid Customer Help Center\n\n- What implementation resources are available?\n- What are webhooks?\n- Why do I need to use webhooks?\n- How do I implement and test webhooks?\n- What are some steps to improve conversion?\n\n# What implementation resources are av"
+        },
+        {
+          "url": "https://plaid.com/blog/openai-plaid-mcp/",
+          "title": "Connect your Plaid integration to agents built with OpenAI | Plaid",
+          "snippet": "Connect your Plaid integration to agents built with OpenAI | Plaid\n\nMay 21, 2025\n\n# Connect your Plaid integration to agents built with OpenAI\n\nStella Zhang\n\nAllen Chen\n\nConnect agents built with OpenAI’s API directly into Plaid’s diagnostics and analytics to automate workflows, streamline debugging"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://plaid.com/docs",
+      "final_url": "https://plaid.com/docs/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "295793309ca1116cb495572ed0c753043ae6ece4e8d542d54fe824a9057a7928",
+      "text_len": 2594
+    },
+    {
+      "requested_url": "https://plaid.com/docs/api/products/auth/",
+      "final_url": "https://plaid.com/docs/api/products/auth/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "638398b4c9694cf46366ea3b748c10aaf9151fc06a9d95052659752f04295ce8",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://plaid.com/docs/api/",
+      "final_url": "https://plaid.com/docs/api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "be0dc88c1d7f9c63feab3e32830b3c84a3dc341a068f954c816ac76e4f59eb9c",
+      "text_len": 4885
+    },
+    {
+      "requested_url": "https://plaid.com/docs/account/billing/",
+      "final_url": "https://plaid.com/docs/account/billing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "629571d0c1ac24272fafd4a6df9934c0885a68a6931e08e76cfcb33f6445e332",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://plaid.com/docs/resources/mcp/",
+      "final_url": "https://plaid.com/docs/resources/mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0aa5f1c2b7d183c2e443081376ccaa2aaedc5d5c49d33143010bb557b04d792a",
+      "text_len": 8731
+    },
+    {
+      "requested_url": "https://plaid.com/core-exchange/docs/data-partner-mcp/",
+      "final_url": "https://plaid.com/core-exchange/docs/data-partner-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:23Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c200cc2e2e64e624a16d865a3baa673293dea2e11c118e5ebf549d8d5c50e456",
+      "text_len": 4124
+    },
+    {
+      "requested_url": "https://plaid.com/pricing/",
+      "final_url": "https://plaid.com/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "02440095738bde82bcfc395c1e84b541753e813cf0ad0c44d19903026909b7df",
+      "text_len": 5116
+    },
+    {
+      "requested_url": "https://plaid.com/blog/openai-plaid-mcp/",
+      "final_url": "https://plaid.com/blog/openai-plaid-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "dae8717ad4c6db0288c10a5465d7b24ca109f1b9279eac5012798f79cd84fd71",
+      "text_len": 4226
+    },
+    {
+      "requested_url": "https://plaid.com/blog/plaid-mcp-ai-assistant-claude/",
+      "final_url": "https://plaid.com/blog/plaid-mcp-ai-assistant-claude/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "889c949cb1c835f1cfacf2cae0783a381b93c7564cf94243d34e29f84c391e4b",
+      "text_len": 5269
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://plaid.com/docs/api/",
+        "quote": "Almost all Plaid API endpoints require a `client_id` and `secret`. These may be sent either in the request body or in the headers",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://plaid.com/docs/api/",
+        "quote": "create an account on the Plaid Dashboard . Once you've completed the signup process and acknowledged our terms, we'll provide a live `client_id` and `secret`",
+        "verified": true
+      },
+      {
+        "url": "https://plaid.com/docs/account/billing/",
+        "quote": "To sign up for a Trial or Pay-as-you-go plan, use the Dashboard .",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://plaid.com/docs/api/",
+        "quote": "The Plaid API is JSON over HTTP. Requests are POST requests, and responses are JSON",
+        "verified": true
+      },
+      {
+        "url": "https://plaid.com/docs/api/",
+        "quote": "The Plaid API is specified in our Plaid OpenAPI GitHub repo .",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://plaid.com/docs/resources/mcp/",
+        "quote": "The Dashboard MCP server is a remote MCP server hosted by Plaid.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://plaid.com/docs/account/billing/",
+        "quote": "Pay-as-you-go – Best for individuals and solo developers. No minimum spend, commitment, or usage cap.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://plaid.com/docs/",
+        "quote": "Here you'll find guides, resources, and references to build with Plaid.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

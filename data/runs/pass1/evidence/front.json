@@ -1,0 +1,335 @@
+{
+  "slug": "front",
+  "searches": [
+    {
+      "query": "Front API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://dev.frontapp.com/docs/authentication",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\nThe Core API uses Bearer tokens to authenticate its user.\n\nYou MUST send the token for each request in the Authorization header. The token MUST be preceded by `Bearer`. See the `Authorization` header in the example request below.\n\n```\ncurl --request GET \\\n  --url ht"
+        },
+        {
+          "url": "https://dev.frontapp.com/docs/oauth",
+          "title": "OAuth",
+          "snippet": "OAuth\n\n# OAuth\n\nIntro to Front OAuth\n\nOAuth 2.0 is a protocol that lets external applications request authorization to API access in a secure way. When you set up OAuth in your app, you specify which scopes the OAuth token will have access to. Customers installing your app are then asked to authoriz"
+        },
+        {
+          "url": "https://dev.frontapp.com/docs/core-api-getting-started",
+          "title": "Getting Started with the Core API",
+          "snippet": "Getting Started with the Core API\n\n# Getting Started with the Core API\n\nThis tutorial demonstrates a simple use case for the Core API: you will create a contact via the API, and then update the contact you created. A contact in Front is a person or entity with whom you can communicate with via any s"
+        },
+        {
+          "url": "https://dev.frontapp.com/docs/create-and-revoke-api-tokens",
+          "title": "API tokens",
+          "snippet": "API tokens\n\n# API tokens\n\nAPI tokens allow you to test the Front Core API or implement integrations or scripts that make programmatic updates to Front via the API. Once you have an API token, you can use it to authenticate Core API requests.\n\nAPI tokens apply at a company level rather than being tie"
+        },
+        {
+          "url": "https://help.front.com/en/articles/2331",
+          "title": "How to create and revoke API tokens",
+          "snippet": "How to create and revoke API tokens\n\n# How to create and revoke API tokens\n\nEdited\n\n Monday, August 3 2026\n\n## Overview\n\nFront's API settings give you the controls you need to manage active API tokens and what resources they can access. Define the access permission scope when you create a new token,"
+        }
+      ]
+    },
+    {
+      "query": "Front developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://dev.frontapp.com/docs/authentication",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\nThe Core API uses Bearer tokens to authenticate its user.\n\nYou MUST send the token for each request in the Authorization header. The token MUST be preceded by `Bearer`. See the `Authorization` header in the example request below.\n\n```\ncurl --request GET \\\n  --url ht"
+        },
+        {
+          "url": "https://dev.frontapp.com/docs/core-api-getting-started",
+          "title": "Getting Started with the Core API",
+          "snippet": "Getting Started with the Core API\n\n# Getting Started with the Core API\n\nThis tutorial demonstrates a simple use case for the Core API: you will create a contact via the API, and then update the contact you created. A contact in Front is a person or entity with whom you can communicate with via any s"
+        },
+        {
+          "url": "https://dev.frontapp.com/docs/oauth",
+          "title": "OAuth",
+          "snippet": "OAuth\n\n# OAuth\n\nIntro to Front OAuth\n\nOAuth 2.0 is a protocol that lets external applications request authorization to API access in a secure way. When you set up OAuth in your app, you specify which scopes the OAuth token will have access to. Customers installing your app are then asked to authoriz"
+        },
+        {
+          "url": "https://dev.frontapp.com/docs/welcome",
+          "title": "Front's API documentation",
+          "snippet": "Welcome\n\n# Welcome\n\nWelcome to the Front Platform 👋\n\nWhether you’re looking to build a custom integration just for your team or looking to publicly launch a Front integration, you’re in the right place! Our documentation can help you build everything from contact synchronizing to automated message t"
+        },
+        {
+          "url": "https://dev.frontapp.com/reference/introduction",
+          "title": "Introduction",
+          "snippet": "Introduction\n\n# Introduction\n\nHere is Front's Core API, a backend API that gives comprehensive control over all entities in Front from Contacts to Comments.\n\nGuides\n\nRefer to the following guides to learn how to use the Core API:\n\n- Getting Started\n- Fundamentals\n- Tools\n- Sample Application\n- API T"
+        }
+      ]
+    },
+    {
+      "query": "Front pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://front.com/pricing",
+          "title": "Front Pricing and Plans | Front",
+          "snippet": "Front Pricing and Plans | Front\n\n1\n\nCustomizable\n\nCustomizable and multi-language\n\nReport on team performance, CSAT, and SLAs\n\nBasic\n\nAdvanced\n\nUser management\n\nBasic\n\nSSO, SCIM\n\nMeet Front AI: human-in-control AI that powers exceptional service on even your toughest tickets\n\nAutopilot Run complex c"
+        },
+        {
+          "url": "https://help.front.com/en/articles/2178",
+          "title": "Front's plans and pricing",
+          "snippet": "Front's plans and pricing\n\n# Front's plans and pricing\n\nEdited\n\n Thursday, August 6 2026\n\n## Overview\n\nFront offers three plans you can choose from: Starter, Professional, and Enterprise. Each plan unlocks a different set of productivity features to help you and your team work more effectively toget"
+        },
+        {
+          "url": "https://front.com/signup",
+          "title": "Front | Free Trial",
+          "snippet": "Front | Free Trial\n\n9,300+ businesses trust Front to:\n\nBoost average CSAT to 87%\n\nImprove productivity up to 46%\n\nReduce average response time by 25%\n\n## Try Front for free"
+        },
+        {
+          "url": "https://help.front.com/en/articles/2168",
+          "title": "Ways to create and sign into your Front account",
+          "snippet": "Ways to create and sign into your Front account\n\n# Ways to create and sign into your Front account\n\nEdited\n\n Thursday, July 2 2026\n\n## Overview\n\nWhen you sign up for a new trial or join as teammate in a company, you have a few different ways to sign in:\n\n1. Use your existing Google or Microsoft logi"
+        },
+        {
+          "url": "https://front.com/product",
+          "title": "What is Front? Overview and How it Works",
+          "snippet": "What is Front? Overview and How it Works\n\n# The customer service platform that doesn't panic when \"it's complicated\"\n\nFront is the AI-powered customer operations platform built for accountability across teams, channels, and tools.\n\nTrusted by 9,300+ companies\n\n### Complex, multi-team requests handle"
+        }
+      ]
+    },
+    {
+      "query": "Front official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.front.com/en/articles/4883136",
+          "title": "Get started with Front's MCP server",
+          "snippet": "Get started with Front's MCP server\n\n# Get started with Front's MCP server\n\nEdited\n\n Thursday, November 12 2026\n\n⚠️ Front’s MCP server allows external AI tools (e.g., Claude, ChatGPT) to connect to Front. \n\n- If you’re looking to connect in the opposite direction and allow Front’s AI to connect an e"
+        },
+        {
+          "url": "https://dev.frontapp.com/docs/mcp-server",
+          "title": "MCP Server",
+          "snippet": "MCP Server\n\n# MCP Server\n\nConnect AI assistants to Front via the MCP server\n\nFront's MCP server (`mcp.frontapp.com/mcp`) lets AI agents act on Front conversation data using a single OAuth-authenticated endpoint. Agents authenticate as a specific Front user, with permissions matching that user's role"
+        },
+        {
+          "url": "https://community.front.com/announcements-63/front-s-mcp-server-bring-front-into-your-ai-workflows-3958",
+          "title": "Front’s MCP server: Bring Front into your AI workflows | Community",
+          "snippet": "Front’s MCP server: Bring Front into your AI workflows | Community\n\nhelena\n\nCommunity Manager\n\n4 months ago\n\nJul 21, 2026 6:39 AM UTC\n\n# Front’s MCP server: Bring Front into your AI workflows\n\n- Sep 28, 2026 9:47 PM UTC\n- 0 replies\n- 2589 views\n\nFront’s MCP server is here! Connect Front to an AI too"
+        },
+        {
+          "url": "https://community.front.com/product-updates/what-s-new-in-front-september-2026-mcp-smarter-ai-workflows-and-service-signals-4079",
+          "title": "What’s New in Front, September 2026: MCP, smarter AI workflows, and service signals | Community",
+          "snippet": "What’s New in Front, September 2026: MCP, smarter AI workflows, and service signals | Community\n\nhelena\n\nCommunity Manager\n\n1 month ago\n\nSep 28, 2026 10:33 PM UTC\n\n# What’s New in Front, September 2026: MCP, smarter AI workflows, and service signals\n\nThis month’s updates connect Front to your prefer"
+        },
+        {
+          "url": "https://community.front.com/api-news-updates-40/the-front-mcp-server-is-here-beta-3712",
+          "title": "The Front MCP Server is here (beta) | Community",
+          "snippet": "The Front MCP Server is here (beta) | Community\n\nJavier - Developer Relations\n\nCommunity Manager\n\nApr 7, 2026 5:57 PM UTC\n\n# The Front MCP Server is here (beta)\n\n- May 27, 2026 8:33 PM UTC\n- 19 replies\n- 3885 views\n\n### UPDATE: There’s a new version of the MCP server. Please join the following group"
+        }
+      ]
+    },
+    {
+      "query": "site:front.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.front.com/en/articles/4883136",
+          "title": "Get started with Front's MCP server",
+          "snippet": "Get started with Front's MCP server\n\n# Get started with Front's MCP server\n\nEdited\n\n Thursday, November 12 2026\n\n⚠️ Front’s MCP server allows external AI tools (e.g., Claude, ChatGPT) to connect to Front. \n\n- If you’re looking to connect in the opposite direction and allow Front’s AI to connect an e"
+        },
+        {
+          "url": "https://help.front.com/en/articles/4971328",
+          "title": "MCP Connectors",
+          "snippet": "MCP Connectors\n\n# MCP Connectors\n\nEdited\n\n Wednesday, November 4 2026\n\n⚠️ MCP Connectors allow Front’s AI to connect to an external tool. If you’re looking to connect in the opposite direction and allow external AI tools (e.g., Claude, ChatGPT) to connect to Front, follow the steps for Front’s MCP s"
+        },
+        {
+          "url": "https://community.front.com/mcp-server-88",
+          "title": "MCP server | AI + Workflows | Community",
+          "snippet": "MCP server | AI + Workflows | Community\n\n# MCP server\n\nConnect AI assistants like Claude and ChatGPT to Front to triage, analyze, and reply to conversations.\n\nhelena Community Manager\n\nFront MCP server starter guide: Plug-and-play prompts Resource\n\nFront’s MCP server is here, and the best part is th"
+        },
+        {
+          "url": "https://help.front.com/en/articles/5038272",
+          "title": "Get started with Front's Admin MCP server [open beta]",
+          "snippet": "Get started with Front's Admin MCP server [open beta]\n\n# Get started with Front's Admin MCP server [open beta]\n\nEdited\n\n Wednesday, November 18 2026\n\n⚠️ Important to know:\n\n- This feature is in beta. This article may require final changes before the feature is released to general availability (GA).\n"
+        },
+        {
+          "url": "https://front.com/integrations/chatgpt",
+          "title": "ChatGPT Integration | Front",
+          "snippet": "ChatGPT Integration | Front\n\n# ChatGPT\n\n## Work with Front conversations directly from ChatGPT\n\nChatGPT is OpenAI’s assistant, built to help teams reason through complex work, draft content, and take action across the tools they use every day. Through the Model Context Protocol (MCP), an open standa"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://front.com",
+      "final_url": "https://front.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:07Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "7e49bf485e5a3d24327f5b9b8afa70c593e153bddaeb2375fa894e2aca1088e7",
+      "text_len": 6057
+    },
+    {
+      "requested_url": "https://dev.frontapp.com/docs/oauth",
+      "final_url": "https://dev.frontapp.com/docs/oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:34:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "529d6ef675b5955cf91da671ed9fe6cc8dd9dbfe24114ad42c035ca1f0361169",
+      "text_len": 8290
+    },
+    {
+      "requested_url": "https://front.com/pricing",
+      "final_url": "https://front.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3fea69b5b64e142c6337ce003eebb66da7ea94ad2a4558204824b0929237dab3",
+      "text_len": 5161
+    },
+    {
+      "requested_url": "https://community.front.com/api-news-updates-40/the-front-mcp-server-is-here-beta-3712",
+      "final_url": "https://community.front.com/api-news-updates-40/the-front-mcp-server-is-here-beta-3712",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "41772c59462f1948e87ac84a68ccf6149883bc598b7e310f08332f17a8270bb6",
+      "text_len": 5075
+    },
+    {
+      "requested_url": "https://community.front.com/mcp-server-88",
+      "final_url": "https://community.front.com/mcp-server-88",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:07Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3bc1f4f51d2d8e0ce0e673ce4cbf3f839f1ceb6bbff66c3cbd67d98e0690eb52",
+      "text_len": 10191
+    },
+    {
+      "requested_url": "https://community.front.com/announcements-63/front-s-mcp-server-bring-front-into-your-ai-workflows-3958",
+      "final_url": "https://community.front.com/announcements-63/front-s-mcp-server-bring-front-into-your-ai-workflows-3958",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d09b20b14d0b801f12595de4ce6122db3ffd0f8b714cd880f78dd3223533db96",
+      "text_len": 1824
+    },
+    {
+      "requested_url": "https://community.front.com/product-updates/what-s-new-in-front-september-2026-mcp-smarter-ai-workflows-and-service-signals-4079",
+      "final_url": "https://community.front.com/product-updates/what-s-new-in-front-september-2026-mcp-smarter-ai-workflows-and-service-signals-4079",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "975f6e4eab5bdac4f37a42b6358ac3859f7969e50ac4507eb4d6fd40af3f1034",
+      "text_len": 2987
+    },
+    {
+      "requested_url": "https://front.com/signup",
+      "final_url": "https://front.com/signup",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3da2348dcf14ddd7739c3a76e479b71aa1d9919972f50c4b6d9e5679fee3383f",
+      "text_len": 172
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://dev.frontapp.com/docs/oauth",
+        "quote": "OAuth 2.0 is a protocol that lets external applications request authorization to API access in a secure way.",
+        "verified": true
+      },
+      {
+        "url": "https://community.front.com/api-news-updates-40/the-front-mcp-server-is-here-beta-3712",
+        "quote": "The Front MCP server uses the same API tokens as the Core API.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://front.com/pricing",
+        "quote": "Our free 14-day trial offers all the features available in our Professional plan.",
+        "verified": true
+      },
+      {
+        "url": "https://dev.frontapp.com/docs/oauth",
+        "quote": "To obtain your OAuth credentials, refer to Create, manage, and publish apps.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://community.front.com/mcp-server-88",
+        "quote": "The Core API already supports this. POST /conversations/{id}/drafts accepts quote_body, signature_id and should_add_default_signature.",
+        "verified": true
+      },
+      {
+        "url": "https://community.front.com/mcp-server-88",
+        "quote": "the Core REST API does support templates: GET /message_templates",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://community.front.com/mcp-server-88",
+        "quote": "Connect AI assistants like Claude and ChatGPT to Front to triage, analyze, and reply to conversations.",
+        "verified": true
+      },
+      {
+        "url": "https://community.front.com/announcements-63/front-s-mcp-server-bring-front-into-your-ai-workflows-3958",
+        "quote": "Front’s MCP server is here! Connect Front to an AI tool like Claude, ChatGPT, Notion, Slack, and more",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://front.com/pricing",
+        "quote": "You do not need a credit card to start, continue, or complete your Front trial.",
+        "verified": true
+      },
+      {
+        "url": "https://dev.frontapp.com/docs/oauth",
+        "quote": "End users authorizing OAuth apps must be admins.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://front.com",
+        "quote": "Bring support, sales, operations, and AI agents together to resolve every request and build stronger customer relationships",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "slug": "github",
+  "searches": [
+    {
+      "query": "GitHub API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+          "title": "Authenticating to the REST API",
+          "snippet": "# Authenticating to the REST API\n\nYou can authenticate to the REST API to access more endpoints and have a higher rate limit.\n\n## About authentication\n\nMany REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests p"
+        },
+        {
+          "url": "https://docs.github.com/en/rest/quickstart",
+          "title": "Quickstart for GitHub REST API",
+          "snippet": "# Quickstart for GitHub REST API\n\nLearn how to get started with the GitHub REST API.\n\n## Introduction\n\nThis article describes how to quickly get started with the GitHub REST API using GitHub CLI, `curl`, or JavaScript. For a more detailed guide, see Getting started with the REST API.\n\n## Using GitHu"
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens",
+          "title": "Managing your personal access tokens",
+          "snippet": "# Managing your personal access tokens\n\nYou can use a personal access token in place of a password when authenticating to GitHub in the command line or with the API.\n\n> [!WARNING]\n> Treat your access tokens like passwords. For more information, see Keeping your personal access tokens secure.\n\n## Abo"
+        },
+        {
+          "url": "https://docs.github.com/en/rest/authentication/keeping-your-api-credentials-secure",
+          "title": "Keeping your API credentials secure",
+          "snippet": "# Keeping your API credentials secure\n\nFollow these best practices to keep your API credentials and tokens secure.\n\n## Choose an appropriate authentication method\n\nYou should choose an authentication method that is appropriate for the task you want to accomplish.\n\n- To use the API for personal use, "
+        },
+        {
+          "url": "https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app",
+          "title": "Authenticating as a GitHub App",
+          "snippet": "# Authenticating as a GitHub App\n\nYou can authenticate as a GitHub App in order to generate an installation access token or manage your app.\n\n## About authentication as a GitHub App\n\nYou must authenticate as a GitHub App in order to make REST API requests as the application. For example, if you want"
+        }
+      ]
+    },
+    {
+      "query": "GitHub developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+          "title": "Authenticating to the REST API",
+          "snippet": "# Authenticating to the REST API\n\nYou can authenticate to the REST API to access more endpoints and have a higher rate limit.\n\n## About authentication\n\nMany REST API endpoints require authentication or return additional information if you are authenticated. Additionally, you can make more requests p"
+        },
+        {
+          "url": "https://docs.github.com/en/rest",
+          "title": "GitHub REST API documentation",
+          "snippet": "# GitHub REST API documentation\n\nCreate integrations, retrieve data, and automate your workflows with the GitHub REST API.\n\n## Recommended\n\n- Quickstart for GitHub REST API Learn how to get started with the GitHub REST API.\n- Getting started with the REST API Learn how to use the GitHub REST API.\n- "
+        },
+        {
+          "url": "https://docs.github.com/en/rest/quickstart",
+          "title": "Quickstart for GitHub REST API",
+          "snippet": "# Quickstart for GitHub REST API\n\nLearn how to get started with the GitHub REST API.\n\n## Introduction\n\nThis article describes how to quickly get started with the GitHub REST API using GitHub CLI, `curl`, or JavaScript. For a more detailed guide, see Getting started with the REST API.\n\n## Using GitHu"
+        },
+        {
+          "url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
+          "title": "Rate limits for the REST API",
+          "snippet": "# Rate limits for the REST API\n\nLearn about REST API rate limits, how to avoid exceeding them, and what to do if you do exceed them.\n\n## About primary rate limits\n\nGitHub limits the number of REST API requests that you can make within a specific amount of time. This limit helps prevent abuse and den"
+        },
+        {
+          "url": "https://docs.github.com/en/rest/guides/scripting-with-the-rest-api-and-javascript",
+          "title": "Scripting with the REST API and JavaScript",
+          "snippet": "# Scripting with the REST API and JavaScript\n\nWrite a script using the Octokit.js SDK to interact with the REST API.\n\n## About Octokit.js\n\nIf you want to write a script using JavaScript to interact with GitHub's REST API, GitHub recommends that you use the Octokit.js SDK. Octokit.js is maintained by"
+        }
+      ]
+    },
+    {
+      "query": "GitHub pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://github.com/pricing",
+          "title": "GitHub plans and pricing · GitHub",
+          "snippet": "GitHub plans and pricing · GitHub\n\n# Try the Copilot-powered platform\n\nWe get it, there's a lot you can do with GitHub. That's why we've packed all of it into a single risk-free trial that includes GitHub Enterprise, Copilot, and Advanced Security.\n\n## Free\n\nThe basics for individuals and organizati"
+        },
+        {
+          "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Ffeatures%2Fcopilot%2Fplans",
+          "title": "Sign up for GitHub · GitHub",
+          "snippet": "Sign up for GitHub · GitHub\n\n# Create your free account\n\nExplore GitHub's core features for individuals and organizations.\n\n See what's included \n\n- Access to GitHub Copilot Increase your productivity and accelerate software development. \n- Unlimited repositories Collaborate securely on public and p"
+        },
+        {
+          "url": "https://github.com/enterprise/trial",
+          "title": "Enterprise · A smarter way to work ...",
+          "snippet": "Enterprise · A smarter way to work together · GitHub · GitHub\n\n# Try the GitHub platform\n\nThe platform that powers more than 90% of the Fortune 100\n\n## Logos\n\n### Unlock GitHub's premium features\n\nTry GitHub Enterprise Cloud, Advanced Security, and Copilot Business to see how they can transform your"
+        },
+        {
+          "url": "https://github.com/features/copilot/plans",
+          "title": "Take flight with GitHub Copilot",
+          "snippet": "GitHub Copilot · Plans & pricing for every developer & team · GitHub · GitHub\n\n# Take flight with GitHub Copilot\n\n## Pricing plans\n\n### Free\n\nFor getting started with GitHub Copilot.\n\n$ 0 USD\n\nNo credit card required. Verified students have access to the GitHub Copilot Student plan. Learn more\n\n### "
+        },
+        {
+          "url": "https://docs.github.com/en/billing/reference/product-usage-included",
+          "title": "Product usage included with each plan",
+          "snippet": "# Product usage included with each plan\n\nCheck the size of the allowance for usage-based products included in each GitHub plan.\n\nThe table below shows the usage available in each plan. When you exceed these amounts, you'll be charged for additional usage unless you've set a budget with the setting \""
+        }
+      ]
+    },
+    {
+      "query": "GitHub official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://github.com/github/github-mcp-server/",
+          "title": "github/github-mcp-server",
+          "snippet": "# github/github-mcp-server\n\nGitHub's official MCP Server\n\n- Stars: 34621\n- Forks: 5379\n- Watchers: 34621\n- Open issues: 447\n- License: MIT License\n- Default branch: main\n- Created: 2025-03-04T16:42:04Z\n\n## Languages\n\n- CSS\n- Dockerfile\n- Go\n- HTML\n- JavaScript\n- Shell\n- TypeScript\n\n## Topics\n\n- gith"
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server",
+          "title": "Using the GitHub MCP Server in your IDE",
+          "snippet": "# Using the GitHub MCP Server in your IDE\n\nLearn how to use the GitHub Model Context Protocol (MCP) server to interact with repositories, issues, pull requests, and other GitHub features, directly from Copilot Chat in your IDE.\n\nThe GitHub MCP server is available to all GitHub users regardless of pl"
+        },
+        {
+          "url": "https://github.com/github/github-mcp-server/blob/main/docs/remote-server.md",
+          "title": "docs/remote-server.md",
+          "snippet": "# docs/remote-server.md\n\n- Branch: main\n- Repository: github/github-mcp-server\n\n---\n\n# Remote GitHub MCP Server 🚀\n\nInstall in VS Code Install in VS Code Insiders\n\nEasily connect to the GitHub MCP Server using the hosted version – no local setup or runtime required.\n\n**URL:** https://api.githubcopilo"
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server",
+          "title": "Setting up the GitHub MCP Server",
+          "snippet": "# Setting up the GitHub MCP Server\n\nLearn how to configure the GitHub Model Context Protocol (MCP) server.\n\nThe GitHub MCP server is available to all GitHub users regardless of plan type. However, specific tools within the MCP server inherit the same access requirements as their corresponding GitHub"
+        },
+        {
+          "url": "https://github.blog/ai-and-ml/generative-ai/a-practical-guide-on-how-to-use-the-github-mcp-server/",
+          "title": "A practical guide on how to use the GitHub MCP server",
+          "snippet": "A practical guide on how to use the GitHub MCP server - The GitHub Blog\n\n# A practical guide on how to use the GitHub MCP server\n\nUpgrade from a local MCP Docker image to GitHub’s hosted server and automate pull requests, continuous integration, and security triage in minutes — no tokens required.\n\n"
+        }
+      ]
+    },
+    {
+      "query": "site:docs.github.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.github.com/en/copilot/concepts/customizations/mcp",
+          "title": "Model Context Protocol (MCP)",
+          "snippet": "# Model Context Protocol (MCP)\n\nConnect Copilot to external tools and data through Model Context Protocol (MCP) servers.\n\n## Overview of Model Context Protocol (MCP)\n\nThe Model Context Protocol (MCP) is an open standard that defines how applications share context with large language models (LLMs). M"
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/mcp",
+          "title": "Using MCP servers with the GitHub Copilot SDK",
+          "snippet": "# Using MCP servers with the GitHub Copilot SDK\n\nThe Copilot SDK can integrate with MCP servers (Model Context Protocol) to extend the assistant's capabilities with external tools. MCP servers run as separate processes and expose tools (functions) that Copilot can invoke during conversations.\n\n> [!N"
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/extend-copilot-chat-with-mcp",
+          "title": "Extending GitHub Copilot Chat with Model Context Protocol (MCP) servers",
+          "snippet": "# Extending GitHub Copilot Chat with Model Context Protocol (MCP) servers\n\nConnect MCP servers to Copilot Chat to share context from other applications.\n\n## Introduction\n\nThe Model Context Protocol (MCP) is an open standard that defines how applications share context with large language models (LLMs"
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/configure-mcp-servers",
+          "title": "Configure MCP servers for your repository",
+          "snippet": "# Configure MCP servers for your repository\n\nConfigure Model Context Protocol (MCP) servers for your repository to give Copilot cloud agent, Automations, and Copilot code review access to external tools and data sources.\n\n## Prerequisite\n\nBefore setting up MCP servers for your repository, read Model"
+        },
+        {
+          "url": "https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers",
+          "title": "Adding MCP servers for GitHub Copilot CLI",
+          "snippet": "# Adding MCP servers for GitHub Copilot CLI\n\nExtend Copilot's capabilities by connecting Model Context Protocol (MCP) servers to provide additional tools and context.\n\nThe Model Context Protocol (MCP) is an open standard that defines how applications share context with large language models (LLMs). "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.github.com/rest",
+      "final_url": "https://docs.github.com/rest",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:42Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "4b51e71277e002fd9a681d9db36010d733a3c5abddca66427c2704913a7ff492",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "final_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:36Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fe353d1db967fa47d2cc05d25954a104d5b65dc9abf87c0634f49646a9ec0e26",
+      "text_len": 9902
+    },
+    {
+      "requested_url": "https://docs.github.com/en/billing/reference/product-usage-included",
+      "final_url": "https://docs.github.com/en/billing/reference/product-usage-included",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:38Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ffc4f5163aedba3a86af74a2ea04c09c6b75e579e788340f6c8a832cce37d5af",
+      "text_len": 2026
+    },
+    {
+      "requested_url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server",
+      "final_url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:39Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b8aabdc474806b88f294406d9e26d6f7e6841257f1f64ae8ba04b11f21174ee8",
+      "text_len": 16635
+    },
+    {
+      "requested_url": "https://docs.github.com/en/copilot/concepts/customizations/mcp",
+      "final_url": "https://docs.github.com/en/copilot/concepts/customizations/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:41Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f95fcbb1fbaa09cf87298642b6a2fa6e382366c9ea6236307a05ab7408f2b03c",
+      "text_len": 14837
+    },
+    {
+      "requested_url": "https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers",
+      "final_url": "https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:41Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f59433b8e41c83d3577b0dc1c39647ee96c3a6c85e9b89b1ea04e0029e8565d6",
+      "text_len": 12648
+    },
+    {
+      "requested_url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/extend-copilot-chat-with-mcp",
+      "final_url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/extend-copilot-chat-with-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:41Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1cf01a689763bcf2e7cea79923a7dcbcf23b39f3387f90f6a7e61ed5383e1fb5",
+      "text_len": 18536
+    },
+    {
+      "requested_url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server",
+      "final_url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:39Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "38fa34bd23f07cabbdd4783051979c3a8e206cf0a1de1af2dcd65a802c1d7519",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "quote": "You can also create an OAuth token with an OAuth app to access the REST API.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "quote": "You can create a personal access token, generate a token with a GitHub App, or use the built-in `GITHUB_TOKEN`",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "quote": "If you want to use the GitHub REST API for personal use, you can create a personal access token.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.github.com/en/billing/reference/product-usage-included",
+        "quote": "The table below shows the usage available in each plan.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.github.com/rest",
+        "quote": "The GitHub REST API is fully described in an OpenAPI compliant document.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server",
+        "quote": "The GitHub MCP server is a Model Context Protocol (MCP) server provided and maintained by GitHub.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.github.com/rest",
+        "quote": "Create integrations, retrieve data, and automate your workflows with the GitHub REST API.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://docs.github.com/rest",
+        "quote": "Create integrations, retrieve data, and automate your workflows with the GitHub REST API.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

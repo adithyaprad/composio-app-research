@@ -1,0 +1,366 @@
+{
+  "slug": "squarespace",
+  "searches": [
+    {
+      "query": "Squarespace API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Authentication and permissions\n\nTo keep Squarespace merchant site data private and secure, every request to Commerce APIs must be authenticated and have minimum permissions. However, authenticated requests automatically have access to public si"
+        },
+        {
+          "url": "https://developers.squarespace.com/commerce-apis/making-requests",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Making requests to Commerce APIs\n\nIn three steps, you can send a successful request to any Commerce API to manage numerous commerce features of any Squarespace merchant site.\n\nDiscounts: Manage discounts for a site, including their eligibility "
+        },
+        {
+          "url": "https://developers.squarespace.com/commerce-apis/oauth",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Accessing Squarespace APIs using OAuth 2.0\n\nSquarespace uses OAuth 2.0 to authorize third-party applications to integrate with Squarespace and consume Squarespace APIs.\n\n## Terms\n\n| Client | Third-party application that needs to make Squarespac"
+        },
+        {
+          "url": "https://support.squarespace.com/hc/en-us/articles/236297987-Squarespace-API-keys",
+          "title": "Squarespace API keys – Squarespace Help Center",
+          "snippet": "Squarespace API keys – Squarespace Help Center\n\n# Secure Document Upload Form\n\n Information you submit via this form is subject to our Privacy Policy: https://www.squarespace.com/privacy\n\n Hear back in 2 business days.\n\nIf you have a tax exemption certificate, attach it here. .pdf, .png, .jpeg file "
+        },
+        {
+          "url": "https://apis.io/security/squarespace/squarespace-authentication/",
+          "title": "Squarespace API Authentication | APIs.io",
+          "snippet": "Squarespace API Authentication | APIs.io\n\n# Squarespace Authentication\n\nAuthentication\n\nSquarespace Commerce APIs accept two credential types over one wire format. Every request carries `Authorization: Bearer \n\n`, where the token is either a merchant-generated API key or an OAuth 2.0 access token. T"
+        }
+      ]
+    },
+    {
+      "query": "Squarespace developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Authentication and permissions\n\nTo keep Squarespace merchant site data private and secure, every request to Commerce APIs must be authenticated and have minimum permissions. However, authenticated requests automatically have access to public si"
+        },
+        {
+          "url": "https://developers.squarespace.com/",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Build on Squarespace\n\nEverything you need to build and publish external apps — reliable APIs, clear documentation, and a marketplace to reach Squarespace's global customer base.\n\n## What can you build on Squarespace?\n\n### Integration, customiza"
+        },
+        {
+          "url": "https://developers.squarespace.com/commerce-apis/making-requests",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Making requests to Commerce APIs\n\nIn three steps, you can send a successful request to any Commerce API to manage numerous commerce features of any Squarespace merchant site.\n\nDiscounts: Manage discounts for a site, including their eligibility "
+        },
+        {
+          "url": "https://developers.squarespace.com/commerce-apis/oauth",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Accessing Squarespace APIs using OAuth 2.0\n\nSquarespace uses OAuth 2.0 to authorize third-party applications to integrate with Squarespace and consume Squarespace APIs.\n\n## Terms\n\n| Client | Third-party application that needs to make Squarespac"
+        },
+        {
+          "url": "https://support.squarespace.com/hc/en-us/articles/236297987-Squarespace-API-keys",
+          "title": "Squarespace API keys – Squarespace Help Center",
+          "snippet": "Squarespace API keys – Squarespace Help Center\n\n# Secure Document Upload Form\n\n Information you submit via this form is subject to our Privacy Policy: https://www.squarespace.com/privacy\n\n Hear back in 2 business days.\n\nIf you have a tax exemption certificate, attach it here. .pdf, .png, .jpeg file "
+        }
+      ]
+    },
+    {
+      "query": "Squarespace pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.squarespace.com/pricing",
+          "title": "Squarespace Pricing Plans & Features — Squarespace",
+          "snippet": "Squarespace Pricing Plans & Features — Squarespace\n\n# Beautiful websites\n\n## Free for 14 days. Pay annually to save up to 36%.\n\nAll plans include:\n\n- Built-in AI tools\n- Secure hosting\n- Unlimited bandwidth\n- Selling functionality\n- Industry-leading design\n\n## Basic\n\nPublish your personal or busines"
+        },
+        {
+          "url": "https://support.squarespace.com/hc/en-us/articles/206536827-Start-a-Squarespace-trial-site",
+          "title": "Start a Squarespace trial site",
+          "snippet": "Start a Squarespace trial site – Squarespace Help Center\n\n# Secure Document Upload Form\n\n Information you submit via this form is subject to our Privacy Policy: https://www.squarespace.com/privacy\n\n Hear back in 2 business days.\n\nIf you have a tax exemption certificate, attach it here. .pdf, .png, ."
+        },
+        {
+          "url": "https://www.squarespace.com/free-website-builder-trial",
+          "title": "Create a Website for Free — Website Builder Trial — Squarespace",
+          "snippet": "Create a Website for Free — Website Builder Trial — Squarespace\n\n# The affordable way to build a website.\n\nStart your free website trial today. No credit card required.\n\n## More for your money\n\nOur website and e-commerce plans give you a full suite of features and perks. Here’s a sampling of what’s "
+        },
+        {
+          "url": "https://www.squarespace.com/about/faq",
+          "title": "Squarespace FAQs: Frequently Asked Questions — Squarespace",
+          "snippet": "Squarespace FAQs: Frequently Asked Questions — Squarespace\n\n# Squarespace FAQ\n\nWhether you’re exploring Squarespace for the first time or comparing website platforms, this guide answers common questions about plans, features, domains, selling, and getting started.\n\nIf you’re already a customer, you "
+        },
+        {
+          "url": "https://www.squarespace.com/",
+          "title": "Website Builder – Easily Create Your Own Website — Squarespace",
+          "snippet": "Website Builder – Easily Create Your Own Website — Squarespace\n\n# A website makes it real\n\nStart for free. No credit card required.\n\nJoin millions of entrepreneurs who run their business on Squarespace.\n\n0 1 2 3 4 5 6 7 8 9 M+\n\n14M+\n\n14M+\n\nEntrepreneurs Served\n\n$ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 "
+        }
+      ]
+    },
+    {
+      "query": "Squarespace official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.squarespace.com/mcp/overview",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Overview of the Squarespace MCP Server\n\nThe Squarespace MCP server connects AI assistants to Squarespace. It's built on the Model Context Protocol, an open standard for connecting AI applications to outside tools, so assistants like Gemini, Cla"
+        },
+        {
+          "url": "https://developers.squarespace.com/mcp/connect-a-client",
+          "title": "Connect a Client",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Connect a Client\n\nThe Squarespace MCP server is a remote server: your client connects to it over HTTPS, and there's nothing to install. In Gemini, Squarespace is already built in. For Claude, ChatGPT, and other clients, you add it with the serv"
+        },
+        {
+          "url": "https://developers.squarespace.com/mcp/tools/domains",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Domains\n\nThe Domains tools help someone go from an idea to a domain they can buy on Squarespace, without leaving the chat. They work for anyone, in Gemini, Claude, ChatGPT, and other assistants, with no Squarespace account or sign-in needed.\n\nT"
+        },
+        {
+          "url": "https://claude.com/marketplace/connectors/squarespace",
+          "title": "Squarespace connector | Claude by Anthropic",
+          "snippet": "Squarespace connector | Claude by Anthropic\n\n# Squarespace\n\nFind a domain name for your next idea, and run your Squarespace store's orders, products and customers, all from Claude.\n\n`https://mcp.squarespace.com/mcp`\n\nFind a name and a domain for your next idea. Ask Claude whether a domain is availab"
+        },
+        {
+          "url": "https://martechdb.com/vendors/squarespace",
+          "title": "Squarespace MCP server review: official URL and setup for Claude, ChatGPT and Cursor | MartechDB",
+          "snippet": "Squarespace MCP server review: official URL and setup for Claude, ChatGPT and Cursor | MartechDB\n\n# Squarespace MCP server\n\nsquarespace.com\n\nYes. Squarespace publishes an official MCP server at https://mcp.squarespace.com/mcp. It's hosted. It offers 2 tools. We last checked it on 22 Nov 2026.\n\n Offi"
+        }
+      ]
+    },
+    {
+      "query": "site:developers.squarespace.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.squarespace.com/mcp/overview",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Overview of the Squarespace MCP Server\n\nThe Squarespace MCP server connects AI assistants to Squarespace. It's built on the Model Context Protocol, an open standard for connecting AI applications to outside tools, so assistants like Gemini, Cla"
+        },
+        {
+          "url": "https://developers.squarespace.com/mcp/tools/commerce",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Commerce\n\nThe Commerce tools let an AI assistant work with the store on one of your Squarespace websites: find and update customer contacts, look up orders, and create and edit products. Ask in plain language, such as \"which orders still need f"
+        },
+        {
+          "url": "https://developers.squarespace.com/mcp/connect-a-client",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Connect a Client\n\nThe Squarespace MCP server is a remote server: your client connects to it over HTTPS, and there's nothing to install. In Gemini, Squarespace is already built in. For Claude, ChatGPT, and other clients, you add it with the serv"
+        },
+        {
+          "url": "https://developers.squarespace.com/mcp/tools/domains",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Domains\n\nThe Domains tools help someone go from an idea to a domain they can buy on Squarespace, without leaving the chat. They work for anyone, in Gemini, Claude, ChatGPT, and other assistants, with no Squarespace account or sign-in needed.\n\nT"
+        },
+        {
+          "url": "https://developers.squarespace.com/",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Build on Squarespace\n\nEverything you need to build and publish external apps — reliable APIs, clear documentation, and a marketplace to reach Squarespace's global customer base.\n\n## What can you build on Squarespace?\n\n### Integration, customiza"
+        }
+      ]
+    },
+    {
+      "query": "site:squarespace.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.squarespace.com/mcp/overview",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Overview of the Squarespace MCP Server\n\nThe Squarespace MCP server connects AI assistants to Squarespace. It's built on the Model Context Protocol, an open standard for connecting AI applications to outside tools, so assistants like Gemini, Cla"
+        },
+        {
+          "url": "https://francesca-tabor-l8b3.squarespace.com/articles/2025/7/12/exploring-the-versatility-and-extensibility-of-mcp",
+          "title": "Exploring the Versatility and Extensibility of MCP — FRANKI T",
+          "snippet": "# Model Context Protocol servers\n\nThis repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as references to community built servers and additional resources.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstra"
+        },
+        {
+          "url": "https://glyndewis.squarespace.com/blog/adobe-mcp-chatgpt-claude-photoshop",
+          "title": "Adobe MCP Explained: ChatGPT and Claude Inside Photoshop — Glyn Dewis",
+          "snippet": "Glyn Dewis\n\n# It’s Official: Adobe Is Bringing ChatGPT & Claude Inside Photoshop \n\nBy Glyn Dewis 13 November 2026 5 min read\n\n Glyn Dewis 13 November 2026 adobe, A.I., Photoshop, news \n\n Glyn Dewis 13 November 2026 adobe, A.I., Photoshop, news \n\nOn the 10th November, at Adobe MAX in Miami Beach, Ado"
+        },
+        {
+          "url": "https://yellow-crane-j7mg.squarespace.com/ideas/the-4-big-myths-holding-back-mcp-adoption-and-how-to-fix-them",
+          "title": "MCP Challenges — Flybridge",
+          "snippet": "MCP Challenges — Flybridge\n\n# The 4 Big Myths Holding Back MCP Adoption (and How to Fix Them)\n\n Aug 4 \n\nWritten by Daniel Porras Reyes\n\n### Introduction:\n\nModel Context Protocol (MCP) is rapidly emerging as a foundational technology for building and deploying AI agents. Despite its growing importanc"
+        },
+        {
+          "url": "https://developers.squarespace.com/mcp/connect-a-client",
+          "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+          "snippet": "Squarespace Developer Platform: APIs, Apps, and Docs\n\n# Connect a Client\n\nThe Squarespace MCP server is a remote server: your client connects to it over HTTPS, and there's nothing to install. In Gemini, Squarespace is already built in. For Claude, ChatGPT, and other clients, you add it with the serv"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developers.squarespace.com",
+      "final_url": "https://developers.squarespace.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f5297cceefcfff96add13d270287a94d3cecc3234d71ba7210ceab91d559f1b5",
+      "text_len": 1678
+    },
+    {
+      "requested_url": "https://developers.squarespace.com/commerce-apis/oauth",
+      "final_url": "https://developers.squarespace.com/commerce-apis/oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0f0b0a9a67a17059a68a9c0a1118123aca08511adc2a4ea65f97ecd4ff3e3b24",
+      "text_len": 10849
+    },
+    {
+      "requested_url": "https://www.squarespace.com/pricing",
+      "final_url": "https://www.squarespace.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:34Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "64f3cb502e3c43b54d8dab9eccf15ba753961a4e9039ce3491f0b46a41974213",
+      "text_len": 4296
+    },
+    {
+      "requested_url": "https://developers.squarespace.com/mcp/connect-a-client",
+      "final_url": "https://developers.squarespace.com/mcp/connect-a-client",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "52333269fce1c78f92e07910158fb0eefc7dc9bc1618d16425a54ab3e9418dd0",
+      "text_len": 3587
+    },
+    {
+      "requested_url": "https://developers.squarespace.com/mcp/overview",
+      "final_url": "https://developers.squarespace.com/mcp/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3f9a8d6d98b3e448996fae9b690f4a163034b4aa6de368a53efe6024c151e6a7",
+      "text_len": 3889
+    },
+    {
+      "requested_url": "https://developers.squarespace.com/mcp/tools/commerce",
+      "final_url": "https://developers.squarespace.com/mcp/tools/commerce",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:37Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fe31681fb1eca2e9e71497a522b61eef4ebbb12ba9b8182a8300086e48e0a19c",
+      "text_len": 11313
+    },
+    {
+      "requested_url": "https://developers.squarespace.com/mcp/tools/domains",
+      "final_url": "https://developers.squarespace.com/mcp/tools/domains",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3ed6bed839d8bfe489c337539532355cab4427333fb5c02aa3fa101e6cd397ad",
+      "text_len": 3418
+    },
+    {
+      "requested_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+      "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:39:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0a85a35ef01e04dfed0cdf239f2b72ebefe1b8a698c16a6dd2b6555d85703c52",
+      "text_len": 3780
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.squarespace.com/commerce-apis/oauth",
+        "quote": "Squarespace uses OAuth 2.0 to authorize third-party applications to integrate with Squarespace and consume Squarespace APIs.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "quote": "you can use a generated API key or start the OAuth process with Squarespace to become a registered OAuth client",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.squarespace.com/commerce-apis/oauth",
+        "quote": "We will review your registration and respond with `your_client_id` and `your_client_secret` as soon as possible.",
+        "verified": true
+      },
+      {
+        "url": "https://www.squarespace.com/pricing",
+        "quote": "Squarespace doesn't offer a free plan, but every site starts with a free trial—no credit card required.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.squarespace.com/",
+        "quote": "Read and write orders, products, inventory, and transactions. REST endpoints, webhooks for order events, and signed payloads",
+        "verified": true
+      },
+      {
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "quote": "every request to Commerce APIs must be authenticated and have minimum permissions",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.squarespace.com/mcp/connect-a-client",
+        "quote": "Use this URL in Claude, ChatGPT, and any other MCP client.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.squarespace.com/mcp/overview",
+        "quote": "The Squarespace MCP server connects AI assistants to Squarespace.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.squarespace.com/commerce-apis/oauth",
+        "quote": "This review only approves your client for OAuth connections with Squarespace.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "quote": "With Squarespace's Commerce Advanced plan, you can develop a custom application for a Squarespace merchant site.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developers.squarespace.com/",
+        "quote": "Everything you need to build and publish external apps — reliable APIs, clear documentation, and a marketplace",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

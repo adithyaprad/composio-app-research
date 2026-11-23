@@ -1,0 +1,375 @@
+{
+  "slug": "binance",
+  "searches": [
+    {
+      "query": "Binance API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.binance.com/en/support/faq/how-to-create-api-keys-on-binance-360002502072",
+          "title": "How to Create API Keys on Binance?",
+          "snippet": "How to Create API Keys on Binance? | Binance,api,create\n\nFAQ\n\nSearch\n\nHome\n\nSupport Center\n\nFAQ\n\nAPI\n\nAPI Tutorial\n\nHow to Create API Keys on Binance?\n\n# How to Create API Keys on Binance?\n\n2018-04-09 03:17\n\nCreating an API allows you to connect to Binance’s servers via several programming languages"
+        },
+        {
+          "url": "https://developers.binance.com/en/docs/llms-full.txt",
+          "title": "",
+          "snippet": "# Binance Developer Docs\n\n> Complete documentation for Large Language Models\n\n---\n\n## Document: /introduction\n\nURL: /en/docs/introduction\n\n# Binance Developer Documentation\n\nWelcome to the official Binance API documentation.\n\nThis portal is the central reference for developers building applications,"
+        },
+        {
+          "url": "https://github.com/binance/binance-spot-api-docs/blob/refs/heads/master/rest-api.md",
+          "title": "heads/master/rest-api.md",
+          "snippet": "# heads/master/rest-api.md\n\n- Branch: refs\n- Repository: binance/binance-spot-api-docs\n\n---\n\n \n ```javascript\n{\n    \"code\": -1121,\n    \"msg\": \"Invalid symbol.\"\n}\n``` Database) This means that the\nendpoint will check the first Data Source, and if it cannot find the value it's looking for it will\nchec"
+        },
+        {
+          "url": "https://developers.binance.com/en/docs/products/spot/rest-api",
+          "title": "General REST API Information | Binance Developer Docs",
+          "snippet": "General REST API Information | Binance Developer Docs\n\nGeneral REST API Information | Binance Developer Docs"
+        },
+        {
+          "url": "https://developers.binance.com/docs/binance_link/link-and-trade",
+          "title": "Introduction | Binance Open Platform",
+          "snippet": "Introduction | Binance Open Platform\n\n## Rest API Information​\n\n- The base endpoint for Spot is: https://api.binance.com\n- The base endpoint for Futures is: https://fapi.binance.com\n- All endpoints return either a JSON object or array.\n- Data is returned in ascending order. Oldest first, newest last"
+        }
+      ]
+    },
+    {
+      "query": "Binance developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.binance.com/en",
+          "title": "Binance Developer center",
+          "snippet": "Developer Center\n\nDeveloper Center\n\nEnroll Now\n\nView All Products\n\nFinancial Trading\n\nSpot TradingDocumentation for the Binance Spot APIs and Websocket Streams. Find Change Logs and FAQs Related to Spot Trading here.\n\nDerivatives TradingDerivative Trading API provide REST and WebSocket APIs to suit "
+        },
+        {
+          "url": "https://developers.binance.com/en/docs/llms-full.txt",
+          "title": "",
+          "snippet": "# Binance Developer Docs\n\n> Complete documentation for Large Language Models\n\n---\n\n## Document: /introduction\n\nURL: /en/docs/introduction\n\n# Binance Developer Documentation\n\nWelcome to the official Binance API documentation.\n\nThis portal is the central reference for developers building applications,"
+        },
+        {
+          "url": "https://developers.binance.com/en/docs/products/spot/rest-api",
+          "title": "General REST API Information | Binance Developer Docs",
+          "snippet": "General REST API Information | Binance Developer Docs\n\nGeneral REST API Information | Binance Developer Docs"
+        },
+        {
+          "url": "https://binance.github.io/binance-api-swagger/",
+          "title": "Swagger UI",
+          "snippet": "Swagger UI\n\n```\n 1.0 \n```\n\n```\nOAS3\n```\n\n## Binance Public Spot API\n\nhttps://binance.github.io/binance-api-swagger/spot_api.yaml\n\nOpenAPI Specifications for the Binance Public Spot API\n\nAPI documents:\n\nServers\n\nhttps://api.binance.comhttps://testnet.binance.vision\n\nAuthorize\n\n### MarketMarket Data\n\n"
+        },
+        {
+          "url": "https://www.binance.com/en/binance-api",
+          "title": "Binance APIs",
+          "snippet": "Binance APIs\n\n# Binance API\n\nUnlimited Opportunities with One Key.\n\nTrading Connectivity\n\nWe offer access to Spot, Margin, Futures, and Options API trading for over 300 digital and fiat currencies. API trading provides a testing environment, API documentation, and sample code in multiple programming"
+        }
+      ]
+    },
+    {
+      "query": "Binance pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://accounts.binance.com/en/register?locale=en",
+          "title": "Create a free account | Binance",
+          "snippet": "Create a free account | Binance\n\nWelcome to Binance\n\nBy creating an account, I agree to Binance's Privacy Notice."
+        },
+        {
+          "url": "https://www.binance.com/en/fee/schedule",
+          "title": "Fees & Transactions Overview",
+          "snippet": "Spot Trading Fee Rate | Binance\n\n# Fees & Transactions Overview\n\nFee Rate Invite Friends Unlock VIP Benefits\n\nNew\n\nFiat\n\n| Level | 30D Trade Volume (USD) OTC trades will apply a multiplier of 4, subject to exclusions. | and/or | BNB Balance | Maker / Taker Makers add liquidity by placing orders on t"
+        },
+        {
+          "url": "https://www.binance.com/en/support/faq/binance-beginner-s-guide-c780097f75dd450a82d17f1e84153276",
+          "title": "Binance Beginner’s Guide",
+          "snippet": "Binance Beginner’s Guide | Binance Beginner’s Guide,Binance New User,BNB\n\n# Binance Beginner’s Guide\n\nPublished on 2021-01-13 22:52 Updated on 2026-03-05 00:00\n\nWelcome to Binance! Kickstart your crypto journey in 4 quick and easy steps:\n\n- Step 1: Register for an account\n- Step 2: Complete identity"
+        },
+        {
+          "url": "https://kkinvesting.io/en/posts/binance-register-deposit/",
+          "title": "Binance Sign-Up & Deposit 2026: KYC, Minimum Deposit",
+          "snippet": "Binance Sign-Up & Deposit 2026: KYC, Minimum Deposit\n\n Table of Contents Hide \n\n 1 What is Binance and what does an account give you \n\n 2 Who can register on Binance in 2026 \n\n 3 How to register on Binance: app sign-up in six steps \n\n 4 Binance KYC: documents, liveness check and timing \n\n 5 How to d"
+        },
+        {
+          "url": "https://www.binance.com/en/fee/trading",
+          "title": "Fees & Transactions Overview",
+          "snippet": "Spot Trading Fee Rate | Binance\n\n# Fees & Transactions Overview\n\nFee Rate Invite Friends Unlock VIP Benefits\n\nTrading\n\nLiquidity Program\n\nInterest Rate\n\nDeposit/Withdrawal\n\nFiat\n\n| Level | 30D Trade Volume (USD) OTC trades will apply a multiplier of 4, subject to exclusions. | and/or | BNB Balance |"
+        }
+      ]
+    },
+    {
+      "query": "Binance official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.binance.com/en/agent-os",
+          "title": "Binance Agent OS: MCP Server for Crypto AI Agents",
+          "snippet": "Binance Agent OS: MCP Server for Crypto AI Agents\n\nEquip your AI agent with crypto trading, payment, and on-chain capabilities in seconds.\n\nWhat is Binance Agent OS?\n\nBinance Agent OS is a developer platform for connecting AI agents to Binance. It brings the Binance MCP server, exchange APIs, and re"
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/binance-introduces-agent-os-to-connect-ai-applications-to-financial-infrastructure-302856306.html",
+          "title": "Binance Introduces Agent OS to Connect AI Applications to Financial Infrastructure",
+          "snippet": "Binance Introduces Agent OS to Connect AI Applications to Financial Infrastructure\n\n# Binance Introduces Agent OS to Connect AI Applications to Financial Infrastructure\n\nAug 20, 2026, 06:00 ET\n\nNew developer platform connects AI applications to Binance trading, market data, wallets, payments and on-"
+        },
+        {
+          "url": "https://www.binance.com/en-IN/research/analysis/binance-intelligence-a-first-look-at-next-gen-finance",
+          "title": "Binance Intelligence: A First Look At Next-Gen Finance",
+          "snippet": "Binance Intelligence: A First Look At Next-Gen Finance\n\n# Binance Intelligence: A First Look At Next-Gen Finance\n\nLim Kim Thye\n\nOct 13th, 2026\n\n## Key Summary\n\n- Third-party forecasts point to a large potential market for AI agents. Five research houses estimate the AI agents market at US$42B to US$"
+        },
+        {
+          "url": "https://www.anchorterminal.com/tools/binance",
+          "title": "Binance review (2026): pricing, alternatives and grade B",
+          "snippet": "Binance review (2026): pricing, alternatives and grade B\n\n# Binance API\n\nby Binance HTTP API in Crypto exchanges\n\nbinance.com since 2017 · who's behind it\n\nB\n\n65.4/100 #540 of 1563 · #6 in Exchanges\n\nUsable. Needs operator supervision or workarounds.\n\n4.6 points to BB · why each score\n\nConfidence me"
+        },
+        {
+          "url": "https://tradingagentstack.com/tool/binance/",
+          "title": "Binance: safety score, custody and pricing",
+          "snippet": "Binance: safety score, custody and pricing\n\n# Binance\n\nYou confirm every order before it's sent. Paper trading is available.\n\n49 Safety score 49% of the points we could check · capped at 49%: unresolved incident How much of your money is at risk if this tool, or an AI agent using it, is wrong, hacke"
+        }
+      ]
+    },
+    {
+      "query": "site:binance-docs.github.io MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://binance-docs.github.io/Brokerage-API/General/",
+          "title": "General Info - Binance Link API Docs",
+          "snippet": "General Info - Binance Link API Docs\n\n## Rest API Information\n\n- The base endpoint is: https://api.binance.com\n- All endpoints return either a JSON object or array.\n- Data is returned in ascending order. Oldest first, newest last.\n- All time and timestamp related fields are in milliseconds.\n- HTTP `"
+        },
+        {
+          "url": "https://binance-docs.github.io/apiAgent-API-EN/",
+          "title": "Home - Binance Api-Agent API Docs",
+          "snippet": "Home - Binance Api-Agent API Docs\n\n## Rest API Information\n\n- All endpoints return either a JSON object or array.\n- Data is returned in ascending order. Oldest first, newest last.\n- All time and timestamp related fields are in milliseconds.\n- HTTP `4XX` return codes are used for for malformed reques"
+        },
+        {
+          "url": "https://binance-docs.github.io/Brokerage-API/Brokerage_Operation_Endpoints/",
+          "title": "Binance Link Endpoints - Binance Link API Docs",
+          "snippet": "Binance Link Endpoints - Binance Link API Docs\n\n## Create a Sub Account\n\n`POST /sapi/v1/broker/subAccount`\n\nParameters:\n\n| Name | Type | Mandatory | Description |\n| --- | --- | --- | --- |\n| tag | STRING | NO | tag length should be less than 32 |\n| recvWindow | LONG | NO | |\n| timestamp | LONG | YES"
+        },
+        {
+          "url": "https://binance-docs.github.io/apiAgent-API-EN/api_rebate_endpoints_futures_EN/",
+          "title": "Futures Api-Agent Endpoints - Binance Api-Agent API Docs",
+          "snippet": "Futures Api-Agent Endpoints - Binance Api-Agent API Docs\n\n## Base Endpoint\n\n- The base url for following endpoints is: https://fapi.binance.com\n\n## Query Client If The New User (USER DATA)\n\n`GET /fapi/v1/apiReferral/ifNewUser`\n\nWeight:100\n\nParameters:\n\n| Name | Type | Mandatory | Description |\n| ---"
+        },
+        {
+          "url": "https://binance-docs.github.io/Brokerage-API/",
+          "title": "Change Log - Binance Link API Docs",
+          "snippet": "Change Log - Binance Link API Docs\n\n# Change Log\n\n2020-04-22\n\n- New fields in response to `GET /sapi/v1/broker/subAccountApi/commission/futures` and `POST /sapi/v1/broker/subAccountApi/commission/futures`:\n\n- `makerCommission` for current futures commission ratio for maker;\n- `takerCommission` for c"
+        }
+      ]
+    },
+    {
+      "query": "site:github.io MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://openai.github.io/openai-agents-python/mcp/",
+          "title": "Model context protocol (MCP) - OpenAI Agents SDK",
+          "snippet": "Model context protocol (MCP) - OpenAI Agents SDK\n\n# Model context protocol (MCP)\n\nThe Model context protocol (MCP) standardises how applications expose tools and context to language models. From the official documentation:\n\n> MCP is an open protocol that standardizes how applications provide context"
+        },
+        {
+          "url": "https://pranjulrathour.github.io/model-context-protocol-explained/",
+          "title": "MCP explained: how Model Context Protocol works, servers, Cursor, vs APIs, examples",
+          "snippet": "MCP explained: how Model Context Protocol works, servers, Cursor, vs APIs, examples\n\n# MCP explained: how Model Context Protocol works, servers, Cursor, vs APIs, examples\n\nMCP explained: how the Model Context Protocol works, when it launched, MCP servers, using it in Cursor, MCP vs APIs, examples, b"
+        },
+        {
+          "url": "https://awslabs.github.io/generative-ai-atlas/topics/2_0_technical_foundations_and_patterns/2_1_key_primitives/2_1_11_mcp/mcp.html",
+          "title": "Model Context Procotol (MCP) - Generative AI Atlas",
+          "snippet": "Model Context Procotol (MCP) - Generative AI Atlas\n\nAdd to `.mcp.json` (project) or `~/.claude.json` (global):\n\n```\n{\n  \"mcpServers\": {\n    \"genai-atlas\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"--from\",\n        \"git+https://github.com/awslabs/generative-ai-atlas.git#subdirectory=mcp-serv"
+        },
+        {
+          "url": "https://worldbank.github.io/ai4data/docs/mcp/",
+          "title": "Model Context Protocol (MCP) for data dissemination | AI for Data - Data for AI",
+          "snippet": "Model Context Protocol (MCP) for data dissemination | AI for Data - Data for AI\n\nOn this page\n\n# Model Context Protocol (MCP) for data dissemination\n\n## Overview​\n\nThe Model Context Protocol (MCP) is an open standard introduced by Anthropic in November 2024 that defines how a large language model (L"
+        },
+        {
+          "url": "https://cli-agent-spec.github.io/research/mcp/",
+          "title": "Model Context Protocol (MCP) - CLI Agent Spec",
+          "snippet": "Model Context Protocol (MCP) - CLI Agent Spec\n\n# Model Context Protocol (MCP)\n\n## Overview\n\nModel Context Protocol (MCP) is an open, Anthropic-initiated protocol for connecting AI model applications (hosts) to external tools and data sources (servers). It was inspired by the Language Server Protocol"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://binance-docs.github.io",
+      "final_url": "https://binance-docs.github.io",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:31Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://developers.binance.com/en/docs/products/spot/rest-api",
+      "final_url": "https://developers.binance.com/en/docs/products/spot/rest-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:25Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a753e334227eb06994ef48c5b1eed8cd60e1b09232d00a281a4521c93eecf200",
+      "text_len": 108
+    },
+    {
+      "requested_url": "https://binance.github.io/binance-api-swagger/",
+      "final_url": "https://binance.github.io/binance-api-swagger/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:26Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cf558377e5e85c39baadecdc5255085b0b4610205978161b8fc83bd448f312fd",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://accounts.binance.com/en/register?locale=en",
+      "final_url": "https://accounts.binance.com/en/register?locale=en",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:27Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "68973b2951cf0c635bc4c9a3ce29d46b0dfc7a0e7c3ed2d93c8af10b45e787a5",
+      "text_len": 113
+    },
+    {
+      "requested_url": "https://www.binance.com/en-IN/research/analysis/binance-intelligence-a-first-look-at-next-gen-finance",
+      "final_url": "https://www.binance.com/en-IN/research/analysis/binance-intelligence-a-first-look-at-next-gen-finance",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "05f28437c62ccb7c21f34ec76aea7dc1ffda2d2e48aea26ece1cd2ce3f12af25",
+      "text_len": 12132
+    },
+    {
+      "requested_url": "https://binance-docs.github.io/Brokerage-API/",
+      "final_url": "https://binance-docs.github.io/Brokerage-API/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4beafd29be9bcd034e63bb2ae453568f889cb0c5f1d7209dd552e3f31ce8a6b1",
+      "text_len": 1817
+    },
+    {
+      "requested_url": "https://worldbank.github.io/ai4data/docs/mcp/",
+      "final_url": "https://worldbank.github.io/ai4data/docs/mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a98e0500ddde2df83f43d6abadf77271fd20cbbca284c6eb1c5b5a55a94e8e24",
+      "text_len": 7447
+    },
+    {
+      "requested_url": "https://awslabs.github.io/generative-ai-atlas/topics/2_0_technical_foundations_and_patterns/2_1_key_primitives/2_1_11_mcp/mcp.html",
+      "final_url": "https://awslabs.github.io/generative-ai-atlas/topics/2_0_technical_foundations_and_patterns/2_1_key_primitives/2_1_11_mcp/mcp.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cf9dd68edb9b933a2edb90cbf50e28988f99c946ea498eb82b01392528dd9de8",
+      "text_len": 10532
+    },
+    {
+      "requested_url": "https://developers.binance.com/llms.txt",
+      "final_url": "https://developers.binance.com/llms.txt",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:32Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://developers.binance.com/docs/binance-spot-api-docs/rest-api/endpoint-security-type",
+      "final_url": "https://developers.binance.com/en/docs/products/spot/rest-api#endpoint-security-type",
+      "status": 202,
+      "provider": "http",
+      "fetched_at": "2026-11-23T13:44:54Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://developers.binance.com/en/docs/products/spot/rest-api.md",
+      "sha256": "4726f9c99d6f66cc8caae9fbc593cfab62ad5fedc8ee5b7d43d0da725d9d86cd",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.binance.com/en/docs/products/spot/rest-api#endpoint-security-type",
+        "quote": "We support HMAC, RSA, and Ed25519 keys.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://accounts.binance.com/en/register?locale=en",
+        "quote": "Create a free account | Binance",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://binance.github.io/binance-api-swagger/",
+        "quote": "OpenAPI Specifications for the Binance Public Spot API",
+        "verified": true
+      },
+      {
+        "url": "https://developers.binance.com/en/docs/products/spot/rest-api#endpoint-security-type",
+        "quote": "Responses are in JSON by default.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://www.binance.com/en-IN/research/analysis/binance-intelligence-a-first-look-at-next-gen-finance",
+        "quote": "Connect: add https://agent.binance.com/mcp/agentic to a supported agent and complete authorization.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.binance.com/en/docs/products/spot/rest-api#endpoint-security-type",
+        "quote": "The following base endpoints are available.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://binance.github.io/binance-api-swagger/",
+        "quote": "OpenAPI Specifications for the Binance Public Spot API",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [
+      {
+        "field": "mcp_url",
+        "url": "https://agent.binance.com/mcp/agentic"
+      }
+    ],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}
