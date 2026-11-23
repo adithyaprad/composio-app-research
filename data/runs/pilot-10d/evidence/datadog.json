@@ -1,0 +1,394 @@
+{
+  "slug": "datadog",
+  "searches": [
+    {
+      "query": "Datadog API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.datadoghq.com/api/latest/authentication",
+          "title": "Authentication - Datadog API",
+          "snippet": "Authentication - Datadog API\n\n# Authentication\n\nAll requests to Datadog’s API must be authenticated. Requests that write data require reporting access and require an `API key`. Requests that read data require full access and also require an `application key`.\n\nNote: All Datadog API clients are confi"
+        },
+        {
+          "url": "https://www.datadoghq.com/blog/datadog-api-authentication/",
+          "title": "Modernize Datadog API authentication with scoped ...",
+          "snippet": "Modernize Datadog API authentication with scoped credentials | Datadog\n\n# Modernize Datadog API authentication with scoped credentials\n\nPublished\n\n Jun 9, 2026 \n\nAnthony Dagneaux\n\nBowen Chen\n\nSenior Technical Content Writer\n\nFor years, authenticating to Datadog APIs meant managing two separate crede"
+        },
+        {
+          "url": "https://docs.datadoghq.com/account_management/personal-access-tokens.md",
+          "title": "Personal Access Tokens",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Personal Access Tokens\n\n## Overview{% #overview %}\n\nPersonal Access Tokens (PATs) are a credential type that authenticates Datadog API calls. Unlike application keys, PATs do not need to be paired with an API key. They are short-lived and scop"
+        },
+        {
+          "url": "https://docs.datadoghq.com/api/latest/key-management/validate-api-and-application-keys.md",
+          "title": "Validate API and application keys",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Validate API and application keys\n\n## v2 (latest)\n\n| Datadog site | API endpoint |\n| --- | --- |\n| app.datadoghq.com | GET https://api.datadoghq.com/api/v2/validate_keys |\n| us3.datadoghq.com | GET https://api.us3.datadoghq.com/api/v2/validate"
+        },
+        {
+          "url": "https://docs.datadoghq.com/account_management/service-access-tokens.md",
+          "title": "Service Access Tokens",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Service Access Tokens\n\n## Overview{% #overview %}\n\nService Access Tokens (SATs) are credentials that authenticate Datadog API calls on behalf of a service account. Unlike Personal Access Tokens (PATs), SATs belong to a service account rather t"
+        }
+      ]
+    },
+    {
+      "query": "Datadog developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.datadoghq.com/api/latest/authentication",
+          "title": "Authentication - Datadog API",
+          "snippet": "Authentication - Datadog API\n\n# Authentication\n\nAll requests to Datadog’s API must be authenticated. Requests that write data require reporting access and require an `API key`. Requests that read data require full access and also require an `application key`.\n\nNote: All Datadog API clients are confi"
+        },
+        {
+          "url": "https://docs.datadoghq.com/api/latest/scopes.md",
+          "title": "Authorization Scopes for OAuth Clients",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Authorization Scopes for OAuth Clients\n\nScopes are an authorization mechanism that allow you to limit and define the specific access applications have to an organization's Datadog data. When authorized to access data on behalf of a user or ser"
+        },
+        {
+          "url": "https://docs.datadoghq.com/extend/authorization/oauth2_endpoints.md",
+          "title": "OAuth2 Authorization Endpoints Reference",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# OAuth2 Authorization Endpoints Reference\n\n## Overview{% #overview %}\n\nApplications using protected Datadog resources must be authorized by a user before they can access Datadog APIs on the user's behalf. These endpoints direct the application "
+        },
+        {
+          "url": "https://docs.datadoghq.com/api/latest/key-management.md",
+          "title": "Key Management",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Key Management\n\nManage your Datadog API and application keys. You need an API key and an\napplication key for a user with the required permissions to interact with these endpoints.\n\nConsult the following pages to view and manage your keys:\n\n- A"
+        },
+        {
+          "url": "https://docs.datadoghq.com/getting_started/access_for_enterprises/credential_management.md",
+          "title": "Credential Management",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Credential Management\n\n## Overview{% #overview %}\n\nYou can interact with Datadog programmatically through CI/CD pipelines, Terraform, custom integrations, and automation scripts. Managing the keys and tokens that enable this access is a critic"
+        }
+      ]
+    },
+    {
+      "query": "Datadog pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.datadoghq.com/free-datadog-trial/",
+          "title": "Free Datadog Trial | Datadog",
+          "snippet": "Free Datadog Trial | Datadog\n\n# Sign up for your free Datadog trial\n\n## Explore your stack with a free Datadog trial\n\nTry Datadog for 14 days and learn how seamlessly uniting metrics, traces, and logs in one platform improves agility, increases efficiency, and provides end-to-end visibility across y"
+        },
+        {
+          "url": "https://www.datadoghq.com/pricing/list/",
+          "title": "Datadog Pricing Comparison",
+          "snippet": "Datadog Pricing Comparison | Datadog\n\n# Datadog Pricing\n\n* For existing customers, please refer to your latest billing agreement for included allotments of this product. ** 40k LLM spans are free. *** Experiment retention is 3 months with annual or month-to-month commitment, otherwise 15 days.\n\n| Pr"
+        },
+        {
+          "url": "https://www.datadoghq.com/pricing/",
+          "title": "Pricing | Datadog",
+          "snippet": "Pricing | Datadog\n\n# Pricing\n\n## Flexible, transparent pricing designed to scale with your business\n\nMulti-Year/Volume discounts available\n\n- AI\n\n- AI Credits This product is currently unavailable on the US-FED site.\n- AI Guard This product is currently unavailable on the US-FED site.\n- Agent Observ"
+        },
+        {
+          "url": "https://www.g2.com/products/datadog/pricing",
+          "title": "Datadog Pricing November 2026",
+          "snippet": "Datadog Pricing November 2026\n\n# Datadog Pricing Overview\n\nLast updated: April 30, 2026\n\n## Datadog Pricing Key Insights\n\nDatadog offers 5 pricing editions, starting at $15. Datadog pricing tiers are designed to support different usage levels and team sizes. Datadog also offers a free trial. Compare"
+        },
+        {
+          "url": "https://www.dash0.com/comparisons/datadog-pricing",
+          "title": "Datadog Pricing in 2026",
+          "snippet": "Datadog Pricing in 2026: How the Bill Works and Where It Grows · Dash0\n\nYves Sinkgraven\n\n- October 27, 2026\n- 30 min read\n\n# Datadog Pricing in 2026: How the Bill Works and Where It Grows\n\nDatadog charges for the hosts, then charges again for what those hosts have to say. Logs are billed by both vol"
+        }
+      ]
+    },
+    {
+      "query": "Datadog official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.datadoghq.com/product/ai/mcp-server/",
+          "title": "MCP Server | CLI | AI Agent-Ready Observability | Datadog",
+          "snippet": "MCP Server | CLI | AI Agent-Ready Observability | Datadog\n\n# Agent Interfaces\n\nDatadog MCP Server and Pup CLI give AI agents secure, real-time access to unified observability data\n\n## Feature Overview\n\nFor developers building and operating AI agents across development and operational workflows, Data"
+        },
+        {
+          "url": "https://docs.datadoghq.com/mcp_server/setup.md",
+          "title": "Set Up the Datadog MCP Server",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Set Up the Datadog MCP Server\n\n{% callout %}\n\n# Important note for users on the following Datadog sites: app.ddog-gov.com, us2.ddog-gov.com\n\n{% alert level=\"danger\" %}\nThis product is not supported for your selected Datadog site. ({% placehold"
+        },
+        {
+          "url": "https://github.com/datadog-labs/mcp-server",
+          "title": "datadog-labs/mcp-server",
+          "snippet": "# datadog-labs/mcp-server\n\nOfficial Datadog MCP Server\n\n- Stars: 48\n- Forks: 4\n- Watchers: 48\n- Open issues: 0\n- License: MIT License\n- Default branch: main\n- Created: 2026-02-04T19:28:34Z\n\n## Top Contributors\n\n- rgwood-dd (34 contributions)\n- jeremy-lq (2 contributions)\n\n---\n\n## README\n\n# Datadog M"
+        },
+        {
+          "url": "https://docs.datadoghq.com/mcp_server/tools.md",
+          "title": "Datadog MCP Server Tools",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Datadog MCP Server Tools\n\n{% callout %}\n\n# Important note for users on the following Datadog sites: app.ddog-gov.com, us2.ddog-gov.com\n\n{% alert level=\"danger\" %}\nThis product is not supported for your selected Datadog site. ({% placeholder \"u"
+        },
+        {
+          "url": "https://www.datadoghq.com/blog/datadog-mcp-server-use-cases/",
+          "title": "Four ways engineering teams use the Datadog MCP Server to power AI agents | Datadog",
+          "snippet": "Four ways engineering teams use the Datadog MCP Server to power AI agents | Datadog\n\n# Four ways engineering teams use the Datadog MCP Server to power AI agents\n\nPublished\n\n Mar 9, 2026 \n\nBowen Chen\n\nSenior Technical Content Writer\n\nReilly Wood\n\nBharadwaj Tanikella\n\nSince the Datadog Model Context P"
+        }
+      ]
+    },
+    {
+      "query": "site:docs.datadoghq.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.datadoghq.com/account_management/rbac/mcp_access.md",
+          "title": "Access Control for MCP",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Access Control for MCP\n\nThe Datadog MCP Server lets AI agents and clients, such as Claude Code, Cursor, and ChatGPT, read and act on Datadog data on behalf of a signed-in user. You can control which users can access the MCP Server, whether the"
+        },
+        {
+          "url": "https://docs.datadoghq.com/mcp_server/code_execution.md",
+          "title": "Code Execution with the MCP Server",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Code Execution with the MCP Server\n\n{% callout %}\n\n# Important note for users on the following Datadog sites: app.ddog-gov.com, us2.ddog-gov.com\n\n{% alert level=\"danger\" %}\nThis product is not supported for your selected Datadog site. ({% plac"
+        },
+        {
+          "url": "https://docs.datadoghq.com/llm_observability/build_with_ai/mcp_server.md",
+          "title": "Agent Observability MCP and Skills",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Agent Observability MCP and Skills\n\n{% callout %}\n\n# Important note for users on the following Datadog sites: app.ddog-gov.com, us2.ddog-gov.com\n\n{% alert level=\"danger\" %}\nThis product is not supported for your selected Datadog site. ({% plac"
+        },
+        {
+          "url": "https://docs.datadoghq.com/mcp_server/tools.md",
+          "title": "Datadog MCP Server Tools",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Datadog MCP Server Tools\n\n{% callout %}\n\n# Important note for users on the following Datadog sites: app.ddog-gov.com, us2.ddog-gov.com\n\n{% alert level=\"danger\" %}\nThis product is not supported for your selected Datadog site. ({% placeholder \"u"
+        },
+        {
+          "url": "https://docs.datadoghq.com/security/mcp_server.md",
+          "title": "Security MCP Tools",
+          "snippet": "> For the complete documentation index, see llms.txt.\n\n# Security MCP Tools\n\n{% callout %}\n\n# Important note for users on the following Datadog sites: app.ddog-gov.com, us2.ddog-gov.com\n\n{% alert level=\"danger\" %}\nThis product is not supported for your selected Datadog site. ({% placeholder \"user-da"
+        }
+      ]
+    },
+    {
+      "query": "site:datadoghq.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.datadoghq.com/product/ai/mcp-server/",
+          "title": "MCP Server | CLI | AI Agent-Ready Observability | Datadog",
+          "snippet": "MCP Server | CLI | AI Agent-Ready Observability | Datadog\n\n# Agent Interfaces\n\nDatadog MCP Server and Pup CLI give AI agents secure, real-time access to unified observability data\n\n## Feature Overview\n\nFor developers building and operating AI agents across development and operational workflows, Data"
+        },
+        {
+          "url": "https://www.datadoghq.com/knowledge-center/mcp-server/",
+          "title": "What Is an MCP Server (Model Context Protocol Server)? | Datadog",
+          "snippet": "What Is an MCP Server (Model Context Protocol Server)? | Datadog\n\n# What Is an MCP Server (Model Context Protocol Server)?\n\n## Learn about the advantages of MCP servers for making use of AI models, services, and external tools for back-end services, observability, and security.\n\n## What is MCP (Mode"
+        },
+        {
+          "url": "https://www.datadoghq.com/blog/datadog-remote-mcp-server/",
+          "title": "Datadog MCP Server: Connect your AI agents to Datadog tools and context | Datadog",
+          "snippet": "Datadog MCP Server: Connect your AI agents to Datadog tools and context | Datadog\n\n# Datadog MCP Server: Connect your AI agents to Datadog tools and context\n\nPublished\n\n Jun 10, 2025 \n\nBowen Chen\n\nSenior Technical Content Writer\n\nTill Pieper\n\nDirector, Product Management\n\nReilly Wood\n\nJason Thomas\n\n"
+        },
+        {
+          "url": "https://www.datadoghq.com/blog/engineering/mcp-server-agent-tools/",
+          "title": "Designing MCP tools for agents: Lessons from building Datadog's ...",
+          "snippet": "Designing MCP tools for agents: Lessons from building Datadog’s MCP server | Datadog\n\n# Designing MCP tools for agents: Lessons from building Datadog’s MCP server\n\nPublished\n\n Mar 4, 2026 \n\nReilly Wood\n\nI work on Datadog’s official MCP (Model Context Protocol) server, our first observability interfa"
+        },
+        {
+          "url": "https://www.datadoghq.com/blog/monitor-mcp-servers/",
+          "title": "Understanding MCP security: Common risks to watch for | Datadog",
+          "snippet": "Understanding MCP security: Common risks to watch for | Datadog\n\n# Understanding MCP security: Common risks to watch for\n\nPublished\n\n Jul 28, 2025 \n\nYuki Matsuzaki\n\nMallory Mooney\n\nStaff Technical Content Writer\n\nAI adoption is rapidly increasing, and with that comes a steady influx of useful but po"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.datadoghq.com/api",
+      "final_url": "https://docs.datadoghq.com/api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:09:11Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "49a1d54553b457aa488deb7ec8d57fe685e036b710865b54b5629a05fff5e37d",
+      "text_len": 4735
+    },
+    {
+      "requested_url": "https://docs.datadoghq.com/api/latest/authentication",
+      "final_url": "https://docs.datadoghq.com/api/latest/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:09:04Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "46ffa2a5fb62a1e3b63c1201b1743559a1710b7d49fa806fcf97c42490d97006",
+      "text_len": 1076
+    },
+    {
+      "requested_url": "https://www.datadoghq.com/pricing/",
+      "final_url": "https://www.datadoghq.com/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:09:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "80b648d62c972163e28d108df91327bc615abe243494652f416847f85e80da57",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.datadoghq.com/mcp_server/setup.md",
+      "final_url": "https://docs.datadoghq.com/mcp_server/setup.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:09:07Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f71b86a0ec83ca0b1d336a0662db3e9616ba2285732020124c7c312884021170",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.datadoghq.com/account_management/rbac/mcp_access.md",
+      "final_url": "https://docs.datadoghq.com/account_management/rbac/mcp_access.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:09:09Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d26dbd95fd4d6916aefc114d7a7c6f8dc5fb10292726a40a2b9efd328f2a001c",
+      "text_len": 8484
+    },
+    {
+      "requested_url": "https://www.datadoghq.com/blog/datadog-remote-mcp-server/",
+      "final_url": "https://www.datadoghq.com/blog/datadog-remote-mcp-server/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:09:11Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d9cc4c2da96e428205120e67f3164d1b33315baecd9adf49d24cf3c11ebdeed6",
+      "text_len": 6010
+    },
+    {
+      "requested_url": "https://docs.datadoghq.com/llm_observability/build_with_ai/mcp_server.md",
+      "final_url": "https://docs.datadoghq.com/llm_observability/build_with_ai/mcp_server.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:09:09Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6aebfc4f2ac9df024520342d2083c00ed6066351fb6cc16cd9cf5ad2c1a6609b",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.datadoghq.com/mcp_server/code_execution.md",
+      "final_url": "https://docs.datadoghq.com/mcp_server/code_execution.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:09:09Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cc756921cd7450adb31bc3105d00084de7a59c0b52eea9c269b9d9386c6411cf",
+      "text_len": 4114
+    },
+    {
+      "requested_url": "https://docs.datadoghq.com/llms.txt",
+      "final_url": "https://docs.datadoghq.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:09:11Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "a57289068ffed2639dfae33312f33439e5244208401deedebf9377271fd921d7",
+      "text_len": 12365
+    },
+    {
+      "requested_url": "https://www.datadoghq.com/blog/datadog-api-authentication/",
+      "final_url": "https://www.datadoghq.com/blog/datadog-api-authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:09:04Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ea22bcb9e625507ea06581f958663b7d5861e3b91b5e583c888cbb93d28c64f4",
+      "text_len": 9884
+    },
+    {
+      "requested_url": "https://docs.datadoghq.com/api/latest/scopes.md",
+      "final_url": "https://docs.datadoghq.com/api/latest/scopes.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:09:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8363b62286a1c7e3f7c94319223e8d399ee92f78518aa6889ffeb24ea6f0c839",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.datadoghq.com/extend/authorization/oauth2_endpoints.md",
+      "final_url": "https://docs.datadoghq.com/extend/authorization/oauth2_endpoints.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:09:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0394d7d622c03e438eacc5b5cec30b5726dfa8c3aa7e7c44bb410d0c7cceb96e",
+      "text_len": 10205
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.datadoghq.com/api",
+        "quote": "Authenticate to the API with an API key using the header `DD-API-KEY`.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.datadoghq.com/extend/authorization/oauth2_endpoints.md",
+        "quote": "These endpoints direct the application through the authorization code grant flow.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.datadoghq.com/blog/datadog-remote-mcp-server/",
+        "quote": "if you don’t already have a Datadog account, sign up for a free 14-day tr",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.datadoghq.com/api",
+        "quote": "The Datadog API is an HTTP REST API.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.datadoghq.com/mcp_server/setup.md",
+        "quote": "Learn how to set up and configure the Datadog MCP Server, which lets you retrieve telemetry insights",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://www.datadoghq.com/blog/datadog-api-authentication/",
+        "quote": "Datadog is introducing a new authentication model built around four purpose-specific approaches",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://docs.datadoghq.com/llms.txt",
+        "quote": "Documentation index for the Datadog observability platform.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

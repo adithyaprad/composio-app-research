@@ -13,6 +13,10 @@ class ProviderUnavailable(RuntimeError):
     """
 
 
+class UseFallback(RuntimeError):
+    """This one call failed (transient error, no text for a URL); use the free fallback for this call only."""
+
+
 @dataclass
 class SearchResult:
     url: str
@@ -30,7 +34,8 @@ class Page:
     fetched_at: str = field(default_factory=lambda: now_iso())
     error: str | None = None
     # How text was extracted; always set. HttpFetch: trafilatura, trafilatura_recall, md_twin, visible_text,
-    # raw, http_error. Firecrawl: firecrawl_markdown. Researcher: fetch_error. Fakes: fake.
+    # raw, http_error. Firecrawl: firecrawl_markdown. Exa: exa_search, exa_text, exa_cache, exa_error.
+    # Researcher: fetch_error. Fakes: fake.
     method: str = "unknown"
     text_source_url: str | None = None  # set when the text came from another URL (e.g. the .md twin)
 

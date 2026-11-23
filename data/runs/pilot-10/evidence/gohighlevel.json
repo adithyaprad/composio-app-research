@@ -1,0 +1,259 @@
+{
+  "slug": "gohighlevel",
+  "searches": [
+    {
+      "query": "GoHighLevel API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/index.html",
+          "title": "External Authentication | HighLevel API",
+          "snippet": "External Authentication lets your Marketplace app verify a HighLevel user against your own system before the app is installed. When a user installs your app, HighLevel collects the credentials you ask for, authenticates them with your backend, and securely stores the resulting tokens or credentials."
+        },
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+          "title": "HighLevel API Documentation - HighLevel Support Portal",
+          "snippet": "Nov 16, 2026 · Access the official HighLevel API documentation. Learn about authentication methods, rate limits, available endpoints, OAuth setup, and developer resources."
+        },
+        {
+          "url": "https://dev.to/arslanautomates/gohighlevel-api-a-practical-guide-to-auth-rate-limits-endpoints-and-webhooks-2026-3idi",
+          "title": "GoHighLevel API Guide (2026): API Key, Documentation, Rate ...",
+          "snippet": "Nov 6, 2026 · Quick answer: The GoHighLevel API v2 lives at services.leadconnectorhq.com and needs a bearer token plus a Version header on every request. Use a Private Integration token for your own single sub-account or agency integration, and an OAuth Marketplace app for multi-account installs or "
+        },
+        {
+          "url": "https://www.gohighlevel.com/post/integrate-highlevel-with-existing-tools-via-api",
+          "title": "Integrate HighLevel with existing tools via API",
+          "snippet": "Oct 21, 2025 · This guide is your blueprint for HighLevel API integration and building a tech stack that actually works together."
+        },
+        {
+          "url": "https://hylo.pro/guides/gohighlevel-api-authentication",
+          "title": "GoHighLevel API Authentication: Private Integration Tokens vs ...",
+          "snippet": "Across the 540 endpoints in our index that publish an authentication line, 515 accept an OAuth access token or a Private Integration Token interchangeably, 11 accept OAuth only, and 14 state no method."
+        }
+      ]
+    },
+    {
+      "query": "GoHighLevel developer API access documentation",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+          "title": "HighLevel API Documentation - HighLevel Support Portal",
+          "snippet": "Nov 16, 2026 · Access the official HighLevel API documentation. Learn about authentication methods, rate limits, available endpoints, OAuth setup, and developer resources."
+        },
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/",
+          "title": "HighLevel API Documentation - Developer Portal | HighLevel API",
+          "snippet": "Complete REST API documentation for the HighLevel CRM platform. Build powerful integrations with our comprehensive developer resources. Access all HighLevel platform features through our REST API. Perfect for building integrations, automating workflows, and creating custom applications."
+        },
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/intro/index.html",
+          "title": "Introduction | HighLevel API",
+          "snippet": "Welcome to the API documentation. This developer portal is your reference for integrating with our platform programmatically — automating workflows, syncing data, and building custom applications on top of the REST API."
+        },
+        {
+          "url": "https://developers.gohighlevel.com/",
+          "title": "HighLevel Developers Community",
+          "snippet": "API 2.0 Docs We now have an OAuth based API and all integration documentation can be found here."
+        },
+        {
+          "url": "https://developers.gohighlevel.com/support",
+          "title": "HighLevel API Support",
+          "snippet": "At this time, HighLevel Support does NOT provide 'Setup, Code Auditing or Developer Consultative Services' on API-Related Requests. However, if your setup is complete and correct - yet an error persists, you may have encountered an API Bug we need to fix."
+        }
+      ]
+    },
+    {
+      "query": "GoHighLevel pricing plans free trial signup",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.bing.com/aclick?ld=e8NwCz67ObCkD91XCInKDJHTVUCUzq7_wh5v9YFnKph4FvglC_1Yar7DrTDKhEThjR5Q5496tWm3nW0R8FuAT-StF0-i5KBtt5xwWZIMiA5xbklSqlTf1ddyZeIv0-bt6lQJ7hF6ToPvWrqwLBHp1Sg2Bu86A9fYfTL2YE11KJQ27_Avn-88JPCvaBB1A-yZBPTIfJEw&u=aHR0cHMlM2ElMmYlMmZ3d3cuZ29oaWdobGV2ZWwuY29tJTJmYWZmaWxpYXRlLTMwdHJpYWwlM2ZmcF9yZWYlM2RyYWphbjUxJTI2ZnBfc2lkJTNkYnVzZGFsbGZ0Y21wcCUyNm1zY2xraWQlM2RjOWUwZTU0MTFjY2IxMjVjNDRmNDhlNDUzNTNkYTI1Zg&rlid=c9e0e5411ccb125c44f48e45353da25f",
+          "title": "GoHighLevel 30-Day Free Trial - Start 30-Day Free Trial",
+          "snippet": "GoHighLevel 30-Day Free Trial is Available on All Plans. Choose Your Plan & Get Started. No Hidden Fees. Sign Up GHL Now and Only Pay if You Love the Service After Trial Period. Service Features, Lead Capture, Automated Nurture, Payment Collection and more"
+        },
+        {
+          "url": "https://www.bing.com/aclick?ld=e8mdslVxNRUsFbrCHj5LnpIzVUCUy6YNDSdD-Ll4avZKaHfahr-pD3cV8VKxn-XndaKA9ySZn0WHJZKQAWMxgQdkZd85K43niG3p7WOotc1h_F_P6kXc4NxMOkzZtBiiPy1NRyBuO0KMVOtBmIhRiOhe8CrCDmWo19Qq4xyj9EfRXJgX8llqhTFIBR84rnckqyxESiaw&u=aHR0cHMlM2ElMmYlMmZmcmVldHJpYWwud2lsZGFwcmljb3QuY29tJTJmd2lsZGFwcmljb3QtbWVtYmVyc2hpcC1zb2Z0d2FyZSUyZiUzZnV0bV9jYW1wYWlnbiUzZG1lbWJlcnNoaXAtc29mdHdhcmUtYmluZyUyNnV0bV9jb250ZW50JTNkIWFjcSF2MyExMjU3ODQxMzk5MDMzMDA2Xzc4NjE1MTYyMTI1Nzg1Xzc4NjE1Mjk5NjE5Njc2X2MlMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fdGVybSUzZG1lbWJlcnNoaXAlMjUyMHNvZnR3YXJlJTI2bXNjbGtpZCUzZDJhMWU1NTZjMDkwNTEwNDViMTgxM2U2ODIwZjM5ZTg3&rlid=2a1e556c09051045b1813e6820f39e87",
+          "title": "#1 Membership Software - Start a 60-Day Free Trial",
+          "snippet": "Over 15,000 orgs use WildApricot™ to simplify their membership system. Try it free. Start your 60-day free trial today — no credit card required, cancel anytime."
+        },
+        {
+          "url": "https://www.gohighlevel.com/pricing",
+          "title": "Start with a FREE 14-day trial on any plan below! - GoHighLevel",
+          "snippet": "Unlimited Contacts, Unlimited Users on all plans. Start with a 14 Day Free Trial today!"
+        },
+        {
+          "url": "https://www.gohighlevel.com/pricing-info",
+          "title": "GoHighLevel - It's time to take your Agency to the Next Level",
+          "snippet": "What plans do you offer? We have three plans : Agency StarterAccount - $97/month (2 sub-accounts, limited feature set) Agency Unlimited Account - $297/month (unlimited sub-accounts, robust feature set) Start a 14 Day FREE Trial"
+        },
+        {
+          "url": "https://gothehigherlevel.com/pricing/",
+          "title": "GHL Free Trial - gothehigherlevel.com",
+          "snippet": "Switch to annual billing and save 17% — that’s roughly 2 months free. Billed annually after your 30-day free trial. Cancel anytime. HighLevel offers a myriad of advantages for businesses looking to elevate their marketing and sales efforts. TAKE YOUR MARKETING TO THE NEXT LEVEL."
+        }
+      ]
+    },
+    {
+      "query": "GoHighLevel MCP server",
+      "provider": "ddgs",
+      "results": []
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://highlevel.stoplight.io",
+      "final_url": "https://highlevel.stoplight.io",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:54Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "818d4945ca7e64e4762d48ef1a5f313284711d9ce12eae6dddb62160c9174677",
+      "text_len": 9
+    },
+    {
+      "requested_url": "https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/index.html",
+      "final_url": "https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/index.html",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:54Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "7ce07c3a6e6877288dc73ee6704670c8f5525b8bfaff7ed6baadca30c304f8a9",
+      "text_len": 5103
+    },
+    {
+      "requested_url": "https://developers.gohighlevel.com/",
+      "final_url": "https://developers.gohighlevel.com/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:57Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "fb5c30413d6074328450634d505c5734941ed382952871d42444d6d2114b2d0d",
+      "text_len": 1810
+    },
+    {
+      "requested_url": "https://www.gohighlevel.com/pricing",
+      "final_url": "https://www.gohighlevel.com/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:57Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "d10e23223638b66fa603b7c2340e3657a1ca94893f842c1f99ba4cf3fbd30fba",
+      "text_len": 7140
+    },
+    {
+      "requested_url": "https://developers.gohighlevel.com/support",
+      "final_url": "https://developers.gohighlevel.com/support",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:00Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "2e1c486141e5d5f30fd4f85de645d9dffefdf6e034683bb4167fc95254612019",
+      "text_len": 1704
+    },
+    {
+      "requested_url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+      "final_url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:00Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "2d8b927dea4ae7759a3cc3dc898a46a3167b5d5d422a9e4a6b0e471d5c2375cc",
+      "text_len": 7126
+    },
+    {
+      "requested_url": "https://marketplace.gohighlevel.com/docs/",
+      "final_url": "https://marketplace.gohighlevel.com/docs/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:01Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "1d0f299bf16af42fb966fe12da99ead6ee60678963494a4d3123fc81d5d038a2",
+      "text_len": 1847
+    },
+    {
+      "requested_url": "https://marketplace.gohighlevel.com/docs/intro/index.html",
+      "final_url": "https://marketplace.gohighlevel.com/docs/intro/index.html",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:01Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "dc2285a5ee74b00864aa0a8148e766d0c877631ddbed9b289367c004e1fa5b9b",
+      "text_len": 1650
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+        "quote": "Private Integration Tokens and OAuth 2.0 are the recommended authentication methods.",
+        "verified": true
+      },
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/intro/index.html",
+        "quote": "All requests are authenticated using OAuth 2.0.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.gohighlevel.com/pricing",
+        "quote": "Yes, we offer a 14-day free trial. You get full access to the features of your chosen tier",
+        "verified": true
+      },
+      {
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+        "quote": "HighLevel offers API access across its subscription plans, including Starter, Unlimited, and Founder.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/",
+        "quote": "Complete REST API documentation for the HighLevel CRM platform.",
+        "verified": true
+      }
+    ],
+    "mcp": [],
+    "verdict": [
+      {
+        "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+        "quote": "Both OAuth 2.0 and Private Integration Tokens (PIT) are available across plans.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/",
+        "quote": "Complete REST API documentation for the HighLevel CRM platform.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [
+      "no verified snippet for mcp"
+    ],
+    "retried": true,
+    "validation_errors": []
+  }
+}

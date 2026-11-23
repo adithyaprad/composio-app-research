@@ -16,6 +16,7 @@ from agent.config import SCHEMA_PATH
 EVIDENCE_KEYS = ("one_liner", "auth", "access", "api_surface", "mcp", "verdict")
 GATED = {"gated_partner", "gated_sales"}
 SELF_SERVE = {"self_serve", "self_serve_paid"}
+RAW_HTTP = {"rest", "graphql", "soap"}
 
 _format_checker = FormatChecker()
 
@@ -77,6 +78,63 @@ def consistency_errors(row: dict, identity: dict | None = None) -> list[str]:
         errs.append("rule verdict: buildable_now requires a callable interface (api_types is none)")
     if blocker == "other" and not (g("notes") or "").strip():
         errs.append("rule 9: blocker other requires non-empty notes")
+    api_types = set(g("api_types") or [])
+    if "sdk_only" in api_types and api_types & RAW_HTTP:
+        raw = ", ".join(sorted(api_types & RAW_HTTP))
+        errs.append(f"rule api_types: sdk_only means no public raw HTTP docs, so it cannot be combined with rest, "
+                    f"graphql, or soap. The row lists {raw}, so drop sdk_only and keep {raw} (mention SDKs in notes)")
+    return errs + notes_contradictions(row)
+
+
+# ---------- notes vs structured fields ----------
+# Only self-contradiction inside one row is flagged; precision over recall. Code still cannot tell API OAuth
+# from MCP-only OAuth, so oauth2-as-primary stays a prompt/rubric rule.
+
+_SENTENCE_SPLIT = re.compile(r"(?<=[.;!?])\s+|\n+")
+_NON_API_SCOPE = r"(?:(?:hosted\s+|remote\s+)?mcp(?:\s+server)?|dashboard|website|web\s*app|sso|log-?in|sign-?in)"
+_OAUTH_NOT_API = [
+    # "OAuth only for the MCP server", "applies only to the dashboard login"
+    re.compile(r"\b(?:only|solely|exclusively)\s+(?:applies\s+to|used\s+(?:for|by)|for|by|to|on|with|in)\s+"
+               r"(?:the\s+|its\s+|a\s+)?" + _NON_API_SCOPE + r"\b"),
+    # "MCP server only", "MCP-only", "dashboard login only"
+    re.compile(r"\b" + _NON_API_SCOPE + r"(?:[\s-]+(?:login|server|auth))?[\s-]+only\b"),
+    # "OAuth2 is undocumented / not documented for the API"
+    re.compile(r"\boauth\s*2?(?:\.0)?\s+(?:\w+\s+){0,3}?(?:undocumented|not\s+documented)\b"),
+    # "so it is not listed as an API auth method", "not an API auth method"
+    re.compile(r"\bnot\s+(?:(?:listed|included)\s+(?:as|in|among)\b|an?\s+(?:developer\s+)?api\s+auth)"),
+    re.compile(r"\b(?:drop|remov|exclud|omit)\w*\s+(?:the\s+)?oauth"),
+    re.compile(r"\b(?:without|excluding)\s+oauth"),
+]
+# "Fixing auth_methods to api_key only is more accurate" (no "oauth" in that sentence)
+_AUTH_MORE_ACCURATE = re.compile(r"\bauth\w*\b[^.]*\bmore\s+accurate\b|\bmore\s+accurate\b[^.]*\bauth\w*\b")
+_NO_OFFICIAL_MCP = re.compile(r"\bno\s+official\s+mcp\b")
+_NO_MCP_AT_ALL = re.compile(r"\bno\s+mcp\s+(?:server\s+)?(?:was\s+|is\s+)?(?:found|exists|available|published)\b"
+                            r"|\bonly\s+(?:a\s+)?vague\s+(?:mcp\s+)?mention")
+
+
+def notes_contradictions(row: dict) -> list[str]:
+    """Flag notes that contradict auth_methods / mcp_status in the same row."""
+    notes = (row.get("notes") or "").lower()
+    if not notes:
+        return []
+    sentences = [s for s in _SENTENCE_SPLIT.split(notes) if s.strip()]
+    errs = []
+    if "oauth2" in (row.get("auth_methods") or []):
+        hit = any(("oauth" in s and any(p.search(s) for p in _OAUTH_NOT_API)) or _AUTH_MORE_ACCURATE.search(s)
+                  for s in sentences)
+        if hit:
+            errs.append(
+                "rule notes: notes say OAuth is MCP-only, dashboard/login-only, undocumented for the API, or should "
+                "be dropped, but auth_methods still lists oauth2. Either remove oauth2 from auth_methods (and set "
+                "primary_auth to another listed method), or, if a fetched page documents OAuth2 for third-party apps "
+                "calling the product's own API, cite it in evidence.auth and rewrite notes to match.")
+    status = row.get("mcp_status")
+    if (status == "official" and _NO_OFFICIAL_MCP.search(notes)) or (
+            status in ("official", "community") and _NO_MCP_AT_ALL.search(notes)):
+        errs.append(
+            f"rule notes: notes say there is no {'official ' if status == 'official' else ''}MCP server (or only a "
+            f"vague mention), but mcp_status is {status}. Either set mcp_status to match the notes (none with mcp_url "
+            "null, or community), or rewrite notes to match the cited MCP server / docs page.")
     return errs
 
 

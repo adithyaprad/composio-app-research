@@ -1,0 +1,324 @@
+{
+  "slug": "linear",
+  "searches": [
+    {
+      "query": "Linear API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://linear.app/developers",
+          "title": "Linear Developers",
+          "snippet": "Learn about building apps and integrations for Linear using the GraphQL API and TypeScript SDK. Learn how to use the GraphQL API to query and mutate your data. Use OAuth 2.0 or personal API keys to authenticate your requests to the Linear API. How to best integrate an AI agent into Linear."
+        },
+        {
+          "url": "https://linear.app/developers/oauth-2-0-authentication",
+          "title": "OAuth 2.0 authentication – Linear Developers",
+          "snippet": "Linear supports OAuth2 authentication, which is recommended if you’re building applications to integrate with Linear."
+        },
+        {
+          "url": "https://linearcli.com/authentication/",
+          "title": "Linear CLI Authentication & API Key Setup",
+          "snippet": "Authenticate Linear CLI safely with your personal API key. Run linear auth login, verify your workspace and continue to project configuration."
+        },
+        {
+          "url": "https://unified.to/blog/linear_api_key_how_to_generate_and_use_it_graphql_guide_for_developers",
+          "title": "Linear API Key: How to Generate and Use It (GraphQL Guide",
+          "snippet": "Apr 23, 2026 · What is a Linear API key? A Linear API key is a long-lived credential used to authenticate requests to Linear's GraphQL API. It represents your Linear account and is sent in the Authorization header (without Bearer) to https://api.linear.app/graphql for every request."
+        },
+        {
+          "url": "https://mindcloud.co/docs/universal/rest/linear/latest/introduction/authentication",
+          "title": "Linear API Authentication - Universal API - mindcloud.co",
+          "snippet": "Every Linear API request through MindCloud needs two things: a MindCloud API Key and a connectionId for your Linear account. This page covers both, plus exactly how to send them, so you do not need to visit any other page to get authenticated."
+        }
+      ]
+    },
+    {
+      "query": "Linear developer API access documentation",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://linear.app/developers",
+          "title": "Linear Developers",
+          "snippet": "Learn about building apps and integrations for Linear using the GraphQL API and TypeScript SDK."
+        },
+        {
+          "url": "https://linear.app/developers/graphql",
+          "title": "Getting started – Linear Developers",
+          "snippet": "Linear's public API is built using GraphQL. It's the same API we use internally for developing our applications. If you are new to GraphQL, Apollo has resources for beginners. The official GraphQL documentation is another good starting point."
+        },
+        {
+          "url": "https://apitracker.io/a/linear-app",
+          "title": "Linear API - Documentation & Integration",
+          "snippet": "Linear provides a public GraphQL API for issue and workspace integrations, with personal API keys and OAuth2 authentication."
+        },
+        {
+          "url": "https://apitracker.io/a/linear",
+          "title": "Linear API - Docs, SDKs & Integration",
+          "snippet": "Complete Linear API documentation and developer resources. Linear lets you manage software development and track bugs. Linear's streamlined design is built for."
+        },
+        {
+          "url": "https://rollout.com/integration-guides/linear/api-essentials",
+          "title": "Linear API Essentials - rollout.com",
+          "snippet": "Aug 13, 2024 · By following these steps and best practices, you'll be able to set up a developer account and create API integrations with Linear. Remember to thoroughly review the API documentation for the most up-to-date information on using Linear's developer tools."
+        }
+      ]
+    },
+    {
+      "query": "Linear pricing plans free trial signup",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://linear.app/pricing",
+          "title": "Pricing – Linear",
+          "snippet": "Use Linear for free with your whole team. Upgrade to enable unlimited issues, enhanced security controls, and additional features."
+        },
+        {
+          "url": "https://toolgpa.com/tools/linear/pricing",
+          "title": "Linear pricing: every plan, free plan and trial | ToolGPA",
+          "snippet": "Linear has a free plan. Paid plans start at $10 per user / month, billed yearly. Every Linear plan, the free plan and trial terms, and public discounts…"
+        },
+        {
+          "url": "https://linear.app/docs/billing-and-plans",
+          "title": "Billing and plans – Linear Docs",
+          "snippet": "We offer a free plan and different paid plans to suit your needs. Please see Pricing for rates and a feature-by-feature comparison by plan. Refer to our pricing page for the most up-to-date information on our plans offering. Customers are billed for the number of unsuspended users within a workspace"
+        },
+        {
+          "url": "https://www.linear.today/pricing",
+          "title": "Linear | Pricing Plans",
+          "snippet": "Transparent pricing for Linear's AI financial intelligence platform. Choose from Individual, Professional, and Enterprise plans to empower your portfolio."
+        },
+        {
+          "url": "https://try.fm/business-productivity/linear/",
+          "title": "Linear - Free Trial & Pricing - Try.fm",
+          "snippet": "Visit the website - Go to https://linear.app and click the sign-up button. Create your account - You can sign up for the free tier without entering a credit card. This gives you access to the basic features right away. Explore the dashboard - Once you are in, take 5 minutes to look around."
+        }
+      ]
+    },
+    {
+      "query": "Linear official MCP server",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://linear.app/docs/mcp",
+          "title": "MCP server – Linear Docs",
+          "snippet": "Connect to our MCP server natively in Claude, Cursor, and other clients or use the mcp-remote module for backwards compatibility with clients that do not support remote MCP. Linear’s MCP server follows the authenticated remote MCP spec, so the server is centrally hosted and managed."
+        },
+        {
+          "url": "https://linear.app/changelog/2025-05-01-mcp",
+          "title": "Linear MCP server – Changelog",
+          "snippet": "May 1, 2025 · Your AI models and agents can use our official MCP server to access your Linear data in a simple and secure way. Connect to our MCP server natively as a new Claude Integration, or by using the mcp-remote module in Cursor, Windsurf, and other clients."
+        },
+        {
+          "url": "https://mcpservers.org/servers/linear-mcp",
+          "title": "Official Linear MCP Server | Awesome MCP Servers",
+          "snippet": "Linear is built for product and engineering teams that track software issues, projects, comments, and cycles. Its remote MCP server gives assistants planning context for priorities, project status, feedback, and the work moving through a team's roadmap."
+        },
+        {
+          "url": "https://github.com/jerhadf/linear-mcp-server",
+          "title": "GitHub - jerhadf/linear-mcp-server: A server that integrates ...",
+          "snippet": "May 1, 2025 · A Model Context Protocol server for the Linear API. This server provides integration with Linear's issue tracking system through MCP, allowing LLMs to interact with Linear issues."
+        },
+        {
+          "url": "https://tryglen.com/mcp/servers/linear",
+          "title": "Linear MCP server - tryglen.com",
+          "snippet": "Linear's official remote MCP server lets agents create, search, and update issues and projects. Linear MCP is the official server from Linear, built in partnership with Cloudflare and Anthropic, that connects an agent to your Linear workspace."
+        }
+      ]
+    },
+    {
+      "query": "site:developers.linear.app MCP",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://developers.linear.app/system/console/bundles",
+          "title": "developers.linear.app",
+          "snippet": "Found. Redirecting to https://developers.linear.app/docs/system/console/bundles"
+        }
+      ]
+    },
+    {
+      "query": "site:linear.app MCP",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://linear.app/docs/mcp",
+          "title": "MCP server – Linear Docs",
+          "snippet": "The Model Context Protocol (MCP) server provides a standardized interface that allows any compatible AI model or agent to access your Linear data in a simple and secure way. Connect to our MCP server natively in Claude, Cursor, and other clients or use the mcp-remote module for backwards compatibili"
+        },
+        {
+          "url": "https://linear.app/docs/mcp.md",
+          "title": "linear.app",
+          "snippet": "You can use this to interact with the MCP server as an `app` user, provide read-only access through a restricted API key, or integrate with an existing Linear OAuth application without an extra authentication hop."
+        },
+        {
+          "url": "https://mcp.linear.app/.well-known/oauth-authorization-server",
+          "title": "mcp.linear.app",
+          "snippet": "{\"issuer\":\"https://mcp.linear.app\",\"authorization_endpoint\":\"https://mcp.linear.app/authorize\",\"token_endpoint\":\"https://mcp.linear.app/token\",\"registration_endpoint\":\"https://mcp.linear.app/register\",\"response_types_supported\":[\"code\"],\"response_modes_supported\":[\"query\"],\"grant_types_supported\":[\""
+        },
+        {
+          "url": "https://linear.app/integrations/claude",
+          "title": "Claude Integration – Linear",
+          "snippet": "Remote MCP connections are still early and we’ve found that the connection may fail or require multiple attempts. If you experience issues, try restarting your client or disabling and re-enabling the Linear MCP server."
+        },
+        {
+          "url": "https://linear.app/docs/connect-mcp-servers",
+          "title": "MCP connectors – Linear Docs",
+          "snippet": "Linear Agent uses MCP connectors to access tools and data outside Linear. This lets the agent bring external context into your workflows to investigate issues, plan projects, write specs, and draft updates grounded in your full context."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developers.linear.app",
+      "final_url": "https://linear.app/developers",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:46Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://linear.app/developers.md",
+      "sha256": "6c579b8ccd73510c48971354002d8c7a4e22356c76b4889dc6bfd8916c1bb937",
+      "text_len": 1971
+    },
+    {
+      "requested_url": "https://linear.app/developers/oauth-2-0-authentication",
+      "final_url": "https://linear.app/developers/oauth-2-0-authentication",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:46Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "08fab20b4ee297075b6fe5dd32be28eee9c4cd824b9a7968b061b77441a04e11",
+      "text_len": 15394
+    },
+    {
+      "requested_url": "https://linear.app/pricing",
+      "final_url": "https://linear.app/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:46Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "915a6f9375120d0f7fa2d73ef3c7262847a344770d0d56eafbf6d332a652a18f",
+      "text_len": 4157
+    },
+    {
+      "requested_url": "https://linear.app/docs/mcp",
+      "final_url": "https://linear.app/docs/mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:47Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "6b771d8a8cb81a9eb63168f1c3e2be086da63367a50a0f535366b648e6020b35",
+      "text_len": 14537
+    },
+    {
+      "requested_url": "https://developers.linear.app/system/console/bundles",
+      "final_url": "https://linear.app/developers",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:47Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://linear.app/developers.md",
+      "sha256": "6c579b8ccd73510c48971354002d8c7a4e22356c76b4889dc6bfd8916c1bb937",
+      "text_len": 1971
+    },
+    {
+      "requested_url": "https://mcp.linear.app/.well-known/oauth-authorization-server",
+      "final_url": "https://mcp.linear.app/.well-known/oauth-authorization-server",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:47Z",
+      "error": null,
+      "method": "raw",
+      "text_source_url": null,
+      "sha256": "b0697cab11526537eeb260afcf48ada801c15c0c2cd9c736edf03e5e25d0272b",
+      "text_len": 938
+    },
+    {
+      "requested_url": "https://linear.app/docs/connect-mcp-servers",
+      "final_url": "https://linear.app/docs/connect-mcp-servers",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:47Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "5daa2656d9cadc9e9c9bc1f015ad1874076f755a7da4671613ca79e7e1e9cd08",
+      "text_len": 2725
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://linear.app/developers/oauth-2-0-authentication",
+        "quote": "Linear supports OAuth2 authentication, which is recommended if you’re building applications to integrate with Linear.",
+        "verified": true
+      },
+      {
+        "url": "https://linear.app/docs/mcp",
+        "quote": "You can also authenticate directly with a bearer token or Linear API key",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://linear.app/pricing",
+        "quote": "API and webhook access",
+        "verified": true
+      },
+      {
+        "url": "https://linear.app/developers/oauth-2-0-authentication",
+        "quote": "Create a new OAuth2 Application and configure the redirect callback URLs to your application.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://linear.app/developers",
+        "quote": "GraphQL Schema",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://linear.app/docs/mcp",
+        "quote": "Read-write access is provided through https://mcp.linear.app/mcp by default.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://linear.app/pricing",
+        "quote": "Free for everyone",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://linear.app/docs/mcp",
+        "quote": "tools available for finding, creating, and updating objects in Linear like issues, projects, and comments",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [
+      {
+        "field": "mcp_url",
+        "url": "https://mcp.linear.app/mcp"
+      }
+    ],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

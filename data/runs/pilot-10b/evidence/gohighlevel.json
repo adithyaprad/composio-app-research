@@ -1,0 +1,306 @@
+{
+  "slug": "gohighlevel",
+  "searches": [
+    {
+      "query": "GoHighLevel API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.bing.com/aclick?ld=e8kMMumIIL3uFtGvmbKztbzTVUCUzU0G30uH83XF9r7Fcai8kwissWtaFSDE72OB6EdwMKwWPH-lMoKOMRnV-ExfrwFCYDci9U4EqH8C8nerP_pkNiy7Dvvv3ZuW7MxJJINECFhZ1Why1mkpcbbd15JdWV2gd-UzPEajVEM4ZhypC93TfOIjoQgvZMGOpYK3LtD1RzmABtMH1L1OLgqiScrDWXrg0&u=aHR0cHMlM2ElMmYlMmZtb25pdG9yLmx1bmlvLmFpJTJmdjMuMCUyZnRlbXBsYXRlJTNmYWNjaWQlM2QxNjg5NiUyNnVybGRlY29kZSUzZDElMjZrdyUzZHNlY3VyZSUyNTIwYXBpJTI2bXQlM2RwJTI2bnclM2RvJTI2Y3BuJTNkNDI4MzI5MjQwJTI2ZGV2aSUzZGMlMjZkZXZtJTNkJTI2bG9jcCUzZDExNjA3MiUyNmxvY2klM2QlMjZwbCUzZCUyNmNyJTNkJTI2YWRwJTNkJTI2c2FkdCUzZCUyNnVybCUzZGh0dHBzJTI1M0ElMjUyRiUyNTJGd3d3LmRhdGFkb2docS5jb20lMjUyRmRnJTI1MkZzZWN1cml0eSUyNTJGc2VjdXJlLWFwaS1hY2Nlc3MlMjUyRiUyNTNGdXRtX3NvdXJjZSUyNTNEYmluZyUyNTI2dXRtX21lZGl1bSUyNTNEcGFpZC1zZWFyY2glMjUyNnV0bV9jYW1wYWlnbiUyNTNEZGctc2VjdXJpdHktbmEtYXBpYWNjZXNzJTI1MjZ1dG1fa2V5d29yZCUyNTNEc2VjdXJlJTI1MjUyMGFwaSUyNTI2dXRtX21hdGNodHlwZSUyNTNEcCUyNTI2aWdhYWclMjUzRDEzMTA2MTgyMzA5OTA0OTQlMjUyNmlnYWF0JTI1M0QlMjUyNmlnYWNtJTI1M0Q0MjgzMjkyNDAlMjUyNmlnYWNyJTI1M0QlMjUyNmlnYWt3JTI1M0RzZWN1cmUlMjUyNTIwYXBpJTI1MjZpZ2FtdCUyNTNEcCUyNTI2aWdhbnQlMjUzRG8lMjUyNnV0bV9jYW1wYWlnbmlkJTI1M0Q0MjgzMjkyNDAlMjUyNnV0bV9hZGdyb3VwaWQlMjUzRDEzMTA2MTgyMzA5OTA0OTQlMjZtc2Nsa2lkJTNkZTlmZDAyMjkzZGYyMTdhMTUyMzU2OTJkMTNkMzEzOWM&rlid=e9fd02293df217a15235692d13d3139c",
+          "title": "Spot Unauthorized API Access - Detect Threats In Real Time",
+          "snippet": "Utilize Threat Intelligence To Quickly Flag Unauthorized API Access With Datadog. Quickly Flag Unauthorized API Access And Other Attacker Techniques. Try Datadog Free."
+        },
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/index.html",
+          "title": "External Authentication | HighLevel API",
+          "snippet": "External Authentication lets your Marketplace app verify a HighLevel user against your own system before the app is installed. When a user installs your app, HighLevel collects the credentials you ask for, authenticates them with your backend, and securely stores the resulting tokens or credentials."
+        },
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+          "title": "HighLevel API Documentation - HighLevel Support Portal",
+          "snippet": "Nov 16, 2026 · Access the official HighLevel API documentation. Learn about authentication methods, rate limits, available endpoints, OAuth setup, and developer resources."
+        },
+        {
+          "url": "https://dev.to/arslanautomates/gohighlevel-api-a-practical-guide-to-auth-rate-limits-endpoints-and-webhooks-2026-3idi",
+          "title": "GoHighLevel API Guide (2026): API Key, Documentation, Rate ...",
+          "snippet": "Nov 6, 2026 · Quick answer: The GoHighLevel API v2 lives at services.leadconnectorhq.com and needs a bearer token plus a Version header on every request. Use a Private Integration token for your own single sub-account or agency integration, and an OAuth Marketplace app for multi-account installs or "
+        },
+        {
+          "url": "https://www.gohighlevel.com/post/integrate-highlevel-with-existing-tools-via-api",
+          "title": "Integrate HighLevel with existing tools via API",
+          "snippet": "Oct 21, 2025 · This guide is your blueprint for HighLevel API integration and building a tech stack that actually works together."
+        }
+      ]
+    },
+    {
+      "query": "GoHighLevel developer API access documentation",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+          "title": "HighLevel API Documentation - HighLevel Support Portal",
+          "snippet": "Nov 16, 2026 · Access the official HighLevel API documentation. Learn about authentication methods, rate limits, available endpoints, OAuth setup, and developer resources."
+        },
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/",
+          "title": "HighLevel API Documentation - Developer Portal | HighLevel API",
+          "snippet": "Complete REST API documentation for the HighLevel CRM platform. Build powerful integrations with our comprehensive developer resources. Access all HighLevel platform features through our REST API. Perfect for building integrations, automating workflows, and creating custom applications."
+        },
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/intro/index.html",
+          "title": "Introduction | HighLevel API",
+          "snippet": "Welcome to the API documentation. This developer portal is your reference for integrating with our platform programmatically — automating workflows, syncing data, and building custom applications on top of the REST API."
+        },
+        {
+          "url": "https://developers.gohighlevel.com/",
+          "title": "HighLevel Developers Community",
+          "snippet": "API 2.0 Docs We now have an OAuth based API and all integration documentation can be found here."
+        },
+        {
+          "url": "https://developers.gohighlevel.com/support",
+          "title": "HighLevel API Support",
+          "snippet": "At this time, HighLevel Support does NOT provide 'Setup, Code Auditing or Developer Consultative Services' on API-Related Requests. However, if your setup is complete and correct - yet an error persists, you may have encountered an API Bug we need to fix."
+        }
+      ]
+    },
+    {
+      "query": "GoHighLevel pricing plans free trial signup",
+      "provider": "ddgs:google",
+      "results": [
+        {
+          "url": "https://www.bing.com/aclick?ld=e8qEUUZ38BawveRtPyXHW1wTVUCUyBHTh4F_L-XWUvSg6p_sPV-p8WG3620IZpZZCyPrsGG1OtogAXVi4mWyrmQStJjX3WButBE9jRsDNvhFVzsJKmLB2_GdWUIMjR2GB6tvJ0LhbTyfh1mILDLJImK9SktcPbJfp3B6-5apxrvZw3EmSPtRF4XCbetPerG19hd_Hgyg&u=aHR0cHMlM2ElMmYlMmZ3d3cuZ29oaWdobGV2ZWwuY29tJTJmYWZmaWxpYXRlLTMwdHJpYWwlM2ZmcF9yZWYlM2RyYWphbjUxJTI2ZnBfc2lkJTNkYnVzZGFsbGZ0MmNtcHAlMjZtc2Nsa2lkJTNkMTZlY2JmYjUyYWMxMTA3ZGE2MTBkNGIxMDRlYzQzY2E&rlid=16ecbfb52ac1107da610d4b104ec43ca",
+          "title": "Free Trial: Sign Up - GoHighLevel 30-Day Trial",
+          "snippet": "GoHighLevel 30-Day Free Trial is Available on All Plans. Choose Your Plan & Get Started. No Hidden Fees. Sign Up GHL Now and Only Pay if You Love the Service After Trial Period. Service Features, Lead Capture, Automated Nurture, Payment Collection and more"
+        },
+        {
+          "url": "https://www.gohighlevel.com/pricing",
+          "title": "Start with a FREE 14-day trial on any plan below! - GoHighLevel",
+          "snippet": "Unlimited Contacts, Unlimited Users on all plans. Start with a 14 Day Free Trial today!"
+        },
+        {
+          "url": "https://www.gohighlevel.com/pricing-info",
+          "title": "GoHighLevel - It's time to take your Agency to the Next Level",
+          "snippet": "What plans do you offer? We have three plans : Agency StarterAccount - $97/month (2 sub-accounts, limited feature set) Agency Unlimited Account - $297/month (unlimited sub-accounts, robust feature set) Start a 14 Day FREE Trial"
+        },
+        {
+          "url": "https://gothehigherlevel.com/pricing/",
+          "title": "GHL Free Trial - gothehigherlevel.com",
+          "snippet": "Switch to annual billing and save 17% — that’s roughly 2 months free. Billed annually after your 30-day free trial. Cancel anytime. HighLevel offers a myriad of advantages for businesses looking to elevate their marketing and sales efforts. TAKE YOUR MARKETING TO THE NEXT LEVEL."
+        },
+        {
+          "url": "https://ghlcentral.com/trial",
+          "title": "Go HighLevel 30-Day Free Trial + Exclusive Bonus | GHLCentral",
+          "snippet": "Start your Go HighLevel 30-day free trial and unlock exclusive bonuses. Get setup & strategy calls, DFY funnels, AI automation + Founder growth tools."
+        }
+      ]
+    },
+    {
+      "query": "GoHighLevel official MCP server",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+          "title": "mcp | HighLevel API",
+          "snippet": "HighLevel MCP Server Stop clicking. Start asking. Your next booking, follow-up, or invoice can start with a sentence. Connect HighLevel to your AI assistant, then ask it to find a contact, book an appointment, send a message, update a deal, or schedule a social post. The assistant works directly wit"
+        },
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+          "title": "Guide on How to Setup and Use the HighLevel MCP Server",
+          "snippet": "Nov 15, 2026 · Connect AI agents to HighLevel tools with MCP Server. Learn setup, scopes, authentication, supported clients, and examples for secure automation today."
+        },
+        {
+          "url": "https://www.gohighlevel.com/post/introducing-the-mcp-server",
+          "title": "HighLevel just gave AI superpowers: Introducing the MCP Server",
+          "snippet": "Jul 30, 2025 · Whether you're running a fast-paced agency or juggling a dozen client pipelines, the MCP Server helps you delegate repetitive, time-consuming tasks to AI agents that can take real action across your HighLevel account, automatically and securely."
+        },
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/155000005855-how-to-use-the-mcp-server-within-ask-ai",
+          "title": "How to Use the MCP Server within Ask AI - help.gohighlevel.com",
+          "snippet": "Aug 4, 2025 · Whether you need to create a contact, reschedule an appointment, or bulk-update opportunities, you can now instruct the chat—and HighLevel’s Master Control Panel (MCP) does the work instantly. No menu diving, no tab switching, just conversational commands that save serious time."
+        },
+        {
+          "url": "https://ideas.gohighlevel.com/highlevel-mcp",
+          "title": "Highlevel MCP | HighLevel",
+          "snippet": "I recently integrated Claude AI via your MCP server and the potential is genuinely game-changing — but the current MCP implementation has critical gaps that are preventing true AI-powered automation of GHL."
+        }
+      ]
+    },
+    {
+      "query": "site:highlevel.stoplight.io MCP",
+      "provider": "ddgs",
+      "results": []
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://highlevel.stoplight.io",
+      "final_url": "https://highlevel.stoplight.io",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:00Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "818d4945ca7e64e4762d48ef1a5f313284711d9ce12eae6dddb62160c9174677",
+      "text_len": 9
+    },
+    {
+      "requested_url": "https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/index.html",
+      "final_url": "https://marketplace.gohighlevel.com/docs/oauth/ExternalAuthentication/index.html",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:00Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "7ce07c3a6e6877288dc73ee6704670c8f5525b8bfaff7ed6baadca30c304f8a9",
+      "text_len": 5103
+    },
+    {
+      "requested_url": "https://developers.gohighlevel.com/",
+      "final_url": "https://developers.gohighlevel.com/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:02Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "fb5c30413d6074328450634d505c5734941ed382952871d42444d6d2114b2d0d",
+      "text_len": 1810
+    },
+    {
+      "requested_url": "https://www.gohighlevel.com/pricing",
+      "final_url": "https://www.gohighlevel.com/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:03Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "d10e23223638b66fa603b7c2340e3657a1ca94893f842c1f99ba4cf3fbd30fba",
+      "text_len": 7140
+    },
+    {
+      "requested_url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+      "final_url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:03Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "63ffd8ba42811e6ceb4c87b6aadbf1e9a8023b64fca6efe48c6cb1f7ad30ab08",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+      "final_url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:03Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "7ac9e0308912dca587c8d7ffb98c3745e4bdd498210dbbe91a72158e8a26b1ae",
+      "text_len": 14718
+    },
+    {
+      "requested_url": "https://help.gohighlevel.com/support/solutions/articles/155000005855-how-to-use-the-mcp-server-within-ask-ai",
+      "final_url": "https://help.gohighlevel.com/support/solutions/articles/155000005855-how-to-use-the-mcp-server-within-ask-ai",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:03Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "6100c9936a44312f4ab81d1e3ec45404774d4db05bef146866e9941be8fc88c1",
+      "text_len": 3595
+    },
+    {
+      "requested_url": "https://ideas.gohighlevel.com/highlevel-mcp",
+      "final_url": "https://ideas.gohighlevel.com/highlevel-mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:03Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "4c55651d266ee679d61a03e9f73ae3f4b4395511a64d349ae6e1c5ab724f7942",
+      "text_len": 4422
+    },
+    {
+      "requested_url": "https://marketplace.gohighlevel.com/docs/",
+      "final_url": "https://marketplace.gohighlevel.com/docs/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:18Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "1d0f299bf16af42fb966fe12da99ead6ee60678963494a4d3123fc81d5d038a2",
+      "text_len": 1847
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/",
+        "quote": "Set Up Authentication - OAuth 2.0 or Private Integration Token",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.gohighlevel.com/pricing",
+        "quote": "Yes, we offer a 14-day free trial.",
+        "verified": true
+      },
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/",
+        "quote": "Choose Integration Type - Marketplace app or Private integration",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/",
+        "quote": "Complete REST API documentation for the HighLevel CRM platform.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+        "quote": "More than 700 actions across 38 HighLevel features give you room to hand off everyday work",
+        "verified": true
+      },
+      {
+        "url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+        "quote": "The HighLevel MCP Server, also called the LeadConnector MCP Server, connects through OAuth",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/",
+        "quote": "Build powerful integrations with our comprehensive developer resources.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.gohighlevel.com/pricing",
+        "quote": "Workflow Automation",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

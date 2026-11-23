@@ -24,19 +24,35 @@ FIELDS AND ENUMS
   auth, use ["unknown"] with primary_auth "unknown", write "auth undocumented in
   fetched pages" in notes, and pick blocker auth_undocumented / docs_insufficient
   per the priority list. Never invent methods, and do not use custom_other for this.
-- primary_auth: member of auth_methods. oauth2 only if OAuth2 is a documented way
-  to call the product's API itself; otherwise the default/most common documented
-  API method.
+- primary_auth: member of auth_methods. RULE: if a fetched page documents OAuth2 as
+  a way for third-party / external apps to call the product's own API
+  (authorization code, PKCE, or client credentials against that API), then
+  auth_methods MUST include oauth2 AND primary_auth MUST be oauth2, even when API
+  keys also exist and are simpler. OAuth that only authenticates an MCP server, or
+  only a dashboard/SSO login, is not API auth: keep it out of auth_methods and
+  primary_auth. Otherwise primary_auth is the default/most common documented API
+  method. notes must agree with auth_methods: never write that OAuth is MCP-only /
+  login-only / should be dropped while auth_methods still lists oauth2.
 - access (how a developer gets credentials from the vendor):
   self_serve (free signup or a trial that includes API credentials) |
-  self_serve_paid (must buy a plan, no sales talk, no qualifying trial) |
-  gated_partner (partner program, app review, solution-provider approval) |
+  self_serve_paid (developer gets API credentials by paying / signing up online,
+  with NO human vendor review; no sales talk, no qualifying trial) |
+  gated_partner (usable credentials, or permission to call the API as a
+  third-party / multi-tenant app, need manual vendor review: app review, a
+  developer-profile approval, a partner or solution-provider program, or a
+  mandatory app-store listing. A paid seller/developer account does NOT make it
+  self_serve_paid if that review is also required. E.g. Apple App Store Connect
+  or Google Play Console: a paid developer account can be bought online, but an
+  app still needs the vendor's review before it ships, so the label is
+  gated_partner + buildable_with_approval + gated_access, not self_serve_paid) |
   gated_sales (contact sales, enterprise contract, waitlist, manual approval) |
-  no_public_api. A customer workspace admin approving an install is NOT gated; set
-  requires_end_user_admin=true instead. When a pricing/plans/signup page was
-  fetched, cite it in evidence.access alongside the developer docs.
-- api_types (list): rest | graphql | soap | sdk_only (no raw HTTP docs) |
-  webhook_only | cli_only (local CLI/library, no hosted API) | none (alone).
+  no_public_api. A customer workspace admin approving an install is NOT a vendor
+  gate; set requires_end_user_admin=true instead. When a pricing/plans/signup page
+  was fetched, cite it in evidence.access alongside the developer docs.
+- api_types (list): rest | graphql | soap | sdk_only | webhook_only | cli_only
+  (local CLI/library, no hosted API) | none (alone). sdk_only means there are NO
+  public raw HTTP docs, so it is never combined with rest, graphql or soap: a REST
+  API that also ships SDKs is just ["rest"] (mention SDKs in notes).
   webhook_only ONLY when webhooks exist and there is NO useful request API. A REST
   API that also has webhooks is just ["rest"]; mention webhooks in notes.
 - has_public_docs: official public API/developer docs exist.
@@ -46,7 +62,10 @@ FIELDS AND ENUMS
   none. If both exist use official and mention the community one in notes.
   A vague mention (e.g. "MCP (beta)" or "coming soon" on a marketing page) with no
   actual server URL, installable repo, or dedicated MCP docs page is NOT an MCP:
-  use mcp_status none, mcp_url null, and record the mention in notes.
+  use mcp_status none, mcp_url null, and record the mention in notes. A real MCP
+  docs page or server published by the vendor is official, including one on a
+  sibling subdomain of the vendor (marketplace., developers., docs.) or linked
+  from the vendor's llms.txt.
 - mcp_url: the MCP server, repo, or dedicated MCP docs page; null iff mcp_status is none.
 - verdict: buildable_now (documented interface + self_serve/self_serve_paid; a
   wrappable local CLI also counts) | buildable_with_approval (documented interface,
@@ -73,6 +92,16 @@ FIELDS AND ENUMS
   workspace apps, HubSpot app installs by super admins), and only if the fetched
   pages show it. Otherwise false, and mention the uncertainty in notes.
 - notes: caveats, ambiguity, secondary blockers ("" if none).
+
+PRODUCT IDENTITY
+- The app is defined by name + category + source_hint (+ start_url if given).
+  Pages about a different product or industry that shares the name (e.g. an
+  LLM-cost tool when the app is a payments product) are NOT evidence. If no
+  fetched page is clearly the right product, do not fill a confident row for the
+  wrong one: use auth_methods ["unknown"], primary_auth unknown, verdict
+  not_buildable, blocker docs_insufficient, confidence low, and say in notes that
+  the official product was not identified (cite the closest pages checked). If
+  some pages are the right product, use only those.
 
 EVIDENCE RULES (strict)
 - Every evidence URL MUST be copied exactly from a "URL:" line of the pages below.
@@ -131,7 +160,8 @@ def render_pages(pages: list, per_page_chars: int) -> str:
 
 
 def research_prompt(app: dict, pages: list, per_page_chars: int, can_follow_up: bool) -> str:
-    identity = {k: app[k] for k in ("id", "slug", "name", "category", "source_hint", "start_url")}
+    identity = {k: app.get(k) for k in ("id", "slug", "name", "category", "category_label", "source_hint",
+                                        "start_url")}
     tail = (
         "You may request one follow-up round via follow_up."
         if can_follow_up

@@ -1,0 +1,289 @@
+{
+  "slug": "twenty",
+  "searches": [
+    {
+      "query": "Twenty API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.twenty.com/developers/extend/api",
+          "title": "APIs - Twenty Documentation",
+          "snippet": "Your workspace-specific API documentation is available under Settings → Developers → API after creating an API key. It includes an interactive playground where you can execute real calls against your data."
+        },
+        {
+          "url": "https://docs.twenty.com/developers/extend/oauth",
+          "title": "OAuth - Twenty Documentation",
+          "snippet": "Twenty implements OAuth 2.0 with authorization code + PKCE for user-facing apps and client credentials for server-to-server access. Clients are registered dynamically via RFC 7591 — no manual setup in a dashboard."
+        },
+        {
+          "url": "https://apis.io/security/twenty/twenty-authentication/",
+          "title": "Twenty Authentication | APIs.io Security",
+          "snippet": "Twenty secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions."
+        },
+        {
+          "url": "https://api.twenty.com/open-api/core",
+          "title": "api.twenty.com",
+          "snippet": "The endpoint is:\\n\\n```text\\nhttps://api.twenty.com/mcp\\n```\\n\\nIf you specifically need the raw OpenAPI document (for code generation, type\\ngeneration, etc.), download it locally with a header-authenticated request and\\nhand the file to your tool — never paste a tokenized URL into a chat:\\n\\n```ba"
+        },
+        {
+          "url": "https://andrewmarconi.github.io/twenty-mcp-suite/guide/authentication",
+          "title": "Authentication | Twenty MCP Suite",
+          "snippet": "The server authenticates to Twenty in one of two ways. Both resolve to a bearer token used identically against Twenty's API."
+        }
+      ]
+    },
+    {
+      "query": "Twenty developer API access documentation",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.twenty.com/developers/extend/api",
+          "title": "APIs - Twenty Documentation",
+          "snippet": "Your workspace-specific API documentation is available under Settings → Developers → API after creating an API key. It includes an interactive playground where you can execute real calls against your data."
+        },
+        {
+          "url": "https://docs.twenty.com/developers/introduction",
+          "title": "Build on Twenty - Twenty Documentation",
+          "snippet": "Build apps in TypeScript, connect your tools through APIs, and host Twenty yourself."
+        },
+        {
+          "url": "https://api.twenty.com/open-api/core",
+          "title": "api.twenty.com",
+          "snippet": "Tokens passed as query parameters end up in\\n> server access logs, browser history, and `Referer` headers, which is why the\\n> API only accepts tokens from the `Authorization` header.\\n\\n\\n## Filters\\n\\nUse the `filter` query parameter to narrow results.\\n\\n- Format: `field[COMPARATOR]:value`\\n- Mul"
+        },
+        {
+          "url": "https://twenty.com/.well-known/api-catalog",
+          "title": "twenty.com",
+          "snippet": "\"service-desc\": [ { \"href\": \"https://twenty.com/.well-known/mcp/server-card.json\", \"type\": \"application/json\" } ], \"service-doc\": [ { \"href\": \"https://docs.twenty.com/user-guide/ai/capabilities/mcp\", \"type\": \"text/html\" } ] } ] }"
+        },
+        {
+          "url": "https://github.com/twentyhq/twenty/blob/main/packages/twenty-docs/developers/extend/api.mdx",
+          "title": "twenty/packages/twenty-docs/developers/extend/api ... - GitHub",
+          "snippet": "Your workspace-specific API documentation is available under Settings → API & Webhooks after creating an API key. It includes an interactive playground where you can execute real calls against your data."
+        }
+      ]
+    },
+    {
+      "query": "Twenty pricing plans free trial signup",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.bing.com/aclick?ld=e8ZItBI9h8JR7M8RDESma3SDVUCUxVJDcvYsML9sYEa2TGzUNbXctFH7ZJe1gpR1YJVrcER375AeIkjS08l3814PgBfIIYjMbHldsXm_cy-9JjBfBREgsbaWp5NWdUFD4YNA7lhAmW7walZiMHlWlFHKEDCgU9ylrMXVD6YZI0LzOmIGbqv9tuwSNSr0VLZ3Wq60Q1cA&u=aHR0cHMlM2ElMmYlMmZmcmVldHJpYWwud2lsZGFwcmljb3QuY29tJTJmd2lsZGFwcmljb3QtbWVtYmVyc2hpcC1zb2Z0d2FyZSUyZiUzZnV0bV9jYW1wYWlnbiUzZG1lbWJlcnNoaXAtc29mdHdhcmUtYmluZyUyNnV0bV9jb250ZW50JTNkIWFjcSF2MyExMjU3ODQxMzk5MDMzMDA2Xzc4NjE1MTYyMTI1NzgzXzc4NjE1Mjk5NjE5Njc3X2MlMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fdGVybSUzZHNvZnR3YXJlJTI1MjBmb3IlMjUyMG1lbWJlcnNoaXAlMjZtc2Nsa2lkJTNkZWUxZjMxMDQ1ZTM0MTg3YjUzMDg1YTAwNzdkMTRiNzA&rlid=ee1f31045e34187b53085a0077d14b70",
+          "title": "Start a 60-Day Free Trial - Try It Free For 60 Days",
+          "snippet": "Over 15,000 orgs use WildApricot™ to simplify their membership system. Try it free. Start your 60-day free trial today — no credit card required, cancel anytime. Mobile App · All-in-One Solution · Payment Processing · Free Support"
+        },
+        {
+          "url": "https://twenty.com/pricing",
+          "title": "Twenty CRM Pricing — Plans from $9 per User per Month",
+          "snippet": "How long does it take to get started? Sign up for Cloud in under a minute and start your 30-day trial. For larger rollouts, our team can support you along the way. Reach out to discuss what you need."
+        },
+        {
+          "url": "https://thesdrlist.com/tools/twenty/",
+          "title": "Twenty Pricing (Nov 2026): Plans from $9/mo | The SDR List",
+          "snippet": "Nov 14, 2026 · Twenty pricing at a glance: Pro $9/user/mo and Organization $39/user/mo (monthly view; 1 and 4 workspace credits per user/mo); Enterprise from $50k/yr; add-ons such as API access +$35/user/mo; self-hosting offered; free trial without credit card."
+        },
+        {
+          "url": "https://docs.twenty.com/user-guide/billing/capabilities/pricing-plans",
+          "title": "Pricing Plans - Twenty Documentation",
+          "snippet": "To get started, install Twenty with Docker Compose, then follow the steps below to activate your Organization license. If you already have a self-hosted Twenty instance, you can get your Organization key directly from its settings: Learn about Twenty's pricing plans and how to switch between them."
+        },
+        {
+          "url": "https://twenty.com/",
+          "title": "Twenty | #1 Open Source CRM",
+          "snippet": "How long does it take to get started? Sign up for Cloud in under a minute and start your 30-day trial. For larger rollouts, our team can support you along the way. Reach out to discuss what you need."
+        }
+      ]
+    },
+    {
+      "query": "Twenty MCP server",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+          "title": "MCP Server - Twenty Documentation",
+          "snippet": "Twenty exposes an MCP server so that AI assistants — Claude Desktop, Claude Code, Cursor, ChatGPT, and others — can read and write your CRM data through natural language."
+        },
+        {
+          "url": "https://github.com/homeserverhq/twenty-mcp",
+          "title": "Twenty MCP Server - GitHub",
+          "snippet": "This repository contains a Model Context Protocol (MCP) server that acts as a secure, multi-tenant proxy between an AI Assistant and the Twenty backend API. It exposes 115 MCP tools covering 17 resource domains with CRUD operations, search, and relationship management."
+        },
+        {
+          "url": "https://github.com/jezweb/twenty-mcp",
+          "title": "GitHub - jezweb/twenty-mcp",
+          "snippet": "This MCP server transforms your Twenty CRM instance into a powerful tool accessible by Claude and other MCP-compatible AI assistants. It provides comprehensive access to contacts, companies, tasks, and notes with full TypeScript support and robust error handling."
+        },
+        {
+          "url": "https://mcpservers.org/servers/IgorWarzocha/twenty-mcp-server",
+          "title": "Twenty MCP Server | Awesome MCP Servers",
+          "snippet": "Browse Twenty MCP Server for Claude, Cursor, VS Code, and other AI..."
+        },
+        {
+          "url": "https://usefulapi.io/twenty/",
+          "title": "Twenty MCP server for Claude & ChatGPT | usefulapi",
+          "snippet": "Read people, companies, opportunities, notes and tasks; create and update records in Twenty CRM. Hosted remote MCP server for Claude, ChatGPT, Cursor & any MCP client — 24 tools, free tier."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://twenty.com",
+      "final_url": "https://twenty.com",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:23Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "2761c838014d804c81a63c86b3d8f2ae5f7bb804c6f99549f8d4e8b5c306242d",
+      "text_len": 3099
+    },
+    {
+      "requested_url": "https://docs.twenty.com/developers/extend/oauth",
+      "final_url": "https://docs.twenty.com/developers/extend/oauth",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:23Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://docs.twenty.com/developers/extend/oauth.md",
+      "sha256": "68b41d3ec5016fb7beca74a71fe0368a7f4804a901592ef62315c216ed615d1b",
+      "text_len": 5516
+    },
+    {
+      "requested_url": "https://docs.twenty.com/developers/extend/api",
+      "final_url": "https://docs.twenty.com/developers/extend/api",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:23Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "0fa0393f3727daeda6deea1ef9300577c0fdd4570281884ebe67a961cb7f7e83",
+      "text_len": 2130
+    },
+    {
+      "requested_url": "https://docs.twenty.com/user-guide/billing/capabilities/pricing-plans",
+      "final_url": "https://docs.twenty.com/user-guide/billing/capabilities/pricing-plans",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:24Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "d76f872db2883ee244d56c39ba1db28d93aa7f823bba88558eb9dec3a9c00fe3",
+      "text_len": 3811
+    },
+    {
+      "requested_url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+      "final_url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:24Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "04b8604150512d203b211a1891d6f0387e54201769c355113a3ab03e1d8a46bf",
+      "text_len": 5908
+    },
+    {
+      "requested_url": "https://twenty.com/pricing",
+      "final_url": "https://twenty.com/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:24Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "bfa82f6eb0398132fbf387221fac163e4f8e8309300e6681a09f646ed18922d0",
+      "text_len": 6441
+    },
+    {
+      "requested_url": "https://docs.twenty.com/developers/introduction",
+      "final_url": "https://docs.twenty.com/developers/introduction",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:24Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "058cfc0fec8e9772ecb116172f4986f43eaac6d5cbd740a500cb448d7b6a02fb",
+      "text_len": 1886
+    },
+    {
+      "requested_url": "https://api.twenty.com/open-api/core",
+      "final_url": "https://api.twenty.com/open-api/core",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:24Z",
+      "error": null,
+      "method": "raw",
+      "text_source_url": null,
+      "sha256": "424c3c83d0a2684bb0690f5408bbeaf1f266e2f498ff5bca74ac41813a6110e9",
+      "text_len": 5032
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.twenty.com/developers/extend/oauth",
+        "quote": "Twenty implements OAuth 2.0 with authorization code + PKCE for user-facing apps and client credentials for server-to-server access.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.twenty.com/developers/extend/oauth",
+        "quote": "Internal scripts, automation | [API Key]",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://twenty.com/pricing",
+        "quote": "Start your free trial today without credit card.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.twenty.com/user-guide/billing/capabilities/pricing-plans",
+        "quote": "Host Twenty on your own infrastructure at no cost",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.twenty.com/developers/extend/api",
+        "quote": "it immediately gets REST and GraphQL endpoints identical to built-in objects like Company or Person",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+        "quote": "Twenty exposes an MCP server so that AI assistants — Claude Desktop, Claude Code, Cursor, ChatGPT, and others — can read and write your CRM data",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://twenty.com/pricing",
+        "quote": "REST & GraphQL API",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://docs.twenty.com/developers/introduction",
+        "quote": "Twenty gives you the platform itself.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

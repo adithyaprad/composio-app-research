@@ -65,6 +65,9 @@ A later catalog refresh can change labels. We score against the snapshot that wa
   - Close variants that we deliberately collapsed do not count as extra methods: personal access tokens, bot tokens, and dashboard API keys are all `api_key`.
 - Auth is scored for the product's **developer API** only. OAuth that only applies to an MCP server, and website / dashboard / SSO login, are not API auth methods. Listing them in `auth_methods` is an extra value, and a miss.
 - `primary_auth` is correct if it is a documented API method and follows the preference rule: `oauth2` when OAuth2 is a documented way to call the product's API itself; otherwise the method official docs present as the default or most common. Validation only checks that `primary_auth` is in `auth_methods`. The OAuth preference is judged here, not in code.
+  - If a fetched official page documents OAuth2 for *third-party / external apps* calling the product's own API (authorization code, PKCE, or client credentials against that API), then `auth_methods` must include `oauth2` and `primary_auth` must be `oauth2`, even when API keys also exist and are simpler. Example: a CRM whose developer docs have an "OAuth for apps" page next to API keys.
+  - OAuth that only authenticates an MCP server, or only a dashboard / SSO login, is neither in `auth_methods` nor `primary_auth`.
+  - `notes` must not contradict the auth fields. Notes that say OAuth is MCP-only, login-only, undocumented for the API, or should be dropped, while `auth_methods` still lists `oauth2`, make the auth unit wrong. Validation flags this self-contradiction and the agent retries once.
 - If official docs only describe one method, `auth_methods` is that one value and it is also `primary_auth`.
 - `unknown` means the auth method could not be determined because developer docs are absent, gated, or omit auth. It is used alone, for both `auth_methods` and `primary_auth`. It matches a gold `unknown`. It is not interchangeable with `custom_other`, which is for a documented vendor-specific scheme (HMAC, mTLS, proprietary handshake).
 
@@ -73,18 +76,19 @@ A later catalog refresh can change labels. We score against the snapshot that wa
 Exact enum match, plus:
 
 - Free signup or a trial that already includes API credentials → `self_serve`.
-- Developer can buy a plan and get a key without talking to sales, and there is no qualifying trial → `self_serve_paid`.
-- Partner program, app review, or solution-provider approval → `gated_partner`.
+- Developer can buy a plan or sign up online and get API credentials with **no human vendor review**, and there is no qualifying trial → `self_serve_paid`.
+- Getting usable credentials, or being allowed to call the API as a third-party or multi-tenant app, needs **manual vendor review**: app review, a developer-profile approval, a partner or solution-provider program, or a mandatory app-store listing → `gated_partner`, with verdict `buildable_with_approval` and blocker `gated_access`. A paid seller or developer account does **not** make this `self_serve_paid` when that review is also required.
+  - Example: Apple App Store Connect or Google Play Console. A paid developer account can be bought online, but an app still has to pass the vendor's review before it ships, so the label is `gated_partner` + `buildable_with_approval` + `gated_access`, not `self_serve_paid`.
 - Contact sales, enterprise contract, waitlist, or manual vendor approval → `gated_sales`.
 - No documented public API → `no_public_api`.
-- A workspace admin having to install an app is **not** gated access.
+- A workspace admin having to install an app is **not** gated access. Customer-side admin approval is `requires_end_user_admin`, not a vendor gate.
 - “Gated, with evidence” is correct even if we never obtain credentials.
 
 ### API surface
 
 - `has_public_docs` must match gold.
 - `api_types` must include every documented style in gold (`rest`, `graphql`, `soap`, etc.). Missing a documented style is a miss. An extra style is a miss unless gold is updated as above.
-- `sdk_only` is only used when raw HTTP is not publicly documented.
+- `sdk_only` is only used when raw HTTP is not publicly documented, so it is never combined with `rest`, `graphql`, or `soap`. A REST API that also ships SDKs is `["rest"]`. Validation rejects the combination.
 - `cli_only` is for a local CLI or library with no hosted public HTTP API.
 - `none` cannot be combined with other types.
 
@@ -94,7 +98,8 @@ Exact enum match, plus:
 - `community` means third-party only.
 - If both exist, the correct status is `official`.
 - A vague mention is `none`, with `mcp_url: null` and the mention recorded in `notes`. Examples: "MCP (beta)", or "coming soon" on a marketing page, with no actual server URL, installable repo, or dedicated MCP docs page. Labelling such a mention `official` or `community` is a miss.
-- `none` is correct when no usable server is found after checking official docs, the vendor’s GitHub org if any, and a reasonable web/MCP-directory search. Evidence for `none` is the official docs or org URL that was checked, with a note that no official MCP was found. We do not require a page that literally says “we have no MCP”.
+- A real MCP docs page or server published by the vendor is `official`, including one on a sibling subdomain (`marketplace.`, `developers.`, `docs.`) or linked from the vendor's `llms.txt`.
+- `none` is correct when no usable server is found after checking official docs (including `llms.txt` on the docs origin), the vendor’s GitHub org if any, and a reasonable web/MCP-directory search. Evidence for `none` is the official docs or org URL that was checked, with a note that no official MCP was found. We do not require a page that literally says “we have no MCP”.
 
 ### Verdict and blocker
 
@@ -124,6 +129,7 @@ Preference order: `official_docs` > `official_other` > `community` / `news` / `o
 - A URL that does not support the claim (wrong product, marketing fluff used as proof of auth, 404, or a page that contradicts the label) is a **critical** miss for that field.
 - Pricing pages and official blogs are acceptable for `access` when the docs do not spell out plan gates.
 - Community sources are acceptable when official sources are absent, and should usually come with `confidence: low`.
+- Wrong product: pages about a different product or industry that shares the app's name are not evidence. A confident row for the wrong product is a critical miss on every field it touches. When the CSV has no `start_url`, `source_hint` and the category identify the product. If the official product cannot be identified, the correct row is `auth_methods: ["unknown"]`, `verdict: not_buildable`, `blocker: docs_insufficient`, `confidence: low`, with notes saying the official product was not found.
 
 ## How accuracy is computed
 

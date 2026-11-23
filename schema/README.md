@@ -89,8 +89,8 @@ These values describe auth for the product's developer API only. OAuth used only
 | Value | Meaning |
 |---|---|
 | `self_serve` | A developer can create an account and get credentials alone, for free or on a trial, with no sales conversation. |
-| `self_serve_paid` | Same, but API access requires a paid plan the developer can buy without talking to sales. A free trial that already includes API access is `self_serve`, not this. |
-| `gated_partner` | Credentials require a partner program, app-store review, or vendor partnership (e.g. WhatsApp Business solution-provider approval). |
+| `self_serve_paid` | Same, but API access requires a paid plan the developer can buy without talking to sales, and with no human vendor review. A free trial that already includes API access is `self_serve`, not this. |
+| `gated_partner` | Usable credentials, or permission to call the API as a third-party / multi-tenant app, require manual vendor review: a partner program, app review, developer-profile approval, or a mandatory app-store listing (e.g. Apple App Store Connect or Google Play Console, where a paid developer account can be bought online but shipping an app still requires the vendor's review). A paid seller/developer account does not make it `self_serve_paid` if that review is also required. |
 | `gated_sales` | Credentials require contacting sales, an enterprise contract, a waitlist, or manual vendor approval that is not a self-serve checkout. |
 | `no_public_api` | No documented public API a third-party developer can call. |
 
@@ -103,7 +103,7 @@ Workspace-admin install approval is `requires_end_user_admin: true`, not a gated
 | `rest` | Documented HTTP REST (or REST-like) API. |
 | `graphql` | Documented GraphQL API. |
 | `soap` | Documented SOAP / XML API. |
-| `sdk_only` | Official SDK or client library is the only supported interface; no public raw HTTP docs. |
+| `sdk_only` | Official SDK or client library is the only supported interface; no public raw HTTP docs. Never combined with `rest`, `graphql`, or `soap`. |
 | `webhook_only` | Outbound webhooks exist, but there is no useful request API. |
 | `cli_only` | The usable interface is a local CLI or library, not a hosted HTTP API. |
 | `none` | No callable public interface found. Use this value alone. |
@@ -192,6 +192,10 @@ These are also encoded in the rubric and should be treated as part of a valid ro
 8. `access: gated_partner` or `gated_sales` is normally `verdict: buildable_with_approval` and `blocker: gated_access`, unless a separate blocker is worse (no docs, terms, etc.).
 9. When `blocker` is `other`, `notes` is non-empty.
 10. If `composio_toolkit.status` is `exists`, `toolkit_slug` and `evidence_url` are non-null. If it is `none`, `toolkit_slug` is null.
+11. `api_types` containing `sdk_only` cannot also contain `rest`, `graphql`, or `soap` (`sdk_only` means no public raw HTTP docs).
+12. `notes` must not contradict the structured fields. Notes saying OAuth is MCP-only, dashboard/login-only, undocumented for the API, or should be dropped cannot sit next to `oauth2` in `auth_methods`. Notes saying there is no (official) MCP server cannot sit next to `mcp_status` `official` (or `community`, for "no MCP server found").
+
+Rules 1, 7–9, 11 and 12 are checked in `agent/validate.py` (`consistency_errors`); the rest are in the JSON Schema. The `oauth2`-as-primary preference is not a code rule (see `RUBRIC.md`).
 
 ## Example (illustrative only, not a scored gold answer)
 

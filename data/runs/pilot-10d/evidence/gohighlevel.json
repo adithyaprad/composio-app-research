@@ -1,0 +1,325 @@
+{
+  "slug": "gohighlevel",
+  "searches": [
+    {
+      "query": "GoHighLevel API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+          "title": "OAuth 2.0 | HighLevel API",
+          "snippet": "OAuth 2.0 | HighLevel API\n\nOn this page\n\n# OAuth 2.0\n\nOAuth 2.0 is a standard protocol that authorizes a client application (like a third-party app) to access specific resources on behalf of a user, without sharing the user’s password. It’s widely used for APIs that need secure, delegated access.\n\nH"
+        },
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+          "title": "HighLevel API Documentation : HighLevel Support Portal",
+          "snippet": "HighLevel API Documentation : HighLevel Support Portal \n\n# HighLevel API Documentation\n\nModified on: Mon, 16 Nov, 2026 at 5:49 AM\n\nHighLevel provides APIs that allow developers to build custom integrations, automate processes, and connect external applications with the HighLevel platform.\n\nThe APIs "
+        },
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/intro/",
+          "title": "Introduction | HighLevel API",
+          "snippet": "Introduction | HighLevel API\n\n# Introduction\n\nWelcome to the API documentation. This developer portal is your reference for integrating with our platform programmatically — automating workflows, syncing data, and building custom applications on top of the REST API.\n\n## What you can do​\n\nThe API give"
+        },
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/",
+          "title": "Private Integrations | HighLevel API",
+          "snippet": "Private Integrations | HighLevel API\n\n# Private Integrations\n\nPrivate Integrations allow you to build powerful custom integrations between your HighLevel account and any other third-party app.\n\nIf you are looking to integrate your HighLevel account with a third-party app, you have two options:\n\n1. F"
+        },
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/llms.txt",
+          "title": "",
+          "snippet": "# HighLevel API\n\n> HighLevel API is the REST API of the HighLevel platform (ad-publishing, affiliate-manager, agent-studio, associations, blogs, brand-boards, businesses, calendars, campaigns, chat-widget, clientportal-ai, companies, ...). This is an LLM-friendly index of its reference documentation"
+        }
+      ]
+    },
+    {
+      "query": "GoHighLevel developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/",
+          "title": "HighLevel API Documentation",
+          "snippet": "HighLevel API Documentation - Developer Portal | HighLevel API\n\n# HighLevel API Documentation\n\nComplete REST API documentation for the HighLevel CRM platform.Build powerful integrations with our comprehensive developer resources.\n\n## Comprehensive API Coverage\n\nAccess all HighLevel platform features"
+        },
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+          "title": "HighLevel API Documentation : HighLevel Support Portal",
+          "snippet": "HighLevel API Documentation : HighLevel Support Portal \n\n# HighLevel API Documentation\n\nModified on: Mon, 16 Nov, 2026 at 5:49 AM\n\nHighLevel provides APIs that allow developers to build custom integrations, automate processes, and connect external applications with the HighLevel platform.\n\nThe APIs "
+        },
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+          "title": "OAuth 2.0 | HighLevel API",
+          "snippet": "OAuth 2.0 | HighLevel API\n\nOn this page\n\n# OAuth 2.0\n\nOAuth 2.0 is a standard protocol that authorizes a client application (like a third-party app) to access specific resources on behalf of a user, without sharing the user’s password. It’s widely used for APIs that need secure, delegated access.\n\nH"
+        },
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/intro/",
+          "title": "Introduction | HighLevel API",
+          "snippet": "Introduction | HighLevel API\n\n# Introduction\n\nWelcome to the API documentation. This developer portal is your reference for integrating with our platform programmatically — automating workflows, syncing data, and building custom applications on top of the REST API.\n\n## What you can do​\n\nThe API give"
+        },
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/",
+          "title": "Private Integrations | HighLevel API",
+          "snippet": "Private Integrations | HighLevel API\n\n# Private Integrations\n\nPrivate Integrations allow you to build powerful custom integrations between your HighLevel account and any other third-party app.\n\nIf you are looking to integrate your HighLevel account with a third-party app, you have two options:\n\n1. F"
+        }
+      ]
+    },
+    {
+      "query": "GoHighLevel pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.gohighlevel.com/pricing",
+          "title": "HighLevel Pricing",
+          "snippet": "HighLevel Pricing\n\n# Enterprise Plan\n\n- Dedicated Customer Success Manager and Account Manager\n- Custom development opportunities\n- Dedicated slack channel\n- Premium Support included with purchase\n- Increase API Limit by request\n\n- Dedicated Customer Success\n- Manager and Account Manager\n- Custom de"
+        },
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/155000001156-highlevel-pricing-guide",
+          "title": "HighLevel Pricing & Billing: Wallets, Charges, Rebilling : HighLevel Support Portal",
+          "snippet": "HighLevel Pricing & Billing: Wallets, Charges, Rebilling : HighLevel Support Portal \n\n# HighLevel Pricing Guide\n\nModified on: Thu, 29 Oct, 2026 at 11:23 AM\n\nNearly everything you need to know about HighLevel Pricing, Charges, Wallets, Rebilling and more.\n\nTABLE OF CONTENTS\n\n- HighLevel Subscription "
+        },
+        {
+          "url": "https://founder.gohighlevel.com/",
+          "title": "HighLevel Founder Plan — Build Your Fortune with AI & Automation",
+          "snippet": "HighLevel Founder Plan — Build Your Fortune with AI & Automation\n\n# Ready to be a FOUNDER in the biggest wave of opportunity the world has ever seen?\n\n## Become a HighLevel Founder and build your fortune helping businesses implement automated solutions and scale with AI.\n\nAlready a $497 Agency Pro P"
+        },
+        {
+          "url": "https://thefunnelroad.com/gohighlevel-free-trial/",
+          "title": "GoHighLevel Free Trial - How to Get 30 Days (2026)",
+          "snippet": "GoHighLevel Free Trial - How to Get 30 Days (2026)\n\n# GoHighLevel Free Trial - How to Start, Test and Cancel Safely (2026)\n\nBy The Funnel Road Editorial Team · Updated November 19, 2026\n\nGoHighLevel's standard free trial is 14 days on any plan, with full access to the features of the plan you pick. "
+        },
+        {
+          "url": "https://www.gohighlevel.com/homepage-freetrial",
+          "title": "GoHighLevel - It's time to take your Agency to the Next Level",
+          "snippet": "GoHighLevel - It's time to take your Agency to the Next Level\n\nNo charges will be processed today.\n\n## Awards\n\n## We're In The Business Of Helping You Grow Your Business\n\nHighLevel is the first-ever all-in-one platform that will give you the tools, support and resources you need to succeed and crush"
+        }
+      ]
+    },
+    {
+      "query": "GoHighLevel official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/other/mcp/",
+          "title": "mcp | HighLevel API",
+          "snippet": "mcp | HighLevel API\n\nOn this page\n\n# HighLevel MCP Server\n\nStop clicking. Start asking.\n\nYour next booking, follow-up, or invoice can start with a sentence. Connect HighLevel to your AI assistant, then ask it to find a contact, book an appointment, send a message, update a deal, or schedule a social"
+        },
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+          "title": "Guide on How to Setup and Use the HighLevel MCP Server : HighLevel Support Portal",
+          "snippet": "Guide on How to Setup and Use the HighLevel MCP Server : HighLevel Support Portal \n\n# How to Setup and Use the HighLevel MCP Server\n\nModified on: Sun, 15 Nov, 2026 at 2:10 AM\n\nConnect your AI assistant to HighLevel so it can find CRM records and perform supported actions from your instructions. The "
+        },
+        {
+          "url": "https://www.gohighlevel.com/post/introducing-the-mcp-server",
+          "title": "HighLevel just gave AI superpowers: Introducing the MCP Server",
+          "snippet": "HighLevel just gave AI superpowers: Introducing the MCP Server\n\n# HighLevel just gave AI superpowers: Introducing the MCP Server\n\nJuly 30, 2025• 3 min read\n\nAI is evolving, and it’s not just getting smarter; it’s getting to work.\n\nWith the launch of the Model Context Protocol (MCP) Server, HighLevel"
+        },
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/folders/155000001370",
+          "title": "MCP Server : HighLevel Support Portal",
+          "snippet": "MCP Server : HighLevel Support Portal \n\n# MCP Server (7)\n\n- How to Setup and Use the HighLevel MCP Server\n\n Modified on Sun, 15 Nov at 2:10 AM \n- Automate Workflows with GHL MCP and N8N\n\n Modified on Mon, 27 Apr at 2:27 PM \n- MCP Connectors for Managed Agents\n\n Modified on Tue, 6 Oct at 3:25 PM \n- H"
+        },
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/155000009246-how-to-connect-ai-clients-to-project-management-with-mcp",
+          "title": "Connect AI Clients to Project Management MCP | HighLevel : HighLevel Support Portal",
+          "snippet": "Connect AI Clients to Project Management MCP | HighLevel : HighLevel Support Portal \n\n# How to Connect AI Clients to Project Management with MCP\n\nModified on: Tue, 27 Oct, 2026 at 10:40 AM\n\nHighLevel Project Management now connects with compatible AI assistants through Model Context Protocol (MCP), "
+        }
+      ]
+    },
+    {
+      "query": "site:highlevel.stoplight.io MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+          "title": "Guide on How to Setup and Use the HighLevel MCP Server : HighLevel Support Portal",
+          "snippet": "Guide on How to Setup and Use the HighLevel MCP Server : HighLevel Support Portal \n\n# How to Setup and Use the HighLevel MCP Server\n\nModified on: Sun, 15 Nov, 2026 at 2:10 AM\n\nConnect your AI assistant to HighLevel so it can find CRM records and perform supported actions from your instructions. The "
+        },
+        {
+          "url": "https://marketplace.gohighlevel.com/docs/other/mcp/",
+          "title": "mcp | HighLevel API",
+          "snippet": "mcp | HighLevel API\n\nOn this page\n\n# HighLevel MCP Server\n\nStop clicking. Start asking.\n\nYour next booking, follow-up, or invoice can start with a sentence. Connect HighLevel to your AI assistant, then ask it to find a contact, book an appointment, send a message, update a deal, or schedule a social"
+        },
+        {
+          "url": "https://www.gohighlevel.com/post/introducing-the-mcp-server",
+          "title": "HighLevel just gave AI superpowers: Introducing the MCP Server",
+          "snippet": "HighLevel just gave AI superpowers: Introducing the MCP Server\n\n# HighLevel just gave AI superpowers: Introducing the MCP Server\n\nJuly 30, 2025• 3 min read\n\nAI is evolving, and it’s not just getting smarter; it’s getting to work.\n\nWith the launch of the Model Context Protocol (MCP) Server, HighLevel"
+        },
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/155000008360-highlevel-mcp-multi-account-support-for-claude",
+          "title": "HighLevel MCP Multi-Account Support for Claude : HighLevel Support Portal",
+          "snippet": "HighLevel MCP Multi-Account Support for Claude : HighLevel Support Portal \n\n# HighLevel MCP Multi-Account Support for Claude\n\nModified on: Thu, 6 Aug, 2026 at 5:04 AM\n\n# HighLevel MCP Multi-Account Support for Claude\n\nConnect Claude once and securely work across multiple HighLevel sub-accounts from "
+        },
+        {
+          "url": "https://help.gohighlevel.com/support/solutions/articles/155000008391-highlevel-mcp-for-anthropic-increased-scopes",
+          "title": "HighLevel MCP for Anthropic — Increased Scopes : HighLevel Support Portal",
+          "snippet": "HighLevel MCP for Anthropic — Increased Scopes : HighLevel Support Portal \n\n# HighLevel MCP for Anthropic — Increased Scopes\n\nModified on: Fri, 7 Aug, 2026 at 10:02 AM\n\n# HighLevel MCP for Anthropic — Increased Scopes\n\nConnect Claude to HighLevel with OAuth-based authentication and access to the ful"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://highlevel.stoplight.io",
+      "final_url": "https://highlevel.stoplight.io",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T13:08:52Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "818d4945ca7e64e4762d48ef1a5f313284711d9ce12eae6dddb62160c9174677",
+      "text_len": 9
+    },
+    {
+      "requested_url": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+      "final_url": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:08:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a0cced4c7aff8b0483c9ce8f90654219b64c76f54b8c98d3c824b95edbd6d355",
+      "text_len": 15039
+    },
+    {
+      "requested_url": "https://www.gohighlevel.com/pricing",
+      "final_url": "https://www.gohighlevel.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:08:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ddf20faea34a98c874c0da55704127bbc83b12a73ae01dd3d8f7494035e3a6b0",
+      "text_len": 8407
+    },
+    {
+      "requested_url": "https://marketplace.gohighlevel.com/docs/other/mcp/",
+      "final_url": "https://marketplace.gohighlevel.com/docs/other/mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:08:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "244c8795eadccc3d58aff55128358215ce2d3e309f61b55186d5452f837f9dfa",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+      "final_url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:08:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "acea2d2e5bc1415705d24bc1f1f02e0393ddf659d880baff378d608e76930e71",
+      "text_len": 15471
+    },
+    {
+      "requested_url": "https://help.gohighlevel.com/support/solutions/articles/155000008360-highlevel-mcp-multi-account-support-for-claude",
+      "final_url": "https://help.gohighlevel.com/support/solutions/articles/155000008360-highlevel-mcp-multi-account-support-for-claude",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:08:51Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fb1fdca23c8f6abea2bdf700cfa192219fb311b5fa6807e596ac4d9aa90aabea",
+      "text_len": 14514
+    },
+    {
+      "requested_url": "https://help.gohighlevel.com/support/solutions/articles/155000008391-highlevel-mcp-for-anthropic-increased-scopes",
+      "final_url": "https://help.gohighlevel.com/support/solutions/articles/155000008391-highlevel-mcp-for-anthropic-increased-scopes",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:08:51Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "dcb738b261d6b0ade344d42af21396b3f2e77fdcb68e438e8561735d298c5e25",
+      "text_len": 12807
+    },
+    {
+      "requested_url": "https://help.gohighlevel.com/support/solutions/articles/155000009246-how-to-connect-ai-clients-to-project-management-with-mcp",
+      "final_url": "https://help.gohighlevel.com/support/solutions/articles/155000009246-how-to-connect-ai-clients-to-project-management-with-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:08:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f0adbde54e687764c420a4f4c3b494cb5cc546bd1bde47be2058b8450ac7fd17",
+      "text_len": 12309
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+        "quote": "HighLevel supports the Authorization Code Grant flow with v2 APIs.",
+        "verified": true
+      },
+      {
+        "url": "https://help.gohighlevel.com/support/solutions/articles/155000008391-highlevel-mcp-for-anthropic-increased-scopes",
+        "quote": "continues to work with any MCP client over OAuth or Private Integration Token",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+        "quote": "Go to the Marketplace and sign up for a developer account.",
+        "verified": true
+      },
+      {
+        "url": "https://www.gohighlevel.com/pricing",
+        "quote": "Experience it for 14 Days FREE",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+        "quote": "Each endpoint's API reference page lists the scopes it requires.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/other/mcp/",
+        "quote": "Connect HighLevel to your AI assistant, then ask it to find a contact, book an appointment, send a message",
+        "verified": true
+      },
+      {
+        "url": "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+        "quote": "The HighLevel MCP Server, also called the LeadConnector MCP Server, connects through OAuth",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+        "quote": "Private Apps: For personal/internal use, not listed in the Marketplace.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.gohighlevel.com/pricing",
+        "quote": "All Core Features",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

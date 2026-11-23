@@ -25,6 +25,24 @@ This is a take-home style research pipeline, not a production product.
 
 Phase 1 is done: input list, schema, rubric, and a Composio catalog coverage snapshot. The research agent (v1, `agent/`) now exists. The verification loop, pattern write-up, and case-study page come next.
 
+## How we improved accuracy
+
+The headline score will be pass-1 vs final accuracy on the 20 gold apps in `schema/gold_sample.md`. Those 20 are left untouched until the final check, so we do not tune rules to the score we will report.
+
+To find general failure modes first, we ran a 10-app pilot: one app per category, none of them in the gold 20. The rows are in `data/runs/pilot-10/` (with a hand review). The misses clustered into a few patterns, not one-off product bugs:
+
+- auth fields that contradicted the row's own notes (for example OAuth that only exists for an MCP server)
+- `sdk_only` listed alongside a raw HTTP API type
+- a paid signup treated as `self_serve_paid` even when the vendor also requires a manual review or a mandatory app-store listing
+- a blank `start_url` causing search to land on a different product with a similar name
+- an official MCP page on a sibling docs host being missed
+
+We then added general validators and prompt/rubric rules for those patterns (see `agent/validate.py`, `agent/prompts.py`, and `schema/RUBRIC.md`) and reran the **same** 10 apps as a regression check (`data/runs/pilot-10b/`). Row-correct accuracy on that holdout went from 3/10 to 8/10. The gold 20 were not used in that loop.
+
+The same 10 were rerun once more after switching search and fetch to the direct Exa API (`data/runs/pilot-10c/`). Row-correct accuracy stayed 8/10: the blank-URL product-identity miss was fixed, a notes-vs-auth-methods contradiction reappeared on one row, and an MCP server whose official pages appeared in search results was still not fetched. The gold 20 were not used in that loop either.
+
+That last miss is a general retrieval gap, so the agent now fetches up to 3 leftover vendor-owned search results that look like MCP or API-auth/OAuth docs before it settles the row, even when the page cap is already full, and re-asks the LLM once only if they returned text. The same 10 were rerun again as `data/runs/pilot-10d/`; row-correct accuracy moved from 8/10 to 9/10. The leftover official API-auth docs were read this time. One MCP miss remains, where the official MCP-style pages either did not use the word MCP in the URL or title, lived on a sibling host the vendor-name check did not treat as owned, or were crowded out by other official-domain MCP pages about a different product line. The gold 20 were not used in that loop either.
+
 ## Refresh Composio coverage
 
 Needs a `COMPOSIO_API_KEY` (already in `.env.example`). From the repo root:
@@ -86,7 +104,7 @@ Output goes to `data/runs/<run_id>/`:
 - `rows.jsonl`: one schema-valid row per app
 - `failures.jsonl`: rows that stayed invalid after the retry, with their errors, plus crashes
 - `evidence/<slug>.json`: searches run, fetched pages (requested and final URL, status, fetched_at, sha256, text_len, extraction `method`), a quoted snippet per claim, and `checks` (dropped evidence, unverified snippets, unfetched docs/MCP URLs, warnings, validation errors)
-- `log.jsonl`: per app wall time, search/fetch/LLM call counts, tokens, est. cost, and which providers served each call
+- `log.jsonl`: per app wall time, search/fetch/LLM call counts, tokens, est. LLM cost, Exa / Instant spend, and which providers served each call
 - `cache/`: raw fetched text, plus `<slug>.llm.json` with every raw LLM response per attempt (text, stop reason, usage). Gitignored.
 
 Pages that extract to under ~1500 chars (typical for JS-rendered docs) go through fallbacks: trafilatura with favor_recall, then the page's `.md` twin, then plain visible text. For a thin docs page, `<origin>/llms.txt` is also fetched once per app. A truncated LLM answer (`LLM_MAX_TOKENS`, default 8000) gets one retry asking for a compact row.
@@ -95,13 +113,23 @@ Failed apps are not written to `rows.jsonl`, so re-running the same `--run-id` r
 
 ### Search and fetch providers
 
-The defaults are free first. Composio is a paid escalation, capped per run:
+With `EXA_API_KEY` set, the agent searches and reads pages through the [Exa API](https://exa.ai) directly, with free `ddgs` / `http` as the fallback. Without the key it uses the free tools only. Composio Instant is still in the code, but it is off unless you opt in:
 
 | Variable | Default | Values |
 |---|---|---|
-| `SEARCH_PROVIDER` | `ddgs` | `ddgs` (free only); `hybrid` (ddgs, then Composio Exa only when ddgs returns 0 results); `auto` / `composio_exa` / `composio_tavily` (Composio first, ddgs fallback). `USE_COMPOSIO_EXA=true` is the same as `auto`. |
-| `FETCH_PROVIDER` | `hybrid` | `hybrid` (http first; a URL goes to Composio `FIRECRAWL_SCRAPE` only when the page is still thin after all extraction fallbacks, or blocked: status 401/403/429/503 or a network error); `auto` / `composio_firecrawl` (Firecrawl first, http fallback); `http` (free only). |
+| `SEARCH_PROVIDER` | `exa` with `EXA_API_KEY`, else `ddgs` | `exa` (Exa `/search`, ddgs fallback); `ddgs` (free only); `hybrid` (ddgs, then Composio Exa only when ddgs returns 0 results); `auto` / `composio_exa` / `composio_tavily` (Composio first, ddgs fallback). `USE_COMPOSIO_EXA=true` is the same as `auto`. |
+| `FETCH_PROVIDER` | `exa` with `EXA_API_KEY`, else `hybrid` | `exa` (Exa text, http fallback); `hybrid` (http first; a URL goes to Composio `FIRECRAWL_SCRAPE` only when the page is still thin after all extraction fallbacks, or blocked: status 401/403/429/503 or a network error); `auto` / `composio_firecrawl` (Firecrawl first, http fallback); `http` (free only). |
+| `EXA_BUDGET_USD` | `5` | Hard cap on Exa spend per run. `0` disables Exa calls. |
 | `INSTANT_BUDGET_USD` | `0.30` | Hard cap on Composio Instant spend per run. `0` disables Instant calls. |
+
+**Why Exa is called directly:** Composio Instant returned `400 No active connection found for toolkit(s) ...` for the `exa` and `firecrawl` toolkits, even with Instant enabled for the org. So the agent calls Exa with its own `EXA_API_KEY`. The provider is switchable in `.env`.
+
+How the `exa` provider works:
+
+- Search and fetch share one Exa client and one in-memory text cache per run. `POST /search` (`type: auto`, 5 results) asks for each result's page text in the same call. When the agent later fetches one of those URLs, the cached text is used: no second request, no second charge (`method: exa_search`). Other URLs go through `POST /contents` (`method: exa_text`). A repeat fetch is `exa_cache`.
+- Every Exa call first reserves its listed price ($0.007 per search, $0.001 per page of contents). Over `EXA_BUDGET_USD`, the call is skipped (logged once) and the free tool serves it. The `costDollars.total` Exa reports is recorded when present, otherwise the listed price. Both are estimates, not an invoice.
+- A 401/402/403 (bad key, no credits), or 3 server/network errors in a row, switches Exa off for the rest of the run, logged once. A single server error, or a page Exa could not read or was blocked from, falls back to the free tool for that call only. Any other 4xx for a URL is returned as a failed page.
+- `log.jsonl` (per app) and the end-of-run summary report `exa_calls`, `exa_calls_by_endpoint` (search / contents), `exa_cost_usd` (reported cost plus listed estimates) and `exa_listed_estimate_usd` (the part that came from listed prices). `est_cost_usd` is still the LLM token estimate.
 
 Composio is only tried when `COMPOSIO_API_KEY` is set. The first `No active connection`, 400/401/403 or 410 error switches Composio off for the rest of the run, logged once, and the free result is kept.
 
@@ -111,6 +139,6 @@ Every Composio call first reserves its listed price: `FIRECRAWL_SCRAPE` $0.003, 
 
 `ddgs` tries backends in the order set by `DDGS_BACKENDS` (default `yahoo,duckduckgo,bing,brave,google`). When this was written, only `yahoo` returned results from this machine.
 
-**What Composio unlocks:** Exa, Tavily and Firecrawl run through a Composio session (`composio.sessions.create(...)` then `session.execute(...)`). In this project they currently fail with `400 No active connection found for toolkit(s) ...`. This is still true after Instant was toggled in the dashboard: `session.search` reports `instant_account: null`. The free path keeps working, so nothing needs to change in the agent.
+**What Composio unlocks:** Exa, Tavily and Firecrawl run through a Composio session (`composio.sessions.create(...)` then `session.execute(...)`). In this project they currently fail with `400 No active connection found for toolkit(s) ...`. This is still true after Instant was toggled in the dashboard: `session.search` reports `instant_account: null`. That is why the default is the direct Exa API (above), with the free path as fallback.
 
-Composio becomes active once Instant Toolkits work for the project key (prepaid balance) or an Exa / Firecrawl key is connected. From then on, `hybrid` fetch starts escalating thin or blocked pages to Firecrawl automatically, within `INSTANT_BUDGET_USD`. Set `SEARCH_PROVIDER=hybrid` or `auto` to also use Exa. The old `composio_search` toolkit is retired (HTTP 410) and is not used.
+Composio becomes usable once Instant Toolkits work for the project key (prepaid balance) or an Exa / Firecrawl key is connected. To opt in, set `FETCH_PROVIDER=hybrid` (escalates thin or blocked pages to Firecrawl, within `INSTANT_BUDGET_USD`) and `SEARCH_PROVIDER=hybrid` or `auto` for Composio Exa search. The old `composio_search` toolkit is retired (HTTP 410) and is not used.

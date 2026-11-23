@@ -1,0 +1,373 @@
+{
+  "slug": "devin",
+  "searches": [
+    {
+      "query": "Devin API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.devin.ai/api-reference/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Understand principals, tokens, and how to authenticate with the Devin API\n\nThe Devin API uses a princ"
+        },
+        {
+          "url": "https://docs.devin.ai/api-reference/common-flows",
+          "title": "Common Flows",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Common Flows\n\n> End-to-end Devin API workflows: authenticate and create a session, download attachments, manage knowled"
+        },
+        {
+          "url": "https://docs.devin.ai/api-reference/personal-access-tokens",
+          "title": "Personal Access Tokens",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Personal Access Tokens\n\n> Authenticate as yourself for programmatic API access\n\n## Overview\n\nPersonal Access Tokens (PA"
+        },
+        {
+          "url": "https://docs.devin.ai/api-reference/overview",
+          "title": "API Overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Overview\n\n> Learn how to programmatically interact with Devin using our REST APIs\n\nThe Devin API enables you to int"
+        },
+        {
+          "url": "https://docs.devin.ai/api-reference/v3/usage-examples",
+          "title": "Usage Examples",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Usage Examples\n\n> Code examples and common use cases for the Devin API\n\nThis page provides code examples for common API"
+        }
+      ]
+    },
+    {
+      "query": "Devin developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.devin.ai/api-reference/overview",
+          "title": "API Overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Overview\n\n> Learn how to programmatically interact with Devin using our REST APIs\n\nThe Devin API enables you to int"
+        },
+        {
+          "url": "https://docs.devin.ai/api-reference/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Understand principals, tokens, and how to authenticate with the Devin API\n\nThe Devin API uses a princ"
+        },
+        {
+          "url": "https://docs.devin.ai/api-reference/getting-started/teams-quickstart",
+          "title": "Quick start: Teams",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quick start: Teams\n\n> Set up Devin API access for a teams or standard organization: provision a service user, copy the "
+        },
+        {
+          "url": "https://docs.devin.ai/api-reference/v3/usage-examples",
+          "title": "Usage Examples",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Usage Examples\n\n> Code examples and common use cases for the Devin API\n\nThis page provides code examples for common API"
+        },
+        {
+          "url": "https://docs.devin.ai/api-reference/personal-access-tokens",
+          "title": "Personal Access Tokens",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Personal Access Tokens\n\n> Authenticate as yourself for programmatic API access\n\n## Overview\n\nPersonal Access Tokens (PA"
+        }
+      ]
+    },
+    {
+      "query": "Devin pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://devin.ai/pricing",
+          "title": "Devin Plans and Pricing",
+          "snippet": "# Devin Plans and Pricing\n\nChoose the perfect plan for your journey\n\nSWE-2, our latest model, is now available →\n\nINDIVIDUAL PLANS\n\nFree\n\n$0\n\nDownload\n\nLight quota to code with agents\n\nLimited model availability\n\nUnlimited inline edits\n\nUnlimited Tab completions\n\nProPOPULAR\n\n$20per month\n\nSelect pla"
+        },
+        {
+          "url": "https://docs.devin.ai/desktop/accounts/usage",
+          "title": "Plans and Usage",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Plans and Usage\n\n> Understand Devin Desktop pricing plans, usage tracking, and how to upgrade from Free to Pro, Teams, "
+        },
+        {
+          "url": "https://docs.devin.ai/admin/billing/self-serve",
+          "title": "Self-serve plans",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Self-serve plans\n\n> Compare Devin's Free, Pro, Max, and Teams self-serve plans, including Teams pricing, usage quota, s"
+        },
+        {
+          "url": "https://cognition.com/blog/new-self-serve-plans-for-devin",
+          "title": "New self-serve plans for Devin | Cognition",
+          "snippet": "New self-serve plans for Devin | Cognition\n\n# New self-serve plans for Devin\n\nBy The Cognition Team 2026.04.14\n\nThis week, we will be updating Devin’s self-serve pricing.\n\nWe’re retiring the old Core and Team plans and introducing a new lineup: Free, Pro, Max, Teams, and Enterprise. We’re also begin"
+        },
+        {
+          "url": "https://rationalgo.ai/resources/app-builder/pricing-guides/is-devin-ai-free-trial",
+          "title": "Is Devin AI Free? Free Trial and Credits Explained | RationalGo",
+          "snippet": "# Is Devin AI Free? The Free Plan, Paid Trials and Credits in 2026\n\nIs Devin AI free? As of September 2026: a Free plan with limited usage, trials shown only to some new buyers at checkout, and Pro at $20 a month.\n\nQuick answer: Yes, in a limited way. As of September 2026, Devin's Free plan costs $0"
+        }
+      ]
+    },
+    {
+      "query": "Devin official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+          "title": "Devin MCP",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Devin MCP\n\n> Set up the official Devin MCP server so external AI tools can manage sessions, playbooks, knowledge, and r"
+        },
+        {
+          "url": "https://mcp.devin.ai/",
+          "title": "Devin MCP Server",
+          "snippet": "Devin MCP Server\n\n```\n             ;d;.\n          .lc:::c;:\n          ':::::::o\n   .l:cx,'c:::::::o :xOOdl\n  dc::::::::oc::l:,kkkkkkkx    Devin MCP Server\n  o:::::::x  llo  ;kkkkkkkO\n  cc::::::ddOkkkkOkkkkkkkkx\n   .'cl;,l;kkkkkkkk::dOddc     Connect to: `https://mcp.devin.ai/mcp`\n   .;odc:c;kkkkkkkk"
+        },
+        {
+          "url": "https://docs.devin.ai/work-with-devin/mcp",
+          "title": "Devin MCP servers and marketplace",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Devin MCP servers and marketplace\n\n> Connect Devin to external tools with MCP servers: install plugins from the marketp"
+        },
+        {
+          "url": "https://www.scalekit.com/blog/devin-mcp-vs-api",
+          "title": "Devin MCP vs Devin API for AI Agents (2026)",
+          "snippet": "Devin MCP vs Devin API for AI Agents (2026)\n\nSep 16, 2026\n\n# Devin MCP vs Devin API for AI Agents (2026)\n\nHrishikesh Premkumar\n\nFounding Architect\n\n## TL;DR\n\n- Devin ships an official MCP server ( https://mcp.devin.ai/mcp) and a REST API ( https://api.devin.ai/v3). Unlike most tools in this series, "
+        },
+        {
+          "url": "https://fast.io/resources/devin-ai-mcp-server/",
+          "title": "Configure and Use the Devin AI MCP Server: A Complete Guide",
+          "snippet": "Configure and Use the Devin AI MCP Server: A Complete Guide | Fastio\n\n# How to Configure and Use the Devin AI MCP Server \n\n The official Devin MCP server enables external AI clients to control Devin programmatically. This step-by-step guide explains how to configure both sides of the Devin MCP conne"
+        }
+      ]
+    },
+    {
+      "query": "site:docs.devin.ai MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.devin.ai/work-with-devin/mcp",
+          "title": "Devin MCP servers and marketplace",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Devin MCP servers and marketplace\n\n> Connect Devin to external tools with MCP servers: install plugins from the marketp"
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/mcp/overview",
+          "title": "MCP Overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP Overview\n\n> Extend Devin CLI with external tool servers using the Model Context Protocol\n\nMCP (Model Context Protoc"
+        },
+        {
+          "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+          "title": "Devin MCP",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Devin MCP\n\n> Set up the official Devin MCP server so external AI tools can manage sessions, playbooks, knowledge, and r"
+        },
+        {
+          "url": "https://docs.devin.ai/use-cases/tutorials/mcp-use-cases",
+          "title": "MCP Use Cases",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP Use Cases\n\n### Analytics\n\nWe use Devin as our data analyst right from Slack. Using database and data warehouse MCPs"
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/mcp/configuration",
+          "title": "MCP Configuration",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP Configuration\n\n> How to add, configure, authenticate, and troubleshoot MCP servers in Devin CLI, including stdio, S"
+        }
+      ]
+    },
+    {
+      "query": "site:devin.ai MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.devin.ai/work-with-devin/mcp",
+          "title": "Devin MCP servers and marketplace",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Devin MCP servers and marketplace\n\n> Connect Devin to external tools with MCP servers: install plugins from the marketp"
+        },
+        {
+          "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+          "title": "Devin MCP",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Devin MCP\n\n> Set up the official Devin MCP server so external AI tools can manage sessions, playbooks, knowledge, and r"
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/mcp/overview",
+          "title": "MCP Overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP Overview\n\n> Extend Devin CLI with external tool servers using the Model Context Protocol\n\nMCP (Model Context Protoc"
+        },
+        {
+          "url": "https://docs.devin.ai/use-cases/tutorials/mcp-use-cases",
+          "title": "MCP Use Cases",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP Use Cases\n\n### Analytics\n\nWe use Devin as our data analyst right from Slack. Using database and data warehouse MCPs"
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/mcp/configuration",
+          "title": "MCP Configuration",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.devin.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP Configuration\n\n> How to add, configure, authenticate, and troubleshoot MCP servers in Devin CLI, including stdio, S"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.devin.ai",
+      "final_url": "https://docs.devin.ai",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T12:37:39Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "f8e05d84017198fc0d6d6034ad7f35ded0b6e776534a8167a99ec297017cb7af",
+      "text_len": 5109
+    },
+    {
+      "requested_url": "https://docs.devin.ai/api-reference/authentication",
+      "final_url": "https://docs.devin.ai/api-reference/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T12:37:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ea160c67cca16f763ade812785605f294159f13add5183c0d2df5e3c872e905c",
+      "text_len": 8596
+    },
+    {
+      "requested_url": "https://devin.ai/pricing",
+      "final_url": "https://devin.ai/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T12:37:32Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3343676450d5e6b511016ecf088c78cee4790f2660f88ba34f92351c0ab80279",
+      "text_len": 3688
+    },
+    {
+      "requested_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+      "final_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T12:37:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1f6bb72ab52eb62e7c2f56edf8d6edc45ab5b02396173a672f050714ce7cf3c6",
+      "text_len": 9580
+    },
+    {
+      "requested_url": "https://docs.devin.ai/cli/extensibility/mcp/configuration",
+      "final_url": "https://docs.devin.ai/cli/extensibility/mcp/configuration",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T12:37:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a4d3e421542097088bb372d84eebcb0f15e67d225885163e1f9886d4b7d74594",
+      "text_len": 17490
+    },
+    {
+      "requested_url": "https://docs.devin.ai/cli/extensibility/mcp/overview",
+      "final_url": "https://docs.devin.ai/cli/extensibility/mcp/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T12:37:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c9f9ce0139ded5c39c19aed26564945da5d01e8bbfa4dec7a005aba13f3898d2",
+      "text_len": 5183
+    },
+    {
+      "requested_url": "https://docs.devin.ai/use-cases/tutorials/mcp-use-cases",
+      "final_url": "https://docs.devin.ai/use-cases/tutorials/mcp-use-cases",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T12:37:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d0d9139a9430d076327cc4792f1e061f93a8e2c3216ccdeaeba2abf3521e3837",
+      "text_len": 974
+    },
+    {
+      "requested_url": "https://docs.devin.ai/work-with-devin/mcp",
+      "final_url": "https://docs.devin.ai/work-with-devin/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T12:37:33Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "93cd934c8f2613a460354f146ba2f64cc6616b0376b21c1e3b36a25054a67c9f",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.devin.ai/llms.txt",
+      "final_url": "https://docs.devin.ai/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T12:37:39Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "d2638a1ed44180d474ec3c74258dca30132d11f7c9a8b6dbec3750adfdf619ed",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.devin.ai/api-reference/authentication",
+        "quote": "All API credentials use the `cog_` prefix format. Include your token in the `Authorization` header of every request",
+        "verified": true
+      },
+      {
+        "url": "https://docs.devin.ai/api-reference/authentication",
+        "quote": "Service User (non-human) | Service User API Key | For automated integrations and CI/CD pipelines",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://devin.ai/pricing",
+        "quote": "Access to cloud agents (Devin Cloud)",
+        "verified": true
+      },
+      {
+        "url": "https://docs.devin.ai/api-reference/authentication",
+        "quote": "Provision a service user in Settings > Devin API (Service users tab) for an organization",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.devin.ai/api-reference/authentication",
+        "quote": "curl -X GET \"https://api.devin.ai/v3/organizations/$DEVIN_ORG_ID/sessions\"",
+        "verified": true
+      },
+      {
+        "url": "https://docs.devin.ai/llms.txt",
+        "quote": "API (315 pages)",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "quote": "Set up the official Devin MCP server so external AI tools can manage sessions, playbooks, knowledge, and repository docs.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "quote": "Base Server URL: `https://mcp.devin.ai/`",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.devin.ai/api-reference/authentication",
+        "quote": "Copy the API key — the key starts with `cog_` and is shown only once, right after provisioning",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://docs.devin.ai",
+        "quote": "Devin is an autonomous AI software engineer that can write, run and test code.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

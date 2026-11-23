@@ -1,0 +1,304 @@
+{
+  "slug": "amazon-selling-partner",
+  "searches": [
+    {
+      "query": "Amazon Selling Partner API authentication",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://developer.amazonservices.com/",
+          "title": "Amazon Selling Partner API (SP-API) | Build & Automate ...",
+          "snippet": "Build public apps that sellers authorize with OAuth, then list them in the Selling Partner Appstore so sellers worldwide can find you. Build private apps you authorize yourself. Connect orders, inventory, pricing, and finance data to the systems you already run."
+        },
+        {
+          "url": "https://developer-docs.amazon/",
+          "title": "Amazon Selling Partner API",
+          "snippet": "Amazon API Services for Selling Partners and Shippers."
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications",
+          "title": "Authorize Applications - Selling Partner API",
+          "snippet": "Learn how to authorize SP-API applications. Authorization is the process by which a selling partner grants your application permission to call the Selling Partner API (SP-API) on the selling partner's behalf."
+        },
+        {
+          "url": "https://developer.amazonservices.com/start",
+          "title": "Selling Partner API Overview: Get Started | SP-API - Amazon ...",
+          "snippet": "Jun 22, 2026 · Find out how to set up a test Selling Partner Appstore authorization workflow for a public seller SP-API application, including how to construct an OAuth authorization URI."
+        },
+        {
+          "url": "https://sell.amazon.com/developers",
+          "title": "Selling Partner API (SP-API) | Sell on Amazon",
+          "snippet": "Selling Partner API (SP-API) is a REST-based API that helps Amazon sellers and vendors programmatically access their data for orders, shipments, payments, and much more."
+        }
+      ]
+    },
+    {
+      "query": "Amazon Selling Partner developer API access documentation",
+      "provider": "ddgs",
+      "results": []
+    },
+    {
+      "query": "Amazon Selling Partner pricing plans free trial signup",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://sell.amazon.com/pricing",
+          "title": "How much does it cost to sell on Amazon? | Sell on Amazon",
+          "snippet": "Review Amazon selling plan fees, referral fees, and costs for optional services. Our Professional selling plan provides you with access to hundreds of tools and programs—for just $39.99/month."
+        },
+        {
+          "url": "https://selleramp.com/pricing/",
+          "title": "Pricing - Seller Amp - Tools For Amazon Sellers",
+          "snippet": "Compare SellerAmp SAS plans and pricing. Every plan starts with a 14-day free trial – analyse profit, eligibility and sales data. Cancel anytime."
+        },
+        {
+          "url": "https://sellercentral.amazon.com/help/hub/reference/external/64491?locale=en-US",
+          "title": "Selling plan comparison - sellercentral.amazon.com",
+          "snippet": "Use Amazon Business features to create pricing and offers unique to business customers. Note: If enrolled in Tax Calculation Services, see Upgrade / Downgrade and Tax Calculation Service before you switch your account to an Individual selling plan."
+        },
+        {
+          "url": "https://sell.amazon.com/blog/amazon-professional-vs-individual-selling-plan",
+          "title": "Amazon’s Individual selling plan vs Professional selling plan ...",
+          "snippet": "Oct 1, 2025 · Learn how to select the best Amazon selling plan for your business by understanding the benefits and features of the Individual and Professional selling options."
+        },
+        {
+          "url": "https://go.amazonsellerservices.com/PricingDS",
+          "title": "Compare Amazon selling plans and fees - Amazon.com",
+          "snippet": "Compare Professional and Individual selling plans and how associated fees are calculated."
+        }
+      ]
+    },
+    {
+      "query": "Amazon Selling Partner MCP server",
+      "provider": "ddgs:google",
+      "results": [
+        {
+          "url": "https://github.com/mattcoatsworth/AmazonSeller-mcp-server",
+          "title": "GitHub - mattcoatsworth/AmazonSeller-mcp-server",
+          "snippet": "A Model Context Protocol (MCP) server for interacting with the Amazon Selling Partner API. This server provides tools and resources for accessing Amazon SP-API functionality through a standardized interface."
+        },
+        {
+          "url": "https://sell.amazon.com/blog/announcements/amazons-selling-partner-plugin-ads-mcp",
+          "title": "Preparing for the 2026 Holiday Shopping Season with Amazon's ...",
+          "snippet": "Sellers preparing for the holidays now have two new AI tools that actively help manage holiday operations and advertising: the Amazon Selling Partner plugin and the Amazon Ads MCP Server."
+        },
+        {
+          "url": "https://github.com/kuudoai/amazon-selling-partner-mcp",
+          "title": "GitHub - KuudoAI/amazon-selling-partner-mcp: MCP server for ...",
+          "snippet": "Amazon Seller Central MCP server (Amazon Selling Partner MCP) by Kuudo One MCP for the entire Amazon Selling Partner API: 304 operations across 40+ services, from Catalog, Listings, and Orders to FBA and A+ Content."
+        },
+        {
+          "url": "https://claude.com/marketplace/connectors/amazon-selling-partner",
+          "title": "Amazon Selling Partner connector | Claude by Anthropic",
+          "snippet": "Connect your Amazon Seller Central account to Claude. Ask about sales, inventory, and listing performance and get recommendations grounded in your own data, not generic advice."
+        },
+        {
+          "url": "https://docs.aws.amazon.com/partner-central/latest/developer-guide/mcp-getting-started.html",
+          "title": "Getting Started with the Partner Central Agent MCP Server",
+          "snippet": "This guide walks you through setting up access to the Partner Central Agent MCP Server. The server supports two authentication methods: OAuth for browser-based sign-in and SigV4 for programmatic access."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developer-docs.amazon.com/sp-api",
+      "final_url": "https://developer-docs.amazon/sp-api",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:24Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://developer-docs.amazon/sp-api.md",
+      "sha256": "4595117d9ddd8cb6138cefe25da4791a18b187e7e247695aff1876d0d62f1295",
+      "text_len": 16012
+    },
+    {
+      "requested_url": "https://sell.amazon.com/developers",
+      "final_url": "https://sell.amazon.com/developers",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:26Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "91f5f5fb2aa613c8e2e40a29f76b42ffcae1ec0c105aced562a367b2a1409e78",
+      "text_len": 4784
+    },
+    {
+      "requested_url": "https://sell.amazon.com/pricing",
+      "final_url": "https://sell.amazon.com/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:27Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "61f7615a30ac2d9dbac904727c802586760897e39d284b67b5af801b035dde7d",
+      "text_len": 5967
+    },
+    {
+      "requested_url": "https://docs.aws.amazon.com/partner-central/latest/developer-guide/mcp-getting-started.html",
+      "final_url": "https://docs.aws.amazon.com/partner-central/latest/developer-guide/mcp-getting-started.html",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:29Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "7a194624cad5595f2bc89426d36137af966a4e3227479eb3199f8da81dab03a3",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://sell.amazon.com/blog/announcements/amazons-selling-partner-plugin-ads-mcp",
+      "final_url": "https://sell.amazon.com/blog/announcements/amazons-selling-partner-plugin-ads-mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:31Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "ae2cf9c89be16614dda87431f244b18b3f90f27198f27ad6284da63681a25705",
+      "text_len": 10404
+    },
+    {
+      "requested_url": "https://sellercentral.amazon.com/help/hub/reference/external/64491?locale=en-US",
+      "final_url": "https://sellercentral.amazon.com/help/hub/reference/external/64491?locale=en-US",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:34Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "333adbc42ad72b1b4f4debd5d733e3e50b01954633438cec75f5a6f998a51f60",
+      "text_len": 1752
+    },
+    {
+      "requested_url": "https://sell.amazon.com/blog/amazon-professional-vs-individual-selling-plan",
+      "final_url": "https://sell.amazon.com/blog/amazon-professional-vs-individual-selling-plan",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:36Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "ff781dc6747e15194ff8ccf49bed030ce1dec85742cabbd18473bb1d1977bf6e",
+      "text_len": 6359
+    },
+    {
+      "requested_url": "https://github.com/kuudoai/amazon-selling-partner-mcp",
+      "final_url": "https://github.com/kuudoai/amazon-selling-partner-mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:39Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "8c0fa68e4c4147bf9d76649202be5db5ce109309a34bd7512636a4c614c7c5d8",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications.md",
+      "final_url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications.md",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:58Z",
+      "error": null,
+      "method": "raw",
+      "text_source_url": null,
+      "sha256": "47f4d662f70813a8828d43409318dbb679dc69ac3bdeccecfc5cd19b1fc0e374",
+      "text_len": 5889
+    },
+    {
+      "requested_url": "https://developer-docs.amazon/sp-api/docs/call-structure.md",
+      "final_url": "https://developer-docs.amazon/sp-api/docs/call-structure.md",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:58Z",
+      "error": null,
+      "method": "raw",
+      "text_source_url": null,
+      "sha256": "67558ce536a31d231733d87534147d6c3be4c0be523bbc2dd1bd65e9c42e5f1c",
+      "text_len": 1232
+    },
+    {
+      "requested_url": "https://developer-docs.amazon/sp-api/docs/sp-api-registration-overview.md",
+      "final_url": "https://developer-docs.amazon/sp-api/docs/sp-api-registration-overview.md",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:59Z",
+      "error": null,
+      "method": "raw",
+      "text_source_url": null,
+      "sha256": "a0f913eed4b46fbd9517064ea973e4f9fc2452037e9f363e5b82d7b242d63a1c",
+      "text_len": 3995
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications.md",
+        "quote": "Authorization method:** [OAuth 2.0](https://oauth.net/2/) through [Login with Amazon](https://developer.amazon.com/apps-and-games/login-with-amazon) (LWA).",
+        "verified": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications.md",
+        "quote": "Private applications are for exclusive use by a single organization.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://sell.amazon.com/developers",
+        "quote": "You must have a Professional selling account and be the primary account user to create an SP-API developer profile.",
+        "verified": true
+      },
+      {
+        "url": "https://sell.amazon.com/pricing",
+        "quote": "Professional $39.99 / month",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer-docs.amazon/sp-api",
+        "quote": "Learn how to get started and build applications with Amazon's REST-based SP-API.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://github.com/kuudoai/amazon-selling-partner-mcp",
+        "quote": "One MCP for the entire Amazon Selling Partner API: 304 operations across 40+ services",
+        "verified": true
+      },
+      {
+        "url": "https://sell.amazon.com/blog/announcements/amazons-selling-partner-plugin-ads-mcp",
+        "quote": "the Selling Partner plugin is currently in beta for US stores",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/sp-api-registration-overview.md",
+        "quote": "Applications for sellers that are available only to your organization, and are self-authorized.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://sell.amazon.com/developers",
+        "quote": "Selling Partner API (SP-API) is a REST-based API that helps Amazon sellers and vendors programmatically access their data",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}
