@@ -1,0 +1,364 @@
+{
+  "slug": "amazon-selling-partner",
+  "searches": [
+    {
+      "query": "Amazon Selling Partner API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://developer.amazonservices.com/",
+          "title": "Amazon Selling Partner API (SP-API) | Build & Automate ...",
+          "snippet": "Build public apps that sellers authorize with OAuth, then list them in the Selling Partner Appstore so sellers worldwide can find you. Build private apps you authorize yourself. Connect orders, inventory, pricing, and finance data to the systems you already run."
+        },
+        {
+          "url": "https://developer-docs.amazon/",
+          "title": "Amazon Selling Partner API",
+          "snippet": "Amazon API Services for Selling Partners and Shippers."
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications",
+          "title": "Authorize Applications - Selling Partner API",
+          "snippet": "Learn how to authorize SP-API applications. Authorization is the process by which a selling partner grants your application permission to call the Selling Partner API (SP-API) on the selling partner's behalf."
+        },
+        {
+          "url": "https://developer.amazonservices.com/start",
+          "title": "Selling Partner API Overview: Get Started | SP-API - Amazon ...",
+          "snippet": "Jun 22, 2026 · Find out how to set up a test Selling Partner Appstore authorization workflow for a public seller SP-API application, including how to construct an OAuth authorization URI."
+        },
+        {
+          "url": "https://sell.amazon.com/developers",
+          "title": "Selling Partner API (SP-API) | Sell on Amazon",
+          "snippet": "Selling Partner API (SP-API) is a REST-based API that helps Amazon sellers and vendors programmatically access their data for orders, shipments, payments, and much more."
+        }
+      ]
+    },
+    {
+      "query": "Amazon Selling Partner developer API access documentation",
+      "provider": "ddgs:google",
+      "results": [
+        {
+          "url": "https://developer-docs.amazon/sp-api/",
+          "title": "Selling Partner API",
+          "snippet": "Welcome to Selling Partner API Documentation. Learn how to get started and build applications with Amazon's REST-based SP-API. Subscribe to updates via [RSS feed] (http://developer-docs.amazon.com/sp-api/changelog.rss)."
+        },
+        {
+          "url": "https://developer.amazonservices.com/",
+          "title": "Amazon Selling Partner API (SP-API) | Build & Automate ...",
+          "snippet": "Build apps with Amazon's Selling Partner API (SP-API). Automate orders, inventory & pricing with real-time data. Create your developer account today."
+        },
+        {
+          "url": "https://developer-docs.amazon/",
+          "title": "Amazon-Services-API",
+          "snippet": "Amazon Selling Partner API Developer Products Selling Partner API Documentation Learn how to get started and build applications with Amazon's REST-based SP-API. Learn more"
+        },
+        {
+          "url": "https://developer.amazonservices.com/start",
+          "title": "Selling Partner API Overview: Get Started | SP-API - Amazon ...",
+          "snippet": "Jun 22, 2026 · Learn what the Amazon Selling Partner API (SP-API) is, what you can build, and how to register as a developer—with key features, FAQs, and video tutorials."
+        },
+        {
+          "url": "https://sell.amazon.com/developers",
+          "title": "Selling Partner API (SP-API) | Sell on Amazon",
+          "snippet": "Selling Partner API (SP-API) is a REST-based API that helps Amazon sellers and vendors programmatically access their data for orders, shipments, payments, and much more."
+        }
+      ]
+    },
+    {
+      "query": "Amazon Selling Partner pricing plans free trial signup",
+      "provider": "ddgs:google",
+      "results": [
+        {
+          "url": "https://sell.amazon.com/pricing",
+          "title": "How much does it cost to sell on Amazon? | Sell on Amazon",
+          "snippet": "Review Amazon selling plan fees, referral fees, and costs for optional services. Our Professional selling plan provides you with access to hundreds of tools and programs—for just $39.99/month."
+        },
+        {
+          "url": "https://selleramp.com/pricing/",
+          "title": "Pricing - Seller Amp - Tools For Amazon Sellers",
+          "snippet": "Compare SellerAmp SAS plans and pricing. Every plan starts with a 14-day free trial – analyse profit, eligibility and sales data. Cancel anytime."
+        },
+        {
+          "url": "https://sellercentral.amazon.com/help/hub/reference/external/64491?locale=en-US",
+          "title": "Selling plan comparison - sellercentral.amazon.com",
+          "snippet": "Use Amazon Business features to create pricing and offers unique to business customers. Note: If enrolled in Tax Calculation Services, see Upgrade / Downgrade and Tax Calculation Service before you switch your account to an Individual selling plan."
+        },
+        {
+          "url": "https://sell.amazon.com/blog/amazon-professional-vs-individual-selling-plan",
+          "title": "Amazon’s Individual selling plan vs Professional selling plan ...",
+          "snippet": "Oct 1, 2025 · Learn how to select the best Amazon selling plan for your business by understanding the benefits and features of the Individual and Professional selling options."
+        },
+        {
+          "url": "https://go.amazonsellerservices.com/PricingDS",
+          "title": "Compare Amazon selling plans and fees - Amazon.com",
+          "snippet": "Compare Professional and Individual selling plans and how associated fees are calculated."
+        }
+      ]
+    },
+    {
+      "query": "Amazon Selling Partner official MCP server",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://github.com/mattcoatsworth/AmazonSeller-mcp-server",
+          "title": "GitHub - mattcoatsworth/AmazonSeller-mcp-server",
+          "snippet": "A Model Context Protocol (MCP) server for interacting with the Amazon Selling Partner API. This server provides tools and resources for accessing Amazon SP-API functionality through a standardized interface."
+        },
+        {
+          "url": "https://sell.amazon.com/blog/announcements/amazons-selling-partner-plugin-ads-mcp",
+          "title": "Preparing for the 2026 Holiday Shopping Season with Amazon's ...",
+          "snippet": "Sellers preparing for the holidays now have two new AI tools that actively help manage holiday operations and advertising: the Amazon Selling Partner plugin and the Amazon Ads MCP Server."
+        },
+        {
+          "url": "https://www.datadoe.com/blog-posts/amazon-sp-api-mcp-ultimate-guide",
+          "title": "Amazon SP-API MCP: Guide to Amazon's Developer MCP | DataDoe",
+          "snippet": "Jun 9, 2026 · Amazon shipped its first official Model Context Protocol (MCP) server for the Selling Partner API, and it is one of the most consequential developer releases of the year."
+        },
+        {
+          "url": "https://docs.aws.amazon.com/partner-central/latest/developer-guide/mcp-getting-started.html",
+          "title": "Getting Started with the Partner Central Agent MCP Server",
+          "snippet": "This guide walks you through setting up access to the Partner Central Agent MCP Server. The server supports two authentication methods: OAuth for browser-based sign-in and SigV4 for programmatic access."
+        },
+        {
+          "url": "https://mcp.so/servers/amazonseller-mcp-server",
+          "title": "Amazon Selling Partner API MCP Server: Tools, Setup & Config",
+          "snippet": "Nov 16, 2026 · A Model Context Protocol (MCP) server for interacting with the Amazon Selling Partner API. Setup config for Claude, Cursor and VS Code."
+        }
+      ]
+    },
+    {
+      "query": "site:developer-docs.amazon.com MCP",
+      "provider": "ddgs",
+      "results": []
+    },
+    {
+      "query": "site:amazon.com MCP",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/",
+          "title": "The AWS MCP Server is now generally available - AWS",
+          "snippet": "May 6, 2026 · Today, AWS announces the general availability of the AWS MCP Server, a managed server that gives AI coding agents secure, auditable access to AWS services through the Model Context Protocol (MCP)."
+        },
+        {
+          "url": "https://advertising.amazon.com/API/docs/en-us/mcp/mcp-overview",
+          "title": "Overview | Amazon Ads API",
+          "snippet": "Jul 28, 2026 · The Amazon Ads MCP Server provides a standardized bridge between those external AI systems and Amazon Ads. You maintain full control and flexibility over your AI experiences while benefiting from reliable access to Amazon Ads context."
+        },
+        {
+          "url": "https://www.amazon.com/AI-Agents-MCP-End-End/dp/B0FYCBVGX7",
+          "title": "AI Agents with MCP: Model Context Protocol for Building ...",
+          "snippet": "Oct 20, 2026 · Using the latest version of Model Context Protocol (MCP) and Python SDK (v2.x), AI Agents with MCP shows you how to address that challenge to build clean, standardized, and production-ready systems."
+        },
+        {
+          "url": "https://advertising.amazon.com/API/docs/en-us/mcp/get-started",
+          "title": "Connecting to the Amazon Ads MCP Server | Amazon Ads API",
+          "snippet": "Learn how to connect to and use the Amazon Ads Model Context Protocol (MCP) Server for agentic access to Amazon Ads"
+        },
+        {
+          "url": "https://aws.amazon.com/blogs/architecture/mcp-went-stateless-is-your-aws-mcp-server-deployment-well-architected/",
+          "title": "MCP went stateless: Is your AWS MCP server deployment well ...",
+          "snippet": "On July 28, 2026, MCP published its largest revision since launch, making the protocol core stateless and bringing remote MCP servers into alignment with AWS Well-Architected Frameworkbest practices."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developer-docs.amazon.com/sp-api",
+      "final_url": "https://developer-docs.amazon/sp-api",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:35Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://developer-docs.amazon/sp-api.md",
+      "sha256": "4595117d9ddd8cb6138cefe25da4791a18b187e7e247695aff1876d0d62f1295",
+      "text_len": 16012
+    },
+    {
+      "requested_url": "https://sell.amazon.com/developers",
+      "final_url": "https://sell.amazon.com/developers",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:38Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "91f5f5fb2aa613c8e2e40a29f76b42ffcae1ec0c105aced562a367b2a1409e78",
+      "text_len": 4784
+    },
+    {
+      "requested_url": "https://sell.amazon.com/pricing",
+      "final_url": "https://sell.amazon.com/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:39Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "61f7615a30ac2d9dbac904727c802586760897e39d284b67b5af801b035dde7d",
+      "text_len": 5967
+    },
+    {
+      "requested_url": "https://docs.aws.amazon.com/partner-central/latest/developer-guide/mcp-getting-started.html",
+      "final_url": "https://docs.aws.amazon.com/partner-central/latest/developer-guide/mcp-getting-started.html",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:41Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "7a194624cad5595f2bc89426d36137af966a4e3227479eb3199f8da81dab03a3",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://advertising.amazon.com/API/docs/en-us/mcp/get-started",
+      "final_url": "https://advertising.amazon.com/API/docs/en-us/mcp/get-started",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:44Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "6f43a1f3aec692d72c06cd22538a4b72c0e146f4655e363f76a1a42910be6877",
+      "text_len": 32
+    },
+    {
+      "requested_url": "https://advertising.amazon.com/API/docs/en-us/mcp/mcp-overview",
+      "final_url": "https://advertising.amazon.com/API/docs/en-us/mcp/mcp-overview",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:45Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "6f43a1f3aec692d72c06cd22538a4b72c0e146f4655e363f76a1a42910be6877",
+      "text_len": 32
+    },
+    {
+      "requested_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/",
+      "final_url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:46Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "1f35207b9af0c55435dd3fdc8e4c21a48c503fea8d168dc12334d3cda20375bc",
+      "text_len": 1617
+    },
+    {
+      "requested_url": "https://aws.amazon.com/blogs/architecture/mcp-went-stateless-is-your-aws-mcp-server-deployment-well-architected/",
+      "final_url": "https://aws.amazon.com/blogs/architecture/mcp-went-stateless-is-your-aws-mcp-server-deployment-well-architected/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:48Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "4a09b639f72390cd6a772e6c53ad831e65b54cab39f42d09b23bc5185811428a",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://advertising.amazon.com/llms.txt",
+      "final_url": "https://advertising.amazon.com/page-not-found",
+      "status": 404,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:15:49Z",
+      "error": "HTTP 404",
+      "method": "http_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications.md",
+      "final_url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications.md",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:16:03Z",
+      "error": null,
+      "method": "raw",
+      "text_source_url": null,
+      "sha256": "47f4d662f70813a8828d43409318dbb679dc69ac3bdeccecfc5cd19b1fc0e374",
+      "text_len": 5889
+    },
+    {
+      "requested_url": "https://developer-docs.amazon/sp-api/docs/sp-api-registration-overview.md",
+      "final_url": "https://developer-docs.amazon/sp-api/docs/sp-api-registration-overview.md",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:16:04Z",
+      "error": null,
+      "method": "raw",
+      "text_source_url": null,
+      "sha256": "a0f913eed4b46fbd9517064ea973e4f9fc2452037e9f363e5b82d7b242d63a1c",
+      "text_len": 3995
+    },
+    {
+      "requested_url": "https://developer-docs.amazon/sp-api/llms.txt",
+      "final_url": "https://developer-docs.amazon/sp-api/llms.txt",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:16:04Z",
+      "error": null,
+      "method": "raw",
+      "text_source_url": null,
+      "sha256": "0e159adbcde4d313e6228662aeacaa7a91970e7023b185592d5fd511d34f9b73",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications.md",
+        "quote": "Authorization method:** [OAuth 2.0](https://oauth.net/2/) through [Login with Amazon](https://developer.amazon.com/apps-and-games/login-with-amazon) (LWA).",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://sell.amazon.com/developers",
+        "quote": "After you complete your developer profile, we’ll evaluate your information.",
+        "verified": true
+      },
+      {
+        "url": "https://developer-docs.amazon/sp-api/docs/sp-api-registration-overview.md",
+        "quote": "public developers must list their app in the Amazon Selling Partner Appstore.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer-docs.amazon/sp-api",
+        "quote": "Learn how to get started and build applications with Amazon's REST-based SP-API.",
+        "verified": true
+      }
+    ],
+    "mcp": [],
+    "verdict": [
+      {
+        "url": "https://sell.amazon.com/developers",
+        "quote": "You must have a Professional selling account and be the primary account user to create an SP-API developer profile.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://sell.amazon.com/developers",
+        "quote": "Selling Partner API (SP-API) is a REST-based API that helps Amazon sellers and vendors programmatically access their data for orders, shipments, payments, and much more.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [
+      "no verified snippet for mcp"
+    ],
+    "retried": false,
+    "validation_errors": []
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "slug": "twilio",
+  "searches": [
+    {
+      "query": "Twilio API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.twilio.com/docs/iam/credentials/api",
+          "title": "REST API: Credentials - Twilio",
+          "snippet": "To authenticate requests to the Twilio APIs, Twilio supports HTTP Basic authentication. Use your API key SID as the username and your API key secret as the password. You can create an API key in the Twilio Console or using the API. Learn more about Twilio API authentication."
+        },
+        {
+          "url": "https://www.twilio.com/docs/usage/api",
+          "title": "Twilio API overview",
+          "snippet": "Learn how to authenticate your requests to the Twilio APIs, what content type to use for API requests, and how the Twilio APIs handle webhooks."
+        },
+        {
+          "url": "https://help.twilio.com/articles/36881264279067-How-to-Use-API-Key-and-Secret-to-Authenticate-Twilio-CLI-Commands",
+          "title": "How to Use an API Key and Secret to Authenticate Twilio CLI ...",
+          "snippet": "To follow this process, you’ll need permission to view your Twilio Account SID and create API Keys in the Twilio Console. These actions require appropriate access to account-level settings."
+        },
+        {
+          "url": "https://twilio-api.readme.io/reference/authentication",
+          "title": "Authentication - twilio-api.readme.io",
+          "snippet": "The Twilio REST API uses Basic Auth to authenticate your request. You are required to set your AccountSid as username and Auth Token as password in the Authorization header for each request."
+        },
+        {
+          "url": "https://help.twilio.com/articles/223136027-Auth-Tokens-and-How-to-Change-Them",
+          "title": "How to Find Your Auth Token and How to Change It - Twilio",
+          "snippet": "Twilio uses two credentials to determine which account an API request is coming from: The Account SID, which acts as a username, and the Auth Token which acts as a password. This guide explains how to find your Auth Token, and how to change it."
+        }
+      ]
+    },
+    {
+      "query": "Twilio developer API access documentation",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.twilio.com/docs",
+          "title": "Docs: API Reference, Tutorials, and Integration | Twilio",
+          "snippet": "Reference documentation for all Twilio products. Code snippets, tutorials, and sample apps for common use cases and communications solutions."
+        },
+        {
+          "url": "https://www.twilio.com/en-us/developers",
+          "title": "Developer Hub | Twilio",
+          "snippet": "May 18, 2026 · Developer Resources Documentation Start here to see API reference documentation, SDKs in your language, and sample apps."
+        },
+        {
+          "url": "https://www.twilio.com/docs/iam/api-keys",
+          "title": "API keys overview - Twilio",
+          "snippet": "API keys are a powerful and flexible way to manage access to Twilio resources. Create individual API keys for specific purposes and individuals. You have complete control of the lifecycle of the API credentials for your Twilio Account. For example, you can issue separate API keys to different develo"
+        },
+        {
+          "url": "https://www.twilio.com/docs/usage/api",
+          "title": "Twilio API overview",
+          "snippet": "Learn how to authenticate your requests to the Twilio APIs, what content type to use for API requests, and how the Twilio APIs handle webhooks."
+        },
+        {
+          "url": "https://www.twilio.com/docs/flex/developer",
+          "title": "Flex developer documentation - Twilio",
+          "snippet": "This documentation provides reference materials and learning resources for customizing a Flex instance with code. For configuration and usage guidance, see the Administrator Guide and End User Guides."
+        }
+      ]
+    },
+    {
+      "query": "Twilio pricing plans free trial signup",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.bing.com/aclick?ld=e8xfK93ENXX7RaPKBWhMbGyzVUCUymQeyBSiPf1xbK0bF2rq1Rg8uMy60Ouy8oTHUtQmXSHGRhAnnZ-Ixuu5N70Ezv4jlEQ4GgHLqk72JK2LyOeNnP5F8se7eSLnZslTfvvaxUeHx4luHDd4VmNezdAEG7GDLStfxX49IJoKGTA_9s2p0McewiZZoaTt1IAr9iNeg91dcn1YEHnYItl70QpYN20JM&u=aHR0cHMlM2ElMmYlMmZ3d3cuYmFuZHdpZHRoLmNvbSUyZnR3aWxpby1hbHRlcm5hdGl2ZSUyZiUzZnV0bV9jb250ZW50JTNkJTI2X2J0JTNkJTI2X2JrJTNkdHdpbGlvJTI1MjBmcmVlJTI2X2JtJTNkcCUyNl9ibiUzZG8lMjZfYmclM2QxMTU3Nzg3Njc0OTY5MTU1JTI2a21jYSUzZDQ0NjczMTg1OSUyNmttYWclM2QxMTU3Nzg3Njc0OTY5MTU1JTI2bXNjbGtpZCUzZDU3ZDEzOGI1NWE2NTExNzVlOWE1NTNiMTc0NzczNTJhJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkJTI1NUJCVyUyNTVEJTI1MjBCaW5nJTI1MjAlMjU3QyUyNTIwU2VhcmNoJTI1MjAlMjU3QyUyNTIwQW1lcmljYXMlMjUyMCUyNTdDJTI1MjBVQy1DQSUyNTIwJTI1N0MlMjUyMEVOJTI1MjAlMjU3QyUyNTIwRXZlcmdyZWVuJTI1MjAlMjU3QyUyNTIwVVMlMjUyMENvbXBldGl0b3IlMjUyMCUyNTdDJTI1MjBUd2lsaW8lMjZ1dG1fdGVybSUzZHR3aWxpbyUyNTIwZnJlZSUyNnV0bV9jb250ZW50JTNkVHdpbGlvJTI1MjBFeGFjdA&rlid=57d138b55a651175e9a553b17477352a",
+          "title": "Text Messaging APIs - Scalable & Reliable - Try Free",
+          "snippet": "Alternative SMS & Voice APIs Built for Enterprise Use Cases- Try Free! Improve Quality and Reduce Cost with Our Voice and Messaging APIs. Try It Free! Save Up To 50% · Global Reach · Nationwide Network · Local & Toll-free numbers Comparison Features, Developer Tools, Pricing Models, Support Quality "
+        },
+        {
+          "url": "https://www.twilio.com/en-us/pricing",
+          "title": "Twilio Pricing | Twilio",
+          "snippet": "May 18, 2026 · Simple and flexible pricing options. Start building today with free trial credit and full API access."
+        },
+        {
+          "url": "https://www.twilio.com/en-us/user-authentication-identity/pricing",
+          "title": "Pricing - Twilio",
+          "snippet": "May 18, 2026 · See the findings Pricing Overview All Pricing Transparent pricing with discounts as you scale. Sign up for a free trial—no credit card required. Conversations Conversations Conversation Memory"
+        },
+        {
+          "url": "https://help.twilio.com/articles/55716603558939-How-do-I-choose-a-plan-when-I-create-a-Twilio-account",
+          "title": "How do I choose a plan when I create a Twilio account?",
+          "snippet": "This article explains the plan choice you are offered when you create a Twilio account — a 30-day free trial or pay as you go — so you can pick the one that suits what you are building and know what each one includes."
+        },
+        {
+          "url": "https://help.twilio.com/articles/223136107-An-Overview-of-How-Twilio-s-Free-Trial-Works",
+          "title": "An Overview of How Twilio's Free Trial Works",
+          "snippet": "Twilio offers a trial to all customers who sign up, which includes a free balance for you to experiment with. This guide is a quick primer on setting up your trial project so you can build something amazing with Twilio."
+        }
+      ]
+    },
+    {
+      "query": "Twilio official MCP server",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.twilio.com/docs/ai/mcp",
+          "title": "Twilio MCP server",
+          "snippet": "Connect AI coding agents to Twilio's API documentation with the Model Context Protocol server. Search over 1,800 endpoints and retrieve schemas on demand."
+        },
+        {
+          "url": "https://www.twilio.com/en-us/blog/introducing-twilio-alpha-mcp-server",
+          "title": "Use the Twilio Alpha MCP Server to Automate Development",
+          "snippet": "May 18, 2026 · Automate AI agent development with the Twilio Alpha MCP Server. Enhance scalability and security by integrating MCP for seamless API interactions."
+        },
+        {
+          "url": "https://mcpservers.org/servers/twilio-labs/mcp",
+          "title": "Official Twilio MCP Server | Awesome MCP Servers",
+          "snippet": "Interact with Twilio APIs to send messages, manage phone numbers, configure your account, and more. Browse Official Twilio MCP Server for Claude, Cursor,..."
+        },
+        {
+          "url": "https://mcpservers.org/servers/twilio-mcp",
+          "title": "Official Twilio Docs MCP Server | Awesome MCP Servers",
+          "snippet": "Twilio provides APIs for voice, email, SMS, RCS, identity, customer data, contact center, and conversational AI workflows. Its connector surfaces specs and code patterns so assistants can support communications and customer-engagement development."
+        },
+        {
+          "url": "https://github.com/twilio-labs/mcp",
+          "title": "GitHub - twilio-labs/mcp: Monorepo providing 1) OpenAPI to ...",
+          "snippet": "The Model Context Protocol (MCP) is a protocol for exchanging model context information between AI tools and services. This implementation allows you to expose Twilio's APIs to AI assistants and other tools that support the MCP protocol."
+        }
+      ]
+    },
+    {
+      "query": "site:twilio.com MCP",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.twilio.com/docs/ai/mcp",
+          "title": "Twilio MCP server",
+          "snippet": "Twilio MCP and Twilio Skills are available as Public Beta products, and the information contained in this document is subject to change. This means that some features are not yet implemented and others may be changed before the products are declared as Generally Available."
+        },
+        {
+          "url": "https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills",
+          "title": "Introducing the Twilio MCP Server and Skills",
+          "snippet": "May 18, 2026 · Twilio MCP server and Skills give coding agents native access to 1,800+ Twilio APIs. The MCP server helps agents search and retrieve API specs for accurate code generation."
+        },
+        {
+          "url": "https://help.twilio.com/articles/43750712673819-Twilio-MCP-Model-Context-Protocol-Availability",
+          "title": "Twilio MCP (Model Context Protocol) Availability",
+          "snippet": "You may inquire whether Twilio offers an MCP (Model Context Protocol) similar to Shopify’s MCP for enabling AI assistants to search documentation or developer resources."
+        },
+        {
+          "url": "https://www.twilio.com/en-us/blog/introducing-twilio-alpha-mcp-server",
+          "title": "Use the Twilio Alpha MCP Server to Automate Development",
+          "snippet": "May 18, 2026 · MCP enables AI agents to query servers for available tools and execute actions safely and consistently. Using MCP reduces task completion time, API calls, and human interactions, though it incurs slightly higher costs."
+        },
+        {
+          "url": "https://www.twilio.com/en-us/blog/developers/community/build-a-sendgrid-mcp-server-for-ai-email-workflows",
+          "title": "Build a SendGrid MCP Server for AI Email Workflows - Twilio",
+          "snippet": "May 18, 2026 · Before MCP, models could only suggest the next step and leave the implementation part to the user. In this article, you’ll build a local MCP server that gives your AI workflows the ability to use SendGrid for email automation."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://twilio.com",
+      "final_url": "https://www.twilio.com/en-us",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:14:16Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "c9a8859d8ece426a6aa1ed841c8fc4124c3e0335114043511fd426b22db811ed",
+      "text_len": 5168
+    },
+    {
+      "requested_url": "https://help.twilio.com/articles/36881264279067-How-to-Use-API-Key-and-Secret-to-Authenticate-Twilio-CLI-Commands",
+      "final_url": "https://help.twilio.com/articles/36881264279067-How-to-Use-API-Key-and-Secret-to-Authenticate-Twilio-CLI-Commands",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:14:16Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "158a0c28fc69c490f44b004ceffd7ecab64d9124d819698364933a7004b1c289",
+      "text_len": 65
+    },
+    {
+      "requested_url": "https://www.twilio.com/docs/flex/developer",
+      "final_url": "https://www.twilio.com/docs/flex/developer",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:14:21Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://www.twilio.com/docs/flex/developer.md",
+      "sha256": "ae8943a2f37e3f252145a9fa0bbea0a1b8e6e53331ca5f2b0968c8f0b5e3238a",
+      "text_len": 2666
+    },
+    {
+      "requested_url": "https://www.twilio.com/en-us/user-authentication-identity/pricing",
+      "final_url": "https://www.twilio.com/en-us/user-authentication-identity/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:14:23Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "38688ad3ca7ba81d7b1b6f76622171e4c33d464ff55a181dc13be83943591e71",
+      "text_len": 8380
+    },
+    {
+      "requested_url": "https://www.twilio.com/docs/ai/mcp",
+      "final_url": "https://www.twilio.com/docs/ai/mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:14:23Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "6d93316aaa063b44d0774161271005e2f1a08d0d349a6954386c095c15f13e57",
+      "text_len": 6107
+    },
+    {
+      "requested_url": "https://www.twilio.com/en-us/blog/developers/community/build-a-sendgrid-mcp-server-for-ai-email-workflows",
+      "final_url": "https://www.twilio.com/en-us/blog/developers/community/build-a-sendgrid-mcp-server-for-ai-email-workflows",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:14:24Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "336ba4a375774d0ae59fc2d153100c9d4be0ddcce7d04754c50e721fd269dbb2",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills",
+      "final_url": "https://www.twilio.com/en-us/blog/developers/introducing-twilio-mcp-skills",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:14:24Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "a0a274455342208dd24a83d3130c2f7682269b37b1a8b521f02f534f258b4907",
+      "text_len": 10715
+    },
+    {
+      "requested_url": "https://www.twilio.com/en-us/pricing",
+      "final_url": "https://www.twilio.com/en-us/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:14:25Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "bf86f06b6d0d39b8f27850b3ee3944a4593bd42ba6211300d7706d400c193072",
+      "text_len": 4570
+    },
+    {
+      "requested_url": "https://help.twilio.com/llms.txt",
+      "final_url": "https://help.twilio.com/llms.txt",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:14:25Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "158a0c28fc69c490f44b004ceffd7ecab64d9124d819698364933a7004b1c289",
+      "text_len": 65
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://www.twilio.com/en-us",
+        "quote": "Find your Account SID and Auth Token at twilio.com/console",
+        "verified": true
+      },
+      {
+        "url": "https://help.twilio.com/articles/36881264279067-How-to-Use-API-Key-and-Secret-to-Authenticate-Twilio-CLI-Commands",
+        "quote": "How to Use API Key and Secret to Authenticate Twilio CLI Commands"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.twilio.com/en-us/pricing",
+        "quote": "Sign up for a free trial—no credit card required",
+        "verified": true
+      },
+      {
+        "url": "https://www.twilio.com/en-us",
+        "quote": "Sign up for a free Twilio account and grab one of our official server-side SDKs to get started.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://www.twilio.com/docs/ai/mcp",
+        "quote": "access to Twilio's full API surface—over 1,800 endpoints across 30+ products",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://www.twilio.com/docs/ai/mcp",
+        "quote": "The server is hosted by Twilio at mcp.twilio.com/docs—point your IDE at the URL.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://www.twilio.com/en-us",
+        "quote": "Send your first text message, phone call, or email in minutes.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.twilio.com/en-us",
+        "quote": "The Twilio platform empowers humans and AI agents to work together, coordinate across channels",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [
+      {
+        "claim": "auth",
+        "url": "https://help.twilio.com/articles/36881264279067-How-to-Use-API-Key-and-Secret-to-Authenticate-Twilio-CLI-Commands",
+        "reason": "quote not in page text"
+      }
+    ],
+    "unfetched_urls": [
+      {
+        "field": "docs_url",
+        "url": "https://www.twilio.com/docs"
+      }
+    ],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

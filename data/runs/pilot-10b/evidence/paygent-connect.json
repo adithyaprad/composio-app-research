@@ -1,0 +1,311 @@
+{
+  "slug": "paygent-connect",
+  "searches": [
+    {
+      "query": "\"Paygent Connect\" NMI Finance Fintech API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.nmi.com/reference/authentication",
+          "title": "Authentication - NMI Developer Portal",
+          "snippet": "API authentication using security keys, with best practices for merchants and partners. Authentication across our APIs is done via secure API keys. These keys are assigned to specific users on your account and inherit permissions from those users, ensuring proper access control and security."
+        },
+        {
+          "url": "https://docs.paygent.to/reference/api-reference/",
+          "title": "Backend API Reference - Paygent Documentation",
+          "snippet": "REST API reference for the Paygent backend — manage products, plans, users, subscriptions, and usage events."
+        },
+        {
+          "url": "https://docs.nmi.com/docs/getting-your-api-keys",
+          "title": "Get Your API Keys - NMI Developer Portal",
+          "snippet": "Create and manage the public and private API keys that authenticate your requests. Security keys enable seamless account authentication across various products and features. Depending on your requirements, you can create and manage public and private keys directly through our portals."
+        },
+        {
+          "url": "https://docs.nmi.com/reference/getting-started",
+          "title": "Getting Started with Our APIs - docs.nmi.com",
+          "snippet": "Submit applications for automated risk review, monitor approval status in real-time, and retrieve provisioned Gateway and Merchant IDs. The API supports full lifecycle management including authentication, package configuration, and webhook notifications for application events."
+        },
+        {
+          "url": "https://docs.nmi.com/",
+          "title": "NMI Developer Documentation",
+          "snippet": "Access everything you need to create, test, and deploy payment solutions from sandbox to production. NMI’s developer tools help you build payment experiences that drive revenue and deliver results faster. Set up your first integration in minutes with our quick start guide. Complete API documentation"
+        }
+      ]
+    },
+    {
+      "query": "\"Paygent Connect\" NMI Finance Fintech developer API access documentation",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.nmi.com/",
+          "title": "NMI Developer Documentation",
+          "snippet": "Complete API documentation with example requests and responses. Ready-to-use card present libraries designed to reduce complexity. Test your integration with our full-featured sandbox environment. Build and monetize your payment solutions faster with NMI’s Developer Documentation."
+        },
+        {
+          "url": "https://docs.paygent.to/reference/api-reference/",
+          "title": "Backend API Reference - Paygent Documentation",
+          "snippet": "REST API reference for the Paygent backend — manage products, plans, users, subscriptions, and usage events."
+        },
+        {
+          "url": "https://support.nmi.com/hc/en-gb/sections/4409285378705-Payment-API",
+          "title": "Payment API – NMI",
+          "snippet": "Guides, API references and answers for merchants, developers and partners building on NMI."
+        },
+        {
+          "url": "https://docs.withpaygent.com/",
+          "title": "Quick Start | Paygent Documentation",
+          "snippet": "Get started with Paygent in less than 5 minutes. Choose your SDK and start tracking AI usage immediately. Step 1 — Get Your API Key Sign up at withpaygent.com and get your API key from the dashboard."
+        },
+        {
+          "url": "https://www.nmi.com/developers/sdks-apis/",
+          "title": "Payment Gateway SDKs & APIs for Developers | NMI",
+          "snippet": "Terminal device manufacturers can use NMI Direct Connect to pre-equip their products to work with the NMI platform. We’ll provide you with integration examples, as well as our payment gateway integration guide and API documentation."
+        }
+      ]
+    },
+    {
+      "query": "\"Paygent Connect\" NMI Finance Fintech pricing plans free trial signup",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://support.nmi.com/hc/en-gb/articles/9875459482001-Free-Trials",
+          "title": "Free Trials! – NMI",
+          "snippet": "Free trials allow merchants to use NMI’s Value-Added Service completely for free for 30 days to see if they like them with zero risk. You can now enable one of the Value-Added Service listed below as a Free Trial for your merchants from your Partner Portal."
+        },
+        {
+          "url": "https://www.g2.com/products/paygent/pricing",
+          "title": "Paygent Pricing - G2",
+          "snippet": "Jul 31, 2026 · Learn more about the cost of Paygent, different pricing plans, starting costs, free trials, and more pricing-related information provided by Paygent."
+        },
+        {
+          "url": "https://support.nmi.com/hc/en-gb",
+          "title": "NMI",
+          "snippet": "Free Trials! Drop-in components, a full RESTful API and webhooks. Explore the docs, SDKs and reference to ship faster. Open a ticket with our support team, or track the status of your existing ones. Pricing, new accounts and upgrades — talk to the sales team. Real-time uptime and incident history."
+        },
+        {
+          "url": "https://www.capterra.com/p/10022250/Payment-Gateway/",
+          "title": "NMI Payment Gateway Software Pricing, Alternatives & More ...",
+          "snippet": "Nov 9, 2026 · Pricing is customized, with individual rates set by the features required and usage. The plan includes Automatic card updater, fraud protection, Level III, payer authentication 2.0, Shopify integration, Tap to Pay, and Text to Pay."
+        },
+        {
+          "url": "https://www.g2.com/products/nmi-gateway/reviews",
+          "title": "NMI Gateway Reviews November 2026: Details, Pricing ... - G2NMI Payments Software Pricing, Alternatives & More 2026 ...NMI Review (2026): Pricing, Integrations & Alternatives | ERP ...",
+          "snippet": "NMI Gateway is a white-label, omnichannel payment platform built for software providers, ISOs, and financial institutions that want to deliver secure, scalable, and customizable payment acceptance to their merchants and clients. Oct 19, 2026 · With the help of Capterra, learn about NMI Payments Soft"
+        }
+      ]
+    },
+    {
+      "query": "\"Paygent Connect\" NMI Finance Fintech official MCP server",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.nmi.com/products/payment-gateway/bill-connect/",
+          "title": "Bill Connect - NMI",
+          "snippet": "Bill Connect integrates payment acceptance directly into accounting software like QuickBooks® and Xero®. This streamlined solution simplifies accounts receivable by eliminating the need for expensive, complex ERP systems, so merchants can save time and partners can realize greater revenue."
+        },
+        {
+          "url": "https://www.nmi.com/",
+          "title": "Embedded Payments Platform for ISOs & SaaS | NMI",
+          "snippet": "Learn how to best support your business with NMI's embedded payment solutions. Integrate secure payments to create a smooth transaction experience. Read now!"
+        },
+        {
+          "url": "https://www.nmi.com/logins/",
+          "title": "Login to the NMI Payment Gateway: Access Our Portals",
+          "snippet": "Login to the NMI Merchants Portal, Partner Portal, WebMIS (Creditcall), and USAePay Console to manage payment processing and more. Access your portal now!"
+        },
+        {
+          "url": "https://gopaygent.com/",
+          "title": "Paygent | Merchant Payments and Tapn Tap-to-Pay Solutions",
+          "snippet": "Build marketplace payments, revenue sharing, and automated onboarding with Paygent Connect. Enterprise-grade security, compliance, and dedicated support for large-scale payment operations. See what engineering leaders and operators say about Paygent. \" Paygent cut our payment processing costs by 38%"
+        },
+        {
+          "url": "https://paygent.uk/",
+          "title": "Paygent | AI-Powered Payment Orchestration on Cronos",
+          "snippet": "MCP-compatible marketplace for AI agents to discover x402-enabled services nearby. Direct connections to Cronos DeFi protocols via specialized subagents for trading. From automated trading to API monetization, Paygent powers the next generation of autonomous financial operations."
+        }
+      ]
+    },
+    {
+      "query": "Paygent Connect NMI payment gateway API documentation",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://docs.nmi.com/",
+          "title": "NMI Developer Documentation",
+          "snippet": "Complete API documentation with example requests and responses. Ready-to-use card present libraries designed to reduce complexity. Test your integration with our full-featured sandbox environment. Build and monetize your payment solutions faster with NMI’s Developer Documentation."
+        },
+        {
+          "url": "https://docs.paygent.to/reference/api-reference/",
+          "title": "Backend API Reference - Paygent Documentation",
+          "snippet": "REST API reference for the Paygent backend — manage products, plans, users, subscriptions, and usage events."
+        },
+        {
+          "url": "https://docs.nmi.com/reference/getting-started",
+          "title": "Getting Started with Our APIs - docs.nmi.com",
+          "snippet": "Essential information and resources to help developers integrate our payment solutions into their apps. Payment processing, data reporting, and more."
+        },
+        {
+          "url": "https://www.nmi.com/developers/sdks-apis/",
+          "title": "Payment Gateway SDKs & APIs for Developers | NMI",
+          "snippet": "Terminal device manufacturers can use NMI Direct Connect to pre-equip their products to work with the NMI platform. We’ll provide you with integration examples, as well as our payment gateway integration guide and API documentation."
+        },
+        {
+          "url": "https://support.nmi.com/hc/en-gb/sections/4409285378705-Payment-API",
+          "title": "Payment API – NMI",
+          "snippet": "Guides, API references and answers for merchants, developers and partners building on NMI."
+        }
+      ]
+    },
+    {
+      "query": "Paygent Connect NMI Network Merchants integration",
+      "provider": "ddgs:google",
+      "results": [
+        {
+          "url": "https://www.nmi.com/",
+          "title": "Embedded Payments Platform for ISOs & SaaS | NMI",
+          "snippet": "Learn how to best support your business with NMI's embedded payment solutions. Integrate secure payments to create a smooth transaction experience. Read now!"
+        },
+        {
+          "url": "https://help.konnectd.io/en/articles/605-network-merchants-inc-integration",
+          "title": "Network Merchants Inc. Integration | Konnectd",
+          "snippet": "NMI's payment gateway allows merchants to accept credit card and eCheck payments from their customers through multiple channels, including websites, mobile apps, and in-person point-of-sale systems. In this article, we will go over what this integration has to offer and how to set it up."
+        },
+        {
+          "url": "https://www.nmi.com/products/payment-gateway/bill-connect/",
+          "title": "Bill Connect - NMI",
+          "snippet": "By integrating the ability to manage invoices, bulk payments, and payment reconciliation within one unified portal, Bill Connect can reduce workloads for merchants and add revenue streams for you."
+        },
+        {
+          "url": "https://docs.nmi.com/docs/third-party-integrations",
+          "title": "Third Party Integrations - docs.nmi.com",
+          "snippet": "Browse third-party software that integrates with our gateway, grouped by category. The third-party integrations listed below are provided for informational purposes only. These integrations are not developed, maintained, or supported by NMI."
+        },
+        {
+          "url": "https://support.nmi.com/hc/en-gb/sections/360000429111-Device-Integrations",
+          "title": "Device Integrations – NMI",
+          "snippet": "Guides, API references and answers for merchants, developers and partners building on NMI."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.paygent.to/reference/api-reference/",
+      "final_url": "https://docs.paygent.to/reference/api-reference/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:16:02Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "ec8b53a459d3a9b2cf716d538de04cb07e9d77079540cfeeff746a2d5da2f821",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://www.g2.com/products/paygent/pricing",
+      "final_url": "https://www.g2.com/products/paygent/pricing",
+      "status": 403,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:16:03Z",
+      "error": "HTTP 403",
+      "method": "http_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://gopaygent.com/",
+      "final_url": "https://gopaygent.com/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:16:03Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "c233f0a09808967b0c9a94cee5a919e493b05b940e9d32d9ac5dbf33a7467d72",
+      "text_len": 66
+    },
+    {
+      "requested_url": "https://docs.withpaygent.com/",
+      "final_url": "https://docs.withpaygent.com/documentation/getting-started/quick-start",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:16:06Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "8aeb79651b250f6fb22a943be3e0b3083b364cf93385c20e7fc1dd5176d3cd1d",
+      "text_len": 2476
+    },
+    {
+      "requested_url": "https://paygent.uk/",
+      "final_url": "https://paygent.uk/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:16:06Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "603fd02f356d1bb9f66089edf6129d88680ca4b378bf26e325409d5f49fed297",
+      "text_len": 52
+    },
+    {
+      "requested_url": "https://docs.paygent.to/llms.txt",
+      "final_url": "https://docs.paygent.to/llms.txt",
+      "status": 404,
+      "provider": "http",
+      "fetched_at": "2026-11-23T12:16:52Z",
+      "error": "HTTP 404",
+      "method": "http_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "quote": "Bearer token in Authorization: Bearer pg_live_... header.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://gopaygent.com/",
+        "quote": "Paygent | The Premier Stripe & PayPal Alternative for API Payments",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.withpaygent.com/documentation/getting-started/quick-start",
+        "quote": "Get started with Paygent in less than 5 minutes. Choose your SDK and start tracking AI usage immediately.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "quote": "The Paygent backend exposes a small REST API.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://paygent.uk/",
+        "quote": "Paygent | AI-Powered Payment Orchestration on Cronos",
+        "verified": true
+      }
+    ],
+    "one_liner": []
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}
