@@ -21,7 +21,7 @@ Identity fields (`id`, `slug`, `name`, `category`) are copied from the CSV. `com
 
 ### Auth
 
-- **auth_methods** — every documented way to authenticate requests to the product's **own developer API**. List all that apply. Do not list OAuth that only applies to an MCP server, or website / dashboard / SSO login. Mention those in `notes` if they differ. Use `unknown` alone when auth cannot be determined.
+- **auth_methods** — every documented way to authenticate requests to the product's **own developer API**. List all that apply. Do not list OAuth that only applies to an MCP server, or website / dashboard / SSO login. Mention those in `notes` if they differ. A dashboard secret used only as the `client_secret` in an OAuth token request is not a separate `api_key` method. HTTP Basic used only to transport an API key or token is not a separate `basic` method. Use `unknown` alone when auth cannot be determined.
 - **primary_auth** — the API auth method a multi-tenant agent toolkit would implement first. Prefer `oauth2` only when OAuth2 is a documented way to call the product's API itself; otherwise use the most common documented API method. Must be one of `auth_methods`.
 
 ### Access (how a developer gets credentials)
@@ -76,7 +76,7 @@ Identity fields (`id`, `slug`, `name`, `category`) are copied from the CSV. `com
 |---|---|
 | `oauth2` | OAuth 2.0 (authorization code, client credentials, or similar). |
 | `api_key` | A developer-generated secret: API keys, personal access tokens, and dashboard tokens. These are lumped together so labelers do not argue “key vs token”. |
-| `basic` | HTTP Basic (username and password, or username and API key sent as Basic). |
+| `basic` | HTTP Basic with a username and password (or equivalent user login). Sending an API key or token via the Basic scheme is still `api_key` (or `oauth2` for an OAuth access token), not this value. |
 | `jwt_service_account` | Signed JWT, service-account JSON key, or similar machine credential that is not a static API key. |
 | `custom_other` | A documented vendor-specific scheme that does not fit the above (HMAC signatures, mutual TLS, proprietary handshakes). Explain in `notes`. Not for "we could not tell". |
 | `none` | No auth required (public or local tool). Use this value alone. |
@@ -90,7 +90,7 @@ These values describe auth for the product's developer API only. OAuth used only
 |---|---|
 | `self_serve` | A developer can create an account and get credentials alone, for free or on a trial, with no sales conversation. |
 | `self_serve_paid` | Same, but API access requires a paid plan the developer can buy without talking to sales, and with no human vendor review. A free trial that already includes API access is `self_serve`, not this. |
-| `gated_partner` | Usable credentials, or permission to call the API as a third-party / multi-tenant app, require manual vendor review: a partner program, app review, developer-profile approval, or a mandatory app-store listing (e.g. Apple App Store Connect or Google Play Console, where a paid developer account can be bought online but shipping an app still requires the vendor's review). A paid seller/developer account does not make it `self_serve_paid` if that review is also required. |
+| `gated_partner` | Usable credentials, or permission to call the API as a third-party / multi-tenant app, require manual vendor review: a partner program, app review, developer-profile approval, or a mandatory app-store listing (e.g. Apple App Store Connect or Google Play Console, where a paid developer account can be bought online but shipping an app still requires the vendor's review). A paid seller/developer account does not make it `self_serve_paid` if that review is also required. If a self-serve path to usable API credentials already exists (for example a personal token after buying a plan online), keep `self_serve` or `self_serve_paid` even when a separate OAuth app-registration path may be reviewed. |
 | `gated_sales` | Credentials require contacting sales, an enterprise contract, a waitlist, or manual vendor approval that is not a self-serve checkout. |
 | `no_public_api` | No documented public API a third-party developer can call. |
 
