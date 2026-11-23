@@ -1,0 +1,570 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/adithyaprad/composio-app-research/schema/app_row.schema.json",
+  "title": "App research row",
+  "description": "One researched app. Input identity comes from data/apps.csv. Every non-trivial claim must include at least one evidence URL.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "category",
+    "one_liner",
+    "auth_methods",
+    "primary_auth",
+    "access",
+    "api_types",
+    "has_public_docs",
+    "api_breadth",
+    "docs_url",
+    "mcp_status",
+    "mcp_url",
+    "verdict",
+    "blocker",
+    "evidence",
+    "confidence",
+    "requires_end_user_admin",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100,
+      "description": "Stable id from data/apps.csv."
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Stable kebab-case slug from data/apps.csv."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "App name as listed in the research set."
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "crm_and_sales",
+        "support_and_helpdesk",
+        "communications_and_messaging",
+        "marketing_ads_email_social",
+        "ecommerce",
+        "data_seo_and_scraping",
+        "developer_infra_and_data",
+        "productivity_and_project_management",
+        "finance_and_fintech",
+        "ai_research_and_media"
+      ],
+      "description": "Category slug; must match data/apps.csv."
+    },
+    "one_liner": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 240,
+      "description": "What the product does, in one sentence."
+    },
+    "auth_methods": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "oauth2",
+          "api_key",
+          "basic",
+          "jwt_service_account",
+          "custom_other",
+          "none"
+        ]
+      },
+      "description": "All documented developer auth methods. Use none alone when no auth is required."
+    },
+    "primary_auth": {
+      "type": "string",
+      "enum": [
+        "oauth2",
+        "api_key",
+        "basic",
+        "jwt_service_account",
+        "custom_other",
+        "none"
+      ],
+      "description": "The method a multi-tenant agent toolkit would implement first. Prefer oauth2 when it is a documented option; otherwise the most common documented method. Must appear in auth_methods."
+    },
+    "access": {
+      "type": "string",
+      "enum": [
+        "self_serve",
+        "self_serve_paid",
+        "gated_partner",
+        "gated_sales",
+        "no_public_api"
+      ],
+      "description": "How a developer obtains API credentials from the vendor."
+    },
+    "api_types": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "rest",
+          "graphql",
+          "soap",
+          "sdk_only",
+          "webhook_only",
+          "cli_only",
+          "none"
+        ]
+      },
+      "description": "Documented API styles. Use none alone when there is no callable public interface."
+    },
+    "has_public_docs": {
+      "type": "boolean",
+      "description": "True if official public API or developer docs exist."
+    },
+    "api_breadth": {
+      "type": "string",
+      "enum": [
+        "narrow",
+        "moderate",
+        "broad",
+        "unknown"
+      ],
+      "description": "Rough useful surface area, not a precise endpoint count."
+    },
+    "docs_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri",
+      "description": "Best official docs entry point. Null only when has_public_docs is false."
+    },
+    "mcp_status": {
+      "type": "string",
+      "enum": [
+        "official",
+        "community",
+        "none"
+      ],
+      "description": "Whether an MCP server exists. official wins if both official and community exist."
+    },
+    "mcp_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri",
+      "description": "URL of the MCP server, repo, or official announcement. Required when mcp_status is not none; null when none."
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "buildable_now",
+        "buildable_with_approval",
+        "not_buildable"
+      ]
+    },
+    "blocker": {
+      "type": "string",
+      "enum": [
+        "none",
+        "no_public_api",
+        "gated_access",
+        "auth_undocumented",
+        "docs_insufficient",
+        "api_too_narrow",
+        "terms_restrict_automation",
+        "preview_or_unstable",
+        "other"
+      ],
+      "description": "Main reason the app is not buildable_now. Must be none iff verdict is buildable_now."
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "auth",
+        "access",
+        "api_surface",
+        "mcp",
+        "verdict"
+      ],
+      "properties": {
+        "one_liner": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "url",
+              "source_type"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "minLength": 1
+              },
+              "source_type": {
+                "type": "string",
+                "enum": [
+                  "official_docs",
+                  "official_other",
+                  "community",
+                  "news",
+                  "other"
+                ]
+              },
+              "note": {
+                "type": "string",
+                "description": "Optional short quote or why this URL supports the claim."
+              }
+            }
+          },
+          "description": "Optional. Homepage or product page is enough."
+        },
+        "auth": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "url",
+              "source_type"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "minLength": 1
+              },
+              "source_type": {
+                "type": "string",
+                "enum": [
+                  "official_docs",
+                  "official_other",
+                  "community",
+                  "news",
+                  "other"
+                ]
+              },
+              "note": {
+                "type": "string",
+                "description": "Optional short quote or why this URL supports the claim."
+              }
+            }
+          }
+        },
+        "access": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "url",
+              "source_type"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "minLength": 1
+              },
+              "source_type": {
+                "type": "string",
+                "enum": [
+                  "official_docs",
+                  "official_other",
+                  "community",
+                  "news",
+                  "other"
+                ]
+              },
+              "note": {
+                "type": "string",
+                "description": "Optional short quote or why this URL supports the claim."
+              }
+            }
+          }
+        },
+        "api_surface": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "url",
+              "source_type"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "minLength": 1
+              },
+              "source_type": {
+                "type": "string",
+                "enum": [
+                  "official_docs",
+                  "official_other",
+                  "community",
+                  "news",
+                  "other"
+                ]
+              },
+              "note": {
+                "type": "string",
+                "description": "Optional short quote or why this URL supports the claim."
+              }
+            }
+          }
+        },
+        "mcp": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "url",
+              "source_type"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "minLength": 1
+              },
+              "source_type": {
+                "type": "string",
+                "enum": [
+                  "official_docs",
+                  "official_other",
+                  "community",
+                  "news",
+                  "other"
+                ]
+              },
+              "note": {
+                "type": "string",
+                "description": "Optional short quote or why this URL supports the claim."
+              }
+            }
+          }
+        },
+        "verdict": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "url",
+              "source_type"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "minLength": 1
+              },
+              "source_type": {
+                "type": "string",
+                "enum": [
+                  "official_docs",
+                  "official_other",
+                  "community",
+                  "news",
+                  "other"
+                ]
+              },
+              "note": {
+                "type": "string",
+                "description": "Optional short quote or why this URL supports the claim."
+              }
+            }
+          }
+        }
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "description": "Overall confidence in the row, driven by evidence quality."
+    },
+    "requires_end_user_admin": {
+      "type": "boolean",
+      "description": "True when a customer workspace/org admin must approve install. This is not a vendor access gate."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Caveats, secondary blockers, or ambiguity. Required and non-empty when blocker is other."
+    }
+  },
+  "allOf": [
+    {
+      "description": "blocker is none iff verdict is buildable_now.",
+      "if": {
+        "properties": {
+          "verdict": {
+            "const": "buildable_now"
+          }
+        },
+        "required": [
+          "verdict"
+        ]
+      },
+      "then": {
+        "properties": {
+          "blocker": {
+            "const": "none"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "blocker": {
+            "not": {
+              "const": "none"
+            }
+          }
+        }
+      }
+    },
+    {
+      "description": "docs_url is null iff has_public_docs is false.",
+      "if": {
+        "properties": {
+          "has_public_docs": {
+            "const": false
+          }
+        },
+        "required": [
+          "has_public_docs"
+        ]
+      },
+      "then": {
+        "properties": {
+          "docs_url": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "docs_url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    {
+      "description": "mcp_url is null iff mcp_status is none.",
+      "if": {
+        "properties": {
+          "mcp_status": {
+            "const": "none"
+          }
+        },
+        "required": [
+          "mcp_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "mcp_url": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "mcp_url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    {
+      "description": "If auth_methods includes none, it must be the only value.",
+      "if": {
+        "properties": {
+          "auth_methods": {
+            "contains": {
+              "const": "none"
+            }
+          }
+        },
+        "required": [
+          "auth_methods"
+        ]
+      },
+      "then": {
+        "properties": {
+          "auth_methods": {
+            "maxItems": 1
+          }
+        }
+      }
+    },
+    {
+      "description": "If api_types includes none, it must be the only value.",
+      "if": {
+        "properties": {
+          "api_types": {
+            "contains": {
+              "const": "none"
+            }
+          }
+        },
+        "required": [
+          "api_types"
+        ]
+      },
+      "then": {
+        "properties": {
+          "api_types": {
+            "maxItems": 1
+          }
+        }
+      }
+    },
+    {
+      "description": "blocker other requires non-empty notes.",
+      "if": {
+        "properties": {
+          "blocker": {
+            "const": "other"
+          }
+        },
+        "required": [
+          "blocker"
+        ]
+      },
+      "then": {
+        "properties": {
+          "notes": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  ]
+}
