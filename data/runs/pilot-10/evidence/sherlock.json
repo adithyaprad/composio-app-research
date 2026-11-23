@@ -1,0 +1,306 @@
+{
+  "slug": "sherlock",
+  "searches": [
+    {
+      "query": "Sherlock API authentication",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://app.sherlock.sh/reference",
+          "title": "Sherlock API Reference",
+          "snippet": "Oct 15, 2026 · Sherlock checks interview integrity only: is it a live person, the person you expected, a real person (not a deepfake), and are they answering on their own. It does not assess skills."
+        },
+        {
+          "url": "https://docs.cloudferro.com/en/latest/sherlock/Sherlock-authentication-API-keys-on-CloudFerro-Cloud.html",
+          "title": "Authenticate to Sherlock AI with API keys on CloudFerro Cloud",
+          "snippet": "Sherlock AI uses API keys to authenticate programmatic requests to AI models. You create API keys inside a Sherlock AI project in the control panel and then use them from your application, automation script, or backend service."
+        },
+        {
+          "url": "https://apitracker.io/a/sherlock",
+          "title": "Sherlock API - Docs, SDKs & Integration",
+          "snippet": "Complete Sherlock API documentation and developer resources. Enable your AI agents to search, buy, and manage domains with just two lines of code.... Explore Sh."
+        },
+        {
+          "url": "https://api-audit-engine.sherlock.xyz/v1/docs/public",
+          "title": "Sherlock Audit Engine API",
+          "snippet": "The Sherlock Audit Engine API lets you manage your participation in security audit runs: list your engagements, accept an invite, download the run scope, and submit findings. Send your API key in the X-API-Key header on every request."
+        },
+        {
+          "url": "https://apify.com/misceres/sherlock/api",
+          "title": "Sherlock API · Apify",
+          "snippet": "Learn how to interact with Sherlock via API. Includes an example code snippet for your convenience."
+        }
+      ]
+    },
+    {
+      "query": "Sherlock developer API access documentation",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://developer.synopsys.com/docs/sherlock-apis-2025-r2/index.md",
+          "title": "Introduction | Ansys Developer Portal",
+          "snippet": "Jul 17, 2025 · This allows users with programming experience to access some of Sherlock's internal functions, making it easier, for example, to integrate Sherlock's capabilities with other applications."
+        },
+        {
+          "url": "https://developer.synopsys.com/docs/sherlock",
+          "title": "Ansys Sherlock for developers | Ansys Developer Portal",
+          "snippet": "Sherlock APIs Automate and customize workflows by accessing key functions such as importing ECAD files, managing lifecycles, performing stackup operations, updating parts lists, exporting models, and running advanced analyses."
+        },
+        {
+          "url": "https://sher-lock.readthedocs.io/en/latest/api_documentation.html",
+          "title": "API Documentation — Sherlock 0.3.0 documentation",
+          "snippet": "sherlock provides generic locks that can be globally configured to use a specific backend, so that most of your application code does not have to care about which backend you are using for lock synchronization and makes it easy to change backend without changing a ton of code."
+        },
+        {
+          "url": "https://ansyshelp.ansys.com/public//Views/Secured/corp/v242/en/sherlock_ug/Sherlock_ch06_API_Services.html",
+          "title": "Chapter 12: API Services - ansyshelp.ansys.com",
+          "snippet": "This chapter includes all the information you need to set up and start using the APIs. Previous experience using gRPC is not required, but the information in this chapter assumes you have some programming experience in one of the following languages: Android Java, C#/.NET, C++, Dart, Go, Java, Kotli"
+        },
+        {
+          "url": "https://ansyshelp.ansys.com/public//Views/Secured/corp/v251/en/sherlock_ug/Sherlock_ch06_API_Services.html",
+          "title": "Chapter 12: API Services - ansyshelp.ansys.com",
+          "snippet": "Beginning with release 2025 R1, Sherlock APIs are now available online at the Ansys DevPortal where you will find:"
+        }
+      ]
+    },
+    {
+      "query": "Sherlock pricing plans free trial signup",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.spotsaas.com/product/sherlock/pricing",
+          "title": "Sherlock Pricing 2026: Free Trial Reviewed — Then What?",
+          "snippet": "May 18, 2026 · Does Sherlock have a free plan? Sherlock does not have a permanently free plan, but it does offer a free trial so you can evaluate the product before committing to a paid subscription."
+        },
+        {
+          "url": "https://help.sherlock.sh/en/articles/16538333-how-to-get-started-and-access-your-7-day-free-trial",
+          "title": "How to Get Started and Access Your 7-Day Free Trial",
+          "snippet": "Aug 26, 2026 · This guide walks you through authenticating your account and accessing your 7-day free trial, which includes 2 free interview credits."
+        },
+        {
+          "url": "https://www.sherlock.sh/pricing",
+          "title": "Pricing - Sherlock AI",
+          "snippet": "Explore Sherlock AI pricing plans for interview integrity, AI cheating detection, deepfake detection, and secure remote hiring."
+        },
+        {
+          "url": "https://sherlocksuite.com/signup",
+          "title": "Create your Sherlock account | Sherlock",
+          "snippet": "Create one Sherlock account for computers, people, network discovery, helpdesk, AI governance, and training."
+        },
+        {
+          "url": "https://www.g2.com/products/sherlock/pricing",
+          "title": "Sherlock Pricing - G2",
+          "snippet": "Apr 9, 2026 · Learn more about the cost of Sherlock, different pricing plans, starting costs, free trials, and more pricing-related information provided by Sherlock."
+        }
+      ]
+    },
+    {
+      "query": "Sherlock MCP server",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://github.com/Burnsedia/sherlock-mcp",
+          "title": "GitHub - Burnsedia/sherlock-mcp: Sherlock MCP Server: Find ...",
+          "snippet": "Jan 10, 2026 · Experience the power of OSINT username searching with this MCP server. Connect to your favorite MCP-compatible AI assistant and query social media presence instantly."
+        },
+        {
+          "url": "https://www.nuget.org/packages/Sherlock.MCP.Server",
+          "title": "NuGet Gallery | Sherlock.MCP.Server 2.15.0",
+          "snippet": "You have access to an MCP server named \"sherlock\" that can analyze .NET assemblies. Prefer these tools for .NET questions and include short reasoning for which tool you chose."
+        },
+        {
+          "url": "https://github.com/p1atdev/sherlock-mcp",
+          "title": "GitHub - p1atdev/sherlock-mcp",
+          "snippet": "Sherlock MCP Server A MCP server to search social accounts across multiple platforms using sherlock."
+        },
+        {
+          "url": "https://pypi.org/project/sherlock-mcp/",
+          "title": "sherlock-mcp · PyPI",
+          "snippet": "Feb 11, 2026 · Since MCP servers run over stdio, debugging can be challenging. For the best debugging experience, we strongly recommend using the MCP Inspector. You can launch the MCP Inspector via npm with this command: Upon launching, the Inspector will display a URL that you can access in your br"
+        },
+        {
+          "url": "https://apify.com/misceres/sherlock/api/mcp",
+          "title": "Sherlock MCP server · Apify",
+          "snippet": "Learn how to interact with Sherlock via Model Context Protocol (MCP) Server for AI Integration. Includes an example code snippet to help you get started..."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://github.com/sherlock-project/sherlock",
+      "final_url": "https://github.com/sherlock-project/sherlock",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:10Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "2fb6bd3aa8c33e38376fc5b6badc15736664e5a753f2f31c28fd590463b755fe",
+      "text_len": 3446
+    },
+    {
+      "requested_url": "https://api-audit-engine.sherlock.xyz/v1/docs/public",
+      "final_url": "https://api-audit-engine.sherlock.xyz/v1/docs/public",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:10Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "487bf24976f96a99b1188e993770dffc7fd7e360b8c927ad117684f71020b3d2",
+      "text_len": 25
+    },
+    {
+      "requested_url": "https://sher-lock.readthedocs.io/en/latest/api_documentation.html",
+      "final_url": "https://sher-lock.readthedocs.io/en/latest/api_documentation.html",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:10Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "0439d3babe507dead097cdb51c2c59c78c1067bd1097accbb21d173fb076c702",
+      "text_len": 18074
+    },
+    {
+      "requested_url": "https://www.sherlock.sh/pricing",
+      "final_url": "https://www.sherlock.sh/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:12Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "22269b7cd22b0da6a842984c52eb41d54a5ae498c83a77c43fa5ad466a61e559",
+      "text_len": 3866
+    },
+    {
+      "requested_url": "https://github.com/Burnsedia/sherlock-mcp",
+      "final_url": "https://github.com/Burnsedia/sherlock-mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:13Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "5dcec798ae77a89123fafd8e6031fcf15798b852e0bfd4436d815ce53a0a26e9",
+      "text_len": 4755
+    },
+    {
+      "requested_url": "https://github.com/p1atdev/sherlock-mcp",
+      "final_url": "https://github.com/p1atdev/sherlock-mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:14Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "975c475a2d5929135247e53fe04746fc956cd23721c380349fbe8d1179699363",
+      "text_len": 3118
+    },
+    {
+      "requested_url": "https://sherlocksuite.com/signup",
+      "final_url": "https://dashboard.sherlocksuite.com/signup",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:14Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "26b32538ca2dbe10e7e9539f6fc5b85a35ca482be0832330b07b964d5ae3534c",
+      "text_len": 1397
+    },
+    {
+      "requested_url": "https://app.sherlock.sh/reference",
+      "final_url": "https://app.sherlock.sh/reference",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:16Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "497cd8016ac64d8b9873e5f37b51a0762d824faa72b7e0568e89b853ad4c3040",
+      "text_len": 22
+    },
+    {
+      "requested_url": "https://api-audit-engine.sherlock.xyz/llms.txt",
+      "final_url": "https://api-audit-engine.sherlock.xyz/llms.txt",
+      "status": 404,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:57:16Z",
+      "error": "HTTP 404",
+      "method": "http_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "sherlock user123",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "pipx install sherlock-project",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "MIT © Sherlock Project",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "Hunt down social media accounts by username across 400+ social networks",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "Accounts found will be stored in an individual text file with the corresponding username",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://github.com/Burnsedia/sherlock-mcp",
+        "quote": "FastMCP server integration for the Sherlock OSINT tool",
+        "verified": true
+      },
+      {
+        "url": "https://github.com/p1atdev/sherlock-mcp",
+        "quote": "A MCP server to search social accounts across multiple platforms using sherlock.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "docker run -it --rm sherlock/sherlock",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "Hunt down social media accounts by username across 400+ social networks",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

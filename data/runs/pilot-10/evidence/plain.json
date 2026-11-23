@@ -1,0 +1,294 @@
+{
+  "slug": "plain",
+  "searches": [
+    {
+      "query": "Plain API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.plain.com/docs/graphql/authentication",
+          "title": "Authentication - Plain Docs",
+          "snippet": "Authentication Create a machine user and an API key, and scope it with fine-grained permissions. A machine user can have several API keys, so you can rotate them without downtime. Each API key carries its own fine-grained permissions. To call the API as a user in your workspace, use an OAuth app."
+        },
+        {
+          "url": "https://docs.plainid.io/apidocs/authentication",
+          "title": "Authentication - docs.plainid.io",
+          "snippet": "Nov 29, 2023 · API Client Credentials are used to authorize Management APIs in the Authorization Platform. To use these APIs, the request must be authenticated and authorized with the relevant permissions."
+        },
+        {
+          "url": "https://docs.plainid.io/apidocs/authorization-apis",
+          "title": "Authorization API",
+          "snippet": "Jul 12, 2023 · PlainID authorization endpoints are designed to support those requests, providing the Application the flexibility it requires to enforce access. To determine which Authorization API to use, you must understand your Application access patterns."
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/ethical-hacking/what-is-api-authentication-definition-and-working/",
+          "title": "API Authentication - GeeksforGeeks",
+          "snippet": "May 19, 2026 · API Authentication is the process of verifying the identity of a user or system trying to access an API. It ensures that only authorized clients can interact with the API and its data."
+        },
+        {
+          "url": "https://plainwebanalytics.com/docs/api/authentication",
+          "title": "API Authentication - Plain Web Analytics",
+          "snippet": "Learn how to authenticate with the Plain Web Analytics API using JWT tokens or API keys."
+        }
+      ]
+    },
+    {
+      "query": "Plain developer API access documentation",
+      "provider": "ddgs:google",
+      "results": [
+        {
+          "url": "https://docs.plainid.io/docs/developer-portal",
+          "title": "Developer Portal - docs.plainid.io",
+          "snippet": "May 15, 2023 · This page provides developers with quick links to the Developer Portal, which they can use to integrate into PlainID’s Identity and Access Management (IAM) solutions."
+        },
+        {
+          "url": "https://docs.plainid.io/v1-api",
+          "title": "PlainID Developer Portal",
+          "snippet": "This material is made available as-is, without any implied warranties, all of which are hereby disclaimed, and PlainID Ltd. shall have no liability in relation hereto. All brand names, product names and trademarks are the property of their respective owners."
+        },
+        {
+          "url": "https://www.plain.com/docs/graphql/introduction",
+          "title": "Introduction - Plain Docs",
+          "snippet": "These docs cover the most used operations. For anything not documented here, read the schema or get in touch. If you’re looking to access our GraphQL API from an Agent, try our MCP Server instead. For TypeScript, the GraphQL SDK gives you a fully typed client for these operations."
+        },
+        {
+          "url": "https://apitracker.io/a/plain",
+          "title": "Plain API - Docs, SDKs & Integration",
+          "snippet": "Complete Plain API documentation and developer resources. Fast, modern and flexible customer support for the companies defining the next decade. Instant setup.."
+        },
+        {
+          "url": "https://developer.nlr.gov/docs/",
+          "title": "APIs & Documentation | NLR: Developer Network - NREL",
+          "snippet": "A collection of APIs providing data related to energy technologies, experts, and patents associated with the Department of Energy's (DOE) Lab Partnering Service (LPS)."
+        }
+      ]
+    },
+    {
+      "query": "Plain pricing plans free trial signup",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://www.plain.com/pricing",
+          "title": "Plain Pricing — Plans from $45/user/month | 7-Day Free Trial",
+          "snippet": "Foundation is $45/user/month, Horizon is $99/user/month, and Frontier is custom. Horizon includes 2,500 credits/month. Start with a 7-day free trial, no credit card required."
+        },
+        {
+          "url": "https://www.plain.com/get/trial",
+          "title": "Start Free Trial — Try Plain's AI Support Platform for 7 Days",
+          "snippet": "Try Plain free for 7 days, no credit card required. Unified inbox for Slack and email, Customer Agent, Linear and Jira integrations, and customer cards — all included from day one."
+        },
+        {
+          "url": "https://help.plain.com/article/pricing",
+          "title": "Plain plans and pricing | Help Center",
+          "snippet": "Oct 27, 2026 · Plain has three plans, Foundation, Horizon and Frontier, billed monthly or annually with a free 7-day trial. Viewer seats are free on every plan."
+        },
+        {
+          "url": "http://theplainpapers.com/pricing.html",
+          "title": "Plain Pricing — Plans from $35/seat/month | No AI Fees, 14 ...",
+          "snippet": "Three plans for B2B support teams: Foundation at $35/seat/month, Horizon at $89/seat/month, and custom Frontier. Ari AI agent included on every plan — no per-resolution surprises. Start free, no credit card required."
+        },
+        {
+          "url": "https://toolradar.com/tools/plain/pricing",
+          "title": "Plain Pricing 2026: Plans, Hidden Costs & Alternatives",
+          "snippet": "Nov 2, 2026 · Plain's own pricing page (https://plain.com/pricing, read November 2, 2026) does list a 14-day free trial, so you can start without a code. Offers change, so confirm the terms at checkout."
+        }
+      ]
+    },
+    {
+      "query": "Plain MCP server",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.plain.com/docs/integrations/mcp-server",
+          "title": "MCP server - Plain Docs",
+          "snippet": "MCP (Model Context Protocol) is an open standard that lets AI tools connect to external platforms. The Plain MCP server at https://mcp.plain.com/mcp lets tools like Claude, ChatGPT, and Cursor work with your support data directly."
+        },
+        {
+          "url": "https://www.plain.com/changelog/plain-mcp",
+          "title": "Plain's MCP",
+          "snippet": "Mar 3, 2026 · You can now connect AI tools like Claude, ChatGPT, and Cursor directly to your Plain workspace using the Plain MCP server. Once connected, your AI assistant can read threads, look up customers, check tenant details, and browse your help center."
+        },
+        {
+          "url": "https://www.gamut.so/mcp/communication/plain",
+          "title": "Plain MCP Server - gamut.so",
+          "snippet": "Connect Plain to AI agents with the Plain MCP server — what it does and how to set it up in Claude, Cursor, and Gamut."
+        },
+        {
+          "url": "https://github.com/tellahq/plain-mcp",
+          "title": "GitHub - tellahq/plain-mcp: MCP server for Plain.com support ...",
+          "snippet": "An MCP server providing comprehensive access to the Plain.com API from Claude, with 77 tools covering support threads, customers, help centers, automation, and more."
+        },
+        {
+          "url": "https://docs.inplain.app/ai/mcp",
+          "title": "MCP server - Plain",
+          "snippet": "Plain 在 agent workflow 里就是”把想清楚的东西变成一份活的 Artifact” —— agent 想清楚 + Plain 做出来,交付的是链接,不是文件。 Cursor 的 .cursorrules 加一段,让它知道 Plain 在哪。"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://plain.com",
+      "final_url": "https://www.plain.com/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:47Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "562c168e8ad9dc2952af155a02bbcf5d492b6367bab03db223526fd2b8291610",
+      "text_len": 2947
+    },
+    {
+      "requested_url": "https://www.plain.com/docs/graphql/authentication",
+      "final_url": "https://www.plain.com/docs/graphql/authentication",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:47Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://www.plain.com/docs/graphql/authentication.md",
+      "sha256": "dc118443f4336251dc8f03132f515f3b359b3cd13e4eb7d2e15edf4096b09bd9",
+      "text_len": 1714
+    },
+    {
+      "requested_url": "https://www.plain.com/docs/graphql/introduction",
+      "final_url": "https://www.plain.com/docs/graphql/introduction",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:48Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "a13634e99002683fa1179d274af4770634d425ee1d6946d2e3f216d6a9fd425a",
+      "text_len": 1610
+    },
+    {
+      "requested_url": "https://help.plain.com/article/pricing",
+      "final_url": "https://help.plain.com/article/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:49Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "24c4a7d88b00a42b0ac2e3ae9ff9207b59bdbf4f6aa67d1ef74ca042e1127130",
+      "text_len": 2874
+    },
+    {
+      "requested_url": "https://www.plain.com/docs/integrations/mcp-server",
+      "final_url": "https://www.plain.com/docs/integrations/mcp-server",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:50Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "d5b8112ab434005b765c852d1d1ea31305a7294a0e02f475195ba6616e230e19",
+      "text_len": 7852
+    },
+    {
+      "requested_url": "https://www.plain.com/pricing",
+      "final_url": "https://www.plain.com/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:52Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "0ed72eb9f024b71c103c762be18638c45467cbd318d6ec1e543939e3bcfe7e4a",
+      "text_len": 5861
+    },
+    {
+      "requested_url": "https://www.plain.com/changelog/plain-mcp",
+      "final_url": "https://www.plain.com/changelog/plain-mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:53Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "71c3fd23f4ab9169f155f866d679665a9464d01d1cb44776c7b93ce430ce1cf9",
+      "text_len": 2671
+    },
+    {
+      "requested_url": "https://www.plain.com/get/trial",
+      "final_url": "https://www.plain.com/get/trial",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:56:54Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "7fd911f9d1cb693f2f1e8c4ace7a0f67304615c3a03ca0ef2d61789dbb72a781",
+      "text_len": 325
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://www.plain.com/docs/graphql/authentication",
+        "quote": "Now that you have an API key, pass it on any API call as a header:",
+        "verified": true
+      },
+      {
+        "url": "https://www.plain.com/docs/graphql/authentication",
+        "quote": "To call the API as a user in your workspace, use an OAuth app"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.plain.com/get/trial",
+        "quote": "Start your 7 day free trial — no credit card required",
+        "verified": true
+      },
+      {
+        "url": "https://help.plain.com/article/pricing",
+        "quote": "Every plan starts with a free trial lasting 7 days, and the trial doesn't need a credit card.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://www.plain.com/docs/graphql/introduction",
+        "quote": "Plain itself is built on this same GraphQL API. This means that there are no limitations in what can be done via the API vs the UI.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://www.plain.com/docs/integrations/mcp-server",
+        "quote": "The Plain MCP server at https://mcp.plain.com/mcp lets tools like Claude, ChatGPT, and Cursor work with your support data directly.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://www.plain.com/docs/graphql/authentication",
+        "quote": "Click \"Add API key\" and select the permissions you need.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.plain.com/",
+        "quote": "Plain is the agentic platform to orchestrate customer work.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [
+      {
+        "claim": "auth",
+        "url": "https://www.plain.com/docs/graphql/authentication",
+        "reason": "quote not in page text"
+      }
+    ],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "slug": "devin",
+  "searches": [
+    {
+      "query": "Devin API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.devin.ai/api-reference/authentication",
+          "title": "Authentication - Devin Docs",
+          "snippet": "Understand principals, tokens, and how to authenticate with the Devin API The Devin API uses a principal + token model. A principal is who you are (your identity), and a token is how you prove it (your credential). Understanding this distinction is the key to choosing the right authentication method"
+        },
+        {
+          "url": "https://docs.devin.ai/cli/enterprise/devin-auth",
+          "title": "Devin Auth - Devin Docs",
+          "snippet": "Authenticate to Devin CLI with your existing Devin account, and use custom roles with the Use Devin CLI permission to control enterprise access."
+        },
+        {
+          "url": "https://mindcloud.co/docs/universal/rest/devin/latest/introduction/authentication",
+          "title": "Devin API Authentication - Universal API - mindcloud.co",
+          "snippet": "Every Devin API request through MindCloud needs two things: a MindCloud API Key and a connectionId for your Devin account. This page covers both, plus exactly how to send them, so you do not need to visit any other page to get authenticated."
+        },
+        {
+          "url": "https://devin.ai/",
+          "title": "Devin: the autonomous software engineer",
+          "snippet": "Devin is an AI coding agent and software engineer that helps developers build better software faster. Parallel cloud agents for serious engineering teams."
+        },
+        {
+          "url": "https://deepwiki.com/kevinhamza/Devin/9-api-documentation",
+          "title": "API Documentation | kevinhamza/Devin | DeepWiki",
+          "snippet": "May 13, 2025 · This document provides comprehensive technical documentation for the Devin project's RESTful API. It covers all available endpoints, authentication methods, request/response formats, and integration guidelines for developers who need to programmatically interact with Devin's services."
+        }
+      ]
+    },
+    {
+      "query": "Devin developer API access documentation",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.devin.ai/api-reference/overview",
+          "title": "API Overview - Devin Docs",
+          "snippet": "The Devin API enables you to integrate Devin into your applications, automate workflows, and build powerful tools. Use service users with role-based access control for secure, auditable API access."
+        },
+        {
+          "url": "https://docs.devin.ai/get-started/devin-intro",
+          "title": "Introducing Devin - Devin Docs - docs.devin.ai",
+          "snippet": "Devin is designed to be a conversational user interface, and allows you to follow and take over Devin’s development process in the embedded IDE. Devin is also available via the Devin API. In Devin’s Workspace, you’ll find developer tools that Devin will use to complete your task."
+        },
+        {
+          "url": "https://deepwiki.com/kevinhamza/Devin/9-api-documentation",
+          "title": "API Documentation | kevinhamza/Devin | DeepWiki",
+          "snippet": "May 13, 2025 · This document provides comprehensive technical documentation for the Devin project's RESTful API. It covers all available endpoints, authentication methods, request/response formats, and integration guidelines for developers who need to programmatically interact with Devin's services."
+        },
+        {
+          "url": "https://docs.devin.fm/",
+          "title": "Welcome to Devin | Documentation",
+          "snippet": "This documentation will guide you through using Devin, from your first setup to mastering workflows that will make your development process smoother and more secure."
+        },
+        {
+          "url": "https://devin.ai/cloud",
+          "title": "Devin Cloud | Devin",
+          "snippet": "Devin builds from specs, launches the app, clicks through user flows, and confirms behavior before opening a PR."
+        }
+      ]
+    },
+    {
+      "query": "Devin pricing plans free trial signup",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://devin.ai/pricing",
+          "title": "Plans and Pricing | Devin",
+          "snippet": "Choose the perfect plan for your Devin journey. Free, Pro, Max, Teams, and Enterprise plans available."
+        },
+        {
+          "url": "https://docs.devin.ai/desktop/accounts/usage",
+          "title": "Plans and Usage - Devin Docs",
+          "snippet": "Free trials of paid plans are not currently offered, and support cannot apply one to your account. You are welcome to subscribe directly to a paid plan, and you can request a refund before using the subscription if you change your mind."
+        },
+        {
+          "url": "https://www.aipricing.guru/subscriptions/devin-free/",
+          "title": "Devin Free Pricing (Free)",
+          "snippet": "11 hours ago · Devin Free: Free. Compare included models, usage limits, features, and official sources. Data checked 2026-11-23."
+        },
+        {
+          "url": "https://www.devin.fm/product/pricing",
+          "title": "Pricing - Devin",
+          "snippet": "Join the beta list now and get access to early-bird pricing. Devin pricing is being rethought for solo developers and teams. Pricing will be shared during the beta."
+        },
+        {
+          "url": "https://devin.ai/blog/update-to-free-plan",
+          "title": "An Update to Our Free Plan - Devin",
+          "snippet": "Apr 28, 2025 · Over the last few weeks, we have simplified our tiers and pricing, and offered access to new premium models like GPT-4.1 and o4-mini for free. We are continuing this trend of improving access to a premium AI experience by upgrading our Free tier."
+        }
+      ]
+    },
+    {
+      "query": "Devin MCP server",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+          "title": "Devin MCP - Devin Docs",
+          "snippet": "The Devin MCP server provides programmatic access to Devin’s platform capabilities for both private and public repositories. Beyond repository documentation and search, it gives any MCP-compatible AI agent or IDE full access to session management, playbooks, knowledge, and scheduling."
+        },
+        {
+          "url": "https://docs.devin.ai/cli/extensibility/mcp/configuration",
+          "title": "MCP Configuration - Devin Docs",
+          "snippet": "How to add, configure, authenticate, and troubleshoot MCP servers in Devin CLI, including stdio, Streamable HTTP, and SSE transports."
+        },
+        {
+          "url": "https://mcp.devin.ai/",
+          "title": "Devin MCP Server",
+          "snippet": "Setup Instructions: For most clients (Streamable HTTP): { \"mcpServers\": { \"deepwiki\": { \"url\": \"https://mcp.devin.ai/mcp\", \"headers\": { \"Authorization\": \"Bearer \" } } } } For Claude Code: claude mcp add -s user -t http deepwiki https://mcp.devin.ai/mcp -H \"Authorization: Bearer \" Full documentation:"
+        },
+        {
+          "url": "https://github.com/ldastey-dev/devin-mcp",
+          "title": "GitHub - ldastey-dev/devin-mcp",
+          "snippet": "Devin MCP Server A Python MCP (Model Context Protocol) server that wraps all three Devin API versions (v1, v2, v3beta1) with multi-organisation support."
+        },
+        {
+          "url": "https://github.com/desertaxle/devin-mcp",
+          "title": "GitHub - desertaxle/devin-mcp: MCP server for delegating ...",
+          "snippet": "Jan 2, 2026 · MCP server for delegating tasks to Devin AI. Contribute to desertaxle/devin-mcp development by creating an account on GitHub."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.devin.ai",
+      "final_url": "https://docs.devin.ai/get-started/devin-intro",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:12Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "367cce078db9d8e907a685e047dad53c508c27038a96b907aa691597c01c1b06",
+      "text_len": 3320
+    },
+    {
+      "requested_url": "https://docs.devin.ai/api-reference/authentication",
+      "final_url": "https://docs.devin.ai/api-reference/authentication",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:12Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "cd3011face6d5a25fd31b8cfc11ec37f23291ec73dad43d38f0851a5fe00e90b",
+      "text_len": 5650
+    },
+    {
+      "requested_url": "https://docs.devin.ai/api-reference/overview",
+      "final_url": "https://docs.devin.ai/api-reference/overview",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:13Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "cc948603261e24f477b08deade88370ada690e4b5b26349b5e22935994448e65",
+      "text_len": 2278
+    },
+    {
+      "requested_url": "https://devin.ai/pricing",
+      "final_url": "https://devin.ai/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:15Z",
+      "error": null,
+      "method": "trafilatura_recall",
+      "text_source_url": null,
+      "sha256": "ed9010ca8d1371a86d80a335fabde3d4bf9908fbc2d879e91335a61f2c38fd91",
+      "text_len": 2656
+    },
+    {
+      "requested_url": "https://docs.devin.ai/cli/extensibility/mcp/configuration",
+      "final_url": "https://docs.devin.ai/cli/extensibility/mcp/configuration",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:15Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "ab5ef4f36ba06360195f5573403501eabce5608a06cd71328202b780eb0a5b17",
+      "text_len": 8655
+    },
+    {
+      "requested_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+      "final_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:16Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "df8b6c7f489d1fa464c1cb2fc470d70eba6673654922c38d7ac3753c88007f07",
+      "text_len": 3986
+    },
+    {
+      "requested_url": "https://mcp.devin.ai/",
+      "final_url": "https://mcp.devin.ai/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:16Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "f5b532334b814ae6a9715f6298d79dc60fb933cc9b696f588fe803183f895972",
+      "text_len": 902
+    },
+    {
+      "requested_url": "https://docs.devin.ai/cli/enterprise/devin-auth",
+      "final_url": "https://docs.devin.ai/cli/enterprise/devin-auth",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:16Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "cbd6738139ad30c6fba020155a8a0dfd31ae935e53742336ceb85a3f12f046a7",
+      "text_len": 3140
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.devin.ai/api-reference/authentication",
+        "quote": "A Service User API Key authenticates as the service user",
+        "verified": true
+      },
+      {
+        "url": "https://docs.devin.ai/api-reference/authentication",
+        "quote": "A Personal Access Token authenticates as the human user who created it",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://devin.ai/pricing",
+        "quote": "Teams is self-serve at a flat $80/month.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "quote": "For managing resources within a single organization — sessions, knowledge, playbooks, secrets, and more.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "quote": "The Devin MCP server provides programmatic access to Devin’s platform capabilities for both private and public repositories.",
+        "verified": true
+      },
+      {
+        "url": "https://mcp.devin.ai/",
+        "quote": "Connect to: `https://mcp.devin.ai/mcp`",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "quote": "The Devin API enables you to integrate Devin into your applications, automate workflows, and build powerful tools.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://docs.devin.ai/get-started/devin-intro",
+        "quote": "Devin is an autonomous AI software engineer that can write, run and test code.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

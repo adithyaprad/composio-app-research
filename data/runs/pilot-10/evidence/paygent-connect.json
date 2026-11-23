@@ -1,0 +1,330 @@
+{
+  "slug": "paygent-connect",
+  "searches": [
+    {
+      "query": "Paygent Connect API authentication",
+      "provider": "ddgs",
+      "results": []
+    },
+    {
+      "query": "Paygent Connect developer API access documentation",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.paygent.to/reference/api-reference/",
+          "title": "Backend API Reference - Paygent Documentation",
+          "snippet": "REST API reference for the Paygent backend — manage products, plans, users, subscriptions, and usage events."
+        },
+        {
+          "url": "https://docs.paygent.to/",
+          "title": "Paygent Documentation - Paygent Documentation",
+          "snippet": "Track costs, enforce limits, and get alerted — for OpenAI, Anthropic, LangChain, CrewAI, and the Vercel AI SDK. Paygent is an SDK — for Python and TypeScript — that tracks per-user LLM costs and enforces spending limits before calls reach OpenAI or Anthropic."
+        },
+        {
+          "url": "https://docs.withpaygent.com/",
+          "title": "Quick Start | Paygent Documentation",
+          "snippet": "Get started with Paygent in less than 5 minutes. Choose your SDK and start tracking AI usage immediately."
+        },
+        {
+          "url": "https://docs.paygent.to/reference/sdk-reference/",
+          "title": "SDK Reference - Paygent Documentation",
+          "snippet": "Complete API reference for every public symbol exported from the Paygent Python SDK."
+        },
+        {
+          "url": "https://docs.withpaygent.com/api-reference/customers-api",
+          "title": "API Reference — Customers | Paygent Documentation",
+          "snippet": "Provision and manage your customers in Paygent. The Customers API allows you to safely synchronize users from your own database to Paygent’s billing system. When a user registers or logs into your system, call this endpoint to check if they exist in Paygent."
+        }
+      ]
+    },
+    {
+      "query": "Paygent Connect pricing plans free trial signup",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://www.paygent.to/pricing",
+          "title": "Pricing — Paygent | Free, Starter, Pro & Scale Plans",
+          "snippet": "Free is a one-month trial of the full product. No credit card required to start. Limits reset each calendar month. Paygent pricing starts free with 5 users and 5,000 events/month. Scale to unlimited users with the Scale plan. All plans include the dashboard, webhooks, and full SDK access."
+        },
+        {
+          "url": "https://www.withpaygent.com/pricing",
+          "title": "Pricing | Paygent - AI Agent Monetization & Cost Tracking",
+          "snippet": "Get your Ideal Pricing Model in 5 mins for free! Answer 8 quick questions and optimize your pricing strategy. Pricing that adapts to your stage of growth — get started for free, and access powerful billing and cost-tracking infrastructure as you expand."
+        },
+        {
+          "url": "https://www.withpaygent.com/",
+          "title": "Paygent - AI Agent Monetization & Cost Tracking",
+          "snippet": "Unlock Pricing Freedom Without Any Bottlenecks Launch, test, and iterate pricing models quickly without rebuilding billing logic or slowing product teams."
+        },
+        {
+          "url": "https://gopaygent.com/signup",
+          "title": "Get Started with Paygent | Merchant Onboarding Request",
+          "snippet": "Submit a Paygent onboarding request for merchant payment services and Tapn tap-to-pay activation. Secure merchant completion is handled through Paygent and NMI."
+        },
+        {
+          "url": "https://www.paygent.to/",
+          "title": "Paygent — Cost Control for AI Agents | Visibility, Limits ...",
+          "snippet": "Create a product, define your plans, add users, drop in the SDK — and you're metered. Sign up to the dashboard and get your Paygent API key."
+        }
+      ]
+    },
+    {
+      "query": "Paygent Connect MCP server",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://mcpservers.org/servers/paygenthq-ai",
+          "title": "Paygent MCP Server | Awesome MCP Servers",
+          "snippet": "Fund one wallet, connect your agent and approve what it buys. Paygent pays merchants by bank transfer, mobile money or card."
+        },
+        {
+          "url": "https://lobehub.com/mcp/samweiss6-paygent",
+          "title": "Paygent | MCP Servers · LobeHub",
+          "snippet": "Paygent is a self-hosted MCP server that lets your AI agent pay for things with single-use virtual cards, inside spending limits you set. It runs on your machine, uses your own provider accounts, and never shows card numbers to the agent."
+        },
+        {
+          "url": "https://www.paytmpayments.com/docs/mcp-server-overview",
+          "title": "Paytm MCP Server — Developer documentation | Paytm Payments ...",
+          "snippet": "Paytm MCP Server (beta): lets AI agents like Claude, Copilot, and Cursor call Paytm payment APIs natively without manual integration code."
+        },
+        {
+          "url": "https://paygent.uk/",
+          "title": "Paygent | AI-Powered Payment Orchestration on Cronos",
+          "snippet": "MCP-compatible marketplace for AI agents to discover x402-enabled services nearby. Direct connections to Cronos DeFi protocols via specialized subagents for trading. From automated trading to API monetization, Paygent powers the next generation of autonomous financial operations."
+        },
+        {
+          "url": "https://github.com/FoxRick/paygentic-sdk",
+          "title": "GitHub - FoxRick/paygentic-sdk: PayGent SDK - REST client ...",
+          "snippet": "Jun 25, 2026 · PayGent SDK - REST client + MCP server for agentic payments - FoxRick/paygentic-sdk"
+        }
+      ]
+    },
+    {
+      "query": "Paygent Connect NMI payment gateway API documentation",
+      "provider": "ddgs",
+      "results": []
+    },
+    {
+      "query": "Paygent Connect NMI integration developer docs",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.nmi.com/",
+          "title": "NMI Developer Documentation",
+          "snippet": "Designed for software platforms, our components, APIs, SDKs, and integration guides help you embed payments seamlessly, reduce time to first transaction, and deliver a unified commerce experience across every channel."
+        },
+        {
+          "url": "https://docs.nmi.com/docs/integration-guide-implement-frontend",
+          "title": "Integrating the Frontend Component - docs.nmi.com",
+          "snippet": "Connect the NMI Developer Docs MCP before you start, so your assistant scaffolds this integration from current NMI docs — the Payment Component + NMI REST API — instead of guessing endpoints."
+        },
+        {
+          "url": "https://www.nmi.com/developers/sdks-apis/",
+          "title": "Payment Gateway SDKs & APIs for Developers | NMI",
+          "snippet": "Terminal device manufacturers can use NMI Direct Connect to pre-equip their products to work with the NMI platform. We’ll provide you with integration examples, as well as our payment gateway integration guide and API documentation."
+        },
+        {
+          "url": "https://docs.paygent.to/",
+          "title": "Paygent Documentation - Paygent Documentation",
+          "snippet": "Build cost-controlled AI products. Track costs, enforce limits, and get alerted — for OpenAI, Anthropic, LangChain, CrewAI, and the Vercel AI SDK. Paygent is an SDK — for Python and TypeScript — that tracks per-user LLM costs and enforces spending limits before calls reach OpenAI or Anthropic."
+        },
+        {
+          "url": "https://docs.payaconnect.com/",
+          "title": "Home :: Docs",
+          "snippet": "Developers Learn how to to use our API. If you are a Developer getting started on a new integration for your application or if you are extending an existing integration, this is where you need to be. Developers"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.paygent.to/reference/api-reference/",
+      "final_url": "https://docs.paygent.to/reference/api-reference/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:13Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "ec8b53a459d3a9b2cf716d538de04cb07e9d77079540cfeeff746a2d5da2f821",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://www.paygent.to/pricing",
+      "final_url": "https://www.paygent.to/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:14Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "a0cd8ef9619f5c4e870c8b80cddfb085601d4dd27f4fea82659963e5569c4bcd",
+      "text_len": 1557
+    },
+    {
+      "requested_url": "https://paygent.uk/",
+      "final_url": "https://paygent.uk/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:14Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "603fd02f356d1bb9f66089edf6129d88680ca4b378bf26e325409d5f49fed297",
+      "text_len": 52
+    },
+    {
+      "requested_url": "https://docs.withpaygent.com/api-reference/customers-api",
+      "final_url": "https://docs.withpaygent.com/api-reference/customers-api",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:17Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://docs.withpaygent.com/api-reference/customers-api.md",
+      "sha256": "505092d7073a978d3683f4ab873cbc8fe2a361b0c5a9a4b4e74a63d636e4e908",
+      "text_len": 1985
+    },
+    {
+      "requested_url": "https://www.withpaygent.com/pricing",
+      "final_url": "https://www.withpaygent.com/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:18Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "662f2447599bf783f4da1cb89a4d56b869fdb9f099fcda90d742cba5d5bfd21c",
+      "text_len": 2146
+    },
+    {
+      "requested_url": "https://docs.paygent.to/reference/sdk-reference/",
+      "final_url": "https://docs.paygent.to/reference/sdk-reference/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:19Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "d14ec4ace48e88a95e76f5a432fb0882b63cc4d730844e00cae416314e57ca34",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://gopaygent.com/signup",
+      "final_url": "https://gopaygent.com/signup",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:19Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "c233f0a09808967b0c9a94cee5a919e493b05b940e9d32d9ac5dbf33a7467d72",
+      "text_len": 66
+    },
+    {
+      "requested_url": "https://docs.paygent.to/",
+      "final_url": "https://docs.paygent.to/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:20Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "5596edf08628516fc60e89fc411b5eca88d9c93ecdbca9c40b50c32146590f57",
+      "text_len": 4052
+    },
+    {
+      "requested_url": "https://docs.payaconnect.com/",
+      "final_url": "https://docs.payaconnect.com/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:50Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "869be8024457a2dd6a294faa94e87acb7b6ccbe2044fda0bd461fd7c5ece4512",
+      "text_len": 651
+    },
+    {
+      "requested_url": "https://www.nmi.com/developers/sdks-apis/",
+      "final_url": "https://www.nmi.com/developers/sdks-apis/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:52Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "86d0c94fdd1e174c4a8b10be88431274c8fd655f15339f0345a1a7507fe5c2c5",
+      "text_len": 4692
+    },
+    {
+      "requested_url": "https://docs.nmi.com/docs/integration-guide-implement-frontend",
+      "final_url": "https://docs.nmi.com/docs/integration-guide-implement-frontend",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:58:55Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "73b810bd0263b45167273265fa849c2f0128254b828787f8592b988a6a0d1b9d",
+      "text_len": 17976
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "quote": "Authentication: Bearer token in Authorization: Bearer pg_live_... header.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "quote": "Create a new product (tenant). Returns the API key — exactly once. No authentication required.",
+        "verified": true
+      },
+      {
+        "url": "https://www.paygent.to/pricing",
+        "quote": "No credit card required to start.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "quote": "The Paygent backend exposes a small REST API.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.paygent.to/",
+        "quote": "Paygent is an SDK — for Python and TypeScript — that tracks per-user LLM costs and enforces spending limits",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "quote": "You also call it directly to manage plans, users, and subscriptions.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://docs.paygent.to/",
+        "quote": "Build cost-controlled AI products. Track costs, enforce limits, and get alerted",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}
