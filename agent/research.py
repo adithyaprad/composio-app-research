@@ -2,6 +2,7 @@
 
 For each app: a few targeted searches + start_url -> fetch the best N pages ->
 LLM fills the row from page text only -> optional single follow-up round ->
+llms.txt MCP check while mcp_status is none (re-ask only if it found MCP pages) ->
 evidence post-check -> validation (one retry with errors fed back) -> write.
 """
 
@@ -18,7 +19,7 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urljoin, urlsplit
 
 from agent import prompts
 from agent.config import Settings
@@ -40,6 +41,20 @@ ROW_ORDER = (*IDENTITY_KEYS, *RESEARCHED_KEYS, "composio_toolkit", "notes")
 URL_HINTS = ("docs", "developer", "api", "reference", "auth", "oauth", "pricing", "mcp")
 FOLLOW_UP_MAX_QUERIES = 3
 FOLLOW_UP_MAX_PAGES = 3
+MCP_LLMS_TXT_MAX = 2  # docs origin + start origin
+MCP_LINKS_MAX = 2  # MCP pages followed from llms.txt
+MCP_TEXT_RE = re.compile(r"\bmcp\b|model context protocol", re.I)
+_LINK_RE = re.compile(r"\]\(\s*([^)\s]+)|(https?://[^\s)\]>\"'<]+)")
+
+
+def mcp_links(page: Page) -> list[str]:
+    """Absolute URLs with "mcp" in them linked from a page (markdown links or bare URLs), e.g. from llms.txt."""
+    out: list[str] = []
+    for md, bare in _LINK_RE.findall(page.text or ""):
+        url = urljoin(page.final_url, md or bare)
+        if url.startswith("http") and "mcp" in url.lower() and url not in out:
+            out.append(url)
+    return out[:MCP_LINKS_MAX]
 
 
 # ---------- inputs ----------
@@ -70,14 +85,64 @@ UNKNOWN_COVERAGE = {"status": "unknown", "toolkit_slug": None, "sibling_slugs": 
 
 # ---------- search planning ----------
 
+HOST_RE = re.compile(r"(?<![@\w.-])((?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z]{2,})(?=[/:\s),]|$)", re.I)
+# Words in a source_hint / category label that add nothing to a search query.
+QUERY_STOPWORDS = {"a", "an", "and", "the", "of", "for", "by", "with", "powered", "based", "via", "api"}
+
+
+def hint_host(hint: str) -> str:
+    """First host-like token in a free-text hint ("gopaygent.com", "github.com/foo/bar", "x.io (MCP)"), or ""."""
+    m = HOST_RE.search(hint or "")
+    return m.group(1).lower().removeprefix("www.") if m else ""
+
+
+def official_host(app: dict) -> str:
+    """Host of start_url, else a host named in source_hint."""
+    start = (app.get("start_url") or "").strip()
+    if start:
+        return (urlsplit(start if "//" in start else f"https://{start}").hostname or "").lower().removeprefix("www.")
+    return hint_host(app.get("source_hint") or "")
+
+
+def official_domain(app: dict) -> str:
+    return base_domain(official_host(app))
+
+
+def query_context(app: dict) -> str:
+    """With no start_url, the name alone can hit an unrelated product: add the hint and category words.
+
+    "paygent (NMI-powered)" + "Finance and Fintech" -> "NMI Finance Fintech". Words already in the name are dropped.
+    """
+    if (app.get("start_url") or "").strip():
+        return ""
+    name_words = set(re.findall(r"[a-z0-9]+", app.get("name", "").lower()))
+    label = app.get("category_label") or (app.get("category") or "").replace("_", " ")
+    words: list[str] = []
+    for w in re.findall(r"[A-Za-z0-9][A-Za-z0-9.]*[A-Za-z0-9]|[A-Za-z0-9]", f"{app.get('source_hint') or ''} {label}"):
+        lw = w.lower()
+        if lw in name_words or lw in QUERY_STOPWORDS or lw in (x.lower() for x in words):
+            continue
+        words.append(w)
+    return " ".join(words)
+
+
 def search_queries(app: dict) -> list[str]:
-    n = app["name"]
-    return [
+    """3 general queries, a generic MCP query, and site: MCP queries on the official host (and its parent)."""
+    context = query_context(app)
+    n = f'"{app["name"]}" {context}' if context else app["name"]
+    queries = [
         f"{n} API authentication",
         f"{n} developer API access documentation",
         f"{n} pricing plans free trial signup",
-        f"{n} MCP server",
+        f"{n} official MCP server",
     ]
+    host = official_host(app)
+    if host and host not in DOC_HOSTS:  # site:github.com MCP would only return noise
+        queries.append(f"site:{host} MCP")
+        parent = base_domain(host)
+        if parent != host and parent not in DOC_HOSTS:  # docs./developers./marketplace. siblings
+            queries.append(f"site:{parent} MCP")
+    return queries
 
 
 def base_domain(url: str) -> str:
@@ -113,7 +178,7 @@ DOC_HOSTS = ("github.com", "gitlab.com", "npmjs.com", "pypi.org", "readme.io", "
              "mintlify.app", "mintlify.dev", "gitbook.io", "readthedocs.io")
 # Slug parts too generic to identify a vendor by themselves.
 GENERIC_TOKENS = {"ads", "api", "app", "apps", "business", "cloud", "commerce", "crm", "data", "partner", "selling",
-                  "the", "io", "ai", "hq", "chat", "mail"}
+                  "the", "io", "ai", "hq", "chat", "mail", "connect"}
 # Affixes vendors commonly glue to their name in a domain label (getclay, useplain, plainhq, ...).
 HOST_AFFIXES = ("get", "use", "try", "with", "go", "app", "hq", "api", "docs", "dev", "ai", "io", "cloud")
 SHORT_TOKEN = 6  # tokens this short never match inside another word
@@ -163,7 +228,7 @@ def classify_result(app: dict, result: dict) -> int | None:
     parts = urlsplit(url)
     host = (parts.hostname or "").removeprefix("www.")
     tokens = app_tokens(app)
-    if _host_matches(host, base_domain(app.get("start_url") or app.get("source_hint") or "")):
+    if _host_matches(host, official_domain(app)):
         return OFFICIAL
     labels = host.split(".")[:-1]  # drop the TLD so "fan" in ".fan" does not count
     if any(token_in_label(t, label) for t in tokens for label in labels):
@@ -191,7 +256,7 @@ def pick_urls(app: dict, searches: list[dict], max_pages: int, already: set[str]
       included: the best one found (replacing the lowest-ranked pick if full), or a
       synthesized <origin>/pricing from start_url as one extra page.
     """
-    official = base_domain(app.get("start_url") or app.get("source_hint") or "")
+    official = official_domain(app)
     picked: list[str] = []
     keys: set[str] = set(already)
     third_party = 0
@@ -332,6 +397,27 @@ class Researcher:
                 return f"{origin(p.final_url)}/llms.txt"
         return None
 
+    @staticmethod
+    def mcp_llms_txt_urls(app: dict, pages: list[Page], row: dict | None) -> list[str]:
+        """llms.txt on the official docs and start origins while MCP is unresolved, thin pages or not.
+
+        Unresolved = no row or mcp_status none, and no fetched page has "mcp" in its URL. Each origin is
+        fetched at most once per app (_fetch_new dedupes against the thin-page llms.txt too).
+        """
+        if row and row.get("mcp_status") not in (None, "none"):
+            return []
+        if any(p.ok and "mcp" in f"{p.requested_url} {p.final_url}".lower() for p in pages):
+            return []
+        candidates = [(row or {}).get("docs_url"), app.get("start_url")]
+        candidates += [p.final_url for p in pages if p.ok and is_docs_url(p.final_url)][:1]
+        origins: list[str] = []
+        for u in candidates:
+            if isinstance(u, str) and u.startswith("http") and classify_result(app, {"url": u}) == OFFICIAL:
+                o = origin(u)
+                if o not in origins:
+                    origins.append(o)
+        return [f"{o}/llms.txt" for o in origins[:MCP_LLMS_TXT_MAX]]
+
     def _save_attempts(self, slug: str, attempts: list[dict]) -> None:
         cache = self.run_dir / "cache"
         cache.mkdir(parents=True, exist_ok=True)
@@ -417,6 +503,16 @@ class Researcher:
                 messages = [{"role": "user",
                              "content": prompts.research_prompt(app, pages, self.per_page_chars, False)}]
                 res = self._llm(messages, stats, attempts, "follow_up", slug)
+                row, snippets, checks, errors = self._evaluate(app, res, pages)
+
+            # Before settling on mcp_status none: llms.txt often lists an MCP docs page the search missed.
+            new = self._fetch_new(slug, self.mcp_llms_txt_urls(app, pages, row), stats, seen)
+            new += self._fetch_new(slug, [u for p in new if p.ok for u in mcp_links(p)], stats, seen)
+            pages += new
+            if any(p.ok and MCP_TEXT_RE.search(p.text) for p in new):
+                messages = [{"role": "user",
+                             "content": prompts.research_prompt(app, pages, self.per_page_chars, False)}]
+                res = self._llm(messages, stats, attempts, "mcp_check", slug)
                 row, snippets, checks, errors = self._evaluate(app, res, pages)
 
             retried = False

@@ -1,5 +1,7 @@
 """Pipeline quality: pricing page selection, dedupe across redirects, Page.method, short-name relevance."""
 
+import json
+
 import httpx
 import pytest
 from test_research import COVERAGE, _apps
@@ -13,6 +15,8 @@ from agent.research import (
     Researcher,
     classify_result,
     is_pricing_url,
+    mcp_links,
+    official_host,
     pick_urls,
     search_queries,
     token_in_label,
@@ -27,9 +31,55 @@ APP = {"slug": "acme", "name": "Acme", "start_url": "https://acme.com", "source_
 
 def test_search_queries_include_pricing_and_access():
     qs = search_queries(APP)
-    assert len(qs) == 4
-    assert any("pricing plans" in q and "signup" in q for q in qs)
-    assert any("developer API access" in q for q in qs)
+    assert qs[:4] == ["Acme API authentication", "Acme developer API access documentation",
+                      "Acme pricing plans free trial signup", "Acme official MCP server"]
+    assert qs[4:] == ["site:acme.com MCP"]  # root host: no parent query
+
+
+def test_search_queries_site_mcp_on_subdomain_and_parent():
+    app = dict(APP, start_url="https://docs.acme.com/api")
+    qs = search_queries(app)
+    assert "site:docs.acme.com MCP" in qs and "site:acme.com MCP" in qs and len(qs) <= 6
+
+
+def test_search_queries_no_site_query_on_shared_doc_host():
+    qs = search_queries(dict(APP, start_url="https://github.com/acme/cli"))
+    assert not any(q.startswith("site:") for q in qs)
+    # a vendor subdomain of a doc host is still searched, but not the shared parent
+    qs = search_queries(dict(APP, start_url="https://acme.stoplight.io/docs"))
+    assert "site:acme.stoplight.io MCP" in qs and "site:stoplight.io MCP" not in qs
+
+
+BLANK_START = {"id": 84, "slug": "paygent-connect", "name": "Paygent Connect", "category": "finance_and_fintech",
+               "category_label": "Finance and Fintech", "source_hint": "paygent (NMI-powered)", "start_url": ""}
+
+
+def test_search_queries_blank_start_url_use_hint_and_category():
+    qs = search_queries(BLANK_START)
+    assert len(qs) == 4  # no official host known: no site: query
+    for q in qs:
+        assert '"Paygent Connect"' in q and "NMI" in q and "Finance" in q and "Fintech" in q
+    assert not any(" and " in q or "powered" in q for q in qs)
+
+
+def test_host_like_hint_is_a_domain_hint():
+    app = dict(BLANK_START, source_hint="gopaygent.com (NMI-powered)")
+    assert official_host(app) == "gopaygent.com"
+    assert "site:gopaygent.com MCP" in search_queries(app)
+    assert classify_result(app, {"url": "https://docs.gopaygent.com/api", "title": ""}) == OFFICIAL
+    assert official_host(dict(BLANK_START, source_hint="github.com/foo/bar")) == "github.com"
+    assert official_host(BLANK_START) == ""  # "paygent (NMI-powered)" has no host
+
+
+def test_start_url_queries_unchanged_by_hint():
+    app = dict(BLANK_START, start_url="https://gopaygent.com")
+    assert search_queries(app)[0] == "Paygent Connect API authentication"
+
+
+def test_research_prompt_shows_category_label():
+    from agent.prompts import research_prompt
+
+    assert '"category_label": "Finance and Fintech"' in research_prompt(BLANK_START, [], 100, False)
 
 
 @pytest.mark.parametrize("url,expected", [
@@ -126,6 +176,81 @@ def test_render_pages_dedupes_by_final_url():
     assert dedupe_pages([a, b, c, d]) == [b, d]
     rendered = render_pages([a, b, c, d], 1000)
     assert rendered.count("=== PAGE") == 2 and "much longer text" in rendered and "short" not in rendered
+
+
+# ---- llms.txt before settling on mcp_status none -----------------------------------
+
+def _long(url, text="Long docs page. " * 200):
+    return Page(url, url, 200, "fake", text=text, method="fake")
+
+
+def test_mcp_llms_txt_proposed_without_thin_pages():
+    pages = [_long("https://docs.acme.com/api/auth"), _long("https://acme.com/pricing")]
+    row = {"mcp_status": "none", "docs_url": "https://docs.acme.com/api"}
+    assert Researcher.mcp_llms_txt_urls(APP, pages, row) == ["https://docs.acme.com/llms.txt",
+                                                            "https://acme.com/llms.txt"]
+    assert Researcher.mcp_llms_txt_urls(APP, pages, None) == ["https://acme.com/llms.txt",
+                                                             "https://docs.acme.com/llms.txt"]
+
+
+def test_mcp_llms_txt_not_proposed_when_resolved_or_off_domain():
+    pages = [_long("https://docs.acme.com/api/auth")]
+    assert Researcher.mcp_llms_txt_urls(APP, pages, {"mcp_status": "official", "docs_url": None}) == []
+    with_mcp = [*pages, _long("https://docs.acme.com/mcp")]
+    assert Researcher.mcp_llms_txt_urls(APP, with_mcp, {"mcp_status": "none", "docs_url": None}) == []
+    other = {"slug": "acme", "name": "Acme", "start_url": "", "source_hint": "acme"}
+    assert Researcher.mcp_llms_txt_urls(other, [_long("https://blog.example.org/docs/acme")],
+                                        {"mcp_status": "none", "docs_url": "https://blog.example.org/docs"}) == []
+
+
+def test_mcp_links_from_llms_txt():
+    page = _long("https://docs.acme.com/llms.txt", "# Acme\n- [Auth](/api/auth.md)\n- [MCP server](/mcp/setup.md)\n"
+                 "- [Remote MCP](https://mcp.acme.com/sse)\n- [Ref](https://docs.acme.com/api)\n"
+                 "- [Again](https://docs.acme.com/mcp/setup.md)\n- [Third](https://acme.com/mcp-3)")
+    assert mcp_links(page) == ["https://docs.acme.com/mcp/setup.md", "https://mcp.acme.com/sse"]
+
+
+class LlmsTxtFetch(FakeFetch):
+    """Non-thin pages; llms.txt links an MCP docs page that search never surfaced."""
+
+    def __init__(self, llms_text):
+        self.urls, self.llms_text = [], llms_text
+
+    def fetch(self, url):
+        self.urls.append(url)
+        page = super().fetch(url)
+        page.text += " Filler." * 300
+        if url.endswith("/llms.txt"):
+            page.text = self.llms_text
+        if "/mcp" in url:
+            page.text = "Connect your agent to the Stripe MCP server at https://mcp.stripe.example.com. " * 30
+        return page
+
+
+class LabelLLM(FakeLLM):
+    def __init__(self):
+        self.prompts = []
+
+    def complete(self, system, messages, json_mode=True):
+        self.prompts.append(messages[-1]["content"])
+        return super().complete(system, messages, json_mode)
+
+
+def test_llms_txt_mcp_link_fetched_and_llm_asked_again(tmp_path):
+    fetch = LlmsTxtFetch("# Stripe docs\n- [API](https://stripe.com/docs/api)\n- [MCP](https://stripe.com/docs/mcp)\n")
+    llm = LabelLLM()
+    out = Researcher(Settings(), llm, FakeSearch(), fetch, tmp_path, coverage=COVERAGE).research(_apps("stripe")[0])
+    assert fetch.urls.count("https://stripe.com/llms.txt") == 1 and "https://stripe.com/docs/mcp" in fetch.urls
+    assert out.stats.llm_calls == 2 and "URL: https://stripe.com/docs/mcp" in llm.prompts[1]
+    labels = [a["label"] for a in json.loads((tmp_path / "cache" / "stripe.llm.json").read_text())["attempts"]]
+    assert labels == ["initial", "mcp_check"] and not out.errors
+
+
+def test_llms_txt_without_mcp_costs_no_extra_llm_call(tmp_path):
+    fetch = LlmsTxtFetch("# Stripe docs\n- [API](https://stripe.com/docs/api)\n")
+    out = Researcher(Settings(), FakeLLM(), FakeSearch(), fetch, tmp_path, coverage=COVERAGE).research(
+        _apps("stripe")[0])
+    assert "https://stripe.com/llms.txt" in fetch.urls and out.stats.llm_calls == 1
 
 
 # ---- Page.method ------------------------------------------------------------------

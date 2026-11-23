@@ -1,3 +1,4 @@
+import pytest
 from conftest import IDENTITY
 
 from agent.validate import validate_row
@@ -99,3 +100,72 @@ def test_identity_must_match_csv(row):
 def test_composio_exists_requires_slug(row):
     row["composio_toolkit"]["toolkit_slug"] = None
     assert any("composio_toolkit" in e for e in validate_row(row))
+
+
+# ---- sdk_only exclusivity ----------------------------------------------------------
+
+@pytest.mark.parametrize("types", [["rest", "sdk_only"], ["graphql", "sdk_only"], ["soap", "sdk_only"]])
+def test_sdk_only_with_raw_http_fails(row, types):
+    row["api_types"] = types
+    errs = validate_row(row, IDENTITY)
+    assert any(e.startswith("rule api_types: sdk_only") and "drop sdk_only" in e for e in errs)
+
+
+def test_sdk_only_alone_passes(row):
+    row["api_types"] = ["sdk_only"]
+    assert validate_row(row, IDENTITY) == []
+
+
+def test_rest_and_graphql_pass(row):
+    row["api_types"] = ["rest", "graphql"]
+    assert validate_row(row, IDENTITY) == []
+
+
+# ---- notes vs fields ---------------------------------------------------------------
+
+# Paraphrased from pilot-10 rows whose notes contradicted auth_methods ["api_key", "oauth2"].
+CONTRADICTING_OAUTH_NOTES = [
+    "OAuth2 is documented for the MCP server only, not for the REST API, so it is not listed as an API auth "
+    "method. A free trial is mentioned.",
+    "Fixing auth_methods to api_key only is more accurate. A free trial is mentioned.",
+    "API keys are created in Settings by a workspace user. MCP uses OAuth only for the MCP server.",
+    "OAuth applies only to the dashboard login; API calls use keys.",
+    "The OAuth flow is MCP-only.",
+    "OAuth2 is not documented for the public API.",
+    "We should drop oauth2 since it is for the hosted MCP.",
+]
+
+
+@pytest.mark.parametrize("notes", CONTRADICTING_OAUTH_NOTES)
+def test_notes_contradict_oauth2_in_auth_methods(row, notes):
+    row.update(auth_methods=["api_key", "oauth2"], primary_auth="api_key", notes=notes)
+    errs = validate_row(row, IDENTITY)
+    assert any(e.startswith("rule notes:") and "remove oauth2" in e for e in errs)
+
+
+@pytest.mark.parametrize("notes", [
+    "",
+    "OAuth2 (authorization code with PKCE) is documented for third-party apps; API keys also work.",
+    "Webhooks are available. The MCP server also uses OAuth, the same flow as the API.",
+    "Rate limits are per workspace. SDKs exist for Node and Python.",
+    "Public apps must use OAuth; private apps can use static access tokens only for their own account.",
+])
+def test_clean_notes_with_oauth2_pass(row, notes):
+    row["notes"] = notes
+    assert validate_row(row, IDENTITY) == []
+
+
+def test_mcp_only_oauth_notes_with_api_key_only_pass(row):
+    row.update(auth_methods=["api_key"], primary_auth="api_key",
+               notes="OAuth2 is documented for the MCP server only, so it is not listed as an API auth method.")
+    assert validate_row(row, IDENTITY) == []
+
+
+def test_notes_no_official_mcp_contradicts_official_status(row):
+    row.update(mcp_status="official", mcp_url="https://developers.hubspot.com/mcp",
+               notes="No official MCP server; only a community one on GitHub.")
+    assert any(e.startswith("rule notes:") and "mcp_status is official" in e for e in validate_row(row))
+    row["mcp_status"] = "community"  # "no official" is consistent with community
+    assert validate_row(row) == []
+    row["notes"] = "No MCP server was found in the docs."
+    assert any("mcp_status is community" in e for e in validate_row(row))
