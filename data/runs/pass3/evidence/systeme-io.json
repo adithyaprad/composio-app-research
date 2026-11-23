@@ -1,0 +1,345 @@
+{
+  "slug": "systeme-io",
+  "searches": [
+    {
+      "query": "systeme.io API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.systeme.io/reference/api",
+          "title": "Public API",
+          "snippet": "Public API\n\n# Public API\n\nIntroduction\n\nWelcome to this comprehensive guide for the Systeme.io Public API. Our API serves as a bridge, enabling developers to interact with Systeme's core functionalities programmatically. It is meticulously designed to offer a seamless integration experience, allowin"
+        },
+        {
+          "url": "https://systeme.io/dashboard/profile/public-api-settings",
+          "title": "Settings",
+          "snippet": "Settings\n\n## Public API keys\n\n### How to Use Your API Keys:\n\n- Create and Manage Keys: Here, you can generate new API keys or revoke existing ones. Each key is associated with your account and should be kept secure\n- Make API Requests: Use these keys to authenticate your requests. You can include th"
+        },
+        {
+          "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+          "title": "API recipes and how to use them",
+          "snippet": "API recipes and how to use them\n\n# API recipes and how to use them\n\nLearn how to use our API through recipes\n\n> 📘\n> \n> Please note\n> \n> This page, as well as all of our documentation, will be gradually updated to include more information. We strive to provide you with the best experience with our sy"
+        },
+        {
+          "url": "https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api",
+          "title": "How to use the systeme.io public API (Application Programming Interface) | systeme.io Help Center",
+          "snippet": "# How to use the systeme.io public API (Application Programming Interface)\n\nPlay: YouTube video\n\nIn this article, you will learn how to configure and use the systeme.io public API, including how to generate API keys and what actions you can perform.\n\n## 1. What is an API?\n\nThe acronym API stands for"
+        },
+        {
+          "url": "https://docs.nexla.com/user-guides/connectors/systeme_api",
+          "title": "Systeme | Nexla Docs",
+          "snippet": "Systeme | Nexla Docs\n\nOn this page\n\n# Systeme\n\nSysteme.io is an all-in-one marketing platform for building sales funnels, sending email campaigns, and hosting online courses, communities, and memberships. The Systeme connector reads contacts, tags, funnels, newsletters, campaigns, automation emails "
+        }
+      ]
+    },
+    {
+      "query": "systeme.io developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.systeme.io/reference/api",
+          "title": "Public API",
+          "snippet": "Public API\n\n# Public API\n\nIntroduction\n\nWelcome to this comprehensive guide for the Systeme.io Public API. Our API serves as a bridge, enabling developers to interact with Systeme's core functionalities programmatically. It is meticulously designed to offer a seamless integration experience, allowin"
+        },
+        {
+          "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+          "title": "API recipes and how to use them",
+          "snippet": "API recipes and how to use them\n\n# API recipes and how to use them\n\nLearn how to use our API through recipes\n\n> 📘\n> \n> Please note\n> \n> This page, as well as all of our documentation, will be gradually updated to include more information. We strive to provide you with the best experience with our sy"
+        },
+        {
+          "url": "https://developer.systeme.io/reference/api_contacts_get_collection-1",
+          "title": "Retrieves the collection of Contact resources.",
+          "snippet": "Retrieves the collection of Contact resources.\n\n# Retrieves the collection of Contact resources.\n\nget\n\nhttps://api.systeme.io/api/contacts\n\nRetrieves the collection of Contact resources.\n\nemail\n\nstring\n\nFilter by exact email.\n\nstring\n\nFilter by tag IDs separated by commas (returns contacts containin"
+        },
+        {
+          "url": "https://developer.systeme.io/docs/webhooks",
+          "title": "Webhooks",
+          "snippet": "Webhooks\n\n# Webhooks\n\nIntroduction\n\nSysteme.io webhooks allow your applications to receive real-time events from your systeme.io account. They allow you to set up many different subscriptions to receive information about the events you are interested in, and are significantly faster than API calls f"
+        },
+        {
+          "url": "https://developer.systeme.io/reference/api_webhooks_post-1",
+          "title": "Creates a Webhook resource.",
+          "snippet": "Creates a Webhook resource.\n\n# Creates a Webhook resource.\n\nhttps://api.systeme.io/api/webhooks\n\nCreates a Webhook resource.\n\nBody Params\n\nThe new Webhook resource\n\nname\n\nstring\n\nrequired\n\nlength ≤ 255\n\nsecret\n\nstring\n\nurl\n\nuri\n\nrequired\n\nsubscriptions\n\nactive\n\nResponses\n\n`` 201\n\nWebhook resource cr"
+        }
+      ]
+    },
+    {
+      "query": "systeme.io pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://systeme.io/pricing",
+          "title": "Systeme.io Pricing — Free, Startup, Webinar, Unlimited Plans",
+          "snippet": "Systeme.io Pricing — Free, Startup, Webinar, Unlimited Plans\n\n# Choose your plan\n\n2 months free Free migration\n\nMonthly billing Annual billing\n\n## Contacts & CRM\n\nContacts null: null: null: null: \n\nTags null: null: null: null: \n\n## Email marketing\n\nEmails sent null: null: null: null: \n\n## Automation"
+        },
+        {
+          "url": "https://growstackguide.com/systeme-io-pricing/",
+          "title": "Systeme.io Pricing 2026: Plans, Limits and Hidden Costs",
+          "snippet": "Systeme.io Pricing 2026: Plans, Limits and Hidden Costs\n\n \n\n# Systeme.io Pricing 2026: Plans, Limits and Hidden Costs\n\n November 12, 2026 by Dodd \n\nHow this guide was made · checked November 12, 2026\n\nthis is a research guide based on Systeme.io’s pricing page and FAQ, its terms and conditions, and "
+        },
+        {
+          "url": "https://systeme.io/compare",
+          "title": "How systeme.io compares to the alternatives",
+          "snippet": "How systeme.io compares to the alternatives\n\n# Systeme.io vs the alternatives: What's the best choice for you? \n\nThere are many solutions out there that you can use to run your business online. Before you commit to one, we want you to make an informed decision\n\n## What is systeme.io?\n\nsysteme.io is "
+        },
+        {
+          "url": "https://help.systeme.io/article/1509",
+          "title": "How systeme.io subscription plans are moderated | systeme.io Help Center",
+          "snippet": "# How systeme.io subscription plans are moderated\n\nThis article will explain how systeme.io subscriptions work and how you can manage your subscription.\n\nTo get started, you will need the following:\n\n- A systeme.io account\n- Paid systeme.io subscription (in some cases)\n\n## 1. What types of subscript"
+        },
+        {
+          "url": "https://startwith.systeme.io/guides/systeme-io-pricing-explained-which-plan-fits-your-list-size",
+          "title": "Systeme.io Pricing Explained: Which Plan Fits You",
+          "snippet": "Systeme.io Pricing Explained: Which Plan Fits You\n\n# Systeme.io Pricing Explained: Which Plan Fits Your List Size\n\nSysteme.io prices its plans mostly by how many contacts you store. That makes the choice simple: find the plan that fits the list you expect in six months, then check that the funnel an"
+        }
+      ]
+    },
+    {
+      "query": "systeme.io official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://systeme.io/mcp",
+          "title": "Build and manage your business with AI | systeme.io MCP Server",
+          "snippet": "Build and manage your business with AI | systeme.io MCP Server\n\nConnect your favorite AI tool to systeme.io and let it create, update, and find what you need, right from the chat\n\n## What is the systeme.io MCP server? \n\n systeme.io includes a built-in MCP server that lets you connect AI tools like C"
+        },
+        {
+          "url": "https://help.systeme.io/article/11229-how-to-connect-your-systemeio-account-with-chatgpt-using-mcp-keys",
+          "title": "How to connect your systeme.io account to ChatGPT using MCP keys | systeme.io Help Center",
+          "snippet": "# How to connect your systeme.io account to ChatGPT using MCP keys\n\nIn this article, you will learn how to integrate the systeme.io MCP server with ChatGPT so you can interact with your account data using AI.\n\nWhat you will need:\n\n- A systeme.io account\n- An MCP key generated from your systeme.io ac"
+        },
+        {
+          "url": "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp",
+          "title": "How to use the systeme.io MCP server (Model Context Protocol)",
+          "snippet": "# How to use the systeme.io MCP server (Model Context Protocol)\n\nThe new MCP server feature gives users, partners, and developers a powerful new way to interact with systeme.io using AI tools.\n\n## 1. Introduction to MCP\n\nMCP (Model Context Protocol) is a standard that enables AI assistants (such as "
+        },
+        {
+          "url": "https://systeme.io/blog/how-to-create-a-welcome-email-sequence-with-chatgpt-and-systemeio",
+          "title": "How to create a welcome email sequence with ChatGPT and systeme.io",
+          "snippet": "How to create a welcome email sequence with ChatGPT and systeme.io\n\n# How to create a welcome email sequence with ChatGPT and systeme.io\n\nNEW: See which ads are selling right now in your niche.\n\nWrite a 5-email welcome sequence with ChatGPT, then let it build, schedule, and automate the campaign in "
+        },
+        {
+          "url": "https://martechdb.com/vendors/systeme",
+          "title": "Systeme MCP server review: official URL and setup for Claude, ChatGPT and Cursor | MartechDB",
+          "snippet": "Systeme MCP server review: official URL and setup for Claude, ChatGPT and Cursor | MartechDB\n\n# Systeme MCP server\n\nsysteme.io\n\nYes. Systeme publishes an official MCP server at https://mcp.systeme.io/mcp. It's hosted and needs an OAuth app that you set up in Systeme first. We last checked it on 22 N"
+        }
+      ]
+    },
+    {
+      "query": "site:systeme.io MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://systeme.io/mcp",
+          "title": "Build and manage your business with AI | systeme.io MCP Server",
+          "snippet": "Build and manage your business with AI | systeme.io MCP Server\n\nConnect your favorite AI tool to systeme.io and let it create, update, and find what you need, right from the chat\n\n## What is the systeme.io MCP server? \n\n systeme.io includes a built-in MCP server that lets you connect AI tools like C"
+        },
+        {
+          "url": "https://help.systeme.io/article/11229-how-to-connect-your-systemeio-account-with-chatgpt-using-mcp-keys",
+          "title": "How to connect your systeme.io account to ChatGPT using MCP keys | systeme.io Help Center",
+          "snippet": "# How to connect your systeme.io account to ChatGPT using MCP keys\n\nIn this article, you will learn how to integrate the systeme.io MCP server with ChatGPT so you can interact with your account data using AI.\n\nWhat you will need:\n\n- A systeme.io account\n- An MCP key generated from your systeme.io ac"
+        },
+        {
+          "url": "https://help.systeme.io/category/11216-model-context-protocol-mcp",
+          "title": "systeme.io Help Center",
+          "snippet": "systeme.io Help Center\n\n# Model Context Protocol (MCP)\n\nHow to use the systeme.io MCP server (Model Context Protocol)\n\nHow to connect your systeme.io account to ChatGPT using MCP keys\n\nHow to connect your systeme.io account to Claude using MCP keys"
+        },
+        {
+          "url": "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp",
+          "title": "How to use the systeme.io MCP server (Model Context Protocol) | systeme.io Help Center",
+          "snippet": "# How to use the systeme.io MCP server (Model Context Protocol)\n\nThe new MCP server feature gives users, partners, and developers a powerful new way to interact with systeme.io using AI tools.\n\n## 1. Introduction to MCP\n\nMCP (Model Context Protocol) is a standard that enables AI assistants (such as "
+        },
+        {
+          "url": "https://help.systeme.io/article/11230-how-to-connect-your-systemeio-account-with-claude-using-mcp-keys",
+          "title": "How to connect your systeme.io account to Claude using MCP keys | systeme.io Help Center",
+          "snippet": "# How to connect your systeme.io account to Claude using MCP keys\n\nIn this article, you will learn how to integrate the systeme.io MCP server with Claude so you can interact with your account data using AI.\n\nWhat you will need:\n\n- A systeme.io account\n- An MCP key generated from your systeme.io acco"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://systeme.io",
+      "final_url": "https://systeme.io",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:13Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "f6d99e892785607db3d373dfa7932fdc5cc8e47f330e631012afb7a66c691ba2",
+      "text_len": 861
+    },
+    {
+      "requested_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+      "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:08Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c06f2fd0866c527827319516192776d9f8ebdc422bfa4f00d2e06636265a53a4",
+      "text_len": 6589
+    },
+    {
+      "requested_url": "https://systeme.io/pricing",
+      "final_url": "https://systeme.io/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:10Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "285bd3a7871e0e9fd2caf7b5ae3b8fab9b7bc7adffacb8b7fa557c87e188b93b",
+      "text_len": 5184
+    },
+    {
+      "requested_url": "https://help.systeme.io/article/11229-how-to-connect-your-systemeio-account-with-chatgpt-using-mcp-keys",
+      "final_url": "https://help.systeme.io/article/11229-how-to-connect-your-systemeio-account-with-chatgpt-using-mcp-keys",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:11Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c27164381cdf3919aa5c25663bae4780feff26dded6c0c64a9d8a5d64b775563",
+      "text_len": 1840
+    },
+    {
+      "requested_url": "https://developer.systeme.io/reference/api",
+      "final_url": "https://developer.systeme.io/reference/api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:08Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ca05368b869fbbc1256703b70f111f9761cc0497d80d58ce810784a152da5ec2",
+      "text_len": 6167
+    },
+    {
+      "requested_url": "https://developer.systeme.io/reference/api_contacts_get_collection-1",
+      "final_url": "https://developer.systeme.io/reference/api_contacts_get_collection-1",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:10Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cdaae8cf32dfe40f72cf64f7719d5f4842262974afbd91a6a986898404bebbb3",
+      "text_len": 1241
+    },
+    {
+      "requested_url": "https://developer.systeme.io/reference/api_webhooks_post-1",
+      "final_url": "https://developer.systeme.io/reference/api_webhooks_post-1",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:10Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b2658503bad63a1ca7dcec58a0f35a353171a35efe4feb3a91b7b4b0ca5d366d",
+      "text_len": 551
+    },
+    {
+      "requested_url": "https://help.systeme.io/article/11230-how-to-connect-your-systemeio-account-with-claude-using-mcp-keys",
+      "final_url": "https://help.systeme.io/article/11230-how-to-connect-your-systemeio-account-with-claude-using-mcp-keys",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fef0dd4fbc0f6d17f5dd18d95830e9cf034c0e27237e741088f3302a4fa7c15c",
+      "text_len": 2161
+    },
+    {
+      "requested_url": "https://developer.systeme.io/llms.txt",
+      "final_url": "https://developer.systeme.io/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:38:13Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "3498eb596297fc1bf76d6d7a08212886aecfe2626a0e3d2a3ea7a81a48ed1775",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.systeme.io/reference/api",
+        "quote": "your only option right now is to attach your API key to the `X-API-Key` header of each request",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://systeme.io/pricing",
+        "quote": "The free plan never expires and does not require a credit card.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.systeme.io/reference/api",
+        "quote": "navigate to the profile settings within your Systeme.io dashboard, and generate a new key under the \"Public API keys\" section",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.systeme.io/reference/api",
+        "quote": "allowing you to manage contacts, tags, and a variety of other operations integral to our platform",
+        "verified": true
+      },
+      {
+        "url": "https://developer.systeme.io/reference/api_contacts_get_collection-1",
+        "quote": "Retrieves the collection of Contact resources.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developer.systeme.io/llms.txt",
+        "quote": "[MCP Server ](https://developer.systeme.io/docs/mcp-server.md)",
+        "verified": true
+      },
+      {
+        "url": "https://help.systeme.io/article/11230-how-to-connect-your-systemeio-account-with-claude-using-mcp-keys",
+        "quote": "Remote MCP server URL (6): https://mcp.systeme.io/mcp?mcpKey=YOURMCPKEY",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.systeme.io/reference/api",
+        "quote": "To begin using the Systeme.io Public API, you must first obtain an authentication key.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://systeme.io",
+        "quote": "combines email marketing, sales funnels, and course creation all in one platform",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

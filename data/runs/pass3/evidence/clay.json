@@ -1,0 +1,814 @@
+{
+  "slug": "clay",
+  "searches": [
+    {
+      "query": "Clay API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.clay.com/public-api/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Authenticate requests with a Clay API key.\n\nEvery request to the Clay Public API must include a"
+        },
+        {
+          "url": "https://developers.clay.com/quickstart",
+          "title": "Quickstart",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Build with Clay from your coding agent, or call the Clay API from your own applications.\n\nThere are"
+        },
+        {
+          "url": "https://university.clay.com/docs/guide-find-clay-api-key",
+          "title": "Find your Clay API key - Clay Docs",
+          "snippet": "Find your Clay API key - Clay Docs\n\n# Find your Clay API key\n\nUtilize your Clay-native enrichments with your personal key.\n\nOverview\n\nA Clay API key is required for all Clay-native integrations.\n\nTo get started, you'll need a Clay account and your API key.\n\nYour Clay API key enables you to:\n\n- Look "
+        },
+        {
+          "url": "https://developers.clay.com/api-reference/me/get-the-authenticated-user",
+          "title": "Get the authenticated user",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Get the authenticated user\n\n> Returns the Clay user and workspace associated with the API key.\n\n## OpenAPI\n\n```ya"
+        },
+        {
+          "url": "https://apis.io/security/clay-com/clay-com-authentication/",
+          "title": "Clay API Authentication | APIs.io",
+          "snippet": "Clay API Authentication | APIs.io\n\n# Clay Authentication\n\nAuthentication\n\nClay secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.\n\n Prospecting Go-To-Market Sales Data Enrichment Automation Artificial Intelligence Webhook A2A \n\n### Security Schem"
+        }
+      ]
+    },
+    {
+      "query": "Clay developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.clay.com/quickstart",
+          "title": "Quickstart",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Build with Clay from your coding agent, or call the Clay API from your own applications.\n\nThere are"
+        },
+        {
+          "url": "https://developers.clay.com/public-api/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Authenticate requests with a Clay API key.\n\nEvery request to the Clay Public API must include a"
+        },
+        {
+          "url": "https://developers.clay.com/",
+          "title": "Overview",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Overview\n\n> Use Clay from agents, terminals, backend services, internal tools, and custom apps.\n\nClay used to liv"
+        },
+        {
+          "url": "https://developers.clay.com/routines/api",
+          "title": "Routines API",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Routines API\n\n> Run Clay-managed functions and custom functions through the Public API.\n\nRoutines are the program"
+        },
+        {
+          "url": "https://developers.clay.com/tables",
+          "title": "Tables (Enterprise)",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Tables (Enterprise)\n\n> Query known Clay tables with structured filters, selected fields, ordering, and pagination"
+        }
+      ]
+    },
+    {
+      "query": "Clay pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.clay.com/pricing",
+          "title": "Flexible pricing that fits you",
+          "snippet": "# Flexible pricing that fits you\n\nStart 14-Day Trial\n\n A full AI GTM hackathon focused on building real things: social listening tools, personalized graphic generation at scale, and dramatically improved EMEA phone number coverage with Clay and Canva.\n\n Clay should be an essential pillar of every co"
+        },
+        {
+          "url": "https://www.clay.com/faq/what-features-are-included-in-the-new-plans-how-do-i-pick-the-right-plan",
+          "title": "What features are included in the new plans? How do I pick the right plan?",
+          "snippet": "FAQ\n\n/\n\nWhat features are included in the new plans? How do I pick the right plan?\n\n# What features are included in the new plans? How do I pick the right plan?\n\nWe've designed each plan around the features that fit where you are in your GTM journey. The best place to start is matching your needs to"
+        },
+        {
+          "url": "https://university.clay.com/docs/plans-and-billing",
+          "title": "Plans & billing - Clay Docs",
+          "snippet": "Plans & billing - Clay Docs\n\n# Plans & billing\n\nWe'll walk through each of our pricing plans and information around billing your workspace.\n\nOverview\n\nClay offers three plan tiers that differ by features, capacity, and pricing. For a detailed comparison of all plans, visit our pricing page.\n\nYou can"
+        },
+        {
+          "url": "https://www.clay.com/faq/what-do-i-get-in-the-free-trial",
+          "title": "What do I get in the free trial?",
+          "snippet": "FAQ\n\n/\n\nWhat do I get in the free trial?\n\n# What do I get in the free trial?\n\nYou get access to the features from our Growth plan to test Clay out. Tables in trial are limited to 50 rows. Your trial’s credit and action allotments, along with your remaining balances, are shown in your workspace under"
+        },
+        {
+          "url": "https://www.clay.com/",
+          "title": "Build systems to grow revenue",
+          "snippet": "# Build systems to grow revenue\n\nInfrastructure to get any data, run agentic workflows, and launch GTM plays.\n\nStart free trial\n\nGet a demo\n\nor install directly with\n\nPaste in your coding agent\n\nCopy\n\nSet up the Clay plugin by following the steps in https://github.com/clay-run/agent-plugins\n\nTrusted"
+        }
+      ]
+    },
+    {
+      "query": "Clay official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://university.clay.com/docs/connect-to-clay-mcp",
+          "title": "Connect your platform to Clay MCP - Clay Docs",
+          "snippet": "Connect your platform to Clay MCP - Clay Docs\n\n# Connect your platform to Clay MCP\n\nRegister your platform as an OAuth client and connect it to Clay's MCP server.\n\nOverview\n\nClay exposes a Model Context Protocol (MCP) server that lets an external platform — an AI assistant, IDE, agent host, or partn"
+        },
+        {
+          "url": "https://www.clay.com/mcp",
+          "title": "Give reps the best prospecting data in their AI tools",
+          "snippet": "Clay MCP\n\n# Give reps the best prospecting data in their AI tools\n\nBring data from 200+ providers and Ops-managed workflows into one place in the tools reps already use. Find contacts, get emails and phone numbers, and push to sequences—all in natural language.\n\n“Clay's MCP helps us find and enrich "
+        },
+        {
+          "url": "https://university.clay.com/docs/mcp-troubleshooting-and-faqs",
+          "title": "MCP troubleshooting and FAQs - Clay Docs",
+          "snippet": "MCP troubleshooting and FAQs - Clay Docs\n\n# MCP troubleshooting and FAQs\n\nAnswering the most common questions regarding MCP.\n\n## Troubleshooting\n\n### Diagnosing a problem: is it Clay or the AI tool?\n\nThis is the most important first step, and the hardest to call without a framework. The clearest way"
+        },
+        {
+          "url": "https://www.clay.com/guides/clay-mcp",
+          "title": "What Is Clay MCP? Clay in Claude & ChatGPT (2026) | Clay",
+          "snippet": "What Is Clay MCP? Clay in Claude & ChatGPT (2026) | Clay\n\nJune 14, 2026 9 min read\n\n# What Is Clay MCP? Using Clay in Claude and AI Assistants\n\nClay MCP is the layer that brings Clay's data and workflows into the AI tools your team already works in, so reps act on Clay without opening Clay. Built on"
+        },
+        {
+          "url": "https://university.clay.com/docs/clay-mcp-in-chatgpt",
+          "title": "Clay MCP in ChatGPT - Clay Docs",
+          "snippet": "Clay MCP in ChatGPT - Clay Docs\n\n# Clay MCP in ChatGPT\n\nConnect the Clay MCP to ChatGPT, sign in to your workspace, and see what you can build and run from a chat on your plan.\n\nOverview\n\nThe Clay MCP is a ChatGPT app that connects ChatGPT to your Clay workspace with your own Clay sign-in. Once it's"
+        }
+      ]
+    },
+    {
+      "query": "site:clay.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.clay.com/mcp",
+          "title": "Give reps the best prospecting data in their AI tools",
+          "snippet": "Clay MCP\n\n# Give reps the best prospecting data in their AI tools\n\nBring data from 200+ providers and Ops-managed workflows into one place in the tools reps already use. Find contacts, get emails and phone numbers, and push to sequences—all in natural language.\n\n“Clay's MCP helps us find and enrich "
+        },
+        {
+          "url": "https://www.clay.com/guides/clay-mcp",
+          "title": "What Is Clay MCP? Clay in Claude & ChatGPT (2026) | Clay",
+          "snippet": "What Is Clay MCP? Clay in Claude & ChatGPT (2026) | Clay\n\nJune 14, 2026 9 min read\n\n# What Is Clay MCP? Using Clay in Claude and AI Assistants\n\nClay MCP is the layer that brings Clay's data and workflows into the AI tools your team already works in, so reps act on Clay without opening Clay. Built on"
+        },
+        {
+          "url": "https://university.clay.com/docs/mcp-settings",
+          "title": "MCP in Clay - Clay Docs",
+          "snippet": "MCP in Clay - Clay Docs\n\n# MCP in Clay\n\nConnect your Clay workspace to AI tools — and manage rep access, credit limits, and Functions from one place.\n\nOverview\n\nMCP (Model Context Protocol) is how Clay connects your workspace to AI tools like Claude, ChatGPT, Microsoft Copilot, and Glean. Workspace "
+        },
+        {
+          "url": "https://university.clay.com/docs/clay-mcp-in-chatgpt",
+          "title": "Clay MCP in ChatGPT - Clay Docs",
+          "snippet": "Clay MCP in ChatGPT - Clay Docs\n\n# Clay MCP in ChatGPT\n\nConnect the Clay MCP to ChatGPT, sign in to your workspace, and see what you can build and run from a chat on your plan.\n\nOverview\n\nThe Clay MCP is a ChatGPT app that connects ChatGPT to your Clay workspace with your own Clay sign-in. Once it's"
+        },
+        {
+          "url": "https://www.clay.com/blog/mcp-for-reps",
+          "title": "Prospect more efficiently with MCP for Reps in AI tools",
+          "snippet": "Search\n\nThank you! Your submission has been received!\n\nOops! Something went wrong while submitting the form.\n\nUse your Amazon Bedrock connection in ClayRun Clay’s AI and agent actions through your own Amazon Bedrock account, with access managed through AWS IAM roles.\n\nLaunch GTM plays as fast as you"
+        }
+      ]
+    },
+    {
+      "query": "Clay API authentication OAuth API key",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.clay.com/public-api/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Authenticate requests with a Clay API key.\n\nEvery request to the Clay Public API must include a"
+        },
+        {
+          "url": "https://developers.clay.com/quickstart",
+          "title": "Quickstart",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Build with Clay from your coding agent, or call the Clay API from your own applications.\n\nThere are"
+        },
+        {
+          "url": "https://developers.clay.com/api-reference/me/get-the-authenticated-user",
+          "title": "Get the authenticated user",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Get the authenticated user\n\n> Returns the Clay user and workspace associated with the API key.\n\n## OpenAPI\n\n```ya"
+        },
+        {
+          "url": "https://university.clay.com/docs/guide-find-clay-api-key",
+          "title": "Find your Clay API key - Clay Docs",
+          "snippet": "Find your Clay API key - Clay Docs\n\n# Find your Clay API key\n\nUtilize your Clay-native enrichments with your personal key.\n\nOverview\n\nA Clay API key is required for all Clay-native integrations.\n\nTo get started, you'll need a Clay account and your API key.\n\nYour Clay API key enables you to:\n\n- Look "
+        },
+        {
+          "url": "https://apis.io/scopes/clay-com/clay-com-scopes/",
+          "title": "Clay OAuth Scopes | APIs.io",
+          "snippet": "Clay OAuth Scopes | APIs.io\n\n# Clay OAuth Scopes\n\n OAuth 2.0 probed \n\nClay publishes 1 OAuth 2.0 scope via the authorizationCode, deviceCode, and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Clay API on a user’s behalf.\n"
+        }
+      ]
+    },
+    {
+      "query": "site:clay.com API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.clay.com/public-api/authentication",
+          "title": "Authentication",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Authenticate requests with a Clay API key.\n\nEvery request to the Clay Public API must include a"
+        },
+        {
+          "url": "https://developers.clay.com/quickstart",
+          "title": "Quickstart",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Build with Clay from your coding agent, or call the Clay API from your own applications.\n\nThere are"
+        },
+        {
+          "url": "https://university.clay.com/docs/http-api-with-jwt-authentication-integration-overview",
+          "title": "HTTP API with JWT authentication - Clay Docs",
+          "snippet": "HTTP API with JWT authentication - Clay Docs\n\n# HTTP API with JWT authentication\n\nUse HTTP API connections authenticated securely with JWT tokens.\n\nOverview\n\nThe HTTP API with JWT Authentication action connects Clay to APIs that issue short-lived JWT tokens as part of their authentication flow. Befo"
+        },
+        {
+          "url": "https://university.clay.com/docs/cli-security-privacy",
+          "title": "CLI security & privacy - Clay Docs",
+          "snippet": "CLI security & privacy - Clay Docs\n\n# CLI security & privacy\n\nUnderstand CLI authentication, role requirements, and how Clay handles data sent from your terminal.\n\nOverview\n\nClay's CLI lets your team drive a Clay workspace from a terminal or coding agent instead of the UI. Because that means credent"
+        },
+        {
+          "url": "https://university.clay.com/docs/http-api-integration-overview",
+          "title": "HTTP API - Clay Docs",
+          "snippet": "HTTP API - Clay Docs\n\n# HTTP API\n\nFacilitate seamless integration and connectivity with any APIs.\n\nOverview\n\nHTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://clay.com",
+      "final_url": "https://www.clay.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:37Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2033703485ea96e70e5341b407f4360eaffcb77069e20d2c204d44cae436d08f",
+      "text_len": 12385
+    },
+    {
+      "requested_url": "https://developers.clay.com/api-reference/me/get-the-authenticated-user",
+      "final_url": "https://developers.clay.com/api-reference/me/get-the-authenticated-user",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "27af1951cf6971f43017258dd8884c382f2cdc165e4ac5a0155247d25b4a707c",
+      "text_len": 3707
+    },
+    {
+      "requested_url": "https://developers.clay.com/public-api/authentication",
+      "final_url": "https://developers.clay.com/public-api/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:35Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1cf23b461e49c9ed2b7abdddf7d118aa8f1336bff7c7399817dc4630a2937cda",
+      "text_len": 1278
+    },
+    {
+      "requested_url": "https://www.clay.com/pricing",
+      "final_url": "https://www.clay.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:37Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a47ce8b165dc4b083ec7798ace9ea57ca3bb924f0e1bd6184b959f019bea8e6f",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://university.clay.com/docs/clay-mcp-in-chatgpt",
+      "final_url": "https://university.clay.com/docs/clay-mcp-in-chatgpt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:38Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6afd8af090686d0bb7cc00d9912dfe8294e2aaa2e69d66b0f8c0cad5608b6b8b",
+      "text_len": 9201
+    },
+    {
+      "requested_url": "https://university.clay.com/docs/connect-to-clay-mcp",
+      "final_url": "https://university.clay.com/docs/connect-to-clay-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:38Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "77fe43a3c9d8e5c260cf1957060920d12315a31ebb24a89a2d6e42691e3f5d9a",
+      "text_len": 11262
+    },
+    {
+      "requested_url": "https://university.clay.com/docs/mcp-settings",
+      "final_url": "https://university.clay.com/docs/mcp-settings",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:40Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "749f495bdc7fd87f2fa2319f2341116704f716117e0a815000c1f770732afa28",
+      "text_len": 12136
+    },
+    {
+      "requested_url": "https://university.clay.com/docs/mcp-troubleshooting-and-faqs",
+      "final_url": "https://university.clay.com/docs/mcp-troubleshooting-and-faqs",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:38Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f7dc6d5e893887f9db582ad76a93001c1f9add0eeb4fc2afb5b6322f651cd627",
+      "text_len": 16452
+    },
+    {
+      "requested_url": "https://developers.clay.com/llms.txt",
+      "final_url": "https://developers.clay.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:40Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "ca6c3c8c662641d4d1cca6e3e7bd041ce56fd97e46c566a118e674b93b8c7e01",
+      "text_len": 10922
+    },
+    {
+      "requested_url": "https://developers.clay.com/llms.txt",
+      "final_url": "https://developers.clay.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:26Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "ca6c3c8c662641d4d1cca6e3e7bd041ce56fd97e46c566a118e674b93b8c7e01",
+      "text_len": 10922
+    },
+    {
+      "requested_url": "https://developers.clay.com/public-api/authentication",
+      "final_url": "https://developers.clay.com/public-api/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1cf23b461e49c9ed2b7abdddf7d118aa8f1336bff7c7399817dc4630a2937cda",
+      "text_len": 1278
+    },
+    {
+      "requested_url": "https://university.clay.com/docs/connect-to-clay-mcp",
+      "final_url": "https://university.clay.com/docs/connect-to-clay-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:26Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "77fe43a3c9d8e5c260cf1957060920d12315a31ebb24a89a2d6e42691e3f5d9a",
+      "text_len": 11262
+    },
+    {
+      "requested_url": "https://developers.clay.com/api-reference/me/get-the-authenticated-user",
+      "final_url": "https://developers.clay.com/api-reference/me/get-the-authenticated-user",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "27af1951cf6971f43017258dd8884c382f2cdc165e4ac5a0155247d25b4a707c",
+      "text_len": 3707
+    },
+    {
+      "requested_url": "https://university.clay.com/docs/http-api-with-jwt-authentication-integration-overview",
+      "final_url": "https://university.clay.com/docs/http-api-with-jwt-authentication-integration-overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:26Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1a0b86350ef0f59731b407c9b336ad81d7c08a8a174718a42f9e05988d1c0838",
+      "text_len": 6509
+    },
+    {
+      "requested_url": "https://university.clay.com/docs/guide-find-clay-api-key",
+      "final_url": "https://university.clay.com/docs/guide-find-clay-api-key",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ad634d56dbad6f74d390ad65116702a86b67dff9a7ff98b8e5e336399174cf35",
+      "text_len": 1511
+    },
+    {
+      "requested_url": "https://www.clay.com/pricing",
+      "final_url": "https://www.clay.com/pricing",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:24:54Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "4428a8d55eca08c4cdef22488ea088f16a7f3432355bcf7987eb783fa0002fa2",
+      "text_len": 17081
+    },
+    {
+      "requested_url": "https://developers.clay.com/public-api/authentication",
+      "final_url": "https://developers.clay.com/public-api/authentication",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:24:56Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "3b425adfae93e8392a2b36a065d8a34c64c89d4c7901066ca29a5372babcfd5f",
+      "text_len": 1707
+    },
+    {
+      "requested_url": "https://university.clay.com/docs/connect-to-clay-mcp",
+      "final_url": "https://university.clay.com/docs/connect-to-clay-mcp",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:24:59Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "60d291f71d57218290ae49b4649bee10f60b3c4151f929c24ba9a3f6e2f5831b",
+      "text_len": 15005
+    },
+    {
+      "requested_url": "https://clay.com",
+      "final_url": "https://www.clay.com/",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:25:06Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "9c5742151bbf6eb00fa665a677ce989b9a5ed86719ad9d4b5dd0fc7ed105e664",
+      "text_len": 7408
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.clay.com/public-api/authentication",
+        "quote": "Every request to the Clay Public API must include a Clay API key in the clay-api-key header.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/clay/02-3c4bc32ae2.jpg"
+      },
+      {
+        "url": "https://university.clay.com/docs/connect-to-clay-mcp",
+        "quote": "Registration is open — there is no Clay-side approval step.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/clay/03-8d09682a7f.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.clay.com/pricing",
+        "quote": "Start building in Clay for free. No strings attached.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/clay/01-6e7180e7dd.jpg"
+      },
+      {
+        "url": "https://developers.clay.com/public-api/authentication",
+        "quote": "Create one under API and CLI → API keys, with clay api-keys create --name \"<key name>\" in the CLI",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/clay/02-3c4bc32ae2.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.clay.com/api-reference/me/get-the-authenticated-user",
+        "quote": "Programmatic access to Clay.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://university.clay.com/docs/connect-to-clay-mcp",
+        "quote": "Clay exposes a Model Context Protocol (MCP) server that lets an external platform",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/clay/03-8d09682a7f.jpg"
+      },
+      {
+        "url": "https://www.clay.com/pricing",
+        "quote": "Search, enrich, and reach out to leads from your Al chat tool",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/clay/01-6e7180e7dd.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.clay.com/public-api/authentication",
+        "quote": "curl https://api.clay.com/public/v0/me \\\n  -H \"clay-api-key: $CLAY_PUBLIC_API_KEY\"",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/clay/02-3c4bc32ae2.jpg"
+      },
+      {
+        "url": "https://www.clay.com/pricing",
+        "quote": "Start 14-day trial",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/clay/01-6e7180e7dd.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.clay.com/",
+        "quote": "Infrastructure to get any data, run agentic workflows, and launch GTM plays.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "mcp_only_oauth"
+    ],
+    "findings": [
+      {
+        "rule": "mcp_only_oauth",
+        "source": "llm",
+        "reason": "oauth2 is listed and set as primary_auth, but Clay documents OAuth (DCR + PKCE) only for the MCP server. The Public API accepts only the clay-api-key header.",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "url": "https://university.clay.com/docs/connect-to-clay-mcp",
+            "quote": "Register your platform as an OAuth client and connect it to Clay's MCP server."
+          },
+          {
+            "url": "https://developers.clay.com/public-api/authentication",
+            "quote": "Every request to the Clay Public API must include a Clay API key in the `clay-api-key` header."
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth"
+    ],
+    "claims": [
+      "auth"
+    ],
+    "review_searches": [
+      {
+        "query": "Clay API authentication OAuth API key",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developers.clay.com/public-api/authentication",
+            "title": "Authentication",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Authenticate requests with a Clay API key.\n\nEvery request to the Clay Public API must include a"
+          },
+          {
+            "url": "https://developers.clay.com/quickstart",
+            "title": "Quickstart",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Build with Clay from your coding agent, or call the Clay API from your own applications.\n\nThere are"
+          },
+          {
+            "url": "https://developers.clay.com/api-reference/me/get-the-authenticated-user",
+            "title": "Get the authenticated user",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Get the authenticated user\n\n> Returns the Clay user and workspace associated with the API key.\n\n## OpenAPI\n\n```ya"
+          },
+          {
+            "url": "https://university.clay.com/docs/guide-find-clay-api-key",
+            "title": "Find your Clay API key - Clay Docs",
+            "snippet": "Find your Clay API key - Clay Docs\n\n# Find your Clay API key\n\nUtilize your Clay-native enrichments with your personal key.\n\nOverview\n\nA Clay API key is required for all Clay-native integrations.\n\nTo get started, you'll need a Clay account and your API key.\n\nYour Clay API key enables you to:\n\n- Look "
+          },
+          {
+            "url": "https://apis.io/scopes/clay-com/clay-com-scopes/",
+            "title": "Clay OAuth Scopes | APIs.io",
+            "snippet": "Clay OAuth Scopes | APIs.io\n\n# Clay OAuth Scopes\n\n OAuth 2.0 probed \n\nClay publishes 1 OAuth 2.0 scope via the authorizationCode, deviceCode, and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Clay API on a user’s behalf.\n"
+          }
+        ]
+      },
+      {
+        "query": "site:clay.com API authentication",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developers.clay.com/public-api/authentication",
+            "title": "Authentication",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Authentication\n\n> Authenticate requests with a Clay API key.\n\nEvery request to the Clay Public API must include a"
+          },
+          {
+            "url": "https://developers.clay.com/quickstart",
+            "title": "Quickstart",
+            "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://developers.clay.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Quickstart\n\n> Build with Clay from your coding agent, or call the Clay API from your own applications.\n\nThere are"
+          },
+          {
+            "url": "https://university.clay.com/docs/http-api-with-jwt-authentication-integration-overview",
+            "title": "HTTP API with JWT authentication - Clay Docs",
+            "snippet": "HTTP API with JWT authentication - Clay Docs\n\n# HTTP API with JWT authentication\n\nUse HTTP API connections authenticated securely with JWT tokens.\n\nOverview\n\nThe HTTP API with JWT Authentication action connects Clay to APIs that issue short-lived JWT tokens as part of their authentication flow. Befo"
+          },
+          {
+            "url": "https://university.clay.com/docs/cli-security-privacy",
+            "title": "CLI security & privacy - Clay Docs",
+            "snippet": "CLI security & privacy - Clay Docs\n\n# CLI security & privacy\n\nUnderstand CLI authentication, role requirements, and how Clay handles data sent from your terminal.\n\nOverview\n\nClay's CLI lets your team drive a Clay workspace from a terminal or coding agent instead of the UI. Because that means credent"
+          },
+          {
+            "url": "https://university.clay.com/docs/http-api-integration-overview",
+            "title": "HTTP API - Clay Docs",
+            "snippet": "HTTP API - Clay Docs\n\n# HTTP API\n\nFacilitate seamless integration and connectivity with any APIs.\n\nOverview\n\nHTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay "
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://developers.clay.com/llms.txt",
+        "final_url": "https://developers.clay.com/llms.txt",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:26Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "ca6c3c8c662641d4d1cca6e3e7bd041ce56fd97e46c566a118e674b93b8c7e01",
+        "text_len": 10922
+      },
+      {
+        "requested_url": "https://developers.clay.com/public-api/authentication",
+        "final_url": "https://developers.clay.com/public-api/authentication",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:20Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "1cf23b461e49c9ed2b7abdddf7d118aa8f1336bff7c7399817dc4630a2937cda",
+        "text_len": 1278
+      },
+      {
+        "requested_url": "https://university.clay.com/docs/connect-to-clay-mcp",
+        "final_url": "https://university.clay.com/docs/connect-to-clay-mcp",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:26Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "77fe43a3c9d8e5c260cf1957060920d12315a31ebb24a89a2d6e42691e3f5d9a",
+        "text_len": 11262
+      },
+      {
+        "requested_url": "https://developers.clay.com/api-reference/me/get-the-authenticated-user",
+        "final_url": "https://developers.clay.com/api-reference/me/get-the-authenticated-user",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:20Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "27af1951cf6971f43017258dd8884c382f2cdc165e4ac5a0155247d25b4a707c",
+        "text_len": 3707
+      },
+      {
+        "requested_url": "https://university.clay.com/docs/http-api-with-jwt-authentication-integration-overview",
+        "final_url": "https://university.clay.com/docs/http-api-with-jwt-authentication-integration-overview",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:26Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "1a0b86350ef0f59731b407c9b336ad81d7c08a8a174718a42f9e05988d1c0838",
+        "text_len": 6509
+      },
+      {
+        "requested_url": "https://university.clay.com/docs/guide-find-clay-api-key",
+        "final_url": "https://university.clay.com/docs/guide-find-clay-api-key",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:20Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "ad634d56dbad6f74d390ad65116702a86b67dff9a7ff98b8e5e336399174cf35",
+        "text_len": 1511
+      }
+    ]
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "confidence_not_high",
+        "detail": "confidence is medium",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://www.clay.com/pricing",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://www.clay.com/pricing",
+        "title": "Compare plans, features & costs | Clay.com",
+        "text_len": 17081,
+        "http_status": 200,
+        "screenshot": "screenshots/clay/01-6e7180e7dd.jpg",
+        "usable": true,
+        "wall_s": 7.45
+      },
+      {
+        "url": "https://developers.clay.com/public-api/authentication",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developers.clay.com/public-api/authentication",
+        "title": "Authentication - Clay docs",
+        "text_len": 1707,
+        "http_status": 200,
+        "screenshot": "screenshots/clay/02-3c4bc32ae2.jpg",
+        "usable": true,
+        "wall_s": 2.04
+      },
+      {
+        "url": "https://university.clay.com/docs/connect-to-clay-mcp",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://university.clay.com/docs/connect-to-clay-mcp",
+        "title": "Connect your platform to Clay MCP - Clay Docs",
+        "text_len": 15005,
+        "http_status": 200,
+        "screenshot": "screenshots/clay/03-8d09682a7f.jpg",
+        "usable": true,
+        "wall_s": 3.19
+      },
+      {
+        "url": "https://clay.com",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://www.clay.com/",
+        "title": "Clay | Build systems to grow revenue",
+        "text_len": 7408,
+        "http_status": 200,
+        "screenshot": "screenshots/clay/04-167145f4d1.jpg",
+        "usable": true,
+        "wall_s": 6.76
+      }
+    ],
+    "cloud_sessions": 0
+  }
+}

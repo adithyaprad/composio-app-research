@@ -1,0 +1,357 @@
+{
+  "slug": "salesforce",
+  "searches": [
+    {
+      "query": "Salesforce API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+          "title": "Authorization Through External Client Apps or Connected Apps and OAuth ...",
+          "snippet": "Authorization Through External Client Apps or Connected Apps and OAuth 2.0 | Introduction to REST API | REST API Developer Guide | Salesforce Developers\n\n## Contents\n\nConfigure an External Client App or a Connected App Apply an OAuth Authorization Flow Protect Access Tokens with DPoP More Resources\n"
+        },
+        {
+          "url": "https://help.salesforce.com/s/articleView?id=remoteaccess_authenticate_overview.htm&language=en_US",
+          "title": "OAuth Authorization Flows | Salesforce Help",
+          "snippet": "OAuth Authorization Flows | Salesforce Help\n\n# OAuth Authorization Flows\n\nOAuth authorization flows grant a client application restricted access to protected resources on a resource server. Each OAuth flow offers a different process for approving access to a client app, but in general the flows cons"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+          "title": "Step Two: Set Up Authentication | Quick Start | REST API Developer Guide | Salesforce Developers",
+          "snippet": "Step Two: Set Up Authentication | Quick Start | REST API Developer Guide | Salesforce Developers\n\n## Contents\n\nGet an Access Token with Salesforce CLI Optional Salesforce CLI Shortcuts\n\n# Step Two: Set Up Authentication\n\nTo successfully send requests, REST API requires an access token obtained by au"
+        },
+        {
+          "url": "https://trailhead.salesforce.com/content/learn/modules/api_basics/api_basics_overview",
+          "title": "Salesforce Platform API Integration Guide",
+          "snippet": "Salesforce Platform API Integration Guide\n\n# Get to Know the Salesforce Platform APIs \n\n## Learning objectives\n\nAfter completing this unit, you’ll be able to:f \n\n- Describe the benefits of the API-first approach to development. \n- State use cases for REST API, SOAP API, Bulk API, and Pub/Sub API. \n-"
+        },
+        {
+          "url": "https://developer.salesforce.com/blogs/2024/02/invoke-rest-apis-with-the-salesforce-integration-user-and-oauth-client-credentials",
+          "title": "Invoke REST APIs with the Salesforce Integration User and OAuth Client Credentials | Salesforce Developers Blog",
+          "snippet": "Invoke REST APIs with the Salesforce Integration User and OAuth Client Credentials | Salesforce Developers Blog\n\n# Invoke REST APIs with the Salesforce Integration User and OAuth Client Credentials\n\nSamuel Rosen\n\nJeremy Westerman\n\nLearn to configure the Salesforce Integration User for both authentic"
+        }
+      ]
+    },
+    {
+      "query": "Salesforce developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-what-is-rest-api.html",
+          "title": "REST API Developer Guide",
+          "snippet": "About REST API | Introduction to REST API | REST API Developer Guide | Salesforce Developers\n\n# About REST API\n\nREST API is one of several web interfaces that you can use to access your Salesforce data without using the Salesforce user interface. With API access, you can perform operations and integ"
+        },
+        {
+          "url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/api_rest.pdf",
+          "title": "REST API Developer Guide",
+          "snippet": "## REST API Developer Guide\n\nVersion 68.0, Winter ’27\n\nLast updated: October 9, 2026\n\n© Copyright 2000–2026 Salesforce, Inc. All rights reserved. Salesforce is a registered trademark of Salesforce, Inc., as are other names and marks. Other marks appearing herein may be trademarks of their respective"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html",
+          "title": "Introduction to REST API",
+          "snippet": "Introduction to REST API | REST API Developer Guide | Salesforce Developers\n\n# Introduction to REST API\n\nREST API provides you with programmatic access to your data in Salesforce. The flexibility and scalability of REST API make it an excellent choice for integrating Salesforce into your application"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+          "title": "Quick Start | REST API Developer Guide | Salesforce Developers",
+          "snippet": "Quick Start | REST API Developer Guide | Salesforce Developers\n\n# Quick Start\n\nTo set up and run REST API, send a few basic requests to Salesforce. This Quick Start explains setting up a basic environment and updating a record using REST API. You can set up and use REST API in many ways, and the exa"
+        },
+        {
+          "url": "https://trailhead.salesforce.com/content/learn/modules/api_basics/api_basics_overview?trail_id=force_com_dev_intermediate",
+          "title": "Salesforce Platform API Integration Guide",
+          "snippet": "Salesforce Platform API Integration Guide\n\nclose\n\nTake our 10-minute Community Survey. Open now through July 19. Click here to participate.\n\n### Time Estimate\n\nAbout 15 mins\n\n### Topics\n\n- Learning Objectives\n- API First at Salesforce\n- Salesforce Data APIs\n- REST API\n- SOAP API\n- Bulk API\n- Pub/Sub"
+        }
+      ]
+    },
+    {
+      "query": "Salesforce pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.salesforce.com/pricing/",
+          "title": "Salesforce Pricing: See Pricing Plans for All Salesforce Products | Salesforce",
+          "snippet": "Salesforce Pricing: See Pricing Plans for All Salesforce Products | Salesforce\n\n \n\n# Salesforce Product Pricing \n\nMax out your AI value. Meet the new Salesforce Max Edition.\n\nMore value. Less to assemble. Get business apps, AI, trusted data, security, analytics, Slack, and support — all in one editi"
+        },
+        {
+          "url": "https://www.salesforce.com/crm/pricing/",
+          "title": "CRM Pricing Plans | Salesforce",
+          "snippet": "CRM Pricing Plans | Salesforce\n\n# CRM Pricing \n\nThe #1 agentic CRM is built to fit your needs as your business grows.\n\n## Choose the CRM plan that's right for you. \n\n### Starter Suite \n\n Lean businesses that need a turnkey CRM to get started quickly. \n\n $ 25 \n\n USD/User/Month \n\n (Starting price. Tra"
+        },
+        {
+          "url": "https://www.salesforce.com/crm/free-crm/",
+          "title": "Salesforce Free CRM: Get Started Today",
+          "snippet": "Salesforce Free CRM: Get Started Today | Salesforce\n\n# Free CRM \n\n See what turnkey AI can do — for free. \n\nA free CRM with turnkey AI that knows your customers — so every tool works together, every interaction builds on the last, and your hardest-won relationships only get stronger.\n\n## Find the CR"
+        },
+        {
+          "url": "https://www.salesforce.com/small-business/starter/",
+          "title": "Starter Suite CRM: Try Free Today",
+          "snippet": "Starter Suite CRM: Try Free Today | Salesforce\n\n# Starter Suite \n\nPut turnkey AI to work across your small business with a CRM that already knows your customers — and automate the kind of customer experiences you're actually proud of.\n\n## Find the Suite that’s right for you. \n\n### Starter Suite \n\n L"
+        },
+        {
+          "url": "https://www.salesforce.com/small-business/starter/free-trial/",
+          "title": "Starter Suite Free Trial: Try For Free Today",
+          "snippet": "Starter Suite Free Trial: Try For Free Today | Salesforce\n\n# Starter Suite Free Trial \n\nTry the Salesforce Starter Suite free trial for your small business\n\n \n\n### Starter Suite \n\nThe marketing, sales, service, and commerce tools you need to succeed — all in one CRM suite.\n\n \n\n### Pro Suite \n\nThe en"
+        }
+      ]
+    },
+    {
+      "query": "Salesforce official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+          "title": "Get Started | Hosted MCP Servers | Salesforce Developers",
+          "snippet": "Get Started | Hosted MCP Servers | Salesforce Developers\n\n## Contents\n\nWhat Is MCP? When to Use This Key Capabilities Getting Started Billing Considerations Learn More Release Notes\n\n# Salesforce Hosted MCP Servers\n\nSalesforce Hosted MCP Servers give AI agents a secure, governed way to interact with"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/servers-reference.html",
+          "title": "Standard Servers | Reference | Hosted MCP Servers | Salesforce Developers",
+          "snippet": "Standard Servers | Reference | Hosted MCP Servers | Salesforce Developers\n\n## Contents\n\nSObject Servers Product-Specific Servers\n\n# Standard MCP Servers Reference\n\nSalesforce provides a set of standard MCP servers that expose built-in platform and product capabilities. These servers are pre-configur"
+        },
+        {
+          "url": "https://developer.salesforce.com/blogs/2026/04/salesforce-hosted-mcp-servers-are-now-generally-available",
+          "title": "Salesforce Developers Blog",
+          "snippet": "Salesforce Hosted MCP Servers Are Now Generally Available | Salesforce Developers Blog\n\n# Salesforce Hosted MCP Servers Are Now Generally Available\n\nRoss Belmont\n\nSalesforce Hosted MCP Servers are now generally available (GA), enabling AI agents to securely access your Salesforce data across every E"
+        },
+        {
+          "url": "https://developer.salesforce.com/blogs/2026/05/connect-claude-with-salesforce-hosted-mcp-servers",
+          "title": "Connect Claude with Salesforce Hosted MCP Servers | Salesforce Developers Blog",
+          "snippet": "Connect Claude with Salesforce Hosted MCP Servers | Salesforce Developers Blog\n\n# Connect Claude with Salesforce Hosted MCP Servers\n\nPhilippe Ozil\n\nStop logging into Lightning Experience for daily operations. Learn how to securely configure external tools like Claude Code to interact directly with t"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html",
+          "title": "MCP Solutions | Agentforce Developer Guide | Salesforce Developers",
+          "snippet": "MCP Solutions | Headless Agentforce Development | Agentforce Developer Guide | Salesforce Developers\n\n## Contents\n\nBackground Salesforce Solutions MCP Skill See Also\n\n# MCP Solutions for Developers\n\nSalesforce offers Model Context Protocol (MCP) solutions that developers can use to access Salesforce"
+        }
+      ]
+    },
+    {
+      "query": "site:salesforce.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.salesforce.com/agentforce/mcp-support/model-context-protocol/",
+          "title": "Model Context Protocol: What Is MCP for Generative AI? | Salesforce",
+          "snippet": "Model Context Protocol: What Is MCP for Generative AI? | Salesforce\n\n# Model Context Protocol (MCP): The New Standard for AI Interoperability \n\nBy Magulan Duraipandian, Sr. AI Solutions Technical Evangelist - Salesforce\n\nThe Model Context Protocol (MCP) is an open standard that enables generative AI"
+        },
+        {
+          "url": "https://www.salesforce.com/agentforce/mcp-support/",
+          "title": "Agentforce MCP Support | Salesforce",
+          "snippet": "Agentforce MCP Support | Salesforce\n\n# Agentforce MCP Support \n\nConnect Agentforce to new tools and resources with secure, open interoperability through verified MCP server support from AgentExchange partners.\n\n## Unlock siloed data and agents with Agentforce. \n\nAgentforce will provide secure, enter"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html",
+          "title": "MCP Solutions | Agentforce Developer Guide | Salesforce Developers",
+          "snippet": "MCP Solutions | Headless Agentforce Development | Agentforce Developer Guide | Salesforce Developers\n\n## Contents\n\nBackground Salesforce Solutions MCP Skill See Also\n\n# MCP Solutions for Developers\n\nSalesforce offers Model Context Protocol (MCP) solutions that developers can use to access Salesforce"
+        },
+        {
+          "url": "https://www.salesforce.com/blog/architecting-secure-agent-connectivity-mcp-apis/",
+          "title": "MCP and APIs for Secure Agent Connectivity",
+          "snippet": "MCP and APIs for Secure Agent Connectivity\n\n# Architecting Secure Agent Connectivity: A Guide to Choosing Between MCP and APIs\n\nA real-world architectural scenario from episode six of the Think Like an Architect series, focused deciding when REST APIs are the right integration pattern and when Sales"
+        },
+        {
+          "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+          "title": "Get Started | Hosted MCP Servers | Salesforce Developers",
+          "snippet": "Get Started | Hosted MCP Servers | Salesforce Developers\n\n## Contents\n\nWhat Is MCP? When to Use This Key Capabilities Getting Started Billing Considerations Learn More Release Notes\n\n# Salesforce Hosted MCP Servers\n\nSalesforce Hosted MCP Servers give AI agents a secure, governed way to interact with"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://salesforce.com",
+      "final_url": "https://salesforce.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:40Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "4852797adfc6395105356e592f68822b448e24052e69e7ceba842af133a16965",
+      "text_len": 9325
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "final_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "eabc205cb0bb23fd6d9bf6c6c7f6cc21d9d1c7f5ad09e68c9d50548e137b9b2d",
+      "text_len": 3833
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html",
+      "final_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e4ddcfc06c5dfc3964f11a095068ff104663ee0a265bd690e4c9f25c4c1bbc3a",
+      "text_len": 3011
+    },
+    {
+      "requested_url": "https://www.salesforce.com/crm/pricing/",
+      "final_url": "https://www.salesforce.com/crm/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d4635dc8ea825a348b9f2ac3177273ccca36f9cb8ed3168ede3fc398633d7d83",
+      "text_len": 5861
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/servers-reference.html",
+      "final_url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/servers-reference.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9aff1b6f008cc4d76110762cd224d4e3522b5c0a2f015b6e356d4ca2d9f8cf19",
+      "text_len": 2024
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html",
+      "final_url": "https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a9b60ed7c2cb9bad619733fbd7e4a1c7c739875f57ac8ff80ed21401adfd131b",
+      "text_len": 4041
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+      "final_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "67c0a2a4c75a5d24c336e48fcaa8432685c404bd363f8440de31b7e51071a8e4",
+      "text_len": 4436
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+      "final_url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6cbeca90bb2c594326e4d18384e775b2b61820f91cfc5a4ba0f6205f6016d782",
+      "text_len": 3053
+    },
+    {
+      "requested_url": "https://help.salesforce.com/s/articleView?id=remoteaccess_authenticate_overview.htm&language=en_US",
+      "final_url": "https://help.salesforce.com/s/articleView?id=remoteaccess_authenticate_overview.htm&language=en_US",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0bb4f31a1a5c2563871c55a0dc89ae4ad8fed913bd4046897d30da0bbbc1d836",
+      "text_len": 12993
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/blogs/2024/02/invoke-rest-apis-with-the-salesforce-integration-user-and-oauth-client-credentials",
+      "final_url": "https://developer.salesforce.com/blogs/2024/02/invoke-rest-apis-with-the-salesforce-integration-user-and-oauth-client-credentials",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "011605462dac2da49376a8e9886423033b8d612698c7a3c0689d9bd9543e81d1",
+      "text_len": 14693
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+        "quote": "use either an external client app or a connected app and an OAuth 2.0 authorization flow.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.salesforce.com/blogs/2024/02/invoke-rest-apis-with-the-salesforce-integration-user-and-oauth-client-credentials",
+        "quote": "Authenticate each application using the OAuth client credentials flow, which is intended for server-to-server connections.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.salesforce.com/crm/pricing/",
+        "quote": "Try Salesforce CRM free for 30 days. No credit card required. Nothing to install.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html",
+        "quote": "you need both an org and a user with API access enabled.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html",
+        "quote": "REST API provides you with programmatic access to your data in Salesforce.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+        "quote": "Salesforce Hosted MCP Servers give AI agents a secure, governed way to interact with Salesforce data and automation.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/servers-reference.html",
+        "quote": "Standard servers are disabled by default and can be enabled by an administrator",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+        "quote": "Complete these steps in your Developer Edition org or development sandbox.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://salesforce.com",
+        "quote": "Get started with the #1 AI CRM",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

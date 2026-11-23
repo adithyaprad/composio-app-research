@@ -1,0 +1,831 @@
+{
+  "slug": "apify",
+  "searches": [
+    {
+      "query": "Apify API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.apify.com/api/v2",
+          "title": "Apify API",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\nVersion: v2-2026-11-18T151559Z\n\nDownload OpenAPI\n\n- YAML\n- JSON\n\n# Apify API\n\nThe Apify API (version 2) provides program"
+        },
+        {
+          "url": "https://docs.apify.com/integrations/api",
+          "title": "API integration",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API integration\n\nAll aspects of the Apify platform can be controlled via a REST API, which is described in detail in t"
+        },
+        {
+          "url": "https://apify.com/api",
+          "title": "Turn any website into an API · Apify",
+          "snippet": "Turn any website into an API · Apify\n\n# Turn any website into an API\n\nOne API for thousands of tools that get web data, automate workflows, and power AI agents. On Apify, these tools are called Actors, and you run any of them with the same API call.\n\nPowering the world’s top data-driven teams\n\nCase "
+        },
+        {
+          "url": "https://docs.apify.com/api/client/js/docs/introduction/quick-start",
+          "title": "Quick start",
+          "snippet": "# Quick start\n\nCopy for LLM\n\nLearn how to authenticate, run Actors, and retrieve results using the Apify API client for JavaScript.\n\n---\n\n## Step 1: Authenticate the client\n\nTo use the client, you need an API token. You can find your token under Integrations tab in Apify Console. Copy the token and "
+        },
+        {
+          "url": "https://docs.apify.com/academy/php/use-apify-from-php",
+          "title": "Use Apify via API from PHP",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Use Apify via API from PHP\n\nApify's RESTful API allows you to use the platform from basically anywhere. Many projects "
+        }
+      ]
+    },
+    {
+      "query": "Apify developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.apify.com/api/v2",
+          "title": "Apify API",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\nVersion: v2-2026-11-18T151559Z\n\nDownload OpenAPI\n\n- YAML\n- JSON\n\n# Apify API\n\nThe Apify API (version 2) provides program"
+        },
+        {
+          "url": "https://docs.apify.com/integrations/api",
+          "title": "API integration",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API integration\n\nAll aspects of the Apify platform can be controlled via a REST API, which is described in detail in t"
+        },
+        {
+          "url": "https://docs.apify.com/api",
+          "title": "Apify API documentation",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\nSkip to main content\n\nhttps://docs.apify.com\n\nhttps://discord.com/invite/jyEM2PRvMU Get started\n\nGet started Actors Stor"
+        },
+        {
+          "url": "https://docs.apify.com/api/client/js/docs/introduction/quick-start",
+          "title": "Quick start",
+          "snippet": "# Quick start\n\nCopy for LLM\n\nLearn how to authenticate, run Actors, and retrieve results using the Apify API client for JavaScript.\n\n---\n\n## Step 1: Authenticate the client\n\nTo use the client, you need an API token. You can find your token under Integrations tab in Apify Console. Copy the token and "
+        },
+        {
+          "url": "https://docs.apify.com/",
+          "title": "Apify Documentation",
+          "snippet": "# Apify Documentation\n\n> Apify is the largest marketplace of tools for AI. Thousands of ready-made Actors to automate your business. Get real-time web data, track competitors, generate leads, analyze sentiment, and orchestrate your apps. Actors are created by a global community of builders earning o"
+        }
+      ]
+    },
+    {
+      "query": "Apify pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://apify.com/pricing",
+          "title": "Apify Pricing",
+          "snippet": "# Apify Pricing\n\nFlexible plans with pay-as-you-go usage on top of the monthly fee. See apify.com/pricing for the full interactive pricing page.\n\nThis page is the pricing reference. How an agent connects to Apify, authenticates, and pays, including with no account and nobody to sign in, is in the ag"
+        },
+        {
+          "url": "https://docs.apify.com/account/subscriptions",
+          "title": "Apify subscription plans",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Apify subscription plans\n\nEach subscription plan comes with a certain amount of prepaid platform usage that you can sp"
+        },
+        {
+          "url": "https://console.apify.com/sign-up",
+          "title": "Sign up",
+          "snippet": "Apify Console\n\nThinking ...\n\nApify Console\n![Apify logo](/img/logos_apify/apify_logo_small_animated_dark.gif)\nThinking\n..."
+        },
+        {
+          "url": "https://apify.com/",
+          "title": "Apify",
+          "snippet": "# Apify\n\n> Apify is a marketplace of ready-to-run tools for AI that automate work on the web. Thousands of Actors get web data, generate leads, monitor social media, track competitors, and integrate with existing apps and agents. Actors are created by a global community of builders who earn from the"
+        },
+        {
+          "url": "https://help.apify.com/en/articles/5136728-subscribing-to-the-apify-platform",
+          "title": "Subscribing to the Apify platform",
+          "snippet": "Subscribing to the Apify platform | Apify help & support\n\n# Subscribing to the Apify platform\n\nWhich Apify plan is best for you? How do you subscribe and pay for overage? How do you add proxies to your plan? Find out below.\n\nWritten by Tomas Nosek\n\nApril 28, 2026\n\nTable of contents\n\nSo, you're ready"
+        }
+      ]
+    },
+    {
+      "query": "Apify official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://mcp.apify.com/",
+          "title": "Apify MCP server",
+          "snippet": "Apify MCP server\n\n# Get more value from the web with Apify MCP server\n\nConnect your AI agents with 131K+ tools for web scraping, data extraction, and automation. Run Actors, access results, and search Apify documentation.\n\napify-mcp-server\n\n> Scrape the latest 20 posts from @nike on Instagram\n\n ↳ ca"
+        },
+        {
+          "url": "https://docs.apify.com/mcp",
+          "title": "Apify MCP server",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Apify MCP server\n\nThe Apify's MCP server (mcp.apify.com) allows AI applications and agents to interact with the Apify "
+        },
+        {
+          "url": "https://docs.apify.com/agents/quickstart",
+          "title": "Agent quickstart",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Agent quickstart\n\nConnect your AI agent to the Apify MCP server and run your first Actor. For how the MCP server, plug"
+        },
+        {
+          "url": "https://blog.apify.com/how-to-use-mcp/",
+          "title": "How to use MCP with Apify Actors",
+          "snippet": "How to use MCP with Apify Actors\n\n# How to use MCP with Apify Actors\n\n Connect AI agents to Apify through MCP, discover and run Actors, and give Claude and other AI applications access to live web data. \n\n Oct 22, 2026 by \n\n Jakub Kopecký \n\n Magda Rýdová \n\nAI agents can reason through complex tasks,"
+        },
+        {
+          "url": "https://github.com/apify/apify-mcp-server",
+          "title": "Apify MCP server",
+          "snippet": "# apify/apify-mcp-server\n\nThe Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.\n\n- Stars: 17449\n- Forks: 478\n- Wa"
+        }
+      ]
+    },
+    {
+      "query": "site:docs.apify.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.apify.com/mcp",
+          "title": "Apify MCP server",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Apify MCP server\n\nThe Apify's MCP server (mcp.apify.com) allows AI applications and agents to interact with the Apify "
+        },
+        {
+          "url": "https://docs.apify.com/glossary",
+          "title": "Glossary",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Glossary\n\nShort definitions of the terms used across Apify docs. Each entry links to the page that covers the concept "
+        },
+        {
+          "url": "https://docs.apify.com/integrations/mcp-connectors",
+          "title": "MCP connectors",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# MCP connectors\n\nMCP connectors let Actors call third-party services through Model Context Protocol (MCP) on your behal"
+        },
+        {
+          "url": "https://docs.apify.com/agents/quickstart",
+          "title": "Agent quickstart",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Agent quickstart\n\nConnect your AI agent to the Apify MCP server and run your first Actor. For how the MCP server, plug"
+        },
+        {
+          "url": "https://docs.apify.com/agents/plugins",
+          "title": "Install the Apify plugin in your AI agent",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Install the Apify plugin in your AI agent\n\nThe Apify plugin is the shortest way to connect a coding agent to Apify. On"
+        }
+      ]
+    },
+    {
+      "query": "site:apify.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://blog.apify.com/mcp-for-beginners/",
+          "title": "What is MCP? A beginner's guide to Model Context Protocol",
+          "snippet": "What is MCP? A beginner's guide to Model Context Protocol\n\n# MCP for beginners: what it is and how it works\n\n Learn what Model Context Protocol is, how MCP hosts, clients, and servers work together, and how to connect your first AI agent to Apify MCP. \n\n Oct 9, 2026 by \n\n Magda Rýdová \n\nYou ask an A"
+        },
+        {
+          "url": "https://mcp.apify.com/",
+          "title": "Apify MCP server",
+          "snippet": "Apify MCP server\n\n# Get more value from the web with Apify MCP server\n\nConnect your AI agents with 131K+ tools for web scraping, data extraction, and automation. Run Actors, access results, and search Apify documentation.\n\napify-mcp-server\n\n> Scrape the latest 20 posts from @nike on Instagram\n\n ↳ ca"
+        },
+        {
+          "url": "https://docs.apify.com/mcp",
+          "title": "Apify MCP server",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Apify MCP server\n\nThe Apify's MCP server (mcp.apify.com) allows AI applications and agents to interact with the Apify "
+        },
+        {
+          "url": "https://blog.apify.com/mcp-a2a-agentic-internet/",
+          "title": "Two protocols building the agentic internet",
+          "snippet": "Two protocols building the agentic internet\n\n# MCP and A2A: building the agentic internet\n\n How agents discover tools, call services, and coordinate across systems is now standardizing. If you're building infrastructure that agents will use, it helps to know how the Model Context Protocol and Agent-"
+        },
+        {
+          "url": "https://blog.apify.com/best-mcp-servers/",
+          "title": "Best MCP servers for developers",
+          "snippet": "Best MCP servers for developers\n\n# Best MCP servers for developers\n\n Discover some of the best servers to automate repetitive tasks, improve development workflow, and increase productivity. \n\n Jun 24, 2025 by \n\n Matthew Lenhard \n\nModel Context Protocol (MCP) has made developers' lives easier by prov"
+        }
+      ]
+    },
+    {
+      "query": "Apify API authentication OAuth API key",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.apify.com/api/v2",
+          "title": "Apify API",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\nVersion: v2-2026-11-18T151559Z\n\nDownload OpenAPI\n\n- YAML\n- JSON\n\n# Apify API\n\nThe Apify API (version 2) provides program"
+        },
+        {
+          "url": "https://docs.apify.com/integrations/api",
+          "title": "API integration",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API integration\n\nAll aspects of the Apify platform can be controlled via a REST API, which is described in detail in t"
+        },
+        {
+          "url": "https://docs.apify.com/integrations/integrate",
+          "title": "Integrate with Apify | Platform",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Integrate with Apify\n\nIf you are building a service and your users could benefit from integrating with Apify or vice v"
+        },
+        {
+          "url": "https://docs.apify.com/account/settings",
+          "title": "Account settings",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Account settings\n\nYour Apify account settings allow you to configure your profile, manage API tokens, and set your pre"
+        },
+        {
+          "url": "https://docs.apify.com/integrations/n8n",
+          "title": "n8n integration",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# n8n integration\n\nn8n is an open source, fair-code licensed tool for workflow automation. With the Apify integration fo"
+        }
+      ]
+    },
+    {
+      "query": "site:docs.apify.com API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.apify.com/api/v2",
+          "title": "Apify API",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\nVersion: v2-2026-11-18T151559Z\n\nDownload OpenAPI\n\n- YAML\n- JSON\n\n# Apify API\n\nThe Apify API (version 2) provides program"
+        },
+        {
+          "url": "https://docs.apify.com/integrations/api",
+          "title": "API integration",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API integration\n\nAll aspects of the Apify platform can be controlled via a REST API, which is described in detail in t"
+        },
+        {
+          "url": "https://docs.apify.com/account/settings",
+          "title": "Account settings",
+          "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Account settings\n\nYour Apify account settings allow you to configure your profile, manage API tokens, and set your pre"
+        },
+        {
+          "url": "https://docs.apify.com/api/client/python/docs/introduction/quick-start",
+          "title": "Quick start",
+          "snippet": "# Quick start\n\nCopy for LLM\n\nLearn how to authenticate, run Actors, and retrieve results using the Apify API client for Python.\n\n---\n\n## Step 1: Authenticate the client\n\nTo use the client, you need an API token. You can find your token under the Integrations tab in Apify Console. Copy the token and "
+        },
+        {
+          "url": "https://docs.apify.com/api/client/js/docs/introduction/quick-start",
+          "title": "Quick start",
+          "snippet": "# Quick start\n\nCopy for LLM\n\nLearn how to authenticate, run Actors, and retrieve results using the Apify API client for JavaScript.\n\n---\n\n## Step 1: Authenticate the client\n\nTo use the client, you need an API token. You can find your token under Integrations tab in Apify Console. Copy the token and "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.apify.com",
+      "final_url": "https://docs.apify.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:56Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a5bb69251c9460f50d0a08b991c05b63563902efd8885834dfe6d9ceae8ffbee",
+      "text_len": 17776
+    },
+    {
+      "requested_url": "https://docs.apify.com/academy/php/use-apify-from-php",
+      "final_url": "https://docs.apify.com/academy/php/use-apify-from-php",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:55Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c2fab5487c0b8adbd6d1206daf543379b60741a375d72d0b94df0672f2e19f25",
+      "text_len": 11720
+    },
+    {
+      "requested_url": "https://apify.com/pricing",
+      "final_url": "https://apify.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:58Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2d0ab493c0535d10d9399dffb975e6d4a0997f3f3c52963314b50f3196ff9551",
+      "text_len": 10235
+    },
+    {
+      "requested_url": "https://docs.apify.com/mcp",
+      "final_url": "https://docs.apify.com/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e411689850fa03da02d55b4ba9093778b72cb70d114c2c9d765bd23c3b53485d",
+      "text_len": 18646
+    },
+    {
+      "requested_url": "https://docs.apify.com/integrations/mcp-connectors",
+      "final_url": "https://docs.apify.com/integrations/mcp-connectors",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "79a56651c3dea5bfdc27e145d68e654355adadcfb1725cd2091bebd322b95b68",
+      "text_len": 5895
+    },
+    {
+      "requested_url": "https://blog.apify.com/best-mcp-servers/",
+      "final_url": "https://blog.apify.com/best-mcp-servers/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1a7c8f0cc0c462bf40f77450fa0351423ceb6ab01b14330127a1d9a4abaacc4c",
+      "text_len": 9185
+    },
+    {
+      "requested_url": "https://blog.apify.com/how-to-use-mcp/",
+      "final_url": "https://blog.apify.com/how-to-use-mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f869d08cbebedfe7874551c01dfd201d13f9565cfe94d4a0e75e5ba1406de376",
+      "text_len": 8638
+    },
+    {
+      "requested_url": "https://blog.apify.com/mcp-a2a-agentic-internet/",
+      "final_url": "https://blog.apify.com/mcp-a2a-agentic-internet/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "059d6f69ddc4630f777d0a56348efe1c24e6ca4bda07f66864407860c69cd19b",
+      "text_len": 5935
+    },
+    {
+      "requested_url": "https://docs.apify.com/",
+      "final_url": "https://docs.apify.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:12Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "a5bb69251c9460f50d0a08b991c05b63563902efd8885834dfe6d9ceae8ffbee",
+      "text_len": 17776
+    },
+    {
+      "requested_url": "https://docs.apify.com/academy/php/use-apify-from-php",
+      "final_url": "https://docs.apify.com/academy/php/use-apify-from-php",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:12Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "c2fab5487c0b8adbd6d1206daf543379b60741a375d72d0b94df0672f2e19f25",
+      "text_len": 11720
+    },
+    {
+      "requested_url": "https://docs.apify.com/mcp",
+      "final_url": "https://docs.apify.com/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:12Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "e411689850fa03da02d55b4ba9093778b72cb70d114c2c9d765bd23c3b53485d",
+      "text_len": 18646
+    },
+    {
+      "requested_url": "https://docs.apify.com/account/settings",
+      "final_url": "https://docs.apify.com/account/settings",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:09Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8d2948c741c9a63a6d091ee9a6b8249764f8bea8206975c37039d3ca098c3a7b",
+      "text_len": 5563
+    },
+    {
+      "requested_url": "https://docs.apify.com/api/client/js/docs/introduction/quick-start",
+      "final_url": "https://docs.apify.com/api/client/js/docs/introduction/quick-start",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:12Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c8aae808e6ca7c62766534fcf4e88cc8a35bcf6a567c5457d2ea941c3247143c",
+      "text_len": 2933
+    },
+    {
+      "requested_url": "https://docs.apify.com/api/client/python/docs/introduction/quick-start",
+      "final_url": "https://docs.apify.com/api/client/python/docs/introduction/quick-start",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:31:12Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8379cc902d1f31c1c79ff6e03ad871380a859730d346ddea0f936d7a1578d305",
+      "text_len": 4143
+    },
+    {
+      "requested_url": "https://apify.com/pricing",
+      "final_url": "https://apify.com/pricing",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:24:46Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "961a9255e8a4793d3672bc926d83dd581ddf672e9e3bcc7069c985fd7eb7b1bc",
+      "text_len": 13822
+    },
+    {
+      "requested_url": "https://docs.apify.com/academy/php/use-apify-from-php",
+      "final_url": "https://docs.apify.com/academy/php/use-apify-from-php",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:24:50Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "b0f9bd51987057284e8d2886304628ad995e0eb5a36997c93ad0746ab8ff487c",
+      "text_len": 12439
+    },
+    {
+      "requested_url": "https://docs.apify.com/mcp",
+      "final_url": "https://docs.apify.com/mcp",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:24:58Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "8bf3a349eb527ef460d519ac462ca59d6c7baaf3e26c22e6e0ac73fd23841873",
+      "text_len": 18060
+    },
+    {
+      "requested_url": "https://docs.apify.com/",
+      "final_url": "https://docs.apify.com/",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:25:01Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "a63b7ec0ba0512279904893629a1e2eebaf5c88865e3b99e3d5ed10a559f37d8",
+      "text_len": 4213
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.apify.com/academy/php/use-apify-from-php",
+        "quote": "It can also be passed as a query string token parameter, but passing it in the header is preferred and more secure.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/apify/02-03285d24c3.jpg"
+      },
+      {
+        "url": "https://docs.apify.com/mcp",
+        "quote": "Only needed for the local stdio server or the Bearer token option. The recommended remote connection signs you in with OAuth instead.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/apify/03-40b26e2f67.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://apify.com/pricing",
+        "quote": "No credit card required.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/apify/01-7d5f0125a6.jpg"
+      },
+      {
+        "url": "https://docs.apify.com/academy/php/use-apify-from-php",
+        "quote": "To get an API token, go to Settings > API & Integrations in Apify Console, select Create a new token",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/apify/02-03285d24c3.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.apify.com/",
+        "quote": "Endpoints to manage Actors, runs, builds, tasks, datasets, key-value stores, request queues, schedules, webhooks, and your account.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.apify.com/academy/php/use-apify-from-php",
+        "quote": "Apify's RESTful API allows you to use the platform from basically anywhere.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.apify.com/mcp",
+        "quote": "The Apify's MCP server (mcp.apify.com) allows AI applications and agents to interact with the Apify platform using Model Context Protocol (MCP).",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/apify/03-40b26e2f67.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://apify.com/pricing",
+        "quote": "Start for free",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/apify/01-7d5f0125a6.jpg"
+      },
+      {
+        "url": "https://docs.apify.com/",
+        "quote": "Interact with the Apify platform from your applications.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/apify/04-5cbd04b207.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://docs.apify.com/",
+        "quote": "Apify is the largest marketplace of tools for AI. Thousands of ready-made Actors to automate your business.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "mcp_only_oauth"
+    ],
+    "findings": [
+      {
+        "rule": "mcp_only_oauth",
+        "source": "llm",
+        "reason": "oauth2 is listed and set as primary only because the MCP server offers OAuth sign-in; the REST API docs show only an API token (Bearer), and the row's own notes admit OAuth for third-party REST calls is not documented.",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "url": "https://docs.apify.com/mcp",
+            "quote": "The recommended remote connection signs you in with OAuth instead."
+          },
+          {
+            "url": "https://docs.apify.com/academy/php/use-apify-from-php",
+            "quote": "Note that we pass the API token in the header."
+          }
+        ]
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth"
+    ],
+    "claims": [
+      "auth"
+    ],
+    "review_searches": [
+      {
+        "query": "Apify API authentication OAuth API key",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://docs.apify.com/api/v2",
+            "title": "Apify API",
+            "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\nVersion: v2-2026-11-18T151559Z\n\nDownload OpenAPI\n\n- YAML\n- JSON\n\n# Apify API\n\nThe Apify API (version 2) provides program"
+          },
+          {
+            "url": "https://docs.apify.com/integrations/api",
+            "title": "API integration",
+            "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API integration\n\nAll aspects of the Apify platform can be controlled via a REST API, which is described in detail in t"
+          },
+          {
+            "url": "https://docs.apify.com/integrations/integrate",
+            "title": "Integrate with Apify | Platform",
+            "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Integrate with Apify\n\nIf you are building a service and your users could benefit from integrating with Apify or vice v"
+          },
+          {
+            "url": "https://docs.apify.com/account/settings",
+            "title": "Account settings",
+            "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Account settings\n\nYour Apify account settings allow you to configure your profile, manage API tokens, and set your pre"
+          },
+          {
+            "url": "https://docs.apify.com/integrations/n8n",
+            "title": "n8n integration",
+            "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# n8n integration\n\nn8n is an open source, fair-code licensed tool for workflow automation. With the Apify integration fo"
+          }
+        ]
+      },
+      {
+        "query": "site:docs.apify.com API authentication",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://docs.apify.com/api/v2",
+            "title": "Apify API",
+            "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\nVersion: v2-2026-11-18T151559Z\n\nDownload OpenAPI\n\n- YAML\n- JSON\n\n# Apify API\n\nThe Apify API (version 2) provides program"
+          },
+          {
+            "url": "https://docs.apify.com/integrations/api",
+            "title": "API integration",
+            "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API integration\n\nAll aspects of the Apify platform can be controlled via a REST API, which is described in detail in t"
+          },
+          {
+            "url": "https://docs.apify.com/account/settings",
+            "title": "Account settings",
+            "snippet": "> ## Documentation index\n> \n> Fetch the complete documentation index at: https://docs.apify.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Account settings\n\nYour Apify account settings allow you to configure your profile, manage API tokens, and set your pre"
+          },
+          {
+            "url": "https://docs.apify.com/api/client/python/docs/introduction/quick-start",
+            "title": "Quick start",
+            "snippet": "# Quick start\n\nCopy for LLM\n\nLearn how to authenticate, run Actors, and retrieve results using the Apify API client for Python.\n\n---\n\n## Step 1: Authenticate the client\n\nTo use the client, you need an API token. You can find your token under the Integrations tab in Apify Console. Copy the token and "
+          },
+          {
+            "url": "https://docs.apify.com/api/client/js/docs/introduction/quick-start",
+            "title": "Quick start",
+            "snippet": "# Quick start\n\nCopy for LLM\n\nLearn how to authenticate, run Actors, and retrieve results using the Apify API client for JavaScript.\n\n---\n\n## Step 1: Authenticate the client\n\nTo use the client, you need an API token. You can find your token under Integrations tab in Apify Console. Copy the token and "
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://docs.apify.com/",
+        "final_url": "https://docs.apify.com/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:12Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "a5bb69251c9460f50d0a08b991c05b63563902efd8885834dfe6d9ceae8ffbee",
+        "text_len": 17776
+      },
+      {
+        "requested_url": "https://docs.apify.com/academy/php/use-apify-from-php",
+        "final_url": "https://docs.apify.com/academy/php/use-apify-from-php",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:12Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "c2fab5487c0b8adbd6d1206daf543379b60741a375d72d0b94df0672f2e19f25",
+        "text_len": 11720
+      },
+      {
+        "requested_url": "https://docs.apify.com/mcp",
+        "final_url": "https://docs.apify.com/mcp",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:12Z",
+        "error": null,
+        "method": "exa_text",
+        "text_source_url": null,
+        "sha256": "e411689850fa03da02d55b4ba9093778b72cb70d114c2c9d765bd23c3b53485d",
+        "text_len": 18646
+      },
+      {
+        "requested_url": "https://docs.apify.com/account/settings",
+        "final_url": "https://docs.apify.com/account/settings",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:09Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "8d2948c741c9a63a6d091ee9a6b8249764f8bea8206975c37039d3ca098c3a7b",
+        "text_len": 5563
+      },
+      {
+        "requested_url": "https://docs.apify.com/api/client/js/docs/introduction/quick-start",
+        "final_url": "https://docs.apify.com/api/client/js/docs/introduction/quick-start",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:12Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "c8aae808e6ca7c62766534fcf4e88cc8a35bcf6a567c5457d2ea941c3247143c",
+        "text_len": 2933
+      },
+      {
+        "requested_url": "https://docs.apify.com/api/client/python/docs/introduction/quick-start",
+        "final_url": "https://docs.apify.com/api/client/python/docs/introduction/quick-start",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:31:12Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "8379cc902d1f31c1c79ff6e03ad871380a859730d346ddea0f936d7a1578d305",
+        "text_len": 4143
+      }
+    ]
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "confidence_not_high",
+        "detail": "confidence is medium",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://apify.com/pricing",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://apify.com/pricing",
+        "title": "Apify pricing - flexible plan + pay as you go · Apify",
+        "text_len": 13822,
+        "http_status": 200,
+        "screenshot": "screenshots/apify/01-7d5f0125a6.jpg",
+        "usable": true,
+        "wall_s": 3.95
+      },
+      {
+        "url": "https://docs.apify.com/academy/php/use-apify-from-php",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://docs.apify.com/academy/php/use-apify-from-php",
+        "title": "Use Apify via API from PHP | Academy | Apify Documentation",
+        "text_len": 12439,
+        "http_status": 200,
+        "screenshot": "screenshots/apify/02-03285d24c3.jpg",
+        "usable": true,
+        "wall_s": 3.98
+      },
+      {
+        "url": "https://docs.apify.com/mcp",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://docs.apify.com/mcp",
+        "title": "Apify MCP server | Platform | Apify Documentation",
+        "text_len": 18060,
+        "http_status": 200,
+        "screenshot": "screenshots/apify/03-40b26e2f67.jpg",
+        "usable": true,
+        "wall_s": 7.65
+      },
+      {
+        "url": "https://docs.apify.com/",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://docs.apify.com/",
+        "title": "Apify Documentation",
+        "text_len": 4213,
+        "http_status": 200,
+        "screenshot": "screenshots/apify/04-5cbd04b207.jpg",
+        "usable": true,
+        "wall_s": 3.89
+      }
+    ],
+    "cloud_sessions": 0
+  }
+}

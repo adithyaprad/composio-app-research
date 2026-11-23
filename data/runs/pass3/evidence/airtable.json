@@ -1,0 +1,338 @@
+{
+  "slug": "airtable",
+  "searches": [
+    {
+      "query": "Airtable API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://airtable.com/developers/web/api/authentication",
+          "title": "Authentication",
+          "snippet": "# Authentication\n\n## Basics\n\nAirtable's API uses token-based authentication, allowing users to authenticate API requests by inputting their tokens\ninto the HTTP authorization bearer token header.\n\nExample:\n\n```\ncurl https://api.airtable.com/v0/YOUR_BASE_ID/YOUR_TABLE_ID_OR_NAME -H \\\n\"Authorization: "
+        },
+        {
+          "url": "https://airtable.com/developers/web/api/scopes",
+          "title": "Scopes",
+          "snippet": "# Scopes\n\nScopes control what actions a token can perform.\n\nPersonal access tokens and OAuth access tokens can only access API endpoints covered by the scopes granted to them. A full reference of available scopes is below.\n\nOn top of requesting the correct scope, the user and token must also have th"
+        },
+        {
+          "url": "https://support.airtable.com/articles/2111090641-airtable-api-common-troubleshooting",
+          "title": "Airtable API: Common troubleshooting | Airtable Help Center",
+          "snippet": "Airtable API: Common troubleshooting | Airtable Help Center\n\n# Airtable API: Common troubleshooting\n\nAt times, you may encounter errors while making API calls. This article is meant to explain and troubleshoot the most common errors or issues that folks run into. For an exhaustive listing of errors "
+        },
+        {
+          "url": "https://airtable.com/developers/web/guides/oauth-integrations.md",
+          "title": "OAuth integrations",
+          "snippet": "# OAuth integrations\n\nOAuth integrations allow you to register with Airtable so that users may grant\nyou the ability to access Airtable's API on their behalf via the OAuth grant flow.\n\nIf you are building an Airtable integration for your product or for many different users that needs to use the Airt"
+        },
+        {
+          "url": "https://airtable.com/developers/web/api/oauth-reference",
+          "title": "OAuth reference",
+          "snippet": "# OAuth reference\n\nReference for how to request OAuth access tokens for your integration.\n\nRefer to this guide for how to register an OAuth integration with Airtable.\n\nAn example setup repo is available here.\n\n## Table of contents\n\n- Routes Authorization request Authorization request query Successfu"
+        }
+      ]
+    },
+    {
+      "query": "Airtable developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://airtable.com/developers/web/api/authentication",
+          "title": "Authentication",
+          "snippet": "# Authentication\n\n## Basics\n\nAirtable's API uses token-based authentication, allowing users to authenticate API requests by inputting their tokens\ninto the HTTP authorization bearer token header.\n\nExample:\n\n```\ncurl https://api.airtable.com/v0/YOUR_BASE_ID/YOUR_TABLE_ID_OR_NAME -H \\\n\"Authorization: "
+        },
+        {
+          "url": "https://airtable.com/developers/web/api/scopes",
+          "title": "Scopes",
+          "snippet": "# Scopes\n\nScopes control what actions a token can perform.\n\nPersonal access tokens and OAuth access tokens can only access API endpoints covered by the scopes granted to them. A full reference of available scopes is below.\n\nOn top of requesting the correct scope, the user and token must also have th"
+        },
+        {
+          "url": "https://airtable.com/developers/web/api",
+          "title": "Airtable Web API",
+          "snippet": "Airtable Web API\n\n### Your browser version is not supported. Try our desktop apps!\n\nhttps://www.airtable.com/downloads Alternatively, use the latest version of Chrome, Firefox, Safari, or Edge instead.\n\nAirtable Web API\n### Your browser version is not supported. Try our [desktop apps](https://www.ai"
+        },
+        {
+          "url": "https://airtable.com/developers/web/api/introduction",
+          "title": "API Reference",
+          "snippet": "# API Reference\n\nThis is the reference for the Airtable API. Use the sidebar to explore the API and learn about important concepts.\n\nThe Airtable API can be used to integrate your data in Airtable with any external system. The API closely follows REST\nsemantics, uses JSON to encode objects, and reli"
+        },
+        {
+          "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+          "title": "Creating personal access tokens",
+          "snippet": "Creating personal access tokens | Airtable Help Center\n\n# Creating personal access tokens\n\n Last updated 9 days ago \n\n| Plan availability | All plan types. Certain features are only available to Enterprise Scale or Business plan customers. |\n| --- | --- |\n| Permissions | The scopes and access that y"
+        }
+      ]
+    },
+    {
+      "query": "Airtable pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://airtable.com/pricing",
+          "title": "Airtable Pricing | Compare Plans, Features & Costs",
+          "snippet": "Airtable Pricing | Compare Plans, Features & Costs\n\n# A plan for every organization's needs\n\n## Have additional questions?\n\nBilling / pricing\n\nSpecial plans for\n\nNonprofits or Education\n\n## Frequently asked questions\n\nHow does Airtable's pricing work?\n\nAirtable plans are charged per seat. If you are"
+        },
+        {
+          "url": "https://support.airtable.com/articles/2277136852-airtable-plans-overview",
+          "title": "Airtable plans overview | Airtable Help Center",
+          "snippet": "Airtable plans overview | Airtable Help Center\n\n# Airtable plans overview\n\n Last updated 1 month ago \n\n| Permissions | Owner permissions |\n| --- | --- |\n| Related reading | Airtable pricing & plans Airtable billing overview How collaborators impact billing Changing your Airtable plan Discounted Airt"
+        },
+        {
+          "url": "https://airtable.com/signup",
+          "title": "Airtable: Sign up",
+          "snippet": "Sign up - Airtable\n\nSign up - Airtable\n![](https://airtable.com/internal/page_view?isInitialPageLoad=true&pageLoadId=pglBrNalFtso9tOed&location=https%3A%2F%2Fairtable.com%2Fsignup)![](https://analytics.twitter.com/i/adsct?txn_id=l6gpl&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0)[](/signup?_pxh"
+        },
+        {
+          "url": "https://support.airtable.com/articles/6347253266-airtable-billing-overview",
+          "title": "Airtable billing overview | Airtable Help Center",
+          "snippet": "Airtable billing overview | Airtable Help Center\n\n# Airtable billing overview\n\n Last updated 3 months ago \n\n| Permissions | Owners - Can adjust workspace settings and handle billing-related changes |\n| --- | --- |\n| Related reading | Airtable pricing & plans How collaborators impact billing Upgradin"
+        },
+        {
+          "url": "https://thedigitalprojectmanager.com/tools/airtable-pricing/",
+          "title": "Airtable Pricing Tiers & Costs",
+          "snippet": "Airtable Pricing Tiers & Costs\n\n# Airtable Pricing Tiers & Costs\n\n \n\n By Hermann Fink Last updated on Nov 19, 2026 \n\n A complete overview of Airtable pricing tiers, value for money, and how to pick the right plan for you. Plus, alternatives to consider and a side-by-side pricing comparison. \n\nAirtab"
+        }
+      ]
+    },
+    {
+      "query": "Airtable official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://airtable.com/developers/agents/mcp/getting-started",
+          "title": "MCP server overview",
+          "snippet": "# MCP server overview\n\nAirtable's MCP server lets you connect AI tools directly to your Airtable bases. This integration allows you to ask questions about your data, create and update records, build and manage automations, and analyze information—all through natural conversation with AI tools like C"
+        },
+        {
+          "url": "https://www.airtable.com/platform/mcp",
+          "title": "AI agent software: Don't just ask AI. Deploy it.",
+          "snippet": "AI agent software: Don’t just ask AI. Deploy it. | Airtable\n\n# Any agent. All your business context. One place to work.\n\nConnect Claude, ChatGPT, Gemini, and 3rd party model to Airtable. Work with live data, build apps, and create workflows in the same system your team uses.\n\n## Ask about the data. "
+        },
+        {
+          "url": "https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server",
+          "title": "Using the Airtable MCP server",
+          "snippet": "Using the Airtable MCP server | Airtable Help Center\n\n# Using the Airtable MCP server\n\n Last updated 13 days ago \n\n| Plan availability | All plans |\n| --- | --- |\n| Permissions | Your MCP permissions mirror the same permission level(s) that you have have been granted in Airtable. Owner, Creator, or "
+        },
+        {
+          "url": "https://github.com/Airtable/skills",
+          "title": "Airtable/skills",
+          "snippet": "# Airtable/skills\n\n- Stars: 53\n- Forks: 8\n- Watchers: 53\n- Open issues: 1\n- License: MIT License\n- Default branch: main\n- Created: 2026-04-17T18:56:25Z\n\n## Top Contributors\n\n- ClementHoang-at (4 contributions)\n- ShreyaNimma-at (2 contributions)\n- JamesBuzaid-at (1 contributions)\n\n---\n\n## README\n\n# A"
+        },
+        {
+          "url": "https://academy.airtable.com/page/introduction-to-airtable-mcp",
+          "title": "Introduction to Airtable MCP",
+          "snippet": "Introduction to Airtable MCP\n\nMeg Duffy | Course last reviewed: June 2026\n\n# Introduction to Airtable MCP\n\n## Three things to remember\n\n- MCP, the Model Context Protocol, connects AI tools like Claude directly and securely to your Airtable bases. They can search, create, and update records through p"
+        }
+      ]
+    },
+    {
+      "query": "site:airtable.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://airtable.com/developers/agents/mcp/getting-started",
+          "title": "MCP server overview",
+          "snippet": "# MCP server overview\n\nAirtable's MCP server lets you connect AI tools directly to your Airtable bases. This integration allows you to ask questions about your data, create and update records, build and manage automations, and analyze information—all through natural conversation with AI tools like C"
+        },
+        {
+          "url": "https://www.airtable.com/platform/mcp",
+          "title": "AI agent software: Don’t just ask AI. Deploy it. | Airtable",
+          "snippet": "AI agent software: Don’t just ask AI. Deploy it. | Airtable\n\n# Any agent. All your business context. One place to work.\n\nConnect Claude, ChatGPT, Gemini, and 3rd party model to Airtable. Work with live data, build apps, and create workflows in the same system your team uses.\n\n## Ask about the data. "
+        },
+        {
+          "url": "https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server",
+          "title": "Using the Airtable MCP server | Airtable Help Center",
+          "snippet": "Using the Airtable MCP server | Airtable Help Center\n\n# Using the Airtable MCP server\n\n Last updated 13 days ago \n\n| Plan availability | All plans |\n| --- | --- |\n| Permissions | Your MCP permissions mirror the same permission level(s) that you have have been granted in Airtable. Owner, Creator, or "
+        },
+        {
+          "url": "https://academy.airtable.com/page/introduction-to-airtable-mcp",
+          "title": "Introduction to Airtable MCP",
+          "snippet": "Introduction to Airtable MCP\n\nMeg Duffy | Course last reviewed: June 2026\n\n# Introduction to Airtable MCP\n\n## Three things to remember\n\n- MCP, the Model Context Protocol, connects AI tools like Claude directly and securely to your Airtable bases. They can search, create, and update records through p"
+        },
+        {
+          "url": "https://airtable.com/developers/agents",
+          "title": "Airtable for agents and humans",
+          "snippet": "# Airtable for agents and humans\n\nAirtable's structured field types, relational links, and built-in automations make it a rich data layer for AI agents. Any MCP-compatible tool can read, write, and query your bases through natural language, scoped to your existing permissions.\n\n## Query and edit you"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://airtable.com/developers",
+      "final_url": "https://airtable.com/developers",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:08Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "192c5c55dfdd3cd31227987004cf28df23f7bd6c86bf36f382f96124c55f0864",
+      "text_len": 3954
+    },
+    {
+      "requested_url": "https://airtable.com/developers/web/api/oauth-reference",
+      "final_url": "https://airtable.com/developers/web/api/oauth-reference",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1289269d68754ae33e000a955a4398d8982534f8b02b6471121417f06fdebae2",
+      "text_len": 15136
+    },
+    {
+      "requested_url": "https://airtable.com/developers/web/api/authentication",
+      "final_url": "https://airtable.com/developers/web/api/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "083f1092e4dfdac7eb5feab29333f35bad7813641ad3a51810f95332832a3291",
+      "text_len": 3052
+    },
+    {
+      "requested_url": "https://airtable.com/pricing",
+      "final_url": "https://airtable.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ee391c0a6619e671683d0fda625f4775f065951a50b9004a31a68a7c6b3c5910",
+      "text_len": 3737
+    },
+    {
+      "requested_url": "https://airtable.com/developers/agents/mcp/getting-started",
+      "final_url": "https://airtable.com/developers/agents/mcp/getting-started",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fcf20412dde39b01e3cb5b5f36ba22e82f6f87baa25754d09dc27a2885f196c0",
+      "text_len": 5610
+    },
+    {
+      "requested_url": "https://airtable.com/developers/web/guides/oauth-integrations.md",
+      "final_url": "https://airtable.com/developers/web/guides/oauth-integrations.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "409d57fa589599c0fb7fd1048c009f0b56590b6378ee8dc865d01f211e5f2fcc",
+      "text_len": 5480
+    },
+    {
+      "requested_url": "https://academy.airtable.com/page/introduction-to-airtable-mcp",
+      "final_url": "https://academy.airtable.com/page/introduction-to-airtable-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "15753972973272457d77e67fe80430628bde411346a982748a657b06948ea0a4",
+      "text_len": 6636
+    },
+    {
+      "requested_url": "https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server",
+      "final_url": "https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:43:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "327c398d1701fe3bf62d65ef98b93490f8efb1560857ae1b019c7d2771d1020e",
+      "text_len": 15964
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://airtable.com/developers/web/api/authentication",
+        "quote": "We currently support using personal access tokens and OAuth access tokens during the authentication process.",
+        "verified": true
+      },
+      {
+        "url": "https://airtable.com/developers/web/api/oauth-reference",
+        "quote": "GET `https://airtable.com/oauth2/v1/authorize`",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://airtable.com/developers/web/guides/oauth-integrations.md",
+        "quote": "You can access the OAuth integrations panel at /create/oauth. From here you can register new integrations",
+        "verified": true
+      },
+      {
+        "url": "https://airtable.com/pricing",
+        "quote": "Our Free plan is available at no cost for users just getting started.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://airtable.com/developers/web/api/authentication",
+        "quote": "curl https://api.airtable.com/v0/YOUR_BASE_ID/YOUR_TABLE_ID_OR_NAME",
+        "verified": true
+      },
+      {
+        "url": "https://airtable.com/developers",
+        "quote": "Create, edit, and delete records, fields, and tables through conversation.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://airtable.com/developers/agents/mcp/getting-started",
+        "quote": "Server URL: https://mcp.airtable.com/mcp",
+        "verified": true
+      },
+      {
+        "url": "https://airtable.com/developers/agents/mcp/getting-started",
+        "quote": "The server is available to all users on all plans.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://airtable.com/developers/web/api/authentication",
+        "quote": "Personal access tokens are for personal development, like building an integration for yourself, your client, or your company.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://airtable.com/developers",
+        "quote": "Airtable's structured field types, relational links, and built-in automations make it a rich data layer for AI agents.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

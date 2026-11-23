@@ -1,0 +1,364 @@
+{
+  "slug": "slack",
+  "searches": [
+    {
+      "query": "Slack API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.slack.dev/authentication/",
+          "title": "Authentication overview",
+          "snippet": "Source: https://docs.slack.dev/authentication\n\n# Authentication overview\n\nAuthentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0, ve"
+        },
+        {
+          "url": "https://docs.slack.dev/apis/web-api/",
+          "title": "Slack Web API",
+          "snippet": "Source: https://docs.slack.dev/apis/web-api\n\n# Slack Web API\n\nThe Slack Web API is an interface for querying information from and enacting change in a Slack workspace.\n\nUse it for individual queries, or as part of a more complex tapestry of platform features in a Slack app.\n\nWeb API methods\n\n---\n\n##"
+        },
+        {
+          "url": "https://docs.slack.dev/authentication/installing-with-oauth/",
+          "title": "Installing via OAuth authorization code flow",
+          "snippet": "Source: https://docs.slack.dev/authentication/installing-with-oauth\n\n# Installing via OAuth authorization code flow\n\nSlack apps are installed with a v2 OAuth 2.0 flow. Your app can act with its own identity instead of acting on behalf of users, without requesting excessive permissions that could cau"
+        },
+        {
+          "url": "https://docs.slack.dev/authentication/tokens/",
+          "title": "Tokens",
+          "snippet": "Source: https://docs.slack.dev/authentication/tokens\n\n# Tokens\n\nTokens are the keys to the Slack platform. They tie together all the scopes and permissions your app has obtained, allowing it to read, write, and interact. There are multiple types of tokens available. Each type is suited for different"
+        },
+        {
+          "url": "https://docs.slack.dev/reference/methods/oauth.v2.access",
+          "title": "oauth.v2.access method",
+          "snippet": "Source: https://docs.slack.dev/reference/methods/oauth.v2.access\n\n# oauth.v2.access method\n\nDocsCall generator\n\n## Facts {#facts}\n\nDescription Exchanges a temporary OAuth verifier code for an access token.\n\nMethod Access\n\n- HTTP\n- Slack CLI\n- JavaScript\n- Python\n- Java\n\n```\nPOST https://slack.com/ap"
+        }
+      ]
+    },
+    {
+      "query": "Slack developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.slack.dev/apis/web-api/",
+          "title": "Slack Web API",
+          "snippet": "Source: https://docs.slack.dev/apis/web-api\n\n# Slack Web API\n\nThe Slack Web API is an interface for querying information from and enacting change in a Slack workspace.\n\nUse it for individual queries, or as part of a more complex tapestry of platform features in a Slack app.\n\nWeb API methods\n\n---\n\n##"
+        },
+        {
+          "url": "https://docs.slack.dev/apis/",
+          "title": "Slack APIs",
+          "snippet": "Source: https://docs.slack.dev/apis\n\n# Slack APIs\n\nEvery Slack app and workflow has access to a range of APIs that provide access to read, write, and update many types of data in Slack.\n\nRead on to learn about our core APIs, and discover how to use them to make magic.\n\n---\n\n## Web API {#web-api}\n\nTh"
+        },
+        {
+          "url": "https://docs.slack.dev/tools/node-slack-sdk/getting-started/",
+          "title": "Getting started",
+          "snippet": "Source: https://docs.slack.dev/tools/node-slack-sdk/getting-started\n\n# Getting started\n\nThis guide shows how to use the packages in the Node Slack SDK to get a simple Slack app running. If you've never used the Slack APIs before, you're in the right place. Welcome, and let's get started!\n\n## Create "
+        },
+        {
+          "url": "https://docs.slack.dev/reference/",
+          "title": "Reference | Slack Developer Docs",
+          "snippet": "Source: https://docs.slack.dev/reference\n\n# Reference\n\nSlack apps can utilize a wide range of APIs and platform features to accomplish their tasks. Within this section contains a collection of reference guides for those features, providing a perusable list of parameters for POSTing.\n\nThe most visite"
+        },
+        {
+          "url": "https://docs.slack.dev/apis/web-api/using-web-api-with-postman",
+          "title": "Using the Web API with Postman",
+          "snippet": "Source: https://docs.slack.dev/apis/web-api/using-web-api-with-postman\n\n# Using the Web API with Postman\n\nThis guide focuses on using Slack Web API methods via the Postman application. This approach is helpful even if you have limited experience with APIs or coding.\n\nFirst things first: some basic d"
+        }
+      ]
+    },
+    {
+      "query": "Slack pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://slack.com/pricing",
+          "title": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack",
+          "snippet": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack\n\n# Choose a paid plan built for businesses.\n\nOr start with the basics for free, and upgrade at any time.\n\nThe world’s leading businesses rely on Slack\n\nFree A simpler way to chat and collaborate\n\n$0 USD free forever\n\n90 days of message hi"
+        },
+        {
+          "url": "https://slack.com/help/articles/202878523-Try-a-paid-Slack-plan-for-free",
+          "title": "Try a paid Slack plan for free | Slack",
+          "snippet": "Try a paid Slack plan for free | Slack\n\n# Workspace administration\n\nLearn how to manage your Slack workspace or Enterprise org.\n\n# Try a paid Slack plan for free\n\nIf you’d like to try one of our paid Slack plans, you might be interested in a free trial of either the Pro or Business+ plan.\n\n## Reques"
+        },
+        {
+          "url": "https://slack.com/pricing/paid-vs-free",
+          "title": "Slack Paid vs. Free",
+          "snippet": "Slack Paid vs. Free | Slack\n\n# Do more with a paid Slack plan\n\nWhy upgrade? With paid Slack plans, there are more features, more connections, and even more collaboration.\n\n## Investing in teamwork pays off\n\n- 338%\n\nreturn on investment 1 338% return on investment\n- $2.1M\n\nin productivity savings 1 $"
+        },
+        {
+          "url": "https://slack.com/pricing/free",
+          "title": "Free Plan | Slack",
+          "snippet": "Free Plan | Slack\n\n# A smarter, simpler way to chat and collaborate\n\nFree plan enables small teams to communicate and stay connected.\n\n## Get the basics, and get more done.\n\n- ### Unlimited private & public channels\n\nCreate a channel for every project, topic, or group. Private or public, they’ll hav"
+        },
+        {
+          "url": "https://slack.com/help/articles/115003205446-Slack-plans-and-features",
+          "title": "Slack plans and features",
+          "snippet": "Slack plans and features | Slack\n\n# Workspace administration\n\nLearn how to manage your Slack workspace or Enterprise org.\n\nActions,activity,access logs,accessibility,add,add an app,Add members,Add to Slack,administrators,all passwords,analytics,android,announcement,announcements,App Directory,app ic"
+        }
+      ]
+    },
+    {
+      "query": "Slack official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.slack.dev/ai/slack-mcp-server/",
+          "title": "Slack MCP server overview",
+          "snippet": "Source: https://docs.slack.dev/ai/slack-mcp-server\n\n# Slack MCP server overview\n\nWith the Slack MCP server, your integrated apps can search channels, send messages, and perform other Slack actions through MCP clients. Workspace admins can approve and manage all MCP client integrations, keeping your "
+        },
+        {
+          "url": "https://slack.com/help/articles/48855576908307-Guide-to-MCP-in-Slack",
+          "title": "Guide to MCP in Slack | Slack",
+          "snippet": "Guide to MCP in Slack | Slack\n\n# Using Slack\n\nFrom channels to search, learn how Slack works from top to bottom.\n\n# Guide to MCP in Slack\n\nModel Context Protocol (MCP) is an open-source framework for connecting AI applications with other software systems. You can use the Slack MCP server to connect "
+        },
+        {
+          "url": "https://docs.slack.dev/ai/slack-mcp-server/developing/",
+          "title": "Developing a sample app with the Slack MCP Server",
+          "snippet": "Source: https://docs.slack.dev/ai/slack-mcp-server/developing\n\n# Developing a sample app with the Slack MCP Server\n\nMCP clients integrate with Slack by sending standard JSON-RPC 2.0 requests as defined by the MCP specification. Since Slack hosts and manages the MCP Server, handling the tool logic on"
+        },
+        {
+          "url": "https://docs.slack.dev/",
+          "title": "Build an app with a coding agent",
+          "snippet": "Source: https://docs.slack.dev/\n\nSlack developer docs\n\n# Build an app with a coding agent\n\nAgents, apps, and integrations for the place where work happens. Pick how you like to build and have something running in Slack in minutes.\n\n## A coding agent\n\n1. Give your coding agent Slack skills One instal"
+        },
+        {
+          "url": "https://docs.slack.dev/ai/slack-mcp-server/connect-to-harnesses/",
+          "title": "Connecting the Slack MCP server to agent harnesses",
+          "snippet": "Source: https://docs.slack.dev/ai/slack-mcp-server/connect-to-harnesses\n\n# Connecting the Slack MCP server to agent harnesses\n\nThe Slack MCP server can be connected to various agent harnesses. Agent harnesses are essentially software infrastructure wrapped around a LLM. They handle orchestrating all"
+        }
+      ]
+    },
+    {
+      "query": "site:slack.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://slack.com/help/articles/48855576908307-Guide-to-MCP-in-Slack",
+          "title": "Guide to MCP in Slack | Slack",
+          "snippet": "Guide to MCP in Slack | Slack\n\n# Using Slack\n\nFrom channels to search, learn how Slack works from top to bottom.\n\n# Guide to MCP in Slack\n\nModel Context Protocol (MCP) is an open-source framework for connecting AI applications with other software systems. You can use the Slack MCP server to connect "
+        },
+        {
+          "url": "https://slack.com/help/articles/52414744085139-Connect-Slackbot-to-other-apps-with-MCP",
+          "title": "Connect Slackbot to other apps with MCP | Slack",
+          "snippet": "Connect Slackbot to other apps with MCP | Slack\n\n# Using Slack\n\nFrom channels to search, learn how Slack works from top to bottom.\n\n# Connect Slackbot to other apps with MCP\n\nConnect Slackbot to other apps you use to take actions in those apps directly from Slack. When you install an app that includ"
+        },
+        {
+          "url": "https://slack.com/blog/news/slackbots-mcp-client",
+          "title": "The Shift to Multiplayer Work: Say Hello to Slackbot’s MCP Client | Slack",
+          "snippet": "The Shift to Multiplayer Work: Say Hello to Slackbot’s MCP Client | Slack\n\n# The Shift to Multiplayer Work: Say Hello to Slackbot’s MCP Client\n\nNow you can work with over 20 partner applications that integrate with Slackbot and shared channels\n\nBy the team at Slack June 17th, 2026\n\nTable of Contents"
+        },
+        {
+          "url": "https://slack.com/blog/news/slackbot-mcp-security",
+          "title": "How Slack Keeps MCP Secure | Slack",
+          "snippet": "How Slack Keeps MCP Secure | Slack\n\n# How Slack Keeps MCP Secure\n\nBy the team at Slack June 17th, 2026\n\nTable of Contents\n\nTable of Contents\n\nThe enterprise AI landscape is changing fast. Here’s what your security team needs to know about how Slack built MCP with trust at the foundation, not bolted "
+        },
+        {
+          "url": "https://slack.com/blog/news/mcp-real-time-search-api-now-available",
+          "title": "Slack Securely Powers Your Third-Party Agents With Your Business Context | Slack",
+          "snippet": "Slack Securely Powers Your Third-Party Agents With Your Business Context | Slack\n\n# Slack Securely Powers Your Third-Party Agents With Your Business Context\n\nThe Slack MCP server and Real-Time Search API are now generally available.\n\nBy the team at Slack February 17th, 2026\n\nTable of Contents\n\nImagi"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://slack.com",
+      "final_url": "https://slack.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:05Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "79f6b104fdc76a1ae58e3c4f69f38e7cdcdeaf42a86a5164e688226607c38dfc",
+      "text_len": 6075
+    },
+    {
+      "requested_url": "https://docs.slack.dev/reference/methods/oauth.v2.access",
+      "final_url": "https://docs.slack.dev/reference/methods/oauth.v2.access",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "77121263b513d6947e36d7827f7eacacab18bb5c517d17e4325370140934ccf3",
+      "text_len": 12194
+    },
+    {
+      "requested_url": "https://docs.slack.dev/apis/",
+      "final_url": "https://docs.slack.dev/apis/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:58Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b71f4a4c82c86a1da21d3ae69cae687fd187c07c59647eb88849d6c0fff75f13",
+      "text_len": 3097
+    },
+    {
+      "requested_url": "https://slack.com/pricing",
+      "final_url": "https://slack.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5c8ac537e0645cb416557376a2c6dae3cd5a6d0e098c05bf903232911aca3266",
+      "text_len": 6772
+    },
+    {
+      "requested_url": "https://slack.com/help/articles/48855576908307-Guide-to-MCP-in-Slack",
+      "final_url": "https://slack.com/help/articles/48855576908307-Guide-to-MCP-in-Slack",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8440b6534c9c10f2c6d4726ad1d6870f6af4b7b62e1afef8ef302d6d0bab527b",
+      "text_len": 3622
+    },
+    {
+      "requested_url": "https://slack.com/blog/news/mcp-real-time-search-api-now-available",
+      "final_url": "https://slack.com/blog/news/mcp-real-time-search-api-now-available",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:36:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "511236d02c2ff3e748f0abf47fc1bbdfb63f831191606b0791add7511978883f",
+      "text_len": 14402
+    },
+    {
+      "requested_url": "https://slack.com/pricing/free",
+      "final_url": "https://slack.com/pricing/free",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "939a62aa5198b23c71930d035f8bbed5e227974b623d3963a8e1236cb8b6fbf5",
+      "text_len": 1574
+    },
+    {
+      "requested_url": "https://slack.com/pricing/paid-vs-free",
+      "final_url": "https://slack.com/pricing/paid-vs-free",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:59Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c2bfc761ea21a02defad1efb25590b54af930d51d85f0caecfab06f8efa61dcd",
+      "text_len": 4176
+    },
+    {
+      "requested_url": "https://docs.slack.dev/authentication/",
+      "final_url": "https://docs.slack.dev/authentication/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f0f73ab335aedba983e24bb2d6ab2799318314ed95405f9b56fc3e221c290041",
+      "text_len": 1568
+    },
+    {
+      "requested_url": "https://docs.slack.dev/authentication/installing-with-oauth/",
+      "final_url": "https://docs.slack.dev/authentication/installing-with-oauth/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d5246c48c246a270a1e693064525f600e9755aadf92d9aea4945069edb8750eb",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.slack.dev/authentication/tokens/",
+      "final_url": "https://docs.slack.dev/authentication/tokens/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "390176c7daf45b36223ccd49fb7ca24cfc688df8172a4b8eba29fb79ddc5f4fd",
+      "text_len": 10564
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.slack.dev/authentication/installing-with-oauth/",
+        "quote": "Slack apps are installed with a v2 OAuth 2.0 flow.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.slack.dev/authentication/tokens/",
+        "quote": "Bot token strings begin with `xoxb-`.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://slack.com/pricing/free",
+        "quote": "Make all your tools work better by integrating industry-leading software and custom apps right into Slack.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.slack.dev/authentication/installing-with-oauth/",
+        "quote": "OAuth allows a user in any Slack workspace to install your app.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.slack.dev/apis/",
+        "quote": "With over 100 methods available, it's impossible to explain everything that's possible with the Web API",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://slack.com/help/articles/48855576908307-Guide-to-MCP-in-Slack",
+        "quote": "You can use the Slack MCP server to connect AI tools to Slack, or set Slackbot up as an MCP client",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.slack.dev/apis/",
+        "quote": "The Web API supplies a collection of HTTP methods that underpin the majority of Slack app functionality.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://slack.com",
+        "quote": "Slack connects your team. Slackbot multiplies what they can do.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

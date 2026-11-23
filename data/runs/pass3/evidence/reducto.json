@@ -1,0 +1,345 @@
+{
+  "slug": "reducto",
+  "searches": [
+    {
+      "query": "Reducto API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.reducto.ai/quickstart",
+          "title": "API Quickstart",
+          "snippet": "> Documentation Index\n> Fetch the complete documentation index at: https://docs.reducto.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Quickstart\n\n## Prerequisites\n\n### Create a Reducto account\n\nSign up for a free account without leaving the docs.\n\nYou n"
+        },
+        {
+          "url": "https://reducto.ai/auth.md",
+          "title": "Reducto Authentication",
+          "snippet": "# Reducto Authentication\n\nReducto supports direct HTTP signup for a new user at a new company. It grants the standard 15,000 free credits and an API key. The human supplies an email, their name, a verification code, and explicit agreement to the terms. No CLI or browser cookies are needed.\n\nExisting"
+        },
+        {
+          "url": "https://docs.reducto.ai/agent-guide",
+          "title": "Reducto API Reference for Coding Agents",
+          "snippet": "> Documentation Index\n> Fetch the complete documentation index at: https://docs.reducto.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Reducto API Reference for Coding Agents\n\nA compact reference for AI coding agents. Every Parse example uses r-1. Keep it th"
+        },
+        {
+          "url": "https://docs.reducto.ai/sdk/javascript/overview",
+          "title": "JavaScript SDK Overview",
+          "snippet": "> Documentation Index\n> Fetch the complete documentation index at: https://docs.reducto.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# JavaScript SDK Overview\n\nThe Reducto JavaScript SDK provides a type-safe interface to the Reducto API. It handles authentic"
+        },
+        {
+          "url": "https://docs.reducto.ai/security/workload-identity-federation",
+          "title": "Workload identity federation",
+          "snippet": "> Documentation Index\n> Fetch the complete documentation index at: https://docs.reducto.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Workload identity federation\n\nWorkload identity federation lets a workload call the Reducto API without a long-lived API ke"
+        }
+      ]
+    },
+    {
+      "query": "Reducto developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.reducto.ai/quickstart",
+          "title": "API Quickstart",
+          "snippet": "> Documentation Index\n> Fetch the complete documentation index at: https://docs.reducto.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Quickstart\n\n## Prerequisites\n\n### Create a Reducto account\n\nSign up for a free account without leaving the docs.\n\nYou n"
+        },
+        {
+          "url": "https://docs.reducto.ai/overview",
+          "title": "Reducto docs",
+          "snippet": "> Documentation Index\n> Fetch the complete documentation index at: https://docs.reducto.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Overview\n\n- Introducing Parse r-1 mini: Industry-leading accuracy at $1 per 1,000 pages.\n\nReducto is the agentic document p"
+        },
+        {
+          "url": "https://reducto.ai/developers",
+          "title": "Developers | Reducto — The Agentic Document Platform API",
+          "snippet": "Developers | Reducto — The Agentic Document Platform API\n\n# One API for every document\n\nParse, extract, classify, split, and edit 30+ file types. Production-ready structured JSON in minutes, not months.\n\n```\nfrom reducto import Reducto\n\nclient = Reducto()\nresult = client.parse.run(\n    input=\"https:"
+        },
+        {
+          "url": "https://docs.reducto.ai/agent-guide",
+          "title": "Reducto API Reference for Coding Agents",
+          "snippet": "> Documentation Index\n> Fetch the complete documentation index at: https://docs.reducto.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Reducto API Reference for Coding Agents\n\nA compact reference for AI coding agents. Every Parse example uses r-1. Keep it th"
+        },
+        {
+          "url": "https://docs.reducto.ai/sdk/javascript/overview",
+          "title": "JavaScript SDK Overview",
+          "snippet": "> Documentation Index\n> Fetch the complete documentation index at: https://docs.reducto.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# JavaScript SDK Overview\n\nThe Reducto JavaScript SDK provides a type-safe interface to the Reducto API. It handles authentic"
+        }
+      ]
+    },
+    {
+      "query": "Reducto pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://reducto.ai/pricing",
+          "title": "Reducto Pricing | Agentic document platform for parsing and extraction",
+          "snippet": "Reducto Pricing | Agentic document platform for parsing and extraction\n\n# Choose the plan that best fits your needs\n\n## Standard\n\nPay-as-you-go for early-stage teams\n\nFree$150 in free usage\n\nCore Functionality\n\n- Parse API\n- Extract API\n- Edit API\n- Split API\n- 30+ Supported File Types\n- Up to 5 sea"
+        },
+        {
+          "url": "https://docs.reducto.ai/reference/pricing-migration",
+          "title": "Pricing Migration Guide",
+          "snippet": "Pricing Migration Guide | Reducto Documentation\n\n# Pricing Migration Guide\n\nHow Reducto's move from credit-based billing to per-product pricing affects you\n\n## TL;DR\n\n- Effective September 1, 2026, Reducto is introducing a new pricing structure. See Usage and Pricing for the full list rates.\n- No ex"
+        },
+        {
+          "url": "https://reducto.ai/startups",
+          "title": "Reducto for Startups | Document Processing & OCR",
+          "snippet": "Reducto for Startups | Document Processing & OCR\n\n# Document intelligence trusted by leading startups\n\nThe agentic document platform for startups — OCR, document parsing, and data extraction built for teams scaling from prototype to production.\n\nHelping everyone from startups to Fortune 10 enterpris"
+        },
+        {
+          "url": "https://reducto.ai/",
+          "title": "Reducto",
+          "snippet": "# Reducto\n\nReducto is the complete agentic document platform for parsing, extracting, splitting, classifying, and editing documents at enterprise scale. It combines custom models with frontier models for accurate, citation-ready outputs across 30+ file types, including complex tables, charts, handwr"
+        },
+        {
+          "url": "https://docs.reducto.ai/reference/credit-usage",
+          "title": "Usage and Pricing",
+          "snippet": "> Documentation Index\n> Fetch the complete documentation index at: https://docs.reducto.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Usage and Pricing\n\nReducto measures usage separately for each product. Your contract and rate card is the source of truth. "
+        }
+      ]
+    },
+    {
+      "query": "Reducto official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.reducto.ai/mcp-server",
+          "title": "Reducto MCP Server",
+          "snippet": "Reducto MCP Server | Reducto Documentation\n\n# Reducto MCP Server\n\nConnect AI agents to Reducto via the Model Context Protocol.\n\nThe Reducto MCP server connects AI agents directly to Reducto. Once installed, agents in Claude Desktop, Claude Code, Codex, Cursor, VS Code, Windsurf, or any other Model C"
+        },
+        {
+          "url": "https://reducto.ai/tools/reducto-mcp-claude-code-cursor",
+          "title": "Install the Reducto MCP server in Claude Code and Cursor",
+          "snippet": "# Install the Reducto MCP server in Claude Code and Cursor\n\n> Point your client at https://mcp.reducto.ai/mcp with an Authorization: Bearer header. Claude Code: claude mcp add --transport http. Cursor: .cursor/mcp.json. For Codex, VS Code, Claude Desktop, Windsurf and the local server, follow the Re"
+        },
+        {
+          "url": "https://reducto.ai/tools/agents",
+          "title": "Document tools for AI agents",
+          "snippet": "# Document tools for AI agents\n\nGive your agent PDF, Word, PowerPoint, Excel and image reading in one step. Start without a key, then add the MCP server or a framework tool.\n\n## Start here\n\n- Reader URL: GET reducto.ai/read/: Any public document URL as Markdown. No key, up to 5 pages.\n- No-key tools"
+        },
+        {
+          "url": "https://reducto.ai/SKILL.md",
+          "title": "Reducto",
+          "snippet": "# Reducto\n\nReducto converts documents (PDFs, images, spreadsheets, DOCX, and 30+ other formats) into structured data.\n\n- Parse — Convert documents into structured text, tables, and figures with layout-aware chunking\n- Extract — Pull specific fields into JSON using a JSON Schema\n- Split — Divide docu"
+        },
+        {
+          "url": "https://docs.reducto.ai/quickstart",
+          "title": "API Quickstart | Reducto Documentation",
+          "snippet": "> Documentation Index\n> Fetch the complete documentation index at: https://docs.reducto.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Quickstart\n\n## Prerequisites\n\n### Create a Reducto account\n\nSign up for a free account without leaving the docs.\n\nYou n"
+        }
+      ]
+    },
+    {
+      "query": "site:reducto.ai MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.reducto.ai/mcp-server",
+          "title": "Reducto MCP Server",
+          "snippet": "Reducto MCP Server | Reducto Documentation\n\n# Reducto MCP Server\n\nConnect AI agents to Reducto via the Model Context Protocol.\n\nThe Reducto MCP server connects AI agents directly to Reducto. Once installed, agents in Claude Desktop, Claude Code, Codex, Cursor, VS Code, Windsurf, or any other Model C"
+        },
+        {
+          "url": "https://reducto.ai/tools/reducto-mcp-claude-code-cursor",
+          "title": "Install the Reducto MCP server in Claude Code and Cursor",
+          "snippet": "# Install the Reducto MCP server in Claude Code and Cursor\n\n> Point your client at https://mcp.reducto.ai/mcp with an Authorization: Bearer header. Claude Code: claude mcp add --transport http. Cursor: .cursor/mcp.json. For Codex, VS Code, Claude Desktop, Windsurf and the local server, follow the Re"
+        },
+        {
+          "url": "https://docs.reducto.ai/quickstart",
+          "title": "API Quickstart",
+          "snippet": "> Documentation Index\n> Fetch the complete documentation index at: https://docs.reducto.ai/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# API Quickstart\n\n## Prerequisites\n\n### Create a Reducto account\n\nSign up for a free account without leaving the docs.\n\nYou n"
+        },
+        {
+          "url": "https://reducto.ai/tools/agents",
+          "title": "Document tools for AI agents",
+          "snippet": "# Document tools for AI agents\n\nGive your agent PDF, Word, PowerPoint, Excel and image reading in one step. Start without a key, then add the MCP server or a framework tool.\n\n## Start here\n\n- Reader URL: GET reducto.ai/read/: Any public document URL as Markdown. No key, up to 5 pages.\n- No-key tools"
+        },
+        {
+          "url": "https://reducto.ai/SKILL.md",
+          "title": "Reducto",
+          "snippet": "# Reducto\n\nReducto converts documents (PDFs, images, spreadsheets, DOCX, and 30+ other formats) into structured data.\n\n- Parse — Convert documents into structured text, tables, and figures with layout-aware chunking\n- Extract — Pull specific fields into JSON using a JSON Schema\n- Split — Divide docu"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://reducto.ai",
+      "final_url": "https://reducto.ai/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6d08a79cb3e7c7961e7920f39f92047b2e4afafc539038459fb37a9c692995ac",
+      "text_len": 7645
+    },
+    {
+      "requested_url": "https://docs.reducto.ai/agent-guide",
+      "final_url": "https://docs.reducto.ai/agent-guide",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "96c06c61bf457cbbd5296c8a9dc8b2b9a77e1e3f0e863923c7f348f49781c087",
+      "text_len": 12659
+    },
+    {
+      "requested_url": "https://docs.reducto.ai/reference/pricing-migration",
+      "final_url": "https://docs.reducto.ai/reference/pricing-migration",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5e7aa3ac3854b0b29967359d3376564cd17387501f6a8e5f2c53a860a35e4e3e",
+      "text_len": 6314
+    },
+    {
+      "requested_url": "https://docs.reducto.ai/mcp-server",
+      "final_url": "https://docs.reducto.ai/mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:23Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7fe8510888efa7a834fddd0bf339c1177b204eb2a546f283c9bd0a884b5f159e",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://reducto.ai/pricing",
+      "final_url": "https://reducto.ai/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1094f9785e60382d47947fbbbb3813c43576d49d1a3a8c1522b1bdce9e0e7b0c",
+      "text_len": 5605
+    },
+    {
+      "requested_url": "https://reducto.ai/tools/reducto-mcp-claude-code-cursor",
+      "final_url": "https://reducto.ai/tools/reducto-mcp-claude-code-cursor",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:23Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3ef2aa8d1a12d5732ad096605aeca99d246aa2f03af87c335ee5c57296242faf",
+      "text_len": 2251
+    },
+    {
+      "requested_url": "https://docs.reducto.ai/reference/credit-usage",
+      "final_url": "https://docs.reducto.ai/reference/credit-usage",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "50f53ea6d1f82bd743478463c5f8bc8b846f16c277099a6608c54c09bb61277e",
+      "text_len": 3693
+    },
+    {
+      "requested_url": "https://docs.reducto.ai/overview",
+      "final_url": "https://docs.reducto.ai/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:21Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1b61947d66a4bab1d2a295121118fed313ce1ff1354b4e65d94e648d0eb7d2d6",
+      "text_len": 3809
+    },
+    {
+      "requested_url": "https://reducto.ai/auth.md",
+      "final_url": "https://reducto.ai/auth.md",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a91ee38eaeb904f9adf21874294b318a42dc6fffd4ab4c4440274b4ddface664",
+      "text_len": 7009
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.reducto.ai/agent-guide",
+        "quote": "Create an API key in Studio under API Keys and export it",
+        "verified": true
+      },
+      {
+        "url": "https://reducto.ai/auth.md",
+        "quote": "Both requests use Authorization: Bearer $REDUCTO_API_KEY.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://reducto.ai/auth.md",
+        "quote": "It grants the standard 15,000 free credits and an API key.",
+        "verified": true
+      },
+      {
+        "url": "https://reducto.ai/pricing",
+        "quote": "Pay-as-you-go for early-stage teams",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.reducto.ai/agent-guide",
+        "quote": "No SDK | REST | `POST https://platform.reducto.ai/parse`",
+        "verified": true
+      },
+      {
+        "url": "https://docs.reducto.ai/overview",
+        "quote": "Available in Python, Node.js, Go, and REST.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.reducto.ai/mcp-server",
+        "quote": "The hosted server runs at `https://mcp.reducto.ai/mcp`.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.reducto.ai/agent-guide",
+        "quote": "Create an API key in Studio under API Keys and export it",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://reducto.ai/",
+        "quote": "Reducto is the complete agentic document platform for parsing, extracting, splitting, classifying, and editing documents at enterprise scale.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

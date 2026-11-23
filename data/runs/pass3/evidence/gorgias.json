@@ -1,0 +1,340 @@
+{
+  "slug": "gorgias",
+  "searches": [
+    {
+      "query": "Gorgias API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.gorgias.com/reference/authentication",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\nThe Gorgias API supports two authentication methods:\n\n1. 🔐 Private app → API key\n2. 👥 Public app → OAuth2\n\nUsing OAuth2 is mandatory for public apps.\n\nFor testing purposes, you can perform requests directly from the API Reference using your API keys.\n\n1. Go to any e"
+        },
+        {
+          "url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+          "title": "Access Tokens (API Keys)",
+          "snippet": "Access Tokens (API Keys)\n\n# Access Tokens (API Keys)\n\n> ### 👉\n> \n> Please remember that the API key authentication method can be used only for private apps. If you plan to build a public app you have to use OAuth2.\n\nEach access token (or API key) is tied to a specific user and has the same permissio"
+        },
+        {
+          "url": "https://docs.gorgias.com/en-US/rest-api-208286",
+          "title": "Access your Gorgias REST API credentials",
+          "snippet": "Access your Gorgias REST API credentials\n\n# Access your Gorgias REST API credentials Updated 5 months ago\n\nThe Gorgias REST API lets you read and write data in your helpdesk programmatically. To authenticate API requests, Gorgias uses HTTP Basic Authentication with three pieces of information: your "
+        },
+        {
+          "url": "https://developers.gorgias.com/docs/oauth2-bearer-token",
+          "title": "OAuth2 Bearer Token",
+          "snippet": "OAuth2 Bearer Token\n\n# OAuth2 Bearer Token\n\n> ### 👉\n> \n> Please remember that OAuth2 is required for all public apps to be approved.\n\nOAuth provides a secure way for your application to access Gorgias data without having to store or use sensitive data such as passwords/access tokens of Gorgias users"
+        },
+        {
+          "url": "https://developers.gorgias.com/docs/oauth2-authentication-for-creating-apps-with-gorgias",
+          "title": "OAuth2 authentication for creating apps with Gorgias",
+          "snippet": "OAuth2 authentication for creating apps with Gorgias\n\n# OAuth2 authentication for creating apps with Gorgias\n\nIntroduction\n\nIn order to be able to have an approved public app with Gorgias, it is required that the app is using OAuth2 for authentication.\n\nYou can obtain the OAuth2 token by following t"
+        }
+      ]
+    },
+    {
+      "query": "Gorgias developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+          "title": "Access Tokens (API Keys)",
+          "snippet": "Access Tokens (API Keys)\n\n# Access Tokens (API Keys)\n\n> ### 👉\n> \n> Please remember that the API key authentication method can be used only for private apps. If you plan to build a public app you have to use OAuth2.\n\nEach access token (or API key) is tied to a specific user and has the same permissio"
+        },
+        {
+          "url": "https://developers.gorgias.com/docs/oauth2-bearer-token",
+          "title": "OAuth2 Bearer Token",
+          "snippet": "OAuth2 Bearer Token\n\n# OAuth2 Bearer Token\n\n> ### 👉\n> \n> Please remember that OAuth2 is required for all public apps to be approved.\n\nOAuth provides a secure way for your application to access Gorgias data without having to store or use sensitive data such as passwords/access tokens of Gorgias users"
+        },
+        {
+          "url": "https://docs.gorgias.com/en-US/rest-api-208286",
+          "title": "Access your Gorgias REST API credentials",
+          "snippet": "Access your Gorgias REST API credentials\n\n# Access your Gorgias REST API credentials Updated 5 months ago\n\nThe Gorgias REST API lets you read and write data in your helpdesk programmatically. To authenticate API requests, Gorgias uses HTTP Basic Authentication with three pieces of information: your "
+        },
+        {
+          "url": "https://developers.gorgias.com/reference/requests",
+          "title": "Requests",
+          "snippet": "Requests\n\n# Requests\n\nBase API URL\n\nMake sure that all your requests are made against your Gorgias domain. If your Gorgias domain is `green-garden`, your base API URL is: `https://green-garden.gorgias.com/api/`. E.g: to fetch the details of your account, you will query: `GET https://green-garden.gor"
+        },
+        {
+          "url": "https://developers.gorgias.com/llms.txt",
+          "title": "",
+          "snippet": "# gorgias-developers Documentation\n\n> Gorgias Developer Portal. REST API reference and Guides.\n\n## Quickstart: Authentication\n- [OAuth2 Scopes](https://developers.gorgias.com/docs/oauth2-scopes.md): OAuth2 scopes allow to limit your app's access to Gorgias user’s account data.\n\n## Quickstart: Buildi"
+        }
+      ]
+    },
+    {
+      "query": "Gorgias pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.gorgias.com/pricing",
+          "title": "Helpdesk + AI Agent.",
+          "snippet": "-->\n\nBook a demo\n\n## Pricing\n\n# Helpdesk + AI Agent.\n\nOne platform. One inbox. One bill.\n\nAI Agent on every plan, pay only when it resolves a conversation.\nHelpdesk scales from 50 to 5,000 tickets a month, never priced per agent.\n\nWe power customer conversations for 40% of Shopify brands\n\n Read case"
+        },
+        {
+          "url": "https://www.gorgias.com/signup",
+          "title": "Gorgias | Get Started with Free Trial",
+          "snippet": "-->\n\n##### Get started for free\n\n7-day trial | All features unlocked | No credit card required.\n\nEmail\n\nURL of your website\n\nPlease wait\n\nFull name\n\nPassword\n\n- A lowercase letter\n- A number\n- A capital (uppercase) letter\n- Minimum 14 characters\n\nURL of your workspace Edit\n\n[your-ecommerce-URL].gorg"
+        },
+        {
+          "url": "https://apps.shopify.com/helpdesk",
+          "title": "Gorgias: AI Agent & Helpdesk - The leading AI customer experience platform for ecommerce. | Shopify App Store",
+          "snippet": "Gorgias: AI Agent & Helpdesk - The leading AI customer experience platform for ecommerce. | Shopify App Store\n\n# Gorgias: AI Agent & Helpdesk \n\nPricing\n\n From $10/month. Free trial available. \n\n Popular with stores like yours \n\n Based in United States \n\nRating\n\n 4.3 (709) \n\nDeveloper\n\n Gorgias Inc. "
+        },
+        {
+          "url": "https://www.gorgias.com/blog/gorgias-plan",
+          "title": "Which Gorgias Plan Should You Choose? (Pricing Breakdown)",
+          "snippet": "-->\n\nBook a demo\n\nBlog\n\nGorgias Product blog-header\n\nGorgias Plans and Pricing\n\n# Which Gorgias Plan Should You Choose? (Pricing Breakdown)\n\n0\n\nmin\n\n-\n\nGorgias Team\n\nUpdated on\n\nMay 14, 2026\n\n-\n\nCreated on\n\nJanuary 2, 2025\n\nGorgias Product blog-category\n\nPricing blog-category\n\nNo items found.\n\nBlog\n"
+        },
+        {
+          "url": "https://docs.gorgias.com/en-US/create-a-gorgias-helpdesk-82010",
+          "title": "Create a Gorgias helpdesk",
+          "snippet": "Create a Gorgias helpdesk\n\n# Create a Gorgias helpdesk Updated a month ago\n\nGorgias is a customer support platform for ecommerce brands, designed to help you manage customer interactions across multiple channels, including email, chat, social media, and phone & SMS. It brings your customer conversat"
+        }
+      ]
+    },
+    {
+      "query": "Gorgias official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.gorgias.com/en-US/connect-your-ai-assistant-to-the-gorgias-mcp-6310546",
+          "title": "Connect your AI assistant to the Gorgias MCP",
+          "snippet": "Connect your AI assistant to the Gorgias MCP\n\n# Connect your AI assistant to the Gorgias MCP Updated 23 days ago\n\n### Who can use this feature?\n\nAll Helpdesk plans (AI Agent isn't required)\n\nThe Gorgias MCP lets you work with your Gorgias helpdesk using an AI assistant, like Claude or ChatGPT. Once "
+        },
+        {
+          "url": "https://www.gorgias.com/llm-info",
+          "title": "Official Information About Gorgias",
+          "snippet": "-->\n\n# Official Information About Gorgias\n\nThis file contains structured information about Gorgias, intended for AI assistants such as ChatGPT, Claude, Perplexity, Gemini, and other large language models (LLMs).\n\n## Basic Information\n\nName: Gorgias\n\nType: Private software company\n\nFounded: 2015\n\nCat"
+        },
+        {
+          "url": "https://www.gorgias.com/blog/gorgias-mcp",
+          "title": "How to Connect Gorgias to Claude or ChatGPT (6 Workflows to Try Right Now)",
+          "snippet": "-->\n\nBook a demo\n\nBlog\n\nConversational AI blog-header\n\nGorgias MCP\n\n# How to Connect Gorgias to Claude or ChatGPT (6 Workflows to Try Right Now)\n\n0\n\nmin\n\n-\n\nGorgias Team\n\nUpdated on\n\nOctober 5, 2026\n\n-\n\nCreated on\n\nMay 28, 2026\n\nConversational AI blog-category\n\nApps and Integrations blog-category\n\nG"
+        },
+        {
+          "url": "https://updates.gorgias.com/publications/gorgias-mcp-is-now-in-open-beta",
+          "title": "Gorgias MCP is now in Open Beta 🎉 - Gorgias Updates",
+          "snippet": "Gorgias MCP is now in Open Beta 🎉 - Gorgias Updates\n\n# Gorgias MCP is now in Open Beta 🎉\n\nConnect Gorgias to the AI tools your team is already using. Surface Voice of Customer insights, audit your helpdesk setup, and review AI Agent performance right from chat.\n\nGorgias MCP is in open beta today, a "
+        },
+        {
+          "url": "https://community.gorgias.com/c/tips-tricks-874d4d/troubleshoot-your-gorgias-mcp-connection-issues",
+          "title": "🛠️  Troubleshoot your Gorgias MCP connection issues | Gorgias",
+          "snippet": "🛠️ Troubleshoot your Gorgias MCP connection issues | Gorgias\n\n# 🛠️ Troubleshoot your Gorgias MCP connection issues\n\nYayyy, Gorgias MCP is finally here! But, for some reason, you can’t get it connected! Let’s try to find that reason — and, more importantly, the solution for it!\n\n1. Error: “This URL h"
+        }
+      ]
+    },
+    {
+      "query": "site:gorgias.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.gorgias.com/en-US/connect-your-ai-assistant-to-the-gorgias-mcp-6310546",
+          "title": "Connect your AI assistant to the Gorgias MCP",
+          "snippet": "Connect your AI assistant to the Gorgias MCP\n\n# Connect your AI assistant to the Gorgias MCP Updated 23 days ago\n\n### Who can use this feature?\n\nAll Helpdesk plans (AI Agent isn't required)\n\nThe Gorgias MCP lets you work with your Gorgias helpdesk using an AI assistant, like Claude or ChatGPT. Once "
+        },
+        {
+          "url": "https://www.gorgias.com/blog/gorgias-mcp",
+          "title": "How to Connect Gorgias to Claude or ChatGPT (6 Workflows to Try Right Now)",
+          "snippet": "-->\n\nBook a demo\n\nBlog\n\nConversational AI blog-header\n\nGorgias MCP\n\n# How to Connect Gorgias to Claude or ChatGPT (6 Workflows to Try Right Now)\n\n0\n\nmin\n\n-\n\nGorgias Team\n\nUpdated on\n\nOctober 5, 2026\n\n-\n\nCreated on\n\nMay 28, 2026\n\nConversational AI blog-category\n\nApps and Integrations blog-category\n\nG"
+        },
+        {
+          "url": "https://www.gorgias.com/llm-info",
+          "title": "Official Information About Gorgias",
+          "snippet": "-->\n\n# Official Information About Gorgias\n\nThis file contains structured information about Gorgias, intended for AI assistants such as ChatGPT, Claude, Perplexity, Gemini, and other large language models (LLMs).\n\n## Basic Information\n\nName: Gorgias\n\nType: Private software company\n\nFounded: 2015\n\nCat"
+        },
+        {
+          "url": "https://docs.gorgias.com/en-US/explore-gorgias-mcp-tools-9131180",
+          "title": "Explore Gorgias MCP tools",
+          "snippet": "Explore Gorgias MCP tools\n\n# Explore Gorgias MCP tools Updated 22 days ago\n\nWhen you ask your AI assistant to do something in Gorgias, it uses tools in the Gorgias MCP. A tool is a single thing the assistant can do, such as listing tickets or creating a macro. Knowing which tools exist, and who can "
+        },
+        {
+          "url": "https://updates.gorgias.com/publications/gorgias-is-now-an-official-connector-in-claude-and-chatgpt",
+          "title": "🔌 Gorgias is now an official connector in Claude and ChatGPT - Gorgias Updates",
+          "snippet": "🔌 Gorgias is now an official connector in Claude and ChatGPT - Gorgias Updates\n\n# 🔌 Gorgias is now an official connector in Claude and ChatGPT\n\nYou can now add Gorgias to Claude and ChatGPT straight from their directories. Once it’s connected, your AI can work inside your helpdesk and alongside ever"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://gorgias.com",
+      "final_url": "https://gorgias.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:49Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "1e3c00b26fbb812e621d3189eeb47a1fb30fa5379893957df7fbed0536147bdc",
+      "text_len": 6211
+    },
+    {
+      "requested_url": "https://developers.gorgias.com/docs/oauth2-authentication-for-creating-apps-with-gorgias",
+      "final_url": "https://developers.gorgias.com/docs/oauth2-authentication-for-creating-apps-with-gorgias",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:42Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3360fe12ec883fe2696d7d9fc03e5d1c93cf72725cdc1ce5545b7da74860ae65",
+      "text_len": 5876
+    },
+    {
+      "requested_url": "https://developers.gorgias.com/docs/oauth2-bearer-token",
+      "final_url": "https://developers.gorgias.com/docs/oauth2-bearer-token",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:42Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "74e7321617278c992f36275e8a34bcaea4cec29554c20d9d4ba512ab06723ec3",
+      "text_len": 1152
+    },
+    {
+      "requested_url": "https://www.gorgias.com/pricing",
+      "final_url": "https://www.gorgias.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:46Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6e8671e8348eb96c5652274105d12421f25973e6a286ac6474c6dbbe126afcf2",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.gorgias.com/en-US/connect-your-ai-assistant-to-the-gorgias-mcp-6310546",
+      "final_url": "https://docs.gorgias.com/en-US/connect-your-ai-assistant-to-the-gorgias-mcp-6310546",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "989c7d312a2e719c82b51d5e0c019b3aaf38230dff5bd92daadc636aeda4de8d",
+      "text_len": 9631
+    },
+    {
+      "requested_url": "https://docs.gorgias.com/en-US/explore-gorgias-mcp-tools-9131180",
+      "final_url": "https://docs.gorgias.com/en-US/explore-gorgias-mcp-tools-9131180",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "12bb043341f753d92975db40cc8fd1036af203ac8297d37742bec20c47905a3b",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+      "final_url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:42Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "94bbc2394c332124b4a398e44adefd152649728f4439a6b77a5c241ed21bf9f0",
+      "text_len": 1409
+    },
+    {
+      "requested_url": "https://developers.gorgias.com/reference/authentication",
+      "final_url": "https://developers.gorgias.com/reference/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:42Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "59e41e9de1f1cfa6f474d186d9f4051da5e29c170849ca606ecf1617ba8acc30",
+      "text_len": 438
+    },
+    {
+      "requested_url": "https://developers.gorgias.com/llms.txt",
+      "final_url": "https://developers.gorgias.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:35:46Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cc4a0be935c425c0c8e2a0f0300be07e432fa86af525dc7d03307425e490f637",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.gorgias.com/reference/authentication",
+        "quote": "Private app → API key",
+        "verified": true
+      },
+      {
+        "url": "https://developers.gorgias.com/reference/authentication",
+        "quote": "Using OAuth2 is mandatory for public apps.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+        "quote": "As an admin, you can easily generate and revoke your access token in the settings of your account.",
+        "verified": true
+      },
+      {
+        "url": "https://www.gorgias.com/pricing",
+        "quote": "Helpdesk scales from 50 to 5,000 tickets a month, never priced per agent.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.gorgias.com/llms.txt",
+        "quote": "Gorgias Developer Portal. REST API reference and Guides.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.gorgias.com/en-US/connect-your-ai-assistant-to-the-gorgias-mcp-6310546",
+        "quote": "the connection URL is the same: https://mcp.gorgias.com/mcp",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+        "quote": "Each access token (or API key) is tied to a specific user and has the same permissions as the user that holds them.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://gorgias.com",
+        "quote": "Bring your support team, customer data, workflows, and AI Agent together in one platform built for every stage of the customer journey.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

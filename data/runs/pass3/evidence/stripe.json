@@ -1,0 +1,414 @@
+{
+  "slug": "stripe",
+  "searches": [
+    {
+      "query": "Stripe API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.stripe.com/api/authentication",
+          "title": "Authentication | Stripe API Reference",
+          "snippet": "Authentication | Stripe API Reference\n\n# Authentication\n\nThe Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard.\n\nTest mode secret keys start with \n\nsk_\n\ntest_\n\n and have unrestricted access to their sandboxes. In live mode, you configure"
+        },
+        {
+          "url": "https://docs.stripe.com/keys",
+          "title": "API keys | Stripe Documentation",
+          "snippet": "API keys | Stripe Documentation\n\n# API keys\n\n## Use API keys to authenticate API requests.\n\nStripe uses API keys to authenticate requests from your integration and determine which Stripe resources it can access. Choose the key type that matches where your code runs and grant server-side keys only th"
+        },
+        {
+          "url": "https://docs.stripe.com/stripe-apps/api-authentication",
+          "title": "API authentication methods | Stripe Documentation",
+          "snippet": "API authentication methods | Stripe Documentation\n\n# API authentication methods\n\n## Select the API authentication method that works best for your app's use case.\n\nYour app can use one of three methods to authenticate requests to the Stripe API on behalf of your users.\n\n| Method | Description | Use c"
+        },
+        {
+          "url": "https://docs.stripe.com/get-started/api-request?accounts-namespace=v1",
+          "title": "Send your first Stripe API request | Stripe Documentation",
+          "snippet": "Send your first Stripe API request | Stripe Documentation\n\n# Send your first Stripe API request\n\n## Get started with the Stripe API.\n\nCustomers v1\n\nEvery call to a Stripe API must include an API secret key. After you create a Stripe account, we generate two pairs of API keys for you—a publishable cl"
+        },
+        {
+          "url": "https://docs.stripe.com/connect/authentication",
+          "title": "Make API calls for connected accounts | Stripe Documentation",
+          "snippet": "Make API calls for connected accounts | Stripe Documentation\n\n# Make API calls for connected accounts\n\n## Learn how to make API calls for your connected accounts on the server or the client.\n\nYou can make API calls for your connected accounts on the server or on the client:\n\n- Server-side: Include t"
+        }
+      ]
+    },
+    {
+      "query": "Stripe developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.stripe.com/api",
+          "title": "Stripe API Reference",
+          "snippet": "Stripe API Reference\n\n# API Reference\n\nThe Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.\n\nYou can use the Stripe API in sandbo"
+        },
+        {
+          "url": "https://docs.stripe.com/keys",
+          "title": "API keys | Stripe Documentation",
+          "snippet": "API keys | Stripe Documentation\n\n# API keys\n\n## Use API keys to authenticate API requests.\n\nStripe uses API keys to authenticate requests from your integration and determine which Stripe resources it can access. Choose the key type that matches where your code runs and grant server-side keys only th"
+        },
+        {
+          "url": "https://docs.stripe.com/api/authentication?lang=node",
+          "title": "",
+          "snippet": "# Authentication\n\nThe Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard.\n\nTest secret keys have the prefix `sk_test_` and live mode secret keys have the prefix `sk_live_`. Alternatively, you can use restricted API keys for granular permi"
+        },
+        {
+          "url": "https://docs.stripe.com/keys/permissions-reference",
+          "title": "API permissions reference | Stripe Documentation",
+          "snippet": "API permissions reference | Stripe Documentation\n\n# API permissions reference\n\n## Learn which permissions allow access to each API endpoint.\n\nWhen you create a restricted API key (RAK), you allow it access to a specific set of API resources and methods by assigning permissions. Each permission you a"
+        },
+        {
+          "url": "https://docs.stripe.com/get-started/api-request?accounts-namespace=v1",
+          "title": "Send your first Stripe API request | Stripe Documentation",
+          "snippet": "Send your first Stripe API request | Stripe Documentation\n\n# Send your first Stripe API request\n\n## Get started with the Stripe API.\n\nCustomers v1\n\nEvery call to a Stripe API must include an API secret key. After you create a Stripe account, we generate two pairs of API keys for you—a publishable cl"
+        }
+      ]
+    },
+    {
+      "query": "Stripe pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://stripe.com/pricing",
+          "title": "Pricing & Fees",
+          "snippet": "Pricing & Fees\n\nAccess a complete payments platform with simple, pay-as-you-go pricing. No setup fees, monthly fees, or hidden fees.\n\n## 2.9% + 30¢ \n\nper successful transaction for domestic cards\n\n# Custom\n\nDesign a custom package— available for businesses with large payments volume or unique busine"
+        },
+        {
+          "url": "https://stripe.com/billing/pricing",
+          "title": "Stripe Billing | Pricing",
+          "snippet": "Stripe Billing | Pricing\n\n# Choose your plan \n\nGet access to all Stripe Billing features with pricing that suits your business needs—pay as you go for more flexibility, or choose a subscription plan for more predictable monthly costs.\n\nOnly pay for what you use, with no recurring fees. Best for low "
+        },
+        {
+          "url": "https://www.withorb.com/pricing-atlas/stripe",
+          "title": "How Stripe prices: pricing model and page breakdown (2026)",
+          "snippet": "How Stripe prices: pricing model and page breakdown (2026)\n\n## A field guide to pricing pages.\n\nThe Pricing Atlas is a reference library of the pages where leading SaaS companies turn products into revenue. Every page is captured full-length at desktop width, so you see the whole argument a company "
+        },
+        {
+          "url": "https://stripe.com/legal/subscription-policy",
+          "title": "Subscription Pricing and Cancellation Policy",
+          "snippet": "Subscription Pricing and Cancellation Policy\n\n# Subscription Pricing and Cancellation Policy \n\nLast updated: July 1, 2026\n\nStripe offers subscription-based pricing plans for bundled products and certain individual products. This Subscription Pricing and Cancellation Policy (“ Policy”) explains how t"
+        },
+        {
+          "url": "https://getpulsesignal.com/pricing/stripe",
+          "title": "Stripe Pricing 2026: Plans, Cost | PulseSignal",
+          "snippet": "Stripe Pricing 2026: Plans, Cost | PulseSignal\n\n# Stripe pricing (2026)\n\nStripe lists prices in several units, so no single starting price applies; for example, Standard Payments is $0.30 (custom). Read from stripe.com; last checked on November 23, 2026.\n\nRead from the vendor's public page; plans st"
+        }
+      ]
+    },
+    {
+      "query": "Stripe official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.stripe.com/mcp",
+          "title": "Model Context Protocol (MCP) | Stripe Documentation",
+          "snippet": "Model Context Protocol (MCP) | Stripe Documentation\n\n# Model Context Protocol (MCP) Public preview\n\n## Let your AI agents interact with the Stripe API by using our MCP server.\n\nThe Stripe Model Context Protocol (MCP) server provides tools that AI agents can use to interact with the Stripe API and se"
+        },
+        {
+          "url": "https://github.com/mcp/com.stripe/mcp",
+          "title": "MCP Registry | Stripe · GitHub",
+          "snippet": "MCP Registry | Stripe · GitHub\n\nBy stripe· 2,081\n\nMCP server integrating with Stripe - tools for customers, products, payments, and more.\n\n# Stripe AI\n\nThis repository contains Stripe agent plugins and skills, and benchmarks for building AI-powered products and businesses on top of Stripe.\n\nThe foll"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/stripe/ai/main/tools/README.md",
+          "title": "",
+          "snippet": "# Stripe tools\n\nStripe hosts a remote MCP server at `https://mcp.stripe.com`. Use your client or framework's native MCP support and follow the [Stripe MCP documentation](https://docs.stripe.com/mcp).\n\nThe local `@stripe/mcp` proxy is deprecated. Connect directly to the hosted server using native MCP"
+        },
+        {
+          "url": "https://aws.amazon.com/marketplace/pp/prodview-bmcz2yd35w5xk",
+          "title": "AWS Marketplace: Stripe MCP Server - Remote",
+          "snippet": "Stripe MCP Server - Remote | AWS Marketplace\n\n# Stripe MCP Server - Remote\n\nSold by: Stripe Inc. \n\nAWS Free Tier\n\nMCP Server for Stripe empowers AI-driven applications with secure access to the Stripe payments platform, supporting more than 100 payment methods and local currencies. Optimize your pay"
+        },
+        {
+          "url": "https://docs.stripe.com/agents",
+          "title": "Agents and AI on Stripe | Stripe Documentation",
+          "snippet": "Agents and AI on Stripe | Stripe Documentation\n\n# Agents and AI on Stripe\n\n## Give an AI agent access to Stripe, and build products that agents can use.\n\nGive your agent access to the Stripe developer tools, live account data, and up-to-date technical guidance to help you build on Stripe. You can al"
+        }
+      ]
+    },
+    {
+      "query": "site:stripe.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.stripe.com/mcp",
+          "title": "Model Context Protocol (MCP) | Stripe Documentation",
+          "snippet": "Model Context Protocol (MCP) | Stripe Documentation\n\n# Model Context Protocol (MCP) Public preview\n\n## Let your AI agents interact with the Stripe API by using our MCP server.\n\nThe Stripe Model Context Protocol (MCP) server provides tools that AI agents can use to interact with the Stripe API and se"
+        },
+        {
+          "url": "https://docs.stripe.com/agents",
+          "title": "Agents and AI on Stripe | Stripe Documentation",
+          "snippet": "Agents and AI on Stripe | Stripe Documentation\n\n# Agents and AI on Stripe\n\n## Give an AI agent access to Stripe, and build products that agents can use.\n\nGive your agent access to the Stripe developer tools, live account data, and up-to-date technical guidance to help you build on Stripe. You can al"
+        },
+        {
+          "url": "https://stripe.com/guides/agentic-commerce",
+          "title": "Guide to agentic commerce for 2027 | Stripe",
+          "snippet": "Guide to agentic commerce for 2027 | Stripe\n\n# Guide to agentic commerce for 2027 \n\nThis guide explains what agentic commerce is, how AI agents are changing online shopping, and what your business can do to prepare.\n\nAccept payments online, in person, and around the world with a payments solution bu"
+        },
+        {
+          "url": "https://marketplace.stripe.com/apps/mcp-cursor",
+          "title": "Stripe MCP on Cursor",
+          "snippet": "Stripe App Marketplace\n\nMarketplace is taking longer than expected to load.\n\nOpen the standard Marketplace, or reload the page to try again.\n\nStripe App Marketplace\n \n \n \nMarketplace is taking longer than expected to load.\n[Open the standard Marketplace](/apps/mcp-cursor?marketplace_frontend=stable)"
+        },
+        {
+          "url": "https://docs.stripe.com/agentic-commerce/monetize-mcp",
+          "title": "Monetize your Model Context Protocol (MCP) server | Stripe Documentation",
+          "snippet": "Monetize your Model Context Protocol (MCP) server | Stripe Documentation\n\n# Monetize your Model Context Protocol (MCP) server Public preview\n\n## Charge AI agents for one-time payments using MPP.\n\nThis guide shows how to charge AI agents for one-time purchases, such as service bookings, donations, or"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://stripe.com/docs/api",
+      "final_url": "https://stripe.com/docs/api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:23Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "c14be02611852cb493a2bfc83cedeeb1acfc9dd19d4815ca25118ad0d9f4d02e",
+      "text_len": 1141
+    },
+    {
+      "requested_url": "https://docs.stripe.com/api/authentication",
+      "final_url": "https://docs.stripe.com/api/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a908f0552423b2dceb0d1ddd5a089438c64649818ac40b5bbdd8e75878122340",
+      "text_len": 5646
+    },
+    {
+      "requested_url": "https://docs.stripe.com/api/authentication?lang=node",
+      "final_url": "https://docs.stripe.com/api/authentication?lang=node",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "981c8bfe47807617e4302665bd6eb66e1c4e4e94f32e7ed5203e3afa3b6a1002",
+      "text_len": 3934
+    },
+    {
+      "requested_url": "https://stripe.com/billing/pricing",
+      "final_url": "https://stripe.com/billing/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1a10548ef15816bf50d134defc7912baa98d9e035bbc107b350fb113e0ad40e0",
+      "text_len": 2666
+    },
+    {
+      "requested_url": "https://docs.stripe.com/mcp",
+      "final_url": "https://docs.stripe.com/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "dc3ed6c0de95dd162b170b03129a74fa094662a809cb459b61b1a22db4488d90",
+      "text_len": 9841
+    },
+    {
+      "requested_url": "https://docs.stripe.com/agentic-commerce/monetize-mcp",
+      "final_url": "https://docs.stripe.com/agentic-commerce/monetize-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ab53df8e5ec34192fc9e7395b590db64140ae8848a96f2207695af85ddd39189",
+      "text_len": 14767
+    },
+    {
+      "requested_url": "https://docs.stripe.com/stripe-apps/api-authentication",
+      "final_url": "https://docs.stripe.com/stripe-apps/api-authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "09a26d194b13713cd6e3e645599f58a7d3964be9e24fde4781a6cf9a4ceaa610",
+      "text_len": 1583
+    },
+    {
+      "requested_url": "https://stripe.com/pricing",
+      "final_url": "https://stripe.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2da5446b0584c4691fa4117c228ea05ba1829c2cfc69d7b58c028e8b49c945b6",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://stripe.com/llms.txt",
+      "final_url": "https://stripe.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:23Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "ddaddeb27ee6492a7e01ada5d3658509413f1b71114e66aee5ddb8b2df39c999",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.stripe.com/connect/authentication",
+      "final_url": "https://docs.stripe.com/connect/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:44:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7aa7ad9adc153b31d3e07d0ec20095106b0781c9f43a2a5333e74d891727a968",
+      "text_len": 2943
+    },
+    {
+      "requested_url": "https://docs.stripe.com/mcp",
+      "final_url": "https://docs.stripe.com/mcp",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:26:17Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "6bd49d5b13f1d00fb38c8da704233f3301e7a5c2b566b4f4e5bcb301af25000b",
+      "text_len": 11220
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.stripe.com/api/authentication",
+        "quote": "The Stripe API authenticates requests using HTTP Basic Auth. Provide your API key as the basic auth username value.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.stripe.com/stripe-apps/api-authentication",
+        "quote": "Use industry standard OAuth 2.0 to generate access tokens to interact with the Stripe API.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://stripe.com/pricing",
+        "quote": "Access a complete payments platform with simple, pay-as-you-go pricing. No setup fees, monthly fees, or hidden fees.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.stripe.com/api/authentication",
+        "quote": "You can view and manage your API keys in the Stripe Dashboard.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://stripe.com/docs/api",
+        "quote": "The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.stripe.com/mcp",
+        "quote": "The Stripe Model Context Protocol (MCP) server provides tools that AI agents can use to interact with the Stripe API",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/stripe/01-4124db9414.jpg"
+      },
+      {
+        "url": "https://docs.stripe.com/mcp",
+        "quote": "\"stripe\": {\n     \"url\": \"https://mcp.stripe.com\"\n   }",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/stripe/01-4124db9414.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://stripe.com/docs/api",
+        "quote": "You can use the Stripe API in sandboxes without affecting your live data or interacting with banking networks.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://stripe.com/llms.txt",
+        "quote": "Stripe is a technology company that provides financial infrastructure for businesses.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "unresolved_deciding_fact",
+        "detail": "mcp_not_live: 'mcp server supports oauth and agent api keys (preview'",
+        "claims": [
+          "mcp"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "mcp"
+    ],
+    "pages": [
+      {
+        "url": "https://docs.stripe.com/mcp",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://docs.stripe.com/mcp",
+        "title": "Model Context Protocol (MCP) | Stripe Documentation",
+        "text_len": 11220,
+        "http_status": 200,
+        "screenshot": "screenshots/stripe/01-4124db9414.jpg",
+        "usable": true,
+        "wall_s": 8.96
+      }
+    ],
+    "cloud_sessions": 0
+  }
+}

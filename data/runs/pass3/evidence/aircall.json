@@ -1,0 +1,955 @@
+{
+  "slug": "aircall",
+  "searches": [
+    {
+      "query": "Aircall API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.aircall.io/docs/basic-authentication",
+          "title": "Authenticate with API Keys",
+          "snippet": "Authenticate with API Keys\n\n# Authenticate with API Keys\n\nGetting started\n\nLearn how to generate your Aircall API keys and use them to authenticate requests to the Aircall Public API. Before you start make sure you have the following:\n\n- You must have an Aircall account. Sign up here if you don't ha"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/authentication",
+          "title": "Overview",
+          "snippet": "Overview\n\n# Overview\n\nGetting Started\n\nAircall supports two ways to authenticate with the REST API: Basic Authentication and OAuth.\n\nUse Basic Authentication when you are connecting your own internal tools or private integration to Aircall. Use OAuth when your app needs to access Aircall data on beh"
+        },
+        {
+          "url": "https://developers.aircall.io/api-references/",
+          "title": "API References | Aircall",
+          "snippet": "API References | Aircall\n\n# REST API\n\nAircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information.\n\nThe root endpoint of Aircall Public API is `https://api.aircall.io/v1`.\n\n Please note that o"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/your-first-api-call",
+          "title": "Your first API call",
+          "snippet": "Your first API call\n\n# Your first API call\n\nSend your first authenticated request to list recent calls from your Aircall account. Use GET /v1/calls to verify your credentials and see the structure of a typical paginated API response.\n\nGet your API credentials\n\n1. Open your Aircall Dashboard.\n2. Go t"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/oauth",
+          "title": "OAuth implementation guide",
+          "snippet": "OAuth implementation guide\n\n# OAuth implementation guide\n\nGetting Started\n\nThis guide helps implementing the Aircall OAuth flow. Before yous tart make sure you have: \n\n- You must have an Aircall account. Sign up as a customer here or if you qualify to be a tech partner you can then sign up for a dev"
+        }
+      ]
+    },
+    {
+      "query": "Aircall developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.aircall.io/api-references/",
+          "title": "API References | Aircall",
+          "snippet": "API References | Aircall\n\n# REST API\n\nAircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information.\n\nThe root endpoint of Aircall Public API is `https://api.aircall.io/v1`.\n\n Please note that o"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/authentication",
+          "title": "Overview",
+          "snippet": "Overview\n\n# Overview\n\nGetting Started\n\nAircall supports two ways to authenticate with the REST API: Basic Authentication and OAuth.\n\nUse Basic Authentication when you are connecting your own internal tools or private integration to Aircall. Use OAuth when your app needs to access Aircall data on beh"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/basic-authentication",
+          "title": "Authenticate with API Keys",
+          "snippet": "Authenticate with API Keys\n\n# Authenticate with API Keys\n\nGetting started\n\nLearn how to generate your Aircall API keys and use them to authenticate requests to the Aircall Public API. Before you start make sure you have the following:\n\n- You must have an Aircall account. Sign up here if you don't ha"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/oauth",
+          "title": "OAuth implementation guide",
+          "snippet": "OAuth implementation guide\n\n# OAuth implementation guide\n\nGetting Started\n\nThis guide helps implementing the Aircall OAuth flow. Before yous tart make sure you have: \n\n- You must have an Aircall account. Sign up as a customer here or if you qualify to be a tech partner you can then sign up for a dev"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/introduction",
+          "title": "Introduction",
+          "snippet": "Introduction\n\n# Introduction\n\n👋 Welcome\n\nAircall's developer platform is the foundation for every integration, embedded experience, and AI-native app built on top of our AI-powered customer communications platform.\n\nWhether you're building for your own team or publishing to thousands of businesses, "
+        }
+      ]
+    },
+    {
+      "query": "Aircall pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://aircall.io/pricing/",
+          "title": "Aircall Pricing & Plans: AI-Powered Calling, Voice Agents & 250+ Integrations | Aircall",
+          "snippet": "Aircall Pricing & Plans: AI-Powered Calling, Voice Agents & 250+ Integrations | Aircall\n\n# One platform for all your customer conversations\n\nPlans that scale with your business, with AI Voice Agents built in from day one.\n\nSave 25% by paying annually\n\nCountry United States\n\n### AI Voice Agents\n\nNatu"
+        },
+        {
+          "url": "https://support.aircall.io/en-gb/articles/15149698584733",
+          "title": "Aircall Help Center | Trial experience with Aircall",
+          "snippet": "Aircall Help Center | Trial experience with Aircall\n\n# Trial experience with Aircall\n\nWhether you started exploring Aircall on your own or through our Sales team this article explains what to expect during your first week with Aircall. It also covers which features you can test during your trial per"
+        },
+        {
+          "url": "https://aircall.io/c/free-trial/",
+          "title": "Aircall Free Trial",
+          "snippet": "Aircall Free Trial\n\n# Try the Phone System connected to your Business Tools\n\nInstant setup. Powerful integrations. Proven quality. Get your free 7-day trial of Aircall's intuitive phone system today.\n\nTrusted by 22,000+ companies\n\n## Get your phone system up and running\n\n### Set up your phone system"
+        },
+        {
+          "url": "https://aircall.io/get-started-age-of-ai/",
+          "title": "Get started",
+          "snippet": "Get started | Aircall\n\n# Conversations that drive performance, powered by AI. Start your free trial.\n\n Aircall AI transforms everyday customer calls into measurable business outcomes.\n\nNew users can get started below:"
+        },
+        {
+          "url": "https://aircall.io/blog/tech/voip-phone-system-free-trial/",
+          "title": "Best VoIP phone systems with a free trial (2026 comparison) | Aircall",
+          "snippet": "Best VoIP phone systems with a free trial (2026 comparison) | Aircall\n\n# Best VoIP phone systems with a free trial: 5 options compared\n\nSophie Gane 5 Minutes · Published on October 15, 2026\n\nTL;DR: Most business phone systems offer a 14-day free trial. Aircall takes a different approach: free access"
+        }
+      ]
+    },
+    {
+      "query": "Aircall official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://support.aircall.io/en-gb/articles/39677926959517",
+          "title": "Aircall Help Center | Using Aircall MCP with AI assistants (beta)",
+          "snippet": "Aircall Help Center | Using Aircall MCP with AI assistants (beta)\n\n# Using Aircall MCP with AI assistants (beta)\n\nAircall MCP gives an AI assistant, like Claude or ChatGPT, read-only access to your company's calls and conversation intelligence data. Once connected, you can ask your assistant to sear"
+        },
+        {
+          "url": "https://support.aircall.io/en-gb/articles/40439224263069",
+          "title": "Aircall Help Center | Connecting your AI Agents to your tools: where to start",
+          "snippet": "Aircall Help Center | Connecting your AI Agents to your tools: where to start\n\n# Connecting your AI Agents to your tools: where to start\n\nAircall AI can connect with your tools in two directions. Your AI Voice Agent and AI Messaging Agent can use your content and tools during a conversation. And AI "
+        },
+        {
+          "url": "https://support.aircall.io/en-gb/articles/40626452723101",
+          "title": "Aircall Help Center | Release Notes - October 2026",
+          "snippet": "Aircall Help Center | Release Notes - October 2026\n\n# Release Notes - October 2026\n\n27-10-2026\n\n### New Features\n\n#### Stats - Custom Dashboards\n\nAircall Analytics has 130+ metrics spread across 8 reports, many with several tabs. Most customers only need a handful of them for weekly or monthly repor"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/mcp-faqs",
+          "title": "MCP FAQs",
+          "snippet": "MCP FAQs\n\n# MCP FAQs\n\nFrequently asked questions for MCP and Agentic integrations\n\nDo I need to write integration logic for each Aircall feature?\n\nNo. You expose tools and resources; Aircall AI decides how and when to sequence them at runtime. You're not hardcoding workflows against our product. The"
+        },
+        {
+          "url": "https://vantagepoint.io/blog/integrations/aircall/aircall-mcp-beta-claude-chatgpt",
+          "title": "Aircall MCP Beta: Connect Claude or ChatGPT to Your Call Data",
+          "snippet": "Aircall MCP Beta: Connect Claude or ChatGPT to Your Call Data\n\n# Aircall MCP Beta: Connect Claude or ChatGPT to Your Call Data\n\nAircall's private MCP beta connects Claude or ChatGPT directly to your call data, read-only. See who qualifies, current limits, and how to prepare.\n\n By David Cockrum · Pub"
+        }
+      ]
+    },
+    {
+      "query": "site:aircall.io MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.aircall.io/docs/mcp-faqs",
+          "title": "MCP FAQs",
+          "snippet": "MCP FAQs\n\n# MCP FAQs\n\nFrequently asked questions for MCP and Agentic integrations\n\nDo I need to write integration logic for each Aircall feature?\n\nNo. You expose tools and resources; Aircall AI decides how and when to sequence them at runtime. You're not hardcoding workflows against our product. The"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/how-to-register",
+          "title": "Register a Public MCP",
+          "snippet": "Register a Public MCP\n\n# Register a Public MCP\n\nOverview\n\nRegistering an MCP with Aircall makes your tools and resources available to every Aircall AI customer, so it can call them directly instead of relying on a custom, hardcoded integration. The process has three steps on your side: \n\n1. Build a "
+        },
+        {
+          "url": "https://support.aircall.io/en-gb/articles/39677926959517",
+          "title": "Aircall Help Center | Using Aircall MCP with AI assistants (beta)",
+          "snippet": "Aircall Help Center | Using Aircall MCP with AI assistants (beta)\n\n# Using Aircall MCP with AI assistants (beta)\n\nAircall MCP gives an AI assistant, like Claude or ChatGPT, read-only access to your company's calls and conversation intelligence data. Once connected, you can ask your assistant to sear"
+        },
+        {
+          "url": "https://aircall.io/blog/tech/aircall-opens-ai-to-ecosystem/",
+          "title": "Aircall opens its AI to the ecosystem | Aircall",
+          "snippet": "Aircall opens its AI to the ecosystem | Aircall\n\n# Aircall opens its AI to the ecosystem\n\nMaggie McCarthy 4 Minutes · Published on September 1, 2026\n\nFor a decade, Aircall has connected businesses to the tools their teams run on. Today, that same ecosystem opens to AI, giving partners and developers"
+        },
+        {
+          "url": "https://aircall.io/blog/tech/build-ai-agents-on-aircall/",
+          "title": "Build AI voice and messaging agents on Aircall | Aircall",
+          "snippet": "Build AI voice and messaging agents on Aircall | Aircall\n\n# Build AI voice and messaging agents on Aircall\n\nNordin Mestre 5 Minutes · Published on September 3, 2026\n\nAircall AI is the most integrated AI platform, and it’s now something you can build on. Our Developer Portal gives engineering teams a"
+        }
+      ]
+    },
+    {
+      "query": "Aircall API authentication OAuth API key",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.aircall.io/docs/authentication",
+          "title": "Overview",
+          "snippet": "Overview\n\n# Overview\n\nGetting Started\n\nAircall supports two ways to authenticate with the REST API: Basic Authentication and OAuth.\n\nUse Basic Authentication when you are connecting your own internal tools or private integration to Aircall. Use OAuth when your app needs to access Aircall data on beh"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/basic-authentication",
+          "title": "Authenticate with API Keys",
+          "snippet": "Authenticate with API Keys\n\n# Authenticate with API Keys\n\nGetting started\n\nLearn how to generate your Aircall API keys and use them to authenticate requests to the Aircall Public API. Before you start make sure you have the following:\n\n- You must have an Aircall account. Sign up here if you don't ha"
+        },
+        {
+          "url": "https://developers.aircall.io/api-references/",
+          "title": "API References | Aircall",
+          "snippet": "API References | Aircall\n\n# REST API\n\nAircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information.\n\nThe root endpoint of Aircall Public API is `https://api.aircall.io/v1`.\n\n Please note that o"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/oauth",
+          "title": "OAuth implementation guide",
+          "snippet": "OAuth implementation guide\n\n# OAuth implementation guide\n\nGetting Started\n\nThis guide helps implementing the Aircall OAuth flow. Before yous tart make sure you have: \n\n- You must have an Aircall account. Sign up as a customer here or if you qualify to be a tech partner you can then sign up for a dev"
+        },
+        {
+          "url": "https://developers.aircall.io/tutorials/how-aircall-oauth-flow-works/",
+          "title": "Get started with Aircall OAuth | Aircall",
+          "snippet": "Get started with Aircall OAuth | Aircall\n\nBuilding an app for Aircall users? Learn how the Aircall OAuth flow works!\n\nIf you are building an integration with Aircall that accesses Aircall's customers data, then you will need to set up OAuth and understand how that can be done with Aircall.\n\nThis tut"
+        }
+      ]
+    },
+    {
+      "query": "Aircall developer API availability",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.aircall.io/api-references/",
+          "title": "API References | Aircall",
+          "snippet": "API References | Aircall\n\n# REST API\n\nAircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information.\n\nThe root endpoint of Aircall Public API is `https://api.aircall.io/v1`.\n\n Please note that o"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/introduction",
+          "title": "Introduction",
+          "snippet": "Introduction\n\n# Introduction\n\n👋 Welcome\n\nAircall's developer platform is the foundation for every integration, embedded experience, and AI-native app built on top of our AI-powered customer communications platform.\n\nWhether you're building for your own team or publishing to thousands of businesses, "
+        },
+        {
+          "url": "https://developer.aircall.io/docs/authentication",
+          "title": "Overview",
+          "snippet": "Overview\n\n# Overview\n\nGetting Started\n\nAircall supports two ways to authenticate with the REST API: Basic Authentication and OAuth.\n\nUse Basic Authentication when you are connecting your own internal tools or private integration to Aircall. Use OAuth when your app needs to access Aircall data on beh"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/basic-authentication",
+          "title": "Authenticate with API Keys",
+          "snippet": "Authenticate with API Keys\n\n# Authenticate with API Keys\n\nGetting started\n\nLearn how to generate your Aircall API keys and use them to authenticate requests to the Aircall Public API. Before you start make sure you have the following:\n\n- You must have an Aircall account. Sign up here if you don't ha"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/public-vs-private-app",
+          "title": "Public vs Private app",
+          "snippet": "Public vs Private app\n\n# Public vs Private app\n\nOverview\n\nWhen building on Aircall, one of your first decisions is choosing the right app type. Aircall supports two app types: Public App and Private App. Understanding the difference will help you choose the right path and avoid unnecessary rework la"
+        }
+      ]
+    },
+    {
+      "query": "site:aircall.io API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.aircall.io/docs/authentication",
+          "title": "Overview",
+          "snippet": "Overview\n\n# Overview\n\nGetting Started\n\nAircall supports two ways to authenticate with the REST API: Basic Authentication and OAuth.\n\nUse Basic Authentication when you are connecting your own internal tools or private integration to Aircall. Use OAuth when your app needs to access Aircall data on beh"
+        },
+        {
+          "url": "https://developer.aircall.io/docs/basic-authentication",
+          "title": "Authenticate with API Keys",
+          "snippet": "Authenticate with API Keys\n\n# Authenticate with API Keys\n\nGetting started\n\nLearn how to generate your Aircall API keys and use them to authenticate requests to the Aircall Public API. Before you start make sure you have the following:\n\n- You must have an Aircall account. Sign up here if you don't ha"
+        },
+        {
+          "url": "https://developers.aircall.io/api-references",
+          "title": "API References | Aircall",
+          "snippet": "API References | Aircall\n\n# REST API\n\nAircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information.\n\nThe root endpoint of Aircall Public API is `https://api.aircall.io/v1`.\n\n Please note that o"
+        },
+        {
+          "url": "https://developers.aircall.io/tutorials/basic-authentication",
+          "title": "Basic Authentication | Aircall",
+          "snippet": "Basic Authentication | Aircall\n\nDetailed step-by-step guide to interact with the Aircall Public API using Basic Authentication.\n\nAircall customers looking to integrate their system with Aircall Public API will need to authenticate each HTTP request!\n\n If you are a Technology Partner, building an app"
+        },
+        {
+          "url": "https://support.aircall.io/en-gb/articles/10375355327517",
+          "title": "Aircall Help Center | Aircall API and Webhooks",
+          "snippet": "Aircall Help Center | Aircall API and Webhooks\n\n# Aircall API and Webhooks\n\nThe Aircall API and W ebhooks let you connect Aircall with your internal systems, CRM, databases, or external tools. These resources give you the flexibility to automate workflows, update data in real time, and build custom "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://aircall.io",
+      "final_url": "https://aircall.io",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:06Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "349d0224529b191edc52dab567093507528365cc290f51e64e7e8e3809737bfa",
+      "text_len": 5069
+    },
+    {
+      "requested_url": "https://developer.aircall.io/docs/oauth",
+      "final_url": "https://developer.aircall.io/docs/oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1fe4ec015f32eebd6ecc5a00b9c068f7c2518cb7f265587baf9319b81a338a72",
+      "text_len": 8957
+    },
+    {
+      "requested_url": "https://aircall.io/pricing/",
+      "final_url": "https://aircall.io/pricing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "22099af300bace57917f3dc4e8d0045925cef229ff0300e09325cdb0eade8bd4",
+      "text_len": 10958
+    },
+    {
+      "requested_url": "https://developer.aircall.io/docs/mcp-faqs",
+      "final_url": "https://developer.aircall.io/docs/mcp-faqs",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "87a6297249c073228e7e121e850cb2a4a9b5d32bc59a3e64b2fc7b9d12eebb49",
+      "text_len": 1403
+    },
+    {
+      "requested_url": "https://developer.aircall.io/docs/authentication",
+      "final_url": "https://developer.aircall.io/docs/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5b5af6e0d0d724e965f5bd26ec3a20cf03d8016a79ba00eeea6e4361fd26a935",
+      "text_len": 2003
+    },
+    {
+      "requested_url": "https://developer.aircall.io/docs/basic-authentication",
+      "final_url": "https://developer.aircall.io/docs/basic-authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3e42bb4b4c079548a6a17b80ac6896aae4713d5ee6f5216d8862c6281053bbb6",
+      "text_len": 2973
+    },
+    {
+      "requested_url": "https://developer.aircall.io/docs/your-first-api-call",
+      "final_url": "https://developer.aircall.io/docs/your-first-api-call",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2a4a149b85a437901e2e50fae71f5f407b7d3dccd9f381d4f05266a40347b3b3",
+      "text_len": 2672
+    },
+    {
+      "requested_url": "https://developers.aircall.io/api-references/",
+      "final_url": "https://developers.aircall.io/api-references/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7ab4317207c329a33984d91133b039fa7420cad6750d609211d9583e5bec9e82",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer.aircall.io/llms.txt",
+      "final_url": "https://developer.aircall.io/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:06Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "0cd22269f1a3ea736e663612d9bfc7adc42b14f4e6c9a166db19285f71eba4d4",
+      "text_len": 978
+    },
+    {
+      "requested_url": "https://support.aircall.io/en-gb/articles/39677926959517",
+      "final_url": "https://support.aircall.io/en-gb/articles/39677926959517",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d1928c98c8a7b043c5e513548848da77d8c2a9ba751ea96aa423125e6076a8a2",
+      "text_len": 4619
+    },
+    {
+      "requested_url": "https://developer.aircall.io/docs/how-to-register",
+      "final_url": "https://developer.aircall.io/docs/how-to-register",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7de7fb07ea6d095f4921a90fd72a94583d82419b9b77a804e40128b708c65021",
+      "text_len": 4686
+    },
+    {
+      "requested_url": "https://developer.aircall.io/docs/authentication",
+      "final_url": "https://developer.aircall.io/docs/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5b5af6e0d0d724e965f5bd26ec3a20cf03d8016a79ba00eeea6e4361fd26a935",
+      "text_len": 2003
+    },
+    {
+      "requested_url": "https://developers.aircall.io/api-references/",
+      "final_url": "https://developers.aircall.io/api-references/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "333a2ef26705dc115c157cff87d3da49e4d75f6e5db8b513b174c70096e64ba7",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developer.aircall.io/docs/oauth",
+      "final_url": "https://developer.aircall.io/docs/oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1fe4ec015f32eebd6ecc5a00b9c068f7c2518cb7f265587baf9319b81a338a72",
+      "text_len": 8957
+    },
+    {
+      "requested_url": "https://developer.aircall.io/docs/basic-authentication",
+      "final_url": "https://developer.aircall.io/docs/basic-authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3e42bb4b4c079548a6a17b80ac6896aae4713d5ee6f5216d8862c6281053bbb6",
+      "text_len": 2973
+    },
+    {
+      "requested_url": "https://developers.aircall.io/tutorials/how-aircall-oauth-flow-works/",
+      "final_url": "https://developers.aircall.io/tutorials/how-aircall-oauth-flow-works/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5e2fa9eacfd65af4d09d9c825372ac30487a79d81bcda287fdf50f5d51c121cf",
+      "text_len": 11242
+    },
+    {
+      "requested_url": "https://developer.aircall.io/docs/introduction",
+      "final_url": "https://developer.aircall.io/docs/introduction",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "64ae67b0b3165f4eb7195894531b7def2dfe771dc28861ae881b06e33765bb1e",
+      "text_len": 2400
+    },
+    {
+      "requested_url": "https://developers.aircall.io/tutorials/basic-authentication",
+      "final_url": "https://developers.aircall.io/tutorials/basic-authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T14:30:04Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1a945d7c6f75f3e7dc9751cd559b92c6afe290c5ac3f8a4838aca14bcd50939e",
+      "text_len": 4652
+    },
+    {
+      "requested_url": "https://aircall.io/pricing/",
+      "final_url": "https://aircall.io/pricing/",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:19:00Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "e6e0cbf2b5b825775df2dee53b6e5b3e5e2e079c3211338af4d75bcd5a1ac76e",
+      "text_len": 14713
+    },
+    {
+      "requested_url": "https://developer.aircall.io/docs/authentication",
+      "final_url": "https://developer.aircall.io/docs/authentication",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:19:04Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "7519777f9c33fe88e9fec0ff1c1c1495167d242c76f93bf9588da461bae2d6ff",
+      "text_len": 3468
+    },
+    {
+      "requested_url": "https://support.aircall.io/en-gb/articles/39677926959517",
+      "final_url": "https://support.aircall.io/en-gb/articles/39677926959517",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:19:08Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "498befd7d84e0f42ef1a79a53fcd1306dd683121251796bc271919a80a0a5bce",
+      "text_len": 4572
+    },
+    {
+      "requested_url": "https://developers.aircall.io/api-references/",
+      "final_url": "https://developers.aircall.io/api-references/",
+      "status": 200,
+      "provider": "browser_cloud",
+      "fetched_at": "2026-11-23T15:19:27Z",
+      "error": null,
+      "method": "browser_cloud",
+      "text_source_url": null,
+      "sha256": "7e7cad930325742a3245c044706899e2c4b64332ed1c0a5d23d28d409d9e74d3",
+      "text_len": 474608
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.aircall.io/docs/authentication",
+        "quote": "Aircall supports two ways to authenticate with the REST API: Basic Authentication and OAuth.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/aircall/02-83fe51f626.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developer.aircall.io/docs/authentication",
+        "quote": "You’re building a public integration and are an approved tech partner",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/aircall/02-83fe51f626.jpg"
+      },
+      {
+        "url": "https://aircall.io/pricing/",
+        "quote": "Full API access",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/aircall/01-2cad162c3d.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.aircall.io/api-references/",
+        "quote": "The root endpoint of Aircall Public API is `https://api.aircall.io/v1`.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.aircall.io/docs/your-first-api-call",
+        "quote": "Number, Message, Conversation Intelligence, Company, Webhook...",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://support.aircall.io/en-gb/articles/39677926959517",
+        "quote": "Aircall MCP is currently in beta. To join the beta, contact your Account Manager.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/aircall/03-a51a782c8c.jpg"
+      },
+      {
+        "url": "https://support.aircall.io/en-gb/articles/39677926959517",
+        "quote": "https://mcp.aircall.io/mcp",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/aircall/03-a51a782c8c.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.aircall.io/docs/authentication",
+        "quote": "Build an integration for multiple Aircall users outside",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/aircall/02-83fe51f626.jpg"
+      },
+      {
+        "url": "https://developers.aircall.io/api-references/",
+        "quote": "OAuth ﹣ Technology Partners",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/aircall/04-ab3062de89.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://aircall.io",
+        "quote": "is the intuitive, AI-powered platform bringing together intelligent voice agents, automated workflows, & adaptive real-time coaching at scale.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [
+      "basic_transport_not_method",
+      "unsupported_evidence"
+    ],
+    "findings": [
+      {
+        "rule": "basic_transport_not_method",
+        "source": "llm",
+        "reason": "Aircall's Basic Auth is just an API ID and token generated in the dashboard and sent via HTTP Basic, not a username and password login, so it should be api_key rather than basic.",
+        "fields": [
+          "auth_methods",
+          "primary_auth"
+        ],
+        "quotes": [
+          {
+            "url": "https://developer.aircall.io/docs/authentication",
+            "quote": "Basic Authentication lets you authenticate requests with an `API ID` and `token` that you generate from your Aircall Dashboard."
+          },
+          {
+            "url": "https://developer.aircall.io/docs/your-first-api-call",
+            "quote": "Select Basic Auth and enter the API ID as `Username` and the Token as `Password`"
+          }
+        ]
+      },
+      {
+        "rule": "unsupported_evidence",
+        "source": "code",
+        "reason": "verdict: no quoted snippet was found in the cited page text",
+        "fields": [
+          "verdict",
+          "blocker"
+        ],
+        "quotes": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "verdict",
+      "blocker"
+    ],
+    "claims": [
+      "auth",
+      "verdict"
+    ],
+    "review_searches": [
+      {
+        "query": "Aircall API authentication OAuth API key",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developer.aircall.io/docs/authentication",
+            "title": "Overview",
+            "snippet": "Overview\n\n# Overview\n\nGetting Started\n\nAircall supports two ways to authenticate with the REST API: Basic Authentication and OAuth.\n\nUse Basic Authentication when you are connecting your own internal tools or private integration to Aircall. Use OAuth when your app needs to access Aircall data on beh"
+          },
+          {
+            "url": "https://developer.aircall.io/docs/basic-authentication",
+            "title": "Authenticate with API Keys",
+            "snippet": "Authenticate with API Keys\n\n# Authenticate with API Keys\n\nGetting started\n\nLearn how to generate your Aircall API keys and use them to authenticate requests to the Aircall Public API. Before you start make sure you have the following:\n\n- You must have an Aircall account. Sign up here if you don't ha"
+          },
+          {
+            "url": "https://developers.aircall.io/api-references/",
+            "title": "API References | Aircall",
+            "snippet": "API References | Aircall\n\n# REST API\n\nAircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information.\n\nThe root endpoint of Aircall Public API is `https://api.aircall.io/v1`.\n\n Please note that o"
+          },
+          {
+            "url": "https://developer.aircall.io/docs/oauth",
+            "title": "OAuth implementation guide",
+            "snippet": "OAuth implementation guide\n\n# OAuth implementation guide\n\nGetting Started\n\nThis guide helps implementing the Aircall OAuth flow. Before yous tart make sure you have: \n\n- You must have an Aircall account. Sign up as a customer here or if you qualify to be a tech partner you can then sign up for a dev"
+          },
+          {
+            "url": "https://developers.aircall.io/tutorials/how-aircall-oauth-flow-works/",
+            "title": "Get started with Aircall OAuth | Aircall",
+            "snippet": "Get started with Aircall OAuth | Aircall\n\nBuilding an app for Aircall users? Learn how the Aircall OAuth flow works!\n\nIf you are building an integration with Aircall that accesses Aircall's customers data, then you will need to set up OAuth and understand how that can be done with Aircall.\n\nThis tut"
+          }
+        ]
+      },
+      {
+        "query": "Aircall developer API availability",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developers.aircall.io/api-references/",
+            "title": "API References | Aircall",
+            "snippet": "API References | Aircall\n\n# REST API\n\nAircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information.\n\nThe root endpoint of Aircall Public API is `https://api.aircall.io/v1`.\n\n Please note that o"
+          },
+          {
+            "url": "https://developer.aircall.io/docs/introduction",
+            "title": "Introduction",
+            "snippet": "Introduction\n\n# Introduction\n\n👋 Welcome\n\nAircall's developer platform is the foundation for every integration, embedded experience, and AI-native app built on top of our AI-powered customer communications platform.\n\nWhether you're building for your own team or publishing to thousands of businesses, "
+          },
+          {
+            "url": "https://developer.aircall.io/docs/authentication",
+            "title": "Overview",
+            "snippet": "Overview\n\n# Overview\n\nGetting Started\n\nAircall supports two ways to authenticate with the REST API: Basic Authentication and OAuth.\n\nUse Basic Authentication when you are connecting your own internal tools or private integration to Aircall. Use OAuth when your app needs to access Aircall data on beh"
+          },
+          {
+            "url": "https://developer.aircall.io/docs/basic-authentication",
+            "title": "Authenticate with API Keys",
+            "snippet": "Authenticate with API Keys\n\n# Authenticate with API Keys\n\nGetting started\n\nLearn how to generate your Aircall API keys and use them to authenticate requests to the Aircall Public API. Before you start make sure you have the following:\n\n- You must have an Aircall account. Sign up here if you don't ha"
+          },
+          {
+            "url": "https://developer.aircall.io/docs/public-vs-private-app",
+            "title": "Public vs Private app",
+            "snippet": "Public vs Private app\n\n# Public vs Private app\n\nOverview\n\nWhen building on Aircall, one of your first decisions is choosing the right app type. Aircall supports two app types: Public App and Private App. Understanding the difference will help you choose the right path and avoid unnecessary rework la"
+          }
+        ]
+      },
+      {
+        "query": "site:aircall.io API authentication",
+        "provider": "exa",
+        "results": [
+          {
+            "url": "https://developer.aircall.io/docs/authentication",
+            "title": "Overview",
+            "snippet": "Overview\n\n# Overview\n\nGetting Started\n\nAircall supports two ways to authenticate with the REST API: Basic Authentication and OAuth.\n\nUse Basic Authentication when you are connecting your own internal tools or private integration to Aircall. Use OAuth when your app needs to access Aircall data on beh"
+          },
+          {
+            "url": "https://developer.aircall.io/docs/basic-authentication",
+            "title": "Authenticate with API Keys",
+            "snippet": "Authenticate with API Keys\n\n# Authenticate with API Keys\n\nGetting started\n\nLearn how to generate your Aircall API keys and use them to authenticate requests to the Aircall Public API. Before you start make sure you have the following:\n\n- You must have an Aircall account. Sign up here if you don't ha"
+          },
+          {
+            "url": "https://developers.aircall.io/api-references",
+            "title": "API References | Aircall",
+            "snippet": "API References | Aircall\n\n# REST API\n\nAircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information.\n\nThe root endpoint of Aircall Public API is `https://api.aircall.io/v1`.\n\n Please note that o"
+          },
+          {
+            "url": "https://developers.aircall.io/tutorials/basic-authentication",
+            "title": "Basic Authentication | Aircall",
+            "snippet": "Basic Authentication | Aircall\n\nDetailed step-by-step guide to interact with the Aircall Public API using Basic Authentication.\n\nAircall customers looking to integrate their system with Aircall Public API will need to authenticate each HTTP request!\n\n If you are a Technology Partner, building an app"
+          },
+          {
+            "url": "https://support.aircall.io/en-gb/articles/10375355327517",
+            "title": "Aircall Help Center | Aircall API and Webhooks",
+            "snippet": "Aircall Help Center | Aircall API and Webhooks\n\n# Aircall API and Webhooks\n\nThe Aircall API and W ebhooks let you connect Aircall with your internal systems, CRM, databases, or external tools. These resources give you the flexibility to automate workflows, update data in real time, and build custom "
+          }
+        ]
+      }
+    ],
+    "review_pages": [
+      {
+        "requested_url": "https://developer.aircall.io/docs/authentication",
+        "final_url": "https://developer.aircall.io/docs/authentication",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:02Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "5b5af6e0d0d724e965f5bd26ec3a20cf03d8016a79ba00eeea6e4361fd26a935",
+        "text_len": 2003
+      },
+      {
+        "requested_url": "https://developers.aircall.io/api-references/",
+        "final_url": "https://developers.aircall.io/api-references/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:02Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "333a2ef26705dc115c157cff87d3da49e4d75f6e5db8b513b174c70096e64ba7",
+        "text_len": 20000
+      },
+      {
+        "requested_url": "https://developer.aircall.io/docs/oauth",
+        "final_url": "https://developer.aircall.io/docs/oauth",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:02Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "1fe4ec015f32eebd6ecc5a00b9c068f7c2518cb7f265587baf9319b81a338a72",
+        "text_len": 8957
+      },
+      {
+        "requested_url": "https://developer.aircall.io/docs/basic-authentication",
+        "final_url": "https://developer.aircall.io/docs/basic-authentication",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:02Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "3e42bb4b4c079548a6a17b80ac6896aae4713d5ee6f5216d8862c6281053bbb6",
+        "text_len": 2973
+      },
+      {
+        "requested_url": "https://developers.aircall.io/tutorials/how-aircall-oauth-flow-works/",
+        "final_url": "https://developers.aircall.io/tutorials/how-aircall-oauth-flow-works/",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:02Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "5e2fa9eacfd65af4d09d9c825372ac30487a79d81bcda287fdf50f5d51c121cf",
+        "text_len": 11242
+      },
+      {
+        "requested_url": "https://developer.aircall.io/docs/introduction",
+        "final_url": "https://developer.aircall.io/docs/introduction",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:03Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "64ae67b0b3165f4eb7195894531b7def2dfe771dc28861ae881b06e33765bb1e",
+        "text_len": 2400
+      },
+      {
+        "requested_url": "https://developers.aircall.io/tutorials/basic-authentication",
+        "final_url": "https://developers.aircall.io/tutorials/basic-authentication",
+        "status": 200,
+        "provider": "exa",
+        "fetched_at": "2026-11-23T14:30:04Z",
+        "error": null,
+        "method": "exa_search",
+        "text_source_url": null,
+        "sha256": "1a945d7c6f75f3e7dc9751cd559b92c6afe290c5ac3f8a4838aca14bcd50939e",
+        "text_len": 4652
+      }
+    ]
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "confidence_not_high",
+        "detail": "confidence is medium",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      },
+      {
+        "reason": "unsupported_or_invalid",
+        "detail": "pass-2 review fired unsupported_evidence",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      },
+      {
+        "reason": "unresolved_deciding_fact",
+        "detail": "mcp_not_live: 'mcp is beta'",
+        "claims": [
+          "mcp"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://aircall.io/pricing/",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://aircall.io/pricing/",
+        "title": "Aircall Pricing & Plans: AI-Powered Calling, Voice Agents & 250+ Integrations | Aircall",
+        "text_len": 14713,
+        "http_status": 200,
+        "screenshot": "screenshots/aircall/01-2cad162c3d.jpg",
+        "usable": true,
+        "wall_s": 6.07
+      },
+      {
+        "url": "https://developer.aircall.io/docs/authentication",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developer.aircall.io/docs/authentication",
+        "title": "Overview",
+        "text_len": 3468,
+        "http_status": 200,
+        "screenshot": "screenshots/aircall/02-83fe51f626.jpg",
+        "usable": true,
+        "wall_s": 3.9
+      },
+      {
+        "url": "https://support.aircall.io/en-gb/articles/39677926959517",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://support.aircall.io/en-gb/articles/39677926959517",
+        "title": "Aircall Help Center | Using Aircall MCP with AI assistants (beta)",
+        "text_len": 4572,
+        "http_status": 200,
+        "screenshot": "screenshots/aircall/03-a51a782c8c.jpg",
+        "usable": true,
+        "wall_s": 4.26
+      },
+      {
+        "url": "https://developers.aircall.io/api-references/",
+        "browser": "cloud",
+        "why_cloud": "empty",
+        "local_problem": "empty",
+        "local_error": "navigate: net::ERR_HTTP_RESPONSE_CODE_FAILURE",
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://developers.aircall.io/api-references/",
+        "title": "API References | Aircall",
+        "text_len": 474608,
+        "http_status": 200,
+        "screenshot": "screenshots/aircall/04-ab3062de89.jpg",
+        "usable": true,
+        "wall_s": 18.85
+      }
+    ],
+    "cloud_sessions": 1
+  }
+}

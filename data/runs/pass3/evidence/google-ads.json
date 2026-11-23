@@ -1,0 +1,405 @@
+{
+  "slug": "google-ads",
+  "searches": [
+    {
+      "query": "Google Ads API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.google.com/google-ads/api/docs/oauth/overview",
+          "title": "Use OAuth 2.0 to Access Google Ads API  |  Google for Developers",
+          "snippet": "Use OAuth 2.0 to access Google Ads API | Google for Developers\n\n0 to access Google Ads API\n\n## Page Summary\n\n- Google Ads API utilizes the OAuth 2.0 protocol for authentication and authorization, allowing your app to access user accounts without handling login information.\n- In addition to OAuth 2.0"
+        },
+        {
+          "url": "https://developers.google.com/google-ads/api/rest/auth",
+          "title": "Authorization and HTTP Headers \n\n    \n    \n       \n    \n\n     \n      \n      Stay organized with collections\n     \n     \n      \n      Save and categorize content based on your preferences.",
+          "snippet": "Authorization and HTTP Headers | Google Ads API | Google for Developers\n\n Authorization and HTTP Headers\n\n## Page Summary\n\n- When calling the Google Ads API, you need both OAuth 2.0 application credentials and a developer token.\n- If making API calls with a Google Ads manager account, you must speci"
+        },
+        {
+          "url": "https://developers.google.com/google-ads/api/docs/client-libs/java/authentication",
+          "title": "Authentication and authorization  |  Google Ads API  |  Google for Developers",
+          "snippet": "Authentication and authorization | Google Ads API | Google for Developers\n\n Authentication and authorization\n\nLike other Google APIs, the Google Ads API uses the OAuth 2.0 protocol for authentication and authorization. OAuth 2.0 enables your Google Ads API client app to access a user's Google Ads ac"
+        },
+        {
+          "url": "https://developers.google.com/google-ads/api/docs/concepts/call-structure",
+          "title": "API Call Structure  |  Google Ads API  |  Google for Developers",
+          "snippet": "API call structure | Google Ads API | Google for Developers\n\n API call structure\n\n## Page Summary\n\n- Google Ads API calls can be made using either gRPC (preferred) or REST.\n- Resource names identify most objects in the API and also serve as URLs for the REST interface.\n- Composite IDs are used for o"
+        },
+        {
+          "url": "https://developers.google.com/google-ads/api/docs/get-started/make-first-call",
+          "title": "Quick start  |  Google Ads API  |  Google for Developers",
+          "snippet": "Quick start | Google Ads API | Google for Developers\n\n Quick start\n\n## Page Summary\n\n- A developer token is required to make API calls to the Google Ads API and its access level controls the number of daily calls and environments.\n- You need a Google Ads manager account to obtain a developer token a"
+        }
+      ]
+    },
+    {
+      "query": "Google Ads developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token",
+          "title": "Developer token  |  Google Ads API  |  Google for Developers",
+          "snippet": "Developer token | Google Ads API | Google for Developers\n\n Developer token\n\n## Page Summary\n\n- A developer token is required to make calls to the Google Ads API and is a 22-character alphanumeric string obtained from the API Center page of your Google Ads manager account.\n- Each developer token has "
+        },
+        {
+          "url": "https://developers.google.com/google-ads/api/docs/api-policy/access-levels",
+          "title": "Access levels and permissible use  |  Google Ads API  |  Google for Developers",
+          "snippet": "Access levels and permissible use | Google Ads API | Google for Developers\n\n Access levels and permissible use\n\n## Page Summary\n\n- Google Ads API developer tokens have an access level determining production account access and operation limits, and \"permissible use\" defining allowed API features.\n- T"
+        },
+        {
+          "url": "https://developers.google.com/google-ads/api/docs/get-started/make-first-call",
+          "title": "Quick start  |  Google Ads API  |  Google for Developers",
+          "snippet": "Quick start | Google Ads API | Google for Developers\n\n Quick start\n\n## Page Summary\n\n- A developer token is required to make API calls to the Google Ads API and its access level controls the number of daily calls and environments.\n- You need a Google Ads manager account to obtain a developer token a"
+        },
+        {
+          "url": "https://developers.google.com/google-ads/api/docs/oauth/overview",
+          "title": "Use OAuth 2.0 to Access Google Ads API  |  Google for Developers",
+          "snippet": "Use OAuth 2.0 to access Google Ads API | Google for Developers\n\n0 to access Google Ads API\n\n## Page Summary\n\n- Google Ads API utilizes the OAuth 2.0 protocol for authentication and authorization, allowing your app to access user accounts without handling login information.\n- In addition to OAuth 2.0"
+        },
+        {
+          "url": "https://developers.google.com/google-ads/api/rest/auth",
+          "title": "Authorization and HTTP Headers \n\n    \n    \n       \n    \n\n     \n      \n      Stay organized with collections\n     \n     \n      \n      Save and categorize content based on your preferences.",
+          "snippet": "Authorization and HTTP Headers | Google Ads API | Google for Developers\n\n Authorization and HTTP Headers\n\n## Page Summary\n\n- When calling the Google Ads API, you need both OAuth 2.0 application credentials and a developer token.\n- If making API calls with a Google Ads manager account, you must speci"
+        }
+      ]
+    },
+    {
+      "query": "Google Ads pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://business.google.com/us/resources/articles/how-much-google-ads-cost/",
+          "title": "How much does Google Ads cost? - Google Ads",
+          "snippet": "How much does Google Ads cost? - Google Ads\n\n# Your guide to smart spending: Understanding how much Google Ads cost\n\n September 2026 Article \n\n## Key takeaways:\n\n- You have complete control over your advertising costs by setting your own daily budget or using campaign total budgets.\n- Metrics like c"
+        },
+        {
+          "url": "https://business.google.com/us/google-ads/",
+          "title": "Reach Customers Across YouTube & Search - Google Ads",
+          "snippet": "Reach Customers Across YouTube & Search - Google Ads\n\nWhatever your business goal, drive better results with Performance Max.\n\n## Results for every goal, with Google Ads\n\n Lead Generation Sales Brand Awareness App Promotion \n\n## Get the quality leads your business needs \n\n Whether they’re watching a"
+        },
+        {
+          "url": "https://support.google.com/google-ads/answer/6366720?hl=en",
+          "title": "Create a Google Ads account: How to sign up - Google Ads Help",
+          "snippet": "Create a Google Ads account: How to sign up - Google Ads Help\n\n# Create a Google Ads account: How to sign up\n\nSign up with Google Ads to start reaching new customers with online ads tailored to your business goals and budget. This article will help you create your Google Ads account and set up your "
+        },
+        {
+          "url": "https://support.google.com/google-ads/answer/9846714?hl=en",
+          "title": "Understanding costs and payments - Google Ads Help",
+          "snippet": "Understanding costs and payments - Google Ads Help\n\n# Understanding costs and payments\n\nNote: You can only create Smart Campaigns in Smart Mode. New and existing advertisers who aren't in Smart Mode are eligible for a variety of other campaigns.\n\nTo view subtitles in your language, turn on YouTube c"
+        },
+        {
+          "url": "https://www.joinsecret.com/google-ads/pricing",
+          "title": "Google Ads Pricing Plans & discounts",
+          "snippet": "![\\Close](https://www.joinsecret.com/assets/icons/x-85c719191d576d5aef4c4a61360c98ca6088e9f183e730aa18361a97951ace73.svg)\n\n## Sign in\n\n Continue with Google Continue with Linkedin\n\n Continue with Email\n\n![\\Close](https://www.joinsecret.com/assets/icons/x-85c719191d576d5aef4c4a61360c98ca6088e9f183e73"
+        }
+      ]
+    },
+    {
+      "query": "Google Ads official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://github.com/googleads/google-ads-mcp",
+          "title": "googleads/google-ads-mcp",
+          "snippet": "# googleads/google-ads-mcp\n\n- Stars: 1203\n- Forks: 383\n- Watchers: 1203\n- Open issues: 12\n- License: Apache License 2.0\n- Default branch: main\n- Created: 2025-10-03T22:09:25Z\n\n## Languages\n\n- Dockerfile\n- Python\n\n## Top Contributors\n\n- Raibaz (140 contributions)\n- DeanLukies (14 contributions)\n- mrb"
+        },
+        {
+          "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+          "title": "Google Ads MCP server: Developer integration guide  |  Google Ads API  |  Google for Developers",
+          "snippet": "Google Ads MCP server: Developer integration guide | Google Ads API | Google for Developers\n\n Google Ads MCP server: Developer integration guide\n\nThe Model Context Protocol (MCP) is an open standard that lets large language models (LLMs) securely interact with external data and applications. The Goo"
+        },
+        {
+          "url": "https://developers.google.com/ads/blog/posts/2025/10/open-source-google-ads-api-mcp-server",
+          "title": "Open Source Google Ads API MCP Server  |  Google for Developers",
+          "snippet": "Open Source Google Ads API MCP Server | Google for Developers\n\n Open Source Google Ads API MCP Server\n\nTuesday, October 7, 2025\n\n We're thrilled to announce the open source release of the Google Ads API Model Context Protocol (MCP) Server, available here. This project marks a significant step in dem"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google/skills/HEAD/skills/ads/google-ads-api-mcp-setup/SKILL.md",
+          "title": "",
+          "snippet": "---\nname: google-ads-api-mcp-setup\ndescription: Guides developers through downloading, configuring, and installing the official open-source Google Ads MCP Server. Use this skill when a user wants to connect their AI assistant (such as Gemini, Claude Code, or Cursor) to their Google Ads account to qu"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=W8yuCZOQ8EA",
+          "title": "Introducing the Google Ads MCP Server",
+          "snippet": "[MUSIC PLAYING] CORY LISENO: Hey, everybody. I'm Cory Liseno, a lead on\ndeveloper relations for Google Ads. And I'll be talking\nabout our new MCP server. First off, what\nis an MCP server? MCP, or Model Context\nProtocol, is the open standard that allows agents like\nGemini to connect with and act upon"
+        }
+      ]
+    },
+    {
+      "query": "site:developers.google.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.google.com/connected-apps/mcp",
+          "title": "Connected Apps Platform MCP server developer guide  |  Google for Developers",
+          "snippet": "Connected Apps Platform MCP server developer guide | Google for Developers\n\n Connected Apps Platform MCP server developer guide\n\n- On this page Expand/collapse contents\n- Integrations options\n- End-to-end process\n\n- Phase 1: Build — develop your remote MCP server\n- Phase 2: Validate — test locally w"
+        },
+        {
+          "url": "https://codelabs.developers.google.com/getting-started-google-mcp-servers",
+          "title": "Getting Started with Google MCP Servers",
+          "snippet": "Getting Started with Google MCP Servers\n\n# Getting Started with Google MCP Servers\n\naccess_time 103 mins remaining\n\n## About this codelab\n\nsubject Last updated Sep 7, 2026\n\naccount_circle Written by Romin Irani\n\n## 1. Introduction\n\nWelcome! In this codelab, you will learn how to supercharge your AI "
+        },
+        {
+          "url": "https://codelabs.developers.google.com/secure-mcp-server-gcp",
+          "title": "Build, Secure, and Deploy an MCP Server on Google Cloud  |  Google Codelabs",
+          "snippet": "Build, Secure, and Deploy an MCP Server on Google Cloud\n\naccess_time 50 mins remaining\n\nBuild, Secure, and Deploy an MCP Server on Google Cloud\n\n## About this codelab\n\nsubject Last updated Sep 30, 2026\n\naccount_circle Written by Abdel Sghiouar, Elise Bertin-Lemée\n\n## 1. Before you begin\n\nThe Model C"
+        },
+        {
+          "url": "https://developers.google.com/connected-apps/mcp/mcp-flow",
+          "title": "MCP flow  |  Connected Apps Platform  |  Google for Developers",
+          "snippet": "MCP flow | Connected Apps Platform | Google for Developers\n\n MCP flow\n\nThe Model Context Protocol (MCP) is the open standard used to define and expose your tools to the Connected Apps Platform. MCP allows applicable Google products to use your services as tools to complete complex tasks for users.\n\n"
+        },
+        {
+          "url": "https://codelabs.developers.google.com/codelabs/currency-agent",
+          "title": "Getting Started with MCP, ADK and A2A  |  Google Codelabs",
+          "snippet": "Getting Started with MCP, ADK and A2A | Google Codelabs\n\n## 1. Overview \n\nAI agents are rapidly growing in popularity, revolutionizing task automation and decision-making with their ability to operate autonomously, learn, and interact with their environment to achieve goals.\n\nBut how exactly does on"
+        }
+      ]
+    },
+    {
+      "query": "site:google.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://cloud.google.com/discover/what-is-model-context-protocol",
+          "title": "What is Model Context Protocol (MCP)? A guide | Google Cloud",
+          "snippet": "What is Model Context Protocol (MCP)? A guide | Google Cloud\n\n# What is the MCP and how does it work?\n\nLarge language models (LLMs) are powerful, but they have two major limitations: their knowledge is frozen at the time of their training, and they can't interact with the outside world. This means t"
+        },
+        {
+          "url": "https://docs.cloud.google.com/mcp/overview",
+          "title": "Google Cloud MCP servers overview  |  Google Cloud Documentation",
+          "snippet": "Remote Model Context Protocol (MCP) servers let you\nuse Google and Google Cloud services in your AI applications with governance,\nsecurity, and access control. Developed by Anthropic, MCP is an\nopen source protocol that standardizes how AI applications connect to external\ntools and data sources. Goo"
+        },
+        {
+          "url": "https://docs.cloud.google.com/mcp/configure-mcp-ai-application",
+          "title": "Configure MCP in an AI application  |  Google Cloud MCP servers  |  Google Cloud Documentation",
+          "snippet": "You can configure most AI applications to use remote MCP servers. This guide\nprovides general information on MCP configuration as well as detailed\nconfiguration instructions for several common MCP AI applications.\n\n## Before you begin\n\n### Required roles\n\nNon-Google Cloud MCP servers don't require t"
+        },
+        {
+          "url": "https://docs.cloud.google.com/mcp/manage-mcp-servers",
+          "title": "Manage MCP servers",
+          "snippet": "Model Context Protocol (MCP) servers let your AI applications connect\nwith databases, calendars, productivity tools, and APIs. You can list available\nGoogle and Google Cloud remote MCP servers, authenticate your AI applications,\nand configure optional security and safety settings.\n\nYou can use MCP s"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-managed-mcp-servers-are-available-for-everyone",
+          "title": "Google-managed MCP servers are available for everyone",
+          "snippet": "Google-managed MCP servers are available for everyone | Google Cloud Blog\n\nApril 28, 2026\n\n##### Vidya Nagarajan\n\nDirector of Product Management, Google Cloud\n\n##### Yubin Gong\n\nPrincipal Engineer, Google Cloud\n\nAt Google Cloud Next ‘26, we announced that more than 50 Google-managed Model Context Pr"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developers.google.com/google-ads",
+      "final_url": "https://developers.google.com/google-ads",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:18Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "f720a862fec1c792b3321b171cfb54cfdf1a46d10948be12c9f93ef27d7925af",
+      "text_len": 709
+    },
+    {
+      "requested_url": "https://developers.google.com/google-ads/api/docs/oauth/overview",
+      "final_url": "https://developers.google.com/google-ads/api/docs/oauth/overview",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:12Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b189ae9f5c77da9af2cc65e4a1e18ca86dab0585d06a3934f28930010718a7a9",
+      "text_len": 3008
+    },
+    {
+      "requested_url": "https://business.google.com/us/google-ads/",
+      "final_url": "https://business.google.com/us/google-ads/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:14Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "116b528b779d6f6badfa3bed0de29e29e73867488e2e9c6f7cbdfda7eb39dd29",
+      "text_len": 7990
+    },
+    {
+      "requested_url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+      "final_url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:15Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "46a0254f6fd50783c703a64de2426b03f4d8c27417590f9f076b313dee0917b6",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://codelabs.developers.google.com/getting-started-google-mcp-servers",
+      "final_url": "https://codelabs.developers.google.com/getting-started-google-mcp-servers",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:17Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "997761124bb3a2727584c1a231e6a089d01ce18c1ef015adca418ea6c3e6729c",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.cloud.google.com/mcp/configure-mcp-ai-application",
+      "final_url": "https://docs.cloud.google.com/mcp/configure-mcp-ai-application",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:18Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "17e046a9f3dba363ba525504b23c04d1af70ee3e49522064b94e6811ee5c06f4",
+      "text_len": 19999
+    },
+    {
+      "requested_url": "https://developers.google.com/ads/blog/posts/2025/10/open-source-google-ads-api-mcp-server",
+      "final_url": "https://developers.google.com/ads/blog/posts/2025/10/open-source-google-ads-api-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:15Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "42a45e62fe39662f94ef753873f86f85b39dbc7ff1966855ea39b688cd62c152",
+      "text_len": 1277
+    },
+    {
+      "requested_url": "https://developers.google.com/google-ads/api/docs/get-started/make-first-call",
+      "final_url": "https://developers.google.com/google-ads/api/docs/get-started/make-first-call",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:12Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3482d2800aef34793fcad4da4e68d78354fa84810afb95999390137b1c0fd1b5",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://developers.google.com/llms.txt",
+      "final_url": "https://developers.google.com/llms.txt",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:21Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://developers.google.com/google-ads/api/rest/auth",
+      "final_url": "https://developers.google.com/google-ads/api/rest/auth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:12Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "62d649a769e40cc1cdca0df7c25d073ac88f0c7668318ef824f55dba80347963",
+      "text_len": 6269
+    },
+    {
+      "requested_url": "https://developers.google.com/google-ads/api/docs/client-libs/java/authentication",
+      "final_url": "https://developers.google.com/google-ads/api/docs/client-libs/java/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:12Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4e72d0702893f4a3c33a00cc1ca164c552a5e45ee19f87ad52480fd7004f8c6a",
+      "text_len": 6463
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.google.com/google-ads/api/rest/auth",
+        "quote": "The Google Ads API uses OAuth 2.0 for authorizing API requests. Both OAuth 2.0 user authentication flow and service account flow are supported.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.google.com/google-ads/api/docs/oauth/overview",
+        "quote": "I am building an app that manages Google Ads accounts on behalf of other users.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.google.com/google-ads/api/docs/get-started/make-first-call",
+        "quote": "Once you complete your application, Google will automatically review your application and upgrade it to Explorer in most cases.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+        "quote": "Enabling the API grants Test access for testing read and mutate workflows against test accounts.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.google.com/google-ads",
+        "quote": "Save time by automating your Google Ads campaign management.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.google.com/google-ads/api/rest/auth",
+        "quote": "A developer token is required in the `developer-token` HTTP header for every API call.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+        "quote": "The Google Ads MCP server provides a standardized bridge to the Google Ads API.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.google.com/ads/blog/posts/2025/10/open-source-google-ads-api-mcp-server",
+        "quote": "We're thrilled to announce the open source release of the Google Ads API Model Context Protocol (MCP) Server",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.google.com/google-ads/api/docs/get-started/make-first-call",
+        "quote": "A developer token is required to make API calls to the Google Ads API and its access level controls the number of daily calls and environments.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developers.google.com/google-ads",
+        "quote": "Create and manage ads that reach users looking for your products or services on Google Search, Display, YouTube and more.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

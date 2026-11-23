@@ -1,0 +1,1474 @@
+{
+  "run_id": "pass3",
+  "run_dir": "/home/box/work/gig/composio-browser/data/runs/pass3",
+  "gold_path": "/home/box/work/gig/composio-browser/schema/holdout_sample.jsonl",
+  "scored_at": "2026-11-23T15:29:39Z",
+  "summary": {
+    "n_gold": 10,
+    "n_row_correct": 3,
+    "row_accuracy": 0.3,
+    "field_accuracy": {
+      "auth": {
+        "matches": 6,
+        "applies": 10,
+        "accuracy": 0.6
+      },
+      "access": {
+        "matches": 9,
+        "applies": 10,
+        "accuracy": 0.9
+      },
+      "api": {
+        "matches": 10,
+        "applies": 10,
+        "accuracy": 1.0
+      },
+      "mcp_status": {
+        "matches": 8,
+        "applies": 10,
+        "accuracy": 0.8
+      },
+      "verdict": {
+        "matches": 10,
+        "applies": 10,
+        "accuracy": 1.0
+      },
+      "blocker": {
+        "matches": 10,
+        "applies": 10,
+        "accuracy": 1.0
+      },
+      "evidence": {
+        "matches": 10,
+        "applies": 10,
+        "accuracy": 1.0
+      },
+      "one_liner": {
+        "matches": 10,
+        "applies": 10,
+        "accuracy": 1.0
+      },
+      "api_breadth": {
+        "matches": 10,
+        "applies": 10,
+        "accuracy": 1.0
+      },
+      "docs_url": {
+        "matches": 10,
+        "applies": 10,
+        "accuracy": 1.0
+      },
+      "mcp_url": {
+        "matches": 8,
+        "applies": 8,
+        "accuracy": 1.0
+      },
+      "requires_end_user_admin": {
+        "matches": 1,
+        "applies": 10,
+        "accuracy": 0.1
+      }
+    },
+    "coverage_accuracy": {
+      "matches": 10,
+      "applies": 10,
+      "accuracy": 1.0,
+      "sibling_misses_only": 0
+    },
+    "misses": [
+      {
+        "slug": "zoho-crm",
+        "name": "Zoho CRM",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "help-scout",
+        "name": "Help Scout",
+        "field": "access",
+        "unit": "access",
+        "severity": "critical",
+        "gold": "self_serve",
+        "agent": "self_serve_paid",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "help-scout",
+        "name": "Help Scout",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "vonage",
+        "name": "Vonage",
+        "field": "auth_methods / primary_auth",
+        "unit": "auth",
+        "severity": "critical",
+        "gold": {
+          "auth_methods": [
+            "api_key",
+            "jwt_service_account"
+          ],
+          "primary_auth": "jwt_service_account"
+        },
+        "agent": {
+          "auth_methods": [
+            "api_key",
+            "jwt_service_account"
+          ],
+          "primary_auth": "api_key"
+        },
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "vonage",
+        "name": "Vonage",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "pinterest",
+        "name": "Pinterest",
+        "field": "mcp_status",
+        "unit": "mcp_status",
+        "severity": "critical",
+        "gold": "none",
+        "agent": "official",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "pinterest",
+        "name": "Pinterest",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "ecwid",
+        "name": "Ecwid",
+        "field": "auth_methods / primary_auth",
+        "unit": "auth",
+        "severity": "critical",
+        "gold": {
+          "auth_methods": [
+            "oauth2",
+            "api_key"
+          ],
+          "primary_auth": "oauth2"
+        },
+        "agent": {
+          "auth_methods": [
+            "oauth2"
+          ],
+          "primary_auth": "oauth2"
+        },
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "ecwid",
+        "name": "Ecwid",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "apify",
+        "name": "Apify",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "vercel",
+        "name": "Vercel",
+        "field": "auth_methods / primary_auth",
+        "unit": "auth",
+        "severity": "critical",
+        "gold": {
+          "auth_methods": [
+            "oauth2",
+            "api_key"
+          ],
+          "primary_auth": "oauth2"
+        },
+        "agent": {
+          "auth_methods": [
+            "api_key"
+          ],
+          "primary_auth": "api_key"
+        },
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "vercel",
+        "name": "Vercel",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "harvest",
+        "name": "Harvest",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "binance",
+        "name": "Binance",
+        "field": "auth_methods / primary_auth",
+        "unit": "auth",
+        "severity": "critical",
+        "gold": {
+          "auth_methods": [
+            "custom_other"
+          ],
+          "primary_auth": "custom_other"
+        },
+        "agent": {
+          "auth_methods": [
+            "api_key"
+          ],
+          "primary_auth": "api_key"
+        },
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "binance",
+        "name": "Binance",
+        "field": "requires_end_user_admin",
+        "unit": "requires_end_user_admin",
+        "severity": "minor",
+        "gold": true,
+        "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "mermaid-cli",
+        "name": "Mermaid CLI",
+        "field": "mcp_status",
+        "unit": "mcp_status",
+        "severity": "critical",
+        "gold": "community",
+        "agent": "official",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": 7,
+      "slug": "zoho-crm",
+      "name": "Zoho CRM",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "oauth2 only. Did not list api_key for the dashboard client secret, per the clarified rubric. Free Edition documents API credits, so access is self_serve.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Cloud CRM for sales pipelines, contacts, and automations, with a public REST API.",
+          "agent": "Zoho CRM is a cloud sales CRM platform with AI (Zia) features, offering a REST API (V8) and official MCP servers for managing CRM records, modules and workflows."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://www.zoho.com/crm/developer/docs/api/v8/",
+          "agent": "https://www.zoho.com/crm/developer/docs/api/v8/"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://www.zoho.com/crm/developer/docs/mcp/overview.html",
+          "agent": "https://www.zoho.com/crm/developer/docs/mcp/overview.html"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 18,
+      "slug": "help-scout",
+      "name": "Help Scout",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "help_scout",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "help_scout",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Listed oauth2 (Inbox API) plus api_key (Docs API). Did not add basic for the Docs key-via-Basic transport. Access is self_serve because a no-card Standard/Plus trial includes API features, even though the standing Free plan does not.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": false,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": false,
+          "gold": "self_serve",
+          "agent": "self_serve_paid"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Shared inbox and help desk for email, chat, and knowledge bases, with public HTTP APIs.",
+          "agent": "Help Scout is a customer support platform with a shared Inbox, AI agent (Envoy/Scout), Copilot and Signal insights, plus Inbox, Docs and Chat APIs for developers."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developer.helpscout.com/mailbox-api/",
+          "agent": "https://developer.helpscout.com/"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://mcp.helpscout.net/mcp",
+          "agent": "https://articles.helpscout.com/blog/introducing-help-scout-mcp/"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 30,
+      "slug": "vonage",
+      "name": "Vonage",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Did not list basic for key:secret-via-Basic, per the clarified rubric. primary_auth is jwt_service_account because official auth docs recommend JWT for most use-cases.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": false,
+      "units": {
+        "auth": {
+          "match": false,
+          "gold": {
+            "auth_methods": [
+              "api_key",
+              "jwt_service_account"
+            ],
+            "primary_auth": "jwt_service_account"
+          },
+          "agent": {
+            "auth_methods": [
+              "api_key",
+              "jwt_service_account"
+            ],
+            "primary_auth": "api_key"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Communications platform with public APIs for SMS, voice, video, verify, and messaging.",
+          "agent": "Vonage provides communications APIs (voice, video, SMS/messaging, verify, network features) for developers, with REST APIs, SDKs, a CLI and official MCP servers."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+          "agent": "https://developer.vonage.com"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developer.vonage.com/en/mcp-server/how-to-guides/install-tooling-mcp-server",
+          "agent": "https://developer.vonage.com/en/mcp-server/conceptual-guides/introduction-to-vonage-mcp"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 38,
+      "slug": "pinterest",
+      "name": "Pinterest",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "pinterest",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "pinterest",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Hard call on MCP: official marketing/docs page includes a server URL snippet but explicitly says 'when it launches'. Applied the rubric's coming-soon rule and labelled none. Access is gated_partner because no self-serve credential path exists before the trial review.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": false,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "gated_partner",
+          "agent": "gated_partner"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": false,
+          "gold": "none",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_with_approval",
+          "agent": "buildable_with_approval"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "gated_access",
+          "agent": "gated_access"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Visual discovery platform with a REST API for pins, boards, catalogs, and ads.",
+          "agent": "Pinterest's developer platform offers a REST API v5 for managing organic Pins and Boards, ads, catalogs, conversions and analytics on behalf of authorized Pinterest users."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+          "agent": "https://developers.pinterest.com/docs/api/v5/introduction/"
+        },
+        "mcp_url": {
+          "applies": false,
+          "match": true,
+          "gold": null,
+          "agent": "https://developers.pinterest.com/about-pinterest-mcp/"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 47,
+      "slug": "ecwid",
+      "name": "Ecwid",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Applied the clarified access rule: a self-serve custom-token path after buying a plan online keeps self_serve_paid, even if public OAuth / App Market apps may be reviewed. primary_auth is oauth2 because official docs document OAuth for public/third-party apps.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": false,
+      "units": {
+        "auth": {
+          "match": false,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve_paid",
+          "agent": "self_serve_paid"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Embeddable ecommerce platform with a REST API for products, orders, and store data.",
+          "agent": "Ecwid is an ecommerce platform that adds an online store to any website or its own Instant Site, with a REST API for managing products, orders, customers and store settings."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+          "agent": "https://docs.ecwid.com/api-reference"
+        },
+        "mcp_url": {
+          "applies": false,
+          "match": true,
+          "gold": null,
+          "agent": null
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 55,
+      "slug": "apify",
+      "name": "Apify",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "apify",
+          "sibling_slugs": [
+            "apify_mcp"
+          ],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "apify",
+          "sibling_slugs": [
+            "apify_mcp"
+          ]
+        }
+      },
+      "label_notes": "api_key only for the developer API. Did not list oauth2 for MCP-only sign-in.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          },
+          "agent": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Web scraping and automation platform for running Actors and accessing datasets through a REST API.",
+          "agent": "Apify is a cloud platform and marketplace of ready-made scraping and automation tools (Actors) with a REST API, official clients, and an MCP server for running them and retrieving results."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.apify.com/api/v2",
+          "agent": "https://docs.apify.com/"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://docs.apify.com/mcp",
+          "agent": "https://docs.apify.com/mcp"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 62,
+      "slug": "vercel",
+      "name": "Vercel",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "vercel",
+          "sibling_slugs": [
+            "vercel_mcp"
+          ],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "vercel",
+          "sibling_slugs": [
+            "vercel_mcp"
+          ]
+        }
+      },
+      "label_notes": "oauth2 is documented for calling the product API itself, not only MCP, so it is listed and preferred as primary_auth.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": false,
+      "units": {
+        "auth": {
+          "match": false,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Frontend cloud platform for deploying web apps, with a REST API for projects, deployments, and teams.",
+          "agent": "Vercel is a frontend cloud platform for deploying and operating web apps, serverless functions and AI workloads, with a broad REST API, CLI and an official MCP server."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://vercel.com/docs/accounts/access-tokens",
+          "agent": "https://vercel.com/docs/rest-api"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://vercel.com/docs/agent-resources/vercel-mcp",
+          "agent": "https://vercel.com/docs/agent-resources/vercel-mcp"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 80,
+      "slug": "harvest",
+      "name": "Harvest",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "exists",
+          "toolkit_slug": "harvest",
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "exists",
+          "toolkit_slug": "harvest",
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Straightforward official docs. oauth2 plus PAT (api_key); no basic, because v1 Basic was replaced by tokens.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": true,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          },
+          "agent": {
+            "auth_methods": [
+              "oauth2",
+              "api_key"
+            ],
+            "primary_auth": "oauth2"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Time tracking and invoicing product with a REST API for time, projects, clients, and invoices.",
+          "agent": "Harvest is a time tracking, expense, invoicing and project budgeting SaaS with a REST API v2 and an official MCP server for managing time entries, projects, clients, invoices and reports."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+          "agent": "https://help.getharvest.com/api-v2/"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://api.harvestapp.com/mcp",
+          "agent": "https://support.getharvest.com/hc/en-us/articles/46293697226381-Harvest-MCP"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 83,
+      "slug": "binance",
+      "name": "Binance",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "custom_other for the signed API-key scheme (HMAC/Ed25519/RSA). Did not list oauth2 for MCP-only authorization, and did not split api_key out as a second method because the key does not authenticate signed endpoints by itself.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": false,
+      "units": {
+        "auth": {
+          "match": false,
+          "gold": {
+            "auth_methods": [
+              "custom_other"
+            ],
+            "primary_auth": "custom_other"
+          },
+          "agent": {
+            "auth_methods": [
+              "api_key"
+            ],
+            "primary_auth": "api_key"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "rest"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": true,
+          "gold": "official",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Cryptocurrency exchange with a public REST API for market data, accounts, and trading.",
+          "agent": "Binance is a cryptocurrency exchange offering REST APIs for spot, margin, futures and wallet market data, trading and account management, plus an official MCP server (Agent OS) for AI agents."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "broad",
+          "agent": "broad"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md",
+          "agent": "https://developers.binance.com/en/docs/products/spot/rest-api#endpoint-security-type"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://developers.binance.com/en/docs/agent-native/mcp-server/agentic",
+          "agent": "https://agent.binance.com/mcp/agentic"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": false,
+          "gold": true,
+          "agent": false
+        }
+      }
+    },
+    {
+      "id": 98,
+      "slug": "mermaid-cli",
+      "name": "Mermaid CLI",
+      "present": true,
+      "identity_ok": true,
+      "coverage": {
+        "match": true,
+        "sibling_match": true,
+        "gold": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": [],
+          "checked_at": "2026-11-23T10:41:38Z"
+        },
+        "agent": {
+          "status": "none",
+          "toolkit_slug": null,
+          "sibling_slugs": []
+        }
+      },
+      "label_notes": "Used the rubric exception that a local CLI wrapable as a skill is buildable_now. MCP is community (listed by mermaid-js as a community integration), not the Mermaid Chart official server.",
+      "missing": false,
+      "invalid": false,
+      "row_correct": false,
+      "units": {
+        "auth": {
+          "match": true,
+          "gold": {
+            "auth_methods": [
+              "none"
+            ],
+            "primary_auth": "none"
+          },
+          "agent": {
+            "auth_methods": [
+              "none"
+            ],
+            "primary_auth": "none"
+          }
+        },
+        "access": {
+          "match": true,
+          "gold": "self_serve",
+          "agent": "self_serve"
+        },
+        "api": {
+          "match": true,
+          "gold": {
+            "api_types": [
+              "cli_only"
+            ],
+            "has_public_docs": true
+          },
+          "agent": {
+            "api_types": [
+              "cli_only"
+            ],
+            "has_public_docs": true
+          }
+        },
+        "mcp_status": {
+          "match": false,
+          "gold": "community",
+          "agent": "official"
+        },
+        "verdict": {
+          "match": true,
+          "gold": "buildable_now",
+          "agent": "buildable_now"
+        },
+        "blocker": {
+          "match": true,
+          "gold": "none",
+          "agent": "none"
+        },
+        "evidence": {
+          "match": true,
+          "gold": "each of auth, access, api_surface, mcp, verdict has at least one http(s) URL",
+          "agent": "required evidence URLs present"
+        }
+      },
+      "minors": {
+        "one_liner": {
+          "applies": true,
+          "match": true,
+          "gold": "Command-line tool that renders Mermaid diagram definitions to SVG, PNG, or PDF.",
+          "agent": "Mermaid CLI (mmdc) is an open-source command-line tool that renders Mermaid diagram definitions and Markdown-embedded Mermaid blocks to SVG, PNG or PDF files."
+        },
+        "api_breadth": {
+          "applies": true,
+          "match": true,
+          "gold": "narrow",
+          "agent": "narrow"
+        },
+        "docs_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://github.com/mermaid-js/mermaid-cli",
+          "agent": "https://github.com/mermaid-js/mermaid-cli/"
+        },
+        "mcp_url": {
+          "applies": true,
+          "match": true,
+          "gold": "https://github.com/hustcc/mcp-mermaid",
+          "agent": "https://mermaid.ai/docs/ai/mcp-server"
+        },
+        "requires_end_user_admin": {
+          "applies": true,
+          "match": true,
+          "gold": false,
+          "agent": false
+        }
+      }
+    }
+  ],
+  "notes": [
+    "Evidence scoring checks that required claim URLs are present and well-formed.",
+    "Semantic support of those URLs is a human review step.",
+    "composio_toolkit is reported as coverage-lookup accuracy, not in row accuracy."
+  ]
+}

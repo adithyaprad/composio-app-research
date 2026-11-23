@@ -1,0 +1,100 @@
+{"slug": "salesforce", "flagged": false, "reasons": [], "flags": []}
+{"slug": "twenty", "flagged": false, "reasons": [], "flags": []}
+{"slug": "pipedrive", "flagged": false, "reasons": [], "flags": []}
+{"slug": "hubspot", "flagged": false, "reasons": [], "flags": []}
+{"slug": "close", "flagged": false, "reasons": [], "flags": []}
+{"slug": "zoho-crm", "flagged": false, "reasons": [], "flags": []}
+{"slug": "attio", "flagged": false, "reasons": [], "flags": []}
+{"slug": "zendesk", "flagged": false, "reasons": [], "flags": []}
+{"slug": "intercom", "flagged": true, "reasons": ["unresolved_deciding_fact"], "flags": [{"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp server are beta'", "claims": ["mcp"], "urls": []}]}
+{"slug": "podio", "flagged": true, "reasons": ["thin_or_blocked_page"], "flags": [{"reason": "thin_or_blocked_page", "detail": "https://developers.podio.com/api-key: thin text (247 chars); https://podio.com/signup: thin text (96 chars)", "claims": ["access", "auth"], "urls": ["https://developers.podio.com/api-key", "https://podio.com/signup"]}]}
+{"slug": "copper", "flagged": true, "reasons": ["confidence_not_high", "unresolved_deciding_fact"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp is announced'", "claims": ["mcp"], "urls": []}]}
+{"slug": "dealcloud", "flagged": true, "reasons": ["confidence_not_high", "unsupported_or_invalid"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unsupported_or_invalid", "detail": "pass-2 review fired unsupported_evidence", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "freshdesk", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "front", "flagged": true, "reasons": ["confidence_not_high", "thin_or_blocked_page"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "thin_or_blocked_page", "detail": "https://front.com/signup: thin text (172 chars)", "claims": ["verdict"], "urls": ["https://front.com/signup"]}]}
+{"slug": "plain", "flagged": false, "reasons": [], "flags": []}
+{"slug": "gorgias", "flagged": false, "reasons": [], "flags": []}
+{"slug": "pylon", "flagged": true, "reasons": ["confidence_not_high", "unresolved_deciding_fact"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unresolved_deciding_fact", "detail": "sales_checkout: 'book a demo'", "claims": ["access", "verdict"], "urls": []}]}
+{"slug": "liveagent", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "zoho-cliq", "flagged": false, "reasons": [], "flags": []}
+{"slug": "slack", "flagged": false, "reasons": [], "flags": []}
+{"slug": "help-scout", "flagged": true, "reasons": ["unresolved_deciding_fact"], "flags": [{"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp) server out of beta'", "claims": ["mcp"], "urls": []}]}
+{"slug": "pumble", "flagged": false, "reasons": [], "flags": []}
+{"slug": "twilio", "flagged": true, "reasons": ["unresolved_deciding_fact"], "flags": [{"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp server is public beta'", "claims": ["mcp"], "urls": []}]}
+{"slug": "discord", "flagged": false, "reasons": [], "flags": []}
+{"slug": "telegram", "flagged": false, "reasons": [], "flags": []}
+{"slug": "gladly", "flagged": true, "reasons": ["confidence_not_high", "unresolved_deciding_fact"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp connector is a beta'", "claims": ["mcp"], "urls": []}]}
+{"slug": "whatsapp-business", "flagged": false, "reasons": [], "flags": []}
+{"slug": "google-ads", "flagged": false, "reasons": [], "flags": []}
+{"slug": "meta-ads", "flagged": false, "reasons": [], "flags": []}
+{"slug": "linkedin-ads", "flagged": false, "reasons": [], "flags": []}
+{"slug": "lark", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "vonage", "flagged": false, "reasons": [], "flags": []}
+{"slug": "klaviyo", "flagged": false, "reasons": [], "flags": []}
+{"slug": "mailchimp", "flagged": true, "reasons": ["thin_or_blocked_page"], "flags": [{"reason": "thin_or_blocked_page", "detail": "https://login.mailchimp.com/signup: thin text (190 chars)", "claims": ["access"], "urls": ["https://login.mailchimp.com/signup/"]}]}
+{"slug": "systeme-io", "flagged": false, "reasons": [], "flags": []}
+{"slug": "aircall", "flagged": true, "reasons": ["confidence_not_high", "unsupported_or_invalid", "unresolved_deciding_fact"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unsupported_or_invalid", "detail": "pass-2 review fired unsupported_evidence", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp is beta'", "claims": ["mcp"], "urls": []}]}
+{"slug": "sendgrid", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "threads", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "shopify", "flagged": false, "reasons": [], "flags": []}
+{"slug": "bigcommerce", "flagged": false, "reasons": [], "flags": []}
+{"slug": "gohighlevel", "flagged": true, "reasons": ["confidence_not_high", "unsupported_or_invalid"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unsupported_or_invalid", "detail": "pass-2 review fired unsupported_evidence", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "woocommerce", "flagged": true, "reasons": ["unresolved_deciding_fact"], "flags": [{"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp is a developer preview'", "claims": ["mcp"], "urls": []}]}
+{"slug": "squarespace", "flagged": false, "reasons": [], "flags": []}
+{"slug": "salesforce-commerce-cloud", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "gumroad", "flagged": false, "reasons": [], "flags": []}
+{"slug": "pinterest", "flagged": true, "reasons": ["unsupported_or_invalid"], "flags": [{"reason": "unsupported_or_invalid", "detail": "pass-2 review fired unsupported_evidence", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "ecwid", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "dataforseo", "flagged": false, "reasons": [], "flags": []}
+{"slug": "magento-adobe-commerce", "flagged": true, "reasons": ["confidence_not_high", "unsupported_or_invalid"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unsupported_or_invalid", "detail": "pass-2 review fired unsupported_evidence", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "fanbasis", "flagged": true, "reasons": ["confidence_not_high", "unresolved_deciding_fact"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp beta'", "claims": ["mcp"], "urls": []}]}
+{"slug": "ahrefs", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "mrscraper", "flagged": false, "reasons": [], "flags": []}
+{"slug": "se-ranking", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "amazon-selling-partner", "flagged": true, "reasons": ["confidence_not_high", "unresolved_deciding_fact"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp server, in open beta'", "claims": ["mcp"], "urls": []}]}
+{"slug": "bright-data", "flagged": false, "reasons": [], "flags": []}
+{"slug": "firecrawl", "flagged": false, "reasons": [], "flags": []}
+{"slug": "sherlock", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "waterfall-io", "flagged": false, "reasons": [], "flags": []}
+{"slug": "vercel", "flagged": false, "reasons": [], "flags": []}
+{"slug": "cloudflare", "flagged": false, "reasons": [], "flags": []}
+{"slug": "netlify", "flagged": false, "reasons": [], "flags": []}
+{"slug": "supabase", "flagged": false, "reasons": [], "flags": []}
+{"slug": "apify", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "mongodb-atlas", "flagged": false, "reasons": [], "flags": []}
+{"slug": "github", "flagged": false, "reasons": [], "flags": []}
+{"slug": "sentry", "flagged": false, "reasons": [], "flags": []}
+{"slug": "datadog", "flagged": false, "reasons": [], "flags": []}
+{"slug": "neo4j", "flagged": false, "reasons": [], "flags": []}
+{"slug": "notion", "flagged": false, "reasons": [], "flags": []}
+{"slug": "airtable", "flagged": false, "reasons": [], "flags": []}
+{"slug": "clay", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "asana", "flagged": false, "reasons": [], "flags": []}
+{"slug": "linear", "flagged": false, "reasons": [], "flags": []}
+{"slug": "clickup", "flagged": false, "reasons": [], "flags": []}
+{"slug": "monday-com", "flagged": false, "reasons": [], "flags": []}
+{"slug": "harvest", "flagged": false, "reasons": [], "flags": []}
+{"slug": "snowflake", "flagged": true, "reasons": ["unsupported_or_invalid"], "flags": [{"reason": "unsupported_or_invalid", "detail": "pass-2 review fired unsupported_evidence", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "coda", "flagged": true, "reasons": ["confidence_not_high", "unresolved_deciding_fact"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp is in beta'", "claims": ["mcp"], "urls": []}]}
+{"slug": "plaid", "flagged": false, "reasons": [], "flags": []}
+{"slug": "smartsheet", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "stripe", "flagged": true, "reasons": ["unresolved_deciding_fact"], "flags": [{"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp server supports oauth and agent api keys (preview'", "claims": ["mcp"], "urls": []}]}
+{"slug": "ipayx", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "jira", "flagged": true, "reasons": ["thin_or_blocked_page"], "flags": [{"reason": "thin_or_blocked_page", "detail": "https://atlassian.com/software/jira/pricing: thin text (124 chars)", "claims": ["access"], "urls": ["https://www.atlassian.com/software/jira/pricing"]}]}
+{"slug": "xero", "flagged": false, "reasons": [], "flags": []}
+{"slug": "ramp", "flagged": false, "reasons": [], "flags": []}
+{"slug": "brex", "flagged": true, "reasons": ["unresolved_deciding_fact"], "flags": [{"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp server is in beta'", "claims": ["mcp"], "urls": []}]}
+{"slug": "paygent-connect", "flagged": true, "reasons": ["confidence_not_high", "thin_or_blocked_page"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is low", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "thin_or_blocked_page", "detail": "https://gopaygent.com/signup: thin text (242 chars)", "claims": ["access"], "urls": ["https://gopaygent.com/signup"]}]}
+{"slug": "binance", "flagged": true, "reasons": ["confidence_not_high", "thin_or_blocked_page"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "thin_or_blocked_page", "detail": "https://accounts.binance.com/en/register?locale=en: thin text (113 chars)", "claims": ["access", "verdict"], "urls": ["https://accounts.binance.com/en/register?locale=en"]}]}
+{"slug": "notebooklm", "flagged": true, "reasons": ["confidence_not_high", "unresolved_deciding_fact"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unresolved_deciding_fact", "detail": "mcp_not_live: 'mcp server are in an early access'; api_not_live: 'api is an early access'", "claims": ["access", "mcp", "verdict"], "urls": []}]}
+{"slug": "fathom", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "otter-ai", "flagged": false, "reasons": [], "flags": []}
+{"slug": "consensus", "flagged": false, "reasons": [], "flags": []}
+{"slug": "reducto", "flagged": false, "reasons": [], "flags": []}
+{"slug": "pitchbook", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "youtube-transcript", "flagged": false, "reasons": [], "flags": []}
+{"slug": "devin", "flagged": true, "reasons": ["confidence_not_high"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "mermaid-cli", "flagged": false, "reasons": [], "flags": []}
+{"slug": "higgsfield", "flagged": true, "reasons": ["confidence_not_high", "unresolved_deciding_fact"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unresolved_deciding_fact", "detail": "sales_checkout: 'contact sales'", "claims": ["access", "verdict"], "urls": []}]}
+{"slug": "grain", "flagged": true, "reasons": ["unsupported_or_invalid"], "flags": [{"reason": "unsupported_or_invalid", "detail": "pass-2 review fired unsupported_evidence", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}
+{"slug": "quickbooks", "flagged": true, "reasons": ["confidence_not_high", "unsupported_or_invalid"], "flags": [{"reason": "confidence_not_high", "detail": "confidence is medium", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}, {"reason": "unsupported_or_invalid", "detail": "pass-2 review fired unsupported_evidence", "claims": ["access", "auth", "mcp", "verdict"], "urls": []}]}

@@ -1,0 +1,376 @@
+{
+  "slug": "sentry",
+  "searches": [
+    {
+      "query": "Sentry API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.sentry.io/api/auth/",
+          "title": "API Authentication | Sentry Docs",
+          "snippet": "API Authentication | Sentry Docs\n\n# API Authentication\n\n## Auth Tokens\n\nAuthentication tokens are passed using an auth header, and are used to authenticate as a user or organization account with the API. In our documentation, we have several placeholders that appear between curly braces or chevrons,"
+        },
+        {
+          "url": "https://docs.sentry.io/account/auth-tokens/",
+          "title": "Auth Tokens | Sentry Docs",
+          "snippet": "# Auth Tokens | Sentry Docs\n\nAuth tokens (short for authentication tokens) are a way to authenticate with Sentry. They are similar to passwords but are designed for programmatic interaction with Sentry. Some examples of what you would use auth tokens for include:\n\n- Uploading Source Maps during your"
+        },
+        {
+          "url": "https://docs.sentry.io/api/guides/create-auth-token/",
+          "title": "Create an Internal Integration",
+          "snippet": "Tutorial: Create a Sentry Authentication Token | Sentry Docs\n\n# Tutorial: Create a Sentry Authentication Token\n\nTo use Sentry's APIs, you must have an authentication token. This tutorial walks you through creating an organizational auth token through an internal integration. Sentry recommends using "
+        },
+        {
+          "url": "https://docs.sentry.io/api/permissions/",
+          "title": "Permissions & Scopes | Sentry Docs",
+          "snippet": "Permissions & Scopes | Sentry Docs\n\n# Permissions & Scopes\n\nIf you're building on top of Sentry's API (i.e using Auth Tokens), you'll need certain scopes to access different API endpoints.\n\nTo set the scopes for an integration token, select the scopes from the dropdown. These can be edited later.\n\nT"
+        },
+        {
+          "url": "https://docs.sentry.io/api/users/retrieve-the-current-credentials/",
+          "title": "Retrieve the Current Credentials | Sentry Docs",
+          "snippet": "Retrieve the Current Credentials | Sentry Docs\n\n# Retrieve the Current Credentials\n\nGET /api/0/\n\nReturn the API version, the scopes of the token that authenticated the request, and the authenticated user. Use it to check which scopes a token has.\n\nAuthentication is optional. `auth` is null unless th"
+        }
+      ]
+    },
+    {
+      "query": "Sentry developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.sentry.io/api/",
+          "title": "API Reference | Sentry Docs",
+          "snippet": "API Reference | Sentry Docs\n\n# API Reference\n\nThe Sentry web API is used to access the Sentry platform programmatically. You can use the APIs to manage account-level resources, like organizations and teams, as well as manage and export data.\n\nIf you're looking for information about the API surface f"
+        },
+        {
+          "url": "https://docs.sentry.io/api/auth/",
+          "title": "API Authentication | Sentry Docs",
+          "snippet": "API Authentication | Sentry Docs\n\n# API Authentication\n\n## Auth Tokens\n\nAuthentication tokens are passed using an auth header, and are used to authenticate as a user or organization account with the API. In our documentation, we have several placeholders that appear between curly braces or chevrons,"
+        },
+        {
+          "url": "https://docs.sentry.io/api/permissions/",
+          "title": "Permissions & Scopes | Sentry Docs",
+          "snippet": "Permissions & Scopes | Sentry Docs\n\n# Permissions & Scopes\n\nIf you're building on top of Sentry's API (i.e using Auth Tokens), you'll need certain scopes to access different API endpoints.\n\nTo set the scopes for an integration token, select the scopes from the dropdown. These can be edited later.\n\nT"
+        },
+        {
+          "url": "https://sentry.io/developer/",
+          "title": "Sentry",
+          "snippet": "# Sentry\n\nYou've hit the web UI. It's HTML meant for humans, not machines.\nHere's what you actually want:\n\n## MCP Server (recommended)\n\nThe fastest way to give your agent structured access to Sentry.\nOAuth-authenticated, HTTP streaming, no HTML parsing required.\n\n```json\n{\n  \"mcpServers\": {\n    \"sen"
+        },
+        {
+          "url": "https://docs.sentry.io/api/requests/",
+          "title": "Requests | Sentry Docs",
+          "snippet": "Requests | Sentry Docs\n\n# Requests\n\nAll API requests should be made to the `/api/0/` prefix, and will return JSON as the response:\n\nBash Http\n\n```bash\ncurl -i https://sentry.io/api/0/\n\n```\n\n```bash\ncurl -i https://sentry.io/api/0/\n\n```\n\n## HTTP Verbs\n\nSentry makes an attempt to stick to appropriate "
+        }
+      ]
+    },
+    {
+      "query": "Sentry pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://sentry.io/pricing/",
+          "title": "Pricing: Free Developer Plan, Pay as You Grow | Sentry",
+          "snippet": "Pricing: Free Developer Plan, Pay as You Grow | Sentry\n\n# Pricing plans for dev teams of all sizes\n\nMonthly\n\nAnnual\n\n## developer\n\nFor solo devs working on small projects\n\nFree\n\n$0\n\n- One user\n- Error Monitoring and Tracing\n- Alerts and notifications via email\n- 10 custom dashboards\n- MCP access\n\n##"
+        },
+        {
+          "url": "https://sentry.io/signup/",
+          "title": "Start your free trial | Unlimited events 14 days | Sentry",
+          "snippet": "Start your free trial | Unlimited events 14 days | Sentry\n\n# Start fixing\n\n Sentry gives you all the context you (and your agent) need to fix code faster. \n\n### Create your free account\n\nUnlimited volume for 14 days. Free plan after that. Upgrade whenever you want.\n\nJavaScript must be enabled to reg"
+        },
+        {
+          "url": "https://docs.sentry.io/get-started/",
+          "title": "Get Started | Sentry Docs",
+          "snippet": "# Get Started | Sentry Docs\n\nSentry captures errors, logs, traces, replays, profiles, and metrics from your application — and connects them all through distributed tracing. This page walks you through the steps to get the most out of Sentry after you've installed the SDK.\n\nNew to Sentry? → Sign up h"
+        },
+        {
+          "url": "https://www.sentry.help/en/articles/13965058-why-am-i-on-a-business-trial",
+          "title": "Why am I on a Business trial? | Sentry Help Center",
+          "snippet": "Why am I on a Business trial? | Sentry Help Center\n\n Updated over 2 weeks ago\n\nTable of contents\n\n# Issue\n\nI just signed up for Sentry, why is my account on a Business plan trial?\n\n# Applies To\n\n- Any Sentry customer\n\n# Resolution\n\nAll new Sentry organizations start on a free 14-day trial. This tria"
+        },
+        {
+          "url": "https://www.sentry.help/en/articles/13965053-can-we-trial-the-team-plan",
+          "title": "Can we trial the Team plan? | Sentry Help Center",
+          "snippet": "Can we trial the Team plan? | Sentry Help Center\n\n# Can we trial the Team plan?\n\n August 18, 2026\n\nTable of contents\n\n# Issue\n\nWe would like to trial the Team plan before committing to an upgrade.\n\n# Applies To\n\n- Customers on our free Developer plan\n\n# Resolution\n\nWe only have a free trial for the "
+        }
+      ]
+    },
+    {
+      "query": "Sentry official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://mcp.sentry.dev/",
+          "title": "Sentry MCP",
+          "snippet": "Sentry MCP\n\n# Sentry MCP Server\n\nConnects AI assistants to Sentry for searching errors, analyzing performance, triaging issues, reading documentation, and managing projects — all via the Model Context Protocol.\n\nAll connections use OAuth. The first connection will trigger an authentication flow to c"
+        },
+        {
+          "url": "https://blog.sentry.io/yes-sentry-has-an-mcp-server-and-its-pretty-good/",
+          "title": "Yes, Sentry has an MCP Server (...and it’s pretty good) | Sentry Blog",
+          "snippet": "Yes, Sentry has an MCP Server (...and it’s pretty good) | Sentry Blog\n\n# Yes, Sentry has an MCP Server (...and it’s pretty good)\n\n \n\n Cody De Arkland - June 10, 2025 · 8 min read\n\nUnless you’ve been living under a rock, “MCP” is probably a term you’ve heard thrown around in the AI space. Each of the"
+        },
+        {
+          "url": "https://docs.sentry.io/product/snapshots/agentic-workflow/",
+          "title": "Agentic Workflow | Sentry Docs",
+          "snippet": "# Agentic Workflow | Sentry Docs\n\nThis feature is currently in Beta. Beta features are still in progress and may have bugs. We recognize the irony.\n\nConnect an AI coding assistant to Sentry's MCP server so it can pull snapshot diffs, images, and baselines on your behalf. This lets you investigate sn"
+        },
+        {
+          "url": "https://github.com/getsentry/toolkit",
+          "title": "getsentry/toolkit: Agentic tooling for Sentry",
+          "snippet": "# getsentry/toolkit\n\nAgentic tooling for Sentry\n\n- Stars: 972\n- Forks: 186\n- Watchers: 972\n- Open issues: 311\n- License: Other\n- Homepage: https://mcp.sentry.dev\n- Default branch: main\n- Created: 2025-03-29T22:23:13Z\n\n## Languages\n\n- Astro\n- CSS\n- HTML\n- JavaScript\n- MDX\n- Makefile\n- Objective-C\n- P"
+        },
+        {
+          "url": "https://github.com/getsentry/toolkit/blob/main/packages/mcp-core/README.md",
+          "title": "packages/mcp-core/README.md",
+          "snippet": "# packages/mcp-core/README.md\n\n- Branch: main\n- Repository: getsentry/toolkit\n\n---\n\n# sentry-mcp\n\nThis is a prototype of an MCP server, acting as a middleware to the upstream Sentry API provider.\n\nThis package holds the MCP tools and server shared by the hosted service and the local `stdio` server, "
+        }
+      ]
+    },
+    {
+      "query": "site:docs.sentry.io MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.sentry.io/product/mcp-servers/",
+          "title": "MCP Servers | Sentry Docs",
+          "snippet": "# MCP Servers | Sentry Docs\n\nSentry's MCP (Model Context Protocol) monitoring tools help you understand what's happening in your MCP implementations. They automatically collect information about MCP server connections, resource access, tool executions, and errors across your entire MCP pipeline—from"
+        },
+        {
+          "url": "https://docs.sentry.io/product/mcp-servers/getting-started/",
+          "title": "Set Up MCP Servers | Sentry Docs",
+          "snippet": "# Set Up MCP Servers | Sentry Docs\n\nSentry MCP Monitoring helps you track and debug Model Context Protocol (MCP) implementations using our supported SDKs and integrations. Monitor your complete MCP workflows from client connections to server responses, including tool executions, resource access, and"
+        },
+        {
+          "url": "https://docs.sentry.io/ai/",
+          "title": "Sentry for AI | Sentry Docs",
+          "snippet": "# Sentry for AI | Sentry Docs\n\n## Tools For Your Agents\n\n### Agent Plugin\n\nInstall the Sentry plugin for your AI coding assistant to set up Sentry, fix production issues, and configure monitoring. Works with Claude Code, Cursor, Codex, and Grok.\n\n### Sentry MCP Server\n\nConnect your AI assistant dire"
+        },
+        {
+          "url": "https://docs.sentry.io/product/dashboards/sentry-dashboards/ai/mcp/",
+          "title": "MCP Dashboards | Sentry Docs",
+          "snippet": "# MCP Dashboards | Sentry Docs\n\nMCP Dashboards, found in Sentry Dashboards, provide a comprehensive view of your MCP server activities, including requests, tool executions, resource access, and prompt usage. Once you've configured the Sentry SDK for your MCP project, telemetry data is collected and "
+        },
+        {
+          "url": "https://docs.sentry.io/ai/agent-setup/get-started/",
+          "title": "Agent Guide: Set Up Sentry | Sentry Docs",
+          "snippet": "# Agent Guide: Set Up Sentry | Sentry Docs\n\nThis page is for AI coding agents. Follow it when a user asks you to set up Sentry in a project that doesn't use Sentry yet. If the project already has a Sentry SDK and the user wants another feature, such as logs or Session Replay, follow Agent Guide: Add"
+        }
+      ]
+    },
+    {
+      "query": "site:sentry.io MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://sentry.io/mcp/",
+          "title": "Sentry",
+          "snippet": "# Sentry\n\nYou've hit the web UI. It's HTML meant for humans, not machines.\nHere's what you actually want:\n\n## MCP Server (recommended)\n\nThe fastest way to give your agent structured access to Sentry.\nOAuth-authenticated, HTTP streaming, no HTML parsing required.\n\n```json\n{\n  \"mcpServers\": {\n    \"sen"
+        },
+        {
+          "url": "https://docs.sentry.io/product/mcp-servers/",
+          "title": "MCP Servers | Sentry Docs",
+          "snippet": "# MCP Servers | Sentry Docs\n\nSentry's MCP (Model Context Protocol) monitoring tools help you understand what's happening in your MCP implementations. They automatically collect information about MCP server connections, resource access, tool executions, and errors across your entire MCP pipeline—from"
+        },
+        {
+          "url": "https://blog.sentry.io/yes-sentry-has-an-mcp-server-and-its-pretty-good/",
+          "title": "Yes, Sentry has an MCP Server (...and it’s pretty good) | Sentry Blog",
+          "snippet": "Yes, Sentry has an MCP Server (...and it’s pretty good) | Sentry Blog\n\n# Yes, Sentry has an MCP Server (...and it’s pretty good)\n\n \n\n Cody De Arkland - June 10, 2025 · 8 min read\n\nUnless you’ve been living under a rock, “MCP” is probably a term you’ve heard thrown around in the AI space. Each of the"
+        },
+        {
+          "url": "https://docs.sentry.io/product/mcp-servers/getting-started/",
+          "title": "Set Up MCP Servers | Sentry Docs",
+          "snippet": "# Set Up MCP Servers | Sentry Docs\n\nSentry MCP Monitoring helps you track and debug Model Context Protocol (MCP) implementations using our supported SDKs and integrations. Monitor your complete MCP workflows from client connections to server responses, including tool executions, resource access, and"
+        },
+        {
+          "url": "https://blog.sentry.io/mcp-or-cli/",
+          "title": "MCP or CLI? Yes. | Sentry Blog",
+          "snippet": "MCP or CLI? Yes. | Sentry Blog\n\n# MCP or CLI? Yes.\n\n \n\n David Cramer - November 10, 2026 · 6 min read\n\nLet’s stop debating it and just lean in: you can have both.\n\n```\ncurl https://cli.sentry.dev/install -fsS | bash\n\nsentry auth login\n\nclaude mcp add sentry -- sentry mcp\n```\n\nSentry is now shipping "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.sentry.io/api",
+      "final_url": "https://docs.sentry.io/api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:47Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c1b30907229f0e19e998a8007455464193bef5be82c29d8d47c33c21538a9f81",
+      "text_len": 1444
+    },
+    {
+      "requested_url": "https://docs.sentry.io/api/auth/",
+      "final_url": "https://docs.sentry.io/api/auth/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fffdeeb99cf89eea9bebae0638698d8feab59ef8725881422df79051ed6ef42e",
+      "text_len": 19834
+    },
+    {
+      "requested_url": "https://docs.sentry.io/get-started/",
+      "final_url": "https://docs.sentry.io/get-started/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:49Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7ea227f025ca949650545b9b07cfabc5f3b93883992afad7c194d3309229e899",
+      "text_len": 4918
+    },
+    {
+      "requested_url": "https://blog.sentry.io/yes-sentry-has-an-mcp-server-and-its-pretty-good/",
+      "final_url": "https://blog.sentry.io/yes-sentry-has-an-mcp-server-and-its-pretty-good/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:50Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3c52b69ba9ed2db5553dca740ff02b1fc159021c6f4464436fa0e2164d268e9d",
+      "text_len": 10617
+    },
+    {
+      "requested_url": "https://docs.sentry.io/product/dashboards/sentry-dashboards/ai/mcp/",
+      "final_url": "https://docs.sentry.io/product/dashboards/sentry-dashboards/ai/mcp/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "544aab895f8d41564333deb5cd2142a2b3a961fe3af29be976c75958d835b1fa",
+      "text_len": 1971
+    },
+    {
+      "requested_url": "https://docs.sentry.io/product/mcp-servers/",
+      "final_url": "https://docs.sentry.io/product/mcp-servers/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5b62db2ab83cced1e395a534a95c5e36c8ae2ccbea7c2bc60449632056b53582",
+      "text_len": 1124
+    },
+    {
+      "requested_url": "https://docs.sentry.io/product/mcp-servers/getting-started/",
+      "final_url": "https://docs.sentry.io/product/mcp-servers/getting-started/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:52Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d711690555116f4cb3a677e23c8f0d691d4744f689bb10be024a4f4fdc4b46de",
+      "text_len": 4435
+    },
+    {
+      "requested_url": "https://docs.sentry.io/api/guides/create-auth-token/",
+      "final_url": "https://docs.sentry.io/api/guides/create-auth-token/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:45Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e91ccbe6c3cc45bad28a688fbb3c8717d74d5e6e812d8def28740cfe4671bc2e",
+      "text_len": 1687
+    },
+    {
+      "requested_url": "https://docs.sentry.io/llms.txt",
+      "final_url": "https://docs.sentry.io/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:54Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "d140c7bc9a71c5ba8b9e7b8926a680504b6f721b1b6c18998a7b1782796ffaff",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.sentry.io/api/auth/",
+        "quote": "Sentry supports OAuth2 with the authorization code grant type.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.sentry.io/api/auth/",
+        "quote": "curl -H 'Authorization: Bearer {TOKEN}' https://sentry.io/api/0/organizations/{organization_slug}/projects/",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.sentry.io/get-started/",
+        "quote": "Sentry offers a free Developer plan and three paid plans (Team, Business, and Enterprise).",
+        "verified": true
+      },
+      {
+        "url": "https://docs.sentry.io/api/guides/create-auth-token/",
+        "quote": "To use Sentry's APIs, you must have an authentication token.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.sentry.io/api/",
+        "quote": "The Sentry web API is used to access the Sentry platform programmatically.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://blog.sentry.io/yes-sentry-has-an-mcp-server-and-its-pretty-good/",
+        "quote": "Sentry has an MCP server.",
+        "verified": true
+      },
+      {
+        "url": "https://blog.sentry.io/yes-sentry-has-an-mcp-server-and-its-pretty-good/",
+        "quote": "\"url\": \"https://mcp.sentry.dev/mcp\"",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.sentry.io/api/auth/",
+        "quote": "You can create authentication tokens within Sentry by creating an internal integration. This is also available for self-hosted Sentry.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://docs.sentry.io/llms.txt",
+        "quote": "Sentry is an application monitoring platform that helps developers and their agents have the context needed to identify and fix bugs",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

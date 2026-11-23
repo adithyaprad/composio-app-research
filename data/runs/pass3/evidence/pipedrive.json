@@ -1,0 +1,345 @@
+{
+  "slug": "pipedrive",
+  "searches": [
+    {
+      "query": "Pipedrive API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\n> 📘\n> \n> All requests to our API need authentication.\n\nIf you're creating an app\n\nContinue to OAuth 2.0 overview. You can find our step-by-step guide to getting OAuth 2.0 implemented in your app in OAuth authorization .\n\nIf you're working with an API token integrati"
+        },
+        {
+          "url": "https://support.pipedrive.com/en/article/how-can-i-find-my-personal-api-key",
+          "title": "How can I find my personal API key?",
+          "snippet": "# Knowledge Base\n\nAll categoriesMarketplace appsBlogKnowledge BaseAcademy\n\nKnowledge Base results: 0\n\nNo results found.\n\nKnowledge Base/ Account settings/ Personal settings/How can I find my per...\n\n## How can I find my personal API key?\n\nJT\n\nJenny Takahara\n\nLast updated: September 3, 2026\n\nIf you e"
+        },
+        {
+          "url": "https://developers.pipedrive.com/docs/api/v1",
+          "title": "",
+          "snippet": "Pipedrive API Reference and Documentation\n\nLeads\n\nMeetings\n\nNote fields\n\nNotes\n\nOAuth 2.0\n\nOrganization fields\n\nOrganization relationships\n\nOrganizations\n\nPermission sets\n\nPerson fields\n\nPersons\n\nPipelines\n\nProduct fields\n\nProject phases\n\nProjects\n\nStages\n\nTasks\n\nUser connections\n\n## API Reference\n\n"
+        },
+        {
+          "url": "https://pipedrive.readme.io/docs/run-pipedrive-api-in-postman-or-insomnia",
+          "title": "Pipedrive API in Postman or Insomnia",
+          "snippet": "Pipedrive API in Postman or Insomnia\n\n# Pipedrive API in Postman or Insomnia\n\nIn this guide, we'll give you a basic overview of how to make your first requests to the Pipedrive API using two API testing tools - Postman and Insomnia.\n\nIf you prefer to use a different tool, you can always import our O"
+        },
+        {
+          "url": "https://developers.pipedrive.com/tutorials/adding-leads-to-pipedrive",
+          "title": "",
+          "snippet": "###### Topics\n\n1. 1 Introduction\n2. 2 Relationship between Leads and Deals\n3. 3 Adding a new Lead\n4. 4 API URL and Payload structure\n5. 5 Code Sample (Node.js)\n\n###### Topics\n\n1. 1 Introduction\n2. 2 Relationship between Leads and Deals\n3. 3 Adding a new Lead\n4. 4 API URL and Payload structure\n5. 5 C"
+        }
+      ]
+    },
+    {
+      "query": "Pipedrive developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developers.pipedrive.com/docs/api/v1",
+          "title": "",
+          "snippet": "Pipedrive API Reference and Documentation\n\nLeads\n\nMeetings\n\nNote fields\n\nNotes\n\nOAuth 2.0\n\nOrganization fields\n\nOrganization relationships\n\nOrganizations\n\nPermission sets\n\nPerson fields\n\nPersons\n\nPipelines\n\nProduct fields\n\nProject phases\n\nProjects\n\nStages\n\nTasks\n\nUser connections\n\n## API Reference\n\n"
+        },
+        {
+          "url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+          "title": "",
+          "snippet": "Pipedrive API v1 Dev References (Oauth) - Learn - Test - Try Now\n\nOAuth 2.0\n\n/oauth/authorize\n\nGetting the tokens\n\nOrganization fields\n\nOrganization relationships\n\nOrganizations\n\nPermission sets\n\nPerson fields\n\nPersons\n\nPipelines\n\nProjects\n\nStages\n\nTasks\n\nUser connections\n\n## OAuth 2.0 \n\nUsing OAuth"
+        },
+        {
+          "url": "https://developers.pipedrive.com/",
+          "title": "Pipedrive Developers Corner | Pipedrive API sandbox",
+          "snippet": "Pipedrive Developers Corner | Pipedrive API sandbox\n\n# Developers' Corner\n\nEasily build integrations with our API and developer platform to reach over 100,000 companies through the Pipedrive Marketplace\n\n- ##### Build apps & integrations\n- ##### Create a test environment\n\nSign up for a Sandbox Accou"
+        },
+        {
+          "url": "https://pipedrive.readme.io/docs/getting-started",
+          "title": "Pipedrive Developer Documentation - Getting started",
+          "snippet": "Getting started\n\n# Getting started\n\n> 📘\n> \n> Check out our changelog for the latest changes regarding our Developer Platform.\n\nWe’re excited about the potential to connect. Pipedrive is a global CRM with headquarters in the USA and operations in the USA and EU, featuring an intuitive RESTful API. Yo"
+        },
+        {
+          "url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication",
+          "title": "Authentication",
+          "snippet": "Authentication\n\n# Authentication\n\n> 📘\n> \n> All requests to our API need authentication.\n\nIf you're creating an app\n\nContinue to OAuth 2.0 overview. You can find our step-by-step guide to getting OAuth 2.0 implemented in your app in OAuth authorization .\n\nIf you're working with an API token integrati"
+        }
+      ]
+    },
+    {
+      "query": "Pipedrive pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.pipedrive.com/en/pricing",
+          "title": "Plans built to help you close more deals, faster",
+          "snippet": "CRM Pricing Plans | Affordable CRM Software Costs | Pipedrive\n\n# Plans built to help you close more deals, faster\n\nFree 14-day trial. No commitment – you can make changes anytime.\n\nBilled monthly Billed monthly or annually. Currently selected is Billed annually Billed annually(Save up to 42%)\n\nLite\n"
+        },
+        {
+          "url": "https://www.pipedrive.com/en/register",
+          "title": "Free trial of Pipedrive - sign up",
+          "snippet": "- A CRM by salespeople, for salespeople\n- Easy to customize and organize\n\nStart with access to Pipedrive CRM plus the premium LeadBooster, Smart Docs and Projects Features (subject to supplemental terms). Your Plan and Feature access can be changed at any time.\n\n100% access. No credit card required\n"
+        },
+        {
+          "url": "https://www.pipedrive.com/en/general-faq",
+          "title": "FAQs",
+          "snippet": "Skip to main content\n\n# FAQs\n\nFind answers to the most common questions about Pipedrive CRM\n\n- 1. How much does Pipedrive cost? You can find the prices for all our plans on the Pipedrive Pricing page.\n- 2. What is Pipedrive? Pipedrive is a CRM – or customer relationship management platform – that he"
+        },
+        {
+          "url": "https://www.pipedrive.com/",
+          "title": "The easy and effective CRM for closing deals",
+          "snippet": "Sales CRM & Pipeline Management Software | Pipedrive\n\n# The easy and effective CRM for closing deals\n\nPipedrive lets you track your sales pipeline, optimize leads, manage deals with AI and automate your entire sales process so you can focus on selling.\n\n- 14-day free trial, no credit card required\n-"
+        },
+        {
+          "url": "https://support.pipedrive.com/en/article/how-does-pricing-work-in-pipedrive",
+          "title": "Knowledge Base",
+          "snippet": "How does pricing work in Pipedrive? - Knowledge Base | Pipedrive\n\n# Knowledge Base\n\n## How does pricing work in Pipedrive?\n\nJT\n\nJenny Takahara\n\nLast updated: September 3, 2026\n\nNote: Only users with account settings access rights can manage Pipedrive billing. Learn more about user management in this"
+        }
+      ]
+    },
+    {
+      "query": "Pipedrive official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.pipedrive.com/en/features/mcp-server",
+          "title": "Connect your AI assistant to Pipedrive with MCP",
+          "snippet": "Pipedrive MCP Server | Connect Claude & ChatGPT to Your CRM | Pipedrive\n\n# Connect your AI assistant to Pipedrive with MCP\n\nEmpower AI assistants like ChatGPT and Claude to securely and reliably work with your Pipedrive data. Find deals, update records, get insights, move opportunities through your "
+        },
+        {
+          "url": "https://support.pipedrive.com/en/article/mcp-chatgpt",
+          "title": "Knowledge Base",
+          "snippet": "Pipedrive MCP for ChatGPT - Knowledge Base | Pipedrive\n\n# Knowledge Base\n\n## Pipedrive MCP for ChatGPT\n\nYS\n\nLast updated: November 4, 2026\n\nNote: ChatGPT can only access data and perform actions that your Pipedrive user account is authorized to access. Permissions are inherited from your existing Pi"
+        },
+        {
+          "url": "https://support.pipedrive.com/en/article/mcp-claude",
+          "title": "Pipedrive MCP for Claude",
+          "snippet": "# Knowledge Base\n\nAll categoriesMarketplace appsBlogKnowledge BaseAcademy\n\nKnowledge Base results: 0\n\nNo results found.\n\nKnowledge Base/ Pipedrive MCP/ Pipedrive MCP for Claude/Pipedrive MCP for Claude\n\n###### Topics\n\n## Pipedrive MCP for Claude\n\nYS\n\nYssel Salas\n\nLast updated: November 4, 2026\n\nNote"
+        },
+        {
+          "url": "https://www.pipedrive.com/en/newsroom/pipedrive-launches-native-mcp-server-bringing-crm-workflows-directly-into-ai-assistants",
+          "title": "Pipedrive launches native MCP server, bringing CRM workflows directly into AI assistants",
+          "snippet": "Pipedrive launches native MCP server, bringing CRM workflows directly into AI assistants | Pipedrive\n\n# Pipedrive launches native MCP server, bringing CRM workflows directly into AI assistants\n\nNew York, June 30, 2026 – Pipedrive, the easy and intelligent CRM for small and medium-sized businesses, t"
+        },
+        {
+          "url": "https://support.pipedrive.com/en/article/mcp-tools",
+          "title": "Knowledge Base",
+          "snippet": "Pipedrive MCP tools - Knowledge Base | Pipedrive\n\n# Knowledge Base\n\n## Pipedrive MCP tools\n\nYS\n\nLast updated: November 4, 2026\n\nIn MCP, tools are the actions that an AI assistant can perform in Pipedrive. Each tool is designed for a specific task, such as creating a deal, retrieving a contact's deta"
+        }
+      ]
+    },
+    {
+      "query": "site:pipedrive.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://support.pipedrive.com/en/article/mcp",
+          "title": "Knowledge Base",
+          "snippet": "Native Model Context Protocol (MCP) from Pipedrive - Knowledge Base | Pipedrive\n\n# Knowledge Base\n\n## Native Model Context Protocol (MCP) from Pipedrive\n\nLast updated: November 4, 2026\n\nA model context protocol, or MCP, is an open standard that allows large language models (LLMs) and AI assistants t"
+        },
+        {
+          "url": "https://www.pipedrive.com/en/features/mcp-server",
+          "title": "Connect your AI assistant to Pipedrive with MCP",
+          "snippet": "Pipedrive MCP Server | Connect Claude & ChatGPT to Your CRM | Pipedrive\n\n# Connect your AI assistant to Pipedrive with MCP\n\nEmpower AI assistants like ChatGPT and Claude to securely and reliably work with your Pipedrive data. Find deals, update records, get insights, move opportunities through your "
+        },
+        {
+          "url": "https://www.pipedrive.com/en/newsroom/pipedrive-launches-native-mcp-server-bringing-crm-workflows-directly-into-ai-assistants",
+          "title": "Pipedrive launches native MCP server, bringing CRM workflows directly into AI assistants",
+          "snippet": "Pipedrive launches native MCP server, bringing CRM workflows directly into AI assistants | Pipedrive\n\n# Pipedrive launches native MCP server, bringing CRM workflows directly into AI assistants\n\nNew York, June 30, 2026 – Pipedrive, the easy and intelligent CRM for small and medium-sized businesses, t"
+        },
+        {
+          "url": "https://support.pipedrive.com/en/article/mcp-tools",
+          "title": "Knowledge Base",
+          "snippet": "Pipedrive MCP tools - Knowledge Base | Pipedrive\n\n# Knowledge Base\n\n## Pipedrive MCP tools\n\nYS\n\nLast updated: November 4, 2026\n\nIn MCP, tools are the actions that an AI assistant can perform in Pipedrive. Each tool is designed for a specific task, such as creating a deal, retrieving a contact's deta"
+        },
+        {
+          "url": "https://www.pipedrive.com/en/features/mcp-skills",
+          "title": "Pipedrive Skills for your AI assistant",
+          "snippet": "Pipedrive Skills for Claude & ChatGPT | MCP Skills | Pipedrive\n\n# Pipedrive Skills for your AI assistant\n\nSkills are ready-made instructions that teach Claude, ChatGPT and other AI tools to handle specific sales tasks with your live Pipedrive data. Ask in plain language or run a slash command – and "
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://pipedrive.com",
+      "final_url": "https://www.pipedrive.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f2b990a897e53f81f44c341a2f1707d74c0cad58752e087a1d3cb3a54cc76746",
+      "text_len": 13049
+    },
+    {
+      "requested_url": "https://developers.pipedrive.com/docs/api/v1",
+      "final_url": "https://developers.pipedrive.com/docs/api/v1",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ad20bf22776f27d89994c89418edca9c88db1361e51510ba7c576486d7f1de34",
+      "text_len": 1651
+    },
+    {
+      "requested_url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+      "final_url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:29Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "adfabb320e75f4b3ffe3112c20ef75f94d9000c52f6667a84782a8be7232efde",
+      "text_len": 5380
+    },
+    {
+      "requested_url": "https://www.pipedrive.com/en/pricing",
+      "final_url": "https://www.pipedrive.com/en/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:30Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b18e042d068723f5817b37b2627f0590e1c07a863f158e879d96169e979d2f8d",
+      "text_len": 7729
+    },
+    {
+      "requested_url": "https://support.pipedrive.com/en/article/mcp-chatgpt",
+      "final_url": "https://support.pipedrive.com/en/article/mcp-chatgpt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b3cc588db6ea4ce4c01f69ed6dc8c6f5545e13c00da2fa300cf0b81507875a0b",
+      "text_len": 1775
+    },
+    {
+      "requested_url": "https://support.pipedrive.com/en/article/mcp",
+      "final_url": "https://support.pipedrive.com/en/article/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:34Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9b39396b318656fd2d253d0ce3ab257431815790330d53d8a394f4b38e113d28",
+      "text_len": 3946
+    },
+    {
+      "requested_url": "https://support.pipedrive.com/en/article/mcp-claude",
+      "final_url": "https://support.pipedrive.com/en/article/mcp-claude",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2b02c2b78a289a1b7b6890d2f40373f3c86b535ad58b44374ef9c8e24c78f01b",
+      "text_len": 2913
+    },
+    {
+      "requested_url": "https://support.pipedrive.com/en/article/mcp-tools",
+      "final_url": "https://support.pipedrive.com/en/article/mcp-tools",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:31Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "8830d2c70d9c45bba1e07aaf084fe4c3250ea3e84b87f5a20e795c196b74de63",
+      "text_len": 5614
+    },
+    {
+      "requested_url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication",
+      "final_url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:33:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d7314e9235f01a0763563c56f07875d18741cfb86a0329920fc32772c4673508",
+      "text_len": 920
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication",
+        "quote": "The API token must be provided in the `x-api-token` header for all requests",
+        "verified": true
+      },
+      {
+        "url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+        "quote": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.pipedrive.com/en/pricing",
+        "quote": "Free 14-day trial. No credit card required.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.pipedrive.com/docs/api/v1",
+        "quote": "The API token can be obtained manually from the Pipedrive app.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.pipedrive.com/docs/api/v1",
+        "quote": "This reference helps you implement the RESTful Pipedrive API.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://support.pipedrive.com/en/article/mcp",
+        "quote": "Pipedrive’s native MCP makes it easier for AI assistants to securely and reliably connect with Pipedrive",
+        "verified": true
+      },
+      {
+        "url": "https://support.pipedrive.com/en/article/mcp-tools",
+        "quote": "In MCP, tools are the actions that an AI assistant can perform in Pipedrive.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication",
+        "quote": "All requests to our API need authentication.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.pipedrive.com/",
+        "quote": "Pipedrive lets you track your sales pipeline, optimize leads, manage deals with AI and automate your entire sales process",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": false,
+    "flags": []
+  }
+}

@@ -15,7 +15,9 @@ This is a take-home style research pipeline, not a production product.
   - `app_row.schema.json` — machine-readable row shape
   - `README.md` — field and enum definitions
   - `RUBRIC.md` — scoring rules and gold-sample procedure
-  - `gold_sample.md` — 20 apps reserved for a human accuracy check (answers not filled yet)
+  - `gold_sample.md` / `gold_sample.jsonl` — 20 apps reserved for the headline accuracy check (hand-labelled, audited, and locked)
+  - `HOLDOUT.md` / `holdout_sample.jsonl` — 10 sealed apps, labelled once, used only as a generalisation check
+  - `GOLD_AUDIT.md` — what changed in the gold audit and the rubric clarifications
 - `agent/` — research agent CLI (`python -m agent run`): `llm/` provider adapters, `tools/` search/fetch providers, `research.py` loop, `validate.py` schema + consistency + evidence checks, `prompts.py`; pass-2 reviewer (`python -m agent review`): `review.py` loop, `review_rules.py` rule checklist; pass-3 browser check (`python -m agent browse`): `browse_flags.py` selector, `browse.py` loop
 - `tests/` — offline unit tests (LLM and tools mocked)
 - `data/runs/<run_id>/` — agent outputs
@@ -23,7 +25,101 @@ This is a take-home style research pipeline, not a production product.
 
 ## Status
 
-Phase 1 is done: input list, schema, rubric, and a Composio catalog coverage snapshot. The research agent (v1, `agent/`) now exists. The verification loop, pattern write-up, and case-study page come next.
+Main is at `a4abbd7`: schema, research agent, pass-1 run on all 100 apps, audited gold labels, sealed holdout labels, and the pass-2 reviewer plus its run. This branch adds pass 3, a Browser Use check of the 45 unsure rows (133 pages in local Chromium and 23 pages on Browser Use Cloud across 17 sessions; 31 confirmed, 14 changed, 55 unflagged copied through). Gold row accuracy moved 9/20 (45%) -> 16/20 (80%) -> 15/20 (75%) (one preview-verdict regression in pass 3), and the sealed holdout stayed 3/10 across all three passes. Patterns, the human-check items, and the case-study page come next.
+
+## How the system works
+
+The system is a pipeline of loops, not a single run. A research agent fills all 100 rows, a rule checker reviews them, a selector picks the unsure ones, and a browser pass opens those pages like a person would. Humans write and lock the answer keys. Scoring compares each pass to those keys.
+
+```mermaid
+flowchart TD
+  list["100 apps + hints"] --> pass1["Pass 1: research agent"]
+  pass1 --> pass2["Pass 2: rule checker"]
+  pass2 --> sel["Selector of unsure rows"]
+  sel --> pass3["Pass 3: Browser Use"]
+  pass3 --> score["Score gold 20 and holdout 10"]
+  pass1 --> hgold["Human: gold labelling"]
+  hgold --> haudit["Human: gold audit"]
+  haudit --> score
+  pass1 --> hhold["Human: sealed holdout"]
+  hhold --> score
+  score --> pat["Patterns"]
+  pat --> page["Case study page"]
+```
+
+### Pass 1 · research agent
+
+Searches official docs, fills one schema row per app, and quotes the sentence behind each claim. This is the untouched baseline. It already includes validators, a gap-fill fetch of leftover official MCP or API-auth pages, and thin-page fallbacks.
+
+What it fixes, relative to a naive search-and-summarise loop: evidence URLs have to be pages the run actually fetched, quoted snippets have to appear in the page text, and consistency rules catch mistakes such as listing `sdk_only` next to a raw HTTP API.
+
+How to run it:
+
+```bash
+.venv/bin/python -m agent run --run-id pass1 --concurrency 3 --max-pages 8
+```
+
+Reuse `--run-id` to resume. Output lives in `data/runs/pass1/`. See [Run](#run) for the full options.
+
+### Pass 2 · rule checker
+
+Rechecks every pass-1 row against a fixed list of general rules (for example: HTTP Basic used only to send a key is not its own login method; a preview or waitlist is not `buildable_now`). Code fires a rule only when the row's notes or a vendor-page quote clearly show the pattern. One LLM reviewer call per row can name more of the same rules, but it never edits the row. Only the fields behind a fired rule are re-researched. Every other field stays byte-identical.
+
+What it fixes: the general habits that showed up in pass 1, without a full redo of all 100 apps. The first live pass changed 31 of 100 rows and left 69 unchanged. Gold row accuracy moved from 9/20 to 16/20. The four remaining gold misses were already wrong in pass 1 and no rule fired on them.
+
+How to run it:
+
+```bash
+.venv/bin/python -m agent review --from-run pass1 --run-id pass2 --concurrency 3
+```
+
+See [Review (pass 2)](#review-pass-2) for flags and output.
+
+### Selector of unsure rows
+
+After pass 2, a code selector flags rows that still look shaky: confidence is not high, evidence is thin or unsupported, or a deciding fact (access, MCP live vs coming soon, auth) sits on a page that did not load properly. Only those rows go to the browser. The reason ids are `confidence_not_high`, `unsupported_or_invalid` (the pass-2 log or evidence checks show unsupported evidence or validation errors), `thin_or_blocked_page` (a page cited for access, auth, MCP or verdict came back thin, blocked or failed), and `unresolved_deciding_fact` (notes or quotes mention book-a-demo / talk-to-sales, a coming-soon or beta MCP or API, or an unreadable JS-only page). Every reason that applies is recorded in `flags.jsonl`.
+
+### Pass 3 · Browser Use
+
+The open-source Browser Use library opens and renders each page (pricing, signup, auth and MCP) in a real Chromium browser (local first; Browser Use Cloud browsers only for blocked, captcha, or empty pages) and saves a screenshot. Our Bedrock model then reads the rendered page and decides, confirming or fixing only the in-scope fields with quotes — it does not click or navigate inside the page. This is for facts that a plain HTTP fetch often misses: JavaScript docs, pricing tables, signup walls, and "coming soon" banners.
+
+Browser Use (open source) + Browser Use Cloud browsers for blocked pages. Each flagged row opens up to 4 pages (pages flagged as thin or blocked first, then pricing/signup, auth docs and MCP pages it already cites, plus `start_url`, `docs_url` and `mcp_url`; login walls are skipped). The open-source Browser Use library opens and renders each page in a local headless Chromium browser first (no clicking or navigating inside the page). Only a page that comes back empty, shows a captcha, or is blocked is retried on a Browser Use Cloud browser. That needs `BROWSER_USE_API_KEY` in the environment. Without it the fallback is skipped and logged as `cloud_skipped_no_key`. A row starts at most one cloud session, and only on its first fallback. Each page is logged with `browser: local | cloud`, the fallback reason, text length and screenshot path. The Bedrock model (or configured `LLM_PROVIDER`) reads the rendered page and decides, not the Browser Use cloud model. It gets one call per row (plus one retry) and may confirm or correct only the in-scope fields, with quotes that must be found in the rendered text. If the rendered pages cannot support a value, the pass-2 values are kept with a note. Composio's Browser Use toolkit was not used: a read-only probe found no active connection for it in this project, the same "No active connection" problem as the other Instant toolkits.
+
+See [Browse (pass 3)](#browse-pass-3) for the commands, flag reasons and output.
+
+### Human checks
+
+A person is the referee, not someone who re-reads all 100 rows.
+
+- **Gold labelling.** 20 apps, two per category, were labelled by hand from official docs without looking at the agent rows.
+- **Gold audit.** Every gold field was rechecked against official docs. Three labels were corrected, the rubric was clarified, and the set was locked. The score is only as good as this key, so it has to be 100% correct.
+- **Sealed holdout.** 10 fresh apps, none from the pilot or the gold 20, were labelled and locked before the pass-2 rules were written. That set is scored once per frozen pass, and no further rule is written to chase the number.
+
+### Scoring
+
+`scripts/score_gold.py` compares a run to a locked answer file. The headline is **row accuracy**: a row counts only if every critical field is right (auth, access, API, MCP, verdict, blocker) and the evidence supports them. Per-field percentages are also reported, because a strict row score can hide that most fields were already right.
+
+```bash
+.venv/bin/python scripts/score_gold.py --run-dir data/runs/pass1 --gold schema/gold_sample.jsonl
+.venv/bin/python scripts/score_gold.py --run-dir data/runs/pass2 --gold schema/gold_sample.jsonl
+.venv/bin/python scripts/score_gold.py --run-dir data/runs/pass3 --gold schema/gold_sample.jsonl
+.venv/bin/python scripts/score_gold.py --run-dir data/runs/pass2 --gold schema/holdout_sample.jsonl --out-dir data/scores/holdout
+```
+
+Current locked scores (`data/scores/`):
+
+| Set | Pass 1 | Pass 2 | Pass 3 |
+|---|---|---|---|
+| Gold 20 (headline) | 9/20 (45%) | 16/20 (80%) | 15/20 (75%) |
+| Sealed holdout 10 | 3/10 (30%) | 3/10 (30%) | 3/10 (30%) |
+
+The 80% gold score is measured on the set that informed some of the checker rules (the audit, not the original writing of the labels). The sealed 10 is the cleaner generalisation test, and it did not move in pass 2.
+
+### Honest limits
+
+The checker only catches patterns it was written for, which is why a rule such as `official_graphql_omitted` can exist and still never fire. A browser pass helps when the deciding fact renders on one of the target URLs, even behind JavaScript or a block page. Because it is page-reading only (no clicking or navigating agent), it cannot follow links, open tabs, or expand accordions to reach a fact on a page it did not directly open. It also will not fix every judgement call, such as which login method is the main one, or a product whose official MCP page never uses the word MCP in the URL or title. Composio Instant is still in the code, but it returns `400 No active connection found`, so search and fetch use the direct Exa API with free tools as fallback. `EXA_BUDGET_USD=0` disables Exa rather than lifting the cap; use a high positive number to leave it uncapped in practice.
+
+Patterns, the deployed case-study page, and a final README polish still come after pass 3 is scored.
 
 ## How we improved accuracy
 
@@ -134,7 +230,7 @@ Failed apps are not written to `rows.jsonl`, so re-running the same `--run-id` r
 .venv/bin/python -m agent browse --from-run pass2 --run-id pass3 --concurrency 1
 ```
 
-Browser Use (open source) + Browser Use Cloud browsers for blocked pages. A code selector (`agent/browse_flags.py`) flags pass-2 rows that are still unsure, with reason ids `confidence_not_high`, `unsupported_or_invalid` (the pass-2 log or evidence checks show unsupported evidence or validation errors), `thin_or_blocked_page` (a page cited for access, auth, MCP or verdict came back thin, blocked or failed), and `unresolved_deciding_fact` (notes or quotes mention book-a-demo / talk-to-sales, a coming-soon or beta MCP or API, or an unreadable JS-only page). Each flagged row opens up to 4 pages (pages flagged as thin or blocked first, then the pricing/signup, auth and MCP pages it cites, plus `start_url`, `docs_url` and `mcp_url`; login walls are skipped). Every page is opened first in a local headless Chromium driven by the open-source Browser Use library. Only a page that comes back empty, shows a captcha, or is blocked is retried on a Browser Use Cloud browser. That needs `BROWSER_USE_API_KEY` in the environment. Without it the fallback is skipped and logged as `cloud_skipped_no_key`. A row starts at most one cloud session, and only on its first fallback. The judge is the run's own LLM provider (Bedrock by default), not the Browser Use cloud model. It gets one call per row (plus one retry) and may confirm or correct only the in-scope fields (access, auth, MCP, verdict/blocker, confidence and their evidence), with quotes that must be found in the rendered text. If the rendered pages cannot support a value, the pass-2 values are kept with a note. Composio's Browser Use toolkit was not used: a read-only probe found no active connection for it in this project, the same "No active connection" problem as the other Instant toolkits. Unflagged rows are copied to `rows.jsonl` unchanged (`flagged: false` in `flags.jsonl` and `browse.jsonl`; the row itself has no extra keys). `browse.jsonl` has one line per row: flag reasons, pages opened (url, `browser: local | cloud`, why the fallback happened, text length, title, screenshot path), fields confirmed vs changed (before/after), cloud sessions, LLM usage and wall time, and status (`copied` / `confirmed` / `changed` / `kept` / `failed`). Screenshots are saved to `screenshots/<slug>/` in the run folder, and the evidence notes and snippets point at them. `--concurrency` defaults to 1 because browsers are heavy.
+Browser Use (open source) + Browser Use Cloud browsers for blocked pages. A code selector (`agent/browse_flags.py`) flags pass-2 rows that are still unsure, with reason ids `confidence_not_high`, `unsupported_or_invalid` (the pass-2 log or evidence checks show unsupported evidence or validation errors), `thin_or_blocked_page` (a page cited for access, auth, MCP or verdict came back thin, blocked or failed), and `unresolved_deciding_fact` (notes or quotes mention book-a-demo / talk-to-sales, a coming-soon or beta MCP or API, or an unreadable JS-only page). Each flagged row opens up to 4 pages (pages flagged as thin or blocked first, then the pricing/signup, auth and MCP pages it cites, plus `start_url`, `docs_url` and `mcp_url`; login walls are skipped). The open-source Browser Use library opens and renders each page in a local headless Chromium browser first (no clicking or navigating inside the page). Only a page that comes back empty, shows a captcha, or is blocked is retried on a Browser Use Cloud browser. That needs `BROWSER_USE_API_KEY` in the environment. Without it the fallback is skipped and logged as `cloud_skipped_no_key`. A row starts at most one cloud session, and only on its first fallback. The Bedrock model (or configured `LLM_PROVIDER`) reads the rendered page and decides, not the Browser Use cloud model. It gets one call per row (plus one retry) and may confirm or correct only the in-scope fields (access, auth, MCP, verdict/blocker, confidence and their evidence), with quotes that must be found in the rendered text. If the rendered pages cannot support a value, the pass-2 values are kept with a note. Composio's Browser Use toolkit was not used: a read-only probe found no active connection for it in this project, the same "No active connection" problem as the other Instant toolkits. Unflagged rows are copied to `rows.jsonl` unchanged (`flagged: false` in `flags.jsonl` and `browse.jsonl`; the row itself has no extra keys). `browse.jsonl` has one line per row: flag reasons, pages opened (url, `browser: local | cloud`, why the fallback happened, text length, title, screenshot path), fields confirmed vs changed (before/after), cloud sessions, LLM usage and wall time, and status (`copied` / `confirmed` / `changed` / `kept` / `failed`). Screenshots are saved to `screenshots/<slug>/` in the run folder, and the evidence notes and snippets point at them. `--concurrency` defaults to 1 because browsers are heavy.
 
 ### Search and fetch providers
 

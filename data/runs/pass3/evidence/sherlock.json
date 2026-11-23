@@ -1,0 +1,416 @@
+{
+  "slug": "sherlock",
+  "searches": [
+    {
+      "query": "Sherlock API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.cloudferro.com/en/latest/sherlock/Sherlock-authentication-API-keys-on-CloudFerro-Cloud.html",
+          "title": "Authenticate to Sherlock AI with API keys on CloudFerro Cloud ",
+          "snippet": "Home > > Authenticate to Sherlock AI with API keys on CloudFerro Cloud\n\n# Authenticate to Sherlock AI with API keys on CloudFerro Cloud \n\nSherlock AI uses API keys to authenticate programmatic requests to AI models. You create API keys inside a Sherlock AI project in the control panel and then use "
+        },
+        {
+          "url": "https://app.sherlock.sh/reference",
+          "title": "Sherlock API Reference",
+          "snippet": "Sherlock API Reference\n\n# Sherlock Interview API\n\nPublic API for managing interviews and accessing interview information.\n\n Sherlock 2.0. Reports now carry Sherlock 2.0's verdict in a `sherlock_2` block, beside the fields you already read. On October 15, 2026 Sherlock 2.0 becomes the default: `repor"
+        },
+        {
+          "url": "https://docs.sherlocklabs.dev/explore/mcp",
+          "title": "Ask an AI assistant",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.sherlocklabs.dev/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n> ## Agent Instructions\n> \n> Sherlock documentation. In Node.js examples prefer the Sherlock SDK for Node.js (@sh"
+        },
+        {
+          "url": "https://support.sherlock.im/knowledge_base/item/292200",
+          "title": "Авторизация для работы с API",
+          "snippet": "Авторизация для работы с API\n\n# Авторизация для работы с API\n\n Последние изменения: 10.07.2024 \n\nДля выполнения любых операция с API необходимо получить токен доступа. Токен доступа можно получить по логину/паролю или по ключу доступа\n\nДля получения токена по логину и паролю необходимо выполнить POS"
+        },
+        {
+          "url": "http://sherlock.gnoss.com/v1/en/help",
+          "title": "Sherlock API",
+          "snippet": "Sherlock API\n\n## Introduction\n\n This API allows the semantic annotation of texts and web URLs. The first step is annotate a text or url and then ask for information from the annotated entities. \n\n Any API call must have the identifier of the application in the request headers \n\nSample:\n\n```\nAuthoriz"
+        }
+      ]
+    },
+    {
+      "query": "Sherlock developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.cloudferro.com/en/latest/sherlock/Package-installation-and-examples-of-Sherlock-AI-code-on-CloudFerro-Cloud.html",
+          "title": "Get started with the Sherlock API on CloudFerro Cloud ",
+          "snippet": "Home > > Get started with the Sherlock API on CloudFerro Cloud\n\n# Get started with the Sherlock API on CloudFerro Cloud \n\nAn application needs an API key, a model identifier, and an endpoint before it can request an answer. Sherlock provides an OpenAI-compatible API for language, vision, and embedd"
+        },
+        {
+          "url": "https://app.sherlock.sh/reference",
+          "title": "Sherlock API Reference",
+          "snippet": "Sherlock API Reference\n\n# Sherlock Interview API\n\nPublic API for managing interviews and accessing interview information.\n\n Sherlock 2.0. Reports now carry Sherlock 2.0's verdict in a `sherlock_2` block, beside the fields you already read. On October 15, 2026 Sherlock 2.0 becomes the default: `repor"
+        },
+        {
+          "url": "https://docs.cloudferro.com/en/latest/sherlock/Sherlock-authentication-API-keys-on-CloudFerro-Cloud/Sherlock-authentication-API-keys-on-CloudFerro-Cloud.html",
+          "title": "Authenticate to Sherlock AI with API keys on CloudFerro Cloud",
+          "snippet": "This page has moved. Continue to the guide."
+        },
+        {
+          "url": "https://www.postman.com/sherlock-endpoints/sherlock-api-public/overview",
+          "title": "Sherlock-API-Public | Postman API Network",
+          "snippet": "Sherlock-API-Public | Postman API Network\n\n# Sherlock-API-Public\n\nMalinda Peiris\n\n11:49 PM, April 08, 2026\n\nThis workspace contains resources that you can demo and share with customers and partners.\n\n## 👋 Introduction\n\nWelcome to the API demos workspace. This workspace contains Postman collections t"
+        },
+        {
+          "url": "https://docs.sherlocklabs.dev/explore/mcp",
+          "title": "Ask an AI assistant",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.sherlocklabs.dev/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n> ## Agent Instructions\n> \n> Sherlock documentation. In Node.js examples prefer the Sherlock SDK for Node.js (@sh"
+        }
+      ]
+    },
+    {
+      "query": "Sherlock pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.sherlock.sh/pricing",
+          "title": "Frequently Asked Questions",
+          "snippet": "2026 Study: 5 ways to stop AI fraud in interviews without harming candidate experience\n\nRead More\n\nPricing\n\nPay only for what you use\n\nStart with $20 in free credits. Add more when you need them. Credits never expire.\n\nPay as you go\n\nAdd credits, use them when you need them\n\nPay only for what you us"
+        },
+        {
+          "url": "https://getpulsesignal.com/pricing/sherlock",
+          "title": "Sherlock Pricing 2026: Plans, Cost | PulseSignal",
+          "snippet": "Sherlock Pricing 2026: Plans, Cost | PulseSignal\n\n# Sherlock pricing (2026)\n\nSherlock starts at $129 per month. Read from saasworthy.com on November 23, 2026.\n\nRead from the vendor's public page; plans structured by AI and checked against the page text. How we read pages\n\nStarts at\n\n$129/month\n\nPlan"
+        },
+        {
+          "url": "https://www.spotsaas.com/product/sherlock",
+          "title": "Sherlock Review: Is It The Right Product Analytics Software For Your Team?",
+          "snippet": "UnclaimedThis listing hasn't been verified by the vendor.\nOwn this product? Claim your profile to manage it.Claim this profile →\n\n# Sherlock Review: Is It The Right Product Analytics Software For Your Team?\n\nBest for SMB teams · Mid-market\n\nFree Trial Available\n\n4.25\n\n12 verified reviews\n\nSave\n\nAdd "
+        },
+        {
+          "url": "https://help.sherlock.sh/en/articles/14727366-how-much-does-sherlock-cost",
+          "title": "How much does Sherlock cost? | Sherlock AI Guides",
+          "snippet": "How much does Sherlock cost? | Sherlock AI Guides\n\n# How much does Sherlock cost?\n\nWritten by Gemma from Sherlock\n\nAugust 13, 2026\n\nSherlock starts at $100/mo for 10 interviews a month."
+        },
+        {
+          "url": "https://www.capterra.com/p/10054963/Sherlock-AI/pricing/",
+          "title": "Sherlock AI Pricing 2026 | Capterra",
+          "snippet": "Sherlock AI Pricing 2026 | Capterra\n\nIndependent research methodology\n\nCapterra’s researchers use a mix of verified reviews, independent research and objective methodologies to bring you selection and ranking information you can trust. While we may earn a referral fee when you visit a provider throu"
+        }
+      ]
+    },
+    {
+      "query": "Sherlock official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.sherlocklabs.dev/explore/mcp",
+          "title": "Ask an AI assistant",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.sherlocklabs.dev/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n> ## Agent Instructions\n> \n> Sherlock documentation. In Node.js examples prefer the Sherlock SDK for Node.js (@sh"
+        },
+        {
+          "url": "https://docs.sherlocklabs.dev/get-started/getting-started",
+          "title": "Get started with Sherlock",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.sherlocklabs.dev/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n> ## Agent Instructions\n> \n> Sherlock documentation. In Node.js examples prefer the Sherlock SDK for Node.js (@sh"
+        },
+        {
+          "url": "https://docs.sherlocklabs.dev/get-started/ai-agents",
+          "title": "Use these docs with AI agents",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.sherlocklabs.dev/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n> ## Agent Instructions\n> \n> Sherlock documentation. In Node.js examples prefer the Sherlock SDK for Node.js (@sh"
+        },
+        {
+          "url": "https://github.com/H4RR1SON/sherlock-mcp",
+          "title": "H4RR1SON/sherlock-mcp",
+          "snippet": "# H4RR1SON/sherlock-mcp\n\nOfficial MCP server for Covertlabs infostealer intelligence platform\n\n- Stars: 0\n- Forks: 0\n- Watchers: 0\n- Open issues: 0\n- License: MIT License\n- Default branch: main\n- Created: 2025-12-23T11:50:25Z\n\n## Languages\n\n- Dockerfile\n- Python\n\n## Top Contributors\n\n- H4RR1SON (1 c"
+        },
+        {
+          "url": "https://github.com/Burnsedia/sherlock-mcp",
+          "title": "Sherlock MCP Server: Find truth and counter propaganda through ethical ...",
+          "snippet": "# Burnsedia/sherlock-mcp\n\nSherlock MCP Server: Find truth and counter propaganda through ethical OSINT. FastMCP integration for social media username searches across 400+ platforms using Model Context Protocol. Empowering investigators, journalists, and AI assistants with transparent, verifiable too"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://github.com/sherlock-project/sherlock",
+      "final_url": "https://github.com/sherlock-project/sherlock",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:24Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "3e05dceafd0a63e2b568c62ac9ac6f39c38b825a541b1f28afa77cadc0472dfa",
+      "text_len": 4683
+    },
+    {
+      "requested_url": "https://docs.sherlocklabs.dev/explore/mcp",
+      "final_url": "https://docs.sherlocklabs.dev/explore/mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:21Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "0e5633262c2764e5247c2626c3a0dcd82f43ad34cf8db0c67c0de42de1b80142",
+      "text_len": 4937
+    },
+    {
+      "requested_url": "https://www.sherlock.sh/pricing",
+      "final_url": "https://www.sherlock.sh/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:23Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "16474a91f521eed8e0783669d01f5c82d1a2adf4c982d53dba0dee9a3fd9956e",
+      "text_len": 2033
+    },
+    {
+      "requested_url": "https://github.com/Burnsedia/sherlock-mcp",
+      "final_url": "https://github.com/Burnsedia/sherlock-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e405ec70b2c7fbb1c53295c379dce45c5da866449701a27326fe6c49b38e109a",
+      "text_len": 6082
+    },
+    {
+      "requested_url": "https://github.com/H4RR1SON/sherlock-mcp",
+      "final_url": "https://github.com/H4RR1SON/sherlock-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7679a9e4821d39d4cd9b3e3070c690d46572ed4d937b05c912f6a7b2ec5885f9",
+      "text_len": 4264
+    },
+    {
+      "requested_url": "https://app.sherlock.sh/reference",
+      "final_url": "https://app.sherlock.sh/reference",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:21Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "afc91d425d25d9404985ede2a3ab4114671f9cf0e9e6264b045854b8ff74b1fd",
+      "text_len": 5619
+    },
+    {
+      "requested_url": "https://docs.sherlocklabs.dev/get-started/ai-agents",
+      "final_url": "https://docs.sherlocklabs.dev/get-started/ai-agents",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f193396596c670fa29ac8e559b8c970c295290b94a11f6020b84319cb53d7100",
+      "text_len": 4659
+    },
+    {
+      "requested_url": "https://docs.sherlocklabs.dev/get-started/getting-started",
+      "final_url": "https://docs.sherlocklabs.dev/get-started/getting-started",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:41:24Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f7ce4ab2fb1bea0ea996bdb0d2d88f28fdf8e2794b0619a2c00cedeb03faa1e4",
+      "text_len": 4911
+    },
+    {
+      "requested_url": "https://github.com/sherlock-project/sherlock",
+      "final_url": "https://github.com/sherlock-project/sherlock",
+      "status": 200,
+      "provider": "browser_local",
+      "fetched_at": "2026-11-23T15:24:02Z",
+      "error": null,
+      "method": "browser_local",
+      "text_source_url": null,
+      "sha256": "7dc19a6827583ef1434a0d3b25f2753d61ad9a440e5697b4f9a58b352c7cf855",
+      "text_len": 4971
+    },
+    {
+      "requested_url": "https://github.com/Burnsedia/sherlock-mcp",
+      "final_url": "https://github.com/Burnsedia/sherlock-mcp",
+      "status": 200,
+      "provider": "browser_cloud",
+      "fetched_at": "2026-11-23T15:24:39Z",
+      "error": null,
+      "method": "browser_cloud",
+      "text_source_url": null,
+      "sha256": "d50989f91d7c52163938d87ae4641f5e13b034489261d7c41cd55b3c7ff00a82",
+      "text_len": 6951
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "pipx install sherlock-project",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/sherlock/01-eb8e266816.jpg"
+      },
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "Make requests over a proxy. e.g. socks5://127.0.0.1:1080",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/sherlock/01-eb8e266816.jpg"
+      }
+    ],
+    "access": [
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "MIT © Sherlock Project",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/sherlock/01-eb8e266816.jpg"
+      },
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "docker run -it --rm sherlock/sherlock",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/sherlock/01-eb8e266816.jpg"
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "Accounts found will be stored in an individual text file with the corresponding username",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://github.com/Burnsedia/sherlock-mcp",
+        "quote": "FastMCP server integration for the Sherlock OSINT tool",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/sherlock/02-0fad000af5.jpg"
+      },
+      {
+        "url": "https://github.com/Burnsedia/sherlock-mcp",
+        "quote": "Tool: search_username",
+        "verified": true,
+        "browser": "cloud",
+        "screenshot": "screenshots/sherlock/02-0fad000af5.jpg"
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "Hunt down social media accounts by username across 400+ social networks",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/sherlock/01-eb8e266816.jpg"
+      },
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "Create Comma-Separated Values (CSV) File.",
+        "verified": true,
+        "browser": "local",
+        "screenshot": "screenshots/sherlock/01-eb8e266816.jpg"
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "quote": "Hunt down social media accounts by username across 400+ social networks",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  },
+  "review": {
+    "rules_fired": [],
+    "findings": [],
+    "fields_in_scope": [],
+    "claims": [],
+    "review_searches": [],
+    "review_pages": []
+  },
+  "browse": {
+    "flagged": true,
+    "flags": [
+      {
+        "reason": "confidence_not_high",
+        "detail": "confidence is medium",
+        "claims": [
+          "access",
+          "auth",
+          "mcp",
+          "verdict"
+        ],
+        "urls": []
+      }
+    ],
+    "fields_in_scope": [
+      "auth_methods",
+      "primary_auth",
+      "access",
+      "verdict",
+      "blocker",
+      "mcp_status",
+      "mcp_url",
+      "confidence"
+    ],
+    "claims": [
+      "access",
+      "auth",
+      "mcp",
+      "verdict"
+    ],
+    "pages": [
+      {
+        "url": "https://github.com/sherlock-project/sherlock",
+        "browser": "local",
+        "why_cloud": null,
+        "local_problem": null,
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://github.com/sherlock-project/sherlock",
+        "title": "GitHub - sherlock-project/sherlock: Hunt down social media accounts by username across social networks · GitHub",
+        "text_len": 4971,
+        "http_status": 200,
+        "screenshot": "screenshots/sherlock/01-eb8e266816.jpg",
+        "usable": true,
+        "wall_s": 5.46
+      },
+      {
+        "url": "https://github.com/Burnsedia/sherlock-mcp",
+        "browser": "cloud",
+        "why_cloud": "empty",
+        "local_problem": "empty",
+        "local_error": null,
+        "cloud_skipped": null,
+        "cloud_problem": null,
+        "cloud_error": null,
+        "final_url": "https://github.com/Burnsedia/sherlock-mcp",
+        "title": "GitHub - Burnsedia/sherlock-mcp: Sherlock MCP Server: Find truth and counter propaganda through ethical OSINT. FastMCP integration for social media username searches across 400+ platforms using Model ",
+        "text_len": 6951,
+        "http_status": 200,
+        "screenshot": "screenshots/sherlock/02-0fad000af5.jpg",
+        "usable": true,
+        "wall_s": 36.6
+      }
+    ],
+    "cloud_sessions": 1
+  }
+}
