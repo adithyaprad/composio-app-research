@@ -1,0 +1,275 @@
+{
+  "slug": "hubspot",
+  "searches": [
+    {
+      "query": "HubSpot API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "title": "Authentication overview - HubSpot docs",
+          "snippet": "Jun 9, 2026 · Learn how to manage authentication for your apps and when developing locally. While building apps on the developer platform, you can configure authentication based on how you plan to install your app. HubSpot also provides local authentication tooling via the HubSpot CLI."
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+          "title": "HubSpot APIs | Authentication methods on HubSpot",
+          "snippet": "Mar 30, 2026 · There are two ways to authenticate calls to HubSpot’s APIs: OAuth, and private app access tokens. Below, learn more about each method and how to include it in your code for authorization."
+        },
+        {
+          "url": "https://academy.hubspot.com/lessons/fundamentals-authenticating-integrations",
+          "title": "The Fundamentals of Authenticating Integrations - HubSpot",
+          "snippet": "In this lesson, you’ll learn the different authentication methods available to securely access your HubSpot account for use in integrations and third-party apps."
+        },
+        {
+          "url": "https://insightsalesglobal.com/blog/hubspot-api-authentication",
+          "title": "HubSpot API Authentication and App Setup",
+          "snippet": "The foundations of HubSpot API authentication: private app, OAuth, account service keys, the new developer platform, scopes, tokens, rate limits, versioning, and security."
+        },
+        {
+          "url": "https://knowledge.hubspot.com/integrations/data-sync-authentication",
+          "title": "Authenticate your apps for HubSpot data sync",
+          "snippet": "Sep 10, 2026 · Learn how to authenticate and set up integrations between HubSpot and various applications like Acumatica, Airtable, and more for seamless data syncing."
+        }
+      ]
+    },
+    {
+      "query": "HubSpot developer API access pricing",
+      "provider": "ddgs",
+      "results": []
+    },
+    {
+      "query": "HubSpot API documentation reference",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://developers.hubspot.com/docs",
+          "title": "HubSpot Developer Documentation - HubSpot docs",
+          "snippet": "Welcome to the HubSpot Developer Documentation. Build custom CRM and data-driven website experiences on HubSpot. Follow the steps below to get started, or jump directly into a quickstart that fits your build. Easily migrate data in and out of HubSpot using modern APIs and data tools."
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+          "title": "2026-09 API reference - HubSpot docs",
+          "snippet": "Nov 16, 2026 · Reference documentation for HubSpot’s 2026-09 APIs The 2026-09 APIs use a date-based versioning scheme (e.g., /crm/2026-09/) that follows the previous 2026-03 API version."
+        },
+        {
+          "url": "https://www.postman.com/hubspot/hubspot-public-api-workspace/overview",
+          "title": "HubSpot Public API Workspace | Postman API Network",
+          "snippet": "Nov 12, 2026 · If you have any questions or feedback regarding the API documentation or API functionality, you can find guidance on how to seek help with HubSpot here or reference our API documentation."
+        },
+        {
+          "url": "https://www.docuwriter.ai/posts/hubspot-api-docs",
+          "title": "HubSpot API Docs: A Developer's Reference Guide (2026)",
+          "snippet": "May 1, 2026 · Your complete developer reference for the HubSpot API docs. Master authentication, endpoints, rate limits, and integration patterns with expert guidance."
+        },
+        {
+          "url": "https://github.hubspot.com/documentation-example/api/full_reference/",
+          "title": "documentation-example - GitHub",
+          "snippet": "API Full Reference Here are our APIs. Model Model is a model. Use Model like this. ... Here the default options for Model."
+        }
+      ]
+    },
+    {
+      "query": "HubSpot MCP server",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://developers.hubspot.com/ai-tools/mcp",
+          "title": "HubSpot MCP Server",
+          "snippet": "HubSpot offers two distinct MCP (Model Context Protocol) servers — one for connecting any MCP-compatible AI tool or agent to your CRM, and one for building on the HubSpot Developer Platform."
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server",
+          "title": "Using the HubSpot MCP server",
+          "snippet": "Sep 18, 2026 · The remote HubSpot MCP server is a publicly hosted endpoint for connecting external AI tools and applications to HubSpot’s CRM. It enables an agent to read, write, and update HubSpot records (contacts, companies, deals, tickets, and more) as a user would."
+        },
+        {
+          "url": "https://github.com/baryhuang/mcp-hubspot",
+          "title": "HubSpot MCP Server - GitHub",
+          "snippet": "A Model Context Protocol (MCP) server that enables AI assistants to interact with HubSpot CRM data. This server bridges AI models with your HubSpot account, providing direct access to contacts, companies, and engagement data."
+        },
+        {
+          "url": "https://www.npmjs.com/package/hubspot-mcp-server",
+          "title": "hubspot-mcp-server - npm",
+          "snippet": "A HubSpot Model Context Protocol server for giving AI agents structured, on-demand access to HubSpot CRM and operating data. This package is built on top of the original open-source work at lkm1developer/hubspot-mcp-server."
+        },
+        {
+          "url": "https://www.npmjs.com/package/@hubspot/mcp-server",
+          "title": "@hubspot/mcp-server - npm",
+          "snippet": "HubSpot's MCP server is now available as a beta release. This enables AI clients to seamlessly take HubSpot actions and interact with your HubSpot data, opening up powerful new integration possibilities for our ecosystem."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://hubspot.com",
+      "final_url": "https://www.hubspot.com/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:37Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "a0f8cedbc696ac61713bce8fdb4994fe187eb54061fb8e3b016fef18773fb144",
+      "text_len": 4055
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "final_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:37Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "90d0a12cf729eecd2cd4f33479cddfa9efa5e0ec0106795b1d4e344740643b95",
+      "text_len": 4486
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+      "final_url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:37Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://developers.hubspot.com/docs/api-reference/latest/overview.md",
+      "sha256": "f2a0076ac5395dd0d834ec56bb4fd4ef2c5f15bbd9be80d547ab149d34f703a6",
+      "text_len": 1709
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server",
+      "final_url": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:37Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "b6910f2bf2fd0d413418e0daea11a779e04438e2038712dcdcbf880271ebe833",
+      "text_len": 1889
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/ai-tools/mcp",
+      "final_url": "https://developers.hubspot.com/ai-tools/mcp",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:38Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "089d0e5c4795e2a5af8ccb0b450c7578cd1cb8c23c5b3db86eeaa5ea236b8c70",
+      "text_len": 7287
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+      "final_url": "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:38Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth.md",
+      "sha256": "d7934aeb998e467d7fb7f7474c24af58d721999a01ba27c5d050c897c39ce55d",
+      "text_len": 3829
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/docs",
+      "final_url": "https://developers.hubspot.com/docs",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:38Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "85e38da6854726487abcd11f95009336c2526d64a3ec88aab808d9b370c459ea",
+      "text_len": 1368
+    },
+    {
+      "requested_url": "https://github.hubspot.com/documentation-example/api/full_reference/",
+      "final_url": "https://github.hubspot.com/documentation-example/api/full_reference/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:39Z",
+      "error": null,
+      "method": "visible_text",
+      "text_source_url": null,
+      "sha256": "53023fd0b9bb3eacaaf2c74721eef5f80bdee6465a3facce99e79052c549d123",
+      "text_len": 946
+    },
+    {
+      "requested_url": "https://developers.hubspot.com/llms.txt",
+      "final_url": "https://developers.hubspot.com/llms.txt",
+      "status": 404,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:39Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "1ffe7c03e74f2a6b1f52f67ecbf664f3f03057a26bf206f4cec0d95cecc582f0",
+      "text_len": 244
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+        "quote": "OAuth is required for multiple accounts, while static auth access tokens are used for installing in a single account at a time.",
+        "verified": true
+      },
+      {
+        "url": "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+        "quote": "There are two ways to authenticate calls to HubSpot's APIs",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developers.hubspot.com/docs",
+        "quote": "Install the HubSpot CLI globally",
+        "verified": true
+      },
+      {
+        "url": "https://developers.hubspot.com/docs",
+        "quote": "Authorize your HubSpot account",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+        "quote": "All APIs, whether legacy, new, or beta, use the same root path as before: `https://api.hubapi.com/`.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developers.hubspot.com/docs/build-with-ai/remote-mcp-server",
+        "quote": "The remote HubSpot MCP server is a publicly hosted endpoint for connecting external AI tools and applications to HubSpot’s CRM.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+        "quote": "Integrations designed for multi-customer use or listing on the HubSpot Marketplace must be built as an app using HubSpot’s OAuth protocol",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.hubspot.com/",
+        "quote": "HubSpot aligns marketing, sales, and service around your customer data, so your teams and AI always know what customers need.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

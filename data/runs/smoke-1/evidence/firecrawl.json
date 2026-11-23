@@ -1,0 +1,230 @@
+{
+  "slug": "firecrawl",
+  "searches": [
+    {
+      "query": "Firecrawl API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+          "title": "Introduction - Firecrawl Docs"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/api-reference/introduction",
+          "title": "Introduction - Firecrawl Docs"
+        },
+        {
+          "url": "https://www.firecrawl.dev/",
+          "title": "Firecrawl | Knowledge Infrastructure for AI Agents"
+        },
+        {
+          "url": "https://www.firecrawl.dev/signin",
+          "title": "Firecrawl | Web Data API for AI Agents"
+        },
+        {
+          "url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+          "title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki"
+        }
+      ]
+    },
+    {
+      "query": "Firecrawl developer API access pricing",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://www.firecrawl.dev/pricing",
+          "title": "Pricing | Firecrawl"
+        },
+        {
+          "url": "https://www.firecrawl.dev/pricing.md",
+          "title": "www.firecrawl.dev"
+        },
+        {
+          "url": "https://apis.io/plans/firecrawl/firecrawl-plans-pricing/",
+          "title": "Firecrawl Pricing & API Plans | APIs.io"
+        },
+        {
+          "url": "https://promptsrush.com/blog/firecrawl-pricing",
+          "title": "Firecrawl Pricing (2026): Limits, Credits, Plans & API"
+        },
+        {
+          "url": "https://droidcrunch.com/firecrawl-pricing/",
+          "title": "Firecrawl Pricing 2026: API Cost & Usage Credits"
+        }
+      ]
+    },
+    {
+      "query": "Firecrawl API documentation reference",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.firecrawl.dev/api-reference/introduction",
+          "title": "Introduction - Firecrawl Docs"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+          "title": "Introduction - Firecrawl Docs"
+        },
+        {
+          "url": "https://www.firecrawl.dev/",
+          "title": "Firecrawl | Web Data API for AI Agents"
+        },
+        {
+          "url": "https://github.com/firecrawl/firecrawl-docs",
+          "title": "GitHub - firecrawl/firecrawl-docs: Documentation for Firecrawl."
+        },
+        {
+          "url": "https://deepwiki.com/firecrawl/firecrawl-docs/13-api-reference",
+          "title": "API Reference | firecrawl/firecrawl-docs | DeepWiki"
+        }
+      ]
+    },
+    {
+      "query": "Firecrawl MCP server",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://docs.firecrawl.dev/mcp-server",
+          "title": "Firecrawl MCP: Get Started"
+        },
+        {
+          "url": "https://docs.firecrawl.dev/mcp-server/local",
+          "title": "Run Firecrawl MCP locally - Firecrawl Docs"
+        },
+        {
+          "url": "https://www.firecrawl.dev/",
+          "title": "Firecrawl | Knowledge Infrastructure for AI Agents"
+        },
+        {
+          "url": "https://github.com/mz0in/mcp-server-firecrawl",
+          "title": "FireCrawl MCP Server - GitHub"
+        },
+        {
+          "url": "https://github.com/danieldunderfelt/documentation-mcp-server",
+          "title": "GitHub - danieldunderfelt/documentation-mcp-server: MCP ..."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://firecrawl.dev",
+      "final_url": "https://www.firecrawl.dev/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:16Z",
+      "error": null,
+      "sha256": "5f57909c749a8acf30d555bb611cc03d667f504ee0487c668bbef5883f9e8c78",
+      "text_len": 3136
+    },
+    {
+      "requested_url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+      "final_url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:16Z",
+      "error": null,
+      "sha256": "c1b74da83349d0e60fb59eb1373d58b0a29c3458da4ae575b562eaefa095bb9c",
+      "text_len": 1900
+    },
+    {
+      "requested_url": "https://www.firecrawl.dev/pricing",
+      "final_url": "https://www.firecrawl.dev/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:17Z",
+      "error": null,
+      "sha256": "eef36d8144f941943cd0d9b3bced5efc31be6c174512d66601f0484c5ccb4e72",
+      "text_len": 14280
+    },
+    {
+      "requested_url": "https://docs.firecrawl.dev/api-reference/introduction",
+      "final_url": "https://docs.firecrawl.dev/api-reference/introduction",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:17Z",
+      "error": null,
+      "sha256": "864265362c547abff403deedad4fd586eaad022b50de1d507276d8df1aa187d8",
+      "text_len": 1335
+    },
+    {
+      "requested_url": "https://docs.firecrawl.dev/mcp-server",
+      "final_url": "https://docs.firecrawl.dev/mcp-server",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:17Z",
+      "error": null,
+      "sha256": "218cb5f1f2d92767e3f6b6402ef420dc21559937a862b8102497b3351333bffd",
+      "text_len": 1069
+    },
+    {
+      "requested_url": "https://docs.firecrawl.dev/mcp-server/local",
+      "final_url": "https://docs.firecrawl.dev/mcp-server/local",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:17Z",
+      "error": null,
+      "sha256": "38a8f377ee095341a8fcffa3bba380cb8d71600d1502624754c472d433a8cb03",
+      "text_len": 1698
+    },
+    {
+      "requested_url": "https://www.firecrawl.dev/pricing.md",
+      "final_url": "https://www.firecrawl.dev/pricing.md",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:18Z",
+      "error": null,
+      "sha256": "e1af9e2b0b5ac4ed1969a29306bfb1d9fa8b57ea7981f713850e5c0a0287a0e8",
+      "text_len": 15015
+    },
+    {
+      "requested_url": "https://deepwiki.com/firecrawl/firecrawl-docs/13-api-reference",
+      "final_url": "https://deepwiki.com/firecrawl/firecrawl-docs/13-api-reference",
+      "status": 429,
+      "provider": "http",
+      "fetched_at": "2026-11-23T10:55:19Z",
+      "error": null,
+      "sha256": "1dd0952f31c007866295b62931009c3604eec2dea03577b2f3070b9f32112da7",
+      "text_len": 91
+    }
+  ],
+  "snippets": {},
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [
+      "no verified snippet for auth",
+      "no verified snippet for access",
+      "no verified snippet for api_surface",
+      "no verified snippet for mcp",
+      "no verified snippet for verdict"
+    ],
+    "retried": true,
+    "validation_errors": [
+      "schema: access: None is not of type 'string'",
+      "schema: access: None is not one of ['self_serve', 'self_serve_paid', 'gated_partner', 'gated_sales', 'no_public_api']",
+      "schema: api_breadth: None is not of type 'string'",
+      "schema: api_breadth: None is not one of ['narrow', 'moderate', 'broad', 'unknown']",
+      "schema: api_types: None is not of type 'array'",
+      "schema: auth_methods: None is not of type 'array'",
+      "schema: blocker: None is not of type 'string'",
+      "schema: blocker: None is not one of ['none', 'no_public_api', 'gated_access', 'auth_undocumented', 'docs_insufficient', 'api_too_narrow', 'terms_restrict_automation', 'preview_or_unstable', 'other']",
+      "schema: confidence: None is not of type 'string'",
+      "schema: confidence: None is not one of ['high', 'medium', 'low']",
+      "schema: docs_url: None is not of type 'string'",
+      "schema: evidence: None is not of type 'object'",
+      "schema: has_public_docs: None is not of type 'boolean'",
+      "schema: mcp_status: None is not of type 'string'",
+      "schema: mcp_status: None is not one of ['official', 'community', 'none']",
+      "schema: mcp_url: None is not of type 'string'",
+      "schema: one_liner: None is not of type 'string'",
+      "schema: primary_auth: None is not of type 'string'",
+      "schema: primary_auth: None is not one of ['oauth2', 'api_key', 'basic', 'jwt_service_account', 'custom_other', 'none']",
+      "schema: requires_end_user_admin: None is not of type 'boolean'",
+      "schema: verdict: None is not of type 'string'",
+      "schema: verdict: None is not one of ['buildable_now', 'buildable_with_approval', 'not_buildable']",
+      "rule 1: primary_auth must be one of auth_methods"
+    ]
+  }
+}

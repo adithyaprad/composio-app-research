@@ -1,0 +1,289 @@
+{
+  "slug": "firecrawl",
+  "searches": [
+    {
+      "query": "Firecrawl API authentication",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+          "title": "Introduction - Firecrawl Docs",
+          "snippet": "The Firecrawl API gives you programmatic access to web data. All endpoints share a common base URL, authentication scheme, and response format described on this page."
+        },
+        {
+          "url": "https://docs.firecrawl.dev/api-reference/introduction",
+          "title": "Introduction - Firecrawl Docs",
+          "snippet": "To let users connect their own Firecrawl account to your app instead, use OAuth for apps. Authentication compares every option. Firecrawl employs conventional HTTP status codes to signify the outcome of your requests."
+        },
+        {
+          "url": "https://www.firecrawl.dev/",
+          "title": "Firecrawl | Knowledge Infrastructure for AI Agents",
+          "snippet": "Agent onboarding. Are you an AI agent? Fetch this skill to connect Firecrawl and Alexandria through a connector, MCP or the CLI."
+        },
+        {
+          "url": "https://www.firecrawl.dev/signin",
+          "title": "Firecrawl | Web Data API for AI Agents",
+          "snippet": "Are you an AI agent? Connect Firecrawl here."
+        },
+        {
+          "url": "https://deepwiki.com/firecrawl/firecrawl/3.3-authentication-and-authorization",
+          "title": "Authentication and Authorization | firecrawl/firecrawl | DeepWiki",
+          "snippet": "Aug 10, 2026 · This page documents the authentication and authorization system in Firecrawl, including API key validation, the AuthCreditUsageChunk (ACUC) structure, caching strategies, rate limiting integration, and permission management."
+        }
+      ]
+    },
+    {
+      "query": "Firecrawl developer API access pricing",
+      "provider": "ddgs:bing",
+      "results": [
+        {
+          "url": "https://www.firecrawl.dev/pricing",
+          "title": "Pricing | Firecrawl",
+          "snippet": "Usage-based pricing for Firecrawl. Search, scrape, crawl and interact with the web at scale, with a free tier, pay-as-you-go credits and enterprise plans."
+        },
+        {
+          "url": "https://www.firecrawl.dev/pricing.md",
+          "title": "www.firecrawl.dev",
+          "snippet": "Firecrawl gives you 1,000 free credits every month, which covers about 1,000 pages, and no card is required. When you need more, choose Hobby, Standard, Growth, or Scale."
+        },
+        {
+          "url": "https://apis.io/plans/firecrawl/firecrawl-plans-pricing/",
+          "title": "Firecrawl Pricing & API Plans | APIs.io",
+          "snippet": "Oct 28, 2026 · Firecrawl pricing and API plans on APIs.io: 6 plans, including Free, Hobby, Standard. See limits, inclusions and sources."
+        },
+        {
+          "url": "https://promptsrush.com/blog/firecrawl-pricing",
+          "title": "Firecrawl Pricing (2026): Limits, Credits, Plans & API",
+          "snippet": "Sep 1, 2026 · Firecrawl pricing explained: all plans and credits, what each API call costs, the modifiers that 5x your bill, full rate-limit table, and when to upgrade from Hobby."
+        },
+        {
+          "url": "https://droidcrunch.com/firecrawl-pricing/",
+          "title": "Firecrawl Pricing 2026: API Cost & Usage Credits",
+          "snippet": "Sep 29, 2026 · Firecrawl pricing for 2026: 1,000 free credits a month, then $19 to $749. What each API call costs in credits, plus top-ups, rate limits and the catches."
+        }
+      ]
+    },
+    {
+      "query": "Firecrawl API documentation reference",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.firecrawl.dev/api-reference/introduction",
+          "title": "Introduction - Firecrawl Docs",
+          "snippet": "Firecrawl employs conventional HTTP status codes to signify the outcome of your requests. Typically, 2xx HTTP status codes denote success, 4xx codes represent failures related to the user, and 5xx codes signal infrastructure problems."
+        },
+        {
+          "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+          "title": "Introduction - Firecrawl Docs",
+          "snippet": "The Firecrawl API gives you programmatic access to web data. All endpoints share a common base URL, authentication scheme, and response format described on this page."
+        },
+        {
+          "url": "https://www.firecrawl.dev/",
+          "title": "Firecrawl | Web Data API for AI Agents",
+          "snippet": "Firecrawl is not just a scraper or a search API — it's the infrastructure layer that helps AI systems find, read, and act on information across the live web. Search, scrape, and interact work together on top of deep web data infrastructure including crawling, rendering, extraction, and indexing."
+        },
+        {
+          "url": "https://github.com/firecrawl/firecrawl-docs",
+          "title": "GitHub - firecrawl/firecrawl-docs: Documentation for Firecrawl.",
+          "snippet": "Firecrawl is the web data API for AI agents. Search, scrape, parse, and interact with the live web — turn any source into clean Markdown or structured data your agents can ship with."
+        },
+        {
+          "url": "https://deepwiki.com/firecrawl/firecrawl-docs/13-api-reference",
+          "title": "API Reference | firecrawl/firecrawl-docs | DeepWiki",
+          "snippet": "Apr 9, 2026 · The Firecrawl API provides a comprehensive suite of RESTful endpoints designed to transform the web into LLM-ready data. This reference covers the current V2 specification, as well as legacy V1 and V0 endpoints for backward compatibility."
+        }
+      ]
+    },
+    {
+      "query": "Firecrawl MCP server",
+      "provider": "ddgs:yahoo",
+      "results": [
+        {
+          "url": "https://docs.firecrawl.dev/mcp-server",
+          "title": "Firecrawl MCP: Get Started",
+          "snippet": "Set up Firecrawl MCP with keyless access, account sign-in, or an API key. Choose how the connection will authenticate. Signing in and adding an API key are two paths to the same access: both reach the full tool surface on your team’s plan."
+        },
+        {
+          "url": "https://docs.firecrawl.dev/mcp-server/local",
+          "title": "Run Firecrawl MCP locally - Firecrawl Docs",
+          "snippet": "Start and configure the open-source Firecrawl MCP server over stdio or Streamable HTTP."
+        },
+        {
+          "url": "https://www.firecrawl.dev/",
+          "title": "Firecrawl | Knowledge Infrastructure for AI Agents",
+          "snippet": "Firecrawl has an official MCP server so agents in Cursor, Claude, Windsurf, and other MCP-compatible tools can search, scrape, and interact with the web directly."
+        },
+        {
+          "url": "https://github.com/mz0in/mcp-server-firecrawl",
+          "title": "FireCrawl MCP Server - GitHub",
+          "snippet": "FireCrawl MCP Server A Model Context Protocol (MCP) server implementation that integrates with FireCrawl for advanced web scraping capabilities."
+        },
+        {
+          "url": "https://github.com/danieldunderfelt/documentation-mcp-server",
+          "title": "GitHub - danieldunderfelt/documentation-mcp-server: MCP ...",
+          "snippet": "A Model Context Protocol (MCP) server implementation that integrates with Firecrawl for web scraping capabilities. Big thanks to @vrknetha, @cawstudios for the initial implementation!"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://firecrawl.dev",
+      "final_url": "https://www.firecrawl.dev/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:27Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "5f57909c749a8acf30d555bb611cc03d667f504ee0487c668bbef5883f9e8c78",
+      "text_len": 3136
+    },
+    {
+      "requested_url": "https://docs.firecrawl.dev/api-reference/introduction",
+      "final_url": "https://docs.firecrawl.dev/api-reference/introduction",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:27Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://docs.firecrawl.dev/api-reference/introduction.md",
+      "sha256": "ea055aeb224da79bfed58f02f37ff55070e5d2683c19b8bdbb8062b081e43c7a",
+      "text_len": 4481
+    },
+    {
+      "requested_url": "https://www.firecrawl.dev/pricing",
+      "final_url": "https://www.firecrawl.dev/pricing",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:29Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "eef36d8144f941943cd0d9b3bced5efc31be6c174512d66601f0484c5ccb4e72",
+      "text_len": 14280
+    },
+    {
+      "requested_url": "https://docs.firecrawl.dev/mcp-server",
+      "final_url": "https://docs.firecrawl.dev/mcp-server",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:29Z",
+      "error": null,
+      "method": "md_twin",
+      "text_source_url": "https://docs.firecrawl.dev/mcp-server.md",
+      "sha256": "6e3561648582a14dbb0771672e8ea6e4d1a49a5173d1f99713e6eee5eb86ae87",
+      "text_len": 3002
+    },
+    {
+      "requested_url": "https://docs.firecrawl.dev/mcp-server/local",
+      "final_url": "https://docs.firecrawl.dev/mcp-server/local",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:29Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "38a8f377ee095341a8fcffa3bba380cb8d71600d1502624754c472d433a8cb03",
+      "text_len": 1698
+    },
+    {
+      "requested_url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+      "final_url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:29Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "c1b74da83349d0e60fb59eb1373d58b0a29c3458da4ae575b562eaefa095bb9c",
+      "text_len": 1900
+    },
+    {
+      "requested_url": "https://www.firecrawl.dev/pricing.md",
+      "final_url": "https://www.firecrawl.dev/pricing.md",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:30Z",
+      "error": null,
+      "method": "raw",
+      "text_source_url": null,
+      "sha256": "e1af9e2b0b5ac4ed1969a29306bfb1d9fa8b57ea7981f713850e5c0a0287a0e8",
+      "text_len": 15015
+    },
+    {
+      "requested_url": "https://www.firecrawl.dev/",
+      "final_url": "https://www.firecrawl.dev/",
+      "status": 200,
+      "provider": "http",
+      "fetched_at": "2026-11-23T11:03:32Z",
+      "error": null,
+      "method": "trafilatura",
+      "text_source_url": null,
+      "sha256": "5f57909c749a8acf30d555bb611cc03d667f504ee0487c668bbef5883f9e8c78",
+      "text_len": 3136
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.firecrawl.dev/api-reference/introduction",
+        "quote": "The header should contain `Bearer fc-123456789`, where `fc-123456789` represents your API Key.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/api-reference/introduction",
+        "quote": "To let users connect their own Firecrawl account to your app instead, use",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://www.firecrawl.dev/pricing",
+        "quote": "A lightweight way to get started. No cost, no card, no hassle.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+        "quote": "Search the web and get full page content in any format.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.firecrawl.dev/api-reference/introduction",
+        "quote": "All requests contain the following base URL:",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.firecrawl.dev/mcp-server",
+        "quote": "Set up Firecrawl MCP with keyless access, account sign-in, or an API key.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.firecrawl.dev/api-reference/introduction",
+        "quote": "Extract content from any webpage in markdown or json format.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://www.firecrawl.dev/",
+        "quote": "Firecrawl helps AI systems search,",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": true,
+    "validation_errors": []
+  }
+}
