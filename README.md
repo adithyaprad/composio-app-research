@@ -25,6 +25,20 @@ This is a take-home style research pipeline, not a production product.
 
 Phase 1 is done: input list, schema, rubric, and a Composio catalog coverage snapshot. The research agent (v1, `agent/`) now exists. The verification loop, pattern write-up, and case-study page come next.
 
+## How we improved accuracy
+
+The headline score will be pass-1 vs final accuracy on the 20 gold apps in `schema/gold_sample.md`. Those 20 are left untouched until the final check, so we do not tune rules to the score we will report.
+
+To find general failure modes first, we ran a 10-app pilot: one app per category, none of them in the gold 20. The rows are in `data/runs/pilot-10/` (with a hand review). The misses clustered into a few patterns, not one-off product bugs:
+
+- auth fields that contradicted the row's own notes (for example OAuth that only exists for an MCP server)
+- `sdk_only` listed alongside a raw HTTP API type
+- a paid signup treated as `self_serve_paid` even when the vendor also requires a manual review or a mandatory app-store listing
+- a blank `start_url` causing search to land on a different product with a similar name
+- an official MCP page on a sibling docs host being missed
+
+We then added general validators and prompt/rubric rules for those patterns (see `agent/validate.py`, `agent/prompts.py`, and `schema/RUBRIC.md`) and reran the **same** 10 apps as a regression check (`data/runs/pilot-10b/`). Row-correct accuracy on that holdout went from 3/10 to 8/10. The gold 20 were not used in that loop.
+
 ## Refresh Composio coverage
 
 Needs a `COMPOSIO_API_KEY` (already in `.env.example`). From the repo root:

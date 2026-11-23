@@ -41,9 +41,10 @@ FIELDS AND ENUMS
   third-party / multi-tenant app, need manual vendor review: app review, a
   developer-profile approval, a partner or solution-provider program, or a
   mandatory app-store listing. A paid seller/developer account does NOT make it
-  self_serve_paid if that review is also required. E.g. a marketplace seller API
-  whose public-developer registration needs a vendor profile review plus an
-  appstore listing is gated_partner + buildable_with_approval + gated_access) |
+  self_serve_paid if that review is also required. E.g. Apple App Store Connect
+  or Google Play Console: a paid developer account can be bought online, but an
+  app still needs the vendor's review before it ships, so the label is
+  gated_partner + buildable_with_approval + gated_access, not self_serve_paid) |
   gated_sales (contact sales, enterprise contract, waitlist, manual approval) |
   no_public_api. A customer workspace admin approving an install is NOT a vendor
   gate; set requires_end_user_admin=true instead. When a pricing/plans/signup page
