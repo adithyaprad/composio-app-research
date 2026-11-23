@@ -1,0 +1,391 @@
+{
+  "slug": "snowflake",
+  "searches": [
+    {
+      "query": "Snowflake API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+          "title": "Authenticating Snowflake REST APIs with Snowflake",
+          "snippet": "Authenticating Snowflake REST APIs with Snowflake | Snowflake Documentation\n\n# Authenticating Snowflake REST APIs with Snowflake¶\n\nThis topic describes how to authenticate to the server when using the Snowflake REST APIs.\n\nWhen you send a request, the request must include authentication information "
+        },
+        {
+          "url": "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating",
+          "title": "Authenticating to the server | Snowflake Documentation",
+          "snippet": "Authenticating to the server | Snowflake Documentation\n\n# Authenticating to the server¶\n\nThis topic describes how to authenticate to the server when using the Snowflake SQL API.\n\nWhen you send a request, the request must include authentication information. The next sections explain how to add this i"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/user-guide/programmatic-access-tokens",
+          "title": "Using programmatic access tokens for authentication | Snowflake Documentation",
+          "snippet": "Using programmatic access tokens for authentication | Snowflake Documentation\n\n# Using programmatic access tokens for authentication¶\n\nYou can use a programmatic access token to authenticate to the following Snowflake endpoints:\n\n- Snowflake REST APIs.\n- The Snowflake SQL API.\n- The Snowflake Catalo"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/getting-started",
+          "title": "Getting started with the Snowflake REST APIs | Snowflake Documentation",
+          "snippet": "Getting started with the Snowflake REST APIs | Snowflake Documentation\n\n# Getting started with the Snowflake REST APIs¶\n\nThis section describes how to access the Snowflake REST APIs using Postman.\n\n## Create a Postman account and import Snowflake REST APIs collections¶\n\nNote\n\nThese steps are only sh"
+        },
+        {
+          "url": "https://www.snowflake.com/en/developers/guides/a-postman-tutorial-for-snowflake-sql-api/",
+          "title": "A Postman Tutorial for the Snowflake SQL API",
+          "snippet": "A Postman Tutorial for the Snowflake SQL API\n\n## A Postman Tutorial for the Snowflake SQL API\n\n## Overview\n\nThe Snowflake SQL API is a REST API that you can use to access and update data in a Snowflake database. You can use this API to execute standard queries and statements.\n\nThis getting started g"
+        }
+      ]
+    },
+    {
+      "query": "Snowflake developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.snowflake.com/en/developer-guide/sql-api",
+          "title": "Snowflake SQL API | Snowflake Documentation",
+          "snippet": "Snowflake SQL API | Snowflake Documentation\n\n# Snowflake SQL API¶\n\nThe Snowflake SQL API is a REST API that you can use to access and update data in a Snowflake database. You can use this API to develop custom applications and integrations that:\n\n- Perform queries\n- Manage your deployment (e.g. prov"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating",
+          "title": "Authenticating to the server | Snowflake Documentation",
+          "snippet": "Authenticating to the server | Snowflake Documentation\n\n# Authenticating to the server¶\n\nThis topic describes how to authenticate to the server when using the Snowflake SQL API.\n\nWhen you send a request, the request must include authentication information. The next sections explain how to add this i"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/developer-guide/sql-api/reference",
+          "title": "Snowflake SQL API reference | Snowflake Documentation",
+          "snippet": "Snowflake SQL API reference | Snowflake Documentation\n\n# Snowflake SQL API reference¶\n\nThis topic documents the operations, requests, and responses for the SQL API.\n\n## Operations¶\n\n### `POST /api/v2/statements`¶\n\nTo submit one or more SQL statements for execution, send a POST request to `/api/v2/st"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/snowflake-rest-api",
+          "title": "Snowflake REST APIs | Snowflake Documentation",
+          "snippet": "Snowflake REST APIs | Snowflake Documentation\n\n# Snowflake REST APIs¶\n\nFeature — Generally Available\n\nThe Snowflake REST APIs are supported in government regions, but some resources are currently not available in government regions.\n\nSnowflake REST APIs for resource management provide a set of endpo"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+          "title": "Authenticating Snowflake REST APIs with Snowflake",
+          "snippet": "Authenticating Snowflake REST APIs with Snowflake | Snowflake Documentation\n\n# Authenticating Snowflake REST APIs with Snowflake¶\n\nThis topic describes how to authenticate to the server when using the Snowflake REST APIs.\n\nWhen you send a request, the request must include authentication information "
+        }
+      ]
+    },
+    {
+      "query": "Snowflake pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.snowflake.com/en/pricing-options/",
+          "title": "Snowflake Pricing | Choose the Right Edition for Your Data Needs",
+          "snippet": "Snowflake Pricing | Choose the Right Edition for Your Data Needs\n\n# Snowflake Pricing\n\nWe keep pricing simple with a consumption-based pricing model. Explore the details of our pricing model and how you can easily understand costs. For a view of all specific pricing related information, view the con"
+        },
+        {
+          "url": "https://www.snowflake.com/en/snowflake-trial/",
+          "title": "Snowflake Trial: Build AI & Apps in Minutes",
+          "snippet": "Snowflake Trial: Build AI & Apps in Minutes\n\n# BUILD AI AND APPS IN MINUTES WITH A SNOWFLAKE TRIAL\n\nTurn data and AI into impact with developer guides, hands-on labs and more.\n\n# START BUILDING IN MINUTES\n\nGet started your way with two Snowflake trial options: Unlock the full Snowflake AI Data Cloud"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+          "title": "Trial accounts | Snowflake Documentation",
+          "snippet": "Trial accounts | Snowflake Documentation\n\n# Trial accounts¶\n\nA Snowflake trial account lets you evaluate/test Snowflake’s full range of innovative and powerful features with no cost or contractual obligations. To sign up for a trial account, all you need is a valid email address; no payment informat"
+        },
+        {
+          "url": "https://www.snowflake.com/en/why-snowflake/",
+          "title": "Why Snowflake AI Data Cloud?",
+          "snippet": "Why Snowflake AI Data Cloud?\n\nTechnical tracks for practitioners, outcomes for leaders.\n\n# Power Your Agentic Enterprise\n\nEvery team wants AI agents that actually get work done. Snowflake gives you the governed data foundation, model flexibility and system connectivity to make it real.\n\nMore frequen"
+        },
+        {
+          "url": "https://www.snowflake.com/en/why-snowflake/what-is-data-cloud/getting-started/",
+          "title": "Getting Started on the Data Cloud",
+          "snippet": "Getting Started on the Data Cloud\n\n# The AI Data Cloud: Getting Started\n\nThe Snowflake AI Data Cloud is a global network connecting you to the most relevant content, powered by a single platform. \n\n### OVERVIEW\n\nThe AI Data Cloud is a secure, scalable and feature-rich platform that delivers new oppo"
+        }
+      ]
+    },
+    {
+      "query": "Snowflake official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+          "title": "Snowflake-managed MCP server | Snowflake Documentation",
+          "snippet": "Snowflake-managed MCP server | Snowflake Documentation\n\n# Snowflake-managed MCP server¶\n\n## Overview¶\n\nModel Context Protocol (MCP) is an open-source standard that lets AI agents securely interact with business applications and external data systems, such as databases and content repositories. MCP l"
+        },
+        {
+          "url": "https://www.snowflake.com/en/developers/guides/getting-started-with-snowflake-mcp-server/",
+          "title": "Getting Started with Managed Snowflake MCP Server",
+          "snippet": "Getting Started with Managed Snowflake MCP Server\n\n## Getting Started with Managed Snowflake MCP Server\n\n## Overview\n\nThe Snowflake-managed MCP server lets AI agents securely retrieve data from Snowflake accounts without deploying separate infrastructure. MCP clients discover and invoke tools, and r"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/release-notes/2025/other/2025-11-04-cortex-agents-mcp",
+          "title": "Nov 04, 2025: Snowflake-managed MCP server (*General availability*) | Snowflake Documentation",
+          "snippet": "Nov 04, 2025: Snowflake-managed MCP server (*General availability*) | Snowflake Documentation\n\n# Nov 04, 2025: Snowflake-managed MCP server (General availability)¶\n\nWith this release, we are pleased to announce the general availability of the Snowflake-managed MCP server, which was previously availa"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/sql-reference/sql/create-mcp-server",
+          "title": "CREATE MCP SERVER | Snowflake Documentation",
+          "snippet": "CREATE MCP SERVER | Snowflake Documentation\n\n# CREATE MCP SERVER¶\n\nCreates a new MCP (Model Context Protocol) server or replaces an existing MCP server.\n\n## Syntax¶\n\n```\nCREATE [ OR REPLACE ] MCP SERVER [ IF NOT EXISTS ] <name>\n  FROM SPECIFICATION $$<specification_yaml>$$\n\n```\n\n## Parameters¶\n\n`nam"
+        },
+        {
+          "url": "https://www.snowflake.com/en/blog/managed-mcp-servers-secure-data-agents/",
+          "title": "Introducing Snowflake Managed MCP Servers for Secure, Governed Data Agents",
+          "snippet": "Introducing Snowflake Managed MCP Servers for Secure, Governed Data Agents\n\nOct 1, 2025/ 6 min read AI & ML\n\n# Introducing Snowflake Managed MCP Servers for Secure, Governed Data Agents\n\nArun Agarwal +5\n\nWe are excited to announce the availability of Snowflake’s managed Model Context Protocol (MCP) "
+        }
+      ]
+    },
+    {
+      "query": "site:docs.snowflake.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+          "title": "Snowflake-managed MCP server | Snowflake Documentation",
+          "snippet": "Snowflake-managed MCP server | Snowflake Documentation\n\n# Snowflake-managed MCP server¶\n\n## Overview¶\n\nModel Context Protocol (MCP) is an open-source standard that lets AI agents securely interact with business applications and external data systems, such as databases and content repositories. MCP l"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp-connectors",
+          "title": "MCP Connectors - Snowflake Documentation",
+          "snippet": "MCP Connectors | Snowflake Documentation\n\n# MCP Connectors¶\n\n## Overview¶\n\nAn MCP connector in Snowflake connects Snowflake CoWork and Cortex Agents to a remote Model Context Protocol (MCP) server, letting the agent discover and invoke tools hosted by providers such as Atlassian Jira, Salesforce, or"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-ai-gateway/tools/available-servers",
+          "title": "Available MCP servers | Snowflake Documentation",
+          "snippet": "Available MCP servers | Snowflake Documentation\n\n# Available MCP servers¶\n\nAvailable to accounts in Amazon Web Services (AWS) commercial regions only, excluding Asia Pacific (New Zealand) and Middle East (UAE). For the full list of AWS commercial regions, see Supported cloud regions.\n\nTools provides"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/snowflake-cowork/integrate-tools",
+          "title": "Integrate tools and data | Snowflake Documentation",
+          "snippet": "Integrate tools and data | Snowflake Documentation\n\n# Integrate tools and data¶\n\nIn some cases, you may want to integrate other tools and data sources with your agents in Snowflake CoWork. Snowflake CoWork supports the Model Context Protocol (MCP), which is an open-source standard that lets AI agent"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code-mcp",
+          "title": "CoCo CLI Model Context Protocol (MCP) support | Snowflake Documentation",
+          "snippet": "CoCo CLI Model Context Protocol (MCP) support | Snowflake Documentation\n\n# CoCo CLI Model Context Protocol (MCP) support¶\n\nCoCo CLI implements the Model Context Protocol (MCP), an open standard that connects AI agents to external tools and data sources such as GitHub, Jira, internal APIs, and databa"
+        }
+      ]
+    },
+    {
+      "query": "site:snowflake.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.snowflake.com/en/artificial-intelligence/infrastructure/mcp/",
+          "title": "What Is MCP? Model Context Protocol Explained | Snowflake",
+          "snippet": "What Is MCP? Model Context Protocol Explained | Snowflake\n\n# How MCP Connects AI Agents — and What Production Adoption Requires\n\nMCP standardizes how AI applications discover and invoke external capabilities. This guide explains the protocol’s architecture, capabilities and limits, along with the se"
+        },
+        {
+          "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+          "title": "Snowflake-managed MCP server | Snowflake Documentation",
+          "snippet": "Snowflake-managed MCP server | Snowflake Documentation\n\n# Snowflake-managed MCP server¶\n\n## Overview¶\n\nModel Context Protocol (MCP) is an open-source standard that lets AI agents securely interact with business applications and external data systems, such as databases and content repositories. MCP l"
+        },
+        {
+          "url": "https://www.snowflake.com/en/blog/engineering/enterprise-mcp-gateway-ai-agent-governance/",
+          "title": "Enterprise MCP Gateway Guide: Governing AI Agents",
+          "snippet": "Enterprise MCP Gateway Guide: Governing AI Agents\n\nSep 2, 2026/ 11 min read Core Platform\n\n# The Enterprise Guide to MCP Gateways: Governing the Next Generation of AI Agents\n\nPratyus Patnaik\n\nAI agents are no longer just answering questions — they are taking actions. Across engineering, sales and op"
+        },
+        {
+          "url": "https://www.snowflake.com/en/developers/guides/getting-started-with-snowflake-mcp-server/",
+          "title": "Getting Started with Managed Snowflake MCP Server",
+          "snippet": "Getting Started with Managed Snowflake MCP Server\n\n## Getting Started with Managed Snowflake MCP Server\n\n## Overview\n\nThe Snowflake-managed MCP server lets AI agents securely retrieve data from Snowflake accounts without deploying separate infrastructure. MCP clients discover and invoke tools, and r"
+        },
+        {
+          "url": "https://www.snowflake.com/en/developers/guides/mcp-server-for-cortex-agents/",
+          "title": "Build an MCP Server for Cortex Agents",
+          "snippet": "Build an MCP Server for Cortex Agents\n\n## Build an MCP Server for Cortex Agents\n\n## Overview\n\nThis guide walks through how to build your own Cortex Agents MCP Server.\n\nThe core functionalities include:\n\n- Allow agents to interact with Cortex Agents as a tool\n- Test the connection with Claude Desktop"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://docs.snowflake.com",
+      "final_url": "https://docs.snowflake.com",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:30Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "0b408cd7e42bb85fe3d78dcd8eaf0a54be2463c0583c7a4258bbdd08558ee77f",
+      "text_len": 3060
+    },
+    {
+      "requested_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+      "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "c3f68091643616c3a9b8b35b7c57cbfa1ac9883310853d9c3c2a7f4585f330ef",
+      "text_len": 8842
+    },
+    {
+      "requested_url": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+      "final_url": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:21Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a79fb77f1e93d2e928cbe8e6b848cfd3bc2977e01a2eaf15766df26b5aff4c61",
+      "text_len": 6854
+    },
+    {
+      "requested_url": "https://docs.snowflake.com/en/sql-reference/sql/create-mcp-server",
+      "final_url": "https://docs.snowflake.com/en/sql-reference/sql/create-mcp-server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "5e2fac30476a093200c8031d4457b60534131ce8f77c4290955a1a65d43fcb1b",
+      "text_len": 12395
+    },
+    {
+      "requested_url": "https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code-mcp",
+      "final_url": "https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:28Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3e9eaebe7ce3570064d25ec1b3e7219b86abbcef1f3e75aacfceb73bd94ea483",
+      "text_len": 15219
+    },
+    {
+      "requested_url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+      "final_url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:22Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2f2bd8c57ff221de922b90eee23a3c64c8da45e943cb0c0c7e37aa78ab78303a",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating",
+      "final_url": "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "471706547bf93fcfc4c102c2d30e838105bc9141fca4e3a7ebde7f9cfaae4e55",
+      "text_len": 13068
+    },
+    {
+      "requested_url": "https://docs.snowflake.com/en/developer-guide/sql-api/reference",
+      "final_url": "https://docs.snowflake.com/en/developer-guide/sql-api/reference",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:20Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "3817510ad4976b5997d03aab5262b023b9daa443730f3daa1ff65b3ef501e619",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.snowflake.com/pricing",
+      "final_url": "https://docs.snowflake.com/pricing",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:31Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    },
+    {
+      "requested_url": "https://docs.snowflake.com/en/user-guide/programmatic-access-tokens",
+      "final_url": "https://docs.snowflake.com/en/user-guide/programmatic-access-tokens",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:42:19Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ae0c9e92e260c9d80aa9efcb48d1fe28cb709f0fa39b38470d7f21a6852cb9ce",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "quote": "Using key pair authentication Using OAuth Using a programmatic access token (PAT) Using workload identity federation"
+      },
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/programmatic-access-tokens",
+        "quote": "You can use a programmatic access token to authenticate to the following Snowflake endpoints: Snowflake REST APIs."
+      }
+    ],
+    "access": [
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+        "quote": "To sign up for a trial account, all you need is a valid email address; no payment information or other qualifying information is required.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://docs.snowflake.com/en/developer-guide/sql-api/reference",
+        "quote": "To submit one or more SQL statements for execution, send a POST request to `/api/v2/statements`.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "quote": "curl --location 'https://myorganization-myaccount.snowflakecomputing.com/api/v2/databases'",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+        "quote": "The Snowflake-managed MCP server lets AI agents securely retrieve data from Snowflake accounts without needing to deploy separate infrastructure.",
+        "verified": true
+      },
+      {
+        "url": "https://docs.snowflake.com/en/sql-reference/sql/create-mcp-server",
+        "quote": "Creates a new MCP (Model Context Protocol) server or replaces an existing MCP server.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+        "quote": "You can sign up for a free trial using the self-service form (on the Snowflake website).",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://docs.snowflake.com",
+        "quote": "Streamline your Snowflake journey with comprehensive documentation and learning resources",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [
+      {
+        "claim": "auth",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "reason": "quote not in page text"
+      },
+      {
+        "claim": "auth",
+        "url": "https://docs.snowflake.com/en/user-guide/programmatic-access-tokens",
+        "reason": "quote not in page text"
+      }
+    ],
+    "unfetched_urls": [],
+    "warnings": [
+      "no verified snippet for auth"
+    ],
+    "retried": false,
+    "validation_errors": []
+  }
+}

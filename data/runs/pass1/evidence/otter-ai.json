@@ -1,0 +1,358 @@
+{
+  "slug": "otter-ai",
+  "searches": [
+    {
+      "query": "Otter AI API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+          "title": "Otter.ai Public API – Help Center",
+          "snippet": "Otter.ai Public API – Help Center\n\n# Otter.ai Public API \n\nOtter Help\n\n October 29, 2026 20:46 Updated \n\nOtter.ai’s Public API provides programmatic access to retrieve channels, conversations, transcripts, audio, action items, insights, outlines, and workspace details from your Otter account.\n\n Gett"
+        },
+        {
+          "url": "https://docs.connect.tryotter.com/guides/core-concepts/authentication/",
+          "title": "Authentication | Otter API Docs",
+          "snippet": "Authentication | Otter API Docs\n\n# Authentication\n\nHow your app proves who it is when calling the Otter API — and how you verify that inbound webhooks really came from Otter.\n\nThere are two directions:\n\n| Direction | What you do | Primary mechanism |\n| --- | --- | --- |\n| Outbound — your app → Otter"
+        },
+        {
+          "url": "https://docs.stackone.com/connectors/otterai/guides/link-account/api-key",
+          "title": "Connect Otter.ai with API Key – StackOne Hub",
+          "snippet": "> ## Documentation Index\n> \n> Fetch the complete documentation index at: https://docs.stackone.com/llms.txt\n> Use this file to discover all available pages before exploring further.\n\n# Connect Otter.ai with API Key – StackOne Hub\n\n> Link a Otter.ai account in the StackOne Hub using API Key. End-user"
+        },
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/27616131311127-Connect-Otter-to-Zapier",
+          "title": "Connect Otter to Zapier",
+          "snippet": "Connect Otter to Zapier – Help Center\n\n# Connect Otter to Zapier \n\nOtter Help\n\n July 28, 2026 21:05 Updated \n\nConnecting Otter.ai to Zapier unlocks a new level of automation and efficiency. With seamless integration, you can easily connect Otter to your other favorite tools, automating repetitive ta"
+        },
+        {
+          "url": "https://www.scalekit.com/blog/otter-mcp-vs-api",
+          "title": "Otter MCP Server vs Otter API: Choose the Right Interface",
+          "snippet": "Otter MCP Server vs Otter API: Choose the Right Interface\n\nAug 31, 2026\n\n# Otter’s MCP Server or Otter API? Decide The Tool Calling Interface for Your Agent\n\nSaif Ali Shaik\n\nFounding Developer Advocate\n\n## TL;DR\n\n- Otter ships two official programmatic surfaces, and they are not interchangeable. The"
+        }
+      ]
+    },
+    {
+      "query": "Otter AI developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+          "title": "Otter.ai Public API – Help Center",
+          "snippet": "Otter.ai Public API – Help Center\n\n# Otter.ai Public API \n\nOtter Help\n\n October 29, 2026 20:46 Updated \n\nOtter.ai’s Public API provides programmatic access to retrieve channels, conversations, transcripts, audio, action items, insights, outlines, and workspace details from your Otter account.\n\n Gett"
+        },
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/4412365535895-Does-Otter-offer-an-open-API",
+          "title": "Does Otter offer an open API? – Help Center",
+          "snippet": "Does Otter offer an open API? – Help Center\n\n# Does Otter offer an open API? \n\nOtter Help\n\n April 23, 2026 20:37 Updated \n\nYes, Otter offers a public API for Enterprise customers. To get started, contact your Otter account manager to enable access.\n\nCheck out our Otter.ai Public API article for more"
+        },
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/39661865499799-Super-Admin-APIs",
+          "title": "Super Admin APIs – Help Center",
+          "snippet": "Super Admin APIs – Help Center\n\n# Super Admin APIs \n\nOtter Help\n\n October 29, 2026 20:20 Updated \n\nThese endpoint(s) are available only to Otter Super Admins. Otter APIs provide programmatic access to retrieve channels, conversations, transcripts, audio, action items, insights, outlines, and workspa"
+        },
+        {
+          "url": "https://www.scalekit.com/blog/otter-mcp-vs-api",
+          "title": "Otter MCP Server vs Otter API: Choose the Right Interface",
+          "snippet": "Otter MCP Server vs Otter API: Choose the Right Interface\n\nAug 31, 2026\n\n# Otter’s MCP Server or Otter API? Decide The Tool Calling Interface for Your Agent\n\nSaif Ali Shaik\n\nFounding Developer Advocate\n\n## TL;DR\n\n- Otter ships two official programmatic surfaces, and they are not interchangeable. The"
+        },
+        {
+          "url": "https://docs.glean.com/connectors/native/otterai/setup",
+          "title": "Set up the Otter.ai connector",
+          "snippet": "Set up the Otter.ai connector\n\n# Set up the Otter.ai connector\n\nConnect Otter.ai to make meeting transcripts, summaries, and action items searchable in Glean. Create an API key in Otter.ai, configure the connector in Glean, and verify results after the initial crawl.\n\n## Prerequisites​\n\nBefore you b"
+        }
+      ]
+    },
+    {
+      "query": "Otter AI pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://otter.ai/start-for-free",
+          "title": "Start for Free | Otter.ai",
+          "snippet": "Start for Free | Otter.ai\n\n# Get Started for Free\n\nBasic\n\nThe easiest way to try Otter\n\nFree\n\nAI meeting assistant records, transcribes and summarizes in real time\n\nNew\n\nTranscription and summaries in English, French, or Spanish\n\nOtter AI Chat: Chat live with Otter and teammates, and get answers to "
+        },
+        {
+          "url": "https://otter.ai/pricing",
+          "title": "Pricing | Otter.ai",
+          "snippet": "Pricing | Otter.ai\n\n# Choose the plan that's right for you\n\nAnnual\n\nsave 51%\n\nPrices in USD\n\nBasic\n\nZoom, MS Teams, and Google Meet\n\nAI Chat within and across meetings\n\nAI meeting workflows\n\n3 lifetime audio/video file imports\n\nLive transcription\n\nSpeaker identification\n\nAudio recording playback\n\nMu"
+        },
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/1500007864861-About-your-Otter-Business-free-trial",
+          "title": "About your Otter Business free trial – Help Center",
+          "snippet": "About your Otter Business free trial – Help Center\n\n# About your Otter Business free trial \n\nOtter Help\n\n April 01, 2026 21:04 Updated \n\nWhen you sign up for a free trial of Otter Business, your team can experience everything that Otter Business offers.\n\n- Otter Notetaker\n- Otter AI Chat\n- Automated"
+        },
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/360049722894-Otter-Quick-Start-Guide",
+          "title": "Otter Quick Start Guide – Help Center",
+          "snippet": "Otter Quick Start Guide – Help Center\n\n# Otter Quick Start Guide \n\nOtter Help\n\n April 01, 2026 18:55 Updated \n\nWith Otter, you'll be able to utilize powerful AI tools to create and collaborate on transcriptions to get work done faster and be more productive. Check out some of the tools and features "
+        },
+        {
+          "url": "https://otter.ai/",
+          "title": "Otter Meeting Agent - AI Notetaker, Transcription, Insights",
+          "snippet": "Otter Meeting Agent - AI Notetaker, Transcription, Insights\n\n# Your AI notetaker is now also your Conversational Knowledge Engine\n\nOtter transcribes every meeting, turning it into searchable knowledge that powers your workflow.\n\n\"I am possibly Otter's most enthusiastic supporter. My team and I are u"
+        }
+      ]
+    },
+    {
+      "query": "Otter AI official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+          "title": "Otter MCP Server – Help Center",
+          "snippet": "Otter MCP Server – Help Center\n\n# Otter MCP Server \n\nOtter Help\n\n October 30, 2026 21:11 Updated \n\nConnect AI models to Otter using Model Context Protocol (MCP). Connecting Otter MCP to your AI applications enables secure, scalable access to various language model understandings to power features li"
+        },
+        {
+          "url": "https://docs.merge.dev/merge-agent-handler/connectors/generic/otter-ai",
+          "title": "Otter.ai",
+          "snippet": "> This page is for Agent Handler.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://docs.merge.dev/llms.txt.\n> For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.merge.dev/_mcp/server.\n\n# Ott"
+        },
+        {
+          "url": "https://otter.ai/integration/claude",
+          "title": "Claude + Otter.ai Integration",
+          "snippet": "Claude + Otter.ai Integration\n\n# Claude\n\nCollaboration\n\nCompany Site\n\n## Bring your meeting history into Claude\n\nOtter captures the conversations where decisions, commitments, and context get created. Through Otter's MCP server, Claude can search and pull from Otter transcripts, summaries, and actio"
+        },
+        {
+          "url": "https://openai.com/business/plugins/otter-ai/",
+          "title": "Otter.ai plugin for ChatGPT | OpenAI",
+          "snippet": "Otter.ai plugin for ChatGPT | OpenAI\n\n# Otter.ai\n\nSearch meetings from Otter.ai\n\nCategory\n\nProductivity\n\nDeveloper\n\nOtter.ai\n\nWebsite\n\n(opens in a new window)\n\nOtter.ai List and Summarise my meetings for past week(opens in a new window)\n\n## How it works\n\nThe Otter.ai MCP server connects ChatGPT to y"
+        },
+        {
+          "url": "https://otter.ai/blog/otter-for-enterprise-connect-ai-to-ai-with-otters-mcp",
+          "title": "Otter for Enterprise: Connect AI-to-AI with Otter’s MCP | Otter.ai",
+          "snippet": "Otter for Enterprise: Connect AI-to-AI with Otter’s MCP | Otter.ai\n\n# Otter for Enterprise: Connect AI-to-AI with Otter’s MCP\n\nRichard Tasker\n\nOct 10, 2025\n\nUpdated: \n\n7 min\n\nIn this article\n\nOtter has transformed with Otter Meeting Agents\n\nIntelligent, voice-activated, meeting agents that directly "
+        }
+      ]
+    },
+    {
+      "query": "site:help.otter.ai MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+          "title": "Otter MCP Server – Help Center",
+          "snippet": "Otter MCP Server – Help Center\n\n# Otter MCP Server \n\nOtter Help\n\n October 30, 2026 21:11 Updated \n\nConnect AI models to Otter using Model Context Protocol (MCP). Connecting Otter MCP to your AI applications enables secure, scalable access to various language model understandings to power features li"
+        },
+        {
+          "url": "https://help.otter.ai/hc/en-us/sections/15113317866263-Otter-AI-Chat",
+          "title": "Otter AI Chat – Help Center",
+          "snippet": "Otter AI Chat – Help Center\n\n# Otter AI Chat\n\nLearn all about using Otter AI Chat features\n\n- Otter AI Chat Overview\n- Asking Otter AI Chat questions\n- Generate content with Otter AI Chat\n- Image Enriched Conversation AI Chat\n- Opt out of Otter AI Chat\n- Otter AI Chat FAQs\n- Otter AI Chat is not sho"
+        },
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/40485786582551-Connect-Jira-to-Otter-ai",
+          "title": "Connect Jira to Otter.ai – Help Center",
+          "snippet": "Connect Jira to Otter.ai – Help Center\n\n# Connect Jira to Otter.ai \n\nOtter Help\n\n May 15, 2026 00:23 Updated \n\nConnect Jira with Otter.ai to automatically turn meeting action items into trackable Jira issues. Otter captures conversations, generates AI summaries, identifies action items, and syncs th"
+        },
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/41500228419479-Getting-Started-with-Enterprise",
+          "title": "Getting Started with Enterprise – Help Center",
+          "snippet": "Getting Started with Enterprise – Help Center\n\n# Getting Started with Enterprise \n\nOtter Help\n\n June 25, 2026 23:01 Updated \n\n## Welcome to Otter.ai \n\nBelow is everything you need to get up and running — fast. This guide brings together our most essential resources in one place, so you can find answ"
+        },
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/19682180167575-Otter-AI-Chat-Overview",
+          "title": "Otter AI Chat Overview – Help Center",
+          "snippet": "Otter AI Chat Overview – Help Center\n\n# Otter AI Chat Overview \n\nOtter Help\n\n October 14, 2026 21:38 Updated \n\nOtter AI Chat helps you ask questions, generate content, uncover insights, and take action using information from your meetings and conversations.\n\nUse Chat to ask questions about your meet"
+        }
+      ]
+    },
+    {
+      "query": "site:otter.ai MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+          "title": "Otter MCP Server – Help Center",
+          "snippet": "Otter MCP Server – Help Center\n\n# Otter MCP Server \n\nOtter Help\n\n October 30, 2026 21:11 Updated \n\nConnect AI models to Otter using Model Context Protocol (MCP). Connecting Otter MCP to your AI applications enables secure, scalable access to various language model understandings to power features li"
+        },
+        {
+          "url": "https://otter.ai/blog/otter-mcp-your-meetings-now-power-every-tool-you-use",
+          "title": "Otter + MCP: Your Meetings Now Power Every Tool You Use | Otter.ai",
+          "snippet": "Otter + MCP: Your Meetings Now Power Every Tool You Use | Otter.ai\n\n# Otter + MCP: Your Meetings Now Power Every Tool You Use\n\nRichard Tasker\n\nMar 13, 2026\n\nUpdated: \n\n7 min\n\nOtter has transformed with Otter Meeting Agents\n\nIntelligent, voice-activated, meeting agents that directly participate in me"
+        },
+        {
+          "url": "https://otter.ai/blog/otter-for-enterprise-connect-ai-to-ai-with-otters-mcp",
+          "title": "Otter for Enterprise: Connect AI-to-AI with Otter’s MCP | Otter.ai",
+          "snippet": "Otter for Enterprise: Connect AI-to-AI with Otter’s MCP | Otter.ai\n\n# Otter for Enterprise: Connect AI-to-AI with Otter’s MCP\n\nRichard Tasker\n\nOct 10, 2025\n\nUpdated: \n\n7 min\n\nIn this article\n\nOtter has transformed with Otter Meeting Agents\n\nIntelligent, voice-activated, meeting agents that directly "
+        },
+        {
+          "url": "https://otter.ai/integration/claude",
+          "title": "Claude + Otter.ai Integration",
+          "snippet": "Claude + Otter.ai Integration\n\n# Claude\n\nCollaboration\n\nCompany Site\n\n## Bring your meeting history into Claude\n\nOtter captures the conversations where decisions, commitments, and context get created. Through Otter's MCP server, Claude can search and pull from Otter transcripts, summaries, and actio"
+        },
+        {
+          "url": "https://otter.ai/pricing",
+          "title": "Pricing",
+          "snippet": "Pricing | Otter.ai\n\n# Choose the plan that's right for you\n\nAnnual\n\nsave 51%\n\nPrices in USD\n\nBasic\n\nZoom, MS Teams, and Google Meet\n\nAI Chat within and across meetings\n\nAI meeting workflows\n\n3 lifetime audio/video file imports\n\nLive transcription\n\nSpeaker identification\n\nAudio recording playback\n\nMu"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://help.otter.ai",
+      "final_url": "https://help.otter.ai",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:07Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "fd415116fb6333d247d5f2a6ba9dd6a028f087f78b21d9d7e56ca8bbae2ab1b7",
+      "text_len": 1130
+    },
+    {
+      "requested_url": "https://help.otter.ai/hc/en-us/articles/27616131311127-Connect-Otter-to-Zapier",
+      "final_url": "https://help.otter.ai/hc/en-us/articles/27616131311127-Connect-Otter-to-Zapier",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "be66c7bd0df81f9bc907cf3c2f0f02075d85f2ff97db6ef8d56ff9308be42113",
+      "text_len": 3981
+    },
+    {
+      "requested_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+      "final_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:00Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "21476f066a17cf5df27812dc13647c9be80d5a9c7a4156bf660c5ebb96ef92cf",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://otter.ai/pricing",
+      "final_url": "https://otter.ai/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:02Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b74ab1ec77839632a8b79e43feb07f692bae444d5d3f0d5131d38fcdff4c3309",
+      "text_len": 6112
+    },
+    {
+      "requested_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+      "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "25a6e339e8e641e54a0de7dcbe2e9562a11428926f3e270bc45172f5fc6bff6b",
+      "text_len": 10821
+    },
+    {
+      "requested_url": "https://otter.ai/blog/otter-for-enterprise-connect-ai-to-ai-with-otters-mcp",
+      "final_url": "https://otter.ai/blog/otter-for-enterprise-connect-ai-to-ai-with-otters-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:03Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "2f684622a2f0a1cbd06f41f016c9bf1525364719c7b168ab93fdde5e0412871b",
+      "text_len": 1382
+    },
+    {
+      "requested_url": "https://otter.ai/blog/otter-mcp-your-meetings-now-power-every-tool-you-use",
+      "final_url": "https://otter.ai/blog/otter-mcp-your-meetings-now-power-every-tool-you-use",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:06Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "422d550bc0ff6f0d22e9c681cf868c7cc70fc0fe24dd453765553636a31fc84c",
+      "text_len": 8743
+    },
+    {
+      "requested_url": "https://help.otter.ai/hc/en-us/articles/39661865499799-Super-Admin-APIs",
+      "final_url": "https://help.otter.ai/hc/en-us/articles/39661865499799-Super-Admin-APIs",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:01Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1db04048841459327a848bc805c0b0cd3929de3f44912573eef8601263c3bb61",
+      "text_len": 6622
+    },
+    {
+      "requested_url": "https://help.otter.ai/llms.txt",
+      "final_url": "https://help.otter.ai/llms.txt",
+      "status": 404,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:46:07Z",
+      "error": "exa /contents: page HTTP 404",
+      "method": "exa_error",
+      "text_source_url": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_len": 0
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+        "quote": "All API requests require authentication using Bearer token authentication.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+        "quote": "Otter's Public API is available for all Enterprise workspaces. If you do not see this feature for your workspace, contact your Otter account manager.",
+        "verified": true
+      },
+      {
+        "url": "https://otter.ai/pricing",
+        "quote": "Custom pricing",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+        "quote": "programmatic access to retrieve channels, conversations, transcripts, audio, action items, insights, outlines, and workspace details from your Otter account",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "quote": "\"url\": \"https://mcp.otter.ai/mcp\"",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+        "quote": "Otter's Public API is available for all Enterprise workspaces.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "quote": "Connect AI models to Otter using Model Context Protocol (MCP).",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

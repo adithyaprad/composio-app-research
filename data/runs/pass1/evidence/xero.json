@@ -1,0 +1,371 @@
+{
+  "slug": "xero",
+  "searches": [
+    {
+      "query": "Xero API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.xero.com/faq/getting-started",
+          "title": "Getting started FAQs — Xero Developer",
+          "snippet": "Getting started FAQs — Xero Developer\n\n# Frequently asked questions\n\nAnswers to your most common questions.\n\n## FAQs\n\n## Getting started\n\n### Can you give me an API key?\n\nThe Xero API does not support basic API Key authentication. Our API uses OAuth 2.0 which means you need to register your app to g"
+        },
+        {
+          "url": "https://github.com/XeroAPI/xero-postman-oauth2/blob/master/README.md",
+          "title": "README.md",
+          "snippet": "xero-postman-oauth2/README.md at master · XeroAPI/xero-postman-oauth2 · GitHub\n\nSallyhornet\n\nUpdate README.md\n\n114 lines (75 loc) · 5.78 KB\n\n114 lines (75 loc) · 5.78 KB\n\n# Xero-Postman OAuth 2.0\n\nA Postman collection for authenticating to the Xero API.\n\n## Steps to get up and running\n\nFollow these "
+        },
+        {
+          "url": "https://apis.io/security/xero/xero-authentication/",
+          "title": "Xero API Authentication | APIs.io",
+          "snippet": "Xero API Authentication | APIs.io\n\n# Xero Authentication\n\nAuthentication\n\nXero secures its APIs with http and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and clientCredentials flow(s).\n\n Accounting Bank Feeds Fina"
+        },
+        {
+          "url": "https://github.com/XeroAPI/xero-node/",
+          "title": "XeroAPI/xero-node",
+          "snippet": "# XeroAPI/xero-node\n\nXero Node SDK for OAuth 2.0 generated from XeroAPI/Xero-OpenAPI\n\n- Stars: 265\n- Forks: 178\n- Watchers: 265\n- Open issues: 51\n- License: MIT License\n- Homepage: http://developer.xero.com/\n- Default branch: master\n- Created: 2016-11-07T19:07:34Z\n\n## Languages\n\n- JavaScript\n- TypeS"
+        },
+        {
+          "url": "https://xeroapi.github.io/xero-php-oauth2/",
+          "title": "xero-php-oauth2 | Xero PHP SDK for oAuth 2 generated from Xero API OpenAPI Spec 3.0",
+          "snippet": "xero-php-oauth2 | Xero PHP SDK for oAuth 2 generated from Xero API OpenAPI Spec 3.0\n\n# xero-php-oauth2\n\n \n\nThe `xero-php-oauth2` SDK makes it easy for developers to access Xero’s APIs in their PHP code, and build robust applications and software using small business & general ledger accounting data."
+        }
+      ]
+    },
+    {
+      "query": "Xero developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.xero.com/",
+          "title": "Xero Developer Platform",
+          "snippet": "Xero Developer Platform\n\n# Xero Developer: Powering Your Innovation and Growth\n\n## Developer Tools\n\nTools and resources to help you build and test your Xero integration faster.\n\n- ### Xero's AI Toolkit\n\nGet Started with Xero's AI Toolkit including OpenAI Agents SDK, MCP Server, LangChain and prompt "
+        },
+        {
+          "url": "https://developer.xero.com/faq/getting-started",
+          "title": "Getting started FAQs — Xero Developer",
+          "snippet": "Getting started FAQs — Xero Developer\n\n# Frequently asked questions\n\nAnswers to your most common questions.\n\n## FAQs\n\n## Getting started\n\n### Can you give me an API key?\n\nThe Xero API does not support basic API Key authentication. Our API uses OAuth 2.0 which means you need to register your app to g"
+        },
+        {
+          "url": "https://github.com/XeroAPI/Xero-OpenAPI/",
+          "title": "XeroAPI/Xero-OpenAPI",
+          "snippet": "# XeroAPI/Xero-OpenAPI\n\nAn OpenAPI description of the Xero API\n\n- Stars: 142\n- Forks: 178\n- Watchers: 142\n- Open issues: 36\n- License: MIT License\n- Homepage: https://developer.xero.com\n- Default branch: master\n- Created: 2017-11-30T02:37:18Z\n\n## Languages\n\n- Shell\n\n## Topics\n\n- openapi\n- swagger\n- "
+        },
+        {
+          "url": "https://developer.xero.com/pricing",
+          "title": "Pricing — Xero Developer",
+          "snippet": "Pricing — Xero Developer\n\n## App Plans\n\nPlans have been created to enable early innovation and create an accessible entry point for developers just getting started. As your app scales, requiring additional benefits, you can easily move through the plans. \n\n| | Starter | Core | Plus | Advanced | Ente"
+        },
+        {
+          "url": "https://developer.xero.com/support",
+          "title": "Xero Developer Support — Xero Developer",
+          "snippet": "Xero Developer Support — Xero Developer\n\n# Xero Developer support\n\nGet help with your integration\n\n#### Current API status\n\nIf you are unsure of the current status of the API and want to rule out any issues on our side, you can check our developer status page which is updated as soon as any issues a"
+        }
+      ]
+    },
+    {
+      "query": "Xero pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://www.xero.com/us/pricing-plans/",
+          "title": "Pricing Plans | Xero US",
+          "snippet": "Pricing Plans | Xero US\n\n# Plans backed by real support\n\nSimple software to run your business, with support when needed.\n\n- Free expert setup help\n- No per-user license fees\n- Real-time financial insights\n- Trusted by 5.1 million customers\n\nForecast with clarity\n\nForecast with clarity\n\n## Establishe"
+        },
+        {
+          "url": "https://www.xero.com/signup/",
+          "title": "Sign up for free trial | Xero",
+          "snippet": "Sign up for free trial | Xero\n\n# Start a 30-day free trial\n\nJoin 5.1 million customers using Xero to run their business.\n\n### Awards and recognition for our work"
+        },
+        {
+          "url": "https://www.xero.com/us/",
+          "title": "Accounting Software for Small Businesses | Xero US",
+          "snippet": "Accounting Software for Small Businesses | Xero US\n\n# Know your numbers. Control your cash flow.\n\nFree standard ACH bill payments are now included in Xero business plans.* Fees apply for other payment methods.\n\n## Used by 5.1 million customers worldwide.\n\nBuilt for the way US businesses work.\n\n## AI"
+        },
+        {
+          "url": "https://www.xero.com/us/small-businesses/xero-for-self-employed/",
+          "title": "Self-Employed Accounting Software for Freelancers | Xero US",
+          "snippet": "Self-Employed Accounting Software for Freelancers | Xero US\n\n# Easy accounting software for the self-employed\n\nRunning a one-person business means wearing every hat. Keep your books up to date and send invoices in minutes, then walk into tax time with everything organized.\n\n## Why small businesses c"
+        },
+        {
+          "url": "https://www.xero.com/us/legal/offer-details/offer-details/",
+          "title": "Offer details | Xero US",
+          "snippet": "Offer details | Xero US\n\n# Offer details\n\nRead information regarding Xero auto-renewal, cancellation, pricing and other terms\n\n## Auto-renewal \n\nYour Xero subscription will automatically renew, and your card will be automatically charged the then current fees for the Xero subscription type or servic"
+        }
+      ]
+    },
+    {
+      "query": "Xero official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.xero.com/faq/remote-mcp",
+          "title": "Remote MCP FAQs — Xero Developer",
+          "snippet": "Remote MCP FAQs — Xero Developer\n\n# Frequently asked questions\n\nAnswers to your most common questions.\n\n## FAQs\n\n## Remote MCP\n\n### Can I connect to more than one organisation?\n\nYes. A user can authorise several organisations for the same app. Ask the agent to list the connected organisations, then "
+        },
+        {
+          "url": "https://developer.xero.com/ai",
+          "title": "Xero's AI Toolkit — Xero Developer",
+          "snippet": "Xero's AI Toolkit — Xero Developer\n\n# The Rise of the Builder: Build Next-Gen Xero Integrations with Xero’s AI toolkit\n\nBuild innovative accounting integrations and intelligent automation powered by Xero's MCP Server, Command Line Interface, OpenAI Agents SDK and LangChain.\n\n## Xero's AI Toolkit \n\nT"
+        },
+        {
+          "url": "https://www.npmjs.com/package/@xeroapi/xero-mcp-server",
+          "title": "@xeroapi/xero-mcp-server",
+          "snippet": "# @xeroapi/xero-mcp-server\n\nMCP server implementation for Xero integration\n\n- Version: 0.0.18\n- License: MIT\n- Homepage: https://github.com/XeroAPI/xero-mcp-server#readme\n- Author: Xero (https://xero.com)\n- Repository: git://github.com/XeroAPI/xero-mcp-server.git\n- Weekly downloads: 19685\n- Dependen"
+        },
+        {
+          "url": "https://developer.xero.com/faq",
+          "title": "Xero Developer Frequently asked questions — Xero Developer",
+          "snippet": "Xero Developer Frequently asked questions — Xero Developer\n\n# Frequently asked questions\n\nAnswers to your most common questions.\n\n## FAQs\n\n## AI Toolkit\n\n### Can I use any LLM to access the MCP Server?\n\nXero's MCP Server will work with any MCP client that supports local/STDIO MCP servers. Depending "
+        },
+        {
+          "url": "https://devblog.xero.com/xero-introduces-new-model-context-protocol-server-for-smarter-accounting-4d195ccaeda5",
+          "title": "Xero Developer",
+          "snippet": "Medium\n\n# Xero introduces new Model Context Protocol server for smarter accounting\n\nRegan Ashworth\n\nMar 26, 2025\n\nPress enter or click to view image in full size\n\nWe’re thrilled to announce the launch of a Model Context Protocol (MCP) server specifically designed for accounting data, available as op"
+        }
+      ]
+    },
+    {
+      "query": "site:developer.xero.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.xero.com/ai",
+          "title": "Xero's AI Toolkit — Xero Developer",
+          "snippet": "Xero's AI Toolkit — Xero Developer\n\n# The Rise of the Builder: Build Next-Gen Xero Integrations with Xero’s AI toolkit\n\nBuild innovative accounting integrations and intelligent automation powered by Xero's MCP Server, Command Line Interface, OpenAI Agents SDK and LangChain.\n\n## Xero's AI Toolkit \n\nT"
+        },
+        {
+          "url": "https://developer.xero.com/faq/remote-mcp",
+          "title": "Remote MCP FAQs — Xero Developer",
+          "snippet": "Remote MCP FAQs — Xero Developer\n\n# Frequently asked questions\n\nAnswers to your most common questions.\n\n## FAQs\n\n## Remote MCP\n\n### Can I connect to more than one organisation?\n\nYes. A user can authorise several organisations for the same app. Ask the agent to list the connected organisations, then "
+        },
+        {
+          "url": "https://developer.xero.com/faq/AI-Toolkit",
+          "title": "AI Toolkit FAQs — Xero Developer",
+          "snippet": "AI Toolkit FAQs — Xero Developer\n\n# Frequently asked questions\n\nAnswers to your most common questions.\n\n## FAQs\n\n## AI Toolkit\n\n### Can I use any LLM to access the MCP Server?\n\nXero's MCP Server will work with any MCP client that supports local/STDIO MCP servers. Depending on your MCP Client you mig"
+        },
+        {
+          "url": "https://developer.xero.com/changelog",
+          "title": "Changelog — Xero Developer",
+          "snippet": "Changelog — Xero Developer\n\n# Changes to the API\n\nLast updated: 5 November 2026\n\nXero regularly updates its APIs to support new features or deprecate old ones. This page keeps track of all future and previous changes that have occurred to the API, and what you need to do to ensure your integrations "
+        },
+        {
+          "url": "https://developer.xero.com/pricing",
+          "title": "Pricing — Xero Developer",
+          "snippet": "Pricing — Xero Developer\n\n## App Plans\n\nPlans have been created to enable early innovation and create an accessible entry point for developers just getting started. As your app scales, requiring additional benefits, you can easily move through the plans. \n\n| | Starter | Core | Plus | Advanced | Ente"
+        }
+      ]
+    },
+    {
+      "query": "site:xero.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer.xero.com/ai",
+          "title": "Xero's AI Toolkit — Xero Developer",
+          "snippet": "Xero's AI Toolkit — Xero Developer\n\n# The Rise of the Builder: Build Next-Gen Xero Integrations with Xero’s AI toolkit\n\nBuild innovative accounting integrations and intelligent automation powered by Xero's MCP Server, Command Line Interface, OpenAI Agents SDK and LangChain.\n\n## Xero's AI Toolkit \n\nT"
+        },
+        {
+          "url": "https://devblog.xero.com/the-xero-remote-mcp-is-now-generally-available-06008f6ab2a7",
+          "title": "The Xero Remote MCP is now generally available",
+          "snippet": "Medium\n\n# The Xero Remote MCP (Model Context Protocol) now generally available\n\nCorey Leung\n\nOct 13, 2026\n\nPress enter or click to view image in full size\n\nDevelopers have been using the local Xero MCP server to let Claude, Cursor and other AI tools read and write real Xero data: pull an aged receiv"
+        },
+        {
+          "url": "https://developer.xero.com/faq/remote-mcp",
+          "title": "Remote MCP FAQs — Xero Developer",
+          "snippet": "Remote MCP FAQs — Xero Developer\n\n# Frequently asked questions\n\nAnswers to your most common questions.\n\n## FAQs\n\n## Remote MCP\n\n### Can I connect to more than one organisation?\n\nYes. A user can authorise several organisations for the same app. Ask the agent to list the connected organisations, then "
+        },
+        {
+          "url": "https://devblog.xero.com/xero-introduces-new-model-context-protocol-server-for-smarter-accounting-4d195ccaeda5",
+          "title": "Medium",
+          "snippet": "Medium\n\n# Xero introduces new Model Context Protocol server for smarter accounting\n\nRegan Ashworth\n\nMar 26, 2025\n\nPress enter or click to view image in full size\n\nWe’re thrilled to announce the launch of a Model Context Protocol (MCP) server specifically designed for accounting data, available as op"
+        },
+        {
+          "url": "https://developer.xero.com/faq/AI-Toolkit",
+          "title": "AI Toolkit FAQs — Xero Developer",
+          "snippet": "AI Toolkit FAQs — Xero Developer\n\n# Frequently asked questions\n\nAnswers to your most common questions.\n\n## FAQs\n\n## AI Toolkit\n\n### Can I use any LLM to access the MCP Server?\n\nXero's MCP Server will work with any MCP client that supports local/STDIO MCP servers. Depending on your MCP Client you mig"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developer.xero.com",
+      "final_url": "https://developer.xero.com/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:08Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "6df5205a2cbd95994ccbf07bd813f4730f8aaf5364e60002da0c2d5db17b5333",
+      "text_len": 3879
+    },
+    {
+      "requested_url": "https://developer.xero.com/faq/getting-started",
+      "final_url": "https://developer.xero.com/faq/getting-started",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:07Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "39c147ae2b095b6584114e4b608d594ce952c6c5c885890f37e65c00706c1231",
+      "text_len": 2253
+    },
+    {
+      "requested_url": "https://developer.xero.com/pricing",
+      "final_url": "https://developer.xero.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:08Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "48a8513812ac6fee44994865e62432247c3905cc8d395e78d3ec8504393d95a3",
+      "text_len": 7689
+    },
+    {
+      "requested_url": "https://www.xero.com/signup/",
+      "final_url": "https://www.xero.com/signup/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:09Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "a1f4ba32e0addc25a2a0df7ca1b415fa0774ee411165d59721b708c17aca948c",
+      "text_len": 161
+    },
+    {
+      "requested_url": "https://developer.xero.com/faq/remote-mcp",
+      "final_url": "https://developer.xero.com/faq/remote-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:10Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "f8d8cc4a2256d92274611975367617a7662ae7a8123f228b6dea6a9bb458ea46",
+      "text_len": 4509
+    },
+    {
+      "requested_url": "https://devblog.xero.com/the-xero-remote-mcp-is-now-generally-available-06008f6ab2a7",
+      "final_url": "https://devblog.xero.com/the-xero-remote-mcp-is-now-generally-available-06008f6ab2a7",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:14Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "9d4cf57d5d451fa2bbe27d09352dcbbb14d2f67914b62cc7d8600024589779e9",
+      "text_len": 6440
+    },
+    {
+      "requested_url": "https://developer.xero.com/ai",
+      "final_url": "https://developer.xero.com/ai",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:10Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cf478d6da9ff2ab99d5cbf9d25498ebe99b90282d106f448f679f08d58ca3a10",
+      "text_len": 2276
+    },
+    {
+      "requested_url": "https://developer.xero.com/changelog",
+      "final_url": "https://developer.xero.com/changelog",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:45:12Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1ae9ad5c509e0d76b9ae2b484053c41e56646491a453fa9e716e0c63514bd7bb",
+      "text_len": 20000
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.xero.com/faq/getting-started",
+        "quote": "The Xero API does not support basic API Key authentication. Our API uses OAuth 2.0",
+        "verified": true
+      },
+      {
+        "url": "https://developer.xero.com/",
+        "quote": "It utilises the client credentials grant type to provide a simplified, efficient developer experience.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developer.xero.com/pricing",
+        "quote": "Monthly Tier Fee | No charge | $35 AUD | $245 AUD | $1445 AUD | Price on Application",
+        "verified": true
+      },
+      {
+        "url": "https://developer.xero.com/",
+        "quote": "Sign up for a free account to build on the Xero platform.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer.xero.com/changelog",
+        "quote": "Accounting API - We've added a new optional, read-only CreatedDateUTC field to the Accounts endpoint responses",
+        "verified": true
+      },
+      {
+        "url": "https://developer.xero.com/ai",
+        "quote": "Xero's MCP Server, Command Line Interface, OpenAI Agents SDK and LangChain.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://developer.xero.com/faq/remote-mcp",
+        "quote": "https://api.xero.com/mcp/v1",
+        "verified": true
+      },
+      {
+        "url": "https://devblog.xero.com/the-xero-remote-mcp-is-now-generally-available-06008f6ab2a7",
+        "quote": "Remote MCP is Xero's official, supported server."
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.xero.com/faq/getting-started",
+        "quote": "The first step is to sign up for a free Xero account.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.xero.com/pricing",
+        "quote": "Starter | Core | Plus | Advanced | Enterprise",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developer.xero.com/",
+        "quote": "Tools and resources to help you build and test your Xero integration faster.",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [
+      {
+        "claim": "mcp",
+        "url": "https://devblog.xero.com/the-xero-remote-mcp-is-now-generally-available-06008f6ab2a7",
+        "reason": "quote not in page text"
+      }
+    ],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

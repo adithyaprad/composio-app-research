@@ -1,0 +1,399 @@
+{
+  "slug": "amazon-selling-partner",
+  "searches": [
+    {
+      "query": "Amazon Selling Partner API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api",
+          "title": "Connect to the SP-API",
+          "snippet": "Connect to the SP-API\n\n# Connect to the SP-API\n\nHow to connect to the SP-API.\n\nThese instructions show you the steps to connect to the Selling Partner API (SP-API). For links to additional examples, refer to SP-API SDKs.\n\nPrerequisites\n\nBefore your application can connect to SP-API, you must:\n\n- Reg"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/authorizing-selling-partner-api-applications",
+          "title": "Authorize Applications",
+          "snippet": "Authorize Applications\n\n# Authorize Applications\n\nLearn how to authorize SP-API applications.\n\nAuthorization is the process by which a selling partner grants your application permission to call the Selling Partner API (SP-API) on the selling partner's behalf. For example, when a selling partner auth"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/onboarding-step-6-set-up-the-authorization-workflow",
+          "title": "Step 6: Set up the Authorization Workflow",
+          "snippet": "Step 6: Set up the Authorization Workflow\n\n# Step 6: Set up the Authorization Workflow\n\nConfigure how sellers authorize your application to call the SP-API on their behalf.\n\nWhile the sandbox environment lets you explore the Selling Partner API (SP-API) functionality with test credentials, productio"
+        },
+        {
+          "url": "https://developer.amazonservices.com/start/getting-started-for-public-developers",
+          "title": "Getting started for public developers",
+          "snippet": "Getting Started with SP-API for Public Developers - Amazon Selling Partner API\n\n# Getting started for public developers\n\n## This guide is best suited for public developers getting started with Amazon SP-API\n\nStep 1: Learn about Public Developer Step 2: Read about SP-API roles and SP-API policies Ste"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/onboarding-step-8-call-the-sp-api-in-production",
+          "title": "Step 8: Call the SP-API in Production",
+          "snippet": "Step 8: Call the SP-API in Production\n\n# Step 8: Call the SP-API in Production\n\nConnect to the SP-API by using manual HTTP requests or an SDK.\n\nAfter you test your application in the sandbox as much as possible, connect to the Selling Partner API (SP-API) production endpoint by making direct HTTP re"
+        }
+      ]
+    },
+    {
+      "query": "Amazon Selling Partner developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api",
+          "title": "Connect to the SP-API",
+          "snippet": "Connect to the SP-API\n\n# Connect to the SP-API\n\nHow to connect to the SP-API.\n\nThese instructions show you the steps to connect to the Selling Partner API (SP-API). For links to additional examples, refer to SP-API SDKs.\n\nPrerequisites\n\nBefore your application can connect to SP-API, you must:\n\n- Reg"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api",
+          "title": "Selling Partner API",
+          "snippet": "Selling Partner API\n\n# Selling Partner API\n\nWelcome to Selling Partner API Documentation. Learn how to get started and build applications with Amazon's REST-based SP-API.\n\nSubscribe to updates via RSS feed.\n\n- Welcome to SP-API Documentation\n- What is the Selling Partner API?\n- Selling Partner API O"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/welcome",
+          "title": "Welcome to SP-API Documentation",
+          "snippet": "Welcome to SP-API Documentation\n\n# Welcome to SP-API Documentation\n\nInformation about how to use the SP-API documentation site, and quick links for SP-API content.\n\nWelcome to the Selling Partner API (SP-API) documentation site, where you can find multiple resources to help you integrate with SP-API"
+        },
+        {
+          "url": "https://developer.amazonservices.com/start/getting-started-for-private-developers",
+          "title": "Getting Started with SP-API for Private Developers - Amazon Selling Partner API",
+          "snippet": "Getting Started with SP-API for Private Developers - Amazon Selling Partner API\n\n# Getting started for private developers\n\n## Amazon Sellers can use SP-API to set up private integrations and build solutions exclusively for their Amazon store\n\nIntroduction What is Selling Partner API (SP-API)? Key Be"
+        },
+        {
+          "url": "https://developer-docs.amazon/sp-api/docs/amazon-seller-data-access",
+          "title": "Amazon Seller Data Access",
+          "snippet": "Amazon Seller Data Access\n\n# Amazon Seller Data Access\n\nSeller and third-party access to Amazon Seller (business user) data.\n\nSeller s that have a professional selling account and authorized third parties that are registered as Selling Partner API (SP-API) developer s can use the SP-API to programma"
+        }
+      ]
+    },
+    {
+      "query": "Amazon Selling Partner pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://sell.amazon.com/pricing",
+          "title": "How much does it cost to sell on Amazon? | Sell on Amazon",
+          "snippet": "How much does it cost to sell on Amazon? | Sell on Amazon\n\n# Standard selling fees\n\nOur standard selling fees provide you with access to a package of Amazon tools and programs that can help you optimize and grow your business. They’re divided into two basic types: selling plan fees and referral fees"
+        },
+        {
+          "url": "https://sell.amazon.com/blog/amazon-professional-vs-individual-selling-plan",
+          "title": "Amazon’s Individual selling plan vs Professional selling plan | Sell on Amazon - Sell on Amazon",
+          "snippet": "Amazon’s Individual selling plan vs Professional selling plan | Sell on Amazon - Sell on Amazon\n\n START What’s the difference between Amazon's Individual and Professional selling plans? How to choose an Amazon selling plan How to switch your Amazon selling plan Some notes about switching Tips for a "
+        },
+        {
+          "url": "https://www.aboutamazon.com/news/small-business/amazon-third-party-sellers-success",
+          "title": "Why many sellers call Amazon ‘the best bang for the buck’",
+          "snippet": "Why many sellers call Amazon ‘the best bang for the buck’\n\n# Many sellers say ‘Amazon’s definitely the best bang for the buck.' Here’s why. \n\nSellers can choose powerful add-on services from Amazon that drive their growth at a great price, enabling many sellers to make more money in Amazon’s store t"
+        },
+        {
+          "url": "https://www.amazon.com/sell-products-online/b?ie=UTF8&node=12766669011",
+          "title": "Sell Products Online with Selling on Amazon.",
+          "snippet": "Amazon.com: Sell Products Online with Selling on Amazon.\n\n# Sell with Amazon\n\n# Create an Amazon selling account\n\nGet 10% back on your first $50,000 in branded sales\n\n### In 2024, more than 55,000 independent sellers generated over $1 million in sales 1 \n\n### Answer three questions to learn how you "
+        },
+        {
+          "url": "https://sell.amazon.it/en/prezzi",
+          "title": "Amazon seller fees and plans | Amazon IT",
+          "snippet": "Amazon seller fees and plans | Amazon IT\n\n# Grow your business cost-effectively\n\nThe cost of selling on Amazon depends on your selling plan, product group, fulfilment strategy, and other variables. The options are flexible, so you can find the combination that best suits your needs and your goals.\n\n"
+        }
+      ]
+    },
+    {
+      "query": "Amazon Selling Partner official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://claude.com/marketplace/connectors/amazon-selling-partner",
+          "title": "Amazon Selling Partner connector | Claude by Anthropic",
+          "snippet": "Amazon Selling Partner connector | Claude by Anthropic\n\n# Amazon Selling Partner\n\nAmazon Selling Partner MCP\n\n`https://sellingpartner-ai.amazon.com/mcp`\n\nConnect your Amazon Seller Central account to Claude. Ask about sales, inventory, and listing performance and get recommendations grounded in your"
+        },
+        {
+          "url": "https://github.com/amzn/selling-partner-agentic-toolkit",
+          "title": "amzn/selling-partner-agentic-toolkit",
+          "snippet": "# amzn/selling-partner-agentic-toolkit\n\nSkills for managing an Amazon seller account via SP-API, through the Amazon Selling Partner Connector (MCP). Write actions are always human-in-the-loop (drafted for your approval).\n\n- Stars: 47\n- Forks: 6\n- Watchers: 47\n- Open issues: 3\n- License: Other\n- Defa"
+        },
+        {
+          "url": "https://developer.amazonservices.com/amazon-selling-partner-plugin",
+          "title": "Amazon Selling Partner plugin | Amazon Selling Partner API",
+          "snippet": "Amazon Selling Partner plugin | Amazon Selling Partner API\n\n# Amazon Selling Partner plugin\n\nAsk about your business in plain language. Get answers from your live Amazon Seller Central data.\n\n## What is the Selling Partner plugin?\n\nSellers can bring the intelligence behind Seller Assistant, its reas"
+        },
+        {
+          "url": "https://sell.amazon.com/blog/announcements/amazons-selling-partner-plugin-ads-mcp",
+          "title": "Preparing for the 2026 Holiday Shopping Season with Amazon's Selling Partner plugin &amp; Ads MCP - Sell on Amazon",
+          "snippet": "Preparing for the 2026 Holiday Shopping Season with Amazon's Selling Partner plugin & Ads MCP - Sell on Amazon\n\n START AWS Quick: The AI companion that brings it all together What is the Amazon Selling Partner plugin? Holiday use cases for the Selling Partner plugin What is the Amazon Ads MCP Server"
+        },
+        {
+          "url": "https://www.datadoe.com/blog-posts/amazon-selling-partner-plugin-claude",
+          "title": "Amazon Selling Partner Plugin for Claude Explained | DataDoe",
+          "snippet": "Amazon Selling Partner Plugin for Claude Explained | DataDoe\n\nSeptember 24, 2026\n\n# Amazon Selling Partner Plugin for Claude: Amazon’s Official Selling Partner MCP Explained\n\nThe Amazon Selling Partner plugin (Amazon Selling Partner MCP) brings Seller Assistant into Claude. Setup, skills, limits, an"
+        }
+      ]
+    },
+    {
+      "query": "site:developer-docs.amazon.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://developer-docs.amazon.com/sp-api/docs/fulfillment-outbound-api",
+          "title": "Fulfillment Outbound API",
+          "snippet": "Fulfillment Outbound API\n\n# Fulfillment Outbound API\n\nLearn how to use the Fulfillment Outbound API.\n\nYou use the Fulfillment Outbound API to retrieve information about Multi-Channel Fulfillment (MCF) orders in Amazon's fulfillment network. You can create applications that help a seller fulfill Mult"
+        },
+        {
+          "url": "https://developer-docs.amazon.com/sp-api/",
+          "title": "Selling Partner API",
+          "snippet": "Selling Partner API\n\n### Get Started\n\n- Welcome to SP-API Documentation\n- What is the Selling Partner API?\n- Selling Partner API Onboarding Overview\n- View More…\n\n### Changelog\n\n- SP-API Release Notes\n- SP-API Deprecation Schedule\n- SP-API Product Metadata Updates\n\n### Directories\n\n- SP-API Models\n-"
+        },
+        {
+          "url": "https://developer-docs.amazon.com/sp-api/lang-en_EN/docs/create-mcf-return",
+          "title": "Create a return for an MCF order",
+          "snippet": "Create a return for an MCF order\n\n# Create a return for an MCF order\n\nLearn how to create a return for an MCF order.\n\nMCF order returns are comprised of three steps:\n\n1. Getting the return reason codes\n2. Submitting the return using one of the codes\n3. Returning the object\n\nCurrently, MCF expects th"
+        },
+        {
+          "url": "https://developer-docs.amazon.com/sp-api/lang-US/docs/create-orders-with-blank-box-and-block-amzl",
+          "title": "Create orders with Blank Box and Block AMZL features requested",
+          "snippet": "Create orders with Blank Box and Block AMZL features requested\n\n# Create orders with Blank Box and Block AMZL features requested\n\nLearn how to create orders with Blank Box and Block AMZL features requested.\n\nLearn how to create orders with Blank Box and Block AMZL features requested.\n\nWhen creating "
+        },
+        {
+          "url": "https://developer-docs.amazon.com/amazon-shipping/docs/what-is-the-selling-partner-api",
+          "title": "What is the Selling Partner API?",
+          "snippet": "# What is the Selling Partner API?\n\nThis topic describes the REST-based Selling Partner API.\n\nThe Selling Partner API (SP-API) is a REST-based API that helps Amazon selling partners programmatically access their data on orders, shipments, payments, and much more. Applications using the SP-API can in"
+        }
+      ]
+    },
+    {
+      "query": "site:amazon.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/mcp-strategies/what-is-mcp.html",
+          "title": "What is MCP? - AWS Prescriptive Guidance",
+          "snippet": "What is MCP? - AWS Prescriptive Guidance\n\n# What is MCP?\n\nLLMs work by predicting an answer to a prompt based on their training data. This means that the LLM can only provide answers about data and events it has already seen. Methods like Retrieval Augmented Generation (RAG) and knowledge bases allo"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/mcp-deployment-patterns-on-aws/what-is-the-model-context-protocol-mcp.html",
+          "title": "",
+          "snippet": "What is the Model Context Protocol (MCP)? - AWS Prescriptive Guidance\n\nOverview Why MCP Matters Key Benefits\n\n# What is the Model Context Protocol (MCP)?\n\n## Overview\n\nThe Model Context Protocol (MCP) is an open protocol introduced by Anthropic that enables integration between large language model ("
+        },
+        {
+          "url": "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/qdev-mcp-overview.html",
+          "title": "",
+          "snippet": "# MCP overview\n\nMCP (Model Context Protocol) is an open protocol that standardizes how AI assistants communicate with external tools. It defines a structured way for AI models to discover available tools, request tool execution with specific parameters, and receive and process tool results.\n\nThink o"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/getting-started-with-mcp.html",
+          "title": "",
+          "snippet": "Getting started with MCP - AWS Prescriptive Guidance\n\n# Getting started with MCP\n\nAWS actively supports the Model Context Protocol (MCP) through contributions to the protocol's development and implementation. AWS is collaborating with leading open-source agent frameworks, including LangGraph, CrewAI"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/mcp-strategies/introduction.html",
+          "title": "Model Context Protocol strategies on AWS - AWS Prescriptive Guidance",
+          "snippet": "Model Context Protocol strategies on AWS - AWS Prescriptive Guidance\n\n# Model Context Protocol strategies on AWS\n\nAlex Torres (AWS), Sreeja Das, Saikat Gomes, and Mike Haken, Amazon Web Services\n\nThis guide can help you develop and implement Model Context Protocol (MCP) strategies across your organi"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://developer-docs.amazon.com/sp-api",
+      "final_url": "https://developer-docs.amazon.com/sp-api/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:11Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7effa604a9fca7af93bc6b6f3f9cfbe9ef156d34349ad7a2d4f88bec42db7b48",
+      "text_len": 5175
+    },
+    {
+      "requested_url": "https://developer.amazonservices.com/start/getting-started-for-public-developers",
+      "final_url": "https://developer.amazonservices.com/start/getting-started-for-public-developers",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "24e02097b49b52487ec2328b088143131099e1f41c076d6d4153f933c27d64d0",
+      "text_len": 3444
+    },
+    {
+      "requested_url": "https://developer-docs.amazon/sp-api",
+      "final_url": "https://developer-docs.amazon/sp-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:05Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "fc303d0ad622c642c8c29a1a5fa43ad42358eb53ce1102108fff4401253c67ef",
+      "text_len": 4105
+    },
+    {
+      "requested_url": "https://sell.amazon.com/pricing",
+      "final_url": "https://sell.amazon.com/pricing",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:09Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "b96e9d35cebf146053a4034010646f356c1baf68fac07a1d08c6abb46783db37",
+      "text_len": 5460
+    },
+    {
+      "requested_url": "https://sell.amazon.com/blog/announcements/amazons-selling-partner-plugin-ads-mcp",
+      "final_url": "https://sell.amazon.com/blog/announcements/amazons-selling-partner-plugin-ads-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:10Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "4b683cc28286c6b44af7c9d185c0c6100b2e46505ba6d98bd5b55a749e38cf79",
+      "text_len": 11681
+    },
+    {
+      "requested_url": "https://developer-docs.amazon.com/amazon-shipping/docs/what-is-the-selling-partner-api",
+      "final_url": "https://developer-docs.amazon.com/amazon-shipping/docs/what-is-the-selling-partner-api",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:11Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "114a21ea03f1ff4367af07f6744ca1d1d295bb15436eab37845b4caffb27b246",
+      "text_len": 1016
+    },
+    {
+      "requested_url": "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/qdev-mcp-overview.html",
+      "final_url": "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/qdev-mcp-overview.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "77e81330738982c6ca21fd3263119e6e4a469810b32dff31ef126d0fe7c7d71a",
+      "text_len": 580
+    },
+    {
+      "requested_url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/getting-started-with-mcp.html",
+      "final_url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/getting-started-with-mcp.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "bfa25d6fd8c0dd493d04dce4876ca832daf40d4c99ded81755f08d73dfac1858",
+      "text_len": 1736
+    },
+    {
+      "requested_url": "https://developer-docs.amazon.com/llms.txt",
+      "final_url": "https://developer-docs.amazon.com/llms.txt",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:16Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "e4fb6d79faa45c03fe6a6e2cb7744af368af7b75670040a66e9ffc0ddaaa760d",
+      "text_len": 20000
+    },
+    {
+      "requested_url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/mcp-strategies/what-is-mcp.html",
+      "final_url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/mcp-strategies/what-is-mcp.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "26b7dcc92368d20aaa9028a3dab050ed552df0325b4ba5d172ee0db31d1bd7b3",
+      "text_len": 10973
+    },
+    {
+      "requested_url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/mcp-deployment-patterns-on-aws/what-is-the-model-context-protocol-mcp.html",
+      "final_url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/mcp-deployment-patterns-on-aws/what-is-the-model-context-protocol-mcp.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "1787e02b35fbd978a64ac5cc7bdb469a7379ceb5751a93ba3c41bb73d805262b",
+      "text_len": 5238
+    },
+    {
+      "requested_url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/mcp-strategies/introduction.html",
+      "final_url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/mcp-strategies/introduction.html",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:40:13Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e91934ae6471fc388c224ec98548f7814e348341a6c5110c4c65ebcfee159dd5",
+      "text_len": 7325
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://developer.amazonservices.com/start/getting-started-for-public-developers",
+        "quote": "The authorization model for the Selling Partner API is based on Login with Amazon, Amazon’s implementation of OAuth 2.0.",
+        "verified": true
+      },
+      {
+        "url": "https://developer-docs.amazon.com/amazon-shipping/docs/what-is-the-selling-partner-api",
+        "quote": "Set up an OAuth authorization workflow that selling partners initiate from the Selling Partner Appstore detail page or from your own website.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://developer.amazonservices.com/start/getting-started-for-public-developers",
+        "quote": "you must request and qualify for a particular role, or you will not be able to access the operations and resources grouped under that role.",
+        "verified": true
+      },
+      {
+        "url": "https://developer.amazonservices.com/start/getting-started-for-public-developers",
+        "quote": "public developers must list their app in the Amazon Selling Partner Appstore",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://developer-docs.amazon.com/amazon-shipping/docs/what-is-the-selling-partner-api",
+        "quote": "The Selling Partner API (SP-API) is a REST-based API that helps Amazon selling partners programmatically access their data on orders, shipments, payments, and much more.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://sell.amazon.com/blog/announcements/amazons-selling-partner-plugin-ads-mcp",
+        "quote": "the Selling Partner plugin is currently in beta for US stores.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://developer.amazonservices.com/start/getting-started-for-public-developers",
+        "quote": "must go through an architecture review with the SP-API Solutions Architecture team.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://developer-docs.amazon.com/sp-api/",
+        "quote": "Selling Partner API",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}

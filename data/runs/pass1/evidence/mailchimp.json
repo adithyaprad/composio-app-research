@@ -1,0 +1,325 @@
+{
+  "slug": "mailchimp",
+  "searches": [
+    {
+      "query": "Mailchimp API authentication",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication",
+          "title": "Authentication",
+          "snippet": "> This page is for Mailchimp Marketing API.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# Authentication\n\n> Choose between an API key and an OAuth 2 access token, then attach it to a request.\n\nEve"
+        },
+        {
+          "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication/oauth-2",
+          "title": "OAuth 2",
+          "snippet": "> This page is for Mailchimp Marketing API.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# OAuth 2\n\n> How Mailchimp's OAuth 2 flow works, and what your application gets from it.\n\nOAuth 2 lets your "
+        },
+        {
+          "url": "https://mailchimp.com/developer/marketing/guides/quick-start/",
+          "title": "Marketing API Quick Start Guide | Mailchimp Developer",
+          "snippet": "Marketing API Quick Start Guide | Mailchimp Developer\n\n## At a glance\n\nThis guide will give you everything you need to start using the Mailchimp Marketing API to manage audiences, control automation workflows, sync email activity with your database, and more. We’ll walk through generating your API k"
+        },
+        {
+          "url": "https://mailchimp.com/developer/marketing/build/start-developing/set-up-an-oauth-app",
+          "title": "Set up an OAuth app",
+          "snippet": "> This page is for Mailchimp Marketing API.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# Set up an OAuth app\n\n> Register an application, implement the OAuth 2 flow on your server, and rotate a cl"
+        },
+        {
+          "url": "https://mailchimp.com/help/about-api-keys/",
+          "title": "About API Keys | Mailchimp",
+          "snippet": "About API Keys | Mailchimp\n\n# About API Keys \n\nIn this article, we'll cover what an API is and how to generate an API key to grant access to your Mailchimp account. We’ll also cover where to go for support with questions about the Mailchimp Marketing API.\n\nNote\n\nThis article refers only to API keys "
+        }
+      ]
+    },
+    {
+      "query": "Mailchimp developer API access documentation",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication",
+          "title": "Authentication",
+          "snippet": "> This page is for Mailchimp Marketing API.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# Authentication\n\n> Choose between an API key and an OAuth 2 access token, then attach it to a request.\n\nEve"
+        },
+        {
+          "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+          "title": "Fundamentals Documentation | Mailchimp Developer",
+          "snippet": "Fundamentals Documentation | Mailchimp Developer\n\n## The basics\n\nThe Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audienc"
+        },
+        {
+          "url": "https://mailchimp.com/developer/marketing",
+          "title": "Power your campaigns with our marketing engine",
+          "snippet": "> This page is for Mailchimp Marketing API.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# Power your campaigns with our marketing engine | Mailchimp Developer\n\n# Mailchimp Marketing API\n\n## Power "
+        },
+        {
+          "url": "https://mailchimp.com/help/about-api-keys/",
+          "title": "About API Keys",
+          "snippet": "About API Keys | Mailchimp\n\n# About API Keys \n\nIn this article, we'll cover what an API is and how to generate an API key to grant access to your Mailchimp account. We’ll also cover where to go for support with questions about the Mailchimp Marketing API.\n\nNote\n\nThis article refers only to API keys "
+        },
+        {
+          "url": "https://mailchimp.com/developer/marketing/api-concepts/api-structure",
+          "title": "API structure - Mailchimp Developer Documentation",
+          "snippet": "> This page is for Mailchimp Marketing API.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# API structure\n\n> How the Marketing API is organized—REST conventions and the root URL.\n\nThe Marketing API "
+        }
+      ]
+    },
+    {
+      "query": "Mailchimp pricing plans free trial signup",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://mailchimp.com/pricing/marketing/",
+          "title": "Mailchimp Pricing Plans | Get Started Today | Mailchimp",
+          "snippet": "Mailchimp Pricing Plans | Get Started Today | Mailchimp\n\n## Standard \n\n Send up to 6,000 emails each month. \n\n Free for 14 days \n\n Then, starts at 0/month† per month† \n\n Then, starts at /month† per month† \n\n Larger contact list? Call +1 (800) 330-4838 (18003304838) for custom pricing, annual plans, "
+        },
+        {
+          "url": "https://login.mailchimp.com/signup/",
+          "title": "Sign Up for Mailchimp",
+          "snippet": "Sign Up for Mailchimp\n\n# Sign up for Mailchimp \n\n Create a free account or log in. By creating an account, you agree to our Terms and have read and acknowledged the Global Privacy Statement."
+        },
+        {
+          "url": "https://mailchimp.com/help/about-mailchimp-pricing-plans/",
+          "title": "About Mailchimp Pricing Plans",
+          "snippet": "About Mailchimp Pricing Plans | Mailchimp\n\n# About Mailchimp Pricing Plans \n\nMailchimp offers several monthly pricing plans to get your business up and running. We also offer a Pay As You Go alternative, as well as add-on features to supplement your plan. Estimate your costs on our pricing page.\n\nIn"
+        },
+        {
+          "url": "https://mailchimp.com/",
+          "title": "Email & SMS Marketing Platform | Mailchimp",
+          "snippet": "Email & SMS Marketing Platform | Mailchimp\n\n# Turn ideas into emails & SMS that connect \n\nMailchimp with Intuit Intelligence can help surface your next opportunity, like winning back customers who’ve gone quiet.\n\nMailchimp has a four and half star rating\n\n *Based on 33,000+ reviews across \n\nTake an "
+        },
+        {
+          "url": "https://mailchimp.com/help/create-an-account/",
+          "title": "How to Create an Account | Mailchimp",
+          "snippet": "How to Create an Account | Mailchimp\n\n# How to Create an Account \n\nMailchimp's features and integrations allow you to create great looking campaigns and manage your audience.\n\nIn this article, you'll learn what you need to get started with Mailchimp, and how to sign up for a free account.\n\n## Before"
+        }
+      ]
+    },
+    {
+      "query": "Mailchimp official MCP server",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp",
+          "title": "How to Use Mailchimp's Transactional Messaging MCP",
+          "snippet": "> This page is for Mailchimp Transactional.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# How to Use Mailchimp's Transactional Messaging MCP\n\n> Learn how to use Mailchimp's transactional messaging"
+        },
+        {
+          "url": "https://www.martechdevs.com/marketing-mcp-servers/mailchimp",
+          "title": "Mailchimp MCP: Official Servers, Setup, Limits | martechdevs",
+          "snippet": "Mailchimp MCP: Official Servers, Setup, Limits | martechdevs\n\n# Mailchimp MCP\n\nIntuit Mailchimp publishes three MCP servers, and each does a different job. The Claude connector plans campaigns and saves them as drafts in your account. The Transactional server at `https://mandrillapp.com/mcp` reaches"
+        },
+        {
+          "url": "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server/",
+          "title": "MCP server",
+          "snippet": "> This page is for Mailchimp Marketing API.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# MCP server\n\n> Query these docs from an AI agent through the Model Context Protocol.\n\n> Note\n> \n> This sear"
+        },
+        {
+          "url": "https://mailchimp.com/marketing/build/ai-tools/agent-skills",
+          "title": "Agent skills",
+          "snippet": "> This page is for Mailchimp Marketing API.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# Agent skills\n\n> Install Mailchimp's agent skills so your coding agent calls the Marketing API correctly.\n\n"
+        },
+        {
+          "url": "https://replamail.com/mailchimp-mcp/",
+          "title": "Mailchimp MCP: The Official Connector and the Alternatives",
+          "snippet": "Mailchimp MCP: The Official Connector and the Alternatives\n\n# Mailchimp MCP: the official connector, what it does, and the alternatives\n\nMailchimp has an official connector for Claude now. What its twelve tools do, who can use it, what it cannot do, the Transactional server, and the community Mailch"
+        }
+      ]
+    },
+    {
+      "query": "site:mailchimp.com MCP",
+      "provider": "exa",
+      "results": [
+        {
+          "url": "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server/",
+          "title": "MCP server",
+          "snippet": "> This page is for Mailchimp Marketing API.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# MCP server\n\n> Query these docs from an AI agent through the Model Context Protocol.\n\n> Note\n> \n> This sear"
+        },
+        {
+          "url": "https://mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp/",
+          "title": "How to Use Mailchimp's Transactional Messaging MCP",
+          "snippet": "> This page is for Mailchimp Transactional.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# How to Use Mailchimp's Transactional Messaging MCP\n\n> Learn how to use Mailchimp's transactional messaging"
+        },
+        {
+          "url": "https://mailchimp.com/developer/marketing/build/ai-tools",
+          "title": "Overview",
+          "snippet": "> This page is for Mailchimp Marketing API.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# Overview\n\n> How AI agents and assistants work with the Mailchimp Marketing API.\n\nIf you're coding against "
+        },
+        {
+          "url": "https://mailchimp.com/legal/api_use/",
+          "title": "Mailchimp's API Use Policy | Mailchimp",
+          "snippet": "Mailchimp's API Use Policy | Mailchimp\n\n# API Use Policy\n\nUpdated November 19, 2026\n\nThank you for using the Mailchimp application program interfaces (\"APIs\"), Model Context Protocol server (\"MCP Server\"), and related capabilities (collectively, the \"Integration Interfaces\"). By accessing or using t"
+        },
+        {
+          "url": "https://mailchimp.com/developer/marketing/build/ai-tools/agent-skills",
+          "title": "Agent skills",
+          "snippet": "> This page is for Mailchimp Marketing API.\n\n> For clean Markdown of any page, append .md to the page URL.\n> For a complete documentation index, see https://mailchimp.com/developer/llms.txt.\n\n# Agent skills\n\n> Install Mailchimp's agent skills so your coding agent calls the Marketing API correctly.\n\n"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "requested_url": "https://mailchimp.com/developer",
+      "final_url": "https://mailchimp.com/developer",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:59Z",
+      "error": null,
+      "method": "exa_text",
+      "text_source_url": null,
+      "sha256": "93d169c59f89e5ab59dcbc22672158ce6bbc16121b7dfb21711dcf5838e8183b",
+      "text_len": 2472
+    },
+    {
+      "requested_url": "https://mailchimp.com/developer/marketing/api-concepts/authentication/oauth-2",
+      "final_url": "https://mailchimp.com/developer/marketing/api-concepts/authentication/oauth-2",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "cbc59b95551c4ad778e1abeb0666126c0bd8bf01adadc0e3f6680adf3120aa27",
+      "text_len": 2487
+    },
+    {
+      "requested_url": "https://mailchimp.com/developer/marketing/api-concepts/authentication",
+      "final_url": "https://mailchimp.com/developer/marketing/api-concepts/authentication",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "d2a13c9fa291d65ee5dba95b6b2386518612aa5f78b6644ee4c5e43f66bc5ce0",
+      "text_len": 2881
+    },
+    {
+      "requested_url": "https://mailchimp.com/pricing/marketing/",
+      "final_url": "https://mailchimp.com/pricing/marketing/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:55Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "ea9812483f4a844e6267d7c6449e72ec0899329c1660b03120d49356dd91eb97",
+      "text_len": 15083
+    },
+    {
+      "requested_url": "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server/",
+      "final_url": "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "e06c06e88b02331ae01132025d9af76b1c19d14818b814a0a3ac1b635a113b19",
+      "text_len": 3063
+    },
+    {
+      "requested_url": "https://mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp",
+      "final_url": "https://mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:57Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "782e45a6ba1f97aaab87715754331787f27b4cfe16e80b6b9866babebf1c3a96",
+      "text_len": 3917
+    },
+    {
+      "requested_url": "https://mailchimp.com/developer/marketing/build/start-developing/set-up-an-oauth-app",
+      "final_url": "https://mailchimp.com/developer/marketing/build/start-developing/set-up-an-oauth-app",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:54Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "7b4756a10a3341746a2ad19e63ea358cb0ca3ffaeefacdffc6347122f05cced3",
+      "text_len": 13708
+    },
+    {
+      "requested_url": "https://login.mailchimp.com/signup/",
+      "final_url": "https://login.mailchimp.com/signup/",
+      "status": 200,
+      "provider": "exa",
+      "fetched_at": "2026-11-23T13:37:55Z",
+      "error": null,
+      "method": "exa_search",
+      "text_source_url": null,
+      "sha256": "efc4073c300a27cd920392d6efd0656abc379619c255e43cc08bb597cbbdd31b",
+      "text_len": 190
+    }
+  ],
+  "snippets": {
+    "auth": [
+      {
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication",
+        "quote": "You can use either HTTP Basic Authentication or Bearer Authentication.",
+        "verified": true
+      },
+      {
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication/oauth-2",
+        "quote": "OAuth 2 lets your application access Marketing API data on behalf of another Mailchimp user, without ever handling their credentials.",
+        "verified": true
+      }
+    ],
+    "access": [
+      {
+        "url": "https://mailchimp.com/pricing/marketing/",
+        "quote": "If your business has fewer than 250 contacts, try our basic Free plan.",
+        "verified": true
+      },
+      {
+        "url": "https://login.mailchimp.com/signup/",
+        "quote": "Create a free account or log in.",
+        "verified": true
+      }
+    ],
+    "api_surface": [
+      {
+        "url": "https://mailchimp.com/developer",
+        "quote": "Mailchimp’s Marketing API powers timely, relevant marketing campaigns with custom data pulled directly from your app.",
+        "verified": true
+      }
+    ],
+    "mcp": [
+      {
+        "url": "https://mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp",
+        "quote": "The MCP server URL is https://mandrillapp.com/mcp.",
+        "verified": true
+      },
+      {
+        "url": "https://mailchimp.com/developer/marketing/build/ai-tools/mcp-server/",
+        "quote": "This searches documentation, not your Mailchimp account.",
+        "verified": true
+      }
+    ],
+    "verdict": [
+      {
+        "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication",
+        "quote": "it's the fastest way to make a first request.",
+        "verified": true
+      }
+    ],
+    "one_liner": [
+      {
+        "url": "https://mailchimp.com/developer",
+        "quote": "Mailchimp Transactional (formerly Mandrill) sends targeted and event-driven messages via the API or SMTP",
+        "verified": true
+      }
+    ]
+  },
+  "checks": {
+    "dropped_evidence": [],
+    "unverified_snippets": [],
+    "unfetched_urls": [],
+    "warnings": [],
+    "retried": false,
+    "validation_errors": []
+  }
+}
