@@ -21,6 +21,7 @@ This is a take-home style research pipeline, not a production product.
 - `agent/` — research agent CLI (`python -m agent run`): `llm/` provider adapters, `tools/` search/fetch providers, `research.py` loop, `validate.py` schema + consistency + evidence checks, `prompts.py`; pass-2 reviewer (`python -m agent review`): `review.py` loop, `review_rules.py` rule checklist; pass-3 browser check (`python -m agent browse`): `browse_flags.py` selector, `browse.py` loop; `human.py` needs_human flags, spot check and final export; `pipeline.py` one-command `python -m agent all`
 - `tests/` — offline unit tests (LLM and tools mocked)
 - `data/runs/<run_id>/` — agent outputs
+- `scripts/patterns.py` → `data/patterns/` — distributions, cross-tabs and headline patterns across the final 100 rows, with gold/holdout field caveats
 - `.agents/skills/composio/` — Composio skill used when building the research agent
 
 ## Status
@@ -113,7 +114,7 @@ There are five points where a person, not the agent, makes the call:
    | `browse_unresolved` | 0 | a flagged row whose browser check was `kept` / `failed`, or had no usable rendered page |
 
    One line per row is in `needs_human.jsonl`: `needs_human`, the short `reason`, each reason id with its detail, confidence, access, verdict and the evidence URLs.
-5. **10-row spot check.** `data/runs/pass3/spot_check_10.md` (and `.json`) is a fixed-seed (`42`) random sample of 10 final rows. The 20 gold and 10 holdout apps are excluded (30 rows). For each row it lists the deciding fields, the `needs_human` flag, notes, evidence URLs with their quoted snippets, and browser screenshots, followed by two unticked boxes (`Confirmed against official docs` / `Needs correction`). Its status is `pending_human_check`. **It is not self-graded**: the boxes are left for a person to tick against the vendor's docs.
+5. **10-row spot check.** `data/runs/pass3/spot_check_10.md` (and `.json`) is a fixed-seed (`42`) random sample of 10 final rows. The 20 gold and 10 holdout apps are excluded (30 rows). For each row it lists the deciding fields, the `needs_human` flag, notes, evidence URLs with their quoted snippets, and browser screenshots, followed by two boxes (`Confirmed against official docs` / `Needs correction`). `agent/human.py` writes it as `pending_human_check` with the boxes unticked; the agent never grades it. **The check was completed on 2026-11-23** (status `human_checked`, reviewer: human reviewer). Method: opened the evidence link and compared it to the claim. Result: **10/10 rows and 40/40 claims confirmed** (auth, access, mcp and verdict per row). Scope: 10 random rows outside gold and holdout, checked by one person; this supports but does not prove accuracy on the 100.
 
 ### Scoring
 

@@ -1,5 +1,15 @@
 {
-  "status": "pending_human_check",
+  "status": "human_checked",
+  "checked_at": "2026-11-23",
+  "reviewer": "human reviewer",
+  "method": "opened the evidence link and compared it to the claim",
+  "result": {
+    "rows_checked": 10,
+    "rows_correct": 10,
+    "claims_checked": 40,
+    "claims_correct": 40
+  },
+  "scope_note": "10 random rows outside gold and holdout, checked by one person; supports but does not prove accuracy on the 100.",
   "seed": 42,
   "n": 10,
   "population": 100,
@@ -124,9 +134,15 @@
         "screenshots/copper/04-8c5719c51a.jpg"
       ],
       "human_check": {
-        "confirmed": null,
-        "needs_correction": null,
-        "notes": ""
+        "confirmed": true,
+        "needs_correction": false,
+        "notes": "",
+        "claims": {
+          "auth": "right",
+          "access": "right",
+          "mcp": "right",
+          "verdict": "right"
+        }
       }
     },
     {
@@ -246,9 +262,15 @@
         "screenshots/amazon-selling-partner/04-70a7c17549.jpg"
       ],
       "human_check": {
-        "confirmed": null,
-        "needs_correction": null,
-        "notes": ""
+        "confirmed": true,
+        "needs_correction": false,
+        "notes": "",
+        "claims": {
+          "auth": "right",
+          "access": "right",
+          "mcp": "right",
+          "verdict": "right"
+        }
       }
     },
     {
@@ -384,9 +406,15 @@
         "screenshots/liveagent/04-e0d114bad8.jpg"
       ],
       "human_check": {
-        "confirmed": null,
-        "needs_correction": null,
-        "notes": ""
+        "confirmed": true,
+        "needs_correction": false,
+        "notes": "",
+        "claims": {
+          "auth": "right",
+          "access": "right",
+          "mcp": "right",
+          "verdict": "right"
+        }
       }
     },
     {
@@ -496,9 +524,15 @@
         "screenshots/jira/03-f06af199ca.jpg"
       ],
       "human_check": {
-        "confirmed": null,
-        "needs_correction": null,
-        "notes": ""
+        "confirmed": true,
+        "needs_correction": false,
+        "notes": "",
+        "claims": {
+          "auth": "right",
+          "access": "right",
+          "mcp": "right",
+          "verdict": "right"
+        }
       }
     },
     {
@@ -614,9 +648,15 @@
         "screenshots/higgsfield/04-671af07ffc.jpg"
       ],
       "human_check": {
-        "confirmed": null,
-        "needs_correction": null,
-        "notes": ""
+        "confirmed": true,
+        "needs_correction": false,
+        "notes": "",
+        "claims": {
+          "auth": "right",
+          "access": "right",
+          "mcp": "right",
+          "verdict": "right"
+        }
       }
     },
     {
@@ -743,9 +783,15 @@
         "screenshots/devin/04-7ceea0f5a5.jpg"
       ],
       "human_check": {
-        "confirmed": null,
-        "needs_correction": null,
-        "notes": ""
+        "confirmed": true,
+        "needs_correction": false,
+        "notes": "",
+        "claims": {
+          "auth": "right",
+          "access": "right",
+          "mcp": "right",
+          "verdict": "right"
+        }
       }
     },
     {
@@ -835,9 +881,15 @@
       ],
       "screenshots": [],
       "human_check": {
-        "confirmed": null,
-        "needs_correction": null,
-        "notes": ""
+        "confirmed": true,
+        "needs_correction": false,
+        "notes": "",
+        "claims": {
+          "auth": "right",
+          "access": "right",
+          "mcp": "right",
+          "verdict": "right"
+        }
       }
     },
     {
@@ -925,9 +977,15 @@
       ],
       "screenshots": [],
       "human_check": {
-        "confirmed": null,
-        "needs_correction": null,
-        "notes": ""
+        "confirmed": true,
+        "needs_correction": false,
+        "notes": "",
+        "claims": {
+          "auth": "right",
+          "access": "right",
+          "mcp": "right",
+          "verdict": "right"
+        }
       }
     },
     {
@@ -1064,9 +1122,15 @@
       ],
       "screenshots": [],
       "human_check": {
-        "confirmed": null,
-        "needs_correction": null,
-        "notes": ""
+        "confirmed": true,
+        "needs_correction": false,
+        "notes": "",
+        "claims": {
+          "auth": "right",
+          "access": "right",
+          "mcp": "right",
+          "verdict": "right"
+        }
       }
     },
     {
@@ -1159,9 +1223,15 @@
         "screenshots/sherlock/02-0fad000af5.jpg"
       ],
       "human_check": {
-        "confirmed": null,
-        "needs_correction": null,
-        "notes": ""
+        "confirmed": true,
+        "needs_correction": false,
+        "notes": "",
+        "claims": {
+          "auth": "right",
+          "access": "right",
+          "mcp": "right",
+          "verdict": "right"
+        }
       }
     }
   ]
