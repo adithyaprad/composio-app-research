@@ -34,3 +34,15 @@ These are still in the 100, and the agent must research them. They are just not 
 - **Amazon Selling Partner** — a strong gated-access example, but WhatsApp, LinkedIn Ads, and PitchBook already cover that pattern in the 20.
 
 If a listed gold app later proves unlabelable, withdraw it and disclose that in the write-up. Do not silently swap in a replacement after pass 1.
+
+## Labels
+
+Hand-written gold rows live in `gold_sample.jsonl` (one schema-valid object per line). They were filled from official vendor docs, without looking at agent output for these apps. Optional gold-only keys (`label_notes`, `acceptable`, `acceptable_alternatives`) record judgement calls and are stripped before schema validation. Score a run with:
+
+```bash
+.venv/bin/python scripts/score_gold.py --run-dir data/runs/pass1 --gold schema/gold_sample.jsonl --out-dir data/scores
+.venv/bin/python scripts/score_gold.py --validate-gold
+```
+
+Reports are written to `data/scores/<run_id>.json` and `data/scores/<run_id>.md`.
+
