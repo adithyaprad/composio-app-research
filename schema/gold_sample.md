@@ -37,7 +37,7 @@ If a listed gold app later proves unlabelable, withdraw it and disclose that in 
 
 ## Labels
 
-Hand-written gold rows live in `gold_sample.jsonl` (one schema-valid object per line). They were filled from official vendor docs, without looking at agent output for these apps. Optional gold-only keys (`label_notes`, `acceptable`, `acceptable_alternatives`) record judgement calls and are stripped before schema validation. Score a run with:
+Hand-written gold rows live in `gold_sample.jsonl` (one schema-valid object per line). They were filled from official vendor docs, without looking at agent output for these apps. After pass 1, the labels were audited again against official docs only (not agent rows); changes and confirmations are in `GOLD_AUDIT.md`. Optional gold-only keys (`label_notes`, `acceptable`, `acceptable_alternatives`) record judgement calls and are stripped before schema validation. Score a run with:
 
 ```bash
 .venv/bin/python scripts/score_gold.py --run-dir data/runs/pass1 --gold schema/gold_sample.jsonl --out-dir data/scores
