@@ -1,5 +1,6 @@
 """CLI: python -m agent run [--apps a,b] [--limit N] [--run-id ID] [--concurrency 3] [--max-pages 8]
-       python -m agent review --from-run ID [--run-id ID2] [--apps a,b] [--limit N] [--concurrency 3]"""
+       python -m agent review --from-run ID [--run-id ID2] [--apps a,b] [--limit N] [--concurrency 3]
+       python -m agent browse --from-run ID [--run-id ID3] [--apps a,b] [--limit N] [--concurrency 1]"""
 
 from __future__ import annotations
 
@@ -41,6 +42,21 @@ def build_parser() -> argparse.ArgumentParser:
     v.add_argument("--dry-run", action="store_true", help="offline: fake LLM + fake search/fetch, no keys needed")
     v.add_argument("--out-dir", type=Path, default=RUNS_DIR, help="parent folder for runs (default data/runs)")
     v.add_argument("-v", "--verbose", action="store_true")
+
+    b = sub.add_parser("browse", help="pass 3: open the real pages of still-unsure rows in a browser (local "
+                                      "Chromium, Browser Use Cloud only for blocked pages) and confirm or "
+                                      "correct only the flagged fields")
+    src = b.add_mutually_exclusive_group(required=True)
+    src.add_argument("--from-run", help="run id under --out-dir whose rows.jsonl (and evidence/) is checked")
+    src.add_argument("--from-dir", type=Path, help="path to a run folder with rows.jsonl (and evidence/)")
+    b.add_argument("--apps", help="comma-separated slugs (default: every row in the input run)")
+    b.add_argument("--limit", type=int, help="check at most N rows (after --apps filtering)")
+    b.add_argument("--run-id", help="output folder name; reuse it to resume (default: browse-<UTC timestamp>)")
+    b.add_argument("--concurrency", type=int, default=1, help="rows checked in parallel (default 1; browsers "
+                                                                "are heavy)")
+    b.add_argument("--dry-run", action="store_true", help="offline: fake LLM + fake browser, no Chrome or keys")
+    b.add_argument("--out-dir", type=Path, default=RUNS_DIR, help="parent folder for runs (default data/runs)")
+    b.add_argument("-v", "--verbose", action="store_true")
     return p
 
 
@@ -113,20 +129,19 @@ def _tools(settings: Settings, dry_run: bool):
             budget, exa_budget)
 
 
-def cmd_review(args: argparse.Namespace) -> int:
+def _input_rows(args: argparse.Namespace, prefix: str) -> tuple[Path, Path, str, dict, list[dict]]:
+    """(from_dir, run_dir, run_id, apps by slug, selected rows) for review / browse."""
     from agent.research import load_apps
-    from agent.review import Reviewer, load_rows, review_run
+    from agent.review import load_rows
 
-    load_env()
-    settings = Settings.from_env()
     from_dir = args.from_dir if args.from_dir else args.out_dir / args.from_run
     if not (from_dir / "rows.jsonl").is_file():
         raise ConfigError(f"no rows.jsonl in {from_dir}")
-    run_id = args.run_id or ("dry-run-review-" if args.dry_run else "review-") + datetime.now(UTC).strftime(
+    run_id = args.run_id or (f"dry-run-{prefix}-" if args.dry_run else f"{prefix}-") + datetime.now(UTC).strftime(
         "%Y%m%dT%H%M%SZ")
     run_dir = args.out_dir / run_id
     if run_dir.resolve() == from_dir.resolve():
-        raise ConfigError("--run-id must differ from the input run (the review writes a new run folder)")
+        raise ConfigError(f"--run-id must differ from the input run (the {prefix} writes a new run folder)")
 
     apps = {a["slug"]: a for a in load_apps(APPS_CSV)}
     rows = load_rows(from_dir)
@@ -141,7 +156,15 @@ def cmd_review(args: argparse.Namespace) -> int:
             raise ConfigError(f"slug(s) not in {from_dir / 'rows.jsonl'}: {', '.join(missing)}")
         rows = [r for r in rows if r["slug"] in wanted]
     rows = rows[:args.limit] if args.limit else rows
+    return from_dir, run_dir, run_id, apps, rows
 
+
+def cmd_review(args: argparse.Namespace) -> int:
+    from agent.review import Reviewer, review_run
+
+    load_env()
+    settings = Settings.from_env()
+    from_dir, run_dir, run_id, apps, rows = _input_rows(args, "review")
     llm, search, fetch, budget, exa_budget = _tools(settings, args.dry_run)
     reviewer = Reviewer(settings, llm, search, fetch, run_dir, max_pages=args.max_pages, budget=budget,
                         exa_budget=exa_budget)
@@ -156,14 +179,44 @@ def cmd_review(args: argparse.Namespace) -> int:
     return 0 if not summary["failed"] and not summary["crashed"] else 1
 
 
+def cmd_browse(args: argparse.Namespace) -> int:
+    from agent.browse import BrowserPool, Verifier, browse_run, cloud_key_present
+
+    load_env()
+    settings = Settings.from_env()
+    from_dir, run_dir, run_id, apps, rows = _input_rows(args, "browse")
+    if args.dry_run:
+        from agent.fakes import FakeBrowserDriver, FakeLLM
+
+        llm = FakeLLM()
+
+        def make_pool() -> BrowserPool:
+            return BrowserPool(FakeBrowserDriver, has_cloud_key=lambda: False)
+    else:
+        from agent.llm import get_llm
+
+        llm = get_llm(settings)
+        make_pool = BrowserPool
+    verifier = Verifier(settings, llm, run_dir, make_pool=make_pool)
+    cloud = "off (dry run)" if args.dry_run else ("on for blocked pages" if cloud_key_present()
+                                                  else "off (no BROWSER_USE_API_KEY)")
+    print(f"browse {run_id}: {len(rows)} row(s) from {from_dir}, llm={llm.provider}:{llm.model}, "
+          f"browser={'fake' if args.dry_run else 'local chromium'}, cloud fallback={cloud}", file=sys.stderr)
+    summary = browse_run([(apps[r["slug"]], r) for r in rows], verifier, from_dir, run_dir,
+                         concurrency=args.concurrency)
+    print(json.dumps(summary, indent=2))
+    return 0 if not summary["failed"] and not summary["crashed"] else 1
+
+
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
                         format="%(asctime)s %(levelname)s %(name)s: %(message)s")
-    for noisy in ("httpx", "httpcore", "primp", "trafilatura", "urllib3", "botocore"):
+    for noisy in ("httpx", "httpcore", "primp", "trafilatura", "urllib3", "botocore", "browser_use",
+                  "browser_harness"):
         logging.getLogger(noisy).setLevel(logging.WARNING)
     try:
-        return cmd_review(args) if args.command == "review" else cmd_run(args)
+        return {"review": cmd_review, "browse": cmd_browse}.get(args.command, cmd_run)(args)
     except ConfigError as e:
         print(f"config error: {e}", file=sys.stderr)
         return 2

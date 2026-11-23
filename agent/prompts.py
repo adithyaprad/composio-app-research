@@ -281,3 +281,36 @@ def review_retry_prompt(errors: list[str], checks: dict) -> str:
     return retry_prompt(errors, checks).replace(
         "return the full JSON object again (row, snippets, follow_up with empty lists)",
         "return the JSON object again with only the editable fields, their evidence claims, notes and snippets")
+
+
+# ---------- pass-3 browser verification ----------
+
+BROWSE_INSTRUCTIONS = """The row was flagged as still unsure (reasons above). A real browser opened the vendor's
+pages below; their text is what a person sees after the page finished rendering. Confirm or correct ONLY the
+editable fields from this rendered text. Every other field is frozen and copied from the current row, so do not
+return it. If the rendered text supports the current value, keep it and cite that page. If it shows the
+current value is wrong, correct it. If the rendered pages do not decide a field (login wall, unrelated page),
+keep the current value, cite the rendered page you checked, and say in notes that the browser pass could not
+confirm it. Typical deciding facts: whether API credentials come from an online signup/checkout or only from
+"book a demo" / sales; whether an MCP server is live (server URL, install steps) or only "coming soon"; and
+which auth the developer docs describe. Never cite a URL that is not a "URL:" line below. Quotes must be copied
+verbatim from the rendered text. Rewrite notes so they agree with the fields (keep useful old caveats).
+
+OUTPUT: one JSON object:
+{{"row": {{<only these fields: {fields}>, "evidence": {{<only these claims: {claims}>}}, "notes": "..."}},
+  "snippets": {{<same claims>: [{{"url": "...", "quote": "..."}}]}}}}"""
+
+
+def browse_prompt(app: dict, row: dict, flags: list[dict], fields: list[str], claims: list[str], pages: list,
+                  per_page_chars: int) -> str:
+    lines = [f"- {f['reason']}: {f['detail']}" for f in flags]
+    claim_list = ", ".join(claims) or "none"
+    return (
+        f"APP (identity from the research list; do not change):\n{_identity(app)}\n\n"
+        f"CURRENT ROW:\n{_row_for_prompt(row)}\n\n"
+        "FLAG REASONS:\n" + "\n".join(lines) + "\n\n"
+        f"EDITABLE FIELDS: {', '.join(fields)}, notes\nEVIDENCE CLAIMS TO REPLACE: {claim_list}\n\n"
+        + BROWSE_INSTRUCTIONS.format(fields=", ".join(fields), claims=claim_list)
+        + f"\n\nRENDERED PAGES (the only allowed evidence):\n\n{render_pages(pages, per_page_chars)}\n\n"
+        "No more fetching is possible: give your final answer."
+    )

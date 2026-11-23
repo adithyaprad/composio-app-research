@@ -16,7 +16,7 @@ This is a take-home style research pipeline, not a production product.
   - `README.md` — field and enum definitions
   - `RUBRIC.md` — scoring rules and gold-sample procedure
   - `gold_sample.md` — 20 apps reserved for a human accuracy check (answers not filled yet)
-- `agent/` — research agent CLI (`python -m agent run`): `llm/` provider adapters, `tools/` search/fetch providers, `research.py` loop, `validate.py` schema + consistency + evidence checks, `prompts.py`; pass-2 reviewer (`python -m agent review`): `review.py` loop, `review_rules.py` rule checklist
+- `agent/` — research agent CLI (`python -m agent run`): `llm/` provider adapters, `tools/` search/fetch providers, `research.py` loop, `validate.py` schema + consistency + evidence checks, `prompts.py`; pass-2 reviewer (`python -m agent review`): `review.py` loop, `review_rules.py` rule checklist; pass-3 browser check (`python -m agent browse`): `browse_flags.py` selector, `browse.py` loop
 - `tests/` — offline unit tests (LLM and tools mocked)
 - `data/runs/<run_id>/` — agent outputs
 - `.agents/skills/composio/` — Composio skill used when building the research agent
@@ -124,6 +124,17 @@ Failed apps are not written to `rows.jsonl`, so re-running the same `--run-id` r
 ```
 
 `--from-dir PATH` reads any folder with a `rows.jsonl`. `--apps`, `--limit`, `--concurrency`, `--out-dir` and `--dry-run` work as they do for `run`. `--max-pages` (default 6) caps the pages fetched per re-researched row; gap-fill and llms.txt still apply on top of that, as in `run`. Search, fetch, Exa / Instant budgets and the free fallbacks are the same as `run`. The output folder has the usual `rows.jsonl`, `failures.jsonl`, `log.jsonl` and `evidence/<slug>.json` (pass-1 pages plus the review's pages, and a `review` block), plus `review.jsonl`. Each line in `review.jsonl` covers one row: status (`unchanged` / `confirmed` / `changed` / `kept` / `failed`), `rules_fired` with each finding's source (`code` / `llm` / `validator`), reason and quotes, the fields in scope, `fields_changed` with before and after values, whether re-research ran, and per-row search / fetch / LLM / Exa / Instant usage and wall time. If `cache/` from the input run is still present, the LLM reviewer also sees the pass-1 text of the cited pages.
+
+### Browse (pass 3)
+
+```bash
+# offline check: fake browser + fake LLM, no Chrome or keys (dry-run folders are gitignored)
+.venv/bin/python -m agent browse --dry-run --from-run pass2 --run-id dry-run-browse --limit 1
+# real pass 3 over every row of data/runs/pass2 (reuse --run-id to resume)
+.venv/bin/python -m agent browse --from-run pass2 --run-id pass3 --concurrency 1
+```
+
+Browser Use (open source) + Browser Use Cloud browsers for blocked pages. A code selector (`agent/browse_flags.py`) flags pass-2 rows that are still unsure, with reason ids `confidence_not_high`, `unsupported_or_invalid` (the pass-2 log or evidence checks show unsupported evidence or validation errors), `thin_or_blocked_page` (a page cited for access, auth, MCP or verdict came back thin, blocked or failed), and `unresolved_deciding_fact` (notes or quotes mention book-a-demo / talk-to-sales, a coming-soon or beta MCP or API, or an unreadable JS-only page). Each flagged row opens up to 4 pages (pages flagged as thin or blocked first, then the pricing/signup, auth and MCP pages it cites, plus `start_url`, `docs_url` and `mcp_url`; login walls are skipped). Every page is opened first in a local headless Chromium driven by the open-source Browser Use library. Only a page that comes back empty, shows a captcha, or is blocked is retried on a Browser Use Cloud browser. That needs `BROWSER_USE_API_KEY` in the environment. Without it the fallback is skipped and logged as `cloud_skipped_no_key`. A row starts at most one cloud session, and only on its first fallback. The judge is the run's own LLM provider (Bedrock by default), not the Browser Use cloud model. It gets one call per row (plus one retry) and may confirm or correct only the in-scope fields (access, auth, MCP, verdict/blocker, confidence and their evidence), with quotes that must be found in the rendered text. If the rendered pages cannot support a value, the pass-2 values are kept with a note. Composio's Browser Use toolkit was not used: a read-only probe found no active connection for it in this project, the same "No active connection" problem as the other Instant toolkits. Unflagged rows are copied to `rows.jsonl` unchanged (`flagged: false` in `flags.jsonl` and `browse.jsonl`; the row itself has no extra keys). `browse.jsonl` has one line per row: flag reasons, pages opened (url, `browser: local | cloud`, why the fallback happened, text length, title, screenshot path), fields confirmed vs changed (before/after), cloud sessions, LLM usage and wall time, and status (`copied` / `confirmed` / `changed` / `kept` / `failed`). Screenshots are saved to `screenshots/<slug>/` in the run folder, and the evidence notes and snippets point at them. `--concurrency` defaults to 1 because browsers are heavy.
 
 ### Search and fetch providers
 
