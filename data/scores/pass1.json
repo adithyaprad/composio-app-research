@@ -1,17 +1,17 @@
 {
   "run_id": "pass1",
-  "run_dir": "/home/box/work/gig/composio-takehome/data/runs/pass1",
+  "run_dir": "/tmp/pass1-from-origin/data/runs/pass1",
   "gold_path": "/home/box/work/gig/composio-gold/schema/gold_sample.jsonl",
-  "scored_at": "2026-11-23T13:50:41Z",
+  "scored_at": "2026-11-23T14:08:50Z",
   "summary": {
     "n_gold": 20,
     "n_row_correct": 9,
     "row_accuracy": 0.45,
     "field_accuracy": {
       "auth": {
-        "matches": 14,
+        "matches": 15,
         "applies": 20,
-        "accuracy": 0.7
+        "accuracy": 0.75
       },
       "access": {
         "matches": 17,
@@ -59,9 +59,9 @@
         "accuracy": 0.95
       },
       "mcp_url": {
-        "matches": 17,
-        "applies": 17,
-        "accuracy": 1.0
+        "matches": 18,
+        "applies": 19,
+        "accuracy": 0.9473684210526315
       },
       "requires_end_user_admin": {
         "matches": 14,
@@ -94,28 +94,6 @@
             "rest"
           ],
           "has_public_docs": true
-        },
-        "evidence": "required evidence URLs present",
-        "reason": "value mismatch"
-      },
-      {
-        "slug": "dealcloud",
-        "name": "DealCloud",
-        "field": "auth_methods / primary_auth",
-        "unit": "auth",
-        "severity": "critical",
-        "gold": {
-          "auth_methods": [
-            "oauth2",
-            "api_key"
-          ],
-          "primary_auth": "oauth2"
-        },
-        "agent": {
-          "auth_methods": [
-            "oauth2"
-          ],
-          "primary_auth": "oauth2"
         },
         "evidence": "required evidence URLs present",
         "reason": "value mismatch"
@@ -235,17 +213,6 @@
       {
         "slug": "whatsapp-business",
         "name": "WhatsApp Business",
-        "field": "mcp_status",
-        "unit": "mcp_status",
-        "severity": "critical",
-        "gold": "none",
-        "agent": "official",
-        "evidence": "required evidence URLs present",
-        "reason": "value mismatch"
-      },
-      {
-        "slug": "whatsapp-business",
-        "name": "WhatsApp Business",
         "field": "verdict",
         "unit": "verdict",
         "severity": "critical",
@@ -330,6 +297,28 @@
         "severity": "minor",
         "gold": true,
         "agent": false,
+        "evidence": null,
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "fanbasis",
+        "name": "fanbasis",
+        "field": "mcp_status",
+        "unit": "mcp_status",
+        "severity": "critical",
+        "gold": "official",
+        "agent": "none",
+        "evidence": "required evidence URLs present",
+        "reason": "value mismatch"
+      },
+      {
+        "slug": "fanbasis",
+        "name": "fanbasis",
+        "field": "mcp_url",
+        "unit": "mcp_url",
+        "severity": "minor",
+        "gold": "https://commasdocs.com/#ai-agent",
+        "agent": null,
         "evidence": null,
         "reason": "value mismatch"
       },
@@ -687,17 +676,16 @@
           "sibling_slugs": []
         }
       },
-      "label_notes": "Public docs exist, so this is gated_sales + buildable_with_approval, not no_public_api. Official MCP is easy to miss if only the REST pages are read.",
+      "label_notes": "Public docs exist, so this is gated_sales + buildable_with_approval, not no_public_api. Official MCP is easy to miss if only the REST pages are read. auth_methods is oauth2 only: the dashboard API key is the OAuth client_secret, not a second method.",
       "missing": false,
       "invalid": false,
-      "row_correct": false,
+      "row_correct": true,
       "units": {
         "auth": {
-          "match": false,
+          "match": true,
           "gold": {
             "auth_methods": [
-              "oauth2",
-              "api_key"
+              "oauth2"
             ],
             "primary_auth": "oauth2"
           },
@@ -1157,7 +1145,7 @@
           "sibling_slugs": []
         }
       },
-      "label_notes": "Labelled gated_partner (not self_serve) because the rubric treats third-party / multi-tenant permission that needs vendor app review as a partner gate. Direct-developer self-serve test access is real but is not the toolkit path.",
+      "label_notes": "Labelled gated_partner (not self_serve) because the rubric treats third-party / multi-tenant permission that needs vendor app review as a partner gate. Direct-developer self-serve test access is real but is not the toolkit path. MCP was later corrected to official after an audit against Meta’s MCP docs; access/verdict were already gated_partner for App Review.",
       "missing": false,
       "invalid": false,
       "row_correct": false,
@@ -1199,8 +1187,8 @@
           }
         },
         "mcp_status": {
-          "match": false,
-          "gold": "none",
+          "match": true,
+          "gold": "official",
           "agent": "official"
         },
         "verdict": {
@@ -1239,9 +1227,9 @@
           "agent": "https://developers.facebook.com/docs/whatsapp"
         },
         "mcp_url": {
-          "applies": false,
+          "applies": true,
           "match": true,
-          "gold": null,
+          "gold": "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp",
           "agent": "https://mcp.facebook.com/whatsapp_business_tools"
         },
         "requires_end_user_admin": {
@@ -1273,7 +1261,7 @@
           "sibling_slugs": []
         }
       },
-      "label_notes": "Docs-only official MCP still counts as official under the rubric (real vendor-published server URL). Notes explain the limited scope so it is not confused with an account-control MCP.",
+      "label_notes": "Docs-only official MCP still counts as official under the rubric (real vendor-published server URL). A later docs audit also found an official Transactional Messaging MCP; mcp_status was already official. Notes explain the two servers so the docs MCP is not confused with Marketing account control.",
       "missing": false,
       "invalid": false,
       "row_correct": false,
@@ -1625,10 +1613,10 @@
           "sibling_slugs": []
         }
       },
-      "label_notes": "The earlier expectation was password-gated docs and possibly no public API. As of this labelling pass, official docs are public and the API is self-serve with an API key. Labelled from current official docs, not the outdated login wall. Identity stays slug fanbasis / name fanbasis per the frozen CSV.",
+      "label_notes": "The earlier expectation was password-gated docs and possibly no public API. As of this labelling pass, official docs are public and the API is self-serve with an API key. An official MCP section on commasdocs.com was confirmed in a later docs audit and the MCP label was updated. Identity stays slug fanbasis / name fanbasis per the frozen CSV.",
       "missing": false,
       "invalid": false,
-      "row_correct": true,
+      "row_correct": false,
       "units": {
         "auth": {
           "match": true,
@@ -1666,8 +1654,8 @@
           }
         },
         "mcp_status": {
-          "match": true,
-          "gold": "none",
+          "match": false,
+          "gold": "official",
           "agent": "none"
         },
         "verdict": {
@@ -1706,9 +1694,9 @@
           "agent": "https://apidocs.fan"
         },
         "mcp_url": {
-          "applies": false,
-          "match": true,
-          "gold": null,
+          "applies": true,
+          "match": false,
+          "gold": "https://commasdocs.com/#ai-agent",
           "agent": null
         },
         "requires_end_user_admin": {
@@ -2347,7 +2335,7 @@
           "sibling_slugs": []
         }
       },
-      "label_notes": "This was selected to test self_serve_paid vs gated_sales. Pricing 'Start now' on Business plus 'API calls' in the plan table supports self_serve_paid.",
+      "label_notes": "This was selected to test self_serve_paid vs gated_sales. Pricing “Start now” on Business plus “API calls” in the plan table supports self_serve_paid. A later docs audit kept that label: usable personal tokens exist after a self-serve paid checkout, even though OAuth app registration may be reviewed.",
       "missing": false,
       "invalid": false,
       "row_correct": false,

@@ -65,10 +65,16 @@ These points were investigated and did not change a gold label, but they should 
 
 ## Pass-1 scores before and after this audit
 
-Pass 1 was first scored against the pre-audit gold labels:
+Pass 1 was re-scored with `scripts/score_gold.py` on the run artifacts from `origin/gig/pass1-run` (exported; that branch was not merged). Reports were written to `data/scores/pass1.json` and `data/scores/pass1.md` (overwritten). Scored at 2026-11-23, 7:38 PM IST.
 
-- **Before (pre-audit gold):** 9 / 20 rows fully correct (**45%**). Per-field: access 85%, MCP 95%, API types 90%, verdict 80%, auth 70%. Composio toolkit lookup 20 / 20. These are the numbers reported before this audit; they are recorded here so a later gold fix cannot quietly inflate the gain.
+- **Before (pre-audit gold):** 9 / 20 rows fully correct (**45.0%**). Per-field: auth 70%, access 85%, API types 90%, MCP 95%, verdict 80%, blocker 80%. Coverage lookup 20 / 20. Pre-audit reports remain in git at `4ab0878`.
 
-- **After (audited gold):** *To be filled after `scripts/score_gold.py` is re-run on the pass-1 artifacts from `origin/gig/pass1-run`, writing `data/scores/pass1`.*
+- **After (audited gold):** 9 / 20 rows fully correct (**45.0%**). Per-field: auth **75%** (15 / 20), access 85%, API types 90%, MCP 95% (19 / 20), verdict 80%, blocker 80%. Coverage lookup 20 / 20. `mcp_url` is 18 / 19 (94.7%) because one more gold row now has an official MCP.
+
+Headline row accuracy did not change. Two row-level effects cancelled out:
+
+- DealCloud became row-correct: gold `auth_methods` is now `["oauth2"]`, which matches the pass-1 row (the previous miss was gold listing a separate `api_key`).
+- fanbasis became a row miss: gold `mcp_status` is now `official`, and the pass-1 row has `none`.
+- WhatsApp Business MCP now matches (`official`), but that row still fails on auth, access, verdict, and blocker, so it stays incorrect.
 
 The same audited gold will be used for both pass-1 and final scoring.
