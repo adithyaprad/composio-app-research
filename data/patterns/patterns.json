@@ -1,0 +1,1690 @@
+{
+  "meta": {
+    "total_apps": 100,
+    "run_dir": "data/runs/pass3",
+    "generated_by": "scripts/patterns.py",
+    "inputs": {
+      "rows": {
+        "path": "data/runs/pass3/rows.jsonl",
+        "sha256": "6c7843f0a4f2ed934eec3ca13f070a4b2ca3e43e2d05dae49c92989ee7d44c0f"
+      },
+      "needs_human": {
+        "path": "data/runs/pass3/needs_human.jsonl",
+        "sha256": "e8369864f35ffb58856199b34d06d4008ffa2e6239dc2e6d7d1aab6147c46597"
+      },
+      "gold_score": {
+        "path": "data/scores/pass3.json",
+        "sha256": "eb1eb8fa90c526547381d3b4716e0e2795ba5704d4825a81d96a095ee31f8fcd"
+      },
+      "holdout_score": {
+        "path": "data/scores/holdout-pass3.json",
+        "sha256": "44a93fc77aa7f9afbc5adca0be29c0f0c2988a2edfca3b51b8f9f43b65dcbca0"
+      }
+    },
+    "thresholds": {
+      "caveated_below": 0.8,
+      "moderate_below": 0.9
+    }
+  },
+  "validation": {
+    "gold": {
+      "run_id": "pass3",
+      "n": 20,
+      "n_row_correct": 15,
+      "row_accuracy": 0.75
+    },
+    "holdout": {
+      "run_id": "pass3",
+      "n": 10,
+      "n_row_correct": 3,
+      "row_accuracy": 0.3
+    },
+    "fields": {
+      "auth": {
+        "label": "auth_methods / primary_auth",
+        "gold": 0.95,
+        "holdout": 0.6,
+        "level": "caveated",
+        "caveated": true,
+        "weak_scores": [
+          "holdout 60%"
+        ]
+      },
+      "access": {
+        "label": "access",
+        "gold": 0.9,
+        "holdout": 0.9,
+        "level": "high",
+        "caveated": false,
+        "weak_scores": []
+      },
+      "api": {
+        "label": "api_types + has_public_docs",
+        "gold": 0.95,
+        "holdout": 1.0,
+        "level": "high",
+        "caveated": false,
+        "weak_scores": []
+      },
+      "mcp_status": {
+        "label": "mcp_status",
+        "gold": 0.95,
+        "holdout": 0.8,
+        "level": "moderate",
+        "caveated": false,
+        "weak_scores": [
+          "holdout 80%"
+        ]
+      },
+      "verdict": {
+        "label": "verdict",
+        "gold": 0.85,
+        "holdout": 1.0,
+        "level": "moderate",
+        "caveated": false,
+        "weak_scores": [
+          "gold 85%"
+        ]
+      },
+      "blocker": {
+        "label": "blocker",
+        "gold": 0.85,
+        "holdout": 1.0,
+        "level": "moderate",
+        "caveated": false,
+        "weak_scores": [
+          "gold 85%"
+        ]
+      },
+      "api_breadth": {
+        "label": "api_breadth",
+        "gold": 0.65,
+        "holdout": 1.0,
+        "level": "caveated",
+        "caveated": true,
+        "weak_scores": [
+          "gold 65%"
+        ]
+      },
+      "requires_end_user_admin": {
+        "label": "requires_end_user_admin",
+        "gold": 0.7,
+        "holdout": 0.1,
+        "level": "caveated",
+        "caveated": true,
+        "weak_scores": [
+          "gold 70%",
+          "holdout 10%"
+        ]
+      },
+      "composio_toolkit": {
+        "label": "composio_toolkit",
+        "gold": 1.0,
+        "holdout": 1.0,
+        "level": "high",
+        "caveated": false,
+        "weak_scores": []
+      }
+    },
+    "caveated_fields": [
+      "auth_methods / primary_auth",
+      "api_breadth",
+      "requires_end_user_admin"
+    ]
+  },
+  "patterns": [
+    {
+      "id": "buildable_vs_gated",
+      "title": "Buildable today vs gated",
+      "headline": "84 of 100 apps (84.0%) are buildable now without vendor approval. The other 16 need vendor approval: 8 gated by sales and 8 by a partner program, and 100.0% of gated apps land on buildable_with_approval.",
+      "count": 84,
+      "total": 100,
+      "pct": 84.0,
+      "supporting_stats": {
+        "buildable_now": 84,
+        "buildable_with_approval": 16,
+        "gated_sales": 8,
+        "gated_partner": 8,
+        "self_serve_paid": 5,
+        "gated_buildable_with_approval_pct": 100.0
+      },
+      "examples": [
+        {
+          "slug": "salesforce",
+          "name": "Salesforce"
+        },
+        {
+          "slug": "pylon",
+          "name": "Pylon"
+        },
+        {
+          "slug": "meta-ads",
+          "name": "Meta Ads"
+        }
+      ],
+      "fields": [
+        "access",
+        "verdict"
+      ],
+      "reliability": "moderate",
+      "caveat": "Lower-accuracy fields: verdict scored gold 85%."
+    },
+    {
+      "id": "official_mcp_and_uncovered",
+      "title": "Official MCP adoption and Composio's uncovered opportunity",
+      "headline": "86 of 100 apps (86.0%) ship an official MCP server. Of the 22 apps with no Composio toolkit, 15 are buildable now, 15 have an official MCP, and 11 are both.",
+      "count": 11,
+      "total": 22,
+      "pct": 50.0,
+      "supporting_stats": {
+        "official_mcp": 86,
+        "community_mcp": 2,
+        "no_mcp": 12,
+        "composio_none": 22,
+        "composio_none_buildable_now": 15,
+        "composio_none_official_mcp": 15,
+        "composio_none_buildable_now_and_official_mcp": 11,
+        "notes_preview_term_with_mcp": 12
+      },
+      "examples": [
+        {
+          "slug": "zoho-crm",
+          "name": "Zoho CRM"
+        },
+        {
+          "slug": "liveagent",
+          "name": "LiveAgent"
+        },
+        {
+          "slug": "vonage",
+          "name": "Vonage"
+        }
+      ],
+      "fields": [
+        "mcp_status",
+        "verdict",
+        "composio_toolkit"
+      ],
+      "reliability": "moderate",
+      "caveat": "Lower-accuracy fields: mcp_status scored holdout 80%; verdict scored gold 85%."
+    },
+    {
+      "id": "category_unevenness",
+      "title": "Category and coverage unevenness",
+      "headline": "developer_infra_and_data is the strongest category (100.0% buildable now, 100.0% official MCP, 0.0% needs_human); ecommerce is the hardest (6 of 10 buildable now, 30.0% Composio coverage). Lowest Composio coverage: ecommerce; most needs_human: ecommerce, support_and_helpdesk. Composio covers 82.1% of buildable-now apps vs 56.2% of the rest.",
+      "count": 6,
+      "total": 10,
+      "pct": 60.0,
+      "supporting_stats": {
+        "strongest_category": "developer_infra_and_data",
+        "strongest": {
+          "total": 10,
+          "buildable_now": {
+            "count": 10,
+            "total": 10,
+            "pct": 100.0
+          },
+          "buildable_with_approval": {
+            "count": 0,
+            "total": 10,
+            "pct": 0.0
+          },
+          "official_mcp": {
+            "count": 10,
+            "total": 10,
+            "pct": 100.0
+          },
+          "primary_auth_oauth2": {
+            "count": 8,
+            "total": 10,
+            "pct": 80.0
+          },
+          "composio_exists": {
+            "count": 10,
+            "total": 10,
+            "pct": 100.0
+          },
+          "needs_human": {
+            "count": 0,
+            "total": 10,
+            "pct": 0.0
+          }
+        },
+        "hardest_category": "ecommerce",
+        "hardest": {
+          "total": 10,
+          "buildable_now": {
+            "count": 6,
+            "total": 10,
+            "pct": 60.0
+          },
+          "buildable_with_approval": {
+            "count": 4,
+            "total": 10,
+            "pct": 40.0
+          },
+          "official_mcp": {
+            "count": 6,
+            "total": 10,
+            "pct": 60.0
+          },
+          "primary_auth_oauth2": {
+            "count": 8,
+            "total": 10,
+            "pct": 80.0
+          },
+          "composio_exists": {
+            "count": 3,
+            "total": 10,
+            "pct": 30.0
+          },
+          "needs_human": {
+            "count": 6,
+            "total": 10,
+            "pct": 60.0
+          }
+        },
+        "lowest_composio_coverage_categories": [
+          "ecommerce"
+        ],
+        "lowest_composio_coverage_pct": 30.0,
+        "highest_needs_human_categories": [
+          "ecommerce",
+          "support_and_helpdesk"
+        ],
+        "highest_needs_human_pct": 60.0,
+        "composio_exists_on_buildable_now": {
+          "count": 69,
+          "total": 84,
+          "pct": 82.1
+        },
+        "composio_exists_on_not_buildable_now": {
+          "count": 9,
+          "total": 16,
+          "pct": 56.2
+        }
+      },
+      "examples": [
+        {
+          "slug": "squarespace",
+          "name": "Squarespace"
+        },
+        {
+          "slug": "salesforce-commerce-cloud",
+          "name": "Salesforce Commerce Cloud"
+        },
+        {
+          "slug": "magento-adobe-commerce",
+          "name": "Magento (Adobe Commerce)"
+        }
+      ],
+      "fields": [
+        "verdict",
+        "mcp_status",
+        "composio_toolkit"
+      ],
+      "reliability": "moderate",
+      "caveat": "Lower-accuracy fields: verdict scored gold 85%; mcp_status scored holdout 80%."
+    },
+    {
+      "id": "auth_landscape",
+      "title": "Auth landscape",
+      "headline": "66 of 100 apps (66.0%) use OAuth2 as primary auth. 48 offer both OAuth2 and API keys, 15 are OAuth2-only and 30 are API-key-only.",
+      "count": 66,
+      "total": 100,
+      "pct": 66.0,
+      "supporting_stats": {
+        "primary_auth": {
+          "oauth2": 66,
+          "api_key": 32,
+          "none": 2
+        },
+        "oauth2_and_api_key": 48,
+        "oauth2_only": 15,
+        "api_key_only": 30,
+        "other_combo": 7,
+        "multi_method": 53
+      },
+      "examples": [
+        {
+          "slug": "hubspot",
+          "name": "HubSpot"
+        },
+        {
+          "slug": "pipedrive",
+          "name": "Pipedrive"
+        },
+        {
+          "slug": "attio",
+          "name": "Attio"
+        }
+      ],
+      "fields": [
+        "auth_methods / primary_auth"
+      ],
+      "reliability": "caveated",
+      "caveat": "Lower-accuracy fields: auth_methods / primary_auth scored holdout 60%."
+    },
+    {
+      "id": "needs_human",
+      "title": "Human-in-the-loop necessity",
+      "headline": "36 of 100 rows (36.0%) are flagged needs_human; top reasons: confidence_not_high (24), sales_or_partner_gate (16), conflicting_or_caveated_docs (15). The rate is 59.1% on apps with no Composio toolkit vs 29.5% on covered apps.",
+      "count": 36,
+      "total": 100,
+      "pct": 36.0,
+      "supporting_stats": {
+        "by_reason": {
+          "confidence_not_high": 24,
+          "sales_or_partner_gate": 16,
+          "conflicting_or_caveated_docs": 15
+        },
+        "uncovered_needs_human": {
+          "count": 13,
+          "total": 22,
+          "pct": 59.1
+        },
+        "covered_needs_human": {
+          "count": 23,
+          "total": 78,
+          "pct": 29.5
+        }
+      },
+      "examples": [
+        {
+          "slug": "zendesk",
+          "name": "Zendesk"
+        },
+        {
+          "slug": "pylon",
+          "name": "Pylon"
+        },
+        {
+          "slug": "liveagent",
+          "name": "LiveAgent"
+        }
+      ],
+      "fields": [
+        "access",
+        "verdict"
+      ],
+      "reliability": "moderate",
+      "caveat": "Lower-accuracy fields: verdict scored gold 85%."
+    },
+    {
+      "id": "admin_and_breadth",
+      "title": "End-user admin and API breadth friction",
+      "headline": "19 of 100 apps (19.0%) are marked as needing a customer admin to approve install (6 of 16 gated apps), and 81 have a broad API. These fields scored below the caveat threshold on validation, so read them as rough signals.",
+      "count": 19,
+      "total": 100,
+      "pct": 19.0,
+      "supporting_stats": {
+        "requires_end_user_admin": 19,
+        "admin_among_gated": {
+          "count": 6,
+          "total": 16,
+          "pct": 37.5
+        },
+        "admin_among_oauth2_primary": {
+          "count": 17,
+          "total": 66,
+          "pct": 25.8
+        },
+        "api_breadth": {
+          "narrow": 4,
+          "moderate": 10,
+          "broad": 81,
+          "unknown": 5
+        }
+      },
+      "examples": [
+        {
+          "slug": "salesforce",
+          "name": "Salesforce"
+        },
+        {
+          "slug": "hubspot",
+          "name": "HubSpot"
+        },
+        {
+          "slug": "attio",
+          "name": "Attio"
+        }
+      ],
+      "fields": [
+        "requires_end_user_admin",
+        "api_breadth"
+      ],
+      "reliability": "caveated",
+      "caveat": "Lower-accuracy fields: requires_end_user_admin scored gold 70% / holdout 10%; api_breadth scored gold 65%."
+    }
+  ],
+  "distributions": {
+    "primary_auth": {
+      "oauth2": {
+        "count": 66,
+        "total": 100,
+        "pct": 66.0
+      },
+      "api_key": {
+        "count": 32,
+        "total": 100,
+        "pct": 32.0
+      },
+      "basic": {
+        "count": 0,
+        "total": 100,
+        "pct": 0.0
+      },
+      "jwt_service_account": {
+        "count": 0,
+        "total": 100,
+        "pct": 0.0
+      },
+      "custom_other": {
+        "count": 0,
+        "total": 100,
+        "pct": 0.0
+      },
+      "none": {
+        "count": 2,
+        "total": 100,
+        "pct": 2.0
+      },
+      "unknown": {
+        "count": 0,
+        "total": 100,
+        "pct": 0.0
+      }
+    },
+    "auth_methods": {
+      "methods": {
+        "oauth2": {
+          "count": 66,
+          "total": 100,
+          "pct": 66.0
+        },
+        "api_key": {
+          "count": 80,
+          "total": 100,
+          "pct": 80.0
+        },
+        "basic": {
+          "count": 2,
+          "total": 100,
+          "pct": 2.0
+        },
+        "jwt_service_account": {
+          "count": 6,
+          "total": 100,
+          "pct": 6.0
+        },
+        "custom_other": {
+          "count": 1,
+          "total": 100,
+          "pct": 1.0
+        },
+        "none": {
+          "count": 2,
+          "total": 100,
+          "pct": 2.0
+        }
+      },
+      "method_count": {
+        "single": {
+          "count": 47,
+          "total": 100,
+          "pct": 47.0
+        },
+        "multi": {
+          "count": 53,
+          "total": 100,
+          "pct": 53.0
+        }
+      },
+      "combos": {
+        "oauth2_only": {
+          "count": 15,
+          "total": 100,
+          "pct": 15.0
+        },
+        "oauth2_and_api_key": {
+          "count": 48,
+          "total": 100,
+          "pct": 48.0
+        },
+        "api_key_only": {
+          "count": 30,
+          "total": 100,
+          "pct": 30.0
+        },
+        "other": {
+          "count": 7,
+          "total": 100,
+          "pct": 7.0
+        }
+      },
+      "note": "oauth2_and_api_key counts rows listing both, with or without further methods."
+    },
+    "access": {
+      "self_serve": {
+        "count": 79,
+        "total": 100,
+        "pct": 79.0
+      },
+      "self_serve_paid": {
+        "count": 5,
+        "total": 100,
+        "pct": 5.0
+      },
+      "gated_partner": {
+        "count": 8,
+        "total": 100,
+        "pct": 8.0
+      },
+      "gated_sales": {
+        "count": 8,
+        "total": 100,
+        "pct": 8.0
+      },
+      "no_public_api": {
+        "count": 0,
+        "total": 100,
+        "pct": 0.0
+      }
+    },
+    "api_types": {
+      "rest": {
+        "count": 95,
+        "total": 100,
+        "pct": 95.0
+      },
+      "graphql": {
+        "count": 8,
+        "total": 100,
+        "pct": 8.0
+      },
+      "cli_only": {
+        "count": 2,
+        "total": 100,
+        "pct": 2.0
+      }
+    },
+    "has_public_docs": {
+      "true": {
+        "count": 100,
+        "total": 100,
+        "pct": 100.0
+      },
+      "false": {
+        "count": 0,
+        "total": 100,
+        "pct": 0.0
+      }
+    },
+    "api_breadth": {
+      "values": {
+        "narrow": {
+          "count": 4,
+          "total": 100,
+          "pct": 4.0
+        },
+        "moderate": {
+          "count": 10,
+          "total": 100,
+          "pct": 10.0
+        },
+        "broad": {
+          "count": 81,
+          "total": 100,
+          "pct": 81.0
+        },
+        "unknown": {
+          "count": 5,
+          "total": 100,
+          "pct": 5.0
+        }
+      },
+      "caveated": true
+    },
+    "mcp_status": {
+      "values": {
+        "official": {
+          "count": 86,
+          "total": 100,
+          "pct": 86.0
+        },
+        "community": {
+          "count": 2,
+          "total": 100,
+          "pct": 2.0
+        },
+        "none": {
+          "count": 12,
+          "total": 100,
+          "pct": 12.0
+        }
+      },
+      "notes_preview_terms": {
+        "coming_soon": {
+          "count": 2,
+          "total": 100,
+          "pct": 2.0
+        },
+        "waitlist": {
+          "count": 1,
+          "total": 100,
+          "pct": 1.0
+        },
+        "beta": {
+          "count": 14,
+          "total": 100,
+          "pct": 14.0
+        },
+        "preview": {
+          "count": 5,
+          "total": 100,
+          "pct": 5.0
+        }
+      },
+      "notes_any_preview_term": {
+        "count": 19,
+        "total": 100,
+        "pct": 19.0
+      },
+      "notes_preview_term_with_mcp": {
+        "count": 12,
+        "total": 100,
+        "pct": 12.0
+      },
+      "note": "Note-derived counts: rows whose notes mention coming soon / waitlist / beta / preview (case-insensitive, whole word). The MCP count needs the term in a sentence that mentions MCP. These sit alongside the strict mcp_status enum, which has no preview value."
+    },
+    "verdict": {
+      "buildable_now": {
+        "count": 84,
+        "total": 100,
+        "pct": 84.0
+      },
+      "buildable_with_approval": {
+        "count": 16,
+        "total": 100,
+        "pct": 16.0
+      }
+    },
+    "blocker": {
+      "none": {
+        "count": 84,
+        "total": 100,
+        "pct": 84.0
+      },
+      "gated_access": {
+        "count": 16,
+        "total": 100,
+        "pct": 16.0
+      }
+    },
+    "confidence": {
+      "high": {
+        "count": 76,
+        "total": 100,
+        "pct": 76.0
+      },
+      "medium": {
+        "count": 23,
+        "total": 100,
+        "pct": 23.0
+      },
+      "low": {
+        "count": 1,
+        "total": 100,
+        "pct": 1.0
+      }
+    },
+    "requires_end_user_admin": {
+      "values": {
+        "true": {
+          "count": 19,
+          "total": 100,
+          "pct": 19.0
+        },
+        "false": {
+          "count": 81,
+          "total": 100,
+          "pct": 81.0
+        }
+      },
+      "caveated": true
+    },
+    "composio_toolkit_status": {
+      "exists": {
+        "count": 78,
+        "total": 100,
+        "pct": 78.0
+      },
+      "none": {
+        "count": 22,
+        "total": 100,
+        "pct": 22.0
+      }
+    },
+    "needs_human": {
+      "total": {
+        "count": 36,
+        "total": 100,
+        "pct": 36.0
+      },
+      "by_reason": {
+        "sales_or_partner_gate": {
+          "count": 16,
+          "total": 100,
+          "pct": 16.0
+        },
+        "confidence_not_high": {
+          "count": 24,
+          "total": 100,
+          "pct": 24.0
+        },
+        "conflicting_or_caveated_docs": {
+          "count": 15,
+          "total": 100,
+          "pct": 15.0
+        },
+        "unknown_deciding_field": {
+          "count": 0,
+          "total": 100,
+          "pct": 0.0
+        },
+        "browse_unresolved": {
+          "count": 0,
+          "total": 100,
+          "pct": 0.0
+        }
+      }
+    }
+  },
+  "crosstabs": {
+    "by_category": {
+      "crm_and_sales": {
+        "total": 10,
+        "buildable_now": {
+          "count": 9,
+          "total": 10,
+          "pct": 90.0
+        },
+        "buildable_with_approval": {
+          "count": 1,
+          "total": 10,
+          "pct": 10.0
+        },
+        "official_mcp": {
+          "count": 8,
+          "total": 10,
+          "pct": 80.0
+        },
+        "primary_auth_oauth2": {
+          "count": 10,
+          "total": 10,
+          "pct": 100.0
+        },
+        "composio_exists": {
+          "count": 8,
+          "total": 10,
+          "pct": 80.0
+        },
+        "needs_human": {
+          "count": 2,
+          "total": 10,
+          "pct": 20.0
+        }
+      },
+      "support_and_helpdesk": {
+        "total": 10,
+        "buildable_now": {
+          "count": 8,
+          "total": 10,
+          "pct": 80.0
+        },
+        "buildable_with_approval": {
+          "count": 2,
+          "total": 10,
+          "pct": 20.0
+        },
+        "official_mcp": {
+          "count": 10,
+          "total": 10,
+          "pct": 100.0
+        },
+        "primary_auth_oauth2": {
+          "count": 6,
+          "total": 10,
+          "pct": 60.0
+        },
+        "composio_exists": {
+          "count": 8,
+          "total": 10,
+          "pct": 80.0
+        },
+        "needs_human": {
+          "count": 6,
+          "total": 10,
+          "pct": 60.0
+        }
+      },
+      "communications_and_messaging": {
+        "total": 10,
+        "buildable_now": {
+          "count": 9,
+          "total": 10,
+          "pct": 90.0
+        },
+        "buildable_with_approval": {
+          "count": 1,
+          "total": 10,
+          "pct": 10.0
+        },
+        "official_mcp": {
+          "count": 8,
+          "total": 10,
+          "pct": 80.0
+        },
+        "primary_auth_oauth2": {
+          "count": 7,
+          "total": 10,
+          "pct": 70.0
+        },
+        "composio_exists": {
+          "count": 9,
+          "total": 10,
+          "pct": 90.0
+        },
+        "needs_human": {
+          "count": 2,
+          "total": 10,
+          "pct": 20.0
+        }
+      },
+      "marketing_ads_email_social": {
+        "total": 10,
+        "buildable_now": {
+          "count": 6,
+          "total": 10,
+          "pct": 60.0
+        },
+        "buildable_with_approval": {
+          "count": 4,
+          "total": 10,
+          "pct": 40.0
+        },
+        "official_mcp": {
+          "count": 7,
+          "total": 10,
+          "pct": 70.0
+        },
+        "primary_auth_oauth2": {
+          "count": 8,
+          "total": 10,
+          "pct": 80.0
+        },
+        "composio_exists": {
+          "count": 9,
+          "total": 10,
+          "pct": 90.0
+        },
+        "needs_human": {
+          "count": 5,
+          "total": 10,
+          "pct": 50.0
+        }
+      },
+      "ecommerce": {
+        "total": 10,
+        "buildable_now": {
+          "count": 6,
+          "total": 10,
+          "pct": 60.0
+        },
+        "buildable_with_approval": {
+          "count": 4,
+          "total": 10,
+          "pct": 40.0
+        },
+        "official_mcp": {
+          "count": 6,
+          "total": 10,
+          "pct": 60.0
+        },
+        "primary_auth_oauth2": {
+          "count": 8,
+          "total": 10,
+          "pct": 80.0
+        },
+        "composio_exists": {
+          "count": 3,
+          "total": 10,
+          "pct": 30.0
+        },
+        "needs_human": {
+          "count": 6,
+          "total": 10,
+          "pct": 60.0
+        }
+      },
+      "data_seo_and_scraping": {
+        "total": 10,
+        "buildable_now": {
+          "count": 9,
+          "total": 10,
+          "pct": 90.0
+        },
+        "buildable_with_approval": {
+          "count": 1,
+          "total": 10,
+          "pct": 10.0
+        },
+        "official_mcp": {
+          "count": 8,
+          "total": 10,
+          "pct": 80.0
+        },
+        "primary_auth_oauth2": {
+          "count": 2,
+          "total": 10,
+          "pct": 20.0
+        },
+        "composio_exists": {
+          "count": 7,
+          "total": 10,
+          "pct": 70.0
+        },
+        "needs_human": {
+          "count": 3,
+          "total": 10,
+          "pct": 30.0
+        }
+      },
+      "developer_infra_and_data": {
+        "total": 10,
+        "buildable_now": {
+          "count": 10,
+          "total": 10,
+          "pct": 100.0
+        },
+        "buildable_with_approval": {
+          "count": 0,
+          "total": 10,
+          "pct": 0.0
+        },
+        "official_mcp": {
+          "count": 10,
+          "total": 10,
+          "pct": 100.0
+        },
+        "primary_auth_oauth2": {
+          "count": 8,
+          "total": 10,
+          "pct": 80.0
+        },
+        "composio_exists": {
+          "count": 10,
+          "total": 10,
+          "pct": 100.0
+        },
+        "needs_human": {
+          "count": 0,
+          "total": 10,
+          "pct": 0.0
+        }
+      },
+      "productivity_and_project_management": {
+        "total": 10,
+        "buildable_now": {
+          "count": 9,
+          "total": 10,
+          "pct": 90.0
+        },
+        "buildable_with_approval": {
+          "count": 1,
+          "total": 10,
+          "pct": 10.0
+        },
+        "official_mcp": {
+          "count": 10,
+          "total": 10,
+          "pct": 100.0
+        },
+        "primary_auth_oauth2": {
+          "count": 9,
+          "total": 10,
+          "pct": 90.0
+        },
+        "composio_exists": {
+          "count": 10,
+          "total": 10,
+          "pct": 100.0
+        },
+        "needs_human": {
+          "count": 2,
+          "total": 10,
+          "pct": 20.0
+        }
+      },
+      "finance_and_fintech": {
+        "total": 10,
+        "buildable_now": {
+          "count": 9,
+          "total": 10,
+          "pct": 90.0
+        },
+        "buildable_with_approval": {
+          "count": 1,
+          "total": 10,
+          "pct": 10.0
+        },
+        "official_mcp": {
+          "count": 9,
+          "total": 10,
+          "pct": 90.0
+        },
+        "primary_auth_oauth2": {
+          "count": 5,
+          "total": 10,
+          "pct": 50.0
+        },
+        "composio_exists": {
+          "count": 7,
+          "total": 10,
+          "pct": 70.0
+        },
+        "needs_human": {
+          "count": 5,
+          "total": 10,
+          "pct": 50.0
+        }
+      },
+      "ai_research_and_media": {
+        "total": 10,
+        "buildable_now": {
+          "count": 9,
+          "total": 10,
+          "pct": 90.0
+        },
+        "buildable_with_approval": {
+          "count": 1,
+          "total": 10,
+          "pct": 10.0
+        },
+        "official_mcp": {
+          "count": 10,
+          "total": 10,
+          "pct": 100.0
+        },
+        "primary_auth_oauth2": {
+          "count": 3,
+          "total": 10,
+          "pct": 30.0
+        },
+        "composio_exists": {
+          "count": 7,
+          "total": 10,
+          "pct": 70.0
+        },
+        "needs_human": {
+          "count": 5,
+          "total": 10,
+          "pct": 50.0
+        }
+      }
+    },
+    "composio_vs_verdict": {
+      "x_verdict": {
+        "rows": [
+          "exists",
+          "none"
+        ],
+        "cols": [
+          "buildable_now",
+          "buildable_with_approval"
+        ],
+        "counts": {
+          "exists": {
+            "buildable_now": 69,
+            "buildable_with_approval": 9
+          },
+          "none": {
+            "buildable_now": 15,
+            "buildable_with_approval": 7
+          }
+        },
+        "totals": {
+          "exists": 78,
+          "none": 22
+        }
+      },
+      "x_access": {
+        "rows": [
+          "exists",
+          "none"
+        ],
+        "cols": [
+          "self_serve",
+          "self_serve_paid",
+          "gated_partner",
+          "gated_sales"
+        ],
+        "counts": {
+          "exists": {
+            "self_serve": 65,
+            "self_serve_paid": 4,
+            "gated_partner": 6,
+            "gated_sales": 3
+          },
+          "none": {
+            "self_serve": 14,
+            "self_serve_paid": 1,
+            "gated_partner": 2,
+            "gated_sales": 5
+          }
+        },
+        "totals": {
+          "exists": 78,
+          "none": 22
+        }
+      },
+      "x_mcp_status": {
+        "rows": [
+          "exists",
+          "none"
+        ],
+        "cols": [
+          "official",
+          "community",
+          "none"
+        ],
+        "counts": {
+          "exists": {
+            "official": 71,
+            "community": 1,
+            "none": 6
+          },
+          "none": {
+            "official": 15,
+            "community": 1,
+            "none": 6
+          }
+        },
+        "totals": {
+          "exists": 78,
+          "none": 22
+        }
+      },
+      "x_primary_auth": {
+        "rows": [
+          "exists",
+          "none"
+        ],
+        "cols": [
+          "oauth2",
+          "api_key",
+          "none"
+        ],
+        "counts": {
+          "exists": {
+            "oauth2": 59,
+            "api_key": 19,
+            "none": 0
+          },
+          "none": {
+            "oauth2": 7,
+            "api_key": 13,
+            "none": 2
+          }
+        },
+        "totals": {
+          "exists": 78,
+          "none": 22
+        }
+      },
+      "x_needs_human": {
+        "rows": [
+          "exists",
+          "none"
+        ],
+        "cols": [
+          "needs_human",
+          "no_human"
+        ],
+        "counts": {
+          "exists": {
+            "needs_human": 23,
+            "no_human": 55
+          },
+          "none": {
+            "needs_human": 13,
+            "no_human": 9
+          }
+        },
+        "totals": {
+          "exists": 78,
+          "none": 22
+        }
+      },
+      "uncovered_slice": {
+        "total": 22,
+        "buildable_now": {
+          "count": 15,
+          "total": 22,
+          "pct": 68.2
+        },
+        "official_mcp": {
+          "count": 15,
+          "total": 22,
+          "pct": 68.2
+        },
+        "buildable_now_and_official_mcp": {
+          "count": 11,
+          "total": 22,
+          "pct": 50.0
+        },
+        "needs_human": {
+          "count": 13,
+          "total": 22,
+          "pct": 59.1
+        }
+      },
+      "covered_slice": {
+        "total": 78,
+        "buildable_now": {
+          "count": 69,
+          "total": 78,
+          "pct": 88.5
+        },
+        "official_mcp": {
+          "count": 71,
+          "total": 78,
+          "pct": 91.0
+        },
+        "buildable_now_and_official_mcp": {
+          "count": 64,
+          "total": 78,
+          "pct": 82.1
+        },
+        "needs_human": {
+          "count": 23,
+          "total": 78,
+          "pct": 29.5
+        }
+      }
+    },
+    "access_vs_verdict_and_blocker": {
+      "x_verdict": {
+        "rows": [
+          "self_serve",
+          "self_serve_paid",
+          "gated_partner",
+          "gated_sales"
+        ],
+        "cols": [
+          "buildable_now",
+          "buildable_with_approval"
+        ],
+        "counts": {
+          "self_serve": {
+            "buildable_now": 79,
+            "buildable_with_approval": 0
+          },
+          "self_serve_paid": {
+            "buildable_now": 5,
+            "buildable_with_approval": 0
+          },
+          "gated_partner": {
+            "buildable_now": 0,
+            "buildable_with_approval": 8
+          },
+          "gated_sales": {
+            "buildable_now": 0,
+            "buildable_with_approval": 8
+          }
+        },
+        "totals": {
+          "self_serve": 79,
+          "self_serve_paid": 5,
+          "gated_partner": 8,
+          "gated_sales": 8
+        }
+      },
+      "x_blocker": {
+        "rows": [
+          "self_serve",
+          "self_serve_paid",
+          "gated_partner",
+          "gated_sales"
+        ],
+        "cols": [
+          "none",
+          "gated_access"
+        ],
+        "counts": {
+          "self_serve": {
+            "none": 79,
+            "gated_access": 0
+          },
+          "self_serve_paid": {
+            "none": 5,
+            "gated_access": 0
+          },
+          "gated_partner": {
+            "none": 0,
+            "gated_access": 8
+          },
+          "gated_sales": {
+            "none": 0,
+            "gated_access": 8
+          }
+        },
+        "totals": {
+          "self_serve": 79,
+          "self_serve_paid": 5,
+          "gated_partner": 8,
+          "gated_sales": 8
+        }
+      }
+    },
+    "auth_vs_access_and_admin": {
+      "x_access": {
+        "rows": [
+          "oauth2",
+          "api_key",
+          "none"
+        ],
+        "cols": [
+          "self_serve",
+          "self_serve_paid",
+          "gated_partner",
+          "gated_sales"
+        ],
+        "counts": {
+          "oauth2": {
+            "self_serve": 52,
+            "self_serve_paid": 3,
+            "gated_partner": 8,
+            "gated_sales": 3
+          },
+          "api_key": {
+            "self_serve": 25,
+            "self_serve_paid": 2,
+            "gated_partner": 0,
+            "gated_sales": 5
+          },
+          "none": {
+            "self_serve": 2,
+            "self_serve_paid": 0,
+            "gated_partner": 0,
+            "gated_sales": 0
+          }
+        },
+        "totals": {
+          "oauth2": 66,
+          "api_key": 32,
+          "none": 2
+        }
+      },
+      "x_verdict": {
+        "rows": [
+          "oauth2",
+          "api_key",
+          "none"
+        ],
+        "cols": [
+          "buildable_now",
+          "buildable_with_approval"
+        ],
+        "counts": {
+          "oauth2": {
+            "buildable_now": 55,
+            "buildable_with_approval": 11
+          },
+          "api_key": {
+            "buildable_now": 27,
+            "buildable_with_approval": 5
+          },
+          "none": {
+            "buildable_now": 2,
+            "buildable_with_approval": 0
+          }
+        },
+        "totals": {
+          "oauth2": 66,
+          "api_key": 32,
+          "none": 2
+        }
+      },
+      "x_requires_end_user_admin": {
+        "rows": [
+          "oauth2",
+          "api_key",
+          "none"
+        ],
+        "cols": [
+          "true",
+          "false"
+        ],
+        "counts": {
+          "oauth2": {
+            "true": 17,
+            "false": 49
+          },
+          "api_key": {
+            "true": 2,
+            "false": 30
+          },
+          "none": {
+            "true": 0,
+            "false": 2
+          }
+        },
+        "totals": {
+          "oauth2": 66,
+          "api_key": 32,
+          "none": 2
+        },
+        "caveated": true
+      }
+    },
+    "what_makes_an_app_hard": {
+      "gating": {
+        "gated": {
+          "count": 16,
+          "total": 100,
+          "pct": 16.0
+        },
+        "by_access": {
+          "gated_sales": {
+            "count": 8,
+            "total": 100,
+            "pct": 8.0
+          },
+          "gated_partner": {
+            "count": 8,
+            "total": 100,
+            "pct": 8.0
+          }
+        },
+        "gated_buildable_with_approval": {
+          "count": 16,
+          "total": 16,
+          "pct": 100.0
+        },
+        "non_gated_buildable_now": {
+          "count": 84,
+          "total": 84,
+          "pct": 100.0
+        }
+      },
+      "oauth2_only": {
+        "all": {
+          "count": 15,
+          "total": 100,
+          "pct": 15.0
+        },
+        "among_gated": {
+          "count": 6,
+          "total": 16,
+          "pct": 37.5
+        },
+        "among_non_gated": {
+          "count": 9,
+          "total": 84,
+          "pct": 10.7
+        },
+        "oauth2_primary_among_gated": {
+          "count": 11,
+          "total": 16,
+          "pct": 68.8
+        },
+        "oauth2_primary_among_non_gated": {
+          "count": 55,
+          "total": 84,
+          "pct": 65.5
+        }
+      },
+      "confidence_not_high": {
+        "all": {
+          "count": 24,
+          "total": 100,
+          "pct": 24.0
+        },
+        "medium": {
+          "count": 23,
+          "total": 100,
+          "pct": 23.0
+        },
+        "low": {
+          "count": 1,
+          "total": 100,
+          "pct": 1.0
+        },
+        "among_gated": {
+          "count": 10,
+          "total": 16,
+          "pct": 62.5
+        },
+        "among_non_gated": {
+          "count": 14,
+          "total": 84,
+          "pct": 16.7
+        }
+      },
+      "preview_or_coming_soon_notes": {
+        "all": {
+          "count": 19,
+          "total": 100,
+          "pct": 19.0
+        },
+        "mcp_related": {
+          "count": 12,
+          "total": 100,
+          "pct": 12.0
+        },
+        "among_not_high_confidence": {
+          "count": 7,
+          "total": 24,
+          "pct": 29.2
+        }
+      },
+      "needs_human_concentration": {
+        "by_category": [
+          {
+            "category": "ecommerce",
+            "count": 6,
+            "total": 10,
+            "pct": 60.0
+          },
+          {
+            "category": "support_and_helpdesk",
+            "count": 6,
+            "total": 10,
+            "pct": 60.0
+          },
+          {
+            "category": "ai_research_and_media",
+            "count": 5,
+            "total": 10,
+            "pct": 50.0
+          },
+          {
+            "category": "finance_and_fintech",
+            "count": 5,
+            "total": 10,
+            "pct": 50.0
+          },
+          {
+            "category": "marketing_ads_email_social",
+            "count": 5,
+            "total": 10,
+            "pct": 50.0
+          },
+          {
+            "category": "data_seo_and_scraping",
+            "count": 3,
+            "total": 10,
+            "pct": 30.0
+          },
+          {
+            "category": "communications_and_messaging",
+            "count": 2,
+            "total": 10,
+            "pct": 20.0
+          },
+          {
+            "category": "crm_and_sales",
+            "count": 2,
+            "total": 10,
+            "pct": 20.0
+          },
+          {
+            "category": "productivity_and_project_management",
+            "count": 2,
+            "total": 10,
+            "pct": 20.0
+          },
+          {
+            "category": "developer_infra_and_data",
+            "count": 0,
+            "total": 10,
+            "pct": 0.0
+          }
+        ],
+        "by_composio_status": {
+          "exists": {
+            "count": 23,
+            "total": 78,
+            "pct": 29.5
+          },
+          "none": {
+            "count": 13,
+            "total": 22,
+            "pct": 59.1
+          }
+        }
+      },
+      "requires_end_user_admin": {
+        "all": {
+          "count": 19,
+          "total": 100,
+          "pct": 19.0
+        },
+        "among_gated": {
+          "count": 6,
+          "total": 16,
+          "pct": 37.5
+        },
+        "among_oauth2_primary": {
+          "count": 17,
+          "total": 66,
+          "pct": 25.8
+        },
+        "caveated": true,
+        "caveat": "requires_end_user_admin is low-accuracy (gold 70%, holdout 10%); treat these counts as indicative only."
+      }
+    }
+  }
+}

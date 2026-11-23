@@ -21,6 +21,7 @@ This is a take-home style research pipeline, not a production product.
 - `agent/` — research agent CLI (`python -m agent run`): `llm/` provider adapters, `tools/` search/fetch providers, `research.py` loop, `validate.py` schema + consistency + evidence checks, `prompts.py`; pass-2 reviewer (`python -m agent review`): `review.py` loop, `review_rules.py` rule checklist; pass-3 browser check (`python -m agent browse`): `browse_flags.py` selector, `browse.py` loop; `human.py` needs_human flags, spot check and final export; `pipeline.py` one-command `python -m agent all`
 - `tests/` — offline unit tests (LLM and tools mocked)
 - `data/runs/<run_id>/` — agent outputs
+- `scripts/patterns.py` → `data/patterns/` — distributions, cross-tabs and headline patterns across the final 100 rows, with gold/holdout field caveats
 - `.agents/skills/composio/` — Composio skill used when building the research agent
 
 ## Status
