@@ -58,7 +58,7 @@ def consistency_errors(row: dict, identity: dict | None = None) -> list[str]:
     if identity:
         for k in ("id", "slug", "name", "category"):
             if g(k) != identity[k]:
-                errs.append(f"rule identity: {k} must be {identity[k]!r} from data/apps.csv")
+                errs.append(f"rule identity: {k} must be {identity[k]!r} from the input CSV")
     if g("primary_auth") not in (g("auth_methods") or []):
         errs.append("rule 1: primary_auth must be one of auth_methods")
     # The oauth2-first preference is not enforced here: it only applies when OAuth2 authenticates the

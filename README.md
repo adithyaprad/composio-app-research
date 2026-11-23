@@ -18,7 +18,7 @@ This is a take-home style research pipeline, not a production product.
   - `gold_sample.md` / `gold_sample.jsonl` — 20 apps reserved for the headline accuracy check (hand-labelled, audited, and locked)
   - `HOLDOUT.md` / `holdout_sample.jsonl` — 10 sealed apps, labelled once, used only as a generalisation check
   - `GOLD_AUDIT.md` — what changed in the gold audit and the rubric clarifications
-- `agent/` — research agent CLI (`python -m agent run`): `llm/` provider adapters, `tools/` search/fetch providers, `research.py` loop, `validate.py` schema + consistency + evidence checks, `prompts.py`; pass-2 reviewer (`python -m agent review`): `review.py` loop, `review_rules.py` rule checklist; pass-3 browser check (`python -m agent browse`): `browse_flags.py` selector, `browse.py` loop
+- `agent/` — research agent CLI (`python -m agent run`): `llm/` provider adapters, `tools/` search/fetch providers, `research.py` loop, `validate.py` schema + consistency + evidence checks, `prompts.py`; pass-2 reviewer (`python -m agent review`): `review.py` loop, `review_rules.py` rule checklist; pass-3 browser check (`python -m agent browse`): `browse_flags.py` selector, `browse.py` loop; `human.py` needs_human flags, spot check and final export; `pipeline.py` one-command `python -m agent all`
 - `tests/` — offline unit tests (LLM and tools mocked)
 - `data/runs/<run_id>/` — agent outputs
 - `.agents/skills/composio/` — Composio skill used when building the research agent
@@ -94,6 +94,26 @@ A person is the referee, not someone who re-reads all 100 rows.
 - **Gold labelling.** 20 apps, two per category, were labelled by hand from official docs without looking at the agent rows.
 - **Gold audit.** Every gold field was rechecked against official docs. Three labels were corrected, the rubric was clarified, and the set was locked. The score is only as good as this key, so it has to be 100% correct.
 - **Sealed holdout.** 10 fresh apps, none from the pilot or the gold 20, were labelled and locked before the pass-2 rules were written. That set is scored once per frozen pass, and no further rule is written to chase the number.
+
+### Where a human was needed
+
+There are five points where a person, not the agent, makes the call:
+
+1. **Gold labelling.** 20 apps (two per category) were labelled by hand from official docs, without looking at the agent's output.
+2. **Gold audit.** Every gold field was rechecked against official docs. Three labels were corrected, the rubric was clarified, and the set was locked (`schema/GOLD_AUDIT.md`).
+3. **Sealed holdout.** 10 fresh apps were labelled and locked before any checker rule was written (`schema/HOLDOUT.md`).
+4. **Per-row `needs_human` flags after pass 3.** `agent/human.py` flags rows a person should look at, using general rules only. **36 of 100** final rows are flagged (`data/runs/pass3/needs_human.json`; a row can have more than one reason):
+
+   | Reason id | Rows | Meaning |
+   |---|---|---|
+   | `sales_or_partner_gate` | 16 | `gated_sales` / `gated_partner` access or `buildable_with_approval`: a sales demo or a manual partner review a bot cannot pass |
+   | `confidence_not_high` | 24 | confidence is still `medium` or `low` after pass 3 |
+   | `conflicting_or_caveated_docs` | 15 | notes report conflicting docs, a login wall, a deprecation or migration, or a claim the browser pass could not confirm |
+   | `unknown_deciding_field` | 0 | `access`, `primary_auth` or `mcp_status` is `unknown` |
+   | `browse_unresolved` | 0 | a flagged row whose browser check was `kept` / `failed`, or had no usable rendered page |
+
+   One line per row is in `needs_human.jsonl`: `needs_human`, the short `reason`, each reason id with its detail, confidence, access, verdict and the evidence URLs.
+5. **10-row spot check.** `data/runs/pass3/spot_check_10.md` (and `.json`) is a fixed-seed (`42`) random sample of 10 final rows. The 20 gold and 10 holdout apps are excluded (30 rows). For each row it lists the deciding fields, the `needs_human` flag, notes, evidence URLs with their quoted snippets, and browser screenshots, followed by two unticked boxes (`Confirmed against official docs` / `Needs correction`). Its status is `pending_human_check`. **It is not self-graded**: the boxes are left for a person to tick against the vendor's docs.
 
 ### Scoring
 
@@ -231,6 +251,37 @@ Failed apps are not written to `rows.jsonl`, so re-running the same `--run-id` r
 ```
 
 Browser Use (open source) + Browser Use Cloud browsers for blocked pages. A code selector (`agent/browse_flags.py`) flags pass-2 rows that are still unsure, with reason ids `confidence_not_high`, `unsupported_or_invalid` (the pass-2 log or evidence checks show unsupported evidence or validation errors), `thin_or_blocked_page` (a page cited for access, auth, MCP or verdict came back thin, blocked or failed), and `unresolved_deciding_fact` (notes or quotes mention book-a-demo / talk-to-sales, a coming-soon or beta MCP or API, or an unreadable JS-only page). Each flagged row opens up to 4 pages (pages flagged as thin or blocked first, then the pricing/signup, auth and MCP pages it cites, plus `start_url`, `docs_url` and `mcp_url`; login walls are skipped). The open-source Browser Use library opens and renders each page in a local headless Chromium browser first (no clicking or navigating inside the page). Only a page that comes back empty, shows a captcha, or is blocked is retried on a Browser Use Cloud browser. That needs `BROWSER_USE_API_KEY` in the environment. Without it the fallback is skipped and logged as `cloud_skipped_no_key`. A row starts at most one cloud session, and only on its first fallback. The Bedrock model (or configured `LLM_PROVIDER`) reads the rendered page and decides, not the Browser Use cloud model. It gets one call per row (plus one retry) and may confirm or correct only the in-scope fields (access, auth, MCP, verdict/blocker, confidence and their evidence), with quotes that must be found in the rendered text. If the rendered pages cannot support a value, the pass-2 values are kept with a note. Composio's Browser Use toolkit was not used: a read-only probe found no active connection for it in this project, the same "No active connection" problem as the other Instant toolkits. Unflagged rows are copied to `rows.jsonl` unchanged (`flagged: false` in `flags.jsonl` and `browse.jsonl`; the row itself has no extra keys). `browse.jsonl` has one line per row: flag reasons, pages opened (url, `browser: local | cloud`, why the fallback happened, text length, title, screenshot path), fields confirmed vs changed (before/after), cloud sessions, LLM usage and wall time, and status (`copied` / `confirmed` / `changed` / `kept` / `failed`). Screenshots are saved to `screenshots/<slug>/` in the run folder, and the evidence notes and snippets point at them. `--concurrency` defaults to 1 because browsers are heavy.
+
+### One-command end-to-end run
+
+```bash
+# offline check: fake LLM, tools and browser, no keys or Chrome (dry-run folders are gitignored)
+.venv/bin/python -m agent all --dry-run --limit 2 --run-id dry-run-all
+# real run: research -> review -> browse -> final export -> needs_human (reuse --run-id to resume)
+.venv/bin/python -m agent all --input data/apps.csv --run-id full-run
+.venv/bin/python -m agent all --input my_apps.csv --run-id my-run     # any CSV in the format below
+```
+
+`all` checks the input CSV first and stops with a clear error before any stage runs if it is invalid. It then runs the three passes into one folder, `data/runs/<run-id>/`:
+
+- `pass1/`, `pass2/`, `pass3/`: each stage's usual run folder. Re-running the same `--run-id` resumes every stage, so rows already done are skipped.
+- `rows.jsonl`: the final schema rows (a copy of `pass3/rows.jsonl`)
+- `final.json`: the same rows as a pretty JSON array, sorted by `id`
+- `final.csv`: one row per app, with the schema columns in schema order. `auth_methods` and `api_types` are `;`-joined (`oauth2;api_key`). `evidence` and `composio_toolkit` are compact JSON strings. Booleans are `true` / `false`, and `null` is an empty cell.
+- `needs_human.jsonl` / `needs_human.json`: per-row human flags (see [Where a human was needed](#where-a-human-was-needed))
+- `summary.json`: per-stage summaries with `wall_s`, token and cost totals, needs_human counts and output paths. The same JSON is printed to stdout.
+
+Options: `--apps`, `--limit`, `--concurrency` (run and review, default 3), `--browse-concurrency` (default 1), `--max-pages` (run, default 8), `--no-follow-up`, `--dry-run`, `--out-dir`, `-v`. `--input` defaults to `data/apps.csv`.
+
+**Input CSV.** UTF-8 with a header row. Required columns are `id`, `slug`, `name`, `category` and `start_url` (`link` is accepted instead of `start_url`). `category_label` and `source_hint` are optional. Every row is checked:
+
+- `id` is an integer from 1 to 100 and unique
+- `slug` matches `^[a-z0-9]+(?:-[a-z0-9]+)*$` and is unique
+- `name` is not empty
+- `category` is one of the 10 schema categories
+- `start_url` is empty or an `http(s)://` URL with a valid hostname
+
+Every bad value is reported with its CSV line number. `run`, `review` and `browse` also accept `--input`. `run` saves a normalized copy as `<run>/input.csv`, and `review` / `browse` use the input run's `input.csv` when `--input` is not given, so apps from a custom CSV are not skipped. Apps missing from `data/composio_coverage.csv` get `composio_toolkit.status: unknown`.
 
 ### Search and fetch providers
 

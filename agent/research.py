@@ -23,7 +23,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 
 from agent import prompts
-from agent.config import Settings
+from agent.config import SCHEMA_PATH, ConfigError, Settings
 from agent.llm import LLM, LLMResult, extract_json
 from agent.tools.base import Page, now_iso
 from agent.tools.budget import ExaBudget, InstantBudget, current_app
@@ -60,9 +60,96 @@ def mcp_links(page: Page) -> list[str]:
 
 # ---------- inputs ----------
 
+APP_COLUMNS = ("id", "slug", "name", "category", "category_label", "source_hint", "start_url")
+REQUIRED_COLUMNS = ("id", "slug", "name", "category", "start_url")
+_SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+_HOST_RE = re.compile(r"^(?=.{1,253}$)([a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)(\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+$",
+                      re.I)
+
+
+def schema_categories() -> list[str]:
+    return list(json.loads(SCHEMA_PATH.read_text())["properties"]["category"]["enum"])
+
+
+def validate_apps_csv(path: Path) -> list[dict]:
+    """Read and check an input app list. Returns rows with APP_COLUMNS (id as int, missing optional columns
+    as ""); raises ConfigError naming every bad row (1-based CSV line numbers, header is line 1)."""
+    path = Path(path)
+    if not path.is_file():
+        raise ConfigError(f"input CSV not found: {path}")
+    try:
+        with path.open(newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            header = [h.strip() for h in reader.fieldnames or []]
+            raw = list(reader)
+    except (UnicodeDecodeError, csv.Error) as e:
+        raise ConfigError(f"{path} is not a readable UTF-8 CSV: {e}") from e
+    if not header:
+        raise ConfigError(f"{path} is empty or has no header row; expected columns: {', '.join(APP_COLUMNS)}")
+    url_col = "start_url" if "start_url" in header else "link" if "link" in header else None
+    missing = [c for c in REQUIRED_COLUMNS if c not in header and not (c == "start_url" and url_col)]
+    if missing:
+        raise ConfigError(f"{path} is missing required column(s): {', '.join(missing)}. Required: "
+                          f"{', '.join(REQUIRED_COLUMNS)} ('link' is accepted for start_url); optional: "
+                          "category_label, source_hint")
+
+    categories = schema_categories()
+    errors: list[str] = []
+    seen_ids: dict[int, int] = {}
+    seen_slugs: dict[str, int] = {}
+    apps = []
+    for line, r in enumerate(raw, start=2):
+        r = {(k or "").strip(): (v or "").strip() if isinstance(v, str) else "" for k, v in r.items()}
+        app = {c: r.get(c, "") for c in APP_COLUMNS}
+        app["start_url"] = r.get(url_col, "")
+        where = f"line {line}"
+        try:
+            app_id = int(app["id"])
+            if not 1 <= app_id <= 100:
+                raise ValueError
+        except ValueError:
+            errors.append(f"{where}: id {app['id']!r} must be an integer from 1 to 100")
+            app_id = None
+        if app_id is not None:
+            if app_id in seen_ids:
+                errors.append(f"{where}: duplicate id {app_id} (first on line {seen_ids[app_id]})")
+            seen_ids.setdefault(app_id, line)
+        slug = app["slug"]
+        if not _SLUG_RE.match(slug):
+            errors.append(f"{where}: slug {slug!r} must be lowercase letters/digits joined by single hyphens")
+        elif slug in seen_slugs:
+            errors.append(f"{where}: duplicate slug {slug!r} (first on line {seen_slugs[slug]})")
+        else:
+            seen_slugs[slug] = line
+        if not app["name"]:
+            errors.append(f"{where}: name is empty")
+        if app["category"] not in categories:
+            errors.append(f"{where}: category {app['category']!r} is not one of: {', '.join(categories)}")
+        url = app["start_url"]
+        if url:
+            host = (urlsplit(url).hostname or "") if url.startswith(("http://", "https://")) else None
+            if host is None:
+                errors.append(f"{where}: {url_col} {url!r} must start with http:// or https://")
+            elif not (_HOST_RE.match(host) or host == "localhost"):
+                errors.append(f"{where}: {url_col} {url!r} has no valid hostname")
+        apps.append({**app, "id": app_id})
+    if errors:
+        raise ConfigError(f"{path} has {len(errors)} invalid value(s):\n  " + "\n  ".join(errors))
+    return apps
+
+
+def write_apps_csv(apps: list[dict], path: Path) -> Path:
+    """Normalized copy of validated input rows (same columns as data/apps.csv)."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=APP_COLUMNS, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(apps)
+    return path
+
+
 def load_apps(path: Path) -> list[dict]:
-    with path.open(newline="") as f:
-        return [{**r, "id": int(r["id"])} for r in csv.DictReader(f)]
+    return validate_apps_csv(path)
 
 
 def load_coverage(path: Path) -> dict[str, dict]:
