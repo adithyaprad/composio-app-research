@@ -1,0 +1,49 @@
+{
+  "total": 2,
+  "needs_human_count": 1,
+  "by_reason": {
+    "conflicting_or_caveated_docs": 1
+  },
+  "rows": [
+    {
+      "slug": "pagerduty",
+      "name": "PagerDuty",
+      "needs_human": true,
+      "reason": "notes report conflicting docs, a login wall, a deprecation or migration, or a claim the browser pass left unverified",
+      "reasons": [
+        {
+          "id": "conflicting_or_caveated_docs",
+          "detail": "deprecated_or_migrating: 'Local MCP server is deprecated;'"
+        }
+      ],
+      "confidence": "high",
+      "access": "self_serve",
+      "verdict": "buildable_now",
+      "evidence_urls": [
+        "https://docs.pagerduty.com/developer/oauth-functionality",
+        "https://docs.pagerduty.com/developer/authentication",
+        "https://docs.pagerduty.com/get-started/trial-account-onboarding",
+        "https://docs.pagerduty.com/developer/api/reference",
+        "https://docs.pagerduty.com/ai-automation/advance/pagerduty-mcp-server",
+        "https://docs.pagerduty.com/developer/mcp-tooling-remote-server"
+      ]
+    },
+    {
+      "slug": "posthog",
+      "name": "PostHog",
+      "needs_human": false,
+      "reason": null,
+      "reasons": [],
+      "confidence": "high",
+      "access": "self_serve",
+      "verdict": "buildable_now",
+      "evidence_urls": [
+        "https://posthog.com/docs/api/",
+        "https://posthog.com/docs/api/oauth",
+        "https://posthog.com/docs/billing/common-questions",
+        "https://posthog.com",
+        "https://posthog.com/mcp"
+      ]
+    }
+  ]
+}
