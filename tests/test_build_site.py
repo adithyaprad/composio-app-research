@@ -6,6 +6,7 @@ real repo data offline and compare key numbers with the source files.
 
 from __future__ import annotations
 
+import base64
 import json
 import re
 from html.parser import HTMLParser
@@ -271,17 +272,148 @@ def test_spot_check_numbers(page):
     assert shown(page, f"{bs.P_SPOT}:result.claims_checked") == "40"
 
 
+def _embedded(html: str, element_id: str) -> str:
+    found = re.search(rf'<script type="[^"]+" id="{element_id}">(.*?)</script>', html, re.S)
+    assert found, element_id
+    return found.group(1)
+
+
 def test_every_row_is_rendered_server_side(built):
     html = (built / "index.html").read_text()
     assert html.count('<tr class="row"') == 100
-    data = json.loads(re.search(r'<script type="application/json" id="rows-data">(.*?)</script>', html, re.S)
-                      .group(1).replace("<\\/", "</"))
-    assert len(data) == 100
+    assert len(json.loads(_embedded(html, "dl-rows"))) == 100
+
+
+# Python mirror of the page's JS download builders (same rules as agent.human.export_final).
+def _js_cell(key: str, v) -> str:
+    if v is None:
+        return ""
+    if key in ("auth_methods", "api_types"):
+        return ";".join(map(str, v))
+    if key in ("evidence", "composio_toolkit") or isinstance(v, (dict, list)):
+        return json.dumps(v, ensure_ascii=False, separators=(",", ":"))
+    if isinstance(v, bool):
+        return "true" if v else "false"
+    return str(v)
+
+
+def _js_quote(s: str) -> str:
+    return '"' + s.replace('"', '""') + '"' if re.search(r'[",\r\n]', s) else s
+
+
+def test_embedded_downloads_equal_site_files_byte_for_byte(built):
+    """The lone page can rebuild every download, and each equals the file in site/ (scripts/check_downloads.py
+    checks the same thing in a real browser)."""
+    html = (built / "index.html").read_text(encoding="utf-8")
+    rows = json.loads(_embedded(html, "dl-rows"))
+    cols = json.loads(_embedded(html, "dl-cols"))
+    needs = json.loads(_embedded(html, "dl-needs"))
+    files = {
+        "data/final.json": json.dumps(rows, indent=2, ensure_ascii=False) + "\n",
+        "data/needs_human.json": json.dumps(needs, indent=2, ensure_ascii=False) + "\n",
+        "data/final.csv": "".join(",".join(_js_quote(c) for c in line) + "\r\n" for line in
+                                  [cols] + [[_js_cell(c, r.get(c)) for c in cols] for r in rows]),
+        "data/patterns.json": _embedded(html, "dl-patterns"),
+        "data/schema.md": _embedded(html, "dl-schema"),
+        "llms.txt": _embedded(html, "dl-llms"),
+    }
+    for rel, text in files.items():
+        assert text.encode("utf-8") == (built / rel).read_bytes(), rel
+
+
+def test_download_links_resolve_and_name_their_files(built):
+    html = (built / "index.html").read_text()
+    links = re.findall(r'<a [^>]*href="([^"]+)"[^>]*download="([^"]+)"[^>]*data-dl="([^"]+)"', html)
+    assert {name for _, _, name in links} == {"final.json", "final.csv", "schema.md", "patterns.json",
+                                              "needs_human.json", "llms.txt"}
+    for href, download, name in links:
+        assert (built / href).is_file(), href
+        assert download == name == Path(href).name
+
+
+def test_no_native_select_and_custom_filters_present(built):
+    html = (built / "index.html").read_text()
+    assert "<select" not in html
+    chips = re.findall(r'<button type="button" class="fchip" data-filter="([a-z_]+)"[^>]*'
+                       r'aria-pressed="(true|false)"', html)
+    assert {k for k, _ in chips} == {"verdict", "access", "mcp_status", "needs_human", "composio", "category"}
+    assert sum(p == "true" for _, p in chips) == 6  # one "All" chip pressed per group
+    assert 'id="clear"' in html
+
+
+@pytest.mark.parametrize("value,cls", [(0.95, "good"), (0.9, "good"), (0.89, "mid"), (0.8, "mid"), (0.79, "weak")])
+def test_accuracy_colour_bands(value, cls):
+    assert bs.acc_class(value) == cls
+
+
+def test_accuracy_cells_use_green_class_at_ninety(built):
+    html = (built / "index.html").read_text()
+    for src in re.findall(r'<td class="acc good[^"]*"><span class="bar"[^>]*></span><span data-src="([^"]+)"', html):
+        assert float(cs.evaluate(src)) >= 0.9
+    assert re.search(r'<td class="acc good', html)
+    assert "green " in html and "amber " in html and "red under" in html
+
+
+def test_diagram_nodes_have_one_panel_each_and_no_duplicate_explanations(built):
+    html = (built / "index.html").read_text()
+    nodes = re.findall(r'<button type="button" class="node node-(stage|human)" id="nb-([a-z0-9]+)" '
+                       r'data-panel="sp-([a-z0-9]+)" aria-controls="sp-[a-z0-9]+" aria-expanded="(true|false)"', html)
+    assert len(nodes) == 12 and sum(kind == "human" for kind, *_ in nodes) == 4
+    assert [e for *_, e in nodes].count("true") == 1 and nodes[0][3] == "true"
+    assert html.count('<section class="sp ') == 12
+    for _, key, panel, _ in nodes:
+        assert key == panel
+        assert re.search(rf'<section class="sp sp-(stage|human)" id="sp-{key}"', html), key
+    for heading in ("What it does", "Why it exists", "How it helps accuracy"):
+        assert html.count(f"<h5>{heading}</h5>") == 12
+    assert "What each stage does" not in html and "stage-d" not in html
+
+
+def test_resume_hidden_with_warning_when_file_missing(built, capsys, tmp_path):
+    assert 'href="resume.pdf"' not in (built / "index.html").read_text()
+    out = tmp_path / "site"
+    bs.write_site(ROOT, out)
+    assert "Resume button hidden" in capsys.readouterr().err
+
+
+def test_resume_hidden_when_url_empty(tmp_path, monkeypatch, capsys):
+    out = tmp_path / "site"
+    out.mkdir()
+    (out / "resume.pdf").write_bytes(b"%PDF-1.4 placeholder")
+    monkeypatch.setenv("RESUME_URL", "")
+    bs.write_site(ROOT, out)
+    assert 'href="resume.pdf"' not in (out / "index.html").read_text()
+    assert "RESUME_URL is empty" in capsys.readouterr().err
+
+
+def test_resume_linked_and_static_asset_kept_when_present(tmp_path, monkeypatch):
+    monkeypatch.delenv("RESUME_URL", raising=False)
+    out = tmp_path / "site"
+    out.mkdir()
+    (out / "resume.pdf").write_bytes(b"%PDF-1.4 placeholder")
+    bs.write_site(ROOT, out)
+    bs.write_site(ROOT, out)  # a rebuild must not delete the static asset
+    assert (out / "resume.pdf").read_bytes() == b"%PDF-1.4 placeholder"
+    html = (out / "index.html").read_text()
+    assert '<a class="btn btn-big btn-second" href="resume.pdf" download="resume.pdf" data-resume>' in html
+    b64 = re.search(r'<script type="application/pdf;base64" id="dl-resume">([^<]+)</script>', html).group(1)
+    assert base64.b64decode(b64) == b"%PDF-1.4 placeholder"  # downloads from the lone page too
+    assert cs.run(out, verbose=False)["local_bad"] == []
+
+
+def test_links_section_last_and_repo_links_early(built):
+    html = (built / "index.html").read_text()
+    sections = re.findall(r'<section id="([a-z]+)"', html)
+    assert sections[-1] == "links"
+    assert 'href="#links"' in html
+    repo = f'href="{bs.REPO_URL}"'
+    assert html.index(repo) < html.index('<section id="accuracy"')  # top nav and hero
+    assert 'class="top-gh"' in html and html.count(bs.esc(bs.REPO_LABEL)) >= 3
 
 
 def test_no_leaks_and_no_remote_resources(built, page):
     for f in built.rglob("*"):
-        if f.is_file():
+        if f.is_file() and f.name not in bs.STATIC_ASSETS:
             text = f.read_text()
             assert "/home/" not in text and "/tmp/" not in text, f
     for tag, attrs in page.tags:
@@ -330,8 +462,21 @@ def test_committed_site_is_up_to_date():
 
 def test_no_research_app_names_in_generator_or_tests():
     names = [r["name"] for r in _jsonl(bs.P_ROWS)]
-    for rel in ("scripts/build_site.py", "scripts/check_site.py", "tests/test_build_site.py"):
-        text = (ROOT / rel).read_text()
+    # site/resume.pdf is a hand-placed static asset and deliberately not scanned.
+    for rel in ("scripts/build_site.py", "scripts/check_site.py", "scripts/check_downloads.py",
+                "tests/test_build_site.py"):
+        # The repo host's name is allowed on the single REPO_LABEL line (it is the repo host, not a research result).
+        text = "\n".join(line for line in (ROOT / rel).read_text().splitlines()
+                         if not line.startswith("REPO_LABEL = "))
         for name in names:
             if len(name) > 3:
                 assert not re.search(rf"\b{re.escape(name)}\b", text), (rel, name)
+
+
+def test_tools_section_lists_logged_models_and_no_proof_run_card(built):
+    html = (built / "index.html").read_text()
+    assert '<section id="tools"' in html and '<section id="composio"' not in html
+    assert 'href="#tools"' in html
+    for _, model in bs.pass_models(bs.ROOT if hasattr(bs, "ROOT") else ROOT):
+        assert bs.esc(model) in html
+    assert "A live end-to-end run" not in html and "proof-e2e" not in html

@@ -17,10 +17,12 @@ Output is deterministic: the only date on the page is derived from the data.
 from __future__ import annotations
 
 import argparse
+import base64
 import csv
 import filecmp
 import html
 import json
+import os
 import re
 import shutil
 import sys
@@ -34,12 +36,20 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from agent.human import REASONS as NEEDS_HUMAN_TEXT  # noqa: E402
-from agent.human import export_final  # noqa: E402
+from agent.human import export_final, schema_columns  # noqa: E402
 from scripts.patterns import CAVEAT_BELOW, auth_combo, pick_examples  # noqa: E402
 from scripts.patterns import MODERATE_BELOW as PATTERNS_MODERATE_BELOW  # noqa: E402
 
 REPO_URL = "https://github.com/adithyaprad/composio-app-research"
+# Label for the repo buttons. The host shares its name with one of the researched apps; this is the
+# one place that name may appear in this file (tests/test_build_site.py exempts this line only).
+REPO_LABEL = "GitHub repo"
+# Resume link in the closing Links section: a file in site/ (or an absolute URL). Override with env RESUME_URL.
+# When empty, or when the file is missing from the site folder, the button is hidden and a warning is printed.
+RESUME_URL = "resume.pdf"
 SITE_DIR = ROOT / "site"
+GENERATED = ("index.html", "llms.txt", "data")  # what write_site owns and replaces
+STATIC_ASSETS = ("resume.pdf",)  # placed in site/ by hand; kept on rebuild, never generated or read
 TITLE = "Can these {n} apps become agent toolkits?"
 
 # Repo-relative source paths. These strings are also the file part of every data-src key.
@@ -57,6 +67,7 @@ P_SPOT = "data/runs/pass3/spot_check_10.json"
 P_PATTERNS = "data/patterns/patterns.json"
 P_COVERAGE = "data/composio_coverage.csv"
 P_TOOLKITS = "data/composio_toolkits.json"
+P_ALIASES = "data/composio_aliases.json"
 P_GOLD = "schema/gold_sample.jsonl"
 P_HOLDOUT = "schema/holdout_sample.jsonl"
 P_AUDIT = "schema/GOLD_AUDIT.md"
@@ -123,6 +134,48 @@ RULE_TEXT = {
 }
 
 
+# Inline SVG glyphs (24px grid, stroke icons). Decorative: always aria-hidden.
+ICON_PATHS = {
+    "list": '<path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/>'
+            '<circle cx="4.5" cy="18" r="1"/>',
+    "search": '<circle cx="11" cy="11" r="6.5"/><path d="M20.5 20.5l-4.8-4.8"/>',
+    "rules": '<path d="M12 3l8 3v6c0 4.6-3.3 7.9-8 9-4.7-1.1-8-4.4-8-9V6z"/><path d="M8.8 12.2l2.2 2.2 4.4-4.6"/>',
+    "filter": '<path d="M3.5 5h17l-6.5 7.6V19l-4 2v-8.4z"/>',
+    "browser": '<rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M3 9h18"/>'
+               '<circle cx="6.5" cy="6.5" r=".6"/><circle cx="9" cy="6.5" r=".6"/>',
+    "rows": '<rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M3 10h18M3 15h18M9 4v16"/>',
+    "target": '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/>',
+    "chart": '<path d="M4 20V11M10 20V5M16 20v-6M2.5 20.5h19"/>',
+    "person": '<circle cx="12" cy="8" r="3.8"/><path d="M4.5 20.5c.6-3.9 3.7-5.8 7.5-5.8s6.9 1.9 7.5 5.8"/>',
+    "check": '<path d="M5 12.5l4.2 4.2L19 7"/>',
+    "ext": '<path d="M14 4h6v6M20 4l-9 9"/><path d="M18 14.5V19a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h4.5"/>',
+    "loop": '<path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.8 4.5v4.2h-4.2"/>',
+    "grid": '<rect x="4" y="4" width="6.5" height="6.5" rx="1.2"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.2"/>'
+            '<rect x="4" y="13.5" width="6.5" height="6.5" rx="1.2"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.2"/>',
+    "plug": '<path d="M9 3v5M15 3v5M6.5 8h11v3.5a5.5 5.5 0 0 1-11 0zM12 17v4"/>',
+    "spark": '<path d="M12 3.5l1.9 5 5 1.9-5 1.9-1.9 5-1.9-5-5-1.9 5-1.9z"/><path d="M18.5 16.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/>',
+    "download": '<path d="M12 4v11M7 10.5l5 5 5-5M4.5 20h15"/>',
+    "file": '<path d="M14 3.5H7a1.5 1.5 0 0 0-1.5 1.5v14A1.5 1.5 0 0 0 7 20.5h10a1.5 1.5 0 0 0 1.5-1.5V8z"/>'
+            '<path d="M14 3.5V8h4.5"/>',
+    "x": '<path d="M7 7l10 10M17 7L7 17"/>',
+    "chevron": '<path d="M9 6l6 6-6 6"/>',
+}
+GITHUB_SVG = ('<svg class="gh" viewBox="0 0 16 16" width="18" height="18" aria-hidden="true" focusable="false">'
+              '<path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 '
+              '0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 '
+              '1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 '
+              '0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 '
+              '2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 '
+              '3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>'
+              '</svg>')
+
+
+def icon(name: str, cls: str = "ic") -> str:
+    return (f'<svg class="{cls}" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" '
+            f'stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" '
+            f'focusable="false">{ICON_PATHS[name]}</svg>')
+
+
 RENDERED_NOTE = re.compile(r"\s*\(rendered in browser(?:; screenshot [^)]*)?\)")
 
 
@@ -177,6 +230,7 @@ def load_sources(root: Path) -> dict[str, Any]:
         "patterns": read_json(p(P_PATTERNS)),
         "coverage": read_csv(p(P_COVERAGE)),
         "toolkits_total": read_json(p(P_TOOLKITS)).get("total"),
+        "aliases": read_json(p(P_ALIASES)),
         "gold": read_jsonl(p(P_GOLD)),
         "holdout": read_jsonl(p(P_HOLDOUT)),
         "audit": p(P_AUDIT).read_text(encoding="utf-8"),
@@ -184,6 +238,7 @@ def load_sources(root: Path) -> dict[str, Any]:
         "schema_readme": p(P_SCHEMA_README).read_text(encoding="utf-8"),
         "readme": p("README.md").read_text(encoding="utf-8"),
         "scores": {kind: {n: read_json(p(score_path(kind, n))) for n in PASSES} for kind in SETS},
+        "root": root,
         "proof": read_json(p(P_PROOF)),
         "proof_rows": read_jsonl(p(P_PROOF_ROWS)),
         "proof_flags": read_jsonl(p(P_PROOF_FLAGS)),
@@ -254,6 +309,21 @@ def auth_summary(rows: list[dict]) -> dict[str, int]:
             "api_key_primary": sum(r.get("primary_auth") == "api_key" for r in rows),
             "oauth2_and_api_key": combos["oauth2_and_api_key"], "api_key_only": combos["api_key_only"],
             "oauth2_only": combos["oauth2_only"]}
+
+
+def acc_class(value: float) -> str:
+    """Colour band for an accuracy cell: good (green) at 90%+, mid (amber) from 80%, weak (red) below."""
+    return "weak" if value < WEAK_BELOW else "mid" if value < MODERATE_BELOW else "good"
+
+
+def acc_legend() -> str:
+    """'green 90%+, amber 80–89%, red under 80%' with every threshold sourced from patterns.json."""
+    hi = f"{P_PATTERNS}:meta.thresholds.moderate_below"
+    lo = f"{P_PATTERNS}:meta.thresholds.caveated_below"
+    return (f'<span class="lg lg-good">green {n(MODERATE_BELOW, hi, "pct")}+</span>, '
+            f'<span class="lg lg-mid">amber {n(WEAK_BELOW, lo, "pctn")}–'
+            f'{n(round(MODERATE_BELOW - 0.01, 2), f"{P_PATTERNS}:minus(meta.thresholds.moderate_below,0.01)", "pct")}</span>, '
+            f'<span class="lg lg-weak">red under {n(WEAK_BELOW, lo, "pct")}</span>')
 
 
 def tag_for(accuracies: list[float]) -> str:
@@ -408,6 +478,8 @@ def esc(value: Any) -> str:
 def fmt_value(value: float, fmt: str) -> str:
     if fmt == "pct":
         return f"{round(value * 100)}%"
+    if fmt == "pctn":  # a percentage shown without its % sign (e.g. the "80" in "80–89%")
+        return f"{round(value * 100)}"
     if fmt == "usd":
         return f"${value:.2f}"
     if fmt == "min":
@@ -463,6 +535,24 @@ def set_size_n(scores: dict, kind: str) -> str:
 
 def as_of_span(m: dict) -> str:
     return f'<span data-src="as_of()" data-fmt="date">{esc(m["as_of"])}</span>'
+
+
+def coverage_facts(src: dict) -> dict[str, Any]:
+    """Composio coverage numbers as page spans: toolkit count, covered / uncovered / total, aliases, snapshot date."""
+    cov = src["coverage"]
+    covered = sum(r["status"] == "exists" for r in cov)
+    uncovered = sum(r["status"] == "none" for r in cov)
+    aliases = [k for k in src["aliases"] if not k.startswith("_")]
+    snapshot = max(r["checked_at"] for r in cov)[:10]
+    return {
+        "covered": covered, "uncovered": uncovered, "total": len(cov),
+        "toolkits_n": n(src["toolkits_total"], f"{P_TOOLKITS}:total"),
+        "covered_n": n(covered, f"{P_COVERAGE}:count(status=exists)"),
+        "uncovered_n": n(uncovered, f"{P_COVERAGE}:count(status=none)"),
+        "total_n": n(len(cov), f"{P_COVERAGE}:count()"),
+        "aliases_n": n(len(aliases), f"{P_ALIASES}:nkeys()"),
+        "date": f'<span data-src="{P_COVERAGE}:max_date(checked_at)" data-fmt="date">{esc(snapshot)}</span>',
+    }
 
 
 def cat_size_n(m: dict) -> str:
@@ -560,6 +650,8 @@ def section_hero(src: dict, m: dict) -> str:
     # (d) easy wins vs outreach
     easy = m["easy"]
     out = m["outreach"]
+    cf = coverage_facts(src)
+    ensure(all(composio_status(r) == "none" for r in easy), "every easy win is outside Composio's coverage")
     gated_total = len(out["gated_sales"]) + len(out["gated_partner"])
     ensure(not out["other"], "every buildable_with_approval row is sales- or partner-gated")
     win_acc = [field_acc(g3, "verdict"), field_acc(h3, "verdict"), field_acc(g3, "mcp_status"),
@@ -624,13 +716,13 @@ def section_hero(src: dict, m: dict) -> str:
     <h3 class="q">Easy wins vs outreach?</h3>
     <div class="split">
       <div><p class="big good">{n(len(easy), rows_src(easy_f))}</p>
-        <p class="big-label">easy wins: buildable now, official MCP, not on Composio yet</p>
+        <p class="big-label">easy wins, found among the <strong>{cf['uncovered_n']} of {cf['total_n']}</strong> apps Composio has no toolkit for yet: buildable now, with an official MCP server</p>
         <p class="eg">e.g. {names(pick_examples(easy, 3))}</p></div>
       <div><p class="big warn">{n(gated_total, rows_src('verdict=buildable_with_approval'))}</p>
-        <p class="big-label">need outreach: a sales or partner gate first</p>
+        <p class="big-label">need outreach first: a sales or partner gate, whether or not Composio covers them</p>
         <p class="eg">e.g. {names(pick_examples(out['gated_sales'], 1) + pick_examples(out['gated_partner'], 2))}</p></div>
     </div>
-    <p class="more"><a href="#next">See both lists</a></p>
+    <p class="howknow"><span class="hk-k">How we know coverage</span>The Composio SDK catalog snapshot ({cf['toolkits_n']} toolkits, <code>data/composio_toolkits.json</code>, {cf['date']}) matched to the apps by slug and name, plus a manual alias map (<code>data/composio_aliases.json</code>), in <code>scripts/composio_coverage.py</code>. <a href="#tools">Details</a> · <a href="#next">Both lists</a></p>
     {tag(win_tag, f"Verdict scored {pct_pair('verdict')}; MCP status {pct_pair('mcp_status')}.")}
   </article>
 </div>"""
@@ -647,7 +739,10 @@ def section_hero(src: dict, m: dict) -> str:
 <section id="patterns" class="hero" aria-labelledby="h-patterns">
   <p class="eyebrow">Case study · Composio app research</p>
   <h1 id="h-patterns">{TITLE.format(n=tot)}</h1>
-  <p class="subtitle">Which apps an agent toolkit can be built for today, which need outreach first, and how far to trust the answers.</p>
+  <div class="sub-row">
+    <p class="subtitle">Which apps an agent toolkit can be built for today, which need outreach first, and how far to trust the answers.</p>
+    <a class="btn btn-ghost" href="{esc(REPO_URL)}" target="_blank" rel="noopener">{GITHUB_SVG}<span>{esc(REPO_LABEL)}</span></a>
+  </div>
   <p class="lead">An agent pipeline researched {tot} apps (auth, access, API, MCP, Composio coverage, a buildability verdict and the evidence behind each), checked itself in three loops, and was scored against hand-labelled answers.</p>
   <h2 class="kicker">The patterns</h2>
   {cards}
@@ -664,7 +759,7 @@ def section_accuracy(src: dict, m: dict) -> str:
             vals = [field_acc(s[kind][p], key) for p in PASSES]
             for i, p in enumerate(PASSES):
                 v = vals[i]
-                cls = "weak" if v < WEAK_BELOW else "mid" if v < MODERATE_BELOW else ""
+                cls = acc_class(v)
                 delta = ""
                 if i > 0 and v != vals[i - 1]:
                     delta = '<span class="up" aria-label="up">▲</span>' if v > vals[i - 1] else \
@@ -706,7 +801,7 @@ def section_accuracy(src: dict, m: dict) -> str:
     return f"""
 <section id="accuracy" aria-labelledby="h-accuracy">
   <h2 id="h-accuracy">How accurate is it?</h2>
-  <p class="section-lead">Field accuracy against hand-labelled answers, after each loop: a gold set of {ng} apps and a sealed holdout of {nh} apps the rules never saw. Amber is under {n(MODERATE_BELOW, f"{P_PATTERNS}:meta.thresholds.moderate_below", "pct")}, red under {n(WEAK_BELOW, f"{P_PATTERNS}:meta.thresholds.caveated_below", "pct")}.</p>
+  <p class="section-lead">Field accuracy against hand-labelled answers, after each loop: a gold set of {ng} apps and a sealed holdout of {nh} apps the rules never saw. Colours: {acc_legend()}.</p>
   <div class="acc-layout">
     <div class="table-wrap acc-wrap">
       <table class="acc-table">
@@ -737,53 +832,81 @@ def section_accuracy(src: dict, m: dict) -> str:
 
 
 def _scored_note(m: dict, slug: str) -> str:
-    notes = []
+    by_kind: dict[str, list[str]] = {}
     for kind, u in m["miss_by_slug"].get(slug, []):
-        notes.append(f"{kind} label disagrees on {FIELD_LABEL[u['unit']].lower()}: {u['reason']}")
-    return "".join(f'<span class="warn-note">{esc(t)}</span>' for t in notes)
+        label = FIELD_LABEL[u["unit"]].lower()
+        part = f"{label}: {u['reason']}" if u["unit"] in ("auth", "api") else \
+            f"{label} (gold: {_val(u['unit'], u['gold']).lower()})"
+        by_kind.setdefault(kind, []).append(part)
+    return "".join(f'<span class="warn-note">{esc(kind)} label disagrees on {esc("; ".join(parts))}</span>'
+                   for kind, parts in by_kind.items())
 
 
 def section_next(src: dict, m: dict) -> str:
     easy = m["easy"]
     out = m["outreach"]
+    cf = coverage_facts(src)
     easy_f = "verdict=buildable_now&mcp_status=official&composio_toolkit.status=none"
-    li = []
-    for r in easy:
-        url = r.get("mcp_url") or first_url(r, "mcp")
-        li.append(f'<li><div class="item-head"><span class="item-name" data-text>{esc(r["name"])}</span>'
-                  f'{chip(AUTH.get(r["primary_auth"], r["primary_auth"]))}</div>'
-                  f'<div class="item-meta">{esc(m["labels"][r["category"]])} · {link(url, "MCP server")}'
-                  f' · {link(first_url(r, "verdict"), "verdict evidence")}</div>{_scored_note(m, r["slug"])}</li>')
-    groups = []
-    for access, title, blurb in (("gated_sales", "Sales gate", "a contract, demo or sales-provisioned account"),
-                                 ("gated_partner", "Partner program", "a vendor app review or partner approval")):
-        items = []
-        for r in out[access]:
-            has = composio_status(r) == "exists"
-            items.append(f'<li><div class="item-head"><span class="item-name" data-text>{esc(r["name"])}</span>'
-                         f'{chip("on Composio" if has else "not on Composio", "ok" if has else "")}</div>'
-                         f'<div class="item-meta">{esc(m["labels"][r["category"]])} · '
-                         f'{link(first_url(r, "access"), "access evidence")}</div>{_scored_note(m, r["slug"])}</li>')
-        covered = sum(composio_status(r) == "exists" for r in out[access])
-        groups.append(f'<h4>{title} <span class="count">{n(len(out[access]), rows_src(f"verdict=buildable_with_approval&access={access}"))}</span></h4>'
-                      f'<p class="group-note">Needs {blurb}. {n(covered, rows_src(f"verdict=buildable_with_approval&access={access}&composio_toolkit.status=exists"))} already have a Composio toolkit.</p>'
-                      f'<ul class="item-list">{"".join(items)}</ul>')
     gated_total = len(out["gated_sales"]) + len(out["gated_partner"])
+    gated_uncovered = sum(composio_status(r) == "none" for g in GATED for r in out[g])
+
+    def check_row(label: str, value: str, url: str | None) -> str:
+        val = link(url, value) if url else esc(value)
+        return (f'<li class="ck">{icon("check", "ck-ic")}<span class="ck-l">{label}</span>'
+                f'<span class="ck-v">{val}</span></li>')
+
+    build_cards = []
+    for r in easy:
+        api = " + ".join(API.get(x, x) for x in r["api_types"])
+        build_cards.append(
+            f'<article class="bcard"><header class="bc-head"><div><h4 class="bc-name" data-text>{esc(r["name"])}</h4>'
+            f'<p class="bc-cat">{esc(m["labels"][r["category"]])}</p></div>'
+            f'<span class="auth-chip" title="Primary auth">{esc(AUTH.get(r["primary_auth"], r["primary_auth"]))}</span>'
+            f'</header><ul class="checks">'
+            f'{check_row("Self-serve credentials", ACCESS.get(r["access"], r["access"]), first_url(r, "access"))}'
+            f'{check_row("Documented public API", api, r.get("docs_url") or first_url(r, "api_surface"))}'
+            f'{check_row("Official MCP server", "MCP link", r.get("mcp_url") or first_url(r, "mcp"))}'
+            f'</ul>{_scored_note(m, r["slug"])}</article>')
+
+    groups = []
+    gate_text = {"gated_sales": ("Sales gate", "Sales contract or demo",
+                                 "A contract, a demo or a sales-provisioned account comes before any API credentials."),
+                 "gated_partner": ("Partner program", "Partner or app review",
+                                   "The vendor reviews the app or approves a partner before it may call the API.")}
+    for access in GATED:
+        title, need, blurb = gate_text[access]
+        rows = sorted(out[access], key=lambda r: (composio_status(r) != "none", r["id"]))
+        cards = []
+        for r in rows:
+            has = composio_status(r) == "exists"
+            cards.append(
+                f'<article class="ocard"><div class="oc-main"><h5 class="oc-name" data-text>{esc(r["name"])}</h5>'
+                f'<p class="oc-cat">{esc(m["labels"][r["category"]])}</p></div>'
+                f'<p class="oc-need">{icon("person", "oc-ic")}{need}</p>'
+                f'<p class="oc-meta">{link(first_url(r, "access"), "Gate evidence")}'
+                f'<span class="cov {"cov-yes" if has else "cov-no"}">{"on Composio" if has else "not on Composio"}</span></p>'
+                f'{_scored_note(m, r["slug"])}</article>')
+        filt = f"verdict=buildable_with_approval&access={access}"
+        groups.append(
+            f'<div class="ogroup"><h4 class="og-title">{title} '
+            f'<span class="count">{n(len(out[access]), rows_src(filt))}</span></h4>'
+            f'<p class="og-blurb">{blurb} {n(sum(composio_status(r) == "none" for r in out[access]), rows_src(filt + "&composio_toolkit.status=none"))} '
+            f'of these have no Composio toolkit yet.</p><div class="ocards">{"".join(cards)}</div></div>')
+
     return f"""
 <section id="next" aria-labelledby="h-next">
   <h2 id="h-next">What Composio should do next</h2>
-  <p class="section-lead">Two lists straight from the final rows. Gated-with-evidence is a correct finding, not a failure: each gated app links the vendor page that shows the gate.</p>
-  <div class="two-col">
-    <div class="panel panel-good">
-      <h3>Build now <span class="count">{n(len(easy), rows_src(easy_f))}</span></h3>
-      <p class="group-note">Buildable today, an official MCP server exists, and Composio has no toolkit yet. Where a hand label disagrees, it says so.</p>
-      <ul class="item-list">{''.join(li)}</ul>
-    </div>
-    <div class="panel panel-warn">
-      <h3>Needs outreach <span class="count">{n(gated_total, rows_src('verdict=buildable_with_approval'))}</span></h3>
-      {''.join(groups)}
-    </div>
+  <div class="handover">
+    <p class="ho-lead">This is the hand-over. Per the catalog snapshot ({cf['date']}), Composio has no toolkit yet for <strong>{cf['uncovered_n']} of the {cf['total_n']}</strong> apps.
+    <strong>{n(len(easy), rows_src(easy_f))}</strong> of them can be built today; the <strong>{n(gated_total, rows_src('verdict=buildable_with_approval'))}</strong> gated apps need outreach first ({n(gated_uncovered, rows_src('verdict=buildable_with_approval&composio_toolkit.status=none'))} of those are also uncovered).</p>
+    <p class="ho-note">Gated with evidence is a correct finding, not a failure: every outreach card links the vendor page that shows the gate. Every check links its own evidence.</p>
   </div>
+  <div class="nx-head nx-good"><h3>{icon("check", "nx-ic")}Ready to build <span class="count">{n(len(easy), rows_src(easy_f))}</span></h3>
+    <p>Not on Composio, buildable now, official MCP server. Each check links the page that proves it.</p></div>
+  <div class="bcards">{''.join(build_cards)}</div>
+  <div class="nx-head nx-warn"><h3>{icon("person", "nx-ic")}Needs outreach <span class="count">{n(gated_total, rows_src('verdict=buildable_with_approval'))}</span></h3>
+    <p>A documented API exists, but a person at the vendor has to say yes first. Apps without a Composio toolkit are listed first.</p></div>
+  <div class="ogroups">{''.join(groups)}</div>
 </section>"""
 
 
@@ -862,8 +985,8 @@ def _clip(text: str, limit: int = 320) -> str:
 
 def section_findings(src: dict, m: dict) -> str:
     rows = m["rows"]
+    start = {a["slug"]: (a.get("start_url") or "").strip() for a in src["apps"]}
     body = []
-    table_data = []
     for r in rows:
         slug = r["slug"]
         nh = m["nh"].get(slug) or {}
@@ -884,17 +1007,24 @@ def section_findings(src: dict, m: dict) -> str:
         verdict_html = f'<a class="pill {vcls}" href="{esc(first_url(r, "verdict"))}" target="_blank" rel="noopener">' \
                        f'{esc(VERDICT.get(r["verdict"]))}</a>' if first_url(r, "verdict") else \
             f'<span class="pill {vcls}">{esc(VERDICT.get(r["verdict"]))}</span>'
+        if r["blocker"] != "none":  # blocker shares the verdict cell; it is "none" exactly when buildable now
+            verdict_html += f'<span class="sub blk">blocker: {esc(BLOCKER.get(r["blocker"], r["blocker"]).lower())}</span>'
         acls = "a-self" if r["access"] in SELF_SERVE else "a-gated"
         access_html = link(first_url(r, "access"), ACCESS.get(r["access"], r["access"]), acls)
         has_tk = composio_status(r) == "exists"
         flag_html = (f'<span class="flag" title="{esc("; ".join(reasons))}">check<span class="sr-only">: '
                      f'{esc(", ".join(reasons))}</span></span>' if flagged else '<span class="muted">—</span>')
-        if r["blocker"] != "none":  # blocker shares the verdict cell; it is "none" exactly when buildable now
-            verdict_html += f'<span class="sub blk">blocker: {esc(BLOCKER.get(r["blocker"], r["blocker"]).lower())}</span>'
+        home = start.get(slug) or r.get("docs_url")
+        name = esc(r["name"])
+        name_html = (f'<a class="app-link" href="{esc(home)}" target="_blank" rel="noopener" '
+                     f'title="Open {name} ({esc(short_url(home))})">{name}{icon("ext", "ext-ic")}</a>'
+                     if home else f'<span class="app-name">{name}</span>')
+        ctrl = f'aria-expanded="false" aria-controls="d-{esc(slug)}"'
         body.append(
             f'<tr class="row" id="app-{esc(slug)}" data-slug="{esc(slug)}">'
-            f'<th scope="row" class="c-app" data-label="App"><button type="button" class="exp" aria-expanded="false" '
-            f'aria-controls="d-{esc(slug)}"><span class="caret" aria-hidden="true"></span>{esc(r["name"])}</button></th>'
+            f'<th scope="row" class="c-app" data-label="App"><div class="app-cell">'
+            f'<button type="button" class="exp" {ctrl} title="Details" aria-label="Details for {name}">'
+            f'{icon("chevron", "chev")}</button>{name_html}</div></th>'
             f'<td class="c-cat" data-label="Category"><span title="{esc(m["labels"][r["category"]])}">'
             f'{esc(short_label(m["labels"][r["category"]]))}</span></td>'
             f'<td class="c-one" data-label="What it does"><span class="clamp">{esc(r["one_liner"])}</span></td>'
@@ -906,45 +1036,57 @@ def section_findings(src: dict, m: dict) -> str:
             f'<td data-label="Composio">{"covered" if has_tk else chip("not yet", "hl")}</td>'
             f'<td class="c-hum{"" if flagged else " c-none"}" data-label="Human">{flag_html}</td>'
             f'<td data-label="Conf."><span class="conf conf-{esc(r["confidence"])}">{esc(r["confidence"])}</span></td>'
+            f'<td class="c-more"><button type="button" class="exp exp-more" {ctrl}>'
+            f'<span class="when-closed">Show details</span><span class="when-open">Hide details</span>'
+            f'{icon("chevron", "chev")}</button></td>'
             f'</tr>'
             f'<tr class="detail" id="d-{esc(slug)}" data-slug="{esc(slug)}"><td colspan="11">{_detail(src, m, r)}</td></tr>')
-        table_data.append({
-            "slug": slug, "name": r["name"], "category": r["category"], "one_liner": r["one_liner"],
-            "primary_auth": r["primary_auth"], "auth_methods": r["auth_methods"], "access": r["access"],
-            "api_types": r["api_types"], "api_breadth": r["api_breadth"], "mcp_status": r["mcp_status"],
-            "mcp_url": r.get("mcp_url"), "verdict": r["verdict"], "blocker": r["blocker"],
-            "composio": composio_status(r), "needs_human": flagged, "needs_human_reasons": reasons,
-            "browser_pass": (m["browse"].get(slug) or {}).get("status"), "confidence": r["confidence"],
-        })
-
-    def options(name: str, values: list[tuple[str, str]], label: str) -> str:
-        opts = "".join(f'<option value="{esc(v)}">{esc(t)}</option>' for v, t in values)
-        return (f'<label class="f"><span>{label}</span><select data-filter="{name}" aria-label="Filter by {label.lower()}">'
-                f'<option value="">All</option>{opts}</select></label>')
 
     present = lambda field, labels: [(k, v) for k, v in labels.items() if any(r[field] == k for r in rows)]  # noqa: E731
+
+    def group(key: str, label: str, options: list[tuple[str, str, str, int, str]], cls: str = "") -> str:
+        """options: (value, text, data-src filter, count, title)."""
+        chips = [f'<button type="button" class="fchip" data-filter="{key}" data-value="" aria-pressed="true">All</button>']
+        for value, text, src_key, count, title in options:
+            tip = f' title="{esc(title)}"' if title else ""
+            chips.append(f'<button type="button" class="fchip" data-filter="{key}" data-value="{esc(value)}" '
+                         f'aria-pressed="false"{tip}>{esc(text)}<span class="fc-n">{n(count, src_key)}</span></button>')
+        return (f'<div class="fgroup{cls}" role="group" aria-labelledby="fl-{key}">'
+                f'<span class="fg-label" id="fl-{key}">{label}</span><div class="chips">{"".join(chips)}</div></div>')
+
+    def enum_opts(field: str, labels: dict[str, str]) -> list[tuple[str, str, str, int, str]]:
+        return [(k, v, rows_src(f"{field}={k}"), sum(r[field] == k for r in rows), "") for k, v in present(field, labels)]
+
+    nh_flag = {s: bool(x.get("needs_human")) for s, x in m["nh"].items()}
     filters = "".join([
-        options("verdict", present("verdict", VERDICT), "Verdict"),
-        options("access", present("access", ACCESS), "Access"),
-        options("mcp_status", present("mcp_status", MCP), "MCP"),
-        options("category", [(c, m["labels"][c]) for c in m["categories"]], "Category"),
-        options("needs_human", [("true", "Flagged"), ("false", "Not flagged")], "Human check"),
-        options("composio", [("exists", "Covered"), ("none", "Not yet")], "Composio"),
+        group("verdict", "Verdict", enum_opts("verdict", VERDICT)),
+        group("access", "Access", enum_opts("access", ACCESS)),
+        group("mcp_status", "MCP", enum_opts("mcp_status", MCP)),
+        group("needs_human", "Human check", [
+            ("true", "Flagged", f"{P_NEEDS_L}:count(needs_human=true)", sum(nh_flag.values()), ""),
+            ("false", "Not flagged", f"{P_NEEDS_L}:count(needs_human=false)", sum(not v for v in nh_flag.values()), "")]),
+        group("composio", "Composio", [
+            ("exists", "Covered", rows_src("composio_toolkit.status=exists"),
+             sum(composio_status(r) == "exists" for r in rows), ""),
+            ("none", "Not yet", rows_src("composio_toolkit.status=none"),
+             sum(composio_status(r) == "none" for r in rows), "")]),
+        group("category", "Category", [
+            (c, short_label(m["labels"][c]), rows_src(f"category={c}"), sum(r["category"] == c for r in rows),
+             m["labels"][c]) for c in m["categories"]], " fg-wide"),
     ])
-    payload = json.dumps(table_data, ensure_ascii=False, separators=(",", ":"))
-    payload = payload.replace("</", "<\\/").replace("<!--", "<\\!--")
     total = m["total"]
     return f"""
 <section id="findings" aria-labelledby="h-findings">
   <h2 id="h-findings">Findings: all {n(total, rows_src(''))} apps</h2>
-  <p class="section-lead">One row per app. Each field links to its first evidence page; open a row for the quoted snippets, notes, the browser-pass result and any human-check reasons. API breadth is a rough sketch (it scored lowest of the fields).</p>
+  <p class="section-lead">One row per app. The app name opens its website; every field links to its first evidence page. Open a row (the chevron, or anywhere on the row) for the quoted snippets, notes, the browser-pass result and any human-check reasons. API breadth is a rough sketch (it scored lowest of the fields).</p>
   <div class="toolbar">
-    <label class="search"><span class="sr-only">Search apps</span><input type="search" id="q" placeholder="Search name or description" aria-label="Search by name or description" autocomplete="off"></label>
-    <div class="filters">{filters}</div>
-    <div class="tb-foot">
+    <div class="tb-top">
+      <label class="search">{icon("search", "s-ic")}<span class="sr-only">Search apps</span><input type="search" id="q" placeholder="Search name or description" autocomplete="off"></label>
       <p class="count-line" aria-live="polite">Showing <strong id="shown" data-src="{esc(rows_src(''))}" data-fmt="int">{total}</strong> of {n(total, rows_src(''))}</p>
-      <p class="dl">Download: <a href="data/final.json" download>final.json</a> · <a href="data/final.csv" download>final.csv</a> · <a href="data/schema.md">schema</a></p>
+      <button type="button" class="clear-btn" id="clear" disabled>{icon("x", "x-ic")}Clear filters</button>
     </div>
+    <div class="filters">{filters}</div>
+    <p class="dl">{icon("download", "dl-ic")}Download the table: <a href="data/final.json" download="final.json" data-dl="final.json">final.json</a> · <a href="data/final.csv" download="final.csv" data-dl="final.csv">final.csv</a> · <a href="data/schema.md" download="schema.md" data-dl="schema.md">schema.md</a></p>
   </div>
   <div class="table-wrap findings-wrap">
     <table class="findings">
@@ -957,9 +1099,8 @@ def section_findings(src: dict, m: dict) -> str:
       </tr></thead>
       <tbody data-text>{''.join(body)}</tbody>
     </table>
-    <p class="empty" id="empty" hidden>No apps match these filters.</p>
+    <p class="empty" id="empty" hidden>No apps match these filters. <button type="button" class="linkish" data-clear>Clear filters</button></p>
   </div>
-  <script type="application/json" id="rows-data">{payload}</script>
 </section>"""
 
 
@@ -968,9 +1109,11 @@ def section_agent(src: dict, m: dict) -> str:
     review = src["review"]
     browse = src["browse"]
     flags = src["flags"]
+    s = m["scores"]
     model = Counter(x.get("llm_model") for x in log1).most_common(1)[0][0]
     provider = Counter(x.get("llm_provider") for x in log1).most_common(1)[0][0]
-    total = len(src["apps"])
+    apps = src["apps"]
+    cf = coverage_facts(src)
     changed2 = sum(r["status"] == "changed" for r in review)
     unchanged2 = sum(r["status"] == "unchanged" for r in review)
     rule_counts = Counter(rule for r in review for rule in r.get("rules_fired") or [])
@@ -980,73 +1123,189 @@ def section_agent(src: dict, m: dict) -> str:
     pl = sum(b.get("pages_local", 0) for b in browse)
     pc = sum(b.get("pages_cloud", 0) for b in browse)
     sessions = sum(b.get("cloud_sessions", 0) for b in browse)
-    s = m["scores"]
-    nh_total = src["needs"]["needs_human_count"]
-    spot_n = src["spot"]["result"]["rows_checked"]
-    reasons_li = "".join(f"<li>{n(reason_counts[k], f'{P_FLAGS}:count(reasons@={k})')} {esc(SELECTOR_TEXT.get(k, k))}</li>"
-                         for k, _ in reason_counts.most_common())
-    p1_pages = sum(x.get("fetch_calls", 0) for x in log1)
-    p1_search = sum(x.get("search_calls", 0) for x in log1)
-    stages = [
-        ("Input", f"{n(total, f'{P_APPS}:count()')} apps + website hints", "The assignment list, as a CSV.", ""),
-        ("Pass 1 · Research agent",
-         f"LLM on {esc(provider.title())} + Exa search and fetch",
-         f"{n(p1_search, f'{P_LOG1}:sum(search_calls)')} searches, {n(p1_pages, f'{P_LOG1}:sum(fetch_calls)')} page fetches; every claim quoted; validators",
-         "Searches official docs, fills one schema row per app from fetched text only, and quotes the sentence behind each claim. "
-         f"Evidence URLs must be pages it actually fetched; quotes must appear in the page text; consistency validators catch contradictions. Model: <code>{esc(model)}</code>."),
-        ("Pass 2 · Rule checker",
-         f"{n(len(rule_counts), f'{P_REVIEW}:distinct(rules_fired)')} general rules fired",
-         f"{n(changed2, f'{P_REVIEW}:count(status=changed)')} rows changed, {n(unchanged2, f'{P_REVIEW}:count(status=unchanged)')} left byte-identical",
-         "Re-checks every row against general rules (no app names). Code fires a rule only when notes or a vendor quote show the pattern; one LLM reviewer call per row can name more. Only the fields behind a fired rule are re-researched."),
-        ("Selector",
-         f"{n(flagged, f'{P_FLAGS}:count(flagged=true)')} unsure rows flagged",
-         "a row can have several reasons",
-         f"Code picks rows that still look shaky. Reasons:<ul>{reasons_li}</ul>"),
-        ("Pass 3 · Browser Use",
-         f"{n(pl, f'{P_BROWSE}:sum(pages_local)')} pages in local Chromium, {n(pc, f'{P_BROWSE}:sum(pages_cloud)')} on Browser Use Cloud",
-         f"{n(st['confirmed'], f'{P_BROWSE}:count(status=confirmed)')} confirmed, {n(st['changed'], f'{P_BROWSE}:count(status=changed)')} changed",
-         f"Renders each flagged row's pricing, signup, auth and MCP pages in a real browser and saves a screenshot. Only a blocked, captcha or empty page is retried on a cloud browser ({n(sessions, f'{P_BROWSE}:sum(cloud_sessions)')} cloud sessions). The same LLM reads the rendered text and may confirm or fix only the flagged fields, with quotes found on the page. It reads pages; it does not click or navigate."),
-        ("Scoring",
-         f"vs gold {set_size_n(s, 'gold')} + sealed holdout {set_size_n(s, 'holdout')}",
-         "per field and whole row",
-         "<code>scripts/score_gold.py</code> compares each pass to locked hand labels. A row counts only if every critical field is right and evidence is present."),
-        ("Patterns + this page",
-         "counts, cross-tabs, caveats",
-         "generated, never hand-typed",
-         "<code>scripts/patterns.py</code> clusters the final rows; <code>scripts/build_site.py</code> renders this page and <code>scripts/check_site.py</code> re-checks every number."),
+    cost3 = sum(b.get("est_cost_usd") or 0 for b in browse)
+    nh = src["needs"]
+    spot = src["spot"]["result"]
+    fixes = changed_rows(src["rows2"], m["rows"], ("mcp_status", "mcp_url"), m["gold_slugs"] | m["holdout_slugs"])
+    corrections = gold_audit_corrections(src["audit"])
+    per_cat = Counter(g["category"] for g in src["gold"])
+    rows_ok = lambda kind, p: rows_ok_n(s, kind, p)  # noqa: E731
+    lifts = [k for k in CRITICAL if field_acc(s["gold"][2], k) > field_acc(s["gold"][1], k)]
+    ensure(bool(lifts), "pass 2 lifted at least one gold field")
+    lift_txt = ", ".join(f"{FIELD_LABEL[k].lower()} {acc_n(s, 'gold', 1, k)} → {acc_n(s, 'gold', 2, k)}" for k in lifts)
+    ensure(len(m["regressions"]) >= 1, "pass 3 has a gold regression to report")
+    exa1 = sum(x.get("exa_cost_usd") or 0 for x in log1)
+    regress_src = f"{score_path('gold', 2)}:regressions({score_path('gold', 3)})"
+
+    def files(*names: str) -> str:
+        return "".join(f"<code>{esc(x)}</code>" for x in names)
+
+    def tiles(*pairs: tuple[str, str]) -> str:
+        return '<dl class="sp-tiles">' + "".join(f"<div><dd>{v}</dd><dt>{k}</dt></div>" for k, v in pairs) + "</dl>"
+
+    reasons_li = "".join(f"<li>{n(c, f'{P_FLAGS}:count(reasons@={k})')} {esc(SELECTOR_TEXT.get(k, k))}</li>"
+                         for k, c in reason_counts.most_common())
+    rules_li = "".join(f"<li>{n(c, f'{P_REVIEW}:count(rules_fired@={k})')} {esc(RULE_TEXT.get(k, k))}</li>"
+                       for k, c in sorted(rule_counts.items(), key=lambda kv: (-kv[1], kv[0]))[:4])
+    nh_li = "".join(f"<li>{n(v, f'{P_NEEDS}:by_reason.{k}')} {esc(NEEDS_HUMAN_TEXT.get(k, k))}</li>"
+                    for k, v in sorted(nh["by_reason"].items(), key=lambda kv: -kv[1]))
+
+    # key, kind, icon, title, short metric, loop label, detail dict
+    nodes = [
+        ("input", "stage", "list", "Input", f"{n(len(apps), f'{P_APPS}:count()')} apps + hints", "", {
+            "what": "The assignment list as a CSV: id, slug, name, category and a website hint for each app. The input is validated before any stage runs.",
+            "why": "Every run, and every rerun, covers exactly the same apps with the same identities.",
+            "acc": f"Identity fields are copied from the CSV, never written by the LLM, and Composio coverage is a catalog lookup ({cf['covered_n']} of {cf['total_n']} covered), so none of those can be hallucinated.",
+            "io": (files("assignment list"), files("data/apps.csv", "data/composio_coverage.csv")),
+            "tiles": [("apps", n(len(apps), f"{P_APPS}:count()")),
+                      ("categories", n(len({a['category'] for a in apps}), f"{P_APPS}:ndistinct(category)")),
+                      ("already on Composio", cf["covered_n"])]}),
+        ("pass1", "stage", "search", "Pass 1 · Research agent",
+         f"{n(sum(x.get('fetch_calls', 0) for x in log1), f'{P_LOG1}:sum(fetch_calls)')} pages read", "", {
+            "what": f"Searches the web through Exa, reads official pages, and has an LLM ({esc(provider.title())}, <code>{esc(model)}</code>) fill one schema row per app from the fetched text only, quoting the sentence behind each claim.",
+            "why": "A complete first answer for all apps, with evidence attached, that later loops can check instead of redo.",
+            "acc": f"Evidence URLs must be pages the run actually fetched, quotes must appear in the page text, and consistency validators send a bad row back for one retry. Baseline: {rows_ok('gold', 1)} of {set_size_n(s, 'gold')} gold rows and {rows_ok('holdout', 1)} of {set_size_n(s, 'holdout')} holdout rows fully right.",
+            "io": (files("data/apps.csv"), files("pass1/rows.jsonl", "pass1/evidence/", "pass1/log.jsonl")),
+            "tiles": [("searches", n(sum(x.get("search_calls", 0) for x in log1), f"{P_LOG1}:sum(search_calls)")),
+                      ("page fetches", n(sum(x.get("fetch_calls", 0) for x in log1), f"{P_LOG1}:sum(fetch_calls)")),
+                      ("Exa spend", n(exa1, f"{P_LOG1}:sum(exa_cost_usd)", "usd"))]}),
+        ("pass2", "stage", "rules", "Pass 2 · Rule checker",
+         f"{n(changed2, f'{P_REVIEW}:count(status=changed)')} rows fixed",
+         "re-researches only flagged fields", {
+            "what": "Re-checks every row against general rules (no app names). Code fires a rule only when the notes or a vendor quote show the pattern; one LLM reviewer call per row can name more. Only the fields behind a fired rule are re-researched; every other field stays byte-identical.",
+            "why": "Pass 1 made the same kinds of mistake again and again. Fixing those habits is cheaper and safer than redoing all apps.",
+            "acc": f"The main lift: gold whole rows {rows_ok('gold', 1)} → {rows_ok('gold', 2)} of {set_size_n(s, 'gold')}; {lift_txt}. The sealed holdout stayed at {rows_ok('holdout', 2)} of {set_size_n(s, 'holdout')}. Most-fired rules:<ul>{rules_li}</ul>",
+            "io": (files("pass1/rows.jsonl"), files("pass2/rows.jsonl", "pass2/review.jsonl")),
+            "tiles": [("rows changed", n(changed2, f"{P_REVIEW}:count(status=changed)")),
+                      ("left unchanged", n(unchanged2, f"{P_REVIEW}:count(status=unchanged)")),
+                      ("rules fired", n(len(rule_counts), f"{P_REVIEW}:distinct(rules_fired)"))]}),
+        ("selector", "stage", "filter", "Selector",
+         f"{n(flagged, f'{P_FLAGS}:count(flagged=true)')} rows flagged", "", {
+            "what": "Code picks the rows that still look shaky after pass 2. A row can have several reasons:",
+            "why": "A real browser is slow and costs money, so it is spent only where a row is unsure.",
+            "acc": f"Focuses the browser on {n(flagged, f'{P_FLAGS}:count(flagged=true)')} of {n(len(flags), f'{P_FLAGS}:count()')} rows; the rest are copied through untouched.<ul>{reasons_li}</ul>",
+            "io": (files("pass2/rows.jsonl", "pass2/review.jsonl"), files("pass3/flags.jsonl")),
+            "tiles": [("flagged", n(flagged, f"{P_FLAGS}:count(flagged=true)")),
+                      ("copied through", n(st["copied"], f"{P_BROWSE}:count(status=copied)"))]}),
+        ("pass3", "stage", "browser", "Pass 3 · Browser Use",
+         f"{n(pl, f'{P_BROWSE}:sum(pages_local)')} + {n(pc, f'{P_BROWSE}:sum(pages_cloud)')} pages rendered",
+         "rewrites only flagged fields", {
+            "what": f"Renders each flagged row's pricing, signup, auth and MCP pages in local headless Chromium and saves a screenshot; only blocked, captcha or empty pages are retried on Browser Use Cloud ({n(sessions, f'{P_BROWSE}:sum(cloud_sessions)')} sessions). The same LLM reads the rendered text and may confirm or fix only the flagged fields, with quotes found on the page. It reads pages; it does not click or navigate.",
+            "why": "A simple page fetch misses JavaScript docs, pricing tables, captchas and coming-soon banners.",
+            "acc": f"Added proof more than accuracy: {n(st['confirmed'], f'{P_BROWSE}:count(status=confirmed)')} rows confirmed and {n(st['changed'], f'{P_BROWSE}:count(status=changed)')} changed, but gold whole rows went {rows_ok('gold', 2)} → {rows_ok('gold', 3)} ({n(len(m['regressions']), regress_src)} regression). Outside the scored sets it fixed {n(len(fixes), f'{P_ROWS2}:changed({P_ROWS};mcp_status,mcp_url;exclude_scored)')} MCP answers.",
+            "io": (files("pass2/rows.jsonl", "pass3/flags.jsonl"), files("pass3/rows.jsonl", "pass3/browse.jsonl", "pass3/screenshots/")),
+            "tiles": [("confirmed", n(st["confirmed"], f"{P_BROWSE}:count(status=confirmed)")),
+                      ("changed", n(st["changed"], f"{P_BROWSE}:count(status=changed)")),
+                      ("LLM cost", n(cost3, f"{P_BROWSE}:sum(est_cost_usd)", "usd"))]}),
+        ("final", "stage", "rows", "Final rows",
+         f"{n(sum(r['verdict'] == 'buildable_now' for r in m['rows']), rows_src('verdict=buildable_now'))} buildable now", "", {
+            "what": "The final row per app, exported for people and agents, plus a needs-human flag for every row a person should look at.",
+            "why": "One artifact that both the table on this page and any agent can read.",
+            "acc": f"Flags are general rules only, so uncertainty is visible instead of hidden: {n(nh['needs_human_count'], f'{P_NEEDS}:needs_human_count')} of {n(nh['total'], f'{P_NEEDS}:total')} rows are flagged for a human check.",
+            "io": (files("pass3/rows.jsonl"), files("final.json", "final.csv", "needs_human.json")),
+            "tiles": [("rows", n(len(m["rows"]), rows_src(""))),
+                      ("buildable now", n(sum(r["verdict"] == "buildable_now" for r in m["rows"]), rows_src("verdict=buildable_now"))),
+                      ("flagged for a human", n(nh["needs_human_count"], f"{P_NEEDS}:needs_human_count"))]}),
+        ("scoring", "stage", "target", "Scoring",
+         f"gold {set_size_n(s, 'gold')} + holdout {set_size_n(s, 'holdout')}", "", {
+            "what": "<code>scripts/score_gold.py</code> compares each pass with the locked hand labels, field by field, and counts a row only when every critical field is right and has evidence.",
+            "why": "Turns 'looks better' into a number that can go down as well as up.",
+            "acc": f"Gold whole rows {rows_ok('gold', 1)} → {rows_ok('gold', 2)} → {rows_ok('gold', 3)} of {set_size_n(s, 'gold')}; holdout {rows_ok('holdout', 1)} → {rows_ok('holdout', 2)} → {rows_ok('holdout', 3)} of {set_size_n(s, 'holdout')}.",
+            "io": (files("pass*/rows.jsonl", "gold_sample.jsonl", "holdout_sample.jsonl"), files("data/scores/*.json")),
+            "tiles": [("gold apps", set_size_n(s, "gold")), ("holdout apps", set_size_n(s, "holdout")),
+                      ("gold rows right", rows_ok("gold", 3))]}),
+        ("patterns", "stage", "chart", "Patterns + this page",
+         f"{n(len(src['patterns']['patterns']), f'{P_PATTERNS}:len(patterns)')} headline patterns", "", {
+            "what": "<code>scripts/patterns.py</code> clusters the final rows; <code>scripts/build_site.py</code> renders this page; <code>scripts/check_site.py</code> recomputes every number on it from its source file.",
+            "why": "The point of the exercise is the patterns, not the rows, and they must not drift from the data.",
+            "acc": "No number on this page is typed by hand, and sentences that depend on the data are asserted when the page is built.",
+            "io": (files("final rows", "scores"), files("data/patterns/patterns.json", "site/")),
+            "tiles": [("headline patterns", n(len(src["patterns"]["patterns"]), f"{P_PATTERNS}:len(patterns)"))]}),
     ]
-    human_in = {"Scoring": "human answer keys", "Pass 3 · Browser Use": "then human review + spot-check"}
-    flow = "".join(f'<li class="stage"><span class="st-title">{t}</span><span class="st-main">{a}</span>'
-                   f'<span class="st-sub">{b}</span>'
-                   f'{"<span class=st-human>" + human_in[t] + "</span>" if t in human_in else ""}</li>'
-                   for t, a, b, _ in stages)
-    details = "".join(f'<details class="stage-d"><summary>{t}</summary><div>{d}</div></details>'
-                      for t, _, _, d in stages if d)
-    humans = [
-        ("Gold labels + audit", f"{set_size_n(s, 'gold')} apps labelled blind from official docs, then audited",
-         "feeds Scoring"),
-        ("Sealed holdout", f"{set_size_n(s, 'holdout')} apps labelled and locked before the pass-2 rules",
-         "feeds Scoring"),
-        ("Needs-human review", f"{n(nh_total, f'{P_NEEDS}:needs_human_count')} final rows flagged for a person to look at", "after Pass 3"),
-        ("Spot-check", f"{n(spot_n, f'{P_SPOT}:result.rows_checked')} random rows checked by hand against the evidence", "after Pass 3"),
-    ]
-    hl = "".join(f'<li class="hstage"><span class="human-tag">human</span><span class="st-title">{t}</span>'
-                 f'<span class="st-sub">{b}</span><span class="feeds">{f}</span></li>' for t, b, f in humans)
+    humans = {
+        "final": [
+            ("review", "Needs-human review", f"{n(nh['needs_human_count'], f'{P_NEEDS}:needs_human_count')} rows flagged", {
+                "what": "A person looks at every flagged row: sales or partner gates, rows below high confidence, and rows whose notes report conflicting or caveated docs.",
+                "why": "A bot cannot sit through a demo or pass a partner review, and some judgement calls need a person.",
+                "acc": f"Reasons overlap, so they add up to more than the flagged rows:<ul>{nh_li}</ul>",
+                "io": (files("pass3/rows.jsonl"), files("needs_human.json")),
+                "tiles": [("rows flagged", n(nh["needs_human_count"], f"{P_NEEDS}:needs_human_count"))]}),
+            ("spot", "Spot-check", f"{n(spot['rows_checked'], f'{P_SPOT}:result.rows_checked')} rows by hand", {
+                "what": f"{n(spot['rows_checked'], f'{P_SPOT}:result.rows_checked')} random final rows outside gold and holdout (fixed seed): a person opened every evidence link and compared it with the claim.",
+                "why": "Scores only cover the labelled apps; this checks the rest of the table.",
+                "acc": f"{n(spot['rows_correct'], f'{P_SPOT}:result.rows_correct')}/{n(spot['rows_checked'], f'{P_SPOT}:result.rows_checked')} rows and {n(spot['claims_correct'], f'{P_SPOT}:result.claims_correct')}/{n(spot['claims_checked'], f'{P_SPOT}:result.claims_checked')} claims confirmed. <span data-text>{esc(src['spot']['scope_note'])}</span>",
+                "io": (files("final rows"), files("spot_check_10.json")),
+                "tiles": [("rows right", n(spot["rows_correct"], f"{P_SPOT}:result.rows_correct")),
+                          ("claims right", n(spot["claims_correct"], f"{P_SPOT}:result.claims_correct"))]}),
+        ],
+        "scoring": [
+            ("gold", "Gold labels + audit", f"{set_size_n(s, 'gold')} apps, blind", {
+                "what": f"{set_size_n(s, 'gold')} apps, {n(max(per_cat.values()), f'{P_GOLD}:max_per(category)')} per category, labelled by hand from official docs without looking at the agent's rows, then audited field by field.",
+                "why": "A score is only as good as its answer key.",
+                "acc": f"The audit corrected {n(len(corrections), f'{P_AUDIT}:corrected_apps()')} apps' scored labels and clarified the rubric before the labels were locked.",
+                "io": (files("official docs"), files("gold_sample.jsonl", "GOLD_AUDIT.md")),
+                "tiles": [("apps", set_size_n(s, "gold")), ("labels corrected", n(len(corrections), f"{P_AUDIT}:corrected_apps()"))]}),
+            ("holdout", "Sealed holdout", f"{set_size_n(s, 'holdout')} apps, sealed", {
+                "what": f"{set_size_n(s, 'holdout')} more apps from a seeded random draw, one per category, labelled and locked before any pass-2 rule was written.",
+                "why": "Gold informed some rules, so it flatters the checker; the holdout never did.",
+                "acc": f"The honest generalisation number: {rows_ok('holdout', 1)} → {rows_ok('holdout', 2)} → {rows_ok('holdout', 3)} of {set_size_n(s, 'holdout')} whole rows.",
+                "io": (files("official docs"), files("holdout_sample.jsonl")),
+                "tiles": [("apps", set_size_n(s, "holdout")), ("rows right", rows_ok("holdout", 3))]}),
+        ],
+    }
+    arrows = {"input": "a-right", "pass1": "a-right", "pass2": "a-right", "selector": "a-right", "pass3": "a-down",
+              "final": "a-left", "scoring": "a-left", "patterns": ""}
+
+    panels = []
+    first = True
+
+    def node_button(key: str, kind: str, ic: str, title: str, metric: str) -> str:
+        nonlocal first
+        sel = "true" if first else "false"
+        first = False
+        tag = '<span class="human-tag">human</span>' if kind == "human" else ""
+        return (f'<button type="button" class="node node-{kind}" id="nb-{key}" data-panel="sp-{key}" aria-controls="sp-{key}" '
+                f'aria-expanded="{sel}"><span class="n-ic">{icon(ic)}</span><span class="n-body">{tag}'
+                f'<span class="n-title">{title}</span><span class="n-metric">{metric}</span></span></button>')
+
+    def panel(key: str, kind: str, ic: str, title: str, d: dict, feeds: str = "") -> str:
+        tag = '<span class="human-tag">human</span>' if kind == "human" else ""
+        feed = f'<span class="sp-feeds">feeds {feeds}</span>' if feeds else ""
+        return (f'<section class="sp sp-{kind}" id="sp-{key}" aria-labelledby="sph-{key}">'
+                f'<header class="sp-head"><span class="sp-ic">{icon(ic)}</span><div><h4 id="sph-{key}">{tag}{title}</h4>'
+                f'<p class="sp-io"><span class="io-k">In</span>{d["io"][0]}<span class="io-arrow" aria-hidden="true">→</span>'
+                f'<span class="io-k">Out</span>{d["io"][1]}{feed}</p></div></header>'
+                f'<div class="sp-grid"><div><h5>What it does</h5><p>{d["what"]}</p></div>'
+                f'<div><h5>Why it exists</h5><p>{d["why"]}</p></div>'
+                f'<div class="sp-acc"><h5>How it helps accuracy</h5><div>{d["acc"]}</div></div></div>'
+                f'{tiles(*d["tiles"])}</section>')
+
+    items = []
+    for key, kind, ic, title, metric, loop, d in nodes:
+        loop_html = (f'<p class="loop">{icon("loop", "loop-ic")}<span>{loop}</span></p>' if loop else "")
+        att = " has-att" if key in humans else ""
+        items.append(f'<div class="nwrap nw-{key} {arrows[key]}{att}">{loop_html}{node_button(key, kind, ic, title, metric)}</div>')
+        panels.append(panel(key, kind, ic, title, d))
+        if key in humans:
+            hb = []
+            for hkey, htitle, hmetric, hd in humans[key]:
+                hb.append(node_button(hkey, "human", "person", htitle, hmetric))
+                panels.append(panel(hkey, "human", "person", htitle, hd, feeds=title))
+            items.append(f'<div class="hgroup hg-{key}"><span class="hg-feeds">feeds {title}</span>{"".join(hb)}</div>')
+    legend = ('<div class="flow-legend" aria-hidden="true"><p class="fl-t">How to read it</p>'
+              '<p><i class="sw sw-stage"></i>Agent stage</p><p><i class="sw sw-human"></i>Human step, feeding the stage above it</p>'
+              f'<p>{icon("loop", "loop-ic")}Loop back: a pass rewrites only the fields it checked</p>'
+              '<p class="fl-hint">Select any box for what it does, why it exists and its numbers.</p></div>')
     outputs = [Path(v).name for v in src["proof"]["outputs"].values()]
     return f"""
 <section id="agent" aria-labelledby="h-agent">
   <h2 id="h-agent">How the agent works</h2>
-  <p class="section-lead">A pipeline of loops, not a single run. The agent fills every row; a rule checker and a browser pass re-check it; people write the answer keys and look at what the agent flags.</p>
-  <figure class="flow-fig" aria-label="Pipeline diagram">
-    <ol class="flow">{flow}</ol>
-    <p class="lane-label">Where a person made the call</p>
-    <ol class="hlane">{hl}</ol>
-  </figure>
+  <p class="section-lead">A pipeline of loops, not a single run. The agent fills every row, a rule checker and a browser pass re-check it, and people write the answer keys and review what the agent flags. Select a box to see its details.</p>
+  <div class="flow2" role="group" aria-label="Pipeline diagram: select a stage for details">{''.join(items)}{legend}</div>
+  <div class="stage-panels" aria-live="polite">{''.join(panels)}</div>
   <h3 class="sub-h">Run it with one command</h3>
   <pre class="code"><code>python -m agent all --input apps.csv --run-id my-run</code></pre>
   <p class="code-note">Runs research → rule check → browser check into <code>data/runs/my-run/pass1..3</code>, then writes <code>{'</code>, <code>'.join(esc(o) for o in outputs)}</code>. <code>--dry-run</code> runs offline with fakes.</p>
-  <h3 class="sub-h">What each stage does</h3>
-  <div class="stage-list">{details}</div>
 </section>"""
 
 
@@ -1064,22 +1323,50 @@ def readme_instant_tools(src: dict) -> str:
     return esc(found.group(1).strip())
 
 
-def section_composio(src: dict, m: dict) -> str:
-    cov = src["coverage"]
-    covered = sum(r["status"] == "exists" for r in cov)
+PASS_MODEL_LOGS = (("Pass 1 · research", "data/runs/pass1/log.jsonl"),
+                   ("Pass 2 · rule checker", "data/runs/pass2/review.jsonl"),
+                   ("Pass 3 · browser judge", "data/runs/pass3/browse.jsonl"))
+
+
+def pass_models(root: Path) -> list[tuple[str, str]]:
+    """The LLM model id(s) each pass actually logged, read from its run log."""
+    out = []
+    for label, rel in PASS_MODEL_LOGS:
+        path = root / rel
+        ids = sorted({r.get("llm_model") for r in read_jsonl(path) if r.get("llm_model")}) if path.is_file() else []
+        out.append((label, ", ".join(ids) or "not logged"))
+    return out
+
+
+def browser_use_version(root: Path) -> str:
+    req = root / "requirements.txt"
+    mt = re.search(r"^browser-use==(\S+)", req.read_text(), re.M) if req.is_file() else None
+    return mt.group(1) if mt else ""
+
+
+def section_tools(src: dict, m: dict) -> str:
+    cf = coverage_facts(src)
+    root = src.get("root", Path("."))
+    bu = browser_use_version(root)
+
+    def card(ic: str, title: str, role: str, body: str) -> str:
+        return (f'<article class="cuse cuse-ok"><header class="cu-head"><span class="cu-ic">{icon(ic)}</span>'
+                f'<span class="cu-badge">{role}</span></header><h3>{title}</h3>{body}</article>')
+
+    models = "".join(f'<li><span class="tl-k">{esc(k)}</span><code>{esc(v)}</code></li>' for k, v in pass_models(root))
+    status = ('<ul class="tl-list">'
+              f'<li class="tl-ok">{icon("check", "ch-ic")}<span><strong>SDK catalog</strong> for the coverage check: {cf["covered_n"]} of {cf["total_n"]} apps already covered. Used, worked.</span></li>'
+              f'<li class="tl-no">{icon("x", "ch-ic")}<span><strong>Session tool execution</strong> for search and fetch: tried, every call returned "No active connection found".</span></li>'
+              f'<li class="tl-ok">{icon("check", "ch-ic")}<span><strong>Composio agent skill</strong> (<code>.agents/skills/composio</code>) used while building the agent.</span></li></ul>')
     return f"""
-<section id="composio" aria-labelledby="h-composio">
-  <h2 id="h-composio">How Composio was used</h2>
-  <p class="section-lead">Honestly: the catalog lookup and the agent skill did real work; tool execution through Composio was wired in but never connected for this project.</p>
-  <div class="use-grid">
-    <div class="use"><p class="use-st">{chip("used", "ok")}</p><h3>Catalog coverage check</h3>
-      <p>A snapshot of the toolkit catalog ({n(src['toolkits_total'], f'{P_TOOLKITS}:total')} toolkits) was matched to the apps: <strong>{n(covered, f'{P_COVERAGE}:count(status=exists)')} of {n(len(cov), f'{P_COVERAGE}:count()')}</strong> already have a toolkit. This field is a lookup, never LLM output.</p></div>
-    <div class="use"><p class="use-st">{chip("used", "ok")}</p><h3>Composio agent skill</h3>
-      <p>The Composio agent skill, kept in the repo under .agents/skills/composio, was used while building the research agent.</p></div>
-    <div class="use"><p class="use-st">{chip("not connected", "bad")}</p><h3>Instant tool execution</h3>
-      <p>{readme_instant_tools(src)} were wired to run through a Composio session. Every call came back "No active connection found", so research uses the Exa API directly, with free search and fetch as fallback.</p></div>
-    <div class="use"><p class="use-st">{chip("not connected", "bad")}</p><h3>Browser Use toolkit</h3>
-      <p>A read-only probe found no active connection, so pass 3 uses the open-source Browser Use library and Browser Use Cloud directly.</p></div>
+<section id="tools" aria-labelledby="h-tools">
+  <h2 id="h-tools">Tools used</h2>
+  <p class="section-lead">What each tool did, read from the repo's code, config and run logs.</p>
+  <div class="cuse-grid">
+    {card("spark", "AWS Bedrock", "LLM", f'<p>Every LLM call, through the Bedrock Converse API. Model id each pass logged:</p><ul class="tl-models">{models}</ul>')}
+    {card("grid", "Exa API", "Search + fetch", '<p>Web search and page text for the research and checker passes, called directly. Free fallback when Exa is unavailable: <code>ddgs</code> search and plain <code>httpx</code> + <code>trafilatura</code> fetch.</p>')}
+    {card("browser", "Browser Use", "Browser check", f'<p>Pass 3 opens the cited vendor pages with the open-source <code>browser-use=={esc(bu)}</code> library in a local headless Chromium, and keeps rendered text plus a screenshot. Browser Use Cloud is used only for a page that comes back blocked, behind a captcha or empty.</p>')}
+    {card("plug", "Composio", "Coverage + build", status)}
   </div>
 </section>"""
 
@@ -1091,7 +1378,7 @@ def _acc_table(m: dict, kind: str) -> str:
     for key in keys:
         vals = [field_acc(s[p], key) for p in PASSES]
         cells = "".join(
-            f'<td class="acc {"weak" if v < WEAK_BELOW else "mid" if v < MODERATE_BELOW else ""}">'
+            f'<td class="acc {acc_class(v)}"><span class="bar" style="--w:{v * 100:.0f}%"></span>'
             f'{n(v, score_src(kind, p, key), "pct")}</td>' for p, v in zip(PASSES, vals, strict=True))
         crit = "critical" if key in CRITICAL else "minor"
         body.append(f'<tr><th scope="row">{FIELD_LABEL[key]} <span class="muted small">{crit}</span></th>{cells}</tr>')
@@ -1226,7 +1513,7 @@ def section_verification(src: dict, m: dict) -> str:
     <div class="v-body two-col">
       <div><h4>Gold ({n(ng, f"{score_path('gold', 3)}:summary.n_gold")} apps)</h4>{_acc_table(m, 'gold')}</div>
       <div><h4>Holdout ({n(nho, f"{score_path('holdout', 3)}:summary.n_gold")} apps)</h4>{_acc_table(m, 'holdout')}</div>
-      <p class="small muted full">Critical fields decide whether a whole row is right; minor fields are reported but never fail a row. Evidence scoring checks that each claim has an evidence URL; whether the page really supports the claim was checked by people on samples. Red is under {n(WEAK_BELOW, f"{P_PATTERNS}:meta.thresholds.caveated_below", "pct")}, amber under {n(MODERATE_BELOW, f"{P_PATTERNS}:meta.thresholds.moderate_below", "pct")}.</p>
+      <p class="small muted full">Critical fields decide whether a whole row is right; minor fields are reported but never fail a row. Evidence scoring checks that each claim has an evidence URL; whether the page really supports the claim was checked by people on samples. Colours: {acc_legend()}.</p>
     </div>
   </details>
 
@@ -1327,51 +1614,64 @@ def section_humans(src: dict, m: dict) -> str:
 </section>"""
 
 
+def DOWNLOADS(m: dict) -> list[tuple[str, str]]:  # noqa: N802 - reads as a constant table
+    return [("data/final.json", f"all {n(len(m['rows']), rows_src(''))} rows with evidence"),
+            ("data/final.csv", "same rows, one line each"),
+            ("data/schema.md", "what each field means"),
+            ("data/patterns.json", "counts and cross-tabs"),
+            ("data/needs_human.json", "rows flagged for a person"),
+            ("llms.txt", "entry point for agents")]
+
+
+def download_payloads(src: dict, out_files: dict[str, str]) -> str:
+    """Data the download buttons need when the page is opened alone (no data/ folder).
+
+    final.json / final.csv are rebuilt in the browser from the full rows (also the table's filter data);
+    needs_human.json from its minified object; patterns.json (it has floats JS would reformat), schema.md
+    and llms.txt are embedded as their exact text. tests/test_build_site.py checks the result byte-for-byte.
+    """
+    def js(obj: Any) -> str:
+        text = json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
+        return text.replace("</", "<\\/").replace("<!--", "<\\u0021--")
+
+    def raw(text: str) -> str:
+        ensure("</script" not in text.lower() and "<!--" not in text, "embedded text has no script terminator")
+        return text
+
+    rows = sorted(src["rows"], key=lambda r: r["id"])
+    parts = [
+        ("application/json", "dl-rows", js(rows)),
+        ("application/json", "dl-cols", js(schema_columns())),
+        ("application/json", "dl-needs", js(src["needs"])),
+        ("text/plain", "dl-patterns", raw(out_files["data/patterns.json"])),
+        ("text/plain", "dl-schema", raw(out_files["data/schema.md"])),
+        ("text/plain", "dl-llms", raw(out_files["llms.txt"])),
+    ]
+    return "".join(f'<script type="{t}" id="{i}">{body}</script>' for t, i, body in parts)
+
+
 def section_proof(src: dict, m: dict) -> str:
-    proof = src["proof"]
-    names_ = f'<span data-text>{", ".join(esc(r["name"]) for r in src["proof_rows"])}</span>'
-    t = proof["totals"]
-    flagged = sum(f.get("flagged", False) for f in src["proof_flags"])
-    outputs = [Path(v).name for v in proof["outputs"].values()]
-    flagged_txt = (f"The selector flagged {n(flagged, f'{P_PROOF_FLAGS}:count(flagged=true)')} rows, so no browser pages were needed."
-                   if flagged == 0 else
-                   f"The selector flagged {n(flagged, f'{P_PROOF_FLAGS}:count(flagged=true)')} rows for the browser pass.")
     return f"""
 <section id="proof" aria-labelledby="h-proof">
   <h2 id="h-proof">Proof: run it yourself</h2>
-  <div class="two-col">
-    <div class="panel">
-      <h3>One command</h3>
-      <pre class="code"><code>git clone {esc(REPO_URL)}
+  <div class="panel">
+    <h3>One command</h3>
+    <pre class="code"><code>git clone {esc(REPO_URL)}
 cd composio-app-research
 python -m venv .venv &amp;&amp; .venv/bin/pip install -r requirements.txt
 .venv/bin/python -m agent all --dry-run --limit 2 --run-id try   # offline, no keys
 .venv/bin/python -m agent all --input apps.csv --run-id my-run   # live</code></pre>
-      <p class="small">Source and README: {link(REPO_URL, REPO_URL.removeprefix('https://'))}</p>
-      <p class="small agents-note"><strong>For agents:</strong> read <a href="llms.txt">llms.txt</a>, then <a href="data/final.json">data/final.json</a>; field meanings are in <a href="data/schema.md">data/schema.md</a>.</p>
-    </div>
-    <div class="panel">
-      <h3>A live end-to-end run on {n(proof['apps_requested'], f'{P_PROOF}:apps_requested')} apps outside the {n(len(m['rows']), rows_src(''))}</h3>
-      <p>{names_}: research, rule check and browser check, then the final export.</p>
-      <dl class="mini-stats">
-        <div><dt>rows out</dt><dd>{n(proof['rows_final'], f'{P_PROOF}:rows_final')}</dd></div>
-        <div><dt>seconds, all stages</dt><dd>{n(t['wall_s'], f'{P_PROOF}:totals.wall_s', 's')}</dd></div>
-        <div><dt>LLM + Exa cost</dt><dd>{n(t['est_cost_usd'] + t['exa_cost_usd'], f'{P_PROOF}:add(totals.est_cost_usd,totals.exa_cost_usd)', 'usd')}</dd></div>
-        <div><dt>flagged for a human check</dt><dd>{n(proof['needs_human_count'], f'{P_PROOF}:needs_human_count')}</dd></div>
-      </dl>
-      <p class="small">{flagged_txt} Outputs in <code>data/runs/proof-e2e/</code>: <code>{'</code>, <code>'.join(esc(o) for o in outputs)}</code>.</p>
-    </div>
+    <p class="small">Source and README: {link(REPO_URL, REPO_URL.removeprefix('https://'))}</p>
+    <p class="small agents-note"><strong>For agents:</strong> read <a href="llms.txt">llms.txt</a>, then <a href="data/final.json">data/final.json</a>; field meanings are in <a href="data/schema.md">data/schema.md</a>.</p>
   </div>
   <div class="downloads">
     <h3>Downloads</h3>
-    <ul class="dl-list">
-      <li><a href="data/final.json" download>final.json</a><span>all {n(len(m['rows']), rows_src(''))} rows with evidence</span></li>
-      <li><a href="data/final.csv" download>final.csv</a><span>same rows, one line each</span></li>
-      <li><a href="data/schema.md">schema.md</a><span>what each field means</span></li>
-      <li><a href="data/patterns.json" download>patterns.json</a><span>counts and cross-tabs</span></li>
-      <li><a href="data/needs_human.json" download>needs_human.json</a><span>rows flagged for a person</span></li>
-      <li><a href="llms.txt">llms.txt</a><span>entry point for agents</span></li>
-    </ul>
+    <ul class="dl-list">{''.join(
+        f'<li><a class="dl-card" href="{href}" download="{Path(href).name}" data-dl="{Path(href).name}">'
+        f'<span class="dl-ic">{icon("file")}</span><span class="dl-name">{Path(href).name}</span>'
+        f'<span class="dl-desc">{desc}</span>{icon("download", "dl-go")}</a></li>'
+        for href, desc in DOWNLOADS(m))}</ul>
+    <p class="dl-note">The files also sit in <code>data/</code> next to this page; the buttons work even when only this page is opened.</p>
   </div>
 </section>"""
 
@@ -1406,17 +1706,39 @@ def section_limits(src: dict, m: dict) -> str:
 </section>"""
 
 
+def section_links(src: dict, m: dict) -> str:
+    repo_path = REPO_URL.removeprefix("https://")
+    resume = src.get("resume")
+    b64 = src.get("resume_b64")
+    dl = (' download="resume.pdf" data-resume' if b64 else ' target="_blank" rel="noopener"')
+    resume_btn = (f'<a class="btn btn-big btn-second" href="{esc(resume)}"{dl}>'
+                  f'{icon("file", "btn-ic")}<span class="b-text"><span class="b-title">Resume</span>'
+                  f'<span class="b-sub">PDF download</span></span></a>') if resume else ""
+    if b64:
+        resume_btn += f'<script type="application/pdf;base64" id="dl-resume">{b64}</script>'
+    return f"""
+<section id="links" class="links" aria-labelledby="h-links">
+  <h2 id="h-links">Links</h2>
+  <p class="section-lead">The code, the data and the full history behind this page.</p>
+  <div class="link-row">
+    <a class="btn btn-big btn-primary" href="{esc(REPO_URL)}" target="_blank" rel="noopener">{GITHUB_SVG}<span class="b-text"><span class="b-title">{esc(REPO_LABEL)}</span><span class="b-sub">{esc(repo_path)}</span></span>{icon("ext", "b-ext")}</a>
+    {resume_btn}
+  </div>
+</section>"""
+
+
 NAV = (("patterns", "Patterns"), ("accuracy", "Accuracy"), ("next", "Next steps"), ("findings", "Findings"),
-       ("agent", "Agent"), ("composio", "Composio"), ("verification", "Verification"), ("humans", "Humans"),
-       ("proof", "Proof"), ("limits", "Limits"))
+       ("agent", "Agent"), ("tools", "Tools"), ("verification", "Verification"), ("humans", "Humans"),
+       ("proof", "Proof"), ("limits", "Limits"), ("links", "Links"))
 
 
-def render_page(src: dict) -> str:
+def render_page(src: dict, out: Path) -> str:
     m = build_model(src)
     nav = "".join(f'<li><a href="#{k}">{t}</a></li>' for k, t in NAV)
     body = "".join(fn(src, m) for fn in (section_hero, section_accuracy, section_next, section_findings, section_agent,
-                                         section_composio, section_verification, section_humans, section_proof,
-                                         section_limits))
+                                         section_tools, section_verification, section_humans, section_proof,
+                                         section_limits, section_links))
+    side = {rel: (out / rel).read_text(encoding="utf-8") for rel in ("data/patterns.json", "data/schema.md", "llms.txt")}
     description = ("Research on 100 apps for Composio: auth, access, API, MCP and buildability, with the agent "
                    "pipeline, verification and evidence.")
     return f"""<!doctype html>
@@ -1436,12 +1758,14 @@ def render_page(src: dict) -> str:
   <div class="top-in">
     <a class="brand" href="#patterns">{n(m["total"], rows_src(""))} apps → agent toolkits</a>
     <nav aria-label="Sections"><ul>{nav}</ul></nav>
+    <a class="top-gh" href="{esc(REPO_URL)}" target="_blank" rel="noopener" aria-label="{esc(REPO_LABEL)}" title="{esc(REPO_LABEL)}">{GITHUB_SVG}</a>
   </div>
 </header>
 <main>{body}</main>
 <footer class="foot">
   <p>Data as of {as_of_span(m)} · {link(REPO_URL, 'Source repo')} · Generated by <code>scripts/build_site.py</code> · <a href="llms.txt">llms.txt</a></p>
 </footer>
+{download_payloads(src, side)}
 <script>{JS}</script>
 </body>
 </html>
@@ -1551,19 +1875,45 @@ Headline numbers (generated from the repo data, as of {m['as_of']}):
 """
 
 
+def resume_href(out: Path) -> str | None:
+    """RESUME_URL if it can be linked: an absolute URL, or a relative file that exists in the output folder."""
+    url = os.environ.get("RESUME_URL", RESUME_URL).strip()
+    if not url:
+        print("build_site: warning: RESUME_URL is empty; Resume button hidden", file=sys.stderr)
+        return None
+    if not re.match(r"^https?://", url) and not (out / url).is_file():
+        print(f"build_site: warning: {url} is missing from the site folder; Resume button hidden", file=sys.stderr)
+        return None
+    return url
+
+
 def write_site(root: Path, out: Path) -> None:
     src = load_sources(root)
-    if out.exists():
-        shutil.rmtree(out)
-    (out / "data").mkdir(parents=True)
-    (out / "index.html").write_text(render_page(src), encoding="utf-8")
+    out.mkdir(parents=True, exist_ok=True)
+    # Remove only generated output; static assets placed in site/ by hand (STATIC_ASSETS) are kept.
+    for name in GENERATED:
+        target = out / name
+        if target.is_dir():
+            shutil.rmtree(target)
+        elif target.exists():
+            target.unlink()
+    (out / "data").mkdir()
+    src["resume"] = resume_href(out)
+    # Embed a local resume PDF so its button downloads even when index.html is opened on its own.
+    if src["resume"] and not re.match(r"^https?://", src["resume"]):
+        src["resume_b64"] = base64.b64encode((out / src["resume"]).read_bytes()).decode("ascii")
+    files = {
+        "data/schema.md": schema_md(src),
+        "llms.txt": llms_txt(src),
+    }
     export_final(src["rows"], out / "data")
     shutil.copyfile(root / P_NEEDS, out / "data" / "needs_human.json")
     shutil.copyfile(root / P_PATTERNS, out / "data" / "patterns.json")
-    (out / "data" / "schema.md").write_text(schema_md(src), encoding="utf-8")
-    (out / "llms.txt").write_text(llms_txt(src), encoding="utf-8")
-    leaks = [p for p in out.rglob("*") if p.is_file() and re.search(r"/home/|/tmp/|/Users/",
-                                                                    p.read_text(encoding="utf-8"))]
+    for rel, text in files.items():
+        (out / rel).write_text(text, encoding="utf-8")
+    (out / "index.html").write_text(render_page(src, out), encoding="utf-8")
+    generated = [p for p in out.rglob("*") if p.is_file() and p.relative_to(out).as_posix() not in STATIC_ASSETS]
+    leaks = [p for p in generated if re.search(r"/home/|/tmp/|/Users/", p.read_text(encoding="utf-8"))]
     if leaks:
         raise BuildError(f"build_site: absolute machine paths leaked into {', '.join(map(str, leaks))}")
 
@@ -1579,6 +1929,10 @@ def diff_dirs(a: Path, b: Path) -> list[str]:
 def check(root: Path, site: Path) -> int:
     with tempfile.TemporaryDirectory() as tmp:
         fresh = Path(tmp) / "site"
+        fresh.mkdir()
+        for name in STATIC_ASSETS:  # static assets are not generated; give the fresh build the same ones
+            if (site / name).is_file():
+                shutil.copyfile(site / name, fresh / name)
         write_site(root, fresh)
         if not site.is_dir():
             print(f"build_site --check: {site} does not exist; run scripts/build_site.py")
@@ -1666,12 +2020,6 @@ p{margin:0 0 12px}
 .callout .co-n{display:block;font-weight:400;color:var(--muted);font-size:.84rem}
 .c-self{background:var(--good-soft);border:1px solid #bbf7d0}.c-self .co-k{color:var(--good)}
 .c-gated{background:var(--warn-soft);border:1px solid #fde68a}.c-gated .co-k{color:var(--warn)}
-.use-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
-.use{border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;background:#fff;box-shadow:var(--shadow);font-size:.9rem}
-.use h3{font-size:1rem}
-.use p{color:var(--muted)}
-.use p strong{color:var(--fg)}
-.use-st{margin-bottom:8px}
 .chip.bad{background:var(--bad-soft);border-color:#fecaca;color:var(--bad)}
 .panel-flat{margin-top:20px;box-shadow:none}
 .agents-note{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);margin-bottom:0}
@@ -1765,14 +2113,7 @@ border:1px solid var(--line);color:var(--muted);white-space:nowrap}
 .chip.ok{background:var(--good-soft);border-color:#bbf7d0;color:var(--good)}
 .chip.hl{background:var(--accent-soft);border-color:#c7d2fe;color:var(--accent-d)}
 .toolbar{display:grid;gap:12px;margin-bottom:12px}
-.search input{width:100%;max-width:420px;font:inherit;padding:9px 12px;border:1px solid var(--line2);border-radius:8px}
-.filters{display:flex;flex-wrap:wrap;gap:8px 12px}
-.f{display:flex;flex-direction:column;font-size:.74rem;color:var(--subtle);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
-.f select{font:inherit;font-size:.875rem;text-transform:none;letter-spacing:0;color:var(--fg);padding:6px 8px;border:1px solid var(--line2);
-border-radius:8px;background:#fff;margin-top:3px;max-width:240px}
-.tb-foot{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
 .count-line{margin:0;font-size:.9rem;color:var(--muted)}
-.dl{margin:0;font-size:.9rem}
 .findings-wrap{--bleed:clamp(0px,calc((100vw - 1176px) / 2),120px);border:1px solid var(--line);border-radius:var(--r);
 margin:0 calc(-1 * var(--bleed))}
 .findings{border-collapse:separate;border-spacing:0;width:100%;font-size:.84rem;min-width:1060px}
@@ -1789,11 +2130,6 @@ padding-left:12px}
 .findings .c-one{white-space:normal;min-width:190px;max-width:220px;color:var(--muted)}
 .clamp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .findings .sub{display:block;font-size:.76rem;color:var(--subtle)}
-.exp{all:unset;cursor:pointer;font-weight:650;color:var(--fg);display:inline-flex;align-items:baseline;gap:6px}
-.exp:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
-.caret{width:0;height:0;border-left:5px solid var(--subtle);border-top:4px solid transparent;border-bottom:4px solid transparent;
-transition:transform .15s;flex:none;transform:translateY(-1px)}
-.exp[aria-expanded="true"] .caret{transform:rotate(90deg)}
 .pill{display:inline-block;font-size:.76rem;font-weight:600;border-radius:999px;padding:2px 8px;text-decoration:none;white-space:nowrap}
 .v-now{background:var(--good-soft);color:var(--good);border:1px solid #bbf7d0}
 .v-appr{background:var(--warn-soft);color:var(--warn);border:1px solid #fde68a}
@@ -1826,30 +2162,10 @@ blockquote{margin:4px 0 6px;padding:4px 10px;border-left:3px solid var(--line2);
 font-size:.84rem}
 blockquote cite{display:block;font-style:normal;font-size:.76rem;color:var(--subtle);overflow-wrap:anywhere}
 .empty{padding:24px;text-align:center;color:var(--muted)}
-.flow-fig{margin:0 0 24px}
-.flow{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:22px;counter-reset:st}
-.stage,.hstage{position:relative;border:1px solid var(--line);border-radius:var(--r);padding:12px 12px;background:#fff;
-box-shadow:var(--shadow);display:flex;flex-direction:column;gap:4px;font-size:.82rem}
-.stage{border-top:3px solid var(--accent)}
-.stage:not(:last-child)::after{content:"";position:absolute;right:-17px;top:50%;width:12px;height:12px;
-border-top:2px solid var(--line2);border-right:2px solid var(--line2);transform:translateY(-50%) rotate(45deg)}
-.st-title{font-weight:700;font-size:.86rem;color:var(--fg)}
-.st-main{color:var(--fg)}
-.st-main span[data-src]{font-weight:700}
-.st-sub{color:var(--muted);font-size:.78rem}
-.lane-label{margin:20px 0 8px;font-size:.78rem;font-weight:700;color:var(--human);text-transform:uppercase;letter-spacing:.06em}
-.st-human{margin-top:auto;padding-top:8px;font-size:.76rem;font-weight:600;color:var(--human);line-height:1.35}
-.st-human::before{content:"";display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--human);
-margin-right:5px;vertical-align:0}
-.hlane{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
-.hstage{border-color:#f0abfc;background:var(--human-soft);border-top:3px solid var(--human)}
-.hstage .human-tag{align-self:flex-start}
-.feeds{font-size:.74rem;color:var(--human);font-weight:600;margin-top:auto}
 .sub-h{margin-top:24px}
 pre.code{background:#0f172a;color:#e2e8f0;border-radius:var(--r);padding:14px 16px;overflow-x:auto;font:0.86rem/1.6 var(--mono);margin:0 0 8px}
 pre.code code{background:none;border:0;padding:0;color:inherit;overflow-wrap:normal;white-space:pre}
 .code-note{font-size:.9rem;color:var(--muted)}
-.stage-list{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px}
 details{border:1px solid var(--line);border-radius:var(--r);background:#fff}
 details>summary{cursor:pointer;padding:12px 16px;font-weight:600;list-style:none;display:block}
 details>summary::-webkit-details-marker{display:none}
@@ -1911,19 +2227,260 @@ details.v>summary{font-size:1.02rem;padding:14px 18px}
 .mini-stats dt{order:2;font-size:.76rem;color:var(--muted)}
 .downloads{margin-top:24px}
 .dl-list{list-style:none;padding:0;margin:8px 0 12px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-.dl-list li{border:1px solid var(--line);border-radius:8px;padding:10px 14px;display:flex;flex-direction:column}
-.dl-list a{font-weight:650;font-family:var(--mono);font-size:.88rem}
-.dl-list span{font-size:.82rem;color:var(--muted)}
 .limits{padding-left:18px;max-width:90ch}
 .limits li{margin-bottom:8px}
 .foot{max-width:1160px;margin:48px auto 0;padding:0 24px 32px;color:var(--muted);font-size:.875rem}
 .foot p{border-top:1px solid var(--line);padding-top:24px}
+/* ---- v2: buttons and repo links ---- */
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:600;text-decoration:none;border-radius:10px;
+line-height:1.2;white-space:nowrap;transition:background .15s,border-color .15s,box-shadow .15s,transform .15s}
+.btn-ghost{padding:9px 14px;border:1px solid var(--line2);color:var(--fg);background:#fff;font-size:.9rem;box-shadow:var(--shadow)}
+.btn-ghost:hover{border-color:var(--fg);box-shadow:0 2px 8px rgba(15,23,42,.1)}
+.btn .gh{flex:none}
+.sub-row{display:flex;align-items:flex-start;gap:24px;justify-content:space-between}
+.sub-row .btn{margin-top:2px;flex:none}
+.top-gh{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:8px;
+color:var(--fg);flex:none;border:1px solid var(--line)}
+.top-gh:hover{background:var(--soft);border-color:var(--line2)}
+/* ---- v2: hero coverage note ---- */
+.big-label strong{color:var(--fg)}
+.howknow{font-size:.82rem;color:var(--muted);background:var(--soft);border:1px solid var(--line);border-radius:8px;
+padding:10px 12px;margin:2px 0 12px;line-height:1.5}
+.hk-k{display:block;font-size:.66rem;text-transform:uppercase;letter-spacing:.07em;font-weight:700;color:var(--subtle);margin-bottom:3px}
+.howknow code{font-size:.8em}
+/* ---- v2: accuracy colours (green 90%+) ---- */
+td.acc .bar{background:linear-gradient(90deg,#16a34a var(--w),var(--line) var(--w))}
+td.acc.good span[data-src]{color:var(--good);font-weight:600}
+.lg{font-weight:650;white-space:nowrap}.lg-good{color:var(--good)}.lg-mid{color:var(--warn)}.lg-weak{color:var(--bad)}
+/* ---- v2: what Composio should do next ---- */
+.handover{border:1px solid #c7d2fe;background:linear-gradient(180deg,var(--accent-soft),#fff 85%);border-radius:14px;
+padding:18px 22px;margin:4px 0 28px}
+.ho-lead{font-size:1.05rem;color:var(--fg);margin-bottom:8px;max-width:95ch}
+.ho-note{font-size:.88rem;color:var(--muted);margin:0}
+.nx-head{display:flex;align-items:baseline;gap:6px 16px;flex-wrap:wrap;margin:0 0 14px}
+.nx-head h3{display:flex;align-items:center;gap:10px;margin:0;font-size:1.2rem}
+.nx-head p{margin:0;color:var(--muted);font-size:.9rem}
+.nx-ic{width:28px;height:28px;padding:5px;border-radius:8px;flex:none}
+.nx-good .nx-ic{color:var(--good);background:var(--good-soft)}
+.nx-warn .nx-ic{color:var(--warn);background:var(--warn-soft)}
+.nx-head .count,.og-title .count{display:inline-block;min-width:1.8em;text-align:center;font-size:.8rem;background:var(--soft);
+border:1px solid var(--line);border-radius:999px;padding:1px 8px;color:var(--muted);font-weight:650}
+.bcards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:40px}
+.bcard{border:1px solid var(--line);border-top:3px solid #16a34a;border-radius:12px;background:#fff;box-shadow:var(--shadow);
+padding:14px 16px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.bc-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.bc-name{font-size:1.02rem;margin:0}
+.bc-cat{font-size:.78rem;color:var(--subtle);margin:2px 0 0}
+.auth-chip{font-size:.72rem;font-weight:700;color:var(--accent-d);background:var(--accent-soft);border:1px solid #c7d2fe;
+border-radius:999px;padding:2px 9px;white-space:nowrap}
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:5px}
+.ck{display:grid;grid-template-columns:18px minmax(0,1fr) auto;gap:8px;align-items:center;font-size:.83rem;
+padding:6px 9px;background:var(--good-soft);border-radius:7px}
+.ck-ic{width:16px;height:16px;color:var(--good);stroke-width:2.8}
+.ck-l{color:var(--fg)}
+.ck-v{font-weight:600;white-space:nowrap;text-align:right}
+.ck-v a{color:var(--good);text-decoration-color:rgba(21,128,61,.4)}
+.bcard .warn-note{margin-top:0}
+.ogroups{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:start}
+.og-title{display:flex;align-items:center;gap:8px;margin:0 0 4px;font-size:1.02rem}
+.og-blurb{font-size:.86rem;color:var(--muted);margin-bottom:10px}
+.ocards{display:grid;gap:8px}
+.ocard{border:1px solid var(--line);border-left:3px solid #f59e0b;border-radius:10px;background:#fff;padding:10px 14px;
+display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center}
+.oc-name{font-size:.95rem;text-transform:none;letter-spacing:0;color:var(--fg);margin:0}
+.oc-cat{margin:0;font-size:.76rem;color:var(--subtle)}
+.oc-need{margin:0;display:inline-flex;align-items:center;gap:5px;font-size:.76rem;font-weight:650;color:var(--warn);
+background:var(--warn-soft);border:1px solid #fde68a;border-radius:999px;padding:2px 9px 2px 6px;white-space:nowrap;justify-self:end}
+.oc-ic{width:14px;height:14px}
+.oc-meta{grid-column:1/-1;margin:0;display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:.82rem}
+.cov{font-size:.72rem;font-weight:650;border-radius:999px;padding:1px 8px;border:1px solid var(--line);color:var(--muted);background:var(--soft)}
+.cov-yes{color:var(--good);background:var(--good-soft);border-color:#bbf7d0}
+.cov-no{color:var(--accent-d);background:var(--accent-soft);border-color:#c7d2fe}
+.ocard .warn-note{grid-column:1/-1;margin-top:2px}
+/* ---- v2: findings toolbar ---- */
+.toolbar{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;margin-bottom:14px}
+.toolbar>*,.filters>*{min-width:0}
+.tb-top{display:flex;gap:10px 16px;align-items:center;flex-wrap:wrap}
+.search{position:relative;flex:1 1 320px;max-width:440px;display:block}
+.search input{width:100%;font:inherit;font-size:.95rem;padding:9px 12px 9px 38px;border:1px solid var(--line2);border-radius:10px;
+background:#fff;color:var(--fg);-webkit-appearance:none;appearance:none;box-shadow:var(--shadow)}
+.search input:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.s-ic{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:17px;height:17px;color:var(--subtle);pointer-events:none}
+.count-line{margin:0 0 0 auto}
+.clear-btn{display:inline-flex;align-items:center;gap:6px;font:inherit;font-size:.84rem;font-weight:600;height:34px;
+border:1px solid var(--line2);background:#fff;border-radius:999px;padding:0 14px 0 10px;color:var(--fg);cursor:pointer}
+.clear-btn:hover:not(:disabled){border-color:var(--bad);color:var(--bad)}
+.clear-btn:disabled{opacity:.45;cursor:default}
+.x-ic{width:15px;height:15px}
+.filters{display:flex;flex-wrap:wrap;gap:14px 28px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--soft)}
+.fgroup{display:flex;flex-direction:column;gap:6px;min-width:0}
+.fg-wide{flex:1 1 100%}
+.fg-label{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--subtle)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.fchip{display:inline-flex;align-items:center;gap:7px;height:32px;padding:0 12px;border-radius:999px;border:1px solid var(--line2);
+background:#fff;font:inherit;font-size:.84rem;color:var(--fg);cursor:pointer;white-space:nowrap;transition:background .12s,border-color .12s}
+.fchip:hover{border-color:var(--accent);color:var(--accent-d)}
+.fchip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.fchip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.fc-n{font-size:.72rem;font-weight:700;color:var(--muted);background:var(--soft);border:1px solid var(--line);border-radius:999px;
+padding:0 6px;line-height:1.5;font-variant-numeric:tabular-nums}
+.fchip[aria-pressed="true"] .fc-n{background:rgba(255,255,255,.2);border-color:transparent;color:#fff}
+.dl{margin:0;font-size:.88rem;color:var(--muted);display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.dl-ic{width:16px;height:16px;color:var(--subtle)}
+.linkish{all:unset;cursor:pointer;color:var(--accent-d);text-decoration:underline;font-weight:600}
+/* ---- v2: findings rows ---- */
+.app-cell{display:flex;align-items:flex-start;gap:6px}
+.exp{all:unset;box-sizing:border-box;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;
+border-radius:6px;color:var(--subtle);flex:none;margin:-2px 0 0 -4px;border:1px solid transparent}
+.exp:hover{background:var(--accent-soft);color:var(--accent-d)}
+.exp:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.chev{width:16px;height:16px;transition:transform .15s}
+.exp[aria-expanded="true"] .chev{transform:rotate(90deg)}
+.exp[aria-expanded="true"]{color:var(--accent-d);background:var(--accent-soft);border-color:#c7d2fe}
+.app-link{font-weight:650;color:var(--accent-d);text-decoration:none}
+.app-link:hover,.app-link:focus-visible{text-decoration:underline;text-underline-offset:3px}
+.ext-ic{width:12px;height:12px;margin-left:4px;vertical-align:-1px;stroke-width:2.2}
+.findings tr.row{cursor:pointer}
+.findings tr.row:hover td,.findings tr.row:hover th{background:#f5f7ff}
+.findings tr.row.is-open td,.findings tr.row.is-open th{background:var(--accent-soft)}
+.findings td a:not(.pill){text-decoration-color:#94a3b8;text-underline-offset:3px}
+.c-more{display:none}
+.when-open{display:none}
+.exp-more[aria-expanded="true"] .when-open{display:inline}
+.exp-more[aria-expanded="true"] .when-closed{display:none}
+/* ---- v2: pipeline diagram ---- */
+.flow2{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));column-gap:44px;row-gap:50px;padding-top:60px;margin:8px 0 0}
+.nwrap{position:relative;min-width:0;display:flex}
+.nw-input{grid-area:1/1}.nw-pass1{grid-area:1/2}.nw-pass2{grid-area:1/3}.nw-selector{grid-area:1/4}.nw-pass3{grid-area:1/5}
+.nw-final{grid-area:2/5}.nw-scoring{grid-area:2/4}.nw-patterns{grid-area:2/3}
+.hg-final{grid-area:3/5}.hg-scoring{grid-area:3/4}
+.flow-legend{grid-area:2/1/4/3;align-self:start}
+.node{all:unset;box-sizing:border-box;cursor:pointer;width:100%;display:flex;gap:10px;align-items:flex-start;padding:12px;
+border:1px solid var(--line);border-radius:12px;background:#fff;box-shadow:var(--shadow);transition:border-color .15s,box-shadow .15s}
+.node:hover{border-color:#a5b4fc;box-shadow:0 4px 14px rgba(79,70,229,.12)}
+.node:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.node[aria-expanded="true"]{border-color:var(--accent);box-shadow:0 0 0 3px rgba(79,70,229,.18)}
+.n-ic{flex:none;width:34px;height:34px;border-radius:9px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent-d)}
+.node[aria-expanded="true"] .n-ic{background:var(--accent);color:#fff}
+.n-ic .ic{width:19px;height:19px}
+.n-body{display:flex;flex-direction:column;gap:3px;min-width:0}
+.n-title{font-weight:700;font-size:.86rem;line-height:1.25;color:var(--fg)}
+.n-metric{font-size:.78rem;color:var(--muted);line-height:1.35}
+.n-metric span[data-src]{font-weight:700;color:var(--fg)}
+.node-human{background:var(--human-soft);border-color:#f0abfc}
+.node-human .n-ic{background:#fae8ff;color:var(--human)}
+.node-human:hover{border-color:var(--human);box-shadow:0 4px 14px rgba(162,28,175,.12)}
+.node-human[aria-expanded="true"]{border-color:var(--human);box-shadow:0 0 0 3px rgba(162,28,175,.18)}
+.node-human[aria-expanded="true"] .n-ic{background:var(--human);color:#fff}
+.node .human-tag{align-self:flex-start;margin:0 0 2px}
+.nwrap::before,.nwrap::after,.hgroup::before,.hgroup::after{position:absolute;pointer-events:none}
+.a-right::before{content:"";left:calc(100% + 4px);top:50%;width:30px;height:2px;background:#94a3b8}
+.a-right::after{content:"";left:calc(100% + 32px);top:50%;margin-top:-5px;border:5px solid transparent;border-left:8px solid #94a3b8;border-right:0}
+.a-left::before{content:"";right:calc(100% + 4px);top:50%;width:30px;height:2px;background:#94a3b8}
+.a-left::after{content:"";right:calc(100% + 32px);top:50%;margin-top:-5px;border:5px solid transparent;border-right:8px solid #94a3b8;border-left:0}
+.a-down::before{content:"";top:calc(100% + 4px);left:50%;width:2px;height:36px;margin-left:-1px;background:#94a3b8}
+.a-down::after{content:"";top:calc(100% + 38px);left:50%;margin-left:-5px;border:5px solid transparent;border-top:8px solid #94a3b8;border-bottom:0}
+.hgroup{position:relative;display:grid;gap:10px;align-content:start;min-width:0}
+.hgroup::before{content:"";bottom:calc(100% + 4px);left:50%;width:2px;height:36px;margin-left:-1px;background:var(--human)}
+.hgroup::after{content:"";bottom:calc(100% + 38px);left:50%;margin-left:-5px;border:5px solid transparent;border-bottom:8px solid var(--human);border-top:0}
+.hg-feeds{position:absolute;bottom:calc(100% + 15px);left:calc(50% + 10px);font-size:.7rem;font-weight:700;color:var(--human);
+white-space:nowrap;text-transform:uppercase;letter-spacing:.05em}
+.loop{position:absolute;bottom:calc(100% + 8px);left:6px;right:6px;margin:0;display:flex;align-items:center;gap:6px;
+font-size:.72rem;line-height:1.25;color:var(--accent-d);font-weight:600;border:1.5px dashed #a5b4fc;border-bottom:0;
+border-radius:12px 12px 0 0;padding:6px 10px 10px;background:#fff}
+.loop::after{content:"";position:absolute;left:-6.5px;bottom:-7px;border:5.5px solid transparent;border-top:8px solid #818cf8;border-bottom:0}
+.hg-feeds{left:auto!important;right:calc(50% + 10px)}
+.loop-ic{width:15px;height:15px;flex:none}
+.flow-legend{border:1px dashed var(--line2);border-radius:12px;padding:14px 16px;font-size:.82rem;color:var(--muted);background:#fff}
+.flow-legend p{margin:0 0 8px;display:flex;align-items:center;gap:8px}
+.flow-legend .fl-t{font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;font-weight:700;color:var(--subtle)}
+.flow-legend .fl-hint{margin:10px 0 0;padding-top:10px;border-top:1px solid var(--line);color:var(--fg);font-weight:600}
+.flow-legend .loop-ic{color:var(--accent-d)}
+.sw{display:inline-block;width:14px;height:14px;border-radius:4px;flex:none}
+.sw-stage{background:var(--accent-soft);border:1.5px solid var(--accent)}
+.sw-human{background:var(--human-soft);border:1.5px solid var(--human)}
+.stage-panels{margin-top:22px;scroll-margin-top:80px}
+.js .sp:not(.open){display:none}
+.sp{border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:14px;background:#fff;box-shadow:var(--shadow);
+padding:18px 22px 20px;margin-bottom:12px;scroll-margin-top:80px}
+.sp-human{border-top-color:var(--human)}
+.sp-head{display:flex;gap:14px;align-items:flex-start;margin-bottom:14px}
+.sp-ic{flex:none;width:42px;height:42px;border-radius:11px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent-d)}
+.sp-human .sp-ic{background:#fae8ff;color:var(--human)}
+.sp-head h4{margin:0 0 6px;font-size:1.15rem}
+.sp-head h4 .human-tag{vertical-align:3px}
+.sp-io{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.8rem;color:var(--muted);margin:0}
+.io-k{font-size:.64rem;text-transform:uppercase;font-weight:750;letter-spacing:.06em;color:var(--subtle)}
+.io-arrow{color:var(--subtle);margin:0 2px}
+.sp-feeds{margin-left:8px;color:var(--human);font-weight:650}
+.sp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;font-size:.88rem}
+.sp-grid h5{margin-bottom:6px}
+.sp-grid p,.sp-acc>div{color:var(--fg);margin:0}
+.sp-acc ul{margin:6px 0 0;padding-left:18px}
+.sp-acc li{margin-bottom:2px}
+.sp-tiles{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 0}
+.sp-tiles>div{display:flex;flex-direction:column;background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:8px 14px;min-width:120px}
+.sp-tiles dd{margin:0;font-size:1.3rem;font-weight:750;order:1;font-variant-numeric:tabular-nums}
+.sp-tiles dt{order:2;font-size:.76rem;color:var(--muted)}
+/* ---- v2: how Composio was used ---- */
+.takeaway{display:flex;gap:10px;align-items:flex-start;background:var(--soft);border:1px solid var(--line);border-radius:12px;
+padding:12px 16px;margin:4px 0 20px;color:var(--fg);font-size:.95rem}
+.tk-ic{flex:none;color:var(--accent);width:20px;height:20px;margin-top:2px}
+.tl-models,.tl-list{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:8px}\n.tl-models li{display:flex;flex-direction:column;gap:2px}\n.tl-k{font-size:.82rem;color:var(--muted)}\n.tl-models code{font:.84rem var(--mono);word-break:break-all}\n.tl-list li{display:flex;gap:8px;align-items:flex-start}\n.tl-list .ch-ic{flex:none;margin-top:4px}\n.tl-ok .ch-ic{color:var(--good)}\n.tl-no .ch-ic{color:var(--bad)}\n.cuse-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.cuse{border:1px solid var(--line);border-radius:14px;padding:18px 20px;background:#fff;box-shadow:var(--shadow);display:flex;flex-direction:column;min-width:0}
+.cu-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.cu-ic{width:42px;height:42px;border-radius:11px;display:grid;place-items:center}
+.cuse-ok .cu-ic{background:var(--good-soft);color:var(--good)}
+.cuse-bad .cu-ic{background:var(--bad-soft);color:var(--bad)}
+.cu-badge{font-size:.7rem;font-weight:750;text-transform:uppercase;letter-spacing:.06em;border-radius:999px;padding:3px 10px}
+.cuse-ok .cu-badge{background:var(--good-soft);color:var(--good);border:1px solid #bbf7d0}
+.cuse-bad .cu-badge{background:var(--bad-soft);color:var(--bad);border:1px solid #fecaca}
+.cuse h3{font-size:1.05rem;margin-bottom:6px}
+.cuse p{color:var(--muted);font-size:.9rem;margin-bottom:0}
+.cu-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:14px 0 0}
+.cu-stats>div{display:flex;flex-direction:column;background:var(--soft);border:1px solid var(--line);border-radius:9px;padding:8px 12px}
+.cu-stats dd{margin:0;font-size:1.25rem;font-weight:750;order:1;font-variant-numeric:tabular-nums}
+.cu-stats dd .of{font-size:.6em;color:var(--subtle);font-weight:600;margin-left:1px}
+.cu-stats dt{order:2;font-size:.74rem;color:var(--muted)}
+.cu-chain{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.cu-chain li{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;font-weight:600;border-radius:9px;padding:7px 11px;border:1px solid}
+.cu-chain .ch-arr{border:0;padding:0;color:var(--subtle);font-weight:400}
+.ch-no{color:var(--bad);background:var(--bad-soft);border-color:#fecaca;text-decoration:line-through;text-decoration-thickness:1px}
+.ch-yes{color:var(--good);background:var(--good-soft);border-color:#bbf7d0}
+.ch-ic{width:14px;height:14px;stroke-width:2.6}
+/* ---- v2: downloads ---- */
+.dl-list{list-style:none;padding:0;margin:8px 0 10px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.dl-card{display:grid;grid-template-columns:auto minmax(0,1fr) auto;column-gap:12px;row-gap:1px;align-items:center;padding:12px 14px;
+border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--fg);background:#fff;box-shadow:var(--shadow);
+transition:border-color .15s,box-shadow .15s}
+.dl-card:hover{border-color:var(--accent);box-shadow:0 4px 14px rgba(79,70,229,.12)}
+.dl-card .dl-ic{grid-row:1/3;width:38px;height:38px;border-radius:10px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent-d)}
+.dl-name{font-family:var(--mono);font-weight:650;font-size:.88rem;color:var(--accent-d)}
+.dl-desc{grid-column:2;font-size:.8rem;color:var(--muted)}
+.dl-go{grid-row:1/3;grid-column:3;width:18px;height:18px;color:var(--subtle)}
+.dl-card:hover .dl-go{color:var(--accent-d)}
+.dl-note{font-size:.84rem;color:var(--muted)}
+/* ---- v2: closing links ---- */
+.links{padding-bottom:16px}
+.link-row{display:flex;flex-wrap:wrap;gap:16px;margin-top:4px}
+.btn-big{padding:16px 22px;border-radius:14px;gap:14px;min-width:300px}
+.btn-big:hover{transform:translateY(-1px)}
+.btn-primary{background:var(--fg);color:#fff;box-shadow:0 8px 22px rgba(15,23,42,.2)}
+.btn-primary:hover{background:#1e293b}
+.btn-primary:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.btn-big .gh{width:30px;height:30px}
+.b-text{display:flex;flex-direction:column;gap:3px;text-align:left;min-width:0;white-space:normal}
+.b-sub{overflow-wrap:anywhere}
+.b-title{font-size:1.08rem;font-weight:700}
+.b-sub{font-size:.8rem;font-weight:500;opacity:.8;font-family:var(--mono)}
+.b-ext{width:16px;height:16px;margin-left:auto;opacity:.75}
+.btn-second{background:#fff;color:var(--fg);border:1px solid var(--line2);box-shadow:var(--shadow);min-width:240px}
+.btn-second:hover{border-color:var(--fg)}
+.btn-second .b-sub{font-family:var(--sans);opacity:1;color:var(--muted)}
+.btn-ic{width:28px;height:28px;color:var(--accent-d)}
 @media (max-width:1080px){
- .flow{grid-template-columns:repeat(4,minmax(0,1fr))}
- .stage:nth-child(4)::after{display:none}
  .acc-layout{grid-template-columns:1fr}
  .acc-side{grid-template-columns:1fr 1fr}
- .use-grid{grid-template-columns:1fr 1fr}
 }
 @media (max-width:860px){
  .cards,.two-col,.takeaways,.fixes,.stage-list{grid-template-columns:1fr}
@@ -1932,7 +2489,6 @@ details.v>summary{font-size:1.02rem;padding:14px 18px}
  .stats{grid-template-columns:1fr 1fr}
  .stats>div:nth-child(3){border-left:0}
  .stats>div:nth-child(n+3){border-top:1px solid var(--line)}
- .hlane{grid-template-columns:1fr 1fr}
  .brand{display:none}
  .top nav ul{justify-content:flex-start}
 }
@@ -1943,8 +2499,6 @@ details.v>summary{font-size:1.02rem;padding:14px 18px}
  .top-in{padding:0 8px}
  section{padding-top:40px}
  .subtitle{font-size:1.05rem}
- .flow{grid-template-columns:1fr;gap:18px}
- .stage:not(:last-child)::after{display:block;right:auto;left:50%;top:auto;bottom:-14px;transform:translateX(-50%) rotate(135deg)}
  .card,.panel{padding:16px}
  .acc-table th,.acc-table td{padding:6px 4px;font-size:.8rem}
  .acc-table td.acc{min-width:0}
@@ -1952,16 +2506,11 @@ details.v>summary{font-size:1.02rem;padding:14px 18px}
  .acc-table thead tr:first-child th{font-size:.74rem}
  .acc-table tbody th{font-size:.78rem;white-space:normal}
  .up,.down{margin-left:1px}
- .hlane{grid-template-columns:1fr}
  .acc-side{grid-template-columns:1fr}
  .spot,.dl-list,.mini-stats{grid-template-columns:1fr 1fr}
- .use-grid{grid-template-columns:1fr}
  .split{grid-template-columns:1fr 1fr;gap:12px}
  .cat-bars li{grid-template-columns:minmax(0,1fr) 72px 3em}
  .hbars.cat li,.hbars li{grid-template-columns:minmax(0,1fr) 72px 2.2em}
- .filters{display:grid;grid-template-columns:1fr 1fr}
- .f select{max-width:none;width:100%}
- .search input{max-width:none}
  /* findings table becomes one card per app */
  .findings-wrap{border:0;overflow:visible}
  .findings{min-width:0;display:block;font-size:.88rem}
@@ -2003,6 +2552,69 @@ details.v>summary{font-size:1.02rem;padding:14px 18px}
  .big{font-size:2rem}
  .spot,.dl-list{grid-template-columns:1fr}
 }
+@media (max-width:1180px){
+ .brand{display:none}
+ .top nav ul{justify-content:flex-start}
+}
+@media (max-width:1080px){
+ .bcards{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .sp-grid{grid-template-columns:1fr 1fr}
+ .sp-grid .sp-acc{grid-column:1/-1}
+ .dl-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:900px){
+ .flow2{grid-template-columns:minmax(0,1fr);row-gap:40px;padding-top:0}
+ .flow2>*{grid-area:auto!important}
+ .flow-legend{order:99}
+ .nwrap{flex-direction:column}
+ .loop{position:static;border:1.5px dashed #a5b4fc;border-radius:10px;padding:6px 10px;margin:0 0 6px}
+ .loop::after{content:none}
+ .a-right::before,.a-left::before{left:50%;right:auto;top:calc(100% + 4px);width:2px;height:28px;margin:0 0 0 -1px}
+ .a-right::after,.a-left::after{left:50%;right:auto;top:calc(100% + 30px);margin:0 0 0 -5px;border:5px solid transparent;
+  border-top:8px solid #94a3b8;border-bottom:0}
+ .a-down::before{height:28px}.a-down::after{top:calc(100% + 30px)}
+ .nwrap.has-att::before,.nwrap.has-att::after{content:none}
+ .hgroup{margin-top:-6px}
+ .hgroup::before{height:26px;bottom:calc(100% + 4px)}
+ .hgroup::after{bottom:calc(100% + 26px)}
+ .hg-feeds{bottom:calc(100% + 9px)}
+ .nw-scoring::before,.nw-patterns::before{content:"";top:auto;bottom:calc(100% + 12px);left:50%;width:2px;height:24px;margin-left:-1px;background:#94a3b8}
+ .nw-scoring::after,.nw-patterns::after{content:"";top:auto;bottom:calc(100% + 4px);left:50%;right:auto;margin:0 0 0 -5px;
+  border:5px solid transparent;border-top:8px solid #94a3b8;border-bottom:0}
+ .nw-scoring.has-att::before,.nw-scoring.has-att::after{content:""}
+ .cuse-grid,.ogroups{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:760px){
+ .sub-row{flex-direction:column;gap:4px}
+ .sub-row .btn{margin:0 0 8px}
+ .bcards{grid-template-columns:minmax(0,1fr)}
+ .sp{padding:16px}
+ .sp-grid{grid-template-columns:minmax(0,1fr);gap:14px}
+ .handover{padding:14px 16px}
+ .ho-lead{font-size:.98rem}
+ .tb-top{gap:10px}
+ .search{flex:1 1 100%;max-width:none}
+ .count-line{margin:0}
+ .clear-btn{margin-left:auto}
+ .filters{padding:12px;gap:12px}
+ .fgroup{flex:1 1 100%}
+ .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 -12px;padding:2px 12px;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 12px,#000 calc(100% - 28px),transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 12px,#000 calc(100% - 28px),transparent)}
+ .chips::-webkit-scrollbar{display:none}
+ .fchip{flex:none}
+ .findings .c-app .exp{display:none}
+ .findings tr.row>.c-cat{padding-left:0!important}
+ .findings tr.row>.c-more{display:block;order:5;flex:0 0 auto;margin-left:auto}
+ .exp-more{width:auto;height:30px;margin:0;padding:0 8px 0 12px;gap:4px;justify-content:center;border:1px solid #c7d2fe;
+  border-radius:999px;font-size:.8rem;font-weight:650;color:var(--accent-d);background:var(--accent-soft)}
+ .exp-more .chev{width:15px;height:15px}
+ .findings tr.row.is-open{border-color:#c7d2fe}
+ .findings tr.row.is-open>*{background:none!important}
+ .dl-list{grid-template-columns:minmax(0,1fr)}
+ .btn-big{min-width:0;width:100%}
+ .cu-stats dd{font-size:1.1rem}
+}
 @media print{
  .top,.toolbar,.skip{display:none}
  .js tr.detail{display:none}
@@ -2015,42 +2627,111 @@ details.v>summary{font-size:1.02rem;padding:14px 18px}
 
 JS = r"""
 (function(){
-  var data=[];try{data=JSON.parse(document.getElementById('rows-data').textContent)}catch(e){}
-  var bySlug={};data.forEach(function(r){bySlug[r.slug]=r});
-  var q=document.getElementById('q'),sel=[].slice.call(document.querySelectorAll('select[data-filter]'));
-  var shown=document.getElementById('shown'),empty=document.getElementById('empty');
-  var rows=[].slice.call(document.querySelectorAll('tr.row'));
-  function match(r){
-    var t=(q&&q.value||'').trim().toLowerCase();
+  function $(s,r){return (r||document).querySelector(s)}
+  function $$(s,r){return [].slice.call((r||document).querySelectorAll(s))}
+  function payload(id,json){var el=document.getElementById(id);if(!el)return null;
+    try{return json?JSON.parse(el.textContent):el.textContent}catch(e){return null}}
+  var rows=payload('dl-rows',true)||[],needs=payload('dl-needs',true)||{rows:[]};
+  var flagged={};(needs.rows||[]).forEach(function(r){flagged[r.slug]=!!r.needs_human});
+  var bySlug={};rows.forEach(function(r){bySlug[r.slug]={name:r.name,one_liner:r.one_liner,slug:r.slug,
+    verdict:r.verdict,access:r.access,mcp_status:r.mcp_status,category:r.category,
+    composio:(r.composio_toolkit||{}).status,needs_human:String(!!flagged[r.slug])}});
+
+  /* ---- findings filters ---- */
+  var q=$('#q'),shown=$('#shown'),empty=$('#empty'),clear=$('#clear');
+  var trs=$$('tr.row'),chips=$$('.fchip'),state={};
+  function match(r){var t=(q&&q.value||'').trim().toLowerCase();
     if(t&&(r.name+' '+r.one_liner+' '+r.slug).toLowerCase().indexOf(t)<0)return false;
-    for(var i=0;i<sel.length;i++){var k=sel[i].getAttribute('data-filter'),v=sel[i].value;
-      if(v&&String(r[k])!==v)return false}
-    return true}
-  function apply(){var n=0;rows.forEach(function(tr){var r=bySlug[tr.getAttribute('data-slug')];
-      var ok=!r||match(r);tr.hidden=!ok;var d=document.getElementById('d-'+tr.getAttribute('data-slug'));
-      if(d)d.hidden=!ok;if(ok)n++});
-    if(shown)shown.textContent=n;if(empty)empty.hidden=n>0}
-  if(q)q.addEventListener('input',apply);sel.forEach(function(s){s.addEventListener('change',apply)});
-  function toggle(slug,open){var tr=document.getElementById('app-'+slug),d=document.getElementById('d-'+slug);
-    if(!tr||!d)return;var b=tr.querySelector('button.exp');var o=open===undefined?!d.classList.contains('open'):open;
-    d.classList.toggle('open',o);if(b)b.setAttribute('aria-expanded',o?'true':'false')}
-  rows.forEach(function(tr){var slug=tr.getAttribute('data-slug');
-    var b=tr.querySelector('button.exp');if(b)b.addEventListener('click',function(e){e.stopPropagation();toggle(slug)});
-    tr.addEventListener('click',function(e){if(e.target.closest('a,button,select,input'))return;toggle(slug)})});
+    for(var k in state){if(state[k]&&String(r[k])!==state[k])return false}return true}
+  function apply(){var n=0;trs.forEach(function(tr){var slug=tr.getAttribute('data-slug'),r=bySlug[slug];
+      var ok=!r||match(r);tr.hidden=!ok;var d=document.getElementById('d-'+slug);if(d)d.hidden=!ok;if(ok)n++});
+    if(shown)shown.textContent=n;if(empty)empty.hidden=n>0;
+    var active=(q&&q.value.trim())||Object.keys(state).some(function(k){return state[k]});
+    if(clear)clear.disabled=!active}
+  chips.forEach(function(b){b.addEventListener('click',function(){var k=b.getAttribute('data-filter'),
+      v=b.getAttribute('data-value');if(v&&state[k]===v)v='';state[k]=v;
+      chips.forEach(function(c){if(c.getAttribute('data-filter')===k)
+        c.setAttribute('aria-pressed',String(c.getAttribute('data-value')===v))});apply()});
+    b.addEventListener('keydown',function(e){if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;
+      var sib=$$('.fchip',b.parentNode),i=sib.indexOf(b)+(e.key==='ArrowRight'?1:-1);
+      if(sib[i]){e.preventDefault();sib[i].focus()}})});
+  function clearAll(){state={};if(q)q.value='';chips.forEach(function(c){
+      c.setAttribute('aria-pressed',String(c.getAttribute('data-value')===''))});apply()}
+  if(q){q.addEventListener('input',apply);q.addEventListener('keydown',function(e){if(e.key==='Escape'){q.value='';apply()}})}
+  if(clear)clear.addEventListener('click',clearAll);
+  $$('[data-clear]').forEach(function(b){b.addEventListener('click',clearAll)});
+
+  /* ---- row details ---- */
+  function toggle(slug,open){var d=document.getElementById('d-'+slug);if(!d)return;
+    var o=open===undefined?!d.classList.contains('open'):open;d.classList.toggle('open',o);
+    var tr=document.getElementById('app-'+slug);if(tr)tr.classList.toggle('is-open',o);
+    $$('button.exp[aria-controls="d-'+slug+'"]').forEach(function(b){b.setAttribute('aria-expanded',o?'true':'false')})}
+  trs.forEach(function(tr){var slug=tr.getAttribute('data-slug');
+    $$('button.exp',tr).forEach(function(b){b.addEventListener('click',function(e){e.stopPropagation();toggle(slug)})});
+    tr.addEventListener('click',function(e){if(e.target.closest('a,button'))return;
+      if(window.getSelection&&String(window.getSelection()).length)return;toggle(slug)})});
   function fromUrl(){var m=(location.hash.match(/expand=([a-z0-9-]+)/)||location.search.match(/expand=([a-z0-9-]+)/));
     if(!m)return;toggle(m[1],true);var tr=document.getElementById('app-'+m[1]);
     if(tr)setTimeout(function(){tr.scrollIntoView({block:'start'})},0)}
   window.addEventListener('hashchange',fromUrl);fromUrl();
-  var links=[].slice.call(document.querySelectorAll('.top nav a'));
+
+  /* ---- pipeline diagram: one stage panel at a time ---- */
+  var nodes=$$('.flow2 .node'),panels=$$('.stage-panels .sp');
+  function select(id,focusPanel){nodes.forEach(function(b){b.setAttribute('aria-expanded',String(b.getAttribute('data-panel')===id))});
+    panels.forEach(function(p){p.classList.toggle('open',p.id===id)});
+    if(focusPanel){var p=document.getElementById(id);if(p&&p.getBoundingClientRect().top>window.innerHeight-80)
+      p.scrollIntoView({block:'nearest'})}}
+  nodes.forEach(function(b,i){b.addEventListener('click',function(){select(b.getAttribute('data-panel'),true)});
+    b.addEventListener('keydown',function(e){var j=e.key==='ArrowRight'||e.key==='ArrowDown'?i+1:
+      e.key==='ArrowLeft'||e.key==='ArrowUp'?i-1:-9;if(nodes[j]){e.preventDefault();nodes[j].focus()}})});
+  if(nodes.length)select(nodes[0].getAttribute('data-panel'));
+
+  /* ---- downloads: rebuilt from the embedded data, so they work from this file alone ---- */
+  var LIST=['auth_methods','api_types'],OBJ=['evidence','composio_toolkit'];
+  function cell(k,v){if(v===null||v===undefined)return '';
+    if(LIST.indexOf(k)>=0)return v.map(String).join(';');
+    if(OBJ.indexOf(k)>=0||typeof v==='object')return JSON.stringify(v);
+    if(typeof v==='boolean')return v?'true':'false';return String(v)}
+  function q8(s){return /[",\r\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s}
+  function csv(){var cols=payload('dl-cols',true)||[];var out=[cols.map(q8).join(',')];
+    rows.forEach(function(r){out.push(cols.map(function(c){return q8(cell(c,r[c]))}).join(','))});
+    return out.join('\r\n')+'\r\n'}
+  var BUILD={'final.json':function(){return [JSON.stringify(rows,null,2)+'\n','application/json']},
+    'final.csv':function(){return [csv(),'text/csv']},
+    'needs_human.json':function(){return [JSON.stringify(needs,null,2)+'\n','application/json']},
+    'patterns.json':function(){return [payload('dl-patterns'),'application/json']},
+    'schema.md':function(){return [payload('dl-schema'),'text/markdown']},
+    'llms.txt':function(){return [payload('dl-llms'),'text/plain']}};
+  window.__caseStudyDownload=function(name){var f=BUILD[name];if(!f)return null;var r=f();return r[0]===null?null:r};
+  $$('a[data-dl]').forEach(function(a){a.addEventListener('click',function(e){
+    var r=window.__caseStudyDownload(a.getAttribute('data-dl'));if(!r||!window.Blob||!window.URL)return;
+    e.preventDefault();var url=URL.createObjectURL(new Blob([r[0]],{type:r[1]+';charset=utf-8'}));
+    var t=document.createElement('a');t.href=url;t.download=a.getAttribute('data-dl');t.style.display='none';
+    document.body.appendChild(t);t.click();t.remove();setTimeout(function(){URL.revokeObjectURL(url)},4000)})});
+
+  $$('a[data-resume]').forEach(function(a){a.addEventListener('click',function(e){
+    var el=document.getElementById('dl-resume');if(!el||!window.Blob||!window.URL||!window.atob)return;
+    e.preventDefault();var bin=atob(el.textContent.trim()),u=new Uint8Array(bin.length);
+    for(var i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);
+    var url=URL.createObjectURL(new Blob([u],{type:'application/pdf'}));
+    var t=document.createElement('a');t.href=url;t.download='resume.pdf';t.style.display='none';
+    document.body.appendChild(t);t.click();t.remove();setTimeout(function(){URL.revokeObjectURL(url)},4000)})});
+
+  /* ---- sticky nav: highlight the section in view ---- */
+  var links=$$('.top nav a');
   if('IntersectionObserver' in window){
     var map={};links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a});
-    var vis={};var io=new IntersectionObserver(function(es){es.forEach(function(e){vis[e.target.id]=e.isIntersecting?e.intersectionRatio:0});
+    var vis={};function mark(){
       var best=null,bv=0;Object.keys(vis).forEach(function(k){if(vis[k]>bv){bv=vis[k];best=k}});
+      if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-4)best=links.length?
+        links[links.length-1].getAttribute('href').slice(1):best;
       if(best){links.forEach(function(a){a.classList.remove('active');a.removeAttribute('aria-current')});
         if(map[best]){map[best].classList.add('active');map[best].setAttribute('aria-current','true');
-          var nav=map[best].closest('nav');if(nav){var l=map[best].offsetLeft-nav.clientWidth/2+map[best].clientWidth/2;nav.scrollLeft=l}}}},
+          var nav=map[best].closest('nav');if(nav){nav.scrollLeft=map[best].offsetLeft-nav.clientWidth/2+map[best].clientWidth/2}}}}
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){vis[e.target.id]=e.isIntersecting?e.intersectionRatio:0});mark()},
       {rootMargin:'-64px 0px -55% 0px',threshold:[0,0.01,0.1,0.25,0.5]});
-    document.querySelectorAll('main section[id]').forEach(function(s){io.observe(s)})}
+    window.addEventListener('scroll',function(){if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-4)mark()},{passive:true});
+    $$('main section[id]').forEach(function(s){io.observe(s)})}
 })();
 """
 

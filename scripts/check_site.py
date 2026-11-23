@@ -4,8 +4,8 @@
 Numbers: every element with `data-src="<repo file>:<expression>"` is recomputed
 from that file, independently of scripts/build_site.py, and compared with the
 text shown (at the precision shown). `data-fmt` says how the value is displayed:
-`int`, `pct` (a 0-1 ratio shown as a percent), `usd`, `min` (seconds shown as
-minutes), `s` or `date`.
+`int`, `pct` (a 0-1 ratio shown as a percent), `pctn` (the same without the %
+sign), `usd`, `min` (seconds shown as minutes), `s` or `date`.
 
 Expressions:
     a.b.c                         JSON value at a dotted path
@@ -16,6 +16,10 @@ Expressions:
     count_pages([<rec filter>;]<page filter>)   pages[] entries across browse.jsonl records
     count_values(<path>=<value>)  values of the JSON object at <path> equal to <value>
     len(<path>)                   length of the JSON list / object at <path> (list indices are numbers)
+    minus(<path>,<amount>)        JSON value minus a constant (e.g. the "89" in "80–89%")
+    max_date(<field>)             latest YYYY-MM-DD of a timestamp field over records
+    nkeys()                       keys of a JSON object, ignoring "_comment"-style keys
+    ndistinct(<field>)            distinct values of a scalar field over records
     max_per(<field>)              largest group size when records are grouped by a field
     regressions(<score file>)     apps whole-row correct here but not in the other score file
     apps_with_critical_miss()     apps in a score file with at least one critical miss
@@ -211,6 +215,15 @@ def evaluate(key: str) -> Any:
         return sum(1 for v in dig(data, path).values() if as_text(v) == want)
     if op == "len":
         return len(dig(data, arg))
+    if op == "minus":
+        path, amount = arg.split(",")
+        return round(float(dig(data, path)) - float(amount), 6)
+    if op == "max_date":
+        return max(str(r[arg]) for r in data)[:10]
+    if op == "nkeys":
+        return sum(1 for k in data if not str(k).startswith("_"))
+    if op == "ndistinct":
+        return len({r[arg] for r in data})
     if op == "max_per":
         return max(Counter(r[arg] for r in data).values())
     if op == "regressions":
@@ -245,7 +258,7 @@ def compare(rec: dict) -> str | None:
         return f"no number in {text!r}"
     shown = float(found.group(0).replace(",", ""))
     dp = len(found.group(0).split(".")[1]) if "." in found.group(0) else 0
-    scale = {"pct": 100.0, "min": 1 / 60}.get(rec["fmt"], 1.0)
+    scale = {"pct": 100.0, "pctn": 100.0, "min": 1 / 60}.get(rec["fmt"], 1.0)
     expected = float(value) * scale
     if abs(expected - shown) > 0.5 * 10 ** -dp + 1e-9:
         return f"shown {text!r}, data {expected:.4g}"
