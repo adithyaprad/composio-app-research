@@ -889,7 +889,8 @@ def section_findings(src: dict, m: dict) -> str:
         has_tk = composio_status(r) == "exists"
         flag_html = (f'<span class="flag" title="{esc("; ".join(reasons))}">check<span class="sr-only">: '
                      f'{esc(", ".join(reasons))}</span></span>' if flagged else '<span class="muted">—</span>')
-        blocker = "—" if r["blocker"] == "none" else BLOCKER.get(r["blocker"], r["blocker"])
+        if r["blocker"] != "none":  # blocker shares the verdict cell; it is "none" exactly when buildable now
+            verdict_html += f'<span class="sub blk">blocker: {esc(BLOCKER.get(r["blocker"], r["blocker"]).lower())}</span>'
         body.append(
             f'<tr class="row" id="app-{esc(slug)}" data-slug="{esc(slug)}">'
             f'<th scope="row" class="c-app" data-label="App"><button type="button" class="exp" aria-expanded="false" '
@@ -902,12 +903,11 @@ def section_findings(src: dict, m: dict) -> str:
             f'<td data-label="API">{api_html}</td>'
             f'<td data-label="MCP">{mcp_html}</td>'
             f'<td class="c-verdict" data-label="Verdict">{verdict_html}</td>'
-            f'<td class="c-blk{" c-none" if r["blocker"] == "none" else ""}" data-label="Blocker">{esc(blocker)}</td>'
             f'<td data-label="Composio">{"covered" if has_tk else chip("not yet", "hl")}</td>'
             f'<td class="c-hum{"" if flagged else " c-none"}" data-label="Human">{flag_html}</td>'
             f'<td data-label="Conf."><span class="conf conf-{esc(r["confidence"])}">{esc(r["confidence"])}</span></td>'
             f'</tr>'
-            f'<tr class="detail" id="d-{esc(slug)}" data-slug="{esc(slug)}"><td colspan="12">{_detail(src, m, r)}</td></tr>')
+            f'<tr class="detail" id="d-{esc(slug)}" data-slug="{esc(slug)}"><td colspan="11">{_detail(src, m, r)}</td></tr>')
         table_data.append({
             "slug": slug, "name": r["name"], "category": r["category"], "one_liner": r["one_liner"],
             "primary_auth": r["primary_auth"], "auth_methods": r["auth_methods"], "access": r["access"],
@@ -952,7 +952,7 @@ def section_findings(src: dict, m: dict) -> str:
       <thead><tr>
         <th scope="col" class="c-app">App</th><th scope="col">Category</th><th scope="col">What it does</th>
         <th scope="col">Auth</th><th scope="col">Access</th><th scope="col" title="API types; ~breadth is a rough estimate">API</th>
-        <th scope="col">MCP</th><th scope="col">Verdict</th><th scope="col">Blocker</th><th scope="col">Composio</th>
+        <th scope="col">MCP</th><th scope="col">Verdict · blocker</th><th scope="col">Composio</th>
         <th scope="col" title="Flagged for a human check">Human</th><th scope="col">Conf.</th>
       </tr></thead>
       <tbody data-text>{''.join(body)}</tbody>
@@ -1055,14 +1055,13 @@ def md_inline(text: str) -> str:
     return re.sub(r"`([^`]+)`", r"<code>\1</code>", esc(text))
 
 
-def readme_unlocks(src: dict) -> str:
-    """The first three sentences of README's "What Composio unlocks" paragraph (which tools, the error, the retry)."""
-    found = re.search(r"^\*\*What Composio unlocks:\*\*\s*(.+)$", src["readme"], flags=re.M)
-    ensure(found is not None, "README has a 'What Composio unlocks' paragraph")
-    sentences = re.split(r"(?<=[.])\s+(?=[A-Z])", found.group(1).strip())
-    ensure(len(sentences) >= 3 and "No active connection" in " ".join(sentences[:3]),
-           "README's Composio paragraph reports the 'No active connection' failure")
-    return md_inline(" ".join(sentences[:3]))
+def readme_instant_tools(src: dict) -> str:
+    """The tools README's "What Composio unlocks" paragraph says were run through a Composio session."""
+    found = re.search(r"^\*\*What Composio unlocks:\*\*\s*(.+?) run through a Composio session(.*)$",
+                      src["readme"], flags=re.M)
+    ensure(found is not None, "README says which tools ran through a Composio session")
+    ensure("No active connection found" in found.group(2), "README reports the 'No active connection' failure")
+    return esc(found.group(1).strip())
 
 
 def section_composio(src: dict, m: dict) -> str:
@@ -1074,11 +1073,11 @@ def section_composio(src: dict, m: dict) -> str:
   <p class="section-lead">Honestly: the catalog lookup and the agent skill did real work; tool execution through Composio was wired in but never connected for this project.</p>
   <div class="use-grid">
     <div class="use"><p class="use-st">{chip("used", "ok")}</p><h3>Catalog coverage check</h3>
-      <p>The toolkit catalog was snapshotted ({n(src['toolkits_total'], f'{P_TOOLKITS}:total')} toolkits, <code>data/composio_toolkits.json</code>) and matched to the apps in <code>data/composio_coverage.csv</code>: <strong>{n(covered, f'{P_COVERAGE}:count(status=exists)')} of {n(len(cov), f'{P_COVERAGE}:count()')}</strong> already have a toolkit. A lookup, never LLM output.</p></div>
+      <p>A snapshot of the toolkit catalog ({n(src['toolkits_total'], f'{P_TOOLKITS}:total')} toolkits) was matched to the apps: <strong>{n(covered, f'{P_COVERAGE}:count(status=exists)')} of {n(len(cov), f'{P_COVERAGE}:count()')}</strong> already have a toolkit. This field is a lookup, never LLM output.</p></div>
     <div class="use"><p class="use-st">{chip("used", "ok")}</p><h3>Composio agent skill</h3>
-      <p>The Composio skill (<code>.agents/skills/composio/</code>) was used while building the research agent.</p></div>
+      <p>The Composio agent skill, kept in the repo under .agents/skills/composio, was used while building the research agent.</p></div>
     <div class="use"><p class="use-st">{chip("not connected", "bad")}</p><h3>Instant tool execution</h3>
-      <p>{readme_unlocks(src)} So search and fetch call the Exa API directly, with free tools as fallback; the Composio path stays as an opt-in.</p></div>
+      <p>{readme_instant_tools(src)} were wired to run through a Composio session. Every call came back "No active connection found", so research uses the Exa API directly, with free search and fetch as fallback.</p></div>
     <div class="use"><p class="use-st">{chip("not connected", "bad")}</p><h3>Browser Use toolkit</h3>
       <p>A read-only probe found no active connection, so pass 3 uses the open-source Browser Use library and Browser Use Cloud directly.</p></div>
   </div>
@@ -1983,6 +1982,8 @@ details.v>summary{font-size:1.02rem;padding:14px 18px}
  .findings tr.row>.c-cat::before{display:none}
  .findings tr.row>.c-one,.findings tr.row>.c-none{display:none}
  .findings .sub{display:inline;margin-left:4px}
+ .findings .c-verdict{text-align:right}
+ .findings .c-verdict .blk{display:block;max-width:none;margin:3px 0 0}
  .findings tr.detail{display:block;margin-top:-10px}
  .js .findings tr.detail{display:none}
  .js .findings tr.detail.open{display:block}

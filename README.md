@@ -155,7 +155,7 @@ The 80% gold score is measured on the set that informed some of the checker rule
 
 The checker only catches patterns it was written for, which is why a rule such as `official_graphql_omitted` can exist and still never fire. A browser pass helps when the deciding fact renders on one of the target URLs, even behind JavaScript or a block page. Because it is page-reading only (no clicking or navigating agent), it cannot follow links, open tabs, or expand accordions to reach a fact on a page it did not directly open. It also will not fix every judgement call, such as which login method is the main one, or a product whose official MCP page never uses the word MCP in the URL or title. Composio Instant is still in the code, but it returns `400 No active connection found`, so search and fetch use the direct Exa API with free tools as fallback. `EXA_BUDGET_USD=0` disables Exa rather than lifting the cap; use a high positive number to leave it uncapped in practice.
 
-Patterns, the deployed case-study page, and a final README polish still come after pass 3 is scored.
+The patterns analysis is in `data/patterns/`, and the case-study page is described in [Case study page](#case-study-page).
 
 ## How we improved accuracy
 
